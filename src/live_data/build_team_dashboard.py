@@ -21,7 +21,7 @@ METRICS=['goals','shots','sot','corners','cards','fouls']
 def write_json(path, payload):
     path.parent.mkdir(parents=True,exist_ok=True)
     tmp=path.with_suffix('.json.tmp')
-    tmp.write_text(json.dumps(payload,ensure_ascii=False,indent=2,allow_nan=False),encoding='utf-8')
+    tmp.write_text(json.dumps(payload,ensure_ascii=False,indent=2,allow_nan=False),encoding='utf-8',newline='\n')
     tmp.replace(path)
 
 
