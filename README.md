@@ -1,4 +1,4 @@
-# FOOOOOTDATA · MarcadorIA
+# FOOTDATA
 
 Motor de probabilidades de fútbol para cinco ligas europeas y Champions.
 Actualizado el 18 de octubre de 2026. Ejecutar con Python 3.11 o posterior.
@@ -106,4 +106,4 @@ Las combinadas utilizan 3 o 4 selecciones admisibles de partidos distintos sin r
 
 No se garantiza un porcentaje futuro de aciertos. Falta un historial prospectivo suficiente y validación independiente de córners, tarjetas, BTTS y goleadores. Lesiones, minutos, árbitros y alineaciones requieren fuentes propias y verificables. Las mejoras con remates, Elo u otras variables deben competir contra esta versión en una nueva validación temporal antes de publicarse.
 
-La web es una consulta local de datos reales, sin cobros ni protección premium simulada. Hosting, dominio, cuentas, video audiovisual y publicación siguen pendientes. Ningún contenido se publica automáticamente.
+La web es una consulta local de datos reales, sin cobros ni protección premium simulada. La web está publicada en https://footdataa.netlify.app y conectada a la rama main de GitHub mediante Netlify. Los cambios de la web se publican al subirlos al repositorio. Las nuevas predicciones y estadísticas requieren ejecutar el pipeline y subir los JSON generados; el hosting no ejecuta el modelo automáticamente.

@@ -18,6 +18,16 @@ python src/live_data/build_team_dashboard.py --refresh-standings
 
 Tres niveles de navegación: portada de competiciones, próximos partidos de una liga y análisis completo de un encuentro. Las rutas utilizan fragmentos (`#/liga/la-liga`, `#/partido/…`), de modo que las páginas se pueden compartir y recargar sin configuración especial del servidor.
 
+## Publicación en Netlify
+
+Web pública: https://footdataa.netlify.app
+
+Conectada al repositorio `JhonVeraE/FOOTDATA`, rama `main`. La configuración versionada en `netlify.toml` utiliza `web` como directorio base y `.` como directorio de publicación, sin comando de compilación. Así se publica la web y sus datos estáticos sin instalar las dependencias Python del modelo. Los cambios enviados a `main` se despliegan mediante la integración de GitHub con Netlify.
+
+El hosting sirve los JSON ya generados. Para cambiar predicciones o estadísticas se ejecuta el pipeline local y se suben sus resultados a GitHub; Netlify no reentrena ni consulta cuotas por sí solo. No necesita claves de API para servir la web.
+
+Referencia de configuración: https://docs.netlify.com/build/configure-builds/file-based-configuration/
+
 ## Abrir
 
 En Windows, hacer doble clic en `Abrir_Web.cmd` en la raíz del proyecto. El lanzador abre el navegador e inicia un servidor local en segundo plano si hace falta. Utiliza la ubicación actual de la carpeta, incluso si se mueve. No publica la web en Internet.
@@ -54,4 +64,4 @@ La web exige coincidencia de dataset y ejecución, calcula mercados conjuntos de
 
 La versión v3 prioriza los mercados de ganador, doble oportunidad, hándicap, ambos marcan y goles en cada nivel y selección por partido de las combinadas. Las estadísticas son complementarias. El explorador muestra primero «Resultado y goles» y después «Mercados complementarios». Cada muestra incluye su racha de aciertos consecutivos recientes. Esta selección no altera las probabilidades ni el modelo de goles validado.
 
-No se ha añadido autenticación, pago ni publicación externa. La implementación actual es una web estática local.
+La web estática está publicada en Netlify. No se ha añadido autenticación ni pagos.
