@@ -6,6 +6,8 @@ La vista Líderes destaca catorce categorías: mejor ataque y defensa, más rema
 
 Dentro de cada competición, abre **Equipos y posiciones**. Las vistas incluyen clasificación, rankings y todos los clubes, con buscador y filtros General / Local / Visitante. Desde el escudo o nombre se abre la ficha del equipo con totales o promedios de goles, remates, tiros al arco, córners, tarjetas y faltas, a favor y en contra.
 
+En las tablas, el nombre y toda la fila del equipo abren su ficha. La ficha incluye próximos partidos y resultados anteriores de esta competición y temporada, con localía, marcadores y acceso al análisis cuando está disponible. Se muestran cinco por lista y se pueden desplegar los restantes. El calendario procede de los registros guardados; los aplazados y horarios sin confirmar se identifican sin inventar resultados.
+
 Las posiciones se consultan en football-data.org y conservan su fecha de consulta y orden del proveedor. Los promedios se calculan exclusivamente con los partidos registrados de esa competición en la temporada actual, con su propia fecha de corte. Los datos ausentes se excluyen de cada denominador. Si no hay clasificación del proveedor para un contexto, se muestra una tabla calculada, identificada como tal y sin atribuirle los desempates oficiales.
 
 Para actualizar posiciones y reconstruir los agregados sin entrenar el modelo:

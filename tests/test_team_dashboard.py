@@ -7,10 +7,34 @@ import pandas as pd
 
 ROOT=Path(__file__).resolve().parents[1]
 sys.path.insert(0,str(ROOT/'src/live_data'))
-from build_team_dashboard import summarize, provider_rows, METRICS
+from build_team_dashboard import summarize, provider_rows, team_matches, METRICS
 
 
 class TeamDashboardTests(unittest.TestCase):
+    def test_match_lists_preserve_home_scores_and_deduplicate_calendar(self):
+        rows=pd.DataFrame([{'date':pd.Timestamp('2026-10-01'),'opponent':'Rival','is_home':False,'goals_for':1,'goals_against':3}])
+        calendar=pd.DataFrame([
+            {'date':pd.Timestamp('2026-10-01'),'home_team':'Rival','away_team':'Club','match_id':11,'status':'FINISHED','home_score':3,'away_score':1,'kickoff_time_utc':'19:00'},
+            {'date':pd.Timestamp('2026-10-25'),'home_team':'Club','away_team':'Rival','match_id':12,'status':'TIMED','home_score':None,'away_score':None,'kickoff_time_utc':'20:00'},
+            {'date':pd.Timestamp('2026-10-26'),'home_team':'Other','away_team':'Rival','match_id':13,'status':'TIMED','home_score':None,'away_score':None,'kickoff_time_utc':'20:00'},
+        ])
+        result=team_matches(rows,calendar,'Club')
+        self.assertEqual(len(result['played']),1)
+        self.assertEqual((result['played'][0]['home_score'],result['played'][0]['away_score']),(3,1))
+        self.assertEqual(result['played'][0]['fixture_id'],'11')
+        self.assertEqual(len(result['scheduled']),1)
+        self.assertEqual(result['scheduled'][0]['kickoff_utc'],'2026-10-25T20:00:00+00:00')
+        self.assertNotIn('home_score',result['scheduled'][0])
+
+    def test_final_scores_without_stats_and_unknown_kickoff(self):
+        calendar=pd.DataFrame([
+            {'date':pd.Timestamp('2026-10-02'),'home_team':'Club','away_team':'Rival','match_id':21,'status':'FINISHED','home_score':0,'away_score':0,'kickoff_time_utc':None},
+            {'date':pd.Timestamp('2026-10-27'),'home_team':'Rival','away_team':'Club','match_id':22,'status':'SCHEDULED','home_score':None,'away_score':None,'kickoff_time_utc':None},
+        ])
+        result=team_matches(pd.DataFrame(),calendar,'Club')
+        self.assertEqual(result['played'][0]['home_score'],0)
+        self.assertIsNone(result['scheduled'][0]['kickoff_utc'])
+
     def test_missing_metrics_do_not_become_zero(self):
         data={f'{metric}_{side}':[None,6] for metric in METRICS for side in ['for','against']}
         data['goals_for']=[2,1];data['goals_against']=[0,1]

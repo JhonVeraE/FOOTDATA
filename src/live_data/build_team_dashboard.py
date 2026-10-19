@@ -55,6 +55,36 @@ def table_rows(rows):
     return records
 
 
+def team_matches(rows, calendar, team):
+    """Recorded final scores plus the calendar; never derive results from forecasts."""
+    played = {}
+    for r in rows.itertuples():
+        home, away = (team, r.opponent) if r.is_home else (r.opponent, team)
+        home_score, away_score = (r.goals_for, r.goals_against) if r.is_home else (r.goals_against, r.goals_for)
+        day = r.date.strftime('%Y-%m-%d')
+        played[(day, home, away)] = {'date':day,'home':home,'away':away,
+            'home_score':int(home_score),'away_score':int(away_score),'status':'FINISHED'}
+    scheduled = {}
+    if not calendar.empty:
+        for r in calendar[(calendar.home_team==team)|(calendar.away_team==team)].itertuples():
+            day = r.date.strftime('%Y-%m-%d'); key = (day,r.home_team,r.away_team)
+            item = {'date':day,'home':r.home_team,'away':r.away_team,
+                    'fixture_id':str(r.match_id),'status':r.status,'kickoff_utc':None}
+            time = getattr(r,'kickoff_time_utc',None)
+            if r.status not in ('SCHEDULED','POSTPONED','SUSPENDED') and pd.notna(time) and str(time).strip():
+                stamp = pd.to_datetime(f'{day}T{time}',utc=True,errors='coerce')
+                if pd.notna(stamp): item['kickoff_utc']=stamp.isoformat()
+            if key in played:
+                played[key].update({k:v for k,v in item.items() if k not in ('status',)})
+            elif r.status=='FINISHED':
+                if pd.notna(r.home_score) and pd.notna(r.away_score):
+                    played[key]={**item,'home_score':int(r.home_score),'away_score':int(r.away_score)}
+            elif r.status in ('SCHEDULED','TIMED','POSTPONED','SUSPENDED','IN_PLAY','PAUSED'):
+                scheduled[key]=item
+    return {'played':sorted(played.values(),key=lambda r:(r['date'],r['home'],r['away']),reverse=True),
+            'scheduled':sorted(scheduled.values(),key=lambda r:(r['date'],r.get('kickoff_utc') or '',r['home']))}
+
+
 def provider_rows(payload, identity):
     groups={}
     for standing in payload.get('standings',[]):
@@ -109,6 +139,7 @@ def main(refresh=False,stats=None):
     competitions={}
     for league,code in LEAGUES.items():
         rows=stats[stats.league==league]
+        fixtures=pd.DataFrame()
         roster=set(rows.team)
         if not calendar.empty:
             fixtures=calendar[(calendar.competition==league)&(calendar.date.map(season_for)==season)]
@@ -121,11 +152,12 @@ def main(refresh=False,stats=None):
         for team in sorted(roster):
             g=rows[rows.team==team]
             teams.append({'team':team,'last_stats_date':None if g.empty else str(g.date.max().date()),
+                          'matches':team_matches(g,fixtures,team),
                           'splits':{'all':summarize(g),'home':summarize(g[g.is_home]),'away':summarize(g[~g.is_home])}})
         local_tables={'all':table_rows(rows),'home':table_rows(rows[rows.is_home]),'away':table_rows(rows[~rows.is_home])}
         competitions[league]={'teams':teams,'statistics_through':None if rows.empty else str(rows.date.max().date()),
             'statistics_matches':int(rows.match_id.nunique()),'standings':snapshot,'recorded_tables':local_tables}
-    payload={'schema_version':1,'season':season,'generated_at':datetime.now(timezone.utc).isoformat(),
+    payload={'schema_version':2,'season':season,'generated_at':datetime.now(timezone.utc).isoformat(),
              'dataset_id':dataset_id,'competitions':competitions,'refresh_report':report}
     write_json(WEB_DIR/'data/teams.json',payload)
     print(json.dumps({'season':season,'leagues':{k:len(v['teams']) for k,v in competitions.items()},'refresh':report},ensure_ascii=False))

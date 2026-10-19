@@ -39,7 +39,7 @@ function teamSelect(label,options,current,onchange){
  const wrap=E('label','team-select');wrap.append(E('span',null,label));const select=E('select');select.setAttribute('aria-label',label);
  for(const [value,title] of options){const option=E('option',null,title);option.value=value;option.selected=value===current;select.append(option);}select.addEventListener('change',()=>onchange(select.value));wrap.append(select);return wrap;
 }
-function teamIdentity(l,team){const a=link(teamHref(l,team),null,'team-identity');a.append(crest(team,'team-mini-crest'),E('span',null,name(team)));return a;}
+function teamIdentity(l,team){const a=link(teamHref(l,team),null,'team-identity');a.setAttribute('aria-label',`Ver estadísticas y partidos de ${name(team)}`);a.append(crest(team,'team-mini-crest'),E('span',null,name(team)),E('span','team-open-arrow','↗'));return a;}
 function standingsFor(data){
  const official=data.standings?.tables?.[teamUI.scope];
  return {rows:official||data.recorded_tables[teamUI.scope]||[],official:Boolean(official)};
@@ -55,14 +55,40 @@ function teamTable(headers,rows,label){
  const wrap=E('div','team-table-scroll');wrap.tabIndex=0;wrap.setAttribute('role','region');wrap.setAttribute('aria-label',`${label}. Desplázate horizontalmente para ver todas las columnas.`);
  const table=E('table','teams-table');table.setAttribute('aria-label',label);const head=E('thead');const tr=E('tr');
  for(const header of headers){const th=E('th');th.scope='col';if(typeof header==='string')th.textContent=header;else th.append(header);tr.append(th);}head.append(tr);table.append(head);const body=E('tbody');
- for(const cells of rows){const tr=E('tr');for(const cell of cells){const td=E('td');if(cell instanceof Node)td.append(cell);else td.textContent=cell;tr.append(td);}body.append(tr);}table.append(body);wrap.append(table);return {wrap,table};
+ for(const cells of rows){const tr=E('tr');for(const cell of cells){const td=E('td');if(cell instanceof Node)td.append(cell);else td.textContent=cell;tr.append(td);}const teamLink=tr.querySelector('.team-identity');if(teamLink){tr.classList.add('team-linked-row');tr.addEventListener('click',event=>{if(!event.target.closest('a,button,input,select')&&!window.getSelection()?.toString())teamLink.click();});}body.append(tr);}table.append(body);wrap.append(table);return {wrap,table};
+}
+function teamFixtureLists(team,now=new Date()){
+ const played=team.matches?.played||[];const scheduled=team.matches?.scheduled||[];
+ const upcoming=scheduled.filter(m=>['POSTPONED','SUSPENDED','IN_PLAY','PAUSED'].includes(m.status)||(m.kickoff_utc?new Date(m.kickoff_utc)>now:m.date>=dayKey(now)));
+ return {played,upcoming:[...upcoming].sort((a,b)=>{
+  const pending=m=>['POSTPONED','SUSPENDED'].includes(m.status)?'9999':m.kickoff_utc||m.date;
+  return pending(a).localeCompare(pending(b));
+ })};
+}
+function teamFixtureRow(l,team,m,finished){
+ const row=E('li','team-fixture-row');const when=E('div','team-fixture-date');const postponed=['POSTPONED','SUSPENDED'].includes(m.status);
+ const stamp=m.kickoff_utc?new Date(m.kickoff_utc):null;
+ const date=E('time',null,postponed?'Fecha por confirmar':stamp?dateFmt.format(stamp):teamDate(m.date));if(!postponed)date.dateTime=m.kickoff_utc||m.date;when.append(date);
+ if(!finished)when.append(E('small',null,postponed?(m.status==='POSTPONED'?'Aplazado':'Suspendido'):['IN_PLAY','PAUSED'].includes(m.status)?'En juego':stamp?`${timeFmt.format(stamp)} Lima`:'Hora por confirmar'));
+ const fixture=E('div','team-fixture-teams');for(const [side,club] of [['home',m.home],['away',m.away]]){const clubNode=append(E('span',`team-fixture-club ${side}`),crest(club,'team-mini-crest'),E(club===team?'strong':'span',null,name(club)));if(side==='away')fixture.append(E('strong','team-fixture-score',finished?`${m.home_score} – ${m.away_score}`:'vs'));fixture.append(clubNode);}
+ const result=E('div','team-fixture-result');if(finished){const margin=(m.home_score-m.away_score)*(m.home===team?1:-1);result.append(E('span',`team-result ${margin>0?'won':margin<0?'lost':'draw'}`,margin>0?'Victoria':margin<0?'Derrota':'Empate'));}else{const prediction=state.payload.matches.find(p=>String(p.fixture_id)===m.fixture_id&&p.local===m.home&&p.visitante===m.away&&p.competition===l.name);if(prediction&&!postponed)result.append(link(matchHref(prediction),'Ver análisis ↗','team-fixture-analysis'));}
+ result.append(E('small',null,m.home===team?'Local':'Visitante'));row.append(when,fixture,result);return row;
+}
+function teamFixtures(l,team,t){
+ const section=E('section','team-fixtures');section.append(sectionIntro('Los partidos del equipo',`${l.display||l.name} · Temporada ${state.teamData.season}`));
+ const lists=teamFixtureLists(t);const grid=E('div','team-fixture-columns');
+ for(const [key,title,finished] of [['upcoming','Próximos partidos',false],['played','Partidos anteriores',true]]){const items=lists[key];const box=E('section','team-fixture-panel');box.append(E('h3',null,title),E('p','team-fixture-caption',finished?'Resultados finales · del más reciente al más antiguo':'Calendario disponible · horarios de Lima'));
+  if(!items.length)box.append(E('p','team-fixture-empty',finished?'Todavía no hay resultados registrados para este equipo.':'No hay próximos partidos en el calendario disponible.'));
+  else{const list=E('ul','team-fixture-list');list.append(...items.slice(0,5).map(m=>teamFixtureRow(l,team,m,finished)));box.append(list);if(items.length>5){const more=E('details','team-fixture-more');more.append(E('summary',null,`Ver ${items.length-5} partidos más`));const rest=E('ul','team-fixture-list');rest.append(...items.slice(5).map(m=>teamFixtureRow(l,team,m,finished)));more.append(rest);box.append(more);}}
+  grid.append(box);
+ }section.append(grid,E('p','team-legend','Se muestran los resultados y el calendario registrados de esta competición. Las fechas pendientes pueden cambiar.'));return section;
 }
 function teamsStandings(l,data,items){
  const {rows,official}=standingsFor(data);const positions=new Map(rows.map(r=>[r.team,r]));
  const visible=items.map(t=>positions.get(t.team)).filter(Boolean).sort((a,b)=>a.position-b.position);
  const section=panel(`Clasificación · ${teamScopeLabel()}`,official?'Posiciones publicadas por football-data.org.':'Tabla de los registros disponibles. Orden: puntos, diferencia de gol y goles a favor; no aplica desempates oficiales.');
  const table=teamTable(['Pos.','Equipo','PJ','G','E','P','GF','GC','DG','Pts'],visible.map(r=>[r.position,teamIdentity(l,r.team),r.played,r.won,r.draw,r.lost,r.goals_for,r.goals_against,`${r.goal_difference>0?'+':''}${r.goal_difference}`,r.points]),`Clasificación de ${l.display||l.name}, ${teamScopeLabel()}`);
- section.append(table.wrap,E('p','team-legend','PJ: partidos · G: ganados · E: empatados · P: perdidos · GF / GC: goles a favor / en contra · DG: diferencia · Pts: puntos.'));
+ section.append(E('p','team-table-hint','Toca un equipo o su fila para ver sus estadísticas y partidos.'),table.wrap,E('p','team-legend','PJ: partidos · G: ganados · E: empatados · P: perdidos · GF / GC: goles a favor / en contra · DG: diferencia · Pts: puntos.'));
  if(!visible.length)section.append(E('p','explanation','No hay posiciones disponibles para esta búsqueda.'));
  return section;
 }
@@ -136,7 +162,7 @@ function teamProfilePage(l,team){
   content.replaceChildren(teamTable(['Estadística','General','Local','Visitante'],rows,`Estadísticas de ${name(team)} por localía`).wrap);
  };
  const toggle=teamControls([['average','Por partido'],['total','Totales']],unit,v=>{unit=v;toggle.querySelectorAll('button').forEach((b,i)=>{const active=['average','total'][i]===unit;b.classList.toggle('active',active);b.setAttribute('aria-pressed',String(active));});draw();},'Promedios o totales del equipo');section.append(toggle,content,E('p','team-legend','Solo partidos registrados de esta competición y temporada. Los datos ausentes se excluyen de cada promedio. Tarjetas = amarillas + rojas.'));
- page.append(section,link(teamLeagueHref(l),'← Volver a todos los equipos','plain-button'));main.replaceChildren(page);draw();
+ page.insertBefore(teamFixtures(l,team,t),cards);page.append(section,link(teamLeagueHref(l),'← Volver a todos los equipos','plain-button'));main.replaceChildren(page);draw();
 }
 function handleTeamsRoute(parts,l){
  if(parts[2]==='equipos'||parts[2]==='lideres'){if(teamUI.route!==l.slug){Object.assign(teamUI,{scope:'all',view:'standings',query:'',sort:'shots',direction:'desc',route:l.slug});}if(parts[2]==='lideres')teamUI.view='leaders';teamsPage(l);return true;}
