@@ -16,7 +16,8 @@ LABELS={'shots':'Total shots','sot':'Shots on target','fouls':'Fouls','corners':
 ALIASES={'Real Racing Club':'Santander','Celta Vigo':'Celta','Real Sociedad':'Sociedad','Brighton & Hove Albion':'Brighton',
          'Leeds United':'Leeds','Nottingham Forest':"Nott'm Forest",'AS Monaco':'Monaco',
          "Borussia M'gladbach":"M'gladbach",'TSG Hoffenheim':'Hoffenheim',
-         'Stade Rennais':'Rennes','Olympique Lyonnais':'Lyon'}
+         'Stade Rennais':'Rennes','Olympique Lyonnais':'Lyon','Coventry City':'Coventry',
+         'Rayo Vallecano':'Vallecano','Tottenham Hotspur':'Tottenham'}
 
 def save(path,data):
     path.parent.mkdir(parents=True,exist_ok=True)
@@ -53,6 +54,20 @@ def main(capture_dir,date):
             if pd.Timestamp(m['generated_at'])<pd.Timestamp(m['kickoff_utc']) and pd.Timestamp(m['generated_at'])>pd.Timestamp(original[fid]['generated_at']):original[fid]=m
     targets={t['fixture_id']:t for t in json.loads((capture/'targets.json').read_text(encoding='utf-8'))}
     api={str(m['id']):m for m in json.loads((capture/'football_data_matches_range.json').read_text(encoding='utf-8'))['matches']}
+    # Keep raw provider responses intact. Explicit, evidenced corrections are
+    # applied only to this review and remain attached to its audit trail.
+    resolutions={}
+    resolution_path=capture/'result_resolutions.json'
+    if resolution_path.exists():
+        for correction in json.loads(resolution_path.read_text(encoding='utf-8')):
+            fid=str(correction['fixture_id']);result=api[fid]
+            old=[result['score']['fullTime']['home'],result['score']['fullTime']['away']]
+            if old!=correction['provider_score'] or not correction.get('source_url') or not correction.get('reason'):
+                raise ValueError('Invalid evidenced score correction')
+            resolved=correction['verified_score']
+            if len(resolved)!=2 or any(type(x) is not int or x<0 for x in resolved):raise ValueError('Invalid verified score')
+            result['score']['fullTime']={'home':resolved[0],'away':resolved[1]}
+            resolutions[fid]=correction
     visible=json.loads((capture/'sofascore_visible.json').read_text(encoding='utf-8'))
     if len({v['fixture_id'] for v in visible})!=len(visible):raise ValueError('Duplicate captured fixture')
     if set(original)!=set(targets) or set(targets)!={v['fixture_id'] for v in visible}:raise ValueError('Incomplete matchday coverage')
@@ -79,6 +94,7 @@ def main(capture_dir,date):
         source={'match_id':mid,'fixture_id':fid,'league':m['competition'],'date':date,'round':m['jornada'],
                 'home':teams[0],'away':teams[1],'yellow_home':yellow[0],'yellow_away':yellow[1],
                 'red_home':red[0],'red_away':red[1],'url':t['url']+',tab:statistics'}
+        if fid in resolutions:source['result_resolution']=resolutions[fid]
         sources.append(source);actuals[fid]={'metrics':metrics,'source':source}
         p=[m['p_home']/100,m['p_draw']/100,m['p_away']/100];o=outcome(*goals);pred=max(range(3),key=lambda i:p[i])
         score=m['marcador_top1'][0];actual_score=f'{goals[0]}-{goals[1]}'
@@ -143,12 +159,15 @@ def main(capture_dir,date):
              'mean_absolute_errors':{key:float(np.mean([next(x for x in m['statistics'] if x['metric']==key)['absolute_error_total'] for m in comparisons])) for key in METRICS}}
     payload={'date':date,'reviewed_at':datetime.now(timezone.utc).isoformat(),'summary':summary,'matches':comparisons,
              'rule':'Latest available archived forecast generated strictly before kickoff; 1X2 argmax, BTTS and goal-line direction use 50%; full-match final statistics only.',
+             'result_resolutions':list(resolutions.values()),
              'original_predictions_sha256':original_hash,'added_rows':len(combined)-len(pd.read_csv(backup/csv_path.name)),
              'added_rows_this_run':len(fresh),'dataset_rows':len(combined),'dataset_matches':int(combined.match_id.nunique())}
     save(archive/'review.json',payload);save(WEB_DIR/'data'/f'review_{date}.json',payload);save(capture/'review.json',payload)
     for name in ['sofascore_visible.json','targets.json','football_data_matches_range.json','predictions_before_results.json']:
         dest=archive/name
         if not dest.exists():shutil.copy2(capture/name,dest)
+    for name in ['result_resolutions.json','fijas_before_results.json']:
+        if (capture/name).exists() and not (archive/name).exists():shutil.copy2(capture/name,archive/name)
     if hashlib.sha256((WEB_DIR/'data/predictions.json').read_bytes()).hexdigest()!=original_hash:raise ValueError('Original predictions were modified')
     print(json.dumps({'added_rows':payload['added_rows'],'added_rows_this_run':len(fresh),'dataset_matches':payload['dataset_matches'],'summary':summary},ensure_ascii=False,indent=2))
     return payload

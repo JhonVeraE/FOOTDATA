@@ -1,0 +1,15 @@
+[
+  {
+    "fixture_id": "558578",
+    "provider_score": [
+      1,
+      3
+    ],
+    "verified_score": [
+      0,
+      3
+    ],
+    "source_url": "https://www.sofascore.com/football/match/torino-parma/PdbsWdb#id:16285042,tab:statistics",
+    "reason": "Sofascore final header and timeline show 0-3; corroborated by user. Parma goal at 82 minutes was cancelled. Original football-data response retained unchanged."
+  }
+]

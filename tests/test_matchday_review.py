@@ -30,8 +30,9 @@ class MatchdayReviewTests(unittest.TestCase):
             self.assertEqual(m['actual_goals'],[api['score']['fullTime']['home'],api['score']['fullTime']['away']])
             self.assertLess(pd.Timestamp(m['generated_at']),pd.Timestamp(m['kickoff_utc']))
         scored=json.loads((ROOT/'data/artifacts/prospective_results.json').read_text(encoding='utf-8'))
-        self.assertEqual(scored['scored_matches'],19)
-        self.assertAlmostEqual(scored['accuracy'],13/19)
+        previous=[r for r in scored['predictions'] if r['date']=='2026-10-18']
+        self.assertEqual(len(previous),19)
+        self.assertEqual(sum(r['hit'] for r in previous),13)
         self.assertEqual(hashlib.sha256((p/'original_public_predictions.json').read_bytes()).hexdigest(),review['original_predictions_sha256'])
 
     def test_import_is_unique_reciprocal_and_attested(self):
@@ -39,7 +40,7 @@ class MatchdayReviewTests(unittest.TestCase):
         current=rows[rows.date=='2026-10-18']
         self.assertEqual(len(current),38)
         self.assertFalse(current.duplicated(['match_id','team']).any())
-        self.assertEqual(len(rows),682)
+        self.assertEqual(len(rows[rows.date<='2026-10-18']),682)
         source=json.loads((ROOT/'data/live/match_stats_actualseason.sources.json').read_text(encoding='utf-8'))
         for mid,g in current.groupby('match_id'):
             self.assertEqual(len(g),2)

@@ -1,0 +1,50 @@
+[
+  {
+    "fixture_id": "564717",
+    "league": "La Liga",
+    "home": "Getafe",
+    "away": "Vallecano",
+    "sofa_goals": [
+      1,
+      1
+    ],
+    "url": "https://www.sofascore.com/football/match/getafe-rayo-vallecano/tgbsjhb#id:16421072",
+    "event_id": "16421072"
+  },
+  {
+    "fixture_id": "558576",
+    "league": "Serie A",
+    "home": "Monza",
+    "away": "Cagliari",
+    "sofa_goals": [
+      4,
+      0
+    ],
+    "url": "https://www.sofascore.com/football/match/monza-cagliari/uebsEeb#id:16285045",
+    "event_id": "16285045"
+  },
+  {
+    "fixture_id": "558578",
+    "league": "Serie A",
+    "home": "Parma",
+    "away": "Torino",
+    "sofa_goals": [
+      0,
+      3
+    ],
+    "url": "https://www.sofascore.com/football/match/torino-parma/PdbsWdb#id:16285042",
+    "event_id": "16285042"
+  },
+  {
+    "fixture_id": "560606",
+    "league": "Premier League",
+    "home": "Tottenham",
+    "away": "Coventry",
+    "sofa_goals": [
+      3,
+      1
+    ],
+    "url": "https://www.sofascore.com/football/match/tottenham-hotspur-coventry-city/lsI#id:16363890",
+    "event_id": "16363890"
+  }
+]

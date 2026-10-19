@@ -1,0 +1,708 @@
+{
+  "date": "2026-10-19",
+  "reviewed_at": "2026-10-19T23:38:07.556992+00:00",
+  "summary": {
+    "matches": 4,
+    "hits_1x2": 2,
+    "hits_exact": 0,
+    "hits_btts": 2,
+    "mean_log_loss": 0.9859374008508169,
+    "mean_brier": 0.5892203516392256,
+    "goals_over_25_hits": 2,
+    "mean_absolute_errors": {
+      "goals": 0.9650918505535011,
+      "shots": 6.95667305660992,
+      "sot": 2.8785621373970187,
+      "fouls": 4.448122857564359,
+      "corners": 2.6743474463847376,
+      "cards": 1.7417154521199754
+    }
+  },
+  "matches": [
+    {
+      "fixture_id": "558576",
+      "date": "2026-10-19",
+      "league": "Serie A",
+      "home": "Monza",
+      "away": "Cagliari",
+      "generated_at": "2026-10-19T03:57:09.092793+00:00",
+      "kickoff_utc": "2026-10-19T16:30:00+00:00",
+      "probabilities": [
+        0.30539244268484095,
+        0.2731943194685681,
+        0.4214132378465909
+      ],
+      "predicted_outcome": 2,
+      "actual_goals": [
+        4,
+        0
+      ],
+      "actual_outcome": 0,
+      "hit_1x2": false,
+      "predicted_score": "1-1",
+      "actual_score": "4-0",
+      "predicted_score_probability": 0.1297,
+      "hit_exact": false,
+      "btts_probability": 0.5264389522329986,
+      "predicted_btts": true,
+      "actual_btts": false,
+      "hit_btts": false,
+      "brier": 0.7347039119015735,
+      "log_loss": 1.1861576321329876,
+      "goal_lines": [
+        {
+          "line": 0.5,
+          "probability_over": 0.9195854501664881,
+          "prediction_over": true,
+          "actual_over": true,
+          "hit": true
+        },
+        {
+          "line": 1.5,
+          "probability_over": 0.7342929294729588,
+          "prediction_over": true,
+          "actual_over": true,
+          "hit": true
+        },
+        {
+          "line": 2.5,
+          "probability_over": 0.47739712671558565,
+          "prediction_over": false,
+          "actual_over": true,
+          "hit": false
+        },
+        {
+          "line": 3.5,
+          "probability_over": 0.2603930458568151,
+          "prediction_over": false,
+          "actual_over": true,
+          "hit": false
+        }
+      ],
+      "statistics": [
+        {
+          "metric": "goals",
+          "forecast": [
+            1.1656638636901853,
+            1.4177439930244278
+          ],
+          "actual": [
+            4,
+            0
+          ],
+          "predicted_total": 2.5834078567146133,
+          "actual_total": 4,
+          "absolute_error_total": 1.4165921432853867,
+          "interval_90": null,
+          "inside_interval": null
+        },
+        {
+          "metric": "shots",
+          "forecast": [
+            12.824814265607273,
+            11.780918662781982
+          ],
+          "actual": [
+            14,
+            16
+          ],
+          "predicted_total": 24.605732928389255,
+          "actual_total": 30,
+          "absolute_error_total": 5.394267071610745,
+          "interval_90": null,
+          "inside_interval": null
+        },
+        {
+          "metric": "sot",
+          "forecast": [
+            3.697721428843543,
+            4.1089720555415425
+          ],
+          "actual": [
+            6,
+            5
+          ],
+          "predicted_total": 7.806693484385086,
+          "actual_total": 11,
+          "absolute_error_total": 3.193306515614914,
+          "interval_90": null,
+          "inside_interval": null
+        },
+        {
+          "metric": "fouls",
+          "forecast": [
+            12.672352126260993,
+            13.802852230081113
+          ],
+          "actual": [
+            10,
+            14
+          ],
+          "predicted_total": 26.475204356342104,
+          "actual_total": 24,
+          "absolute_error_total": 2.475204356342104,
+          "interval_90": null,
+          "inside_interval": null
+        },
+        {
+          "metric": "corners",
+          "forecast": [
+            4.838241356581734,
+            3.8420716439717424
+          ],
+          "actual": [
+            2,
+            7
+          ],
+          "predicted_total": 8.680313000553475,
+          "actual_total": 9,
+          "absolute_error_total": 0.31968699944652457,
+          "interval_90": [
+            4,
+            14
+          ],
+          "inside_interval": true
+        },
+        {
+          "metric": "cards",
+          "forecast": [
+            1.8074123264137911,
+            1.9465199332778995
+          ],
+          "actual": [
+            1,
+            2
+          ],
+          "predicted_total": 3.7539322596916906,
+          "actual_total": 3,
+          "absolute_error_total": 0.7539322596916906,
+          "interval_90": [
+            1,
+            7
+          ],
+          "inside_interval": true
+        }
+      ],
+      "source_url": "https://www.sofascore.com/football/match/monza-cagliari/uebsEeb#id:16285045,tab:statistics"
+    },
+    {
+      "fixture_id": "558578",
+      "date": "2026-10-19",
+      "league": "Serie A",
+      "home": "Parma",
+      "away": "Torino",
+      "generated_at": "2026-10-19T03:57:09.659781+00:00",
+      "kickoff_utc": "2026-10-19T18:45:00+00:00",
+      "probabilities": [
+        0.3253079697418029,
+        0.3112633097289069,
+        0.36342872052929015
+      ],
+      "predicted_outcome": 2,
+      "actual_goals": [
+        0,
+        3
+      ],
+      "actual_outcome": 2,
+      "hit_1x2": true,
+      "predicted_score": "1-1",
+      "actual_score": "0-3",
+      "predicted_score_probability": 0.1402,
+      "hit_exact": false,
+      "btts_probability": 0.42466265531205705,
+      "predicted_btts": false,
+      "actual_btts": false,
+      "hit_btts": true,
+      "brier": 0.6079331170079039,
+      "log_loss": 1.0121720933161102,
+      "goal_lines": [
+        {
+          "line": 0.5,
+          "probability_over": 0.8707816023355079,
+          "prediction_over": true,
+          "actual_over": true,
+          "hit": true
+        },
+        {
+          "line": 1.5,
+          "probability_over": 0.6226080623411482,
+          "prediction_over": true,
+          "actual_over": true,
+          "hit": true
+        },
+        {
+          "line": 2.5,
+          "probability_over": 0.34715223570525056,
+          "prediction_over": false,
+          "actual_over": true,
+          "hit": false
+        },
+        {
+          "line": 3.5,
+          "probability_over": 0.15911204685201125,
+          "prediction_over": false,
+          "actual_over": false,
+          "hit": true
+        }
+      ],
+      "statistics": [
+        {
+          "metric": "goals",
+          "forecast": [
+            1.0063408162416212,
+            1.0817505189542653
+          ],
+          "actual": [
+            0,
+            3
+          ],
+          "predicted_total": 2.0880913351958865,
+          "actual_total": 3,
+          "absolute_error_total": 0.9119086648041135,
+          "interval_90": null,
+          "inside_interval": null
+        },
+        {
+          "metric": "shots",
+          "forecast": [
+            11.938085096108612,
+            12.01898529933741
+          ],
+          "actual": [
+            25,
+            9
+          ],
+          "predicted_total": 23.957070395446024,
+          "actual_total": 34,
+          "absolute_error_total": 10.042929604553976,
+          "interval_90": null,
+          "inside_interval": null
+        },
+        {
+          "metric": "sot",
+          "forecast": [
+            3.418550450185719,
+            3.910626131824517
+          ],
+          "actual": [
+            8,
+            3
+          ],
+          "predicted_total": 7.329176582010236,
+          "actual_total": 11,
+          "absolute_error_total": 3.670823417989764,
+          "interval_90": null,
+          "inside_interval": null
+        },
+        {
+          "metric": "fouls",
+          "forecast": [
+            11.264070947339183,
+            14.108677753883462
+          ],
+          "actual": [
+            7,
+            16
+          ],
+          "predicted_total": 25.372748701222648,
+          "actual_total": 23,
+          "absolute_error_total": 2.3727487012226476,
+          "interval_90": null,
+          "inside_interval": null
+        },
+        {
+          "metric": "corners",
+          "forecast": [
+            4.24167175978427,
+            3.8897974410677656
+          ],
+          "actual": [
+            6,
+            2
+          ],
+          "predicted_total": 8.131469200852036,
+          "actual_total": 8,
+          "absolute_error_total": 0.1314692008520364,
+          "interval_90": [
+            3,
+            14
+          ],
+          "inside_interval": true
+        },
+        {
+          "metric": "cards",
+          "forecast": [
+            1.5850423952649846,
+            2.055116861102177
+          ],
+          "actual": [
+            3,
+            2
+          ],
+          "predicted_total": 3.640159256367162,
+          "actual_total": 5,
+          "absolute_error_total": 1.3598407436328381,
+          "interval_90": [
+            1,
+            7
+          ],
+          "inside_interval": true
+        }
+      ],
+      "source_url": "https://www.sofascore.com/football/match/torino-parma/PdbsWdb#id:16285042,tab:statistics"
+    },
+    {
+      "fixture_id": "560606",
+      "date": "2026-10-19",
+      "league": "Premier League",
+      "home": "Tottenham",
+      "away": "Coventry",
+      "generated_at": "2026-10-19T03:56:57.002703+00:00",
+      "kickoff_utc": "2026-10-19T19:00:00+00:00",
+      "probabilities": [
+        0.4977495778435401,
+        0.2529144462455382,
+        0.24933597591092155
+      ],
+      "predicted_outcome": 0,
+      "actual_goals": [
+        3,
+        1
+      ],
+      "actual_outcome": 0,
+      "hit_1x2": true,
+      "predicted_score": "1-1",
+      "actual_score": "3-1",
+      "predicted_score_probability": 0.11939999999999999,
+      "hit_exact": false,
+      "btts_probability": 0.5489466195846209,
+      "predicted_btts": true,
+      "actual_btts": true,
+      "hit_btts": true,
+      "brier": 0.37838963255948105,
+      "log_loss": 0.6976581841676935,
+      "goal_lines": [
+        {
+          "line": 0.5,
+          "probability_over": 0.9335848187725337,
+          "prediction_over": true,
+          "actual_over": true,
+          "hit": true
+        },
+        {
+          "line": 1.5,
+          "probability_over": 0.7703724018033493,
+          "prediction_over": true,
+          "actual_over": true,
+          "hit": true
+        },
+        {
+          "line": 2.5,
+          "probability_over": 0.5262779432336611,
+          "prediction_over": true,
+          "actual_over": true,
+          "hit": true
+        },
+        {
+          "line": 3.5,
+          "probability_over": 0.3040914690634736,
+          "prediction_over": false,
+          "actual_over": true,
+          "hit": false
+        }
+      ],
+      "statistics": [
+        {
+          "metric": "goals",
+          "forecast": [
+            1.672596353766419,
+            1.1095429572372066
+          ],
+          "actual": [
+            3,
+            1
+          ],
+          "predicted_total": 2.7821393110036254,
+          "actual_total": 4,
+          "absolute_error_total": 1.2178606889963746,
+          "interval_90": null,
+          "inside_interval": null
+        },
+        {
+          "metric": "shots",
+          "forecast": [
+            16.304008532607703,
+            10.960732553659447
+          ],
+          "actual": [
+            16,
+            12
+          ],
+          "predicted_total": 27.26474108626715,
+          "actual_total": 28,
+          "absolute_error_total": 0.7352589137328494,
+          "interval_90": null,
+          "inside_interval": null
+        },
+        {
+          "metric": "sot",
+          "forecast": [
+            4.71972720520509,
+            3.6797881515441064
+          ],
+          "actual": [
+            5,
+            1
+          ],
+          "predicted_total": 8.399515356749196,
+          "actual_total": 6,
+          "absolute_error_total": 2.3995153567491965,
+          "interval_90": null,
+          "inside_interval": null
+        },
+        {
+          "metric": "fouls",
+          "forecast": [
+            11.74022768241732,
+            11.491689513616265
+          ],
+          "actual": [
+            15,
+            14
+          ],
+          "predicted_total": 23.231917196033585,
+          "actual_total": 29,
+          "absolute_error_total": 5.768082803966415,
+          "interval_90": null,
+          "inside_interval": null
+        },
+        {
+          "metric": "corners",
+          "forecast": [
+            6.5532171491629825,
+            4.59619334902746
+          ],
+          "actual": [
+            4,
+            4
+          ],
+          "predicted_total": 11.149410498190441,
+          "actual_total": 8,
+          "absolute_error_total": 3.1494104981904414,
+          "interval_90": [
+            6,
+            17
+          ],
+          "inside_interval": true
+        },
+        {
+          "metric": "cards",
+          "forecast": [
+            2.021335775704814,
+            2.0456679236546593
+          ],
+          "actual": [
+            1,
+            3
+          ],
+          "predicted_total": 4.067003699359473,
+          "actual_total": 4,
+          "absolute_error_total": 0.06700369935947315,
+          "interval_90": [
+            1,
+            8
+          ],
+          "inside_interval": true
+        }
+      ],
+      "source_url": "https://www.sofascore.com/football/match/tottenham-hotspur-coventry-city/lsI#id:16363890,tab:statistics"
+    },
+    {
+      "fixture_id": "564717",
+      "date": "2026-10-19",
+      "league": "La Liga",
+      "home": "Getafe",
+      "away": "Vallecano",
+      "generated_at": "2026-10-19T03:56:50.219875+00:00",
+      "kickoff_utc": "2026-10-19T19:00:00+00:00",
+      "probabilities": [
+        0.36654166070534666,
+        0.35072189420036864,
+        0.2827364450942848
+      ],
+      "predicted_outcome": 0,
+      "actual_goals": [
+        1,
+        1
+      ],
+      "actual_outcome": 1,
+      "hit_1x2": false,
+      "predicted_score": "0-0",
+      "actual_score": "1-1",
+      "predicted_score_probability": 0.19039999999999999,
+      "hit_exact": false,
+      "btts_probability": 0.3270591245337117,
+      "predicted_btts": false,
+      "actual_btts": true,
+      "hit_btts": false,
+      "brier": 0.6358547450879442,
+      "log_loss": 1.0477616937864762,
+      "goal_lines": [
+        {
+          "line": 0.5,
+          "probability_over": 0.8096144689483343,
+          "prediction_over": true,
+          "actual_over": true,
+          "hit": true
+        },
+        {
+          "line": 1.5,
+          "probability_over": 0.5075176229459069,
+          "prediction_over": true,
+          "actual_over": true,
+          "hit": true
+        },
+        {
+          "line": 2.5,
+          "probability_over": 0.23908419548090631,
+          "prediction_over": false,
+          "actual_over": false,
+          "hit": true
+        },
+        {
+          "line": 3.5,
+          "probability_over": 0.09110557808709233,
+          "prediction_over": false,
+          "actual_over": false,
+          "hit": true
+        }
+      ],
+      "statistics": [
+        {
+          "metric": "goals",
+          "forecast": [
+            0.9190261300764048,
+            0.7669679647954657
+          ],
+          "actual": [
+            1,
+            1
+          ],
+          "predicted_total": 1.6859940948718704,
+          "actual_total": 2,
+          "absolute_error_total": 0.31400590512812965,
+          "interval_90": null,
+          "inside_interval": null
+        },
+        {
+          "metric": "shots",
+          "forecast": [
+            10.922280242219601,
+            10.42348312123829
+          ],
+          "actual": [
+            12,
+            21
+          ],
+          "predicted_total": 21.34576336345789,
+          "actual_total": 33,
+          "absolute_error_total": 11.654236636542109,
+          "interval_90": null,
+          "inside_interval": null
+        },
+        {
+          "metric": "sot",
+          "forecast": [
+            3.3798542874971496,
+            3.3695424532686498
+          ],
+          "actual": [
+            4,
+            5
+          ],
+          "predicted_total": 6.7493967407658,
+          "actual_total": 9,
+          "absolute_error_total": 2.2506032592342002,
+          "interval_90": null,
+          "inside_interval": null
+        },
+        {
+          "metric": "fouls",
+          "forecast": [
+            13.011173214271686,
+            15.16528235445458
+          ],
+          "actual": [
+            12,
+            9
+          ],
+          "predicted_total": 28.17645556872627,
+          "actual_total": 21,
+          "absolute_error_total": 7.1764555687262686,
+          "interval_90": null,
+          "inside_interval": null
+        },
+        {
+          "metric": "corners",
+          "forecast": [
+            4.587746965506549,
+            4.315429947443504
+          ],
+          "actual": [
+            8,
+            8
+          ],
+          "predicted_total": 8.903176912950052,
+          "actual_total": 16,
+          "absolute_error_total": 7.096823087049948,
+          "interval_90": [
+            4,
+            14
+          ],
+          "inside_interval": false
+        },
+        {
+          "metric": "cards",
+          "forecast": [
+            2.4616821724198745,
+            2.752232721784226
+          ],
+          "actual": [
+            7,
+            3
+          ],
+          "predicted_total": 5.2139148942041,
+          "actual_total": 10,
+          "absolute_error_total": 4.7860851057959,
+          "interval_90": [
+            1,
+            10
+          ],
+          "inside_interval": true
+        }
+      ],
+      "source_url": "https://www.sofascore.com/football/match/getafe-rayo-vallecano/tgbsjhb#id:16421072,tab:statistics"
+    }
+  ],
+  "rule": "Latest available archived forecast generated strictly before kickoff; 1X2 argmax, BTTS and goal-line direction use 50%; full-match final statistics only.",
+  "result_resolutions": [
+    {
+      "fixture_id": "558578",
+      "provider_score": [
+        1,
+        3
+      ],
+      "verified_score": [
+        0,
+        3
+      ],
+      "source_url": "https://www.sofascore.com/football/match/torino-parma/PdbsWdb#id:16285042,tab:statistics",
+      "reason": "Sofascore final header and timeline show 0-3; corroborated by user. Parma goal at 82 minutes was cancelled. Original football-data response retained unchanged."
+    }
+  ],
+  "original_predictions_sha256": "977f3d8441cd1c4799ad08c83f40dfe1cacaa5110e7e649dc42fe27fb0d31364",
+  "added_rows": 8,
+  "added_rows_this_run": 0,
+  "dataset_rows": 690,
+  "dataset_matches": 345
+}
