@@ -28,6 +28,8 @@ def summary(rows):
 
 def render_html(result):
     e=lambda s:html.escape(str(s));names={'won':'ACIERTO','lost':'FALLO','unverified':'SIN VERIFICAR'}
+    metric_names={'goals':'goles','shots':'remates','sot':'tiros a puerta','fouls':'faltas','corners':'córners','cards':'tarjetas'}
+    def actual(x):return e(f'{x.get("actual_home","—")} – {x.get("actual_away","—")} ({metric_names.get(x.get("actual_metric"),"sin dato")})')
     def badge(status):return f'<b class="{e(status)}">{names.get(status,e(status))}</b>'
     def table(headers,rows):return '<div class="scroll"><table><thead><tr>'+''.join('<th>'+e(x)+'</th>' for x in headers)+'</tr></thead><tbody>'+''.join('<tr>'+''.join('<td>'+str(c)+'</td>' for c in row)+'</tr>' for row in rows)+'</tbody></table></div>'
     s=result['tier_summary'];u=result['unique_summary']
@@ -37,10 +39,10 @@ def render_html(result):
         body+=f'<h3>{parlay["size"]} selecciones · {badge(parlay["status"]) if parlay["status"]!="unavailable" else "No se publicó: partidos insuficientes"}</h3>'
         if parlay['legs']:body+=table(['Partido','Selección publicada','Resultado'],[(e(x['match']),e(x['label']),badge(x['status'])) for x in parlay['legs']])
     body+='<p>El resultado de la combinada mide cumplimiento deportivo. No se calcula beneficio: no hay importe apostado ni cuota combinada de cierre registrada.</p><h2>Las 12 fijas principales</h2>'
-    body+=table(['Partido','Nivel','Selección','Probabilidad previa','Resultado real (local–visita)','Balance'],[(e(x['match']),e(x['tier']),e(x['label']),f'{x["probability"]*100:.1f}%',e(f'{x.get("actual_home","—")} – {x.get("actual_away","—")} ({x.get("actual_metric","—")})'),badge(x['status'])) for x in result['tiers']])
+    body+=table(['Partido','Nivel','Selección','Probabilidad previa','Resultado real (local–visita)','Balance'],[(e(x['match']),e(x['tier']),e(x['label']),f'{x["probability"]*100:.1f}%',actual(x),badge(x['status'])) for x in result['tiers']])
     body+='<h2>Balance por riesgo</h2>'+table(['Nivel','Acertadas','Falladas','Porcentaje'],[(e(k),v['won'],v['lost'],f'{v["hit_rate"]*100:.1f}%' if v['hit_rate'] is not None else '—') for k,v in result['by_tier'].items()])
     body+='<h2>Todos los mercados publicados, sin contar duplicados</h2><p>Una selección repetida en la ficha, una fija y la combinada cuenta una sola vez aquí.</p>'
-    body+=table(['Partido','Mercado','Selección','Probabilidad previa','Resultado real (local–visita)','Balance'],[(e(x['match']),e(x['market']),e(x['label']),f'{x["probability"]*100:.1f}%',e(f'{x.get("actual_home","—")} – {x.get("actual_away","—")} ({x.get("actual_metric","—")})'),badge(x['status'])) for x in result['unique_selections']])
+    body+=table(['Partido','Mercado','Selección','Probabilidad previa','Resultado real (local–visita)','Balance'],[(e(x['match']),e(x['market']),e(x['label']),f'{x["probability"]*100:.1f}%',actual(x),badge(x['status'])) for x in result['unique_selections']])
     body+='<h2>Estadísticas incorporadas a la base de datos</h2>'
     body+=table(['Partido','Marcador','Remates','A puerta','Faltas','Córners','Tarjetas*'],[(f'<a href="{e(m["source_url"])}">{e(m["home"]+" – "+m["away"])}</a>',*[e(' – '.join(map(str,m['metrics'][k]))) for k in ['goals','shots','sot','fouls','corners','cards']]) for m in result['matches']])
     body+='<p>* Tarjetas en la base = amarillas + rojas, según el criterio existente; no equivale al sistema de liquidación de tarjetas de Betano.</p><h2>Qué funcionó y qué falló</h2>'
