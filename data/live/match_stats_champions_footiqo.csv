@@ -1,0 +1,101 @@
+match_id,date,league,team,opponent,goals_for,goals_against,shots_for,shots_against,sot_for,sot_against,corners_for,corners_against,cards_for,cards_against,possession_for,possession_against
+65717,2025-03-05 18:45:00,UEFA Champions League,Feyenoord,Inter,0,2,8,13,5,7,7.0,4.0,3.0,2.0,42,58
+65714,2025-03-05 21:00:00,UEFA Champions League,Bayern Munich,Bayer Leverkusen,3,0,17,3,6,1,5.0,1.0,2.0,4.0,65,35
+65716,2025-03-05 21:00:00,UEFA Champions League,PSG,Liverpool,0,1,27,2,10,1,14.0,2.0,1.0,1.0,71,29
+65715,2025-03-05 21:00:00,UEFA Champions League,Benfica,Barcelona,0,1,26,10,8,5,13.0,4.0,4.0,1.0,52,48
+65713,2025-03-11 18:45:00,UEFA Champions League,Barcelona,Benfica,3,1,20,8,6,2,1.0,6.0,0.0,1.0,65,35
+65712,2025-03-11 21:00:00,UEFA Champions League,Liverpool,PSG,0,1,18,10,3,4,10.0,3.0,1.0,1.0,46,54
+65711,2025-03-11 21:00:00,UEFA Champions League,Inter,Feyenoord,2,1,12,14,5,4,6.0,3.0,2.0,1.0,56,44
+65710,2025-03-11 21:00:00,UEFA Champions League,Bayer Leverkusen,Bayern Munich,0,2,17,12,3,5,14.0,6.0,5.0,3.0,53,47
+65709,2025-03-12 18:45:00,UEFA Champions League,Lille,Dortmund,1,2,11,17,4,8,4.0,3.0,2.0,3.0,50,50
+65708,2025-03-12 21:00:00,UEFA Champions League,Atl. Madrid,Real Madrid,1,0,13,6,7,2,9.0,6.0,2.0,2.0,38,62
+65707,2025-03-12 21:00:00,UEFA Champions League,Aston Villa,Club Brugge KV,3,0,14,4,10,1,3.0,1.0,0.0,1.0,53,47
+65706,2025-03-12 21:00:00,UEFA Champions League,Arsenal,PSV,2,2,9,13,7,5,5.0,4.0,3.0,1.0,51,49
+65704,2025-04-08 21:00:00,UEFA Champions League,Arsenal,Real Madrid,3,0,12,9,11,3,5.0,3.0,1.0,2.0,54,47
+65705,2025-04-08 21:00:00,UEFA Champions League,Bayern Munich,Inter,1,2,20,10,7,4,5.0,1.0,1.0,4.0,58,42
+65702,2025-04-09 21:00:00,UEFA Champions League,Barcelona,Dortmund,4,0,18,13,10,3,4.0,6.0,0.0,2.0,60,40
+65703,2025-04-09 21:00:00,UEFA Champions League,PSG,Aston Villa,3,1,29,7,10,2,9.0,1.0,0.0,1.0,76,25
+65701,2025-04-15 21:00:00,UEFA Champions League,Dortmund,Barcelona,3,1,18,7,11,2,8.0,4.0,1.0,1.0,47,54
+65700,2025-04-15 21:00:00,UEFA Champions League,Aston Villa,PSG,3,2,17,14,9,7,5.0,5.0,1.0,0.0,34,66
+65699,2025-04-16 21:00:00,UEFA Champions League,Real Madrid,Arsenal,1,2,18,12,3,6,10.0,4.0,3.0,2.0,66,34
+65698,2025-04-16 21:00:00,UEFA Champions League,Inter,Bayern Munich,2,2,15,20,6,6,5.0,6.0,2.0,2.0,38,63
+65697,2025-04-29 21:00:00,UEFA Champions League,Arsenal,PSG,0,1,10,11,5,4,3.0,1.0,2.0,2.0,48,53
+65696,2025-04-30 21:00:00,UEFA Champions League,Barcelona,Inter,3,3,19,7,9,3,7.0,2.0,1.0,1.0,72,28
+65695,2025-05-06 21:00:00,UEFA Champions League,Inter,Barcelona,3,3,11,16,5,8,4.0,4.0,3.0,3.0,29,71
+65694,2025-05-07 21:00:00,UEFA Champions League,PSG,Arsenal,2,1,11,19,6,4,2.0,6.0,2.0,4.0,46,54
+65693,2025-05-31 21:00:00,UEFA Champions League,PSG,Inter,5,0,23,8,8,2,4.0,6.0,2.0,4.0,59,41
+104041,2026-03-11 18:45:00,UEFA Champions League,Bayer Leverkusen,Arsenal,1,1,10,6,3,2,,,,,45,55
+104039,2026-03-11 21:00:00,UEFA Champions League,PSG,Chelsea,5,2,9,9,8,4,,,,,58,42
+104038,2026-03-11 21:00:00,UEFA Champions League,Bodo/Glimt,Sporting CP,3,0,10,9,5,2,,,,,49,51
+104040,2026-03-11 21:00:00,UEFA Champions League,Real Madrid,Manchester City,3,0,12,8,7,4,,,,,40,60
+111412,2026-03-17 18:45:00,UEFA Champions League,Sporting CP,Bodo/Glimt,3,0,34,6,12,2,,,,,66,34
+111415,2026-03-17 21:00:00,UEFA Champions League,Manchester City,Real Madrid,1,2,22,14,8,7,,,,,47,53
+111414,2026-03-17 21:00:00,UEFA Champions League,Chelsea,PSG,0,3,18,8,9,5,,,,,45,55
+111413,2026-03-17 21:00:00,UEFA Champions League,Arsenal,Bayer Leverkusen,2,0,21,9,12,2,,,,,42,58
+112849,2026-03-18 18:45:00,UEFA Champions League,Barcelona,Newcastle,7,2,18,8,13,5,,,,,63,37
+112852,2026-03-18 21:00:00,UEFA Champions League,Tottenham,Atl. Madrid,3,2,18,18,11,6,,,,,51,49
+112851,2026-03-18 21:00:00,UEFA Champions League,Liverpool,Galatasaray,4,0,32,4,16,1,,,,,62,38
+112850,2026-03-18 21:00:00,UEFA Champions League,Bayern Munich,Atalanta,4,1,25,14,8,8,,,,,70,30
+117769,2026-04-07 21:00:00,UEFA Champions League,Real Madrid,Bayern Munich,1,2,20,20,9,8,,,,,48,52
+117770,2026-04-07 21:00:00,UEFA Champions League,Sporting CP,Arsenal,0,1,11,8,5,4,,,,,44,56
+117783,2026-04-08 21:00:00,UEFA Champions League,PSG,Liverpool,2,0,18,3,6,0,,,,,74,26
+117782,2026-04-08 21:00:00,UEFA Champions League,Barcelona,Atl. Madrid,0,2,18,5,7,3,,,,,58,42
+118108,2026-04-14 21:00:00,UEFA Champions League,Liverpool,PSG,0,2,21,12,5,6,,,,,53,47
+118107,2026-04-14 21:00:00,UEFA Champions League,Atl. Madrid,Barcelona,1,2,15,15,5,8,,,,,29,71
+118124,2026-04-15 21:00:00,UEFA Champions League,Bayern Munich,Real Madrid,4,3,21,12,9,5,,,,,68,32
+118123,2026-04-15 21:00:00,UEFA Champions League,Arsenal,Sporting CP,0,0,15,8,1,1,,,,,50,50
+118846,2026-04-28 21:00:00,UEFA Champions League,PSG,Bayern Munich,5,4,12,10,5,8,,,,,43,57
+118852,2026-04-29 21:00:00,UEFA Champions League,Atl. Madrid,Arsenal,1,1,18,11,4,2,,,,,52,48
+119184,2026-05-05 21:00:00,UEFA Champions League,Arsenal,Atl. Madrid,1,0,13,9,2,2,,,,,53,47
+119190,2026-05-06 21:00:00,UEFA Champions League,Bayern Munich,PSG,1,1,18,15,6,7,,,,,66,34
+120952,2026-05-30 18:00:00,UEFA Champions League,PSG,Arsenal,1,1,18,4,3,1,,,,,75,25
+65717,2025-03-05 18:45:00,UEFA Champions League,Inter,Feyenoord,2,0,13,8,7,5,4.0,7.0,2.0,3.0,58,42
+65714,2025-03-05 21:00:00,UEFA Champions League,Bayer Leverkusen,Bayern Munich,0,3,3,17,1,6,1.0,5.0,4.0,2.0,35,65
+65716,2025-03-05 21:00:00,UEFA Champions League,Liverpool,PSG,1,0,2,27,1,10,2.0,14.0,1.0,1.0,29,71
+65715,2025-03-05 21:00:00,UEFA Champions League,Barcelona,Benfica,1,0,10,26,5,8,4.0,13.0,1.0,4.0,48,52
+65713,2025-03-11 18:45:00,UEFA Champions League,Benfica,Barcelona,1,3,8,20,2,6,6.0,1.0,1.0,0.0,35,65
+65712,2025-03-11 21:00:00,UEFA Champions League,PSG,Liverpool,1,0,10,18,4,3,3.0,10.0,1.0,1.0,54,46
+65711,2025-03-11 21:00:00,UEFA Champions League,Feyenoord,Inter,1,2,14,12,4,5,3.0,6.0,1.0,2.0,44,56
+65710,2025-03-11 21:00:00,UEFA Champions League,Bayern Munich,Bayer Leverkusen,2,0,12,17,5,3,6.0,14.0,3.0,5.0,47,53
+65709,2025-03-12 18:45:00,UEFA Champions League,Dortmund,Lille,2,1,17,11,8,4,3.0,4.0,3.0,2.0,50,50
+65708,2025-03-12 21:00:00,UEFA Champions League,Real Madrid,Atl. Madrid,0,1,6,13,2,7,6.0,9.0,2.0,2.0,62,38
+65707,2025-03-12 21:00:00,UEFA Champions League,Club Brugge KV,Aston Villa,0,3,4,14,1,10,1.0,3.0,1.0,0.0,47,53
+65706,2025-03-12 21:00:00,UEFA Champions League,PSV,Arsenal,2,2,13,9,5,7,4.0,5.0,1.0,3.0,49,51
+65704,2025-04-08 21:00:00,UEFA Champions League,Real Madrid,Arsenal,0,3,9,12,3,11,3.0,5.0,2.0,1.0,47,54
+65705,2025-04-08 21:00:00,UEFA Champions League,Inter,Bayern Munich,2,1,10,20,4,7,1.0,5.0,4.0,1.0,42,58
+65702,2025-04-09 21:00:00,UEFA Champions League,Dortmund,Barcelona,0,4,13,18,3,10,6.0,4.0,2.0,0.0,40,60
+65703,2025-04-09 21:00:00,UEFA Champions League,Aston Villa,PSG,1,3,7,29,2,10,1.0,9.0,1.0,0.0,25,76
+65701,2025-04-15 21:00:00,UEFA Champions League,Barcelona,Dortmund,1,3,7,18,2,11,4.0,8.0,1.0,1.0,54,47
+65700,2025-04-15 21:00:00,UEFA Champions League,PSG,Aston Villa,2,3,14,17,7,9,5.0,5.0,0.0,1.0,66,34
+65699,2025-04-16 21:00:00,UEFA Champions League,Arsenal,Real Madrid,2,1,12,18,6,3,4.0,10.0,2.0,3.0,34,66
+65698,2025-04-16 21:00:00,UEFA Champions League,Bayern Munich,Inter,2,2,20,15,6,6,6.0,5.0,2.0,2.0,63,38
+65697,2025-04-29 21:00:00,UEFA Champions League,PSG,Arsenal,1,0,11,10,4,5,1.0,3.0,2.0,2.0,53,48
+65696,2025-04-30 21:00:00,UEFA Champions League,Inter,Barcelona,3,3,7,19,3,9,2.0,7.0,1.0,1.0,28,72
+65695,2025-05-06 21:00:00,UEFA Champions League,Barcelona,Inter,3,3,16,11,8,5,4.0,4.0,3.0,3.0,71,29
+65694,2025-05-07 21:00:00,UEFA Champions League,Arsenal,PSG,1,2,19,11,4,6,6.0,2.0,4.0,2.0,54,46
+65693,2025-05-31 21:00:00,UEFA Champions League,Inter,PSG,0,5,8,23,2,8,6.0,4.0,4.0,2.0,41,59
+104041,2026-03-11 18:45:00,UEFA Champions League,Arsenal,Bayer Leverkusen,1,1,6,10,2,3,,,,,55,45
+104039,2026-03-11 21:00:00,UEFA Champions League,Chelsea,PSG,2,5,9,9,4,8,,,,,42,58
+104038,2026-03-11 21:00:00,UEFA Champions League,Sporting CP,Bodo/Glimt,0,3,9,10,2,5,,,,,51,49
+104040,2026-03-11 21:00:00,UEFA Champions League,Manchester City,Real Madrid,0,3,8,12,4,7,,,,,60,40
+111412,2026-03-17 18:45:00,UEFA Champions League,Bodo/Glimt,Sporting CP,0,3,6,34,2,12,,,,,34,66
+111415,2026-03-17 21:00:00,UEFA Champions League,Real Madrid,Manchester City,2,1,14,22,7,8,,,,,53,47
+111414,2026-03-17 21:00:00,UEFA Champions League,PSG,Chelsea,3,0,8,18,5,9,,,,,55,45
+111413,2026-03-17 21:00:00,UEFA Champions League,Bayer Leverkusen,Arsenal,0,2,9,21,2,12,,,,,58,42
+112849,2026-03-18 18:45:00,UEFA Champions League,Newcastle,Barcelona,2,7,8,18,5,13,,,,,37,63
+112852,2026-03-18 21:00:00,UEFA Champions League,Atl. Madrid,Tottenham,2,3,18,18,6,11,,,,,49,51
+112851,2026-03-18 21:00:00,UEFA Champions League,Galatasaray,Liverpool,0,4,4,32,1,16,,,,,38,62
+112850,2026-03-18 21:00:00,UEFA Champions League,Atalanta,Bayern Munich,1,4,14,25,8,8,,,,,30,70
+117769,2026-04-07 21:00:00,UEFA Champions League,Bayern Munich,Real Madrid,2,1,20,20,8,9,,,,,52,48
+117770,2026-04-07 21:00:00,UEFA Champions League,Arsenal,Sporting CP,1,0,8,11,4,5,,,,,56,44
+117783,2026-04-08 21:00:00,UEFA Champions League,Liverpool,PSG,0,2,3,18,0,6,,,,,26,74
+117782,2026-04-08 21:00:00,UEFA Champions League,Atl. Madrid,Barcelona,2,0,5,18,3,7,,,,,42,58
+118108,2026-04-14 21:00:00,UEFA Champions League,PSG,Liverpool,2,0,12,21,6,5,,,,,47,53
+118107,2026-04-14 21:00:00,UEFA Champions League,Barcelona,Atl. Madrid,2,1,15,15,8,5,,,,,71,29
+118124,2026-04-15 21:00:00,UEFA Champions League,Real Madrid,Bayern Munich,3,4,12,21,5,9,,,,,32,68
+118123,2026-04-15 21:00:00,UEFA Champions League,Sporting CP,Arsenal,0,0,8,15,1,1,,,,,50,50
+118846,2026-04-28 21:00:00,UEFA Champions League,Bayern Munich,PSG,4,5,10,12,8,5,,,,,57,43
+118852,2026-04-29 21:00:00,UEFA Champions League,Arsenal,Atl. Madrid,1,1,11,18,2,4,,,,,48,52
+119184,2026-05-05 21:00:00,UEFA Champions League,Atl. Madrid,Arsenal,0,1,9,13,2,2,,,,,47,53
+119190,2026-05-06 21:00:00,UEFA Champions League,PSG,Bayern Munich,1,1,15,18,7,6,,,,,34,66
+120952,2026-05-30 18:00:00,UEFA Champions League,Arsenal,PSG,1,1,4,18,1,3,,,,,25,75

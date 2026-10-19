@@ -1,0 +1,13 @@
+{
+  "predictions": 71,
+  "dataset_matches": 9285,
+  "leagues": [
+    "Bundesliga",
+    "La Liga",
+    "Ligue 1",
+    "Premier League",
+    "Serie A",
+    "UEFA Champions League"
+  ],
+  "warnings": []
+}

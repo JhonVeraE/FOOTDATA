@@ -1,0 +1,67 @@
+"""Check denominators, splits and separation of official tables from CSV stats."""
+import json
+from pathlib import Path
+import sys
+import unittest
+import pandas as pd
+
+ROOT=Path(__file__).resolve().parents[1]
+sys.path.insert(0,str(ROOT/'src/live_data'))
+from build_team_dashboard import summarize, provider_rows, METRICS
+
+
+class TeamDashboardTests(unittest.TestCase):
+    def test_missing_metrics_do_not_become_zero(self):
+        data={f'{metric}_{side}':[None,6] for metric in METRICS for side in ['for','against']}
+        data['goals_for']=[2,1];data['goals_against']=[0,1]
+        summary=summarize(pd.DataFrame(data))
+        self.assertEqual(summary['played'],2)
+        self.assertEqual(summary['points'],4)
+        self.assertEqual(summary['metrics']['shots']['for'],{'total':6,'average':6.0,'observations':1})
+        self.assertEqual(summary['metrics']['goals']['for']['average'],1.5)
+
+    def test_no_matches_have_no_average(self):
+        rows=pd.DataFrame(columns=[f'{metric}_{side}' for metric in METRICS for side in ['for','against']])
+        result=summarize(rows)
+        self.assertEqual(result['played'],0)
+        self.assertIsNone(result['metrics']['corners']['for']['average'])
+        self.assertIsNone(result['metrics']['corners']['for']['total'])
+
+    def test_provider_points_are_preserved_even_with_deductions(self):
+        row={'team':{'id':7,'name':'Different provider name'},'position':3,'playedGames':2,
+             'won':2,'draw':0,'lost':0,'points':3,'goalsFor':4,'goalsAgainst':1,'goalDifference':3}
+        tables=provider_rows({'standings':[{'type':'TOTAL','stage':'REGULAR_SEASON','table':[row]}]},{7:'Canonical club'})
+        self.assertEqual(tables['all'][0]['points'],3)
+        self.assertEqual(tables['all'][0]['position'],3)
+        self.assertEqual(tables['all'][0]['team'],'Canonical club')
+
+    def test_team_rosters_have_all_clubs_and_crests(self):
+        data=json.loads((ROOT/'web/data/teams.json').read_text(encoding='utf-8'))
+        assets=json.loads((ROOT/'web/data/assets.json').read_text(encoding='utf-8'))
+        counts={'La Liga':20,'Premier League':20,'Bundesliga':18,'Serie A':20,'Ligue 1':18,'UEFA Champions League':36}
+        for league,count in counts.items():
+            teams=data['competitions'][league]['teams']
+            self.assertEqual(len(teams),count,league)
+            self.assertEqual(len({t['team'] for t in teams}),count)
+            for t in teams:
+                self.assertIn(t['team'],assets['teams'])
+                self.assertTrue((ROOT/'web'/assets['teams'][t['team']]['image']).is_file())
+
+    def test_splits_reconcile_and_means_use_observed_denominators(self):
+        data=json.loads((ROOT/'web/data/teams.json').read_text(encoding='utf-8'))
+        for league in data['competitions'].values():
+            self.assertEqual(sum(t['splits']['all']['played'] for t in league['teams']),2*league['statistics_matches'])
+            for t in league['teams']:
+                splits=t['splits'];self.assertEqual(splits['all']['played'],splits['home']['played']+splits['away']['played'])
+                for metric in METRICS:
+                    for side in ['for','against']:
+                        observations=[]
+                        for scope in ['home','away','all']:
+                            r=splits[scope]['metrics'][metric][side]
+                            observations.append(r['observations'])
+                            if r['observations']:self.assertAlmostEqual(r['average'],r['total']/r['observations'],places=3)
+                            else:self.assertIsNone(r['average'])
+                        self.assertEqual(observations[2],sum(observations[:2]))
+
+
+if __name__=='__main__':unittest.main()

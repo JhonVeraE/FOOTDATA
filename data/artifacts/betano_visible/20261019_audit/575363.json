@@ -1,0 +1,4804 @@
+{
+  "heading": [
+    "Liverpool FC\nVillarreal CF"
+  ],
+  "markets": [
+    {
+      "qa": "market-type-id-1",
+      "selections": [
+        {
+          "aria": "Bet on 1 with odds 1.5.",
+          "text": "1\n1.50"
+        },
+        {
+          "aria": "Bet on X with odds 4.65.",
+          "text": "X\n4.65"
+        },
+        {
+          "aria": "Bet on 2 with odds 6.1.",
+          "text": "2\n6.10"
+        }
+      ],
+      "text": "Resultado del partido\n\n2 GOLES DE VENTAJA\n\n1\n1.50\nX\n4.65\n2\n6.10",
+      "title": "Resultado del partido\n\n2 GOLES DE VENTAJA"
+    },
+    {
+      "qa": "market-type-id-13",
+      "selections": [
+        {
+          "aria": "Bet on Más de 0.5 with odds 1.03.",
+          "text": "Más de\n0.5\n1.03"
+        },
+        {
+          "aria": "Bet on Menos 0.5 with odds 13.",
+          "text": "Menos\n0.5\n13.00"
+        },
+        {
+          "aria": "Bet on Más de 1.5 with odds 1.15.",
+          "text": "Más de\n1.5\n1.15"
+        },
+        {
+          "aria": "Bet on Menos 1.5 with odds 5.4.",
+          "text": "Menos\n1.5\n5.40"
+        },
+        {
+          "aria": "Bet on Más de 2.5 with odds 1.47.",
+          "text": "Más de\n2.5\n1.47"
+        },
+        {
+          "aria": "Bet on Menos 2.5 with odds 2.67.",
+          "text": "Menos\n2.5\n2.67"
+        },
+        {
+          "aria": "Bet on Más de 3.5 with odds 2.15.",
+          "text": "Más de\n3.5\n2.15"
+        },
+        {
+          "aria": "Bet on Menos 3.5 with odds 1.7.",
+          "text": "Menos\n3.5\n1.70"
+        },
+        {
+          "aria": "Bet on Más de 4.5 with odds 3.5.",
+          "text": "Más de\n4.5\n3.50"
+        },
+        {
+          "aria": "Bet on Menos 4.5 with odds 1.31.",
+          "text": "Menos\n4.5\n1.31"
+        },
+        {
+          "aria": "Bet on Más de 5.5 with odds 6.1.",
+          "text": "Más de\n5.5\n6.10"
+        },
+        {
+          "aria": "Bet on Menos 5.5 with odds 1.13.",
+          "text": "Menos\n5.5\n1.13"
+        },
+        {
+          "aria": "Bet on Más de 6.5 with odds 10.5.",
+          "text": "Más de\n6.5\n10.50"
+        },
+        {
+          "aria": "Bet on Menos 6.5 with odds 1.05.",
+          "text": "Menos\n6.5\n1.05"
+        },
+        {
+          "aria": "Bet on Más de 7.5 with odds 15.",
+          "text": "Más de\n7.5\n15.00"
+        },
+        {
+          "aria": "Bet on Menos 7.5 with odds 1.015.",
+          "text": "Menos\n7.5\n1.01"
+        }
+      ],
+      "text": "Goles totales Más/Menos\nSe marcaron más de 2,5 goles en 4 de los últimos 5 partidos de Liverpool FC en todas las competiciones.\nLiverpool FC ha promediado 2,4 goles anotados por partido en sus últimos 5 encuentros en todas las competiciones.\nMás de\n0.5\n1.03\nMenos\n0.5\n13.00\nMás de\n1.5\n1.15\nMenos\n1.5\n5.40\nMás de\n2.5\n1.47\nMenos\n2.5\n2.67\nMás de\n3.5\n2.15\nMenos\n3.5\n1.70\nMás de\n4.5\n3.50\nMenos\n4.5\n1.31\nMás de\n5.5\n6.10\nMenos\n5.5\n1.13\nMás de\n6.5\n10.50\nMenos\n6.5\n1.05\nMás de\n7.5\n15.00\nMenos\n7.5\n1.01\nMOSTRAR MENOS",
+      "title": "Goles totales Más/Menos"
+    },
+    {
+      "qa": "market-type-id-9",
+      "selections": [
+        {
+          "aria": "Bet on Liverpool FC o Empate with odds 1.15.",
+          "text": "Liverpool FC o Empate\n1.15"
+        },
+        {
+          "aria": "Bet on Liverpool FC o Villarreal CF with odds 1.19.",
+          "text": "Liverpool FC o Villarreal CF\n1.19"
+        },
+        {
+          "aria": "Bet on Villarreal CF o Empate with odds 2.7.",
+          "text": "Villarreal CF o Empate\n2.70"
+        }
+      ],
+      "text": "Doble oportunidad\nLiverpool FC o Empate\n1.15\nLiverpool FC o Villarreal CF\n1.19\nVillarreal CF o Empate\n2.70",
+      "title": "Doble oportunidad"
+    },
+    {
+      "qa": "market-type-id-15",
+      "selections": [
+        {
+          "aria": "Bet on Sí with odds 1.57.",
+          "text": "Sí\n1.57"
+        },
+        {
+          "aria": "Bet on No with odds 2.3.",
+          "text": "No\n2.30"
+        }
+      ],
+      "text": "Ambos equipos anotan\nSí\n1.57\nNo\n2.30\nLiverpool FC ha encajado un promedio de 1,6 goles por partido en sus últimos 5 encuentros en todas las competiciones.",
+      "title": "Ambos equipos anotan"
+    },
+    {
+      "qa": "market-type-id-34",
+      "selections": [
+        {
+          "aria": "Bet on Más de 3.5 with odds 1.006.",
+          "text": "Más de\n3.5\n1.006"
+        },
+        {
+          "aria": "Bet on Menos 3.5 with odds 14.",
+          "text": "Menos\n3.5\n14.00"
+        },
+        {
+          "aria": "Bet on Más de 4.5 with odds 1.02.",
+          "text": "Más de\n4.5\n1.02"
+        },
+        {
+          "aria": "Bet on Menos 4.5 with odds 11.25.",
+          "text": "Menos\n4.5\n11.25"
+        },
+        {
+          "aria": "Bet on Más de 5.5 with odds 1.06.",
+          "text": "Más de\n5.5\n1.06"
+        },
+        {
+          "aria": "Bet on Menos 5.5 with odds 8.",
+          "text": "Menos\n5.5\n8.00"
+        },
+        {
+          "aria": "Bet on Más de 6.5 with odds 1.12.",
+          "text": "Más de\n6.5\n1.12"
+        },
+        {
+          "aria": "Bet on Menos 6.5 with odds 5.6.",
+          "text": "Menos\n6.5\n5.60"
+        },
+        {
+          "aria": "Bet on Más de 7.5 with odds 1.25.",
+          "text": "Más de\n7.5\n1.25"
+        },
+        {
+          "aria": "Bet on Menos 7.5 with odds 3.75.",
+          "text": "Menos\n7.5\n3.75"
+        },
+        {
+          "aria": "Bet on Más de 8.5 with odds 1.44.",
+          "text": "Más de\n8.5\n1.44"
+        },
+        {
+          "aria": "Bet on Menos 8.5 with odds 2.65.",
+          "text": "Menos\n8.5\n2.65"
+        },
+        {
+          "aria": "Bet on Más de 9.5 with odds 1.75.",
+          "text": "Más de\n9.5\n1.75"
+        },
+        {
+          "aria": "Bet on Menos 9.5 with odds 2.",
+          "text": "Menos\n9.5\n2.00"
+        },
+        {
+          "aria": "Bet on Más de 10.5 with odds 2.25.",
+          "text": "Más de\n10.5\n2.25"
+        },
+        {
+          "aria": "Bet on Menos 10.5 with odds 1.6.",
+          "text": "Menos\n10.5\n1.60"
+        },
+        {
+          "aria": "Bet on Más de 11.5 with odds 3.",
+          "text": "Más de\n11.5\n3.00"
+        },
+        {
+          "aria": "Bet on Menos 11.5 with odds 1.36.",
+          "text": "Menos\n11.5\n1.36"
+        },
+        {
+          "aria": "Bet on Más de 12.5 with odds 4.15.",
+          "text": "Más de\n12.5\n4.15"
+        },
+        {
+          "aria": "Bet on Menos 12.5 with odds 1.21.",
+          "text": "Menos\n12.5\n1.21"
+        },
+        {
+          "aria": "Bet on Más de 13.5 with odds 5.6.",
+          "text": "Más de\n13.5\n5.60"
+        },
+        {
+          "aria": "Bet on Menos 13.5 with odds 1.12.",
+          "text": "Menos\n13.5\n1.12"
+        },
+        {
+          "aria": "Bet on Más de 14.5 with odds 7.5.",
+          "text": "Más de\n14.5\n7.50"
+        },
+        {
+          "aria": "Bet on Menos 14.5 with odds 1.07.",
+          "text": "Menos\n14.5\n1.07"
+        },
+        {
+          "aria": "Bet on Más de 15.5 with odds 9.5.",
+          "text": "Más de\n15.5\n9.50"
+        },
+        {
+          "aria": "Bet on Menos 15.5 with odds 1.04.",
+          "text": "Menos\n15.5\n1.04"
+        },
+        {
+          "aria": "Bet on Más de 16.5 with odds 11.5.",
+          "text": "Más de\n16.5\n11.50"
+        },
+        {
+          "aria": "Bet on Menos 16.5 with odds 1.015.",
+          "text": "Menos\n16.5\n1.01"
+        },
+        {
+          "aria": "Bet on Más de 17.5 with odds 13.",
+          "text": "Más de\n17.5\n13.00"
+        },
+        {
+          "aria": "Bet on Menos 17.5 with odds 1.008.",
+          "text": "Menos\n17.5\n1.008"
+        }
+      ],
+      "text": "Más/Menos Córners\nEl Villarreal CF sacó más de 5 córners en 7 de sus últimos 10 partidos en todas las competiciones.\nEl Liverpool FC promedió 6,6 córners por partido en sus últimos 5 encuentros en todas las competiciones.\nEl Liverpool FC promedia 6,3 córners por partido en sus últimos 56 encuentros en todas las competiciones.\nMás de\n3.5\n1.006\nMenos\n3.5\n14.00\nMás de\n4.5\n1.02\nMenos\n4.5\n11.25\nMás de\n5.5\n1.06\nMenos\n5.5\n8.00\nMás de\n6.5\n1.12\nMenos\n6.5\n5.60\nMás de\n7.5\n1.25\nMenos\n7.5\n3.75\nMás de\n8.5\n1.44\nMenos\n8.5\n2.65\nMás de\n9.5\n1.75\nMenos\n9.5\n2.00\nMás de\n10.5\n2.25\nMenos\n10.5\n1.60\nMás de\n11.5\n3.00\nMenos\n11.5\n1.36\nMás de\n12.5\n4.15\nMenos\n12.5\n1.21\nMás de\n13.5\n5.60\nMenos\n13.5\n1.12\nMás de\n14.5\n7.50\nMenos\n14.5\n1.07\nMás de\n15.5\n9.50\nMenos\n15.5\n1.04\nMás de\n16.5\n11.50\nMenos\n16.5\n1.01\nMás de\n17.5\n13.00\nMenos\n17.5\n1.008\nMOSTRAR MENOS",
+      "title": "Más/Menos Córners"
+    },
+    {
+      "qa": "market-type-id-65",
+      "selections": [],
+      "text": "Tarjetas Totales Más/Menos",
+      "title": "Tarjetas Totales Más/Menos"
+    },
+    {
+      "qa": "market-type-id-596",
+      "selections": [],
+      "text": "Tiros al Arco",
+      "title": "Tiros al Arco"
+    },
+    {
+      "qa": "market-type-id-76",
+      "selections": [],
+      "text": "Goleador",
+      "title": "Goleador"
+    },
+    {
+      "qa": "market-type-id-8",
+      "selections": [],
+      "text": "Resultado Primer Tiempo",
+      "title": "Resultado Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-14",
+      "selections": [],
+      "text": "Más/Menos Goles en Primer Tiempo",
+      "title": "Más/Menos Goles en Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-37",
+      "selections": [],
+      "text": "Córners en Primer Tiempo Más/Menos",
+      "title": "Córners en Primer Tiempo Más/Menos"
+    },
+    {
+      "qa": "market-type-id-66",
+      "selections": [],
+      "text": "Total de Tarjetas (Más/Menos) Primer Tiempo",
+      "title": "Total de Tarjetas (Más/Menos) Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-84",
+      "selections": [
+        {
+          "aria": "Bet on Más de 0.5 with odds 1.08.",
+          "text": "Más de\n0.5\n1.08"
+        },
+        {
+          "aria": "Bet on Menos 0.5 with odds 6.8.",
+          "text": "Menos\n0.5\n6.80"
+        },
+        {
+          "aria": "Bet on Más de 1.5 with odds 1.42.",
+          "text": "Más de\n1.5\n1.42"
+        },
+        {
+          "aria": "Bet on Menos 1.5 with odds 2.75.",
+          "text": "Menos\n1.5\n2.75"
+        },
+        {
+          "aria": "Bet on Más de 2.5 with odds 2.25.",
+          "text": "Más de\n2.5\n2.25"
+        },
+        {
+          "aria": "Bet on Menos 2.5 with odds 1.6.",
+          "text": "Menos\n2.5\n1.60"
+        },
+        {
+          "aria": "Bet on Más de 3.5 with odds 4.",
+          "text": "Más de\n3.5\n4.00"
+        },
+        {
+          "aria": "Bet on Menos 3.5 with odds 1.22.",
+          "text": "Menos\n3.5\n1.22"
+        },
+        {
+          "aria": "Bet on Más de 4.5 with odds 7.2.",
+          "text": "Más de\n4.5\n7.20"
+        },
+        {
+          "aria": "Bet on Menos 4.5 with odds 1.07.",
+          "text": "Menos\n4.5\n1.07"
+        },
+        {
+          "aria": "Bet on Más de 5.5 with odds 11.",
+          "text": "Más de\n5.5\n11.00"
+        },
+        {
+          "aria": "Bet on Menos 5.5 with odds 1.02.",
+          "text": "Menos\n5.5\n1.02"
+        },
+        {
+          "aria": "Bet on Más de 6.5 with odds 14.",
+          "text": "Más de\n6.5\n14.00"
+        },
+        {
+          "aria": "Bet on Menos 6.5 with odds 1.005.",
+          "text": "Menos\n6.5\n1.005"
+        }
+      ],
+      "text": "Liverpool FC - Goles totales Más/Menos\nMás de\n0.5\n1.08\nMenos\n0.5\n6.80\nMás de\n1.5\n1.42\nMenos\n1.5\n2.75\nMás de\n2.5\n2.25\nMenos\n2.5\n1.60\nMás de\n3.5\n4.00\nMenos\n3.5\n1.22\nMás de\n4.5\n7.20\nMenos\n4.5\n1.07\nMás de\n5.5\n11.00\nMenos\n5.5\n1.02\nMás de\n6.5\n14.00\nMenos\n6.5\n1.005\nMOSTRAR MENOS",
+      "title": "Liverpool FC - Goles totales Más/Menos"
+    },
+    {
+      "qa": "market-type-id-85",
+      "selections": [
+        {
+          "aria": "Bet on Más de 0.5 with odds 1.45.",
+          "text": "Más de\n0.5\n1.45"
+        },
+        {
+          "aria": "Bet on Menos 0.5 with odds 2.62.",
+          "text": "Menos\n0.5\n2.62"
+        },
+        {
+          "aria": "Bet on Más de 1.5 with odds 3.05.",
+          "text": "Más de\n1.5\n3.05"
+        },
+        {
+          "aria": "Bet on Menos 1.5 with odds 1.35.",
+          "text": "Menos\n1.5\n1.35"
+        },
+        {
+          "aria": "Bet on Más de 2.5 with odds 7.1.",
+          "text": "Más de\n2.5\n7.10"
+        },
+        {
+          "aria": "Bet on Menos 2.5 with odds 1.08.",
+          "text": "Menos\n2.5\n1.08"
+        },
+        {
+          "aria": "Bet on Más de 3.5 with odds 12.",
+          "text": "Más de\n3.5\n12.00"
+        },
+        {
+          "aria": "Bet on Menos 3.5 with odds 1.015.",
+          "text": "Menos\n3.5\n1.01"
+        }
+      ],
+      "text": "Villarreal CF - Goles totales Más/Menos\nEl Villarreal CF marcó 2+ goles en 3 de sus últimos 5 partidos como visitante.\nMás de\n0.5\n1.45\nMenos\n0.5\n2.62\nMás de\n1.5\n3.05\nMenos\n1.5\n1.35\nMás de\n2.5\n7.10\nMenos\n2.5\n1.08\nMás de\n3.5\n12.00\nMenos\n3.5\n1.01\nMOSTRAR MENOS",
+      "title": "Villarreal CF - Goles totales Más/Menos"
+    },
+    {
+      "qa": "market-type-id-3966",
+      "selections": [],
+      "text": "Ambos equipos anotan o Más de 2.5",
+      "title": "Ambos equipos anotan o Más de 2.5"
+    },
+    {
+      "qa": "market-type-id-10",
+      "selections": [],
+      "text": "Apuesta sin Empate",
+      "title": "Apuesta sin Empate"
+    },
+    {
+      "qa": "market-type-id-408",
+      "selections": [],
+      "text": "Hándicap Resultado del Partido",
+      "title": "Hándicap Resultado del Partido"
+    },
+    {
+      "qa": "market-type-id-16",
+      "selections": [],
+      "text": "Primer Tiempo/Tiempo Completo",
+      "title": "Primer Tiempo/Tiempo Completo"
+    },
+    {
+      "qa": "market-type-id-17",
+      "selections": [],
+      "text": "Marcador Correcto",
+      "title": "Marcador Correcto"
+    },
+    {
+      "qa": "market-type-id-11",
+      "selections": [],
+      "text": "Próximo gol (Gol 1)",
+      "title": "Próximo gol (Gol 1)"
+    },
+    {
+      "qa": "market-type-id-115",
+      "selections": [],
+      "text": "Más/Menos Goles en Primer Tiempo Liverpool FC",
+      "title": "Más/Menos Goles en Primer Tiempo Liverpool FC"
+    },
+    {
+      "qa": "market-type-id-116",
+      "selections": [],
+      "text": "Más/Menos Goles en Primer Tiempo Villarreal CF",
+      "title": "Más/Menos Goles en Primer Tiempo Villarreal CF"
+    },
+    {
+      "qa": "market-type-id-131",
+      "selections": [],
+      "text": "Más/Menos Goles en Segundo Tiempo",
+      "title": "Más/Menos Goles en Segundo Tiempo"
+    },
+    {
+      "qa": "market-type-id-2818",
+      "selections": [],
+      "text": "Total de goles",
+      "title": "Total de goles"
+    },
+    {
+      "qa": "market-type-id-104",
+      "selections": [],
+      "text": "Total de goles (extra)",
+      "title": "Total de goles (extra)"
+    },
+    {
+      "qa": "market-type-id-31",
+      "selections": [],
+      "text": "Forma de anotación de gol (Gol 1)",
+      "title": "Forma de anotación de gol (Gol 1)"
+    },
+    {
+      "qa": "market-type-id-148",
+      "selections": [],
+      "text": "Total de goles par/impar",
+      "title": "Total de goles par/impar"
+    },
+    {
+      "qa": "market-type-id-341",
+      "selections": [],
+      "text": "Primer equipo en anotar X Goles",
+      "title": "Primer equipo en anotar X Goles"
+    },
+    {
+      "qa": "market-type-id-105",
+      "selections": [],
+      "text": "Total de goles del equipo",
+      "title": "Total de goles del equipo"
+    },
+    {
+      "qa": "market-type-id-13",
+      "selections": [
+        {
+          "aria": "Bet on Más de 2.5 with odds 1.47.",
+          "text": "Más de\n2.5\n1.47"
+        },
+        {
+          "aria": "Bet on Menos 2.5 with odds 2.67.",
+          "text": "Menos\n2.5\n2.67"
+        },
+        {
+          "aria": "Bet on Más de 3.5 with odds 2.15.",
+          "text": "Más de\n3.5\n2.15"
+        },
+        {
+          "aria": "Bet on Menos 3.5 with odds 1.7.",
+          "text": "Menos\n3.5\n1.70"
+        },
+        {
+          "aria": "Bet on Más de 4.5 with odds 3.5.",
+          "text": "Más de\n4.5\n3.50"
+        },
+        {
+          "aria": "Bet on Menos 4.5 with odds 1.31.",
+          "text": "Menos\n4.5\n1.31"
+        }
+      ],
+      "text": "Goles totales Más/Menos\nMás de\n2.5\n1.47\nMenos\n2.5\n2.67\nMás de\n3.5\n2.15\nMenos\n3.5\n1.70\nMás de\n4.5\n3.50\nMenos\n4.5\n1.31\nMOSTRAR TODO",
+      "title": "Goles totales Más/Menos"
+    },
+    {
+      "qa": "market-type-id-34",
+      "selections": [
+        {
+          "aria": "Bet on Más de 8.5 with odds 1.44.",
+          "text": "Más de\n8.5\n1.44"
+        },
+        {
+          "aria": "Bet on Menos 8.5 with odds 2.65.",
+          "text": "Menos\n8.5\n2.65"
+        },
+        {
+          "aria": "Bet on Más de 9.5 with odds 1.75.",
+          "text": "Más de\n9.5\n1.75"
+        },
+        {
+          "aria": "Bet on Menos 9.5 with odds 2.",
+          "text": "Menos\n9.5\n2.00"
+        },
+        {
+          "aria": "Bet on Más de 10.5 with odds 2.25.",
+          "text": "Más de\n10.5\n2.25"
+        },
+        {
+          "aria": "Bet on Menos 10.5 with odds 1.6.",
+          "text": "Menos\n10.5\n1.60"
+        }
+      ],
+      "text": "Más/Menos Córners\nMás de\n8.5\n1.44\nMenos\n8.5\n2.65\nMás de\n9.5\n1.75\nMenos\n9.5\n2.00\nMás de\n10.5\n2.25\nMenos\n10.5\n1.60\nMOSTRAR TODO",
+      "title": "Más/Menos Córners"
+    },
+    {
+      "qa": "market-type-id-37",
+      "selections": [],
+      "text": "Córners en Primer Tiempo Más/Menos",
+      "title": "Córners en Primer Tiempo Más/Menos"
+    },
+    {
+      "qa": "market-type-id-39",
+      "selections": [
+        {
+          "aria": "Bet on Más de 2.5 with odds 1.05.",
+          "text": "Más de\n2.5\n1.05"
+        },
+        {
+          "aria": "Bet on Menos 2.5 with odds 8.75.",
+          "text": "Menos\n2.5\n8.75"
+        },
+        {
+          "aria": "Bet on Más de 3.5 with odds 1.14.",
+          "text": "Más de\n3.5\n1.14"
+        },
+        {
+          "aria": "Bet on Menos 3.5 with odds 5.2.",
+          "text": "Menos\n3.5\n5.20"
+        },
+        {
+          "aria": "Bet on Más de 4.5 with odds 1.31.",
+          "text": "Más de\n4.5\n1.31"
+        },
+        {
+          "aria": "Bet on Menos 4.5 with odds 3.25.",
+          "text": "Menos\n4.5\n3.25"
+        },
+        {
+          "aria": "Bet on Más de 5.5 with odds 1.62.",
+          "text": "Más de\n5.5\n1.62"
+        },
+        {
+          "aria": "Bet on Menos 5.5 with odds 2.2.",
+          "text": "Menos\n5.5\n2.20"
+        },
+        {
+          "aria": "Bet on Más de 6.5 with odds 2.2.",
+          "text": "Más de\n6.5\n2.20"
+        },
+        {
+          "aria": "Bet on Menos 6.5 with odds 1.62.",
+          "text": "Menos\n6.5\n1.62"
+        },
+        {
+          "aria": "Bet on Más de 7.5 with odds 3.1.",
+          "text": "Más de\n7.5\n3.10"
+        },
+        {
+          "aria": "Bet on Menos 7.5 with odds 1.34.",
+          "text": "Menos\n7.5\n1.34"
+        },
+        {
+          "aria": "Bet on Más de 8.5 with odds 4.55.",
+          "text": "Más de\n8.5\n4.55"
+        },
+        {
+          "aria": "Bet on Menos 8.5 with odds 1.18.",
+          "text": "Menos\n8.5\n1.18"
+        },
+        {
+          "aria": "Bet on Más de 9.5 with odds 6.6.",
+          "text": "Más de\n9.5\n6.60"
+        },
+        {
+          "aria": "Bet on Menos 9.5 with odds 1.09.",
+          "text": "Menos\n9.5\n1.09"
+        },
+        {
+          "aria": "Bet on Más de 10.5 with odds 9.",
+          "text": "Más de\n10.5\n9.00"
+        },
+        {
+          "aria": "Bet on Menos 10.5 with odds 1.04.",
+          "text": "Menos\n10.5\n1.04"
+        }
+      ],
+      "text": "Liverpool FC Más/Menos Córners\nEl Liverpool FC promedia 6,6 córners por partido en casa en sus últimos 29 partidos como local.\nMás de\n2.5\n1.05\nMenos\n2.5\n8.75\nMás de\n3.5\n1.14\nMenos\n3.5\n5.20\nMás de\n4.5\n1.31\nMenos\n4.5\n3.25\nMás de\n5.5\n1.62\nMenos\n5.5\n2.20\nMás de\n6.5\n2.20\nMenos\n6.5\n1.62\nMás de\n7.5\n3.10\nMenos\n7.5\n1.34\nMás de\n8.5\n4.55\nMenos\n8.5\n1.18\nMás de\n9.5\n6.60\nMenos\n9.5\n1.09\nMás de\n10.5\n9.00\nMenos\n10.5\n1.04\nMOSTRAR MENOS",
+      "title": "Liverpool FC Más/Menos Córners"
+    },
+    {
+      "qa": "market-type-id-40",
+      "selections": [
+        {
+          "aria": "Bet on Más de 0.5 with odds 1.02.",
+          "text": "Más de\n0.5\n1.02"
+        },
+        {
+          "aria": "Bet on Menos 0.5 with odds 11.5.",
+          "text": "Menos\n0.5\n11.50"
+        },
+        {
+          "aria": "Bet on Más de 1.5 with odds 1.11.",
+          "text": "Más de\n1.5\n1.11"
+        },
+        {
+          "aria": "Bet on Menos 1.5 with odds 6.",
+          "text": "Menos\n1.5\n6.00"
+        },
+        {
+          "aria": "Bet on Más de 2.5 with odds 1.33.",
+          "text": "Más de\n2.5\n1.33"
+        },
+        {
+          "aria": "Bet on Menos 2.5 with odds 3.15.",
+          "text": "Menos\n2.5\n3.15"
+        },
+        {
+          "aria": "Bet on Más de 3.5 with odds 1.8.",
+          "text": "Más de\n3.5\n1.80"
+        },
+        {
+          "aria": "Bet on Menos 3.5 with odds 1.93.",
+          "text": "Menos\n3.5\n1.93"
+        },
+        {
+          "aria": "Bet on Más de 4.5 with odds 2.72.",
+          "text": "Más de\n4.5\n2.72"
+        },
+        {
+          "aria": "Bet on Menos 4.5 with odds 1.42.",
+          "text": "Menos\n4.5\n1.42"
+        },
+        {
+          "aria": "Bet on Más de 5.5 with odds 4.35.",
+          "text": "Más de\n5.5\n4.35"
+        },
+        {
+          "aria": "Bet on Menos 5.5 with odds 1.19.",
+          "text": "Menos\n5.5\n1.19"
+        },
+        {
+          "aria": "Bet on Más de 6.5 with odds 7.",
+          "text": "Más de\n6.5\n7.00"
+        },
+        {
+          "aria": "Bet on Menos 6.5 with odds 1.08.",
+          "text": "Menos\n6.5\n1.08"
+        },
+        {
+          "aria": "Bet on Más de 7.5 with odds 10.25.",
+          "text": "Más de\n7.5\n10.25"
+        },
+        {
+          "aria": "Bet on Menos 7.5 with odds 1.03.",
+          "text": "Menos\n7.5\n1.03"
+        },
+        {
+          "aria": "Bet on Más de 8.5 with odds 12.5.",
+          "text": "Más de\n8.5\n12.50"
+        },
+        {
+          "aria": "Bet on Menos 8.5 with odds 1.01.",
+          "text": "Menos\n8.5\n1.01"
+        }
+      ],
+      "text": "Villarreal CF Más/Menos Córners\nMás de\n0.5\n1.02\nMenos\n0.5\n11.50\nMás de\n1.5\n1.11\nMenos\n1.5\n6.00\nMás de\n2.5\n1.33\nMenos\n2.5\n3.15\nMás de\n3.5\n1.80\nMenos\n3.5\n1.93\nMás de\n4.5\n2.72\nMenos\n4.5\n1.42\nMás de\n5.5\n4.35\nMenos\n5.5\n1.19\nMás de\n6.5\n7.00\nMenos\n6.5\n1.08\nMás de\n7.5\n10.25\nMenos\n7.5\n1.03\nMás de\n8.5\n12.50\nMenos\n8.5\n1.01\nMOSTRAR MENOS",
+      "title": "Villarreal CF Más/Menos Córners"
+    },
+    {
+      "qa": "market-type-id-49",
+      "selections": [],
+      "text": "Total de tarjetas rojas",
+      "title": "Total de tarjetas rojas"
+    },
+    {
+      "qa": "market-type-id-65",
+      "selections": [],
+      "text": "Tarjetas Totales Más/Menos",
+      "title": "Tarjetas Totales Más/Menos"
+    },
+    {
+      "qa": "market-type-id-4151",
+      "selections": [],
+      "text": "Ambos equipos reciben una tarjeta",
+      "title": "Ambos equipos reciben una tarjeta"
+    },
+    {
+      "qa": "market-type-id-4152",
+      "selections": [],
+      "text": "Ambos equipos reciben 2 o más tarjetas",
+      "title": "Ambos equipos reciben 2 o más tarjetas"
+    },
+    {
+      "qa": "market-type-id-343",
+      "selections": [
+        {
+          "aria": "Bet on Más de 8.5 with odds 1.44.",
+          "text": "Más de\n8.5\n1.44"
+        },
+        {
+          "aria": "Bet on Menos 8.5 with odds 2.67.",
+          "text": "Menos\n8.5\n2.67"
+        },
+        {
+          "aria": "Bet on Más de 9.5 with odds 1.75.",
+          "text": "Más de\n9.5\n1.75"
+        },
+        {
+          "aria": "Bet on Menos 9.5 with odds 2.02.",
+          "text": "Menos\n9.5\n2.02"
+        },
+        {
+          "aria": "Bet on Más de 10.5 with odds 2.2.",
+          "text": "Más de\n10.5\n2.20"
+        },
+        {
+          "aria": "Bet on Menos 10.5 with odds 1.62.",
+          "text": "Menos\n10.5\n1.62"
+        }
+      ],
+      "text": "Tiros al Arco\nMás de\n8.5\n1.44\nMenos\n8.5\n2.67\nMás de\n9.5\n1.75\nMenos\n9.5\n2.02\nMás de\n10.5\n2.20\nMenos\n10.5\n1.62",
+      "title": "Tiros al Arco"
+    },
+    {
+      "qa": "market-type-id-535",
+      "selections": [
+        {
+          "aria": "Bet on Más de 5.5 with odds 1.55.",
+          "text": "Más de\n5.5\n1.55"
+        },
+        {
+          "aria": "Bet on Menos 5.5 with odds 2.35.",
+          "text": "Menos\n5.5\n2.35"
+        },
+        {
+          "aria": "Bet on Más de 6.5 with odds 2.05.",
+          "text": "Más de\n6.5\n2.05"
+        },
+        {
+          "aria": "Bet on Menos 6.5 with odds 1.72.",
+          "text": "Menos\n6.5\n1.72"
+        },
+        {
+          "aria": "Bet on Más de 7.5 with odds 2.85.",
+          "text": "Más de\n7.5\n2.85"
+        },
+        {
+          "aria": "Bet on Menos 7.5 with odds 1.39.",
+          "text": "Menos\n7.5\n1.39"
+        }
+      ],
+      "text": "Liverpool FC Tiros al Arco\nMás de\n5.5\n1.55\nMenos\n5.5\n2.35\nMás de\n6.5\n2.05\nMenos\n6.5\n1.72\nMás de\n7.5\n2.85\nMenos\n7.5\n1.39",
+      "title": "Liverpool FC Tiros al Arco"
+    },
+    {
+      "qa": "market-type-id-449",
+      "selections": [
+        {
+          "aria": "Bet on Más de 2.5 with odds 1.37.",
+          "text": "Más de\n2.5\n1.37"
+        },
+        {
+          "aria": "Bet on Menos 2.5 with odds 2.95.",
+          "text": "Menos\n2.5\n2.95"
+        },
+        {
+          "aria": "Bet on Más de 3.5 with odds 1.9.",
+          "text": "Más de\n3.5\n1.90"
+        },
+        {
+          "aria": "Bet on Menos 3.5 with odds 1.83.",
+          "text": "Menos\n3.5\n1.83"
+        },
+        {
+          "aria": "Bet on Más de 4.5 with odds 2.95.",
+          "text": "Más de\n4.5\n2.95"
+        },
+        {
+          "aria": "Bet on Menos 4.5 with odds 1.37.",
+          "text": "Menos\n4.5\n1.37"
+        }
+      ],
+      "text": "Villarreal CF Tiros al Arco\nMás de\n2.5\n1.37\nMenos\n2.5\n2.95\nMás de\n3.5\n1.90\nMenos\n3.5\n1.83\nMás de\n4.5\n2.95\nMenos\n4.5\n1.37",
+      "title": "Villarreal CF Tiros al Arco"
+    },
+    {
+      "qa": "market-type-id-4159",
+      "selections": [
+        {
+          "aria": "Bet on Más de 28.5 with odds 1.6.",
+          "text": "Más de\n28.5\n1.60"
+        },
+        {
+          "aria": "Bet on Menos 28.5 with odds 2.27.",
+          "text": "Menos\n28.5\n2.27"
+        },
+        {
+          "aria": "Bet on Más de 29.5 with odds 1.8.",
+          "text": "Más de\n29.5\n1.80"
+        },
+        {
+          "aria": "Bet on Menos 29.5 with odds 1.95.",
+          "text": "Menos\n29.5\n1.95"
+        },
+        {
+          "aria": "Bet on Más de 30.5 with odds 2.05.",
+          "text": "Más de\n30.5\n2.05"
+        },
+        {
+          "aria": "Bet on Menos 30.5 with odds 1.72.",
+          "text": "Menos\n30.5\n1.72"
+        }
+      ],
+      "text": "Remates totales\nMás de\n28.5\n1.60\nMenos\n28.5\n2.27\nMás de\n29.5\n1.80\nMenos\n29.5\n1.95\nMás de\n30.5\n2.05\nMenos\n30.5\n1.72",
+      "title": "Remates totales"
+    },
+    {
+      "qa": "market-type-id-79",
+      "selections": [],
+      "text": "Jugador que anota +2 goles",
+      "title": "Jugador que anota +2 goles"
+    },
+    {
+      "qa": "market-type-id-80",
+      "selections": [],
+      "text": "Triplete del Jugador",
+      "title": "Triplete del Jugador"
+    },
+    {
+      "qa": "market-type-id-1000661",
+      "selections": [],
+      "text": "Jugador que anota o da una asistencia",
+      "title": "Jugador que anota o da una asistencia"
+    },
+    {
+      "qa": "market-type-id-593",
+      "selections": [],
+      "text": "Bradley Barcola Asistencias totales",
+      "title": "Bradley Barcola Asistencias totales"
+    },
+    {
+      "qa": "market-type-id-593",
+      "selections": [],
+      "text": "Lewis Koumas Asistencias totales",
+      "title": "Lewis Koumas Asistencias totales"
+    },
+    {
+      "qa": "market-type-id-593",
+      "selections": [],
+      "text": "Alexis Mac Allister Asistencias totales",
+      "title": "Alexis Mac Allister Asistencias totales"
+    },
+    {
+      "qa": "market-type-id-593",
+      "selections": [],
+      "text": "James McConnell Asistencias totales",
+      "title": "James McConnell Asistencias totales"
+    },
+    {
+      "qa": "market-type-id-593",
+      "selections": [],
+      "text": "Trey Nyoni Asistencias totales",
+      "title": "Trey Nyoni Asistencias totales"
+    },
+    {
+      "qa": "market-type-id-593",
+      "selections": [],
+      "text": "Florian Wirtz Asistencias totales",
+      "title": "Florian Wirtz Asistencias totales"
+    },
+    {
+      "qa": "market-type-id-593",
+      "selections": [],
+      "text": "Ronald Araújo Asistencias totales",
+      "title": "Ronald Araújo Asistencias totales"
+    },
+    {
+      "qa": "market-type-id-593",
+      "selections": [],
+      "text": "Luke Chambers Asistencias totales",
+      "title": "Luke Chambers Asistencias totales"
+    },
+    {
+      "qa": "market-type-id-593",
+      "selections": [],
+      "text": "Jeremie Frimpong Asistencias totales",
+      "title": "Jeremie Frimpong Asistencias totales"
+    },
+    {
+      "qa": "market-type-id-593",
+      "selections": [],
+      "text": "Joe Gomez Asistencias totales",
+      "title": "Joe Gomez Asistencias totales"
+    },
+    {
+      "qa": "market-type-id-593",
+      "selections": [],
+      "text": "Jeremy Jacquet Asistencias totales",
+      "title": "Jeremy Jacquet Asistencias totales"
+    },
+    {
+      "qa": "market-type-id-593",
+      "selections": [],
+      "text": "Milos Kerkez Asistencias totales",
+      "title": "Milos Kerkez Asistencias totales"
+    },
+    {
+      "qa": "market-type-id-593",
+      "selections": [],
+      "text": "Konstantinos Tsimikas Asistencias totales",
+      "title": "Konstantinos Tsimikas Asistencias totales"
+    },
+    {
+      "qa": "market-type-id-593",
+      "selections": [],
+      "text": "Virgil van Dijk Asistencias totales",
+      "title": "Virgil van Dijk Asistencias totales"
+    },
+    {
+      "qa": "market-type-id-593",
+      "selections": [],
+      "text": "Victor Munoz Asistencias totales",
+      "title": "Victor Munoz Asistencias totales"
+    },
+    {
+      "qa": "market-type-id-593",
+      "selections": [],
+      "text": "Jayden Danns Asistencias totales",
+      "title": "Jayden Danns Asistencias totales"
+    },
+    {
+      "qa": "market-type-id-593",
+      "selections": [],
+      "text": "Wellity Lucky Asistencias totales",
+      "title": "Wellity Lucky Asistencias totales"
+    },
+    {
+      "qa": "market-type-id-593",
+      "selections": [],
+      "text": "Rio Ngumoha Asistencias totales",
+      "title": "Rio Ngumoha Asistencias totales"
+    },
+    {
+      "qa": "market-type-id-593",
+      "selections": [],
+      "text": "Joshua Sonni-Lambie Asistencias totales",
+      "title": "Joshua Sonni-Lambie Asistencias totales"
+    },
+    {
+      "qa": "market-type-id-593",
+      "selections": [],
+      "text": "Wataru Endo Asistencias totales",
+      "title": "Wataru Endo Asistencias totales"
+    },
+    {
+      "qa": "market-type-id-593",
+      "selections": [],
+      "text": "Federico Chiesa Asistencias totales",
+      "title": "Federico Chiesa Asistencias totales"
+    },
+    {
+      "qa": "market-type-id-593",
+      "selections": [],
+      "text": "Will Wright Asistencias totales",
+      "title": "Will Wright Asistencias totales"
+    },
+    {
+      "qa": "market-type-id-593",
+      "selections": [],
+      "text": "Conor Bradley Asistencias totales",
+      "title": "Conor Bradley Asistencias totales"
+    },
+    {
+      "qa": "market-type-id-593",
+      "selections": [],
+      "text": "Talla Ndiaye Asistencias totales",
+      "title": "Talla Ndiaye Asistencias totales"
+    },
+    {
+      "qa": "market-type-id-593",
+      "selections": [],
+      "text": "Joshua Abe Asistencias totales",
+      "title": "Joshua Abe Asistencias totales"
+    },
+    {
+      "qa": "market-type-id-593",
+      "selections": [],
+      "text": "Ilias Akhomach Asistencias totales",
+      "title": "Ilias Akhomach Asistencias totales"
+    },
+    {
+      "qa": "market-type-id-593",
+      "selections": [],
+      "text": "Nizar El Jmili Asistencias totales",
+      "title": "Nizar El Jmili Asistencias totales"
+    },
+    {
+      "qa": "market-type-id-593",
+      "selections": [],
+      "text": "Georges Mikautadze Asistencias totales",
+      "title": "Georges Mikautadze Asistencias totales"
+    },
+    {
+      "qa": "market-type-id-593",
+      "selections": [],
+      "text": "Gerard Moreno Asistencias totales",
+      "title": "Gerard Moreno Asistencias totales"
+    },
+    {
+      "qa": "market-type-id-593",
+      "selections": [],
+      "text": "Tani Oluwaseyi Asistencias totales",
+      "title": "Tani Oluwaseyi Asistencias totales"
+    },
+    {
+      "qa": "market-type-id-593",
+      "selections": [],
+      "text": "Ayoze Pérez Asistencias totales",
+      "title": "Ayoze Pérez Asistencias totales"
+    },
+    {
+      "qa": "market-type-id-593",
+      "selections": [],
+      "text": "Santi Comesana Asistencias totales",
+      "title": "Santi Comesana Asistencias totales"
+    },
+    {
+      "qa": "market-type-id-593",
+      "selections": [],
+      "text": "Alassane Diatta Asistencias totales",
+      "title": "Alassane Diatta Asistencias totales"
+    },
+    {
+      "qa": "market-type-id-593",
+      "selections": [],
+      "text": "Pape Gueye Asistencias totales",
+      "title": "Pape Gueye Asistencias totales"
+    },
+    {
+      "qa": "market-type-id-593",
+      "selections": [],
+      "text": "Carlos Macia Asistencias totales",
+      "title": "Carlos Macia Asistencias totales"
+    },
+    {
+      "qa": "market-type-id-593",
+      "selections": [],
+      "text": "Nathan-Dylan Saliba Asistencias totales",
+      "title": "Nathan-Dylan Saliba Asistencias totales"
+    },
+    {
+      "qa": "market-type-id-593",
+      "selections": [],
+      "text": "Renato Veiga Asistencias totales",
+      "title": "Renato Veiga Asistencias totales"
+    },
+    {
+      "qa": "market-type-id-593",
+      "selections": [],
+      "text": "Logan Costa Asistencias totales",
+      "title": "Logan Costa Asistencias totales"
+    },
+    {
+      "qa": "market-type-id-593",
+      "selections": [],
+      "text": "Juan Foyth Asistencias totales",
+      "title": "Juan Foyth Asistencias totales"
+    },
+    {
+      "qa": "market-type-id-593",
+      "selections": [],
+      "text": "Alex Freeman Asistencias totales",
+      "title": "Alex Freeman Asistencias totales"
+    },
+    {
+      "qa": "market-type-id-593",
+      "selections": [],
+      "text": "Carlos Romero Asistencias totales",
+      "title": "Carlos Romero Asistencias totales"
+    },
+    {
+      "qa": "market-type-id-593",
+      "selections": [],
+      "text": "Santiago Mourino Asistencias totales",
+      "title": "Santiago Mourino Asistencias totales"
+    },
+    {
+      "qa": "market-type-id-593",
+      "selections": [],
+      "text": "Pau Navarro Asistencias totales",
+      "title": "Pau Navarro Asistencias totales"
+    },
+    {
+      "qa": "market-type-id-593",
+      "selections": [],
+      "text": "Sergi Cardona Asistencias totales",
+      "title": "Sergi Cardona Asistencias totales"
+    },
+    {
+      "qa": "market-type-id-593",
+      "selections": [],
+      "text": "Alberto Moleiro Asistencias totales",
+      "title": "Alberto Moleiro Asistencias totales"
+    },
+    {
+      "qa": "market-type-id-593",
+      "selections": [],
+      "text": "Joselillo Gaitan Asistencias totales",
+      "title": "Joselillo Gaitan Asistencias totales"
+    },
+    {
+      "qa": "market-type-id-593",
+      "selections": [],
+      "text": "Nicolas Pepe Asistencias totales",
+      "title": "Nicolas Pepe Asistencias totales"
+    },
+    {
+      "qa": "market-type-id-593",
+      "selections": [],
+      "text": "Cheikh Thiam Asistencias totales",
+      "title": "Cheikh Thiam Asistencias totales"
+    },
+    {
+      "qa": "market-type-id-1000115",
+      "selections": [],
+      "text": "Alisson Atajadas de Arquero",
+      "title": "Alisson Atajadas de Arquero"
+    },
+    {
+      "qa": "market-type-id-1000115",
+      "selections": [],
+      "text": "Luiz Junior Atajadas de Arquero",
+      "title": "Luiz Junior Atajadas de Arquero"
+    },
+    {
+      "qa": "market-type-id-62",
+      "selections": [],
+      "text": "Recibir una tarjeta",
+      "title": "Recibir una tarjeta"
+    },
+    {
+      "qa": "market-type-id-346",
+      "selections": [],
+      "text": "Recibe una tarjeta roja",
+      "title": "Recibe una tarjeta roja"
+    },
+    {
+      "qa": "market-type-id-595",
+      "selections": [],
+      "text": "Bradley Barcola Remates totales",
+      "title": "Bradley Barcola Remates totales"
+    },
+    {
+      "qa": "market-type-id-595",
+      "selections": [],
+      "text": "Lewis Koumas Remates totales",
+      "title": "Lewis Koumas Remates totales"
+    },
+    {
+      "qa": "market-type-id-595",
+      "selections": [],
+      "text": "Alexis Mac Allister Remates totales",
+      "title": "Alexis Mac Allister Remates totales"
+    },
+    {
+      "qa": "market-type-id-595",
+      "selections": [],
+      "text": "James McConnell Remates totales",
+      "title": "James McConnell Remates totales"
+    },
+    {
+      "qa": "market-type-id-595",
+      "selections": [],
+      "text": "Trey Nyoni Remates totales",
+      "title": "Trey Nyoni Remates totales"
+    },
+    {
+      "qa": "market-type-id-595",
+      "selections": [],
+      "text": "Florian Wirtz Remates totales",
+      "title": "Florian Wirtz Remates totales"
+    },
+    {
+      "qa": "market-type-id-595",
+      "selections": [],
+      "text": "Ronald Araújo Remates totales",
+      "title": "Ronald Araújo Remates totales"
+    },
+    {
+      "qa": "market-type-id-595",
+      "selections": [],
+      "text": "Luke Chambers Remates totales",
+      "title": "Luke Chambers Remates totales"
+    },
+    {
+      "qa": "market-type-id-595",
+      "selections": [],
+      "text": "Jeremie Frimpong Remates totales",
+      "title": "Jeremie Frimpong Remates totales"
+    },
+    {
+      "qa": "market-type-id-595",
+      "selections": [],
+      "text": "Joe Gomez Remates totales",
+      "title": "Joe Gomez Remates totales"
+    },
+    {
+      "qa": "market-type-id-595",
+      "selections": [],
+      "text": "Jeremy Jacquet Remates totales",
+      "title": "Jeremy Jacquet Remates totales"
+    },
+    {
+      "qa": "market-type-id-595",
+      "selections": [],
+      "text": "Milos Kerkez Remates totales",
+      "title": "Milos Kerkez Remates totales"
+    },
+    {
+      "qa": "market-type-id-595",
+      "selections": [],
+      "text": "Konstantinos Tsimikas Remates totales",
+      "title": "Konstantinos Tsimikas Remates totales"
+    },
+    {
+      "qa": "market-type-id-595",
+      "selections": [],
+      "text": "Virgil van Dijk Remates totales",
+      "title": "Virgil van Dijk Remates totales"
+    },
+    {
+      "qa": "market-type-id-595",
+      "selections": [],
+      "text": "Victor Munoz Remates totales",
+      "title": "Victor Munoz Remates totales"
+    },
+    {
+      "qa": "market-type-id-595",
+      "selections": [],
+      "text": "Jayden Danns Remates totales",
+      "title": "Jayden Danns Remates totales"
+    },
+    {
+      "qa": "market-type-id-595",
+      "selections": [],
+      "text": "Wellity Lucky Remates totales",
+      "title": "Wellity Lucky Remates totales"
+    },
+    {
+      "qa": "market-type-id-595",
+      "selections": [],
+      "text": "Rio Ngumoha Remates totales",
+      "title": "Rio Ngumoha Remates totales"
+    },
+    {
+      "qa": "market-type-id-595",
+      "selections": [],
+      "text": "Joshua Sonni-Lambie Remates totales",
+      "title": "Joshua Sonni-Lambie Remates totales"
+    },
+    {
+      "qa": "market-type-id-595",
+      "selections": [],
+      "text": "Wataru Endo Remates totales",
+      "title": "Wataru Endo Remates totales"
+    },
+    {
+      "qa": "market-type-id-595",
+      "selections": [],
+      "text": "Federico Chiesa Remates totales",
+      "title": "Federico Chiesa Remates totales"
+    },
+    {
+      "qa": "market-type-id-595",
+      "selections": [],
+      "text": "Will Wright Remates totales",
+      "title": "Will Wright Remates totales"
+    },
+    {
+      "qa": "market-type-id-595",
+      "selections": [],
+      "text": "Conor Bradley Remates totales",
+      "title": "Conor Bradley Remates totales"
+    },
+    {
+      "qa": "market-type-id-595",
+      "selections": [],
+      "text": "Talla Ndiaye Remates totales",
+      "title": "Talla Ndiaye Remates totales"
+    },
+    {
+      "qa": "market-type-id-595",
+      "selections": [],
+      "text": "Joshua Abe Remates totales",
+      "title": "Joshua Abe Remates totales"
+    },
+    {
+      "qa": "market-type-id-595",
+      "selections": [],
+      "text": "Ilias Akhomach Remates totales",
+      "title": "Ilias Akhomach Remates totales"
+    },
+    {
+      "qa": "market-type-id-595",
+      "selections": [],
+      "text": "Nizar El Jmili Remates totales",
+      "title": "Nizar El Jmili Remates totales"
+    },
+    {
+      "qa": "market-type-id-595",
+      "selections": [],
+      "text": "Georges Mikautadze Remates totales",
+      "title": "Georges Mikautadze Remates totales"
+    },
+    {
+      "qa": "market-type-id-595",
+      "selections": [],
+      "text": "Gerard Moreno Remates totales",
+      "title": "Gerard Moreno Remates totales"
+    },
+    {
+      "qa": "market-type-id-595",
+      "selections": [],
+      "text": "Tani Oluwaseyi Remates totales",
+      "title": "Tani Oluwaseyi Remates totales"
+    },
+    {
+      "qa": "market-type-id-595",
+      "selections": [],
+      "text": "Ayoze Pérez Remates totales",
+      "title": "Ayoze Pérez Remates totales"
+    },
+    {
+      "qa": "market-type-id-595",
+      "selections": [],
+      "text": "Santi Comesana Remates totales",
+      "title": "Santi Comesana Remates totales"
+    },
+    {
+      "qa": "market-type-id-595",
+      "selections": [],
+      "text": "Alassane Diatta Remates totales",
+      "title": "Alassane Diatta Remates totales"
+    },
+    {
+      "qa": "market-type-id-595",
+      "selections": [],
+      "text": "Pape Gueye Remates totales",
+      "title": "Pape Gueye Remates totales"
+    },
+    {
+      "qa": "market-type-id-595",
+      "selections": [],
+      "text": "Carlos Macia Remates totales",
+      "title": "Carlos Macia Remates totales"
+    },
+    {
+      "qa": "market-type-id-595",
+      "selections": [],
+      "text": "Nathan-Dylan Saliba Remates totales",
+      "title": "Nathan-Dylan Saliba Remates totales"
+    },
+    {
+      "qa": "market-type-id-595",
+      "selections": [],
+      "text": "Renato Veiga Remates totales",
+      "title": "Renato Veiga Remates totales"
+    },
+    {
+      "qa": "market-type-id-595",
+      "selections": [],
+      "text": "Logan Costa Remates totales",
+      "title": "Logan Costa Remates totales"
+    },
+    {
+      "qa": "market-type-id-595",
+      "selections": [],
+      "text": "Juan Foyth Remates totales",
+      "title": "Juan Foyth Remates totales"
+    },
+    {
+      "qa": "market-type-id-595",
+      "selections": [],
+      "text": "Alex Freeman Remates totales",
+      "title": "Alex Freeman Remates totales"
+    },
+    {
+      "qa": "market-type-id-595",
+      "selections": [],
+      "text": "Carlos Romero Remates totales",
+      "title": "Carlos Romero Remates totales"
+    },
+    {
+      "qa": "market-type-id-595",
+      "selections": [],
+      "text": "Santiago Mourino Remates totales",
+      "title": "Santiago Mourino Remates totales"
+    },
+    {
+      "qa": "market-type-id-595",
+      "selections": [],
+      "text": "Pau Navarro Remates totales",
+      "title": "Pau Navarro Remates totales"
+    },
+    {
+      "qa": "market-type-id-595",
+      "selections": [],
+      "text": "Sergi Cardona Remates totales",
+      "title": "Sergi Cardona Remates totales"
+    },
+    {
+      "qa": "market-type-id-595",
+      "selections": [],
+      "text": "Alberto Moleiro Remates totales",
+      "title": "Alberto Moleiro Remates totales"
+    },
+    {
+      "qa": "market-type-id-595",
+      "selections": [],
+      "text": "Joselillo Gaitan Remates totales",
+      "title": "Joselillo Gaitan Remates totales"
+    },
+    {
+      "qa": "market-type-id-595",
+      "selections": [],
+      "text": "Nicolas Pepe Remates totales",
+      "title": "Nicolas Pepe Remates totales"
+    },
+    {
+      "qa": "market-type-id-595",
+      "selections": [],
+      "text": "Cheikh Thiam Remates totales",
+      "title": "Cheikh Thiam Remates totales"
+    },
+    {
+      "qa": "market-type-id-63",
+      "selections": [],
+      "text": "Jugador que recibe la primera tarjeta",
+      "title": "Jugador que recibe la primera tarjeta"
+    },
+    {
+      "qa": "market-type-id-597",
+      "selections": [],
+      "text": "Bradley Barcola Total de pases",
+      "title": "Bradley Barcola Total de pases"
+    },
+    {
+      "qa": "market-type-id-597",
+      "selections": [],
+      "text": "Lewis Koumas Total de pases",
+      "title": "Lewis Koumas Total de pases"
+    },
+    {
+      "qa": "market-type-id-597",
+      "selections": [],
+      "text": "Alexis Mac Allister Total de pases",
+      "title": "Alexis Mac Allister Total de pases"
+    },
+    {
+      "qa": "market-type-id-597",
+      "selections": [],
+      "text": "James McConnell Total de pases",
+      "title": "James McConnell Total de pases"
+    },
+    {
+      "qa": "market-type-id-597",
+      "selections": [],
+      "text": "Trey Nyoni Total de pases",
+      "title": "Trey Nyoni Total de pases"
+    },
+    {
+      "qa": "market-type-id-597",
+      "selections": [],
+      "text": "Florian Wirtz Total de pases",
+      "title": "Florian Wirtz Total de pases"
+    },
+    {
+      "qa": "market-type-id-597",
+      "selections": [],
+      "text": "Ronald Araújo Total de pases",
+      "title": "Ronald Araújo Total de pases"
+    },
+    {
+      "qa": "market-type-id-597",
+      "selections": [],
+      "text": "Luke Chambers Total de pases",
+      "title": "Luke Chambers Total de pases"
+    },
+    {
+      "qa": "market-type-id-597",
+      "selections": [],
+      "text": "Jeremie Frimpong Total de pases",
+      "title": "Jeremie Frimpong Total de pases"
+    },
+    {
+      "qa": "market-type-id-597",
+      "selections": [],
+      "text": "Joe Gomez Total de pases",
+      "title": "Joe Gomez Total de pases"
+    },
+    {
+      "qa": "market-type-id-597",
+      "selections": [],
+      "text": "Jeremy Jacquet Total de pases",
+      "title": "Jeremy Jacquet Total de pases"
+    },
+    {
+      "qa": "market-type-id-597",
+      "selections": [],
+      "text": "Milos Kerkez Total de pases",
+      "title": "Milos Kerkez Total de pases"
+    },
+    {
+      "qa": "market-type-id-597",
+      "selections": [],
+      "text": "Konstantinos Tsimikas Total de pases",
+      "title": "Konstantinos Tsimikas Total de pases"
+    },
+    {
+      "qa": "market-type-id-597",
+      "selections": [],
+      "text": "Virgil van Dijk Total de pases",
+      "title": "Virgil van Dijk Total de pases"
+    },
+    {
+      "qa": "market-type-id-597",
+      "selections": [],
+      "text": "Victor Munoz Total de pases",
+      "title": "Victor Munoz Total de pases"
+    },
+    {
+      "qa": "market-type-id-597",
+      "selections": [],
+      "text": "Jayden Danns Total de pases",
+      "title": "Jayden Danns Total de pases"
+    },
+    {
+      "qa": "market-type-id-597",
+      "selections": [],
+      "text": "Wellity Lucky Total de pases",
+      "title": "Wellity Lucky Total de pases"
+    },
+    {
+      "qa": "market-type-id-597",
+      "selections": [],
+      "text": "Rio Ngumoha Total de pases",
+      "title": "Rio Ngumoha Total de pases"
+    },
+    {
+      "qa": "market-type-id-597",
+      "selections": [],
+      "text": "Joshua Sonni-Lambie Total de pases",
+      "title": "Joshua Sonni-Lambie Total de pases"
+    },
+    {
+      "qa": "market-type-id-597",
+      "selections": [],
+      "text": "Wataru Endo Total de pases",
+      "title": "Wataru Endo Total de pases"
+    },
+    {
+      "qa": "market-type-id-597",
+      "selections": [],
+      "text": "Federico Chiesa Total de pases",
+      "title": "Federico Chiesa Total de pases"
+    },
+    {
+      "qa": "market-type-id-597",
+      "selections": [],
+      "text": "Will Wright Total de pases",
+      "title": "Will Wright Total de pases"
+    },
+    {
+      "qa": "market-type-id-597",
+      "selections": [],
+      "text": "Conor Bradley Total de pases",
+      "title": "Conor Bradley Total de pases"
+    },
+    {
+      "qa": "market-type-id-597",
+      "selections": [],
+      "text": "Talla Ndiaye Total de pases",
+      "title": "Talla Ndiaye Total de pases"
+    },
+    {
+      "qa": "market-type-id-597",
+      "selections": [],
+      "text": "Joshua Abe Total de pases",
+      "title": "Joshua Abe Total de pases"
+    },
+    {
+      "qa": "market-type-id-597",
+      "selections": [],
+      "text": "Ilias Akhomach Total de pases",
+      "title": "Ilias Akhomach Total de pases"
+    },
+    {
+      "qa": "market-type-id-597",
+      "selections": [],
+      "text": "Nizar El Jmili Total de pases",
+      "title": "Nizar El Jmili Total de pases"
+    },
+    {
+      "qa": "market-type-id-597",
+      "selections": [],
+      "text": "Georges Mikautadze Total de pases",
+      "title": "Georges Mikautadze Total de pases"
+    },
+    {
+      "qa": "market-type-id-597",
+      "selections": [],
+      "text": "Gerard Moreno Total de pases",
+      "title": "Gerard Moreno Total de pases"
+    },
+    {
+      "qa": "market-type-id-597",
+      "selections": [],
+      "text": "Tani Oluwaseyi Total de pases",
+      "title": "Tani Oluwaseyi Total de pases"
+    },
+    {
+      "qa": "market-type-id-597",
+      "selections": [],
+      "text": "Ayoze Pérez Total de pases",
+      "title": "Ayoze Pérez Total de pases"
+    },
+    {
+      "qa": "market-type-id-597",
+      "selections": [],
+      "text": "Santi Comesana Total de pases",
+      "title": "Santi Comesana Total de pases"
+    },
+    {
+      "qa": "market-type-id-597",
+      "selections": [],
+      "text": "Alassane Diatta Total de pases",
+      "title": "Alassane Diatta Total de pases"
+    },
+    {
+      "qa": "market-type-id-597",
+      "selections": [],
+      "text": "Pape Gueye Total de pases",
+      "title": "Pape Gueye Total de pases"
+    },
+    {
+      "qa": "market-type-id-597",
+      "selections": [],
+      "text": "Carlos Macia Total de pases",
+      "title": "Carlos Macia Total de pases"
+    },
+    {
+      "qa": "market-type-id-597",
+      "selections": [],
+      "text": "Nathan-Dylan Saliba Total de pases",
+      "title": "Nathan-Dylan Saliba Total de pases"
+    },
+    {
+      "qa": "market-type-id-597",
+      "selections": [],
+      "text": "Renato Veiga Total de pases",
+      "title": "Renato Veiga Total de pases"
+    },
+    {
+      "qa": "market-type-id-597",
+      "selections": [],
+      "text": "Logan Costa Total de pases",
+      "title": "Logan Costa Total de pases"
+    },
+    {
+      "qa": "market-type-id-597",
+      "selections": [],
+      "text": "Juan Foyth Total de pases",
+      "title": "Juan Foyth Total de pases"
+    },
+    {
+      "qa": "market-type-id-597",
+      "selections": [],
+      "text": "Alex Freeman Total de pases",
+      "title": "Alex Freeman Total de pases"
+    },
+    {
+      "qa": "market-type-id-597",
+      "selections": [],
+      "text": "Carlos Romero Total de pases",
+      "title": "Carlos Romero Total de pases"
+    },
+    {
+      "qa": "market-type-id-597",
+      "selections": [],
+      "text": "Santiago Mourino Total de pases",
+      "title": "Santiago Mourino Total de pases"
+    },
+    {
+      "qa": "market-type-id-597",
+      "selections": [],
+      "text": "Pau Navarro Total de pases",
+      "title": "Pau Navarro Total de pases"
+    },
+    {
+      "qa": "market-type-id-597",
+      "selections": [],
+      "text": "Sergi Cardona Total de pases",
+      "title": "Sergi Cardona Total de pases"
+    },
+    {
+      "qa": "market-type-id-597",
+      "selections": [],
+      "text": "Alberto Moleiro Total de pases",
+      "title": "Alberto Moleiro Total de pases"
+    },
+    {
+      "qa": "market-type-id-597",
+      "selections": [],
+      "text": "Joselillo Gaitan Total de pases",
+      "title": "Joselillo Gaitan Total de pases"
+    },
+    {
+      "qa": "market-type-id-597",
+      "selections": [],
+      "text": "Nicolas Pepe Total de pases",
+      "title": "Nicolas Pepe Total de pases"
+    },
+    {
+      "qa": "market-type-id-597",
+      "selections": [],
+      "text": "Cheikh Thiam Total de pases",
+      "title": "Cheikh Thiam Total de pases"
+    },
+    {
+      "qa": "market-type-id-599",
+      "selections": [],
+      "text": "Bradley Barcola Tackles totales",
+      "title": "Bradley Barcola Tackles totales"
+    },
+    {
+      "qa": "market-type-id-599",
+      "selections": [],
+      "text": "Lewis Koumas Tackles totales",
+      "title": "Lewis Koumas Tackles totales"
+    },
+    {
+      "qa": "market-type-id-599",
+      "selections": [],
+      "text": "Alexis Mac Allister Tackles totales",
+      "title": "Alexis Mac Allister Tackles totales"
+    },
+    {
+      "qa": "market-type-id-599",
+      "selections": [],
+      "text": "James McConnell Tackles totales",
+      "title": "James McConnell Tackles totales"
+    },
+    {
+      "qa": "market-type-id-599",
+      "selections": [],
+      "text": "Trey Nyoni Tackles totales",
+      "title": "Trey Nyoni Tackles totales"
+    },
+    {
+      "qa": "market-type-id-599",
+      "selections": [],
+      "text": "Florian Wirtz Tackles totales",
+      "title": "Florian Wirtz Tackles totales"
+    },
+    {
+      "qa": "market-type-id-599",
+      "selections": [],
+      "text": "Ronald Araújo Tackles totales",
+      "title": "Ronald Araújo Tackles totales"
+    },
+    {
+      "qa": "market-type-id-599",
+      "selections": [],
+      "text": "Luke Chambers Tackles totales",
+      "title": "Luke Chambers Tackles totales"
+    },
+    {
+      "qa": "market-type-id-599",
+      "selections": [],
+      "text": "Jeremie Frimpong Tackles totales",
+      "title": "Jeremie Frimpong Tackles totales"
+    },
+    {
+      "qa": "market-type-id-599",
+      "selections": [],
+      "text": "Joe Gomez Tackles totales",
+      "title": "Joe Gomez Tackles totales"
+    },
+    {
+      "qa": "market-type-id-599",
+      "selections": [],
+      "text": "Jeremy Jacquet Tackles totales",
+      "title": "Jeremy Jacquet Tackles totales"
+    },
+    {
+      "qa": "market-type-id-599",
+      "selections": [],
+      "text": "Milos Kerkez Tackles totales",
+      "title": "Milos Kerkez Tackles totales"
+    },
+    {
+      "qa": "market-type-id-599",
+      "selections": [],
+      "text": "Konstantinos Tsimikas Tackles totales",
+      "title": "Konstantinos Tsimikas Tackles totales"
+    },
+    {
+      "qa": "market-type-id-599",
+      "selections": [],
+      "text": "Virgil van Dijk Tackles totales",
+      "title": "Virgil van Dijk Tackles totales"
+    },
+    {
+      "qa": "market-type-id-599",
+      "selections": [],
+      "text": "Victor Munoz Tackles totales",
+      "title": "Victor Munoz Tackles totales"
+    },
+    {
+      "qa": "market-type-id-599",
+      "selections": [],
+      "text": "Jayden Danns Tackles totales",
+      "title": "Jayden Danns Tackles totales"
+    },
+    {
+      "qa": "market-type-id-599",
+      "selections": [],
+      "text": "Wellity Lucky Tackles totales",
+      "title": "Wellity Lucky Tackles totales"
+    },
+    {
+      "qa": "market-type-id-599",
+      "selections": [],
+      "text": "Rio Ngumoha Tackles totales",
+      "title": "Rio Ngumoha Tackles totales"
+    },
+    {
+      "qa": "market-type-id-599",
+      "selections": [],
+      "text": "Joshua Sonni-Lambie Tackles totales",
+      "title": "Joshua Sonni-Lambie Tackles totales"
+    },
+    {
+      "qa": "market-type-id-599",
+      "selections": [],
+      "text": "Wataru Endo Tackles totales",
+      "title": "Wataru Endo Tackles totales"
+    },
+    {
+      "qa": "market-type-id-599",
+      "selections": [],
+      "text": "Federico Chiesa Tackles totales",
+      "title": "Federico Chiesa Tackles totales"
+    },
+    {
+      "qa": "market-type-id-599",
+      "selections": [],
+      "text": "Will Wright Tackles totales",
+      "title": "Will Wright Tackles totales"
+    },
+    {
+      "qa": "market-type-id-599",
+      "selections": [],
+      "text": "Conor Bradley Tackles totales",
+      "title": "Conor Bradley Tackles totales"
+    },
+    {
+      "qa": "market-type-id-599",
+      "selections": [],
+      "text": "Talla Ndiaye Tackles totales",
+      "title": "Talla Ndiaye Tackles totales"
+    },
+    {
+      "qa": "market-type-id-599",
+      "selections": [],
+      "text": "Joshua Abe Tackles totales",
+      "title": "Joshua Abe Tackles totales"
+    },
+    {
+      "qa": "market-type-id-599",
+      "selections": [],
+      "text": "Ilias Akhomach Tackles totales",
+      "title": "Ilias Akhomach Tackles totales"
+    },
+    {
+      "qa": "market-type-id-599",
+      "selections": [],
+      "text": "Nizar El Jmili Tackles totales",
+      "title": "Nizar El Jmili Tackles totales"
+    },
+    {
+      "qa": "market-type-id-599",
+      "selections": [],
+      "text": "Georges Mikautadze Tackles totales",
+      "title": "Georges Mikautadze Tackles totales"
+    },
+    {
+      "qa": "market-type-id-599",
+      "selections": [],
+      "text": "Gerard Moreno Tackles totales",
+      "title": "Gerard Moreno Tackles totales"
+    },
+    {
+      "qa": "market-type-id-599",
+      "selections": [],
+      "text": "Tani Oluwaseyi Tackles totales",
+      "title": "Tani Oluwaseyi Tackles totales"
+    },
+    {
+      "qa": "market-type-id-599",
+      "selections": [],
+      "text": "Ayoze Pérez Tackles totales",
+      "title": "Ayoze Pérez Tackles totales"
+    },
+    {
+      "qa": "market-type-id-599",
+      "selections": [],
+      "text": "Santi Comesana Tackles totales",
+      "title": "Santi Comesana Tackles totales"
+    },
+    {
+      "qa": "market-type-id-599",
+      "selections": [],
+      "text": "Alassane Diatta Tackles totales",
+      "title": "Alassane Diatta Tackles totales"
+    },
+    {
+      "qa": "market-type-id-599",
+      "selections": [],
+      "text": "Pape Gueye Tackles totales",
+      "title": "Pape Gueye Tackles totales"
+    },
+    {
+      "qa": "market-type-id-599",
+      "selections": [],
+      "text": "Carlos Macia Tackles totales",
+      "title": "Carlos Macia Tackles totales"
+    },
+    {
+      "qa": "market-type-id-599",
+      "selections": [],
+      "text": "Nathan-Dylan Saliba Tackles totales",
+      "title": "Nathan-Dylan Saliba Tackles totales"
+    },
+    {
+      "qa": "market-type-id-599",
+      "selections": [],
+      "text": "Renato Veiga Tackles totales",
+      "title": "Renato Veiga Tackles totales"
+    },
+    {
+      "qa": "market-type-id-599",
+      "selections": [],
+      "text": "Logan Costa Tackles totales",
+      "title": "Logan Costa Tackles totales"
+    },
+    {
+      "qa": "market-type-id-599",
+      "selections": [],
+      "text": "Juan Foyth Tackles totales",
+      "title": "Juan Foyth Tackles totales"
+    },
+    {
+      "qa": "market-type-id-599",
+      "selections": [],
+      "text": "Alex Freeman Tackles totales",
+      "title": "Alex Freeman Tackles totales"
+    },
+    {
+      "qa": "market-type-id-599",
+      "selections": [],
+      "text": "Carlos Romero Tackles totales",
+      "title": "Carlos Romero Tackles totales"
+    },
+    {
+      "qa": "market-type-id-599",
+      "selections": [],
+      "text": "Santiago Mourino Tackles totales",
+      "title": "Santiago Mourino Tackles totales"
+    },
+    {
+      "qa": "market-type-id-599",
+      "selections": [],
+      "text": "Pau Navarro Tackles totales",
+      "title": "Pau Navarro Tackles totales"
+    },
+    {
+      "qa": "market-type-id-599",
+      "selections": [],
+      "text": "Sergi Cardona Tackles totales",
+      "title": "Sergi Cardona Tackles totales"
+    },
+    {
+      "qa": "market-type-id-599",
+      "selections": [],
+      "text": "Alberto Moleiro Tackles totales",
+      "title": "Alberto Moleiro Tackles totales"
+    },
+    {
+      "qa": "market-type-id-599",
+      "selections": [],
+      "text": "Joselillo Gaitan Tackles totales",
+      "title": "Joselillo Gaitan Tackles totales"
+    },
+    {
+      "qa": "market-type-id-599",
+      "selections": [],
+      "text": "Nicolas Pepe Tackles totales",
+      "title": "Nicolas Pepe Tackles totales"
+    },
+    {
+      "qa": "market-type-id-599",
+      "selections": [],
+      "text": "Cheikh Thiam Tackles totales",
+      "title": "Cheikh Thiam Tackles totales"
+    },
+    {
+      "qa": "market-type-id-1000681",
+      "selections": [],
+      "text": "Bradley Barcola Tiros Al Arco - Primer Tiempo",
+      "title": "Bradley Barcola Tiros Al Arco - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000681",
+      "selections": [],
+      "text": "Lewis Koumas Tiros Al Arco - Primer Tiempo",
+      "title": "Lewis Koumas Tiros Al Arco - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000681",
+      "selections": [],
+      "text": "Alexis Mac Allister Tiros Al Arco - Primer Tiempo",
+      "title": "Alexis Mac Allister Tiros Al Arco - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000681",
+      "selections": [],
+      "text": "James McConnell Tiros Al Arco - Primer Tiempo",
+      "title": "James McConnell Tiros Al Arco - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000681",
+      "selections": [],
+      "text": "Trey Nyoni Tiros Al Arco - Primer Tiempo",
+      "title": "Trey Nyoni Tiros Al Arco - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000681",
+      "selections": [],
+      "text": "Florian Wirtz Tiros Al Arco - Primer Tiempo",
+      "title": "Florian Wirtz Tiros Al Arco - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000681",
+      "selections": [],
+      "text": "Ronald Araújo Tiros Al Arco - Primer Tiempo",
+      "title": "Ronald Araújo Tiros Al Arco - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000681",
+      "selections": [],
+      "text": "Luke Chambers Tiros Al Arco - Primer Tiempo",
+      "title": "Luke Chambers Tiros Al Arco - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000681",
+      "selections": [],
+      "text": "Jeremie Frimpong Tiros Al Arco - Primer Tiempo",
+      "title": "Jeremie Frimpong Tiros Al Arco - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000681",
+      "selections": [],
+      "text": "Joe Gomez Tiros Al Arco - Primer Tiempo",
+      "title": "Joe Gomez Tiros Al Arco - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000681",
+      "selections": [],
+      "text": "Jeremy Jacquet Tiros Al Arco - Primer Tiempo",
+      "title": "Jeremy Jacquet Tiros Al Arco - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000681",
+      "selections": [],
+      "text": "Milos Kerkez Tiros Al Arco - Primer Tiempo",
+      "title": "Milos Kerkez Tiros Al Arco - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000681",
+      "selections": [],
+      "text": "Konstantinos Tsimikas Tiros Al Arco - Primer Tiempo",
+      "title": "Konstantinos Tsimikas Tiros Al Arco - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000681",
+      "selections": [],
+      "text": "Virgil van Dijk Tiros Al Arco - Primer Tiempo",
+      "title": "Virgil van Dijk Tiros Al Arco - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000681",
+      "selections": [],
+      "text": "Victor Munoz Tiros Al Arco - Primer Tiempo",
+      "title": "Victor Munoz Tiros Al Arco - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000681",
+      "selections": [],
+      "text": "Jayden Danns Tiros Al Arco - Primer Tiempo",
+      "title": "Jayden Danns Tiros Al Arco - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000681",
+      "selections": [],
+      "text": "Wellity Lucky Tiros Al Arco - Primer Tiempo",
+      "title": "Wellity Lucky Tiros Al Arco - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000681",
+      "selections": [],
+      "text": "Rio Ngumoha Tiros Al Arco - Primer Tiempo",
+      "title": "Rio Ngumoha Tiros Al Arco - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000681",
+      "selections": [],
+      "text": "Joshua Sonni-Lambie Tiros Al Arco - Primer Tiempo",
+      "title": "Joshua Sonni-Lambie Tiros Al Arco - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000681",
+      "selections": [],
+      "text": "Wataru Endo Tiros Al Arco - Primer Tiempo",
+      "title": "Wataru Endo Tiros Al Arco - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000681",
+      "selections": [],
+      "text": "Federico Chiesa Tiros Al Arco - Primer Tiempo",
+      "title": "Federico Chiesa Tiros Al Arco - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000681",
+      "selections": [],
+      "text": "Will Wright Tiros Al Arco - Primer Tiempo",
+      "title": "Will Wright Tiros Al Arco - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000681",
+      "selections": [],
+      "text": "Conor Bradley Tiros Al Arco - Primer Tiempo",
+      "title": "Conor Bradley Tiros Al Arco - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000681",
+      "selections": [],
+      "text": "Talla Ndiaye Tiros Al Arco - Primer Tiempo",
+      "title": "Talla Ndiaye Tiros Al Arco - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000681",
+      "selections": [],
+      "text": "Joshua Abe Tiros Al Arco - Primer Tiempo",
+      "title": "Joshua Abe Tiros Al Arco - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000681",
+      "selections": [],
+      "text": "Ilias Akhomach Tiros Al Arco - Primer Tiempo",
+      "title": "Ilias Akhomach Tiros Al Arco - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000681",
+      "selections": [],
+      "text": "Nizar El Jmili Tiros Al Arco - Primer Tiempo",
+      "title": "Nizar El Jmili Tiros Al Arco - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000681",
+      "selections": [],
+      "text": "Georges Mikautadze Tiros Al Arco - Primer Tiempo",
+      "title": "Georges Mikautadze Tiros Al Arco - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000681",
+      "selections": [],
+      "text": "Gerard Moreno Tiros Al Arco - Primer Tiempo",
+      "title": "Gerard Moreno Tiros Al Arco - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000681",
+      "selections": [],
+      "text": "Tani Oluwaseyi Tiros Al Arco - Primer Tiempo",
+      "title": "Tani Oluwaseyi Tiros Al Arco - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000681",
+      "selections": [],
+      "text": "Ayoze Pérez Tiros Al Arco - Primer Tiempo",
+      "title": "Ayoze Pérez Tiros Al Arco - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000681",
+      "selections": [],
+      "text": "Santi Comesana Tiros Al Arco - Primer Tiempo",
+      "title": "Santi Comesana Tiros Al Arco - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000681",
+      "selections": [],
+      "text": "Alassane Diatta Tiros Al Arco - Primer Tiempo",
+      "title": "Alassane Diatta Tiros Al Arco - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000681",
+      "selections": [],
+      "text": "Pape Gueye Tiros Al Arco - Primer Tiempo",
+      "title": "Pape Gueye Tiros Al Arco - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000681",
+      "selections": [],
+      "text": "Carlos Macia Tiros Al Arco - Primer Tiempo",
+      "title": "Carlos Macia Tiros Al Arco - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000681",
+      "selections": [],
+      "text": "Nathan-Dylan Saliba Tiros Al Arco - Primer Tiempo",
+      "title": "Nathan-Dylan Saliba Tiros Al Arco - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000681",
+      "selections": [],
+      "text": "Renato Veiga Tiros Al Arco - Primer Tiempo",
+      "title": "Renato Veiga Tiros Al Arco - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000681",
+      "selections": [],
+      "text": "Logan Costa Tiros Al Arco - Primer Tiempo",
+      "title": "Logan Costa Tiros Al Arco - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000681",
+      "selections": [],
+      "text": "Juan Foyth Tiros Al Arco - Primer Tiempo",
+      "title": "Juan Foyth Tiros Al Arco - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000681",
+      "selections": [],
+      "text": "Alex Freeman Tiros Al Arco - Primer Tiempo",
+      "title": "Alex Freeman Tiros Al Arco - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000681",
+      "selections": [],
+      "text": "Carlos Romero Tiros Al Arco - Primer Tiempo",
+      "title": "Carlos Romero Tiros Al Arco - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000681",
+      "selections": [],
+      "text": "Santiago Mourino Tiros Al Arco - Primer Tiempo",
+      "title": "Santiago Mourino Tiros Al Arco - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000681",
+      "selections": [],
+      "text": "Pau Navarro Tiros Al Arco - Primer Tiempo",
+      "title": "Pau Navarro Tiros Al Arco - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000681",
+      "selections": [],
+      "text": "Sergi Cardona Tiros Al Arco - Primer Tiempo",
+      "title": "Sergi Cardona Tiros Al Arco - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000681",
+      "selections": [],
+      "text": "Alberto Moleiro Tiros Al Arco - Primer Tiempo",
+      "title": "Alberto Moleiro Tiros Al Arco - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000681",
+      "selections": [],
+      "text": "Joselillo Gaitan Tiros Al Arco - Primer Tiempo",
+      "title": "Joselillo Gaitan Tiros Al Arco - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000681",
+      "selections": [],
+      "text": "Nicolas Pepe Tiros Al Arco - Primer Tiempo",
+      "title": "Nicolas Pepe Tiros Al Arco - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000681",
+      "selections": [],
+      "text": "Cheikh Thiam Tiros Al Arco - Primer Tiempo",
+      "title": "Cheikh Thiam Tiros Al Arco - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000680",
+      "selections": [],
+      "text": "Bradley Barcola Remates totales - Primer Tiempo",
+      "title": "Bradley Barcola Remates totales - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000680",
+      "selections": [],
+      "text": "Lewis Koumas Remates totales - Primer Tiempo",
+      "title": "Lewis Koumas Remates totales - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000680",
+      "selections": [],
+      "text": "Alexis Mac Allister Remates totales - Primer Tiempo",
+      "title": "Alexis Mac Allister Remates totales - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000680",
+      "selections": [],
+      "text": "James McConnell Remates totales - Primer Tiempo",
+      "title": "James McConnell Remates totales - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000680",
+      "selections": [],
+      "text": "Trey Nyoni Remates totales - Primer Tiempo",
+      "title": "Trey Nyoni Remates totales - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000680",
+      "selections": [],
+      "text": "Florian Wirtz Remates totales - Primer Tiempo",
+      "title": "Florian Wirtz Remates totales - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000680",
+      "selections": [],
+      "text": "Ronald Araújo Remates totales - Primer Tiempo",
+      "title": "Ronald Araújo Remates totales - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000680",
+      "selections": [],
+      "text": "Luke Chambers Remates totales - Primer Tiempo",
+      "title": "Luke Chambers Remates totales - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000680",
+      "selections": [],
+      "text": "Jeremie Frimpong Remates totales - Primer Tiempo",
+      "title": "Jeremie Frimpong Remates totales - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000680",
+      "selections": [],
+      "text": "Joe Gomez Remates totales - Primer Tiempo",
+      "title": "Joe Gomez Remates totales - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000680",
+      "selections": [],
+      "text": "Jeremy Jacquet Remates totales - Primer Tiempo",
+      "title": "Jeremy Jacquet Remates totales - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000680",
+      "selections": [],
+      "text": "Milos Kerkez Remates totales - Primer Tiempo",
+      "title": "Milos Kerkez Remates totales - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000680",
+      "selections": [],
+      "text": "Konstantinos Tsimikas Remates totales - Primer Tiempo",
+      "title": "Konstantinos Tsimikas Remates totales - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000680",
+      "selections": [],
+      "text": "Virgil van Dijk Remates totales - Primer Tiempo",
+      "title": "Virgil van Dijk Remates totales - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000680",
+      "selections": [],
+      "text": "Victor Munoz Remates totales - Primer Tiempo",
+      "title": "Victor Munoz Remates totales - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000680",
+      "selections": [],
+      "text": "Jayden Danns Remates totales - Primer Tiempo",
+      "title": "Jayden Danns Remates totales - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000680",
+      "selections": [],
+      "text": "Wellity Lucky Remates totales - Primer Tiempo",
+      "title": "Wellity Lucky Remates totales - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000680",
+      "selections": [],
+      "text": "Rio Ngumoha Remates totales - Primer Tiempo",
+      "title": "Rio Ngumoha Remates totales - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000680",
+      "selections": [],
+      "text": "Joshua Sonni-Lambie Remates totales - Primer Tiempo",
+      "title": "Joshua Sonni-Lambie Remates totales - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000680",
+      "selections": [],
+      "text": "Wataru Endo Remates totales - Primer Tiempo",
+      "title": "Wataru Endo Remates totales - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000680",
+      "selections": [],
+      "text": "Federico Chiesa Remates totales - Primer Tiempo",
+      "title": "Federico Chiesa Remates totales - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000680",
+      "selections": [],
+      "text": "Will Wright Remates totales - Primer Tiempo",
+      "title": "Will Wright Remates totales - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000680",
+      "selections": [],
+      "text": "Conor Bradley Remates totales - Primer Tiempo",
+      "title": "Conor Bradley Remates totales - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000680",
+      "selections": [],
+      "text": "Talla Ndiaye Remates totales - Primer Tiempo",
+      "title": "Talla Ndiaye Remates totales - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000680",
+      "selections": [],
+      "text": "Joshua Abe Remates totales - Primer Tiempo",
+      "title": "Joshua Abe Remates totales - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000680",
+      "selections": [],
+      "text": "Ilias Akhomach Remates totales - Primer Tiempo",
+      "title": "Ilias Akhomach Remates totales - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000680",
+      "selections": [],
+      "text": "Nizar El Jmili Remates totales - Primer Tiempo",
+      "title": "Nizar El Jmili Remates totales - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000680",
+      "selections": [],
+      "text": "Georges Mikautadze Remates totales - Primer Tiempo",
+      "title": "Georges Mikautadze Remates totales - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000680",
+      "selections": [],
+      "text": "Gerard Moreno Remates totales - Primer Tiempo",
+      "title": "Gerard Moreno Remates totales - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000680",
+      "selections": [],
+      "text": "Tani Oluwaseyi Remates totales - Primer Tiempo",
+      "title": "Tani Oluwaseyi Remates totales - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000680",
+      "selections": [],
+      "text": "Ayoze Pérez Remates totales - Primer Tiempo",
+      "title": "Ayoze Pérez Remates totales - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000680",
+      "selections": [],
+      "text": "Santi Comesana Remates totales - Primer Tiempo",
+      "title": "Santi Comesana Remates totales - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000680",
+      "selections": [],
+      "text": "Alassane Diatta Remates totales - Primer Tiempo",
+      "title": "Alassane Diatta Remates totales - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000680",
+      "selections": [],
+      "text": "Pape Gueye Remates totales - Primer Tiempo",
+      "title": "Pape Gueye Remates totales - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000680",
+      "selections": [],
+      "text": "Carlos Macia Remates totales - Primer Tiempo",
+      "title": "Carlos Macia Remates totales - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000680",
+      "selections": [],
+      "text": "Nathan-Dylan Saliba Remates totales - Primer Tiempo",
+      "title": "Nathan-Dylan Saliba Remates totales - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000680",
+      "selections": [],
+      "text": "Renato Veiga Remates totales - Primer Tiempo",
+      "title": "Renato Veiga Remates totales - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000680",
+      "selections": [],
+      "text": "Logan Costa Remates totales - Primer Tiempo",
+      "title": "Logan Costa Remates totales - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000680",
+      "selections": [],
+      "text": "Juan Foyth Remates totales - Primer Tiempo",
+      "title": "Juan Foyth Remates totales - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000680",
+      "selections": [],
+      "text": "Alex Freeman Remates totales - Primer Tiempo",
+      "title": "Alex Freeman Remates totales - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000680",
+      "selections": [],
+      "text": "Carlos Romero Remates totales - Primer Tiempo",
+      "title": "Carlos Romero Remates totales - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000680",
+      "selections": [],
+      "text": "Santiago Mourino Remates totales - Primer Tiempo",
+      "title": "Santiago Mourino Remates totales - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000680",
+      "selections": [],
+      "text": "Pau Navarro Remates totales - Primer Tiempo",
+      "title": "Pau Navarro Remates totales - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000680",
+      "selections": [],
+      "text": "Sergi Cardona Remates totales - Primer Tiempo",
+      "title": "Sergi Cardona Remates totales - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000680",
+      "selections": [],
+      "text": "Alberto Moleiro Remates totales - Primer Tiempo",
+      "title": "Alberto Moleiro Remates totales - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000680",
+      "selections": [],
+      "text": "Joselillo Gaitan Remates totales - Primer Tiempo",
+      "title": "Joselillo Gaitan Remates totales - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000680",
+      "selections": [],
+      "text": "Nicolas Pepe Remates totales - Primer Tiempo",
+      "title": "Nicolas Pepe Remates totales - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000680",
+      "selections": [],
+      "text": "Cheikh Thiam Remates totales - Primer Tiempo",
+      "title": "Cheikh Thiam Remates totales - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000676",
+      "selections": [],
+      "text": "Bradley Barcola Fueras de juego",
+      "title": "Bradley Barcola Fueras de juego"
+    },
+    {
+      "qa": "market-type-id-1000676",
+      "selections": [],
+      "text": "Lewis Koumas Fueras de juego",
+      "title": "Lewis Koumas Fueras de juego"
+    },
+    {
+      "qa": "market-type-id-1000676",
+      "selections": [],
+      "text": "Trey Nyoni Fueras de juego",
+      "title": "Trey Nyoni Fueras de juego"
+    },
+    {
+      "qa": "market-type-id-1000676",
+      "selections": [],
+      "text": "Florian Wirtz Fueras de juego",
+      "title": "Florian Wirtz Fueras de juego"
+    },
+    {
+      "qa": "market-type-id-1000676",
+      "selections": [],
+      "text": "Jeremie Frimpong Fueras de juego",
+      "title": "Jeremie Frimpong Fueras de juego"
+    },
+    {
+      "qa": "market-type-id-1000676",
+      "selections": [],
+      "text": "Milos Kerkez Fueras de juego",
+      "title": "Milos Kerkez Fueras de juego"
+    },
+    {
+      "qa": "market-type-id-1000676",
+      "selections": [],
+      "text": "Konstantinos Tsimikas Fueras de juego",
+      "title": "Konstantinos Tsimikas Fueras de juego"
+    },
+    {
+      "qa": "market-type-id-1000676",
+      "selections": [],
+      "text": "Victor Munoz Fueras de juego",
+      "title": "Victor Munoz Fueras de juego"
+    },
+    {
+      "qa": "market-type-id-1000676",
+      "selections": [],
+      "text": "Jayden Danns Fueras de juego",
+      "title": "Jayden Danns Fueras de juego"
+    },
+    {
+      "qa": "market-type-id-1000676",
+      "selections": [],
+      "text": "Rio Ngumoha Fueras de juego",
+      "title": "Rio Ngumoha Fueras de juego"
+    },
+    {
+      "qa": "market-type-id-1000676",
+      "selections": [],
+      "text": "Joshua Sonni-Lambie Fueras de juego",
+      "title": "Joshua Sonni-Lambie Fueras de juego"
+    },
+    {
+      "qa": "market-type-id-1000676",
+      "selections": [],
+      "text": "Federico Chiesa Fueras de juego",
+      "title": "Federico Chiesa Fueras de juego"
+    },
+    {
+      "qa": "market-type-id-1000676",
+      "selections": [],
+      "text": "Will Wright Fueras de juego",
+      "title": "Will Wright Fueras de juego"
+    },
+    {
+      "qa": "market-type-id-1000676",
+      "selections": [],
+      "text": "Conor Bradley Fueras de juego",
+      "title": "Conor Bradley Fueras de juego"
+    },
+    {
+      "qa": "market-type-id-1000676",
+      "selections": [],
+      "text": "Joshua Abe Fueras de juego",
+      "title": "Joshua Abe Fueras de juego"
+    },
+    {
+      "qa": "market-type-id-1000676",
+      "selections": [],
+      "text": "Ilias Akhomach Fueras de juego",
+      "title": "Ilias Akhomach Fueras de juego"
+    },
+    {
+      "qa": "market-type-id-1000676",
+      "selections": [],
+      "text": "Nizar El Jmili Fueras de juego",
+      "title": "Nizar El Jmili Fueras de juego"
+    },
+    {
+      "qa": "market-type-id-1000676",
+      "selections": [],
+      "text": "Georges Mikautadze Fueras de juego",
+      "title": "Georges Mikautadze Fueras de juego"
+    },
+    {
+      "qa": "market-type-id-1000676",
+      "selections": [],
+      "text": "Gerard Moreno Fueras de juego",
+      "title": "Gerard Moreno Fueras de juego"
+    },
+    {
+      "qa": "market-type-id-1000676",
+      "selections": [],
+      "text": "Tani Oluwaseyi Fueras de juego",
+      "title": "Tani Oluwaseyi Fueras de juego"
+    },
+    {
+      "qa": "market-type-id-1000676",
+      "selections": [],
+      "text": "Ayoze Pérez Fueras de juego",
+      "title": "Ayoze Pérez Fueras de juego"
+    },
+    {
+      "qa": "market-type-id-1000676",
+      "selections": [],
+      "text": "Santi Comesana Fueras de juego",
+      "title": "Santi Comesana Fueras de juego"
+    },
+    {
+      "qa": "market-type-id-1000676",
+      "selections": [],
+      "text": "Pape Gueye Fueras de juego",
+      "title": "Pape Gueye Fueras de juego"
+    },
+    {
+      "qa": "market-type-id-1000676",
+      "selections": [],
+      "text": "Logan Costa Fueras de juego",
+      "title": "Logan Costa Fueras de juego"
+    },
+    {
+      "qa": "market-type-id-1000676",
+      "selections": [],
+      "text": "Alex Freeman Fueras de juego",
+      "title": "Alex Freeman Fueras de juego"
+    },
+    {
+      "qa": "market-type-id-1000676",
+      "selections": [],
+      "text": "Carlos Romero Fueras de juego",
+      "title": "Carlos Romero Fueras de juego"
+    },
+    {
+      "qa": "market-type-id-1000676",
+      "selections": [],
+      "text": "Santiago Mourino Fueras de juego",
+      "title": "Santiago Mourino Fueras de juego"
+    },
+    {
+      "qa": "market-type-id-1000676",
+      "selections": [],
+      "text": "Sergi Cardona Fueras de juego",
+      "title": "Sergi Cardona Fueras de juego"
+    },
+    {
+      "qa": "market-type-id-1000676",
+      "selections": [],
+      "text": "Alberto Moleiro Fueras de juego",
+      "title": "Alberto Moleiro Fueras de juego"
+    },
+    {
+      "qa": "market-type-id-1000676",
+      "selections": [],
+      "text": "Joselillo Gaitan Fueras de juego",
+      "title": "Joselillo Gaitan Fueras de juego"
+    },
+    {
+      "qa": "market-type-id-1000676",
+      "selections": [],
+      "text": "Nicolas Pepe Fueras de juego",
+      "title": "Nicolas Pepe Fueras de juego"
+    },
+    {
+      "qa": "market-type-id-1000676",
+      "selections": [],
+      "text": "Cheikh Thiam Fueras de juego",
+      "title": "Cheikh Thiam Fueras de juego"
+    },
+    {
+      "qa": "market-type-id-347",
+      "selections": [],
+      "text": "Anota desde fuera del área",
+      "title": "Anota desde fuera del área"
+    },
+    {
+      "qa": "market-type-id-77",
+      "selections": [],
+      "text": "Anotar en cualquier momento - Primer Tiempo",
+      "title": "Anotar en cualquier momento - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000679",
+      "selections": [],
+      "text": "Bradley Barcola Faltas cometidas",
+      "title": "Bradley Barcola Faltas cometidas"
+    },
+    {
+      "qa": "market-type-id-1000679",
+      "selections": [],
+      "text": "Lewis Koumas Faltas cometidas",
+      "title": "Lewis Koumas Faltas cometidas"
+    },
+    {
+      "qa": "market-type-id-1000679",
+      "selections": [],
+      "text": "Alexis Mac Allister Faltas cometidas",
+      "title": "Alexis Mac Allister Faltas cometidas"
+    },
+    {
+      "qa": "market-type-id-1000679",
+      "selections": [],
+      "text": "James McConnell Faltas cometidas",
+      "title": "James McConnell Faltas cometidas"
+    },
+    {
+      "qa": "market-type-id-1000679",
+      "selections": [],
+      "text": "Trey Nyoni Faltas cometidas",
+      "title": "Trey Nyoni Faltas cometidas"
+    },
+    {
+      "qa": "market-type-id-1000679",
+      "selections": [],
+      "text": "Florian Wirtz Faltas cometidas",
+      "title": "Florian Wirtz Faltas cometidas"
+    },
+    {
+      "qa": "market-type-id-1000679",
+      "selections": [],
+      "text": "Ronald Araújo Faltas cometidas",
+      "title": "Ronald Araújo Faltas cometidas"
+    },
+    {
+      "qa": "market-type-id-1000679",
+      "selections": [],
+      "text": "Luke Chambers Faltas cometidas",
+      "title": "Luke Chambers Faltas cometidas"
+    },
+    {
+      "qa": "market-type-id-1000679",
+      "selections": [],
+      "text": "Jeremie Frimpong Faltas cometidas",
+      "title": "Jeremie Frimpong Faltas cometidas"
+    },
+    {
+      "qa": "market-type-id-1000679",
+      "selections": [],
+      "text": "Joe Gomez Faltas cometidas",
+      "title": "Joe Gomez Faltas cometidas"
+    },
+    {
+      "qa": "market-type-id-1000679",
+      "selections": [],
+      "text": "Jeremy Jacquet Faltas cometidas",
+      "title": "Jeremy Jacquet Faltas cometidas"
+    },
+    {
+      "qa": "market-type-id-1000679",
+      "selections": [],
+      "text": "Milos Kerkez Faltas cometidas",
+      "title": "Milos Kerkez Faltas cometidas"
+    },
+    {
+      "qa": "market-type-id-1000679",
+      "selections": [],
+      "text": "Konstantinos Tsimikas Faltas cometidas",
+      "title": "Konstantinos Tsimikas Faltas cometidas"
+    },
+    {
+      "qa": "market-type-id-1000679",
+      "selections": [],
+      "text": "Virgil van Dijk Faltas cometidas",
+      "title": "Virgil van Dijk Faltas cometidas"
+    },
+    {
+      "qa": "market-type-id-1000679",
+      "selections": [],
+      "text": "Victor Munoz Faltas cometidas",
+      "title": "Victor Munoz Faltas cometidas"
+    },
+    {
+      "qa": "market-type-id-1000679",
+      "selections": [],
+      "text": "Jayden Danns Faltas cometidas",
+      "title": "Jayden Danns Faltas cometidas"
+    },
+    {
+      "qa": "market-type-id-1000679",
+      "selections": [],
+      "text": "Wellity Lucky Faltas cometidas",
+      "title": "Wellity Lucky Faltas cometidas"
+    },
+    {
+      "qa": "market-type-id-1000679",
+      "selections": [],
+      "text": "Rio Ngumoha Faltas cometidas",
+      "title": "Rio Ngumoha Faltas cometidas"
+    },
+    {
+      "qa": "market-type-id-1000679",
+      "selections": [],
+      "text": "Joshua Sonni-Lambie Faltas cometidas",
+      "title": "Joshua Sonni-Lambie Faltas cometidas"
+    },
+    {
+      "qa": "market-type-id-1000679",
+      "selections": [],
+      "text": "Wataru Endo Faltas cometidas",
+      "title": "Wataru Endo Faltas cometidas"
+    },
+    {
+      "qa": "market-type-id-1000679",
+      "selections": [],
+      "text": "Federico Chiesa Faltas cometidas",
+      "title": "Federico Chiesa Faltas cometidas"
+    },
+    {
+      "qa": "market-type-id-1000679",
+      "selections": [],
+      "text": "Will Wright Faltas cometidas",
+      "title": "Will Wright Faltas cometidas"
+    },
+    {
+      "qa": "market-type-id-1000679",
+      "selections": [],
+      "text": "Conor Bradley Faltas cometidas",
+      "title": "Conor Bradley Faltas cometidas"
+    },
+    {
+      "qa": "market-type-id-1000679",
+      "selections": [],
+      "text": "Talla Ndiaye Faltas cometidas",
+      "title": "Talla Ndiaye Faltas cometidas"
+    },
+    {
+      "qa": "market-type-id-1000679",
+      "selections": [],
+      "text": "Joshua Abe Faltas cometidas",
+      "title": "Joshua Abe Faltas cometidas"
+    },
+    {
+      "qa": "market-type-id-1000679",
+      "selections": [],
+      "text": "Ilias Akhomach Faltas cometidas",
+      "title": "Ilias Akhomach Faltas cometidas"
+    },
+    {
+      "qa": "market-type-id-1000679",
+      "selections": [],
+      "text": "Nizar El Jmili Faltas cometidas",
+      "title": "Nizar El Jmili Faltas cometidas"
+    },
+    {
+      "qa": "market-type-id-1000679",
+      "selections": [],
+      "text": "Georges Mikautadze Faltas cometidas",
+      "title": "Georges Mikautadze Faltas cometidas"
+    },
+    {
+      "qa": "market-type-id-1000679",
+      "selections": [],
+      "text": "Gerard Moreno Faltas cometidas",
+      "title": "Gerard Moreno Faltas cometidas"
+    },
+    {
+      "qa": "market-type-id-1000679",
+      "selections": [],
+      "text": "Tani Oluwaseyi Faltas cometidas",
+      "title": "Tani Oluwaseyi Faltas cometidas"
+    },
+    {
+      "qa": "market-type-id-1000679",
+      "selections": [],
+      "text": "Ayoze Pérez Faltas cometidas",
+      "title": "Ayoze Pérez Faltas cometidas"
+    },
+    {
+      "qa": "market-type-id-1000679",
+      "selections": [],
+      "text": "Santi Comesana Faltas cometidas",
+      "title": "Santi Comesana Faltas cometidas"
+    },
+    {
+      "qa": "market-type-id-1000679",
+      "selections": [],
+      "text": "Alassane Diatta Faltas cometidas",
+      "title": "Alassane Diatta Faltas cometidas"
+    },
+    {
+      "qa": "market-type-id-1000679",
+      "selections": [],
+      "text": "Pape Gueye Faltas cometidas",
+      "title": "Pape Gueye Faltas cometidas"
+    },
+    {
+      "qa": "market-type-id-1000679",
+      "selections": [],
+      "text": "Carlos Macia Faltas cometidas",
+      "title": "Carlos Macia Faltas cometidas"
+    },
+    {
+      "qa": "market-type-id-1000679",
+      "selections": [],
+      "text": "Nathan-Dylan Saliba Faltas cometidas",
+      "title": "Nathan-Dylan Saliba Faltas cometidas"
+    },
+    {
+      "qa": "market-type-id-1000679",
+      "selections": [],
+      "text": "Renato Veiga Faltas cometidas",
+      "title": "Renato Veiga Faltas cometidas"
+    },
+    {
+      "qa": "market-type-id-1000679",
+      "selections": [],
+      "text": "Logan Costa Faltas cometidas",
+      "title": "Logan Costa Faltas cometidas"
+    },
+    {
+      "qa": "market-type-id-1000679",
+      "selections": [],
+      "text": "Juan Foyth Faltas cometidas",
+      "title": "Juan Foyth Faltas cometidas"
+    },
+    {
+      "qa": "market-type-id-1000679",
+      "selections": [],
+      "text": "Alex Freeman Faltas cometidas",
+      "title": "Alex Freeman Faltas cometidas"
+    },
+    {
+      "qa": "market-type-id-1000679",
+      "selections": [],
+      "text": "Carlos Romero Faltas cometidas",
+      "title": "Carlos Romero Faltas cometidas"
+    },
+    {
+      "qa": "market-type-id-1000679",
+      "selections": [],
+      "text": "Santiago Mourino Faltas cometidas",
+      "title": "Santiago Mourino Faltas cometidas"
+    },
+    {
+      "qa": "market-type-id-1000679",
+      "selections": [],
+      "text": "Pau Navarro Faltas cometidas",
+      "title": "Pau Navarro Faltas cometidas"
+    },
+    {
+      "qa": "market-type-id-1000679",
+      "selections": [],
+      "text": "Sergi Cardona Faltas cometidas",
+      "title": "Sergi Cardona Faltas cometidas"
+    },
+    {
+      "qa": "market-type-id-1000679",
+      "selections": [],
+      "text": "Alberto Moleiro Faltas cometidas",
+      "title": "Alberto Moleiro Faltas cometidas"
+    },
+    {
+      "qa": "market-type-id-1000679",
+      "selections": [],
+      "text": "Joselillo Gaitan Faltas cometidas",
+      "title": "Joselillo Gaitan Faltas cometidas"
+    },
+    {
+      "qa": "market-type-id-1000679",
+      "selections": [],
+      "text": "Nicolas Pepe Faltas cometidas",
+      "title": "Nicolas Pepe Faltas cometidas"
+    },
+    {
+      "qa": "market-type-id-1000679",
+      "selections": [],
+      "text": "Cheikh Thiam Faltas cometidas",
+      "title": "Cheikh Thiam Faltas cometidas"
+    },
+    {
+      "qa": "market-type-id-1000678",
+      "selections": [],
+      "text": "Bradley Barcola Faltas ganadas",
+      "title": "Bradley Barcola Faltas ganadas"
+    },
+    {
+      "qa": "market-type-id-1000678",
+      "selections": [],
+      "text": "Lewis Koumas Faltas ganadas",
+      "title": "Lewis Koumas Faltas ganadas"
+    },
+    {
+      "qa": "market-type-id-1000678",
+      "selections": [],
+      "text": "Alexis Mac Allister Faltas ganadas",
+      "title": "Alexis Mac Allister Faltas ganadas"
+    },
+    {
+      "qa": "market-type-id-1000678",
+      "selections": [],
+      "text": "James McConnell Faltas ganadas",
+      "title": "James McConnell Faltas ganadas"
+    },
+    {
+      "qa": "market-type-id-1000678",
+      "selections": [],
+      "text": "Trey Nyoni Faltas ganadas",
+      "title": "Trey Nyoni Faltas ganadas"
+    },
+    {
+      "qa": "market-type-id-1000678",
+      "selections": [],
+      "text": "Florian Wirtz Faltas ganadas",
+      "title": "Florian Wirtz Faltas ganadas"
+    },
+    {
+      "qa": "market-type-id-1000678",
+      "selections": [],
+      "text": "Ronald Araújo Faltas ganadas",
+      "title": "Ronald Araújo Faltas ganadas"
+    },
+    {
+      "qa": "market-type-id-1000678",
+      "selections": [],
+      "text": "Luke Chambers Faltas ganadas",
+      "title": "Luke Chambers Faltas ganadas"
+    },
+    {
+      "qa": "market-type-id-1000678",
+      "selections": [],
+      "text": "Jeremie Frimpong Faltas ganadas",
+      "title": "Jeremie Frimpong Faltas ganadas"
+    },
+    {
+      "qa": "market-type-id-1000678",
+      "selections": [],
+      "text": "Joe Gomez Faltas ganadas",
+      "title": "Joe Gomez Faltas ganadas"
+    },
+    {
+      "qa": "market-type-id-1000678",
+      "selections": [],
+      "text": "Jeremy Jacquet Faltas ganadas",
+      "title": "Jeremy Jacquet Faltas ganadas"
+    },
+    {
+      "qa": "market-type-id-1000678",
+      "selections": [],
+      "text": "Milos Kerkez Faltas ganadas",
+      "title": "Milos Kerkez Faltas ganadas"
+    },
+    {
+      "qa": "market-type-id-1000678",
+      "selections": [],
+      "text": "Konstantinos Tsimikas Faltas ganadas",
+      "title": "Konstantinos Tsimikas Faltas ganadas"
+    },
+    {
+      "qa": "market-type-id-1000678",
+      "selections": [],
+      "text": "Virgil van Dijk Faltas ganadas",
+      "title": "Virgil van Dijk Faltas ganadas"
+    },
+    {
+      "qa": "market-type-id-1000678",
+      "selections": [],
+      "text": "Victor Munoz Faltas ganadas",
+      "title": "Victor Munoz Faltas ganadas"
+    },
+    {
+      "qa": "market-type-id-1000678",
+      "selections": [],
+      "text": "Jayden Danns Faltas ganadas",
+      "title": "Jayden Danns Faltas ganadas"
+    },
+    {
+      "qa": "market-type-id-1000678",
+      "selections": [],
+      "text": "Wellity Lucky Faltas ganadas",
+      "title": "Wellity Lucky Faltas ganadas"
+    },
+    {
+      "qa": "market-type-id-1000678",
+      "selections": [],
+      "text": "Rio Ngumoha Faltas ganadas",
+      "title": "Rio Ngumoha Faltas ganadas"
+    },
+    {
+      "qa": "market-type-id-1000678",
+      "selections": [],
+      "text": "Joshua Sonni-Lambie Faltas ganadas",
+      "title": "Joshua Sonni-Lambie Faltas ganadas"
+    },
+    {
+      "qa": "market-type-id-1000678",
+      "selections": [],
+      "text": "Wataru Endo Faltas ganadas",
+      "title": "Wataru Endo Faltas ganadas"
+    },
+    {
+      "qa": "market-type-id-1000678",
+      "selections": [],
+      "text": "Federico Chiesa Faltas ganadas",
+      "title": "Federico Chiesa Faltas ganadas"
+    },
+    {
+      "qa": "market-type-id-1000678",
+      "selections": [],
+      "text": "Will Wright Faltas ganadas",
+      "title": "Will Wright Faltas ganadas"
+    },
+    {
+      "qa": "market-type-id-1000678",
+      "selections": [],
+      "text": "Conor Bradley Faltas ganadas",
+      "title": "Conor Bradley Faltas ganadas"
+    },
+    {
+      "qa": "market-type-id-1000678",
+      "selections": [],
+      "text": "Talla Ndiaye Faltas ganadas",
+      "title": "Talla Ndiaye Faltas ganadas"
+    },
+    {
+      "qa": "market-type-id-1000678",
+      "selections": [],
+      "text": "Joshua Abe Faltas ganadas",
+      "title": "Joshua Abe Faltas ganadas"
+    },
+    {
+      "qa": "market-type-id-1000678",
+      "selections": [],
+      "text": "Ilias Akhomach Faltas ganadas",
+      "title": "Ilias Akhomach Faltas ganadas"
+    },
+    {
+      "qa": "market-type-id-1000678",
+      "selections": [],
+      "text": "Nizar El Jmili Faltas ganadas",
+      "title": "Nizar El Jmili Faltas ganadas"
+    },
+    {
+      "qa": "market-type-id-1000678",
+      "selections": [],
+      "text": "Georges Mikautadze Faltas ganadas",
+      "title": "Georges Mikautadze Faltas ganadas"
+    },
+    {
+      "qa": "market-type-id-1000678",
+      "selections": [],
+      "text": "Gerard Moreno Faltas ganadas",
+      "title": "Gerard Moreno Faltas ganadas"
+    },
+    {
+      "qa": "market-type-id-1000678",
+      "selections": [],
+      "text": "Tani Oluwaseyi Faltas ganadas",
+      "title": "Tani Oluwaseyi Faltas ganadas"
+    },
+    {
+      "qa": "market-type-id-1000678",
+      "selections": [],
+      "text": "Ayoze Pérez Faltas ganadas",
+      "title": "Ayoze Pérez Faltas ganadas"
+    },
+    {
+      "qa": "market-type-id-1000678",
+      "selections": [],
+      "text": "Santi Comesana Faltas ganadas",
+      "title": "Santi Comesana Faltas ganadas"
+    },
+    {
+      "qa": "market-type-id-1000678",
+      "selections": [],
+      "text": "Alassane Diatta Faltas ganadas",
+      "title": "Alassane Diatta Faltas ganadas"
+    },
+    {
+      "qa": "market-type-id-1000678",
+      "selections": [],
+      "text": "Pape Gueye Faltas ganadas",
+      "title": "Pape Gueye Faltas ganadas"
+    },
+    {
+      "qa": "market-type-id-1000678",
+      "selections": [],
+      "text": "Carlos Macia Faltas ganadas",
+      "title": "Carlos Macia Faltas ganadas"
+    },
+    {
+      "qa": "market-type-id-1000678",
+      "selections": [],
+      "text": "Nathan-Dylan Saliba Faltas ganadas",
+      "title": "Nathan-Dylan Saliba Faltas ganadas"
+    },
+    {
+      "qa": "market-type-id-1000678",
+      "selections": [],
+      "text": "Renato Veiga Faltas ganadas",
+      "title": "Renato Veiga Faltas ganadas"
+    },
+    {
+      "qa": "market-type-id-1000678",
+      "selections": [],
+      "text": "Logan Costa Faltas ganadas",
+      "title": "Logan Costa Faltas ganadas"
+    },
+    {
+      "qa": "market-type-id-1000678",
+      "selections": [],
+      "text": "Juan Foyth Faltas ganadas",
+      "title": "Juan Foyth Faltas ganadas"
+    },
+    {
+      "qa": "market-type-id-1000678",
+      "selections": [],
+      "text": "Alex Freeman Faltas ganadas",
+      "title": "Alex Freeman Faltas ganadas"
+    },
+    {
+      "qa": "market-type-id-1000678",
+      "selections": [],
+      "text": "Carlos Romero Faltas ganadas",
+      "title": "Carlos Romero Faltas ganadas"
+    },
+    {
+      "qa": "market-type-id-1000678",
+      "selections": [],
+      "text": "Santiago Mourino Faltas ganadas",
+      "title": "Santiago Mourino Faltas ganadas"
+    },
+    {
+      "qa": "market-type-id-1000678",
+      "selections": [],
+      "text": "Pau Navarro Faltas ganadas",
+      "title": "Pau Navarro Faltas ganadas"
+    },
+    {
+      "qa": "market-type-id-1000678",
+      "selections": [],
+      "text": "Sergi Cardona Faltas ganadas",
+      "title": "Sergi Cardona Faltas ganadas"
+    },
+    {
+      "qa": "market-type-id-1000678",
+      "selections": [],
+      "text": "Alberto Moleiro Faltas ganadas",
+      "title": "Alberto Moleiro Faltas ganadas"
+    },
+    {
+      "qa": "market-type-id-1000678",
+      "selections": [],
+      "text": "Joselillo Gaitan Faltas ganadas",
+      "title": "Joselillo Gaitan Faltas ganadas"
+    },
+    {
+      "qa": "market-type-id-1000678",
+      "selections": [],
+      "text": "Nicolas Pepe Faltas ganadas",
+      "title": "Nicolas Pepe Faltas ganadas"
+    },
+    {
+      "qa": "market-type-id-1000678",
+      "selections": [],
+      "text": "Cheikh Thiam Faltas ganadas",
+      "title": "Cheikh Thiam Faltas ganadas"
+    },
+    {
+      "qa": "market-type-id-83",
+      "selections": [],
+      "text": "El jugador marca en ambos tiempos",
+      "title": "El jugador marca en ambos tiempos"
+    },
+    {
+      "qa": "market-type-id-542",
+      "selections": [],
+      "text": "El jugador golpea al palo",
+      "title": "El jugador golpea al palo"
+    },
+    {
+      "qa": "market-type-id-342",
+      "selections": [],
+      "text": "Anota de cabezazo",
+      "title": "Anota de cabezazo"
+    },
+    {
+      "qa": "market-type-id-5306",
+      "selections": [],
+      "text": "Primer goleador del equipo local",
+      "title": "Primer goleador del equipo local"
+    },
+    {
+      "qa": "market-type-id-5307",
+      "selections": [],
+      "text": "Primer goleador del equipo visitante",
+      "title": "Primer goleador del equipo visitante"
+    },
+    {
+      "qa": "market-type-id-33",
+      "selections": [],
+      "text": "Córners - Triple",
+      "title": "Córners - Triple"
+    },
+    {
+      "qa": "market-type-id-48",
+      "selections": [],
+      "text": "Córners cronometrados Más/Menos (00:00 - 09:59)",
+      "title": "Córners cronometrados Más/Menos (00:00 - 09:59)"
+    },
+    {
+      "qa": "market-type-id-48",
+      "selections": [],
+      "text": "Córners cronometrados Más/Menos (00:00 - 09:59)",
+      "title": "Córners cronometrados Más/Menos (00:00 - 09:59)"
+    },
+    {
+      "qa": "market-type-id-5016",
+      "selections": [],
+      "text": "Liverpool FC Córners cronometrados Más/Menos (00:00 - 09:59)",
+      "title": "Liverpool FC Córners cronometrados Más/Menos (00:00 - 09:59)"
+    },
+    {
+      "qa": "market-type-id-5017",
+      "selections": [],
+      "text": "Villarreal CF Córners cronometrados Más/Menos (00:00 - 09:59)",
+      "title": "Villarreal CF Córners cronometrados Más/Menos (00:00 - 09:59)"
+    },
+    {
+      "qa": "market-type-id-45",
+      "selections": [],
+      "text": "Primer Tiempo Equipo con más Córners",
+      "title": "Primer Tiempo Equipo con más Córners"
+    },
+    {
+      "qa": "market-type-id-41",
+      "selections": [],
+      "text": "Primer Tiempo Liverpool FC Más/Menos Córners",
+      "title": "Primer Tiempo Liverpool FC Más/Menos Córners"
+    },
+    {
+      "qa": "market-type-id-42",
+      "selections": [],
+      "text": "Primer Tiempo Villarreal CF Más/Menos Córners",
+      "title": "Primer Tiempo Villarreal CF Más/Menos Córners"
+    },
+    {
+      "qa": "market-type-id-36",
+      "selections": [],
+      "text": "Córners del Primer Tiempo - Triples",
+      "title": "Córners del Primer Tiempo - Triples"
+    },
+    {
+      "qa": "market-type-id-38",
+      "selections": [],
+      "text": "Córners en Segundo Tiempo Más/Menos",
+      "title": "Córners en Segundo Tiempo Más/Menos"
+    },
+    {
+      "qa": "market-type-id-44",
+      "selections": [],
+      "text": "Equipo con más Córners",
+      "title": "Equipo con más Córners"
+    },
+    {
+      "qa": "market-type-id-46",
+      "selections": [],
+      "text": "Carrera a X córners",
+      "title": "Carrera a X córners"
+    },
+    {
+      "qa": "market-type-id-32",
+      "selections": [],
+      "text": "Equipo del siguiente córner (Córner 1)",
+      "title": "Equipo del siguiente córner (Córner 1)"
+    },
+    {
+      "qa": "market-type-id-1000617",
+      "selections": [],
+      "text": "Asiático (Más/Menos) Total de Córners",
+      "title": "Asiático (Más/Menos) Total de Córners"
+    },
+    {
+      "qa": "market-type-id-1000619",
+      "selections": [],
+      "text": "Asiático (Más/Menos) - Córners Totales en el Primer Tiempo",
+      "title": "Asiático (Más/Menos) - Córners Totales en el Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-43",
+      "selections": [],
+      "text": "Hándicap de Córners - (2 bandas)",
+      "title": "Hándicap de Córners - (2 bandas)"
+    },
+    {
+      "qa": "market-type-id-201",
+      "selections": [],
+      "text": "Hándicap de Córners - Triples",
+      "title": "Hándicap de Córners - Triples"
+    },
+    {
+      "qa": "market-type-id-271",
+      "selections": [],
+      "text": "Tiempo con Más Córners",
+      "title": "Tiempo con Más Córners"
+    },
+    {
+      "qa": "market-type-id-35",
+      "selections": [],
+      "text": "Total de Córners",
+      "title": "Total de Córners"
+    },
+    {
+      "qa": "market-type-id-4017",
+      "selections": [],
+      "text": "Rangos de Córner",
+      "title": "Rangos de Córner"
+    },
+    {
+      "qa": "market-type-id-4015",
+      "selections": [],
+      "text": "Córners Marcador Correcto",
+      "title": "Córners Marcador Correcto"
+    },
+    {
+      "qa": "market-type-id-68",
+      "selections": [],
+      "text": "Liverpool FC Tarjetas Totales Más/Menos",
+      "title": "Liverpool FC Tarjetas Totales Más/Menos"
+    },
+    {
+      "qa": "market-type-id-69",
+      "selections": [],
+      "text": "Villarreal CF Tarjetas Totales Más/Menos",
+      "title": "Villarreal CF Tarjetas Totales Más/Menos"
+    },
+    {
+      "qa": "market-type-id-67",
+      "selections": [],
+      "text": "Hándicap - Tarjetas",
+      "title": "Hándicap - Tarjetas"
+    },
+    {
+      "qa": "market-type-id-168",
+      "selections": [],
+      "text": "Equipo con más tarjetas",
+      "title": "Equipo con más tarjetas"
+    },
+    {
+      "qa": "market-type-id-51",
+      "selections": [],
+      "text": "Liverpool FC Tarjeta roja",
+      "title": "Liverpool FC Tarjeta roja"
+    },
+    {
+      "qa": "market-type-id-52",
+      "selections": [],
+      "text": "Villarreal CF Tarjeta roja",
+      "title": "Villarreal CF Tarjeta roja"
+    },
+    {
+      "qa": "market-type-id-70",
+      "selections": [],
+      "text": "Primera tarjeta antes de 32:00",
+      "title": "Primera tarjeta antes de 32:00"
+    },
+    {
+      "qa": "market-type-id-64",
+      "selections": [],
+      "text": "Equipo que Recibe la Próxima Amonestación 1",
+      "title": "Equipo que Recibe la Próxima Amonestación 1"
+    },
+    {
+      "qa": "market-type-id-4155",
+      "selections": [],
+      "text": "Liverpool FC Total de Tarjetas en el Primer Tiempo (Más/Menos)",
+      "title": "Liverpool FC Total de Tarjetas en el Primer Tiempo (Más/Menos)"
+    },
+    {
+      "qa": "market-type-id-4156",
+      "selections": [],
+      "text": "Villarreal CF Total de Tarjetas en el Primer Tiempo (Más/Menos)",
+      "title": "Villarreal CF Total de Tarjetas en el Primer Tiempo (Más/Menos)"
+    },
+    {
+      "qa": "market-type-id-4022",
+      "selections": [],
+      "text": "Carrera a X Tarjetas",
+      "title": "Carrera a X Tarjetas"
+    },
+    {
+      "qa": "market-type-id-5014",
+      "selections": [],
+      "text": "Tarjeta mostrada en ambos tiempos",
+      "title": "Tarjeta mostrada en ambos tiempos"
+    },
+    {
+      "qa": "market-type-id-4024",
+      "selections": [],
+      "text": "Ambos equipos reciben una tarjeta en ambos tiempos",
+      "title": "Ambos equipos reciben una tarjeta en ambos tiempos"
+    },
+    {
+      "qa": "market-type-id-4157",
+      "selections": [],
+      "text": "Liverpool FC Segundo Tiempo Tarjetas Totales Mas/Menos",
+      "title": "Liverpool FC Segundo Tiempo Tarjetas Totales Mas/Menos"
+    },
+    {
+      "qa": "market-type-id-4158",
+      "selections": [],
+      "text": "Villarreal CF Segundo Tiempo Tarjetas Totales Mas/Menos",
+      "title": "Villarreal CF Segundo Tiempo Tarjetas Totales Mas/Menos"
+    },
+    {
+      "qa": "market-type-id-1000618",
+      "selections": [],
+      "text": "Asiático (Más/Menos) Tarjetas totales",
+      "title": "Asiático (Más/Menos) Tarjetas totales"
+    },
+    {
+      "qa": "market-type-id-1000620",
+      "selections": [],
+      "text": "Asiático (Más/Menos) - Total de Tarjetas en la Primera Mitad",
+      "title": "Asiático (Más/Menos) - Total de Tarjetas en la Primera Mitad"
+    },
+    {
+      "qa": "market-type-id-53",
+      "selections": [],
+      "text": "Tarjeta roja Primer Tiempo",
+      "title": "Tarjeta roja Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-55",
+      "selections": [],
+      "text": "Tarjeta roja y Penal concedido",
+      "title": "Tarjeta roja y Penal concedido"
+    },
+    {
+      "qa": "market-type-id-3965",
+      "selections": [],
+      "text": "Tarjeta roja o Penal concedido",
+      "title": "Tarjeta roja o Penal concedido"
+    },
+    {
+      "qa": "market-type-id-50",
+      "selections": [],
+      "text": "Tarjeta Roja Directa",
+      "title": "Tarjeta Roja Directa"
+    },
+    {
+      "qa": "market-type-id-586",
+      "selections": [],
+      "text": "Próximo equipo en recibir la tarjeta roja",
+      "title": "Próximo equipo en recibir la tarjeta roja"
+    },
+    {
+      "qa": "market-type-id-293",
+      "selections": [],
+      "text": "Tarjeta cronometrada (Más/Menos) (00:00 - 09:59)",
+      "title": "Tarjeta cronometrada (Más/Menos) (00:00 - 09:59)"
+    },
+    {
+      "qa": "market-type-id-2781",
+      "selections": [],
+      "text": "Liverpool FC Puntos de Tarjetas en 1er Tiempo",
+      "title": "Liverpool FC Puntos de Tarjetas en 1er Tiempo"
+    },
+    {
+      "qa": "market-type-id-2782",
+      "selections": [],
+      "text": "Villarreal CF Puntos de Tarjetas en 1er Tiempo",
+      "title": "Villarreal CF Puntos de Tarjetas en 1er Tiempo"
+    },
+    {
+      "qa": "market-type-id-71",
+      "selections": [],
+      "text": "Último equipo con tarjeta",
+      "title": "Último equipo con tarjeta"
+    },
+    {
+      "qa": "market-type-id-4023",
+      "selections": [],
+      "text": "Rangos de Tarjetas",
+      "title": "Rangos de Tarjetas"
+    },
+    {
+      "qa": "market-type-id-4021",
+      "selections": [],
+      "text": "Tarjetas de medio tiempo/tiempo completo",
+      "title": "Tarjetas de medio tiempo/tiempo completo"
+    },
+    {
+      "qa": "market-type-id-4020",
+      "selections": [],
+      "text": "Tarjetas Marcador Correcto",
+      "title": "Tarjetas Marcador Correcto"
+    },
+    {
+      "qa": "market-type-id-4160",
+      "selections": [
+        {
+          "aria": "Bet on Más de 18.5 with odds 1.65.",
+          "text": "Más de\n18.5\n1.65"
+        },
+        {
+          "aria": "Bet on Menos 18.5 with odds 2.15.",
+          "text": "Menos\n18.5\n2.15"
+        },
+        {
+          "aria": "Bet on Más de 19.5 with odds 1.93.",
+          "text": "Más de\n19.5\n1.93"
+        },
+        {
+          "aria": "Bet on Menos 19.5 with odds 1.82.",
+          "text": "Menos\n19.5\n1.82"
+        },
+        {
+          "aria": "Bet on Más de 20.5 with odds 2.3.",
+          "text": "Más de\n20.5\n2.30"
+        },
+        {
+          "aria": "Bet on Menos 20.5 with odds 1.57.",
+          "text": "Menos\n20.5\n1.57"
+        }
+      ],
+      "text": "Liverpool FC Remates totales\nMás de\n18.5\n1.65\nMenos\n18.5\n2.15\nMás de\n19.5\n1.93\nMenos\n19.5\n1.82\nMás de\n20.5\n2.30\nMenos\n20.5\n1.57",
+      "title": "Liverpool FC Remates totales"
+    },
+    {
+      "qa": "market-type-id-4161",
+      "selections": [
+        {
+          "aria": "Bet on Más de 9.5 with odds 1.57.",
+          "text": "Más de\n9.5\n1.57"
+        },
+        {
+          "aria": "Bet on Menos 9.5 with odds 2.3.",
+          "text": "Menos\n9.5\n2.30"
+        },
+        {
+          "aria": "Bet on Más de 10.5 with odds 1.95.",
+          "text": "Más de\n10.5\n1.95"
+        },
+        {
+          "aria": "Bet on Menos 10.5 with odds 1.8.",
+          "text": "Menos\n10.5\n1.80"
+        },
+        {
+          "aria": "Bet on Más de 11.5 with odds 2.5.",
+          "text": "Más de\n11.5\n2.50"
+        },
+        {
+          "aria": "Bet on Menos 11.5 with odds 1.5.",
+          "text": "Menos\n11.5\n1.50"
+        }
+      ],
+      "text": "Villarreal CF Remates totales\nMás de\n9.5\n1.57\nMenos\n9.5\n2.30\nMás de\n10.5\n1.95\nMenos\n10.5\n1.80\nMás de\n11.5\n2.50\nMenos\n11.5\n1.50",
+      "title": "Villarreal CF Remates totales"
+    },
+    {
+      "qa": "market-type-id-5344",
+      "selections": [],
+      "text": "Rangos de Tiros al Arco",
+      "title": "Rangos de Tiros al Arco"
+    },
+    {
+      "qa": "market-type-id-4629",
+      "selections": [
+        {
+          "aria": "Bet on Más de 22.5 with odds 1.93.",
+          "text": "Más de\n22.5\n1.93"
+        },
+        {
+          "aria": "Bet on Menos 22.5 with odds 1.82.",
+          "text": "Menos\n22.5\n1.82"
+        }
+      ],
+      "text": "Total de Faltas Cometidas\nMás de\n22.5\n1.93\nMenos\n22.5\n1.82",
+      "title": "Total de Faltas Cometidas"
+    },
+    {
+      "qa": "market-type-id-536",
+      "selections": [
+        {
+          "aria": "Bet on Más de 10.5 with odds 1.75.",
+          "text": "Más de\n10.5\n1.75"
+        },
+        {
+          "aria": "Bet on Menos 10.5 with odds 2.02.",
+          "text": "Menos\n10.5\n2.02"
+        }
+      ],
+      "text": "Liverpool FC Total de Faltas Cometidas\nMás de\n10.5\n1.75\nMenos\n10.5\n2.02",
+      "title": "Liverpool FC Total de Faltas Cometidas"
+    },
+    {
+      "qa": "market-type-id-493",
+      "selections": [
+        {
+          "aria": "Bet on Más de 11.5 with odds 1.93.",
+          "text": "Más de\n11.5\n1.93"
+        },
+        {
+          "aria": "Bet on Menos 11.5 with odds 1.8.",
+          "text": "Menos\n11.5\n1.80"
+        }
+      ],
+      "text": "Villarreal CF Total de Faltas Cometidas\nMás de\n11.5\n1.93\nMenos\n11.5\n1.80",
+      "title": "Villarreal CF Total de Faltas Cometidas"
+    },
+    {
+      "qa": "market-type-id-351",
+      "selections": [],
+      "text": "Total de Offsides",
+      "title": "Total de Offsides"
+    },
+    {
+      "qa": "market-type-id-436",
+      "selections": [],
+      "text": "Liverpool FC Total de Offsides",
+      "title": "Liverpool FC Total de Offsides"
+    },
+    {
+      "qa": "market-type-id-437",
+      "selections": [],
+      "text": "Villarreal CF Total de Offsides",
+      "title": "Villarreal CF Total de Offsides"
+    },
+    {
+      "qa": "market-type-id-457",
+      "selections": [],
+      "text": "Palo",
+      "title": "Palo"
+    },
+    {
+      "qa": "market-type-id-4115",
+      "selections": [],
+      "text": "Hándicap - Tiros al Arco 2-Way",
+      "title": "Hándicap - Tiros al Arco 2-Way"
+    },
+    {
+      "qa": "market-type-id-4108",
+      "selections": [],
+      "text": "Primer Tiempo Tiros al Arco",
+      "title": "Primer Tiempo Tiros al Arco"
+    },
+    {
+      "qa": "market-type-id-643",
+      "selections": [],
+      "text": "Total de Saques de meta",
+      "title": "Total de Saques de meta"
+    },
+    {
+      "qa": "market-type-id-4165",
+      "selections": [],
+      "text": "Liverpool FC Total de Saques de meta",
+      "title": "Liverpool FC Total de Saques de meta"
+    },
+    {
+      "qa": "market-type-id-4166",
+      "selections": [],
+      "text": "Villarreal CF Total de Saques de meta",
+      "title": "Villarreal CF Total de Saques de meta"
+    },
+    {
+      "qa": "market-type-id-460",
+      "selections": [],
+      "text": "Total de Saques de banda",
+      "title": "Total de Saques de banda"
+    },
+    {
+      "qa": "market-type-id-4167",
+      "selections": [],
+      "text": "Liverpool FC Total de Saques de banda",
+      "title": "Liverpool FC Total de Saques de banda"
+    },
+    {
+      "qa": "market-type-id-4168",
+      "selections": [],
+      "text": "Villarreal CF Total de Saques de banda",
+      "title": "Villarreal CF Total de Saques de banda"
+    },
+    {
+      "qa": "market-type-id-439",
+      "selections": [],
+      "text": "Total de pases",
+      "title": "Total de pases"
+    },
+    {
+      "qa": "market-type-id-1000113",
+      "selections": [],
+      "text": "Liverpool FC Total de pases",
+      "title": "Liverpool FC Total de pases"
+    },
+    {
+      "qa": "market-type-id-1000114",
+      "selections": [],
+      "text": "Villarreal CF Total de pases",
+      "title": "Villarreal CF Total de pases"
+    },
+    {
+      "qa": "market-type-id-644",
+      "selections": [],
+      "text": "Tackles totales",
+      "title": "Tackles totales"
+    },
+    {
+      "qa": "market-type-id-1000111",
+      "selections": [],
+      "text": "Liverpool FC Tackles totales",
+      "title": "Liverpool FC Tackles totales"
+    },
+    {
+      "qa": "market-type-id-1000112",
+      "selections": [],
+      "text": "Villarreal CF Tackles totales",
+      "title": "Villarreal CF Tackles totales"
+    },
+    {
+      "qa": "market-type-id-4114",
+      "selections": [],
+      "text": "Hándicap - Total de Offsides",
+      "title": "Hándicap - Total de Offsides"
+    },
+    {
+      "qa": "market-type-id-4111",
+      "selections": [],
+      "text": "Hándicap - Total de Saques de meta",
+      "title": "Hándicap - Total de Saques de meta"
+    },
+    {
+      "qa": "market-type-id-4104",
+      "selections": [],
+      "text": "Primer Tiempo Total de Saques de meta",
+      "title": "Primer Tiempo Total de Saques de meta"
+    },
+    {
+      "qa": "market-type-id-4113",
+      "selections": [],
+      "text": "Hándicap - Total de Saques de banda",
+      "title": "Hándicap - Total de Saques de banda"
+    },
+    {
+      "qa": "market-type-id-4106",
+      "selections": [],
+      "text": "Primer Tiempo Total de Saques de banda",
+      "title": "Primer Tiempo Total de Saques de banda"
+    },
+    {
+      "qa": "market-type-id-583",
+      "selections": [],
+      "text": "Primer Remate a portería",
+      "title": "Primer Remate a portería"
+    },
+    {
+      "qa": "market-type-id-627",
+      "selections": [],
+      "text": "Primer Offside",
+      "title": "Primer Offside"
+    },
+    {
+      "qa": "market-type-id-625",
+      "selections": [],
+      "text": "Primer Saque de meta",
+      "title": "Primer Saque de meta"
+    },
+    {
+      "qa": "market-type-id-355",
+      "selections": [],
+      "text": "Primer Saque de banda",
+      "title": "Primer Saque de banda"
+    },
+    {
+      "qa": "market-type-id-113",
+      "selections": [],
+      "text": "Primer Tiempo - Doble Oportunidad",
+      "title": "Primer Tiempo - Doble Oportunidad"
+    },
+    {
+      "qa": "market-type-id-407",
+      "selections": [],
+      "text": "Hándicap Primer Tiempo",
+      "title": "Hándicap Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-144",
+      "selections": [],
+      "text": "Gana cualquiera de los tiempos",
+      "title": "Gana cualquiera de los tiempos"
+    },
+    {
+      "qa": "market-type-id-92",
+      "selections": [],
+      "text": "Resultado Primer tiempo o Tiempo Completo",
+      "title": "Resultado Primer tiempo o Tiempo Completo"
+    },
+    {
+      "qa": "market-type-id-93",
+      "selections": [],
+      "text": "Primer Tiempo/Tiempo Completo - Doble oportunidad",
+      "title": "Primer Tiempo/Tiempo Completo - Doble oportunidad"
+    },
+    {
+      "qa": "market-type-id-12",
+      "selections": [],
+      "text": "Próximo gol en Primer Tiempo (Gol 1)",
+      "title": "Próximo gol en Primer Tiempo (Gol 1)"
+    },
+    {
+      "qa": "market-type-id-114",
+      "selections": [],
+      "text": "Ambos Equipos Anotan en el Primer Tiempo",
+      "title": "Ambos Equipos Anotan en el Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-118",
+      "selections": [],
+      "text": "Marcador correcto en el primer tiempo",
+      "title": "Marcador correcto en el primer tiempo"
+    },
+    {
+      "qa": "market-type-id-112",
+      "selections": [],
+      "text": "Apuesta sin Empate Medio Tiempo",
+      "title": "Apuesta sin Empate Medio Tiempo"
+    },
+    {
+      "qa": "market-type-id-141",
+      "selections": [],
+      "text": "Gol anotado en ambos tiempos",
+      "title": "Gol anotado en ambos tiempos"
+    },
+    {
+      "qa": "market-type-id-138",
+      "selections": [],
+      "text": "Ambos Equipos Anotan en el Primer Tiempo/Segundo Tiempo",
+      "title": "Ambos Equipos Anotan en el Primer Tiempo/Segundo Tiempo"
+    },
+    {
+      "qa": "market-type-id-107",
+      "selections": [],
+      "text": "Tiempo con Más Goles",
+      "title": "Tiempo con Más Goles"
+    },
+    {
+      "qa": "market-type-id-434",
+      "selections": [],
+      "text": "Liverpool FC Gana Ambos Tiempos",
+      "title": "Liverpool FC Gana Ambos Tiempos"
+    },
+    {
+      "qa": "market-type-id-431",
+      "selections": [],
+      "text": "Villarreal CF Gana Ambos Tiempos",
+      "title": "Villarreal CF Gana Ambos Tiempos"
+    },
+    {
+      "qa": "market-type-id-133",
+      "selections": [],
+      "text": "Resultado Segundo Tiempo",
+      "title": "Resultado Segundo Tiempo"
+    },
+    {
+      "qa": "market-type-id-134",
+      "selections": [],
+      "text": "Segundo Tiempo - Doble Oportunidad",
+      "title": "Segundo Tiempo - Doble Oportunidad"
+    },
+    {
+      "qa": "market-type-id-137",
+      "selections": [],
+      "text": "Ambos equipos anotan en el Segundo Tiempo",
+      "title": "Ambos equipos anotan en el Segundo Tiempo"
+    },
+    {
+      "qa": "market-type-id-120",
+      "selections": [],
+      "text": "Primer Tiempo Liverpool FC Total de Goles Exactos",
+      "title": "Primer Tiempo Liverpool FC Total de Goles Exactos"
+    },
+    {
+      "qa": "market-type-id-121",
+      "selections": [],
+      "text": "Primer Tiempo Villarreal CF Total de Goles Exactos",
+      "title": "Primer Tiempo Villarreal CF Total de Goles Exactos"
+    },
+    {
+      "qa": "market-type-id-4049",
+      "selections": [],
+      "text": "Segundo Tiempo - Más/Menos Total de Goles Liverpool FC",
+      "title": "Segundo Tiempo - Más/Menos Total de Goles Liverpool FC"
+    },
+    {
+      "qa": "market-type-id-4050",
+      "selections": [],
+      "text": "Segundo Tiempo - Más/Menos Total de Goles Villarreal CF",
+      "title": "Segundo Tiempo - Más/Menos Total de Goles Villarreal CF"
+    },
+    {
+      "qa": "market-type-id-110",
+      "selections": [],
+      "text": "Total de goles en el Primer Tiempo",
+      "title": "Total de goles en el Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-4684",
+      "selections": [],
+      "text": "Rango de Total de goles Primer Tiempo",
+      "title": "Rango de Total de goles Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-574",
+      "selections": [],
+      "text": "Medio Tiempo/Tiempo Completo y Más/Menos Goles",
+      "title": "Medio Tiempo/Tiempo Completo y Más/Menos Goles"
+    },
+    {
+      "qa": "market-type-id-574",
+      "selections": [],
+      "text": "Medio Tiempo/Tiempo Completo y Más/Menos Goles",
+      "title": "Medio Tiempo/Tiempo Completo y Más/Menos Goles"
+    },
+    {
+      "qa": "market-type-id-574",
+      "selections": [],
+      "text": "Medio Tiempo/Tiempo Completo y Más/Menos Goles",
+      "title": "Medio Tiempo/Tiempo Completo y Más/Menos Goles"
+    },
+    {
+      "qa": "market-type-id-24",
+      "selections": [],
+      "text": "Resultado del partido con Más/Menos (1.5)",
+      "title": "Resultado del partido con Más/Menos (1.5)"
+    },
+    {
+      "qa": "market-type-id-24",
+      "selections": [],
+      "text": "Resultado del partido con Más/Menos (2.5)",
+      "title": "Resultado del partido con Más/Menos (2.5)"
+    },
+    {
+      "qa": "market-type-id-24",
+      "selections": [],
+      "text": "Resultado del partido con Más/Menos (3.5)",
+      "title": "Resultado del partido con Más/Menos (3.5)"
+    },
+    {
+      "qa": "market-type-id-24",
+      "selections": [],
+      "text": "Resultado del partido con Más/Menos (4.5)",
+      "title": "Resultado del partido con Más/Menos (4.5)"
+    },
+    {
+      "qa": "market-type-id-24",
+      "selections": [],
+      "text": "Resultado del partido con Más/Menos (5.5)",
+      "title": "Resultado del partido con Más/Menos (5.5)"
+    },
+    {
+      "qa": "market-type-id-26",
+      "selections": [],
+      "text": "Doble Oportunidad con Más/Menos (1.5)",
+      "title": "Doble Oportunidad con Más/Menos (1.5)"
+    },
+    {
+      "qa": "market-type-id-26",
+      "selections": [],
+      "text": "Doble Oportunidad con Más/Menos (2.5)",
+      "title": "Doble Oportunidad con Más/Menos (2.5)"
+    },
+    {
+      "qa": "market-type-id-26",
+      "selections": [],
+      "text": "Doble Oportunidad con Más/Menos (3.5)",
+      "title": "Doble Oportunidad con Más/Menos (3.5)"
+    },
+    {
+      "qa": "market-type-id-26",
+      "selections": [],
+      "text": "Doble Oportunidad con Más/Menos (4.5)",
+      "title": "Doble Oportunidad con Más/Menos (4.5)"
+    },
+    {
+      "qa": "market-type-id-26",
+      "selections": [],
+      "text": "Doble Oportunidad con Más/Menos (5.5)",
+      "title": "Doble Oportunidad con Más/Menos (5.5)"
+    },
+    {
+      "qa": "market-type-id-23",
+      "selections": [],
+      "text": "Ambos Anotan y Más/Menos (2.5)",
+      "title": "Ambos Anotan y Más/Menos (2.5)"
+    },
+    {
+      "qa": "market-type-id-23",
+      "selections": [],
+      "text": "Ambos Anotan y Más/Menos (3.5)",
+      "title": "Ambos Anotan y Más/Menos (3.5)"
+    },
+    {
+      "qa": "market-type-id-23",
+      "selections": [],
+      "text": "Ambos Anotan y Más/Menos (4.5)",
+      "title": "Ambos Anotan y Más/Menos (4.5)"
+    },
+    {
+      "qa": "market-type-id-23",
+      "selections": [],
+      "text": "Ambos Anotan y Más/Menos (5.5)",
+      "title": "Ambos Anotan y Más/Menos (5.5)"
+    },
+    {
+      "qa": "market-type-id-20",
+      "selections": [],
+      "text": "Resultado del partido / Ambos Equipos Anotan",
+      "title": "Resultado del partido / Ambos Equipos Anotan"
+    },
+    {
+      "qa": "market-type-id-25",
+      "selections": [],
+      "text": "Doble oportunidad / Ambos equipos anotan",
+      "title": "Doble oportunidad / Ambos equipos anotan"
+    },
+    {
+      "qa": "market-type-id-532",
+      "selections": [],
+      "text": "Qué ocurrirá primero en el partido - Primer Tiempo",
+      "title": "Qué ocurrirá primero en el partido - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-56",
+      "selections": [],
+      "text": "Penal concedido",
+      "title": "Penal concedido"
+    },
+    {
+      "qa": "market-type-id-124",
+      "selections": [],
+      "text": "Tiempo del Primer Gol Menos/Más 28 minutos",
+      "title": "Tiempo del Primer Gol Menos/Más 28 minutos"
+    },
+    {
+      "qa": "market-type-id-384",
+      "selections": [],
+      "text": "Liverpool FC anota en ambos tiempos",
+      "title": "Liverpool FC anota en ambos tiempos"
+    },
+    {
+      "qa": "market-type-id-364",
+      "selections": [],
+      "text": "Villarreal CF anota en ambos tiempos",
+      "title": "Villarreal CF anota en ambos tiempos"
+    },
+    {
+      "qa": "market-type-id-72",
+      "selections": [],
+      "text": "Autogol",
+      "title": "Autogol"
+    },
+    {
+      "qa": "market-type-id-96",
+      "selections": [],
+      "text": "Margen del Triunfo",
+      "title": "Margen del Triunfo"
+    },
+    {
+      "qa": "market-type-id-58",
+      "selections": [],
+      "text": "Penal concedido Primer Tiempo",
+      "title": "Penal concedido Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-59",
+      "selections": [],
+      "text": "Equipo que Anota un Penal",
+      "title": "Equipo que Anota un Penal"
+    },
+    {
+      "qa": "market-type-id-60",
+      "selections": [],
+      "text": "Equipo que falla un penal",
+      "title": "Equipo que falla un penal"
+    },
+    {
+      "qa": "market-type-id-5025",
+      "selections": [],
+      "text": "Liverpool FC Penal concedido",
+      "title": "Liverpool FC Penal concedido"
+    },
+    {
+      "qa": "market-type-id-5026",
+      "selections": [],
+      "text": "Villarreal CF Penal concedido",
+      "title": "Villarreal CF Penal concedido"
+    },
+    {
+      "qa": "market-type-id-57",
+      "selections": [],
+      "text": "Dos penales concedidos",
+      "title": "Dos penales concedidos"
+    },
+    {
+      "qa": "market-type-id-61",
+      "selections": [],
+      "text": "Ambos equipos ganan un penal",
+      "title": "Ambos equipos ganan un penal"
+    },
+    {
+      "qa": "market-type-id-102",
+      "selections": [],
+      "text": "Curso del juego",
+      "title": "Curso del juego"
+    },
+    {
+      "qa": "market-type-id-270",
+      "selections": [],
+      "text": "Liverpool FC Gana luego de ir perdiendo",
+      "title": "Liverpool FC Gana luego de ir perdiendo"
+    },
+    {
+      "qa": "market-type-id-196",
+      "selections": [],
+      "text": "Villarreal CF Gana luego de ir perdiendo",
+      "title": "Villarreal CF Gana luego de ir perdiendo"
+    },
+    {
+      "qa": "market-type-id-5015",
+      "selections": [],
+      "text": "Resultado del partido o Ambos equipos anotan",
+      "title": "Resultado del partido o Ambos equipos anotan"
+    },
+    {
+      "qa": "market-type-id-5249",
+      "selections": [],
+      "text": "Resultado del partido o Goles totales Más/Menos 2.5",
+      "title": "Resultado del partido o Goles totales Más/Menos 2.5"
+    },
+    {
+      "qa": "market-type-id-18",
+      "selections": [],
+      "text": "Marcador correcto (múltiple)",
+      "title": "Marcador correcto (múltiple)"
+    },
+    {
+      "qa": "market-type-id-19",
+      "selections": [],
+      "text": "Marcador Correcto - Sin Perder",
+      "title": "Marcador Correcto - Sin Perder"
+    },
+    {
+      "qa": "market-type-id-147",
+      "selections": [],
+      "text": "Marcador correcto Primer tiempo/Tiempo completo",
+      "title": "Marcador correcto Primer tiempo/Tiempo completo"
+    },
+    {
+      "qa": "market-type-id-185",
+      "selections": [
+        {
+          "aria": "Bet on Liverpool FC -2.0 with odds 3.2.",
+          "text": "Liverpool FC\n-2.0\n3.20"
+        },
+        {
+          "aria": "Bet on Villarreal CF +2.0 with odds 1.37.",
+          "text": "Villarreal CF\n+2.0\n1.37"
+        },
+        {
+          "aria": "Bet on Liverpool FC -1.5 with odds 2.22.",
+          "text": "Liverpool FC\n-1.5\n2.22"
+        },
+        {
+          "aria": "Bet on Villarreal CF +1.5 with odds 1.7.",
+          "text": "Villarreal CF\n+1.5\n1.70"
+        },
+        {
+          "aria": "Bet on Liverpool FC -1.0 with odds 1.75.",
+          "text": "Liverpool FC\n-1.0\n1.75"
+        },
+        {
+          "aria": "Bet on Villarreal CF +1.0 with odds 2.15.",
+          "text": "Villarreal CF\n+1.0\n2.15"
+        },
+        {
+          "aria": "Bet on Liverpool FC -0.5 with odds 1.5.",
+          "text": "Liverpool FC\n-0.5\n1.50"
+        },
+        {
+          "aria": "Bet on Villarreal CF +0.5 with odds 2.7.",
+          "text": "Villarreal CF\n+0.5\n2.70"
+        }
+      ],
+      "text": "Hándicap Asiático (Resultado actual 0 - 0)\nLiverpool FC\n-2.0\n3.20\nVillarreal CF\n+2.0\n1.37\nLiverpool FC\n-1.5\n2.22\nVillarreal CF\n+1.5\n1.70\nLiverpool FC\n-1.0\n1.75\nVillarreal CF\n+1.0\n2.15\nLiverpool FC\n-0.5\n1.50\nVillarreal CF\n+0.5\n2.70\nMOSTRAR MENOS",
+      "title": "Hándicap Asiático (Resultado actual 0 - 0)"
+    },
+    {
+      "qa": "market-type-id-189",
+      "selections": [],
+      "text": "Asiático (Más/Menos) Total de goles",
+      "title": "Asiático (Más/Menos) Total de goles"
+    },
+    {
+      "qa": "market-type-id-186",
+      "selections": [],
+      "text": "Hándicap Asiático - Primer Tiempo (Resultado actual 0 - 0)",
+      "title": "Hándicap Asiático - Primer Tiempo (Resultado actual 0 - 0)"
+    },
+    {
+      "qa": "market-type-id-395",
+      "selections": [],
+      "text": "Asiático (Más/Menos) - Total de goles en el Primer Tiempo",
+      "title": "Asiático (Más/Menos) - Total de goles en el Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-122",
+      "selections": [],
+      "text": "Primer gol antes 24:00",
+      "title": "Primer gol antes 24:00"
+    },
+    {
+      "qa": "market-type-id-123",
+      "selections": [],
+      "text": "Gol anotado después del minuto 77:00",
+      "title": "Gol anotado después del minuto 77:00"
+    },
+    {
+      "qa": "market-type-id-125",
+      "selections": [],
+      "text": "Próximo gol antes de (Gol 1)",
+      "title": "Próximo gol antes de (Gol 1)"
+    },
+    {
+      "qa": "market-type-id-126",
+      "selections": [],
+      "text": "Liverpool FC Próximo gol antes de (Gol 1)",
+      "title": "Liverpool FC Próximo gol antes de (Gol 1)"
+    },
+    {
+      "qa": "market-type-id-127",
+      "selections": [],
+      "text": "Villarreal CF Próximo gol antes de (Gol 1)",
+      "title": "Villarreal CF Próximo gol antes de (Gol 1)"
+    },
+    {
+      "qa": "market-type-id-2934",
+      "selections": [],
+      "text": "Resultado por minuto 00:00 - 09:59",
+      "title": "Resultado por minuto 00:00 - 09:59"
+    },
+    {
+      "qa": "market-type-id-2934",
+      "selections": [],
+      "text": "Resultado por minuto 00:00 - 19:59",
+      "title": "Resultado por minuto 00:00 - 19:59"
+    },
+    {
+      "qa": "market-type-id-2934",
+      "selections": [],
+      "text": "Resultado por minuto 00:00 - 29:59",
+      "title": "Resultado por minuto 00:00 - 29:59"
+    },
+    {
+      "qa": "market-type-id-2934",
+      "selections": [],
+      "text": "Resultado por minuto 00:00 - 39:59",
+      "title": "Resultado por minuto 00:00 - 39:59"
+    },
+    {
+      "qa": "market-type-id-2934",
+      "selections": [],
+      "text": "Resultado por minuto 00:00 - 49:59",
+      "title": "Resultado por minuto 00:00 - 49:59"
+    },
+    {
+      "qa": "market-type-id-2934",
+      "selections": [],
+      "text": "Resultado por minuto 00:00 - 59:59",
+      "title": "Resultado por minuto 00:00 - 59:59"
+    },
+    {
+      "qa": "market-type-id-2934",
+      "selections": [],
+      "text": "Resultado por minuto 00:00 - 69:59",
+      "title": "Resultado por minuto 00:00 - 69:59"
+    },
+    {
+      "qa": "market-type-id-2934",
+      "selections": [],
+      "text": "Resultado por minuto 00:00 - 79:59",
+      "title": "Resultado por minuto 00:00 - 79:59"
+    },
+    {
+      "qa": "market-type-id-128",
+      "selections": [],
+      "text": "Rango de resultados por minuto (00:00 - 14:59)",
+      "title": "Rango de resultados por minuto (00:00 - 14:59)"
+    },
+    {
+      "qa": "market-type-id-128",
+      "selections": [],
+      "text": "Rango de resultados por minuto (15:00 - 29:59)",
+      "title": "Rango de resultados por minuto (15:00 - 29:59)"
+    },
+    {
+      "qa": "market-type-id-128",
+      "selections": [],
+      "text": "Rango de resultados por minuto (30:00 - 45:00)",
+      "title": "Rango de resultados por minuto (30:00 - 45:00)"
+    },
+    {
+      "qa": "market-type-id-128",
+      "selections": [],
+      "text": "Rango de resultados por minuto (45:00 - 59:59)",
+      "title": "Rango de resultados por minuto (45:00 - 59:59)"
+    },
+    {
+      "qa": "market-type-id-128",
+      "selections": [],
+      "text": "Rango de resultados por minuto (60:00 - 74:59)",
+      "title": "Rango de resultados por minuto (60:00 - 74:59)"
+    },
+    {
+      "qa": "market-type-id-128",
+      "selections": [],
+      "text": "Rango de resultados por minuto (75:00 - 90:00)",
+      "title": "Rango de resultados por minuto (75:00 - 90:00)"
+    },
+    {
+      "qa": "market-type-id-130",
+      "selections": [],
+      "text": "Goles cronometrados Más/Menos (00:00 - 14:59)",
+      "title": "Goles cronometrados Más/Menos (00:00 - 14:59)"
+    },
+    {
+      "qa": "market-type-id-130",
+      "selections": [],
+      "text": "Goles cronometrados Más/Menos (15:00 - 29:59)",
+      "title": "Goles cronometrados Más/Menos (15:00 - 29:59)"
+    },
+    {
+      "qa": "market-type-id-130",
+      "selections": [],
+      "text": "Goles cronometrados Más/Menos (30:00 - 45:00)",
+      "title": "Goles cronometrados Más/Menos (30:00 - 45:00)"
+    },
+    {
+      "qa": "market-type-id-130",
+      "selections": [],
+      "text": "Goles cronometrados Más/Menos (45:00 - 59:59)",
+      "title": "Goles cronometrados Más/Menos (45:00 - 59:59)"
+    },
+    {
+      "qa": "market-type-id-130",
+      "selections": [],
+      "text": "Goles cronometrados Más/Menos (60:00 - 74:59)",
+      "title": "Goles cronometrados Más/Menos (60:00 - 74:59)"
+    },
+    {
+      "qa": "market-type-id-27",
+      "selections": [],
+      "text": "Hora del próximo gol (Gol 1)",
+      "title": "Hora del próximo gol (Gol 1)"
+    },
+    {
+      "qa": "market-type-id-28",
+      "selections": [],
+      "text": "Hora del próximo gol Liverpool FC (Gol 1)",
+      "title": "Hora del próximo gol Liverpool FC (Gol 1)"
+    },
+    {
+      "qa": "market-type-id-29",
+      "selections": [],
+      "text": "Hora del próximo gol Villarreal CF (Gol 1)",
+      "title": "Hora del próximo gol Villarreal CF (Gol 1)"
+    },
+    {
+      "qa": "market-type-id-503",
+      "selections": [],
+      "text": "Total de Goles Exactos",
+      "title": "Total de Goles Exactos"
+    },
+    {
+      "qa": "market-type-id-34",
+      "selections": [
+        {
+          "aria": "Bet on Más de 8.5 with odds 1.44.",
+          "text": "Más de\n8.5\n1.44"
+        },
+        {
+          "aria": "Bet on Menos 8.5 with odds 2.65.",
+          "text": "Menos\n8.5\n2.65"
+        },
+        {
+          "aria": "Bet on Más de 9.5 with odds 1.75.",
+          "text": "Más de\n9.5\n1.75"
+        },
+        {
+          "aria": "Bet on Menos 9.5 with odds 2.",
+          "text": "Menos\n9.5\n2.00"
+        },
+        {
+          "aria": "Bet on Más de 10.5 with odds 2.25.",
+          "text": "Más de\n10.5\n2.25"
+        },
+        {
+          "aria": "Bet on Menos 10.5 with odds 1.6.",
+          "text": "Menos\n10.5\n1.60"
+        }
+      ],
+      "text": "Más/Menos Córners\nMás de\n8.5\n1.44\nMenos\n8.5\n2.65\nMás de\n9.5\n1.75\nMenos\n9.5\n2.00\nMás de\n10.5\n2.25\nMenos\n10.5\n1.60\nMOSTRAR TODO",
+      "title": "Más/Menos Córners"
+    },
+    {
+      "qa": "market-type-id-65",
+      "selections": [],
+      "text": "Tarjetas Totales Más/Menos",
+      "title": "Tarjetas Totales Más/Menos"
+    },
+    {
+      "qa": "market-type-id-13",
+      "selections": [
+        {
+          "aria": "Bet on Más de 2.5 with odds 1.47.",
+          "text": "Más de\n2.5\n1.47"
+        },
+        {
+          "aria": "Bet on Menos 2.5 with odds 2.67.",
+          "text": "Menos\n2.5\n2.67"
+        },
+        {
+          "aria": "Bet on Más de 3.5 with odds 2.15.",
+          "text": "Más de\n3.5\n2.15"
+        },
+        {
+          "aria": "Bet on Menos 3.5 with odds 1.7.",
+          "text": "Menos\n3.5\n1.70"
+        },
+        {
+          "aria": "Bet on Más de 4.5 with odds 3.5.",
+          "text": "Más de\n4.5\n3.50"
+        },
+        {
+          "aria": "Bet on Menos 4.5 with odds 1.31.",
+          "text": "Menos\n4.5\n1.31"
+        }
+      ],
+      "text": "Goles totales Más/Menos\nMás de\n2.5\n1.47\nMenos\n2.5\n2.67\nMás de\n3.5\n2.15\nMenos\n3.5\n1.70\nMás de\n4.5\n3.50\nMenos\n4.5\n1.31\nMOSTRAR TODO",
+      "title": "Goles totales Más/Menos"
+    },
+    {
+      "qa": "market-type-id-21",
+      "selections": [],
+      "text": "Gana el resto del Partido [0 - 0]",
+      "title": "Gana el resto del Partido [0 - 0]"
+    },
+    {
+      "qa": "market-type-id-47",
+      "selections": [],
+      "text": "Córners Impar/Par",
+      "title": "Córners Impar/Par"
+    },
+    {
+      "qa": "market-type-id-4016",
+      "selections": [],
+      "text": "Primer Tiempo/Tiempo Completo Córners",
+      "title": "Primer Tiempo/Tiempo Completo Córners"
+    },
+    {
+      "qa": "market-type-id-135",
+      "selections": [],
+      "text": "Apuesta sin Empate Segundo Tiempo",
+      "title": "Apuesta sin Empate Segundo Tiempo"
+    },
+    {
+      "qa": "market-type-id-142",
+      "selections": [],
+      "text": "Más de 1.5 goles anotados en cada tiempo",
+      "title": "Más de 1.5 goles anotados en cada tiempo"
+    },
+    {
+      "qa": "market-type-id-143",
+      "selections": [],
+      "text": "Menos de 1.5 Goles Anotados en Ambos Tiempos",
+      "title": "Menos de 1.5 Goles Anotados en Ambos Tiempos"
+    },
+    {
+      "qa": "market-type-id-4107",
+      "selections": [],
+      "text": "Primer Tiempo Offsides Más/Menos",
+      "title": "Primer Tiempo Offsides Más/Menos"
+    },
+    {
+      "qa": "market-type-id-496",
+      "selections": [],
+      "text": "Siguiente jugada después del min. (01:00)",
+      "title": "Siguiente jugada después del min. (01:00)"
+    },
+    {
+      "qa": "market-type-id-496",
+      "selections": [],
+      "text": "Siguiente jugada después del min. (02:00)",
+      "title": "Siguiente jugada después del min. (02:00)"
+    },
+    {
+      "qa": "market-type-id-496",
+      "selections": [],
+      "text": "Siguiente jugada después del min. (03:00)",
+      "title": "Siguiente jugada después del min. (03:00)"
+    },
+    {
+      "qa": "market-type-id-497",
+      "selections": [],
+      "text": "¿Qué sucederá en ... ? (00:00 - 00:59)",
+      "title": "¿Qué sucederá en ... ? (00:00 - 00:59)"
+    },
+    {
+      "qa": "market-type-id-497",
+      "selections": [],
+      "text": "¿Qué sucederá en ... ? (01:00 - 01:59)",
+      "title": "¿Qué sucederá en ... ? (01:00 - 01:59)"
+    },
+    {
+      "qa": "market-type-id-497",
+      "selections": [],
+      "text": "¿Qué sucederá en ... ? (02:00 - 02:59)",
+      "title": "¿Qué sucederá en ... ? (02:00 - 02:59)"
+    },
+    {
+      "qa": "market-type-id-3897",
+      "selections": [],
+      "text": "¿Qué sucederá en ... ? (00:00 - 04:59)",
+      "title": "¿Qué sucederá en ... ? (00:00 - 04:59)"
+    },
+    {
+      "qa": "market-type-id-3897",
+      "selections": [],
+      "text": "¿Qué sucederá en ... ? (05:00 - 09:59)",
+      "title": "¿Qué sucederá en ... ? (05:00 - 09:59)"
+    },
+    {
+      "qa": "market-type-id-3897",
+      "selections": [],
+      "text": "¿Qué sucederá en ... ? (10:00 - 14:59)",
+      "title": "¿Qué sucederá en ... ? (10:00 - 14:59)"
+    }
+  ],
+  "top": "Fútbol\n\nBásquetbol\n\nTenis\n\nEsports\n\nBéisbol\n\nMMA\n\nFútbol americano\n\nVoleibol\n\nHockey sobre hielo\n\nTenis de mesa\n\nBox\n\nBalonmano\n\nDardos\n\nVóley-playa\n\nFórmula 1\n\nUnión de Rugby\n\nLiga de Rugby\n\nCiclismo\n\nFutsal\n\nWaterpolo\n\nBádminton\n\nSnooker\n\nCriquet\n\nLacrosse\n\nMoto GP\n\nGolf\n\nDeportes de motor\n\nDeportes de invierno\n\nHockey sobre césped\n\nFloorball\n\nInicioFútbolChampions LeaguePartidosLiverpool FC - Villarreal CF\nMartes, 20 Octubre 2026 14:00\nLiverpool FC\nVillarreal CF\nPopulares\nGoles\nFormaciones\nJugadores\nCórners\nTarjetas\nEstadísticas\nPrimer Tiempo\nCombos\nEspeciales\nHándicap\nHándicap Asiático\nMinutos\nTodo\nBET\nBUILDER\nBB\nResultado del partido\n\n2 GOLES DE VENTAJA\n\n1\n1.50\nX\n4.65\n2\n6.10\nBB\nGoles totales Más/Menos\nSe marcaron más de 2,5 goles en 4 de los últimos 5 partidos de Liverpool FC en todas las competiciones.\nLiverpool FC ha promediado 2,4 goles anotados por partido en sus últimos 5 encuentros en todas las competiciones.\nMás de\n0.5\n1.03\nMenos\n0.5\n13.00\nMás de\n1.5\n1.15\nMenos\n1.5\n5.40\nMás de\n2.5\n1.47\nMenos\n2.5\n2.67\nMás de\n3.5\n2.15\nMenos\n3.5\n1.70\nMás de\n4.5\n3.50\nMenos\n4.5\n1.31\nMás de\n5.5\n6.10\nMenos\n5.5\n1.13\nMás de\n6.5\n10.50\nMenos\n6.5\n1.05\nMás de\n7.5\n15.00\nMenos\n7.5\n1.01\nMOSTRAR MENOS\nBB\nDoble oportunidad\nLiverpool FC o Empate\n1.15\nLiverpool FC o Villarreal CF\n1.19\nVillarreal CF o Emp",
+  "fixture_id": "575363",
+  "url": "https://www.betano.pe/cuotas-de-partido/liverpool-fc-villarreal-cf/91592896/?bt=13",
+  "observed_at": "2026-10-19T06:18:10.006Z"
+}

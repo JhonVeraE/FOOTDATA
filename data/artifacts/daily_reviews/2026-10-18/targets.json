@@ -1,0 +1,230 @@
+[
+  {
+    "fixture_id": "564715",
+    "league": "La Liga",
+    "home": "Osasuna",
+    "away": "Santander",
+    "sofa_goals": [
+      2,
+      0
+    ],
+    "url": "https://www.sofascore.com/football/match/real-racing-club-osasuna/vgbsKgb#id:16421078",
+    "event_id": "16421078"
+  },
+  {
+    "fixture_id": "564712",
+    "league": "La Liga",
+    "home": "Celta",
+    "away": "Alaves",
+    "sofa_goals": [
+      2,
+      1
+    ],
+    "url": "https://www.sofascore.com/football/match/deportivo-alaves-celta-vigo/wgbsKhb#id:16421069",
+    "event_id": "16421069"
+  },
+  {
+    "fixture_id": "564714",
+    "league": "La Liga",
+    "home": "Malaga",
+    "away": "Sociedad",
+    "sofa_goals": [
+      2,
+      5
+    ],
+    "url": "https://www.sofascore.com/football/match/malaga-cf-real-sociedad/zgbsFgb#id:16421073",
+    "event_id": "16421073"
+  },
+  {
+    "fixture_id": "564709",
+    "league": "La Liga",
+    "home": "Real Madrid",
+    "away": "Sevilla",
+    "sofa_goals": [
+      4,
+      1
+    ],
+    "url": "https://www.sofascore.com/football/match/sevilla-real-madrid/EgbsIgb#id:16421075",
+    "event_id": "16421075"
+  },
+  {
+    "fixture_id": "560604",
+    "league": "Premier League",
+    "home": "Bournemouth",
+    "away": "Sunderland",
+    "sofa_goals": [
+      2,
+      0
+    ],
+    "url": "https://www.sofascore.com/football/match/bournemouth-sunderland/Qkb#id:16363881",
+    "event_id": "16363881"
+  },
+  {
+    "fixture_id": "560609",
+    "league": "Premier League",
+    "home": "Brighton",
+    "away": "Crystal Palace",
+    "sofa_goals": [
+      5,
+      0
+    ],
+    "url": "https://www.sofascore.com/football/match/brighton-and-hove-albion-crystal-palace/hsF#id:16363883",
+    "event_id": "16363883"
+  },
+  {
+    "fixture_id": "560605",
+    "league": "Premier League",
+    "home": "Leeds",
+    "away": "Man United",
+    "sofa_goals": [
+      1,
+      1
+    ],
+    "url": "https://www.sofascore.com/football/match/manchester-united-leeds-united/JsK#id:16363886",
+    "event_id": "16363886"
+  },
+  {
+    "fixture_id": "560608",
+    "league": "Premier League",
+    "home": "Nott'm Forest",
+    "away": "Arsenal",
+    "sofa_goals": [
+      0,
+      1
+    ],
+    "url": "https://www.sofascore.com/football/match/arsenal-nottingham-forest/osR#id:16363889",
+    "event_id": "16363889"
+  },
+  {
+    "fixture_id": "565827",
+    "league": "Bundesliga",
+    "home": "Leverkusen",
+    "away": "Freiburg",
+    "sofa_goals": [
+      2,
+      1
+    ],
+    "url": "https://www.sofascore.com/football/match/bayer-04-leverkusen-sc-freiburg/NabsGdb#id:16434065",
+    "event_id": "16434065"
+  },
+  {
+    "fixture_id": "565826",
+    "league": "Bundesliga",
+    "home": "M'gladbach",
+    "away": "Hoffenheim",
+    "sofa_goals": [
+      1,
+      2
+    ],
+    "url": "https://www.sofascore.com/football/match/tsg-hoffenheim-borussia-mgladbach/Cabsubb#id:16434061",
+    "event_id": "16434061"
+  },
+  {
+    "fixture_id": "558574",
+    "league": "Serie A",
+    "home": "Udinese",
+    "away": "Lecce",
+    "sofa_goals": [
+      0,
+      3
+    ],
+    "url": "https://www.sofascore.com/football/match/udinese-lecce/OdbsVdb#id:16285049",
+    "event_id": "16285049"
+  },
+  {
+    "fixture_id": "558577",
+    "league": "Serie A",
+    "home": "Fiorentina",
+    "away": "Como",
+    "sofa_goals": [
+      1,
+      3
+    ],
+    "url": "https://www.sofascore.com/football/match/como-fiorentina/Tdbseeb#id:16285038",
+    "event_id": "16285038"
+  },
+  {
+    "fixture_id": "558569",
+    "league": "Serie A",
+    "home": "Milan",
+    "away": "Atalanta",
+    "sofa_goals": [
+      3,
+      2
+    ],
+    "url": "https://www.sofascore.com/football/match/ac-milan-atalanta/LdbsRdb#id:16285040",
+    "event_id": "16285040"
+  },
+  {
+    "fixture_id": "558570",
+    "league": "Serie A",
+    "home": "Juventus",
+    "away": "Lazio",
+    "sofa_goals": [
+      0,
+      3
+    ],
+    "url": "https://www.sofascore.com/football/match/lazio-juventus/MdbsZdb#id:16285044",
+    "event_id": "16285044"
+  },
+  {
+    "fixture_id": "559664",
+    "league": "Ligue 1",
+    "home": "Angers",
+    "away": "Marseille",
+    "sofa_goals": [
+      2,
+      5
+    ],
+    "url": "https://www.sofascore.com/football/match/angers-olympique-de-marseille/QHsJI#id:16310975",
+    "event_id": "16310975"
+  },
+  {
+    "fixture_id": "559663",
+    "league": "Ligue 1",
+    "home": "Le Havre",
+    "away": "Auxerre",
+    "sofa_goals": [
+      1,
+      3
+    ],
+    "url": "https://www.sofascore.com/football/match/le-havre-auxerre/WHsmI#id:16310976",
+    "event_id": "16310976"
+  },
+  {
+    "fixture_id": "559657",
+    "league": "Ligue 1",
+    "home": "Lorient",
+    "away": "Monaco",
+    "sofa_goals": [
+      1,
+      0
+    ],
+    "url": "https://www.sofascore.com/football/match/lorient-as-monaco/dIsgI#id:16310979",
+    "event_id": "16310979"
+  },
+  {
+    "fixture_id": "559658",
+    "league": "Ligue 1",
+    "home": "Paris FC",
+    "away": "Rennes",
+    "sofa_goals": [
+      4,
+      3
+    ],
+    "url": "https://www.sofascore.com/football/match/paris-fc-stade-rennais/iIsvwc#id:16310981",
+    "event_id": "16310981"
+  },
+  {
+    "fixture_id": "559665",
+    "league": "Ligue 1",
+    "home": "Lyon",
+    "away": "Nice",
+    "sofa_goals": [
+      2,
+      1
+    ],
+    "url": "https://www.sofascore.com/football/match/nice-olympique-lyonnais/ZHslI#id:16310980",
+    "event_id": "16310980"
+  }
+]

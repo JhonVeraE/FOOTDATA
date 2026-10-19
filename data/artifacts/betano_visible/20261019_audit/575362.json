@@ -1,0 +1,4224 @@
+{
+  "heading": [
+    "VfB Stuttgart\nAtlético Madrid"
+  ],
+  "markets": [
+    {
+      "qa": "market-type-id-1",
+      "selections": [
+        {
+          "aria": "Bet on 1 with odds 3.2.",
+          "text": "1\n3.20"
+        },
+        {
+          "aria": "Bet on X with odds 3.85.",
+          "text": "X\n3.85"
+        },
+        {
+          "aria": "Bet on 2 with odds 2.1.",
+          "text": "2\n2.10"
+        }
+      ],
+      "text": "Resultado del partido\n\n2 GOLES DE VENTAJA\n\n1\n3.20\nX\n3.85\n2\n2.10\nEl VfB Stuttgart ha perdido 3 de sus últimos 5 partidos en todas las competiciones.",
+      "title": "Resultado del partido\n\n2 GOLES DE VENTAJA"
+    },
+    {
+      "qa": "market-type-id-13",
+      "selections": [
+        {
+          "aria": "Bet on Más de 0.5 with odds 1.03.",
+          "text": "Más de\n0.5\n1.03"
+        },
+        {
+          "aria": "Bet on Menos 0.5 with odds 12.",
+          "text": "Menos\n0.5\n12.00"
+        },
+        {
+          "aria": "Bet on Más de 1.5 with odds 1.17.",
+          "text": "Más de\n1.5\n1.17"
+        },
+        {
+          "aria": "Bet on Menos 1.5 with odds 5.1.",
+          "text": "Menos\n1.5\n5.10"
+        },
+        {
+          "aria": "Bet on Más de 2.5 with odds 1.53.",
+          "text": "Más de\n2.5\n1.53"
+        },
+        {
+          "aria": "Bet on Menos 2.5 with odds 2.52.",
+          "text": "Menos\n2.5\n2.52"
+        },
+        {
+          "aria": "Bet on Más de 3.5 with odds 2.27.",
+          "text": "Más de\n3.5\n2.27"
+        },
+        {
+          "aria": "Bet on Menos 3.5 with odds 1.65.",
+          "text": "Menos\n3.5\n1.65"
+        },
+        {
+          "aria": "Bet on Más de 4.5 with odds 3.8.",
+          "text": "Más de\n4.5\n3.80"
+        },
+        {
+          "aria": "Bet on Menos 4.5 with odds 1.27.",
+          "text": "Menos\n4.5\n1.27"
+        },
+        {
+          "aria": "Bet on Más de 5.5 with odds 6.6.",
+          "text": "Más de\n5.5\n6.60"
+        },
+        {
+          "aria": "Bet on Menos 5.5 with odds 1.11.",
+          "text": "Menos\n5.5\n1.11"
+        },
+        {
+          "aria": "Bet on Más de 6.5 with odds 11.25.",
+          "text": "Más de\n6.5\n11.25"
+        },
+        {
+          "aria": "Bet on Menos 6.5 with odds 1.04.",
+          "text": "Menos\n6.5\n1.04"
+        },
+        {
+          "aria": "Bet on Más de 7.5 with odds 16.",
+          "text": "Más de\n7.5\n16.00"
+        },
+        {
+          "aria": "Bet on Menos 7.5 with odds 1.015.",
+          "text": "Menos\n7.5\n1.01"
+        }
+      ],
+      "text": "Goles totales Más/Menos\nHubo más de 2,5 goles en 34 de los últimos 51 partidos del VfB Stuttgart.\nEl VfB Stuttgart promedia 1,9 goles esperados por partido en sus últimos 51 encuentros.\nEl Atlético Madrid ha marcado 11 goles en sus últimos 5 partidos (2,2 por partido).\nMás de\n0.5\n1.03\nMenos\n0.5\n12.00\nMás de\n1.5\n1.17\nMenos\n1.5\n5.10\nMás de\n2.5\n1.53\nMenos\n2.5\n2.52\nMás de\n3.5\n2.27\nMenos\n3.5\n1.65\nMás de\n4.5\n3.80\nMenos\n4.5\n1.27\nMás de\n5.5\n6.60\nMenos\n5.5\n1.11\nMás de\n6.5\n11.25\nMenos\n6.5\n1.04\nMás de\n7.5\n16.00\nMenos\n7.5\n1.01\nMOSTRAR MENOS",
+      "title": "Goles totales Más/Menos"
+    },
+    {
+      "qa": "market-type-id-9",
+      "selections": [
+        {
+          "aria": "Bet on VfB Stuttgart o Empate with odds 1.78.",
+          "text": "VfB Stuttgart o Empate\n1.78"
+        },
+        {
+          "aria": "Bet on VfB Stuttgart o Atlético Madrid with odds 1.26.",
+          "text": "VfB Stuttgart o Atlético Madrid\n1.26"
+        },
+        {
+          "aria": "Bet on Atlético Madrid o Empate with odds 1.37.",
+          "text": "Atlético Madrid o Empate\n1.37"
+        }
+      ],
+      "text": "Doble oportunidad\nVfB Stuttgart o Empate\n1.78\nVfB Stuttgart o Atlético Madrid\n1.26\nAtlético Madrid o Empate\n1.37",
+      "title": "Doble oportunidad"
+    },
+    {
+      "qa": "market-type-id-15",
+      "selections": [
+        {
+          "aria": "Bet on Sí with odds 1.45.",
+          "text": "Sí\n1.45"
+        },
+        {
+          "aria": "Bet on No with odds 2.6.",
+          "text": "No\n2.60"
+        }
+      ],
+      "text": "Ambos equipos anotan\nSí\n1.45\nNo\n2.60\nEl Atlético Madrid ha dejado su portería a cero en 3 de sus últimos 5 partidos.\nEl Atlético Madrid ha marcado en 7 partidos consecutivos en todas las competiciones.",
+      "title": "Ambos equipos anotan"
+    },
+    {
+      "qa": "market-type-id-34",
+      "selections": [
+        {
+          "aria": "Bet on Más de 3.5 with odds 1.006.",
+          "text": "Más de\n3.5\n1.006"
+        },
+        {
+          "aria": "Bet on Menos 3.5 with odds 14.",
+          "text": "Menos\n3.5\n14.00"
+        },
+        {
+          "aria": "Bet on Más de 4.5 with odds 1.02.",
+          "text": "Más de\n4.5\n1.02"
+        },
+        {
+          "aria": "Bet on Menos 4.5 with odds 11.",
+          "text": "Menos\n4.5\n11.00"
+        },
+        {
+          "aria": "Bet on Más de 5.5 with odds 1.06.",
+          "text": "Más de\n5.5\n1.06"
+        },
+        {
+          "aria": "Bet on Menos 5.5 with odds 8.",
+          "text": "Menos\n5.5\n8.00"
+        },
+        {
+          "aria": "Bet on Más de 6.5 with odds 1.12.",
+          "text": "Más de\n6.5\n1.12"
+        },
+        {
+          "aria": "Bet on Menos 6.5 with odds 5.6.",
+          "text": "Menos\n6.5\n5.60"
+        },
+        {
+          "aria": "Bet on Más de 7.5 with odds 1.24.",
+          "text": "Más de\n7.5\n1.24"
+        },
+        {
+          "aria": "Bet on Menos 7.5 with odds 3.8.",
+          "text": "Menos\n7.5\n3.80"
+        },
+        {
+          "aria": "Bet on Más de 8.5 with odds 1.44.",
+          "text": "Más de\n8.5\n1.44"
+        },
+        {
+          "aria": "Bet on Menos 8.5 with odds 2.65.",
+          "text": "Menos\n8.5\n2.65"
+        },
+        {
+          "aria": "Bet on Más de 9.5 with odds 1.75.",
+          "text": "Más de\n9.5\n1.75"
+        },
+        {
+          "aria": "Bet on Menos 9.5 with odds 2.02.",
+          "text": "Menos\n9.5\n2.02"
+        },
+        {
+          "aria": "Bet on Más de 10.5 with odds 2.25.",
+          "text": "Más de\n10.5\n2.25"
+        },
+        {
+          "aria": "Bet on Menos 10.5 with odds 1.6.",
+          "text": "Menos\n10.5\n1.60"
+        },
+        {
+          "aria": "Bet on Más de 11.5 with odds 3.",
+          "text": "Más de\n11.5\n3.00"
+        },
+        {
+          "aria": "Bet on Menos 11.5 with odds 1.36.",
+          "text": "Menos\n11.5\n1.36"
+        },
+        {
+          "aria": "Bet on Más de 12.5 with odds 4.1.",
+          "text": "Más de\n12.5\n4.10"
+        },
+        {
+          "aria": "Bet on Menos 12.5 with odds 1.21.",
+          "text": "Menos\n12.5\n1.21"
+        },
+        {
+          "aria": "Bet on Más de 13.5 with odds 5.7.",
+          "text": "Más de\n13.5\n5.70"
+        },
+        {
+          "aria": "Bet on Menos 13.5 with odds 1.12.",
+          "text": "Menos\n13.5\n1.12"
+        },
+        {
+          "aria": "Bet on Más de 14.5 with odds 7.5.",
+          "text": "Más de\n14.5\n7.50"
+        },
+        {
+          "aria": "Bet on Menos 14.5 with odds 1.07.",
+          "text": "Menos\n14.5\n1.07"
+        },
+        {
+          "aria": "Bet on Más de 15.5 with odds 9.75.",
+          "text": "Más de\n15.5\n9.75"
+        },
+        {
+          "aria": "Bet on Menos 15.5 with odds 1.03.",
+          "text": "Menos\n15.5\n1.03"
+        },
+        {
+          "aria": "Bet on Más de 16.5 with odds 11.5.",
+          "text": "Más de\n16.5\n11.50"
+        },
+        {
+          "aria": "Bet on Menos 16.5 with odds 1.015.",
+          "text": "Menos\n16.5\n1.01"
+        },
+        {
+          "aria": "Bet on Más de 17.5 with odds 13.",
+          "text": "Más de\n17.5\n13.00"
+        },
+        {
+          "aria": "Bet on Menos 17.5 with odds 1.008.",
+          "text": "Menos\n17.5\n1.008"
+        }
+      ],
+      "text": "Más/Menos Córners\nEl Atlético Madrid promedió 7 córners por partido en sus últimos 5 encuentros.\nEl VfB Stuttgart sacó más de 5 córners en 6 de sus últimos 9 partidos.\nEl Atlético Madrid promedia 6 córners por partido en sus últimos 61 encuentros oficiales.\nEl VfB Stuttgart promedia 5,7 córners por partido en sus últimos 51 encuentros oficiales.\nMás de\n3.5\n1.006\nMenos\n3.5\n14.00\nMás de\n4.5\n1.02\nMenos\n4.5\n11.00\nMás de\n5.5\n1.06\nMenos\n5.5\n8.00\nMás de\n6.5\n1.12\nMenos\n6.5\n5.60\nMás de\n7.5\n1.24\nMenos\n7.5\n3.80\nMás de\n8.5\n1.44\nMenos\n8.5\n2.65\nMás de\n9.5\n1.75\nMenos\n9.5\n2.02\nMás de\n10.5\n2.25\nMenos\n10.5\n1.60\nMás de\n11.5\n3.00\nMenos\n11.5\n1.36\nMás de\n12.5\n4.10\nMenos\n12.5\n1.21\nMás de\n13.5\n5.70\nMenos\n13.5\n1.12\nMás de\n14.5\n7.50\nMenos\n14.5\n1.07\nMás de\n15.5\n9.75\nMenos\n15.5\n1.03\nMás de\n16.5\n11.50\nMenos\n16.5\n1.01\nMás de\n17.5\n13.00\nMenos\n17.5\n1.008\nMOSTRAR MENOS",
+      "title": "Más/Menos Córners"
+    },
+    {
+      "qa": "market-type-id-65",
+      "selections": [],
+      "text": "Tarjetas Totales Más/Menos",
+      "title": "Tarjetas Totales Más/Menos"
+    },
+    {
+      "qa": "market-type-id-596",
+      "selections": [],
+      "text": "Tiros al Arco",
+      "title": "Tiros al Arco"
+    },
+    {
+      "qa": "market-type-id-76",
+      "selections": [],
+      "text": "Goleador",
+      "title": "Goleador"
+    },
+    {
+      "qa": "market-type-id-8",
+      "selections": [],
+      "text": "Resultado Primer Tiempo",
+      "title": "Resultado Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-14",
+      "selections": [],
+      "text": "Más/Menos Goles en Primer Tiempo",
+      "title": "Más/Menos Goles en Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-37",
+      "selections": [],
+      "text": "Córners en Primer Tiempo Más/Menos",
+      "title": "Córners en Primer Tiempo Más/Menos"
+    },
+    {
+      "qa": "market-type-id-66",
+      "selections": [],
+      "text": "Total de Tarjetas (Más/Menos) Primer Tiempo",
+      "title": "Total de Tarjetas (Más/Menos) Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-84",
+      "selections": [
+        {
+          "aria": "Bet on Más de 0.5 with odds 1.25.",
+          "text": "Más de\n0.5\n1.25"
+        },
+        {
+          "aria": "Bet on Menos 0.5 with odds 3.65.",
+          "text": "Menos\n0.5\n3.65"
+        },
+        {
+          "aria": "Bet on Más de 1.5 with odds 2.15.",
+          "text": "Más de\n1.5\n2.15"
+        },
+        {
+          "aria": "Bet on Menos 1.5 with odds 1.65.",
+          "text": "Menos\n1.5\n1.65"
+        },
+        {
+          "aria": "Bet on Más de 2.5 with odds 4.55.",
+          "text": "Más de\n2.5\n4.55"
+        },
+        {
+          "aria": "Bet on Menos 2.5 with odds 1.18.",
+          "text": "Menos\n2.5\n1.18"
+        },
+        {
+          "aria": "Bet on Más de 3.5 with odds 9.",
+          "text": "Más de\n3.5\n9.00"
+        },
+        {
+          "aria": "Bet on Menos 3.5 with odds 1.04.",
+          "text": "Menos\n3.5\n1.04"
+        },
+        {
+          "aria": "Bet on Más de 4.5 with odds 13.",
+          "text": "Más de\n4.5\n13.00"
+        },
+        {
+          "aria": "Bet on Menos 4.5 with odds 1.009.",
+          "text": "Menos\n4.5\n1.009"
+        }
+      ],
+      "text": "VfB Stuttgart - Goles totales Más/Menos\nEl VfB Stuttgart promedia 2,3 goles por partido en sus últimos 3 encuentros en casa en todas las competiciones.\nEl VfB Stuttgart marcó 3 o más goles en el 43,5% de sus 23 partidos en casa en todas las competiciones.\nMás de\n0.5\n1.25\nMenos\n0.5\n3.65\nMás de\n1.5\n2.15\nMenos\n1.5\n1.65\nMás de\n2.5\n4.55\nMenos\n2.5\n1.18\nMás de\n3.5\n9.00\nMenos\n3.5\n1.04\nMás de\n4.5\n13.00\nMenos\n4.5\n1.009\nMOSTRAR MENOS",
+      "title": "VfB Stuttgart - Goles totales Más/Menos"
+    },
+    {
+      "qa": "market-type-id-85",
+      "selections": [
+        {
+          "aria": "Bet on Más de 0.5 with odds 1.16.",
+          "text": "Más de\n0.5\n1.16"
+        },
+        {
+          "aria": "Bet on Menos 0.5 with odds 4.85.",
+          "text": "Menos\n0.5\n4.85"
+        },
+        {
+          "aria": "Bet on Más de 1.5 with odds 1.72.",
+          "text": "Más de\n1.5\n1.72"
+        },
+        {
+          "aria": "Bet on Menos 1.5 with odds 2.05.",
+          "text": "Menos\n1.5\n2.05"
+        },
+        {
+          "aria": "Bet on Más de 2.5 with odds 3.15.",
+          "text": "Más de\n2.5\n3.15"
+        },
+        {
+          "aria": "Bet on Menos 2.5 with odds 1.33.",
+          "text": "Menos\n2.5\n1.33"
+        },
+        {
+          "aria": "Bet on Más de 3.5 with odds 6.2.",
+          "text": "Más de\n3.5\n6.20"
+        },
+        {
+          "aria": "Bet on Menos 3.5 with odds 1.1.",
+          "text": "Menos\n3.5\n1.10"
+        },
+        {
+          "aria": "Bet on Más de 4.5 with odds 10.5.",
+          "text": "Más de\n4.5\n10.50"
+        },
+        {
+          "aria": "Bet on Menos 4.5 with odds 1.025.",
+          "text": "Menos\n4.5\n1.02"
+        },
+        {
+          "aria": "Bet on Más de 5.5 with odds 14.",
+          "text": "Más de\n5.5\n14.00"
+        },
+        {
+          "aria": "Bet on Menos 5.5 with odds 1.006.",
+          "text": "Menos\n5.5\n1.006"
+        }
+      ],
+      "text": "Atlético Madrid - Goles totales Más/Menos\nEl Atlético Madrid promedia 2 goles por partido en sus últimos 3 encuentros fuera de casa en todas las competiciones.\nMás de\n0.5\n1.16\nMenos\n0.5\n4.85\nMás de\n1.5\n1.72\nMenos\n1.5\n2.05\nMás de\n2.5\n3.15\nMenos\n2.5\n1.33\nMás de\n3.5\n6.20\nMenos\n3.5\n1.10\nMás de\n4.5\n10.50\nMenos\n4.5\n1.02\nMás de\n5.5\n14.00\nMenos\n5.5\n1.006\nMOSTRAR MENOS",
+      "title": "Atlético Madrid - Goles totales Más/Menos"
+    },
+    {
+      "qa": "market-type-id-3966",
+      "selections": [],
+      "text": "Ambos equipos anotan o Más de 2.5",
+      "title": "Ambos equipos anotan o Más de 2.5"
+    },
+    {
+      "qa": "market-type-id-10",
+      "selections": [],
+      "text": "Apuesta sin Empate",
+      "title": "Apuesta sin Empate"
+    },
+    {
+      "qa": "market-type-id-408",
+      "selections": [],
+      "text": "Hándicap Resultado del Partido",
+      "title": "Hándicap Resultado del Partido"
+    },
+    {
+      "qa": "market-type-id-16",
+      "selections": [],
+      "text": "Primer Tiempo/Tiempo Completo",
+      "title": "Primer Tiempo/Tiempo Completo"
+    },
+    {
+      "qa": "market-type-id-17",
+      "selections": [],
+      "text": "Marcador Correcto",
+      "title": "Marcador Correcto"
+    },
+    {
+      "qa": "market-type-id-11",
+      "selections": [],
+      "text": "Próximo gol (Gol 1)",
+      "title": "Próximo gol (Gol 1)"
+    },
+    {
+      "qa": "market-type-id-115",
+      "selections": [],
+      "text": "Más/Menos Goles en Primer Tiempo VfB Stuttgart",
+      "title": "Más/Menos Goles en Primer Tiempo VfB Stuttgart"
+    },
+    {
+      "qa": "market-type-id-116",
+      "selections": [],
+      "text": "Más/Menos Goles en Primer Tiempo Atlético Madrid",
+      "title": "Más/Menos Goles en Primer Tiempo Atlético Madrid"
+    },
+    {
+      "qa": "market-type-id-131",
+      "selections": [],
+      "text": "Más/Menos Goles en Segundo Tiempo",
+      "title": "Más/Menos Goles en Segundo Tiempo"
+    },
+    {
+      "qa": "market-type-id-2818",
+      "selections": [],
+      "text": "Total de goles",
+      "title": "Total de goles"
+    },
+    {
+      "qa": "market-type-id-104",
+      "selections": [],
+      "text": "Total de goles (extra)",
+      "title": "Total de goles (extra)"
+    },
+    {
+      "qa": "market-type-id-31",
+      "selections": [],
+      "text": "Forma de anotación de gol (Gol 1)",
+      "title": "Forma de anotación de gol (Gol 1)"
+    },
+    {
+      "qa": "market-type-id-148",
+      "selections": [],
+      "text": "Total de goles par/impar",
+      "title": "Total de goles par/impar"
+    },
+    {
+      "qa": "market-type-id-341",
+      "selections": [],
+      "text": "Primer equipo en anotar X Goles",
+      "title": "Primer equipo en anotar X Goles"
+    },
+    {
+      "qa": "market-type-id-105",
+      "selections": [],
+      "text": "Total de goles del equipo",
+      "title": "Total de goles del equipo"
+    },
+    {
+      "qa": "market-type-id-13",
+      "selections": [
+        {
+          "aria": "Bet on Más de 2.5 with odds 1.53.",
+          "text": "Más de\n2.5\n1.53"
+        },
+        {
+          "aria": "Bet on Menos 2.5 with odds 2.52.",
+          "text": "Menos\n2.5\n2.52"
+        },
+        {
+          "aria": "Bet on Más de 3.5 with odds 2.27.",
+          "text": "Más de\n3.5\n2.27"
+        },
+        {
+          "aria": "Bet on Menos 3.5 with odds 1.65.",
+          "text": "Menos\n3.5\n1.65"
+        },
+        {
+          "aria": "Bet on Más de 4.5 with odds 3.8.",
+          "text": "Más de\n4.5\n3.80"
+        },
+        {
+          "aria": "Bet on Menos 4.5 with odds 1.27.",
+          "text": "Menos\n4.5\n1.27"
+        }
+      ],
+      "text": "Goles totales Más/Menos\nMás de\n2.5\n1.53\nMenos\n2.5\n2.52\nMás de\n3.5\n2.27\nMenos\n3.5\n1.65\nMás de\n4.5\n3.80\nMenos\n4.5\n1.27\nMOSTRAR TODO",
+      "title": "Goles totales Más/Menos"
+    },
+    {
+      "qa": "market-type-id-34",
+      "selections": [
+        {
+          "aria": "Bet on Más de 8.5 with odds 1.44.",
+          "text": "Más de\n8.5\n1.44"
+        },
+        {
+          "aria": "Bet on Menos 8.5 with odds 2.65.",
+          "text": "Menos\n8.5\n2.65"
+        },
+        {
+          "aria": "Bet on Más de 9.5 with odds 1.75.",
+          "text": "Más de\n9.5\n1.75"
+        },
+        {
+          "aria": "Bet on Menos 9.5 with odds 2.02.",
+          "text": "Menos\n9.5\n2.02"
+        },
+        {
+          "aria": "Bet on Más de 10.5 with odds 2.25.",
+          "text": "Más de\n10.5\n2.25"
+        },
+        {
+          "aria": "Bet on Menos 10.5 with odds 1.6.",
+          "text": "Menos\n10.5\n1.60"
+        }
+      ],
+      "text": "Más/Menos Córners\nMás de\n8.5\n1.44\nMenos\n8.5\n2.65\nMás de\n9.5\n1.75\nMenos\n9.5\n2.02\nMás de\n10.5\n2.25\nMenos\n10.5\n1.60\nMOSTRAR TODO",
+      "title": "Más/Menos Córners"
+    },
+    {
+      "qa": "market-type-id-37",
+      "selections": [],
+      "text": "Córners en Primer Tiempo Más/Menos",
+      "title": "Córners en Primer Tiempo Más/Menos"
+    },
+    {
+      "qa": "market-type-id-39",
+      "selections": [
+        {
+          "aria": "Bet on Más de 1.5 with odds 1.04.",
+          "text": "Más de\n1.5\n1.04"
+        },
+        {
+          "aria": "Bet on Menos 1.5 with odds 9.",
+          "text": "Menos\n1.5\n9.00"
+        },
+        {
+          "aria": "Bet on Más de 2.5 with odds 1.16.",
+          "text": "Más de\n2.5\n1.16"
+        },
+        {
+          "aria": "Bet on Menos 2.5 with odds 4.85.",
+          "text": "Menos\n2.5\n4.85"
+        },
+        {
+          "aria": "Bet on Más de 3.5 with odds 1.4.",
+          "text": "Más de\n3.5\n1.40"
+        },
+        {
+          "aria": "Bet on Menos 3.5 with odds 2.82.",
+          "text": "Menos\n3.5\n2.82"
+        },
+        {
+          "aria": "Bet on Más de 4.5 with odds 1.87.",
+          "text": "Más de\n4.5\n1.87"
+        },
+        {
+          "aria": "Bet on Menos 4.5 with odds 1.88.",
+          "text": "Menos\n4.5\n1.88"
+        },
+        {
+          "aria": "Bet on Más de 5.5 with odds 2.7.",
+          "text": "Más de\n5.5\n2.70"
+        },
+        {
+          "aria": "Bet on Menos 5.5 with odds 1.42.",
+          "text": "Menos\n5.5\n1.42"
+        },
+        {
+          "aria": "Bet on Más de 6.5 with odds 4.05.",
+          "text": "Más de\n6.5\n4.05"
+        },
+        {
+          "aria": "Bet on Menos 6.5 with odds 1.21.",
+          "text": "Menos\n6.5\n1.21"
+        },
+        {
+          "aria": "Bet on Más de 7.5 with odds 6.2.",
+          "text": "Más de\n7.5\n6.20"
+        },
+        {
+          "aria": "Bet on Menos 7.5 with odds 1.1.",
+          "text": "Menos\n7.5\n1.10"
+        },
+        {
+          "aria": "Bet on Más de 8.5 with odds 9.",
+          "text": "Más de\n8.5\n9.00"
+        },
+        {
+          "aria": "Bet on Menos 8.5 with odds 1.04.",
+          "text": "Menos\n8.5\n1.04"
+        },
+        {
+          "aria": "Bet on Más de 9.5 with odds 11.75.",
+          "text": "Más de\n9.5\n11.75"
+        },
+        {
+          "aria": "Bet on Menos 9.5 with odds 1.015.",
+          "text": "Menos\n9.5\n1.01"
+        }
+      ],
+      "text": "VfB Stuttgart Más/Menos Córners\nMás de\n1.5\n1.04\nMenos\n1.5\n9.00\nMás de\n2.5\n1.16\nMenos\n2.5\n4.85\nMás de\n3.5\n1.40\nMenos\n3.5\n2.82\nMás de\n4.5\n1.87\nMenos\n4.5\n1.88\nMás de\n5.5\n2.70\nMenos\n5.5\n1.42\nMás de\n6.5\n4.05\nMenos\n6.5\n1.21\nMás de\n7.5\n6.20\nMenos\n7.5\n1.10\nMás de\n8.5\n9.00\nMenos\n8.5\n1.04\nMás de\n9.5\n11.75\nMenos\n9.5\n1.01\nMOSTRAR MENOS",
+      "title": "VfB Stuttgart Más/Menos Córners"
+    },
+    {
+      "qa": "market-type-id-40",
+      "selections": [
+        {
+          "aria": "Bet on Más de 1.5 with odds 1.025.",
+          "text": "Más de\n1.5\n1.02"
+        },
+        {
+          "aria": "Bet on Menos 1.5 with odds 10.5.",
+          "text": "Menos\n1.5\n10.50"
+        },
+        {
+          "aria": "Bet on Más de 2.5 with odds 1.1.",
+          "text": "Más de\n2.5\n1.10"
+        },
+        {
+          "aria": "Bet on Menos 2.5 with odds 6.1.",
+          "text": "Menos\n2.5\n6.10"
+        },
+        {
+          "aria": "Bet on Más de 3.5 with odds 1.27.",
+          "text": "Más de\n3.5\n1.27"
+        },
+        {
+          "aria": "Bet on Menos 3.5 with odds 3.55.",
+          "text": "Menos\n3.5\n3.55"
+        },
+        {
+          "aria": "Bet on Más de 4.5 with odds 1.6.",
+          "text": "Más de\n4.5\n1.60"
+        },
+        {
+          "aria": "Bet on Menos 4.5 with odds 2.27.",
+          "text": "Menos\n4.5\n2.27"
+        },
+        {
+          "aria": "Bet on Más de 5.5 with odds 2.15.",
+          "text": "Más de\n5.5\n2.15"
+        },
+        {
+          "aria": "Bet on Menos 5.5 with odds 1.65.",
+          "text": "Menos\n5.5\n1.65"
+        },
+        {
+          "aria": "Bet on Más de 6.5 with odds 3.15.",
+          "text": "Más de\n6.5\n3.15"
+        },
+        {
+          "aria": "Bet on Menos 6.5 with odds 1.33.",
+          "text": "Menos\n6.5\n1.33"
+        },
+        {
+          "aria": "Bet on Más de 7.5 with odds 4.7.",
+          "text": "Más de\n7.5\n4.70"
+        },
+        {
+          "aria": "Bet on Menos 7.5 with odds 1.17.",
+          "text": "Menos\n7.5\n1.17"
+        },
+        {
+          "aria": "Bet on Más de 8.5 with odds 7.",
+          "text": "Más de\n8.5\n7.00"
+        },
+        {
+          "aria": "Bet on Menos 8.5 with odds 1.08.",
+          "text": "Menos\n8.5\n1.08"
+        },
+        {
+          "aria": "Bet on Más de 9.5 with odds 9.75.",
+          "text": "Más de\n9.5\n9.75"
+        },
+        {
+          "aria": "Bet on Menos 9.5 with odds 1.03.",
+          "text": "Menos\n9.5\n1.03"
+        }
+      ],
+      "text": "Atlético Madrid Más/Menos Córners\nEl Atlético Madrid promedia 5,3 córners por partido como visitante en 32 encuentros.\nMás de\n1.5\n1.02\nMenos\n1.5\n10.50\nMás de\n2.5\n1.10\nMenos\n2.5\n6.10\nMás de\n3.5\n1.27\nMenos\n3.5\n3.55\nMás de\n4.5\n1.60\nMenos\n4.5\n2.27\nMás de\n5.5\n2.15\nMenos\n5.5\n1.65\nMás de\n6.5\n3.15\nMenos\n6.5\n1.33\nMás de\n7.5\n4.70\nMenos\n7.5\n1.17\nMás de\n8.5\n7.00\nMenos\n8.5\n1.08\nMás de\n9.5\n9.75\nMenos\n9.5\n1.03\nMOSTRAR MENOS",
+      "title": "Atlético Madrid Más/Menos Córners"
+    },
+    {
+      "qa": "market-type-id-49",
+      "selections": [],
+      "text": "Total de tarjetas rojas",
+      "title": "Total de tarjetas rojas"
+    },
+    {
+      "qa": "market-type-id-65",
+      "selections": [],
+      "text": "Tarjetas Totales Más/Menos",
+      "title": "Tarjetas Totales Más/Menos"
+    },
+    {
+      "qa": "market-type-id-4151",
+      "selections": [],
+      "text": "Ambos equipos reciben una tarjeta",
+      "title": "Ambos equipos reciben una tarjeta"
+    },
+    {
+      "qa": "market-type-id-4152",
+      "selections": [],
+      "text": "Ambos equipos reciben 2 o más tarjetas",
+      "title": "Ambos equipos reciben 2 o más tarjetas"
+    },
+    {
+      "qa": "market-type-id-343",
+      "selections": [
+        {
+          "aria": "Bet on Más de 9.5 with odds 1.67.",
+          "text": "Más de\n9.5\n1.67"
+        },
+        {
+          "aria": "Bet on Menos 9.5 with odds 2.12.",
+          "text": "Menos\n9.5\n2.12"
+        },
+        {
+          "aria": "Bet on Más de 10.5 with odds 2.07.",
+          "text": "Más de\n10.5\n2.07"
+        },
+        {
+          "aria": "Bet on Menos 10.5 with odds 1.7.",
+          "text": "Menos\n10.5\n1.70"
+        },
+        {
+          "aria": "Bet on Más de 11.5 with odds 2.72.",
+          "text": "Más de\n11.5\n2.72"
+        },
+        {
+          "aria": "Bet on Menos 11.5 with odds 1.42.",
+          "text": "Menos\n11.5\n1.42"
+        }
+      ],
+      "text": "Tiros al Arco\nMás de\n9.5\n1.67\nMenos\n9.5\n2.12\nMás de\n10.5\n2.07\nMenos\n10.5\n1.70\nMás de\n11.5\n2.72\nMenos\n11.5\n1.42",
+      "title": "Tiros al Arco"
+    },
+    {
+      "qa": "market-type-id-535",
+      "selections": [
+        {
+          "aria": "Bet on Más de 3.5 with odds 1.38.",
+          "text": "Más de\n3.5\n1.38"
+        },
+        {
+          "aria": "Bet on Menos 3.5 with odds 2.87.",
+          "text": "Menos\n3.5\n2.87"
+        },
+        {
+          "aria": "Bet on Más de 4.5 with odds 1.83.",
+          "text": "Más de\n4.5\n1.83"
+        },
+        {
+          "aria": "Bet on Menos 4.5 with odds 1.9.",
+          "text": "Menos\n4.5\n1.90"
+        },
+        {
+          "aria": "Bet on Más de 5.5 with odds 2.65.",
+          "text": "Más de\n5.5\n2.65"
+        },
+        {
+          "aria": "Bet on Menos 5.5 with odds 1.44.",
+          "text": "Menos\n5.5\n1.44"
+        }
+      ],
+      "text": "VfB Stuttgart Tiros al Arco\nMás de\n3.5\n1.38\nMenos\n3.5\n2.87\nMás de\n4.5\n1.83\nMenos\n4.5\n1.90\nMás de\n5.5\n2.65\nMenos\n5.5\n1.44",
+      "title": "VfB Stuttgart Tiros al Arco"
+    },
+    {
+      "qa": "market-type-id-449",
+      "selections": [
+        {
+          "aria": "Bet on Más de 5.5 with odds 2.",
+          "text": "Más de\n5.5\n2.00"
+        },
+        {
+          "aria": "Bet on Menos 5.5 with odds 1.75.",
+          "text": "Menos\n5.5\n1.75"
+        }
+      ],
+      "text": "Atlético Madrid Tiros al Arco\nMás de\n5.5\n2.00\nMenos\n5.5\n1.75",
+      "title": "Atlético Madrid Tiros al Arco"
+    },
+    {
+      "qa": "market-type-id-4159",
+      "selections": [
+        {
+          "aria": "Bet on Más de 26.5 with odds 1.57.",
+          "text": "Más de\n26.5\n1.57"
+        },
+        {
+          "aria": "Bet on Menos 26.5 with odds 2.3.",
+          "text": "Menos\n26.5\n2.30"
+        },
+        {
+          "aria": "Bet on Más de 27.5 with odds 1.78.",
+          "text": "Más de\n27.5\n1.78"
+        },
+        {
+          "aria": "Bet on Menos 27.5 with odds 1.95.",
+          "text": "Menos\n27.5\n1.95"
+        },
+        {
+          "aria": "Bet on Más de 28.5 with odds 2.05.",
+          "text": "Más de\n28.5\n2.05"
+        },
+        {
+          "aria": "Bet on Menos 28.5 with odds 1.72.",
+          "text": "Menos\n28.5\n1.72"
+        }
+      ],
+      "text": "Remates totales\nMás de\n26.5\n1.57\nMenos\n26.5\n2.30\nMás de\n27.5\n1.78\nMenos\n27.5\n1.95\nMás de\n28.5\n2.05\nMenos\n28.5\n1.72",
+      "title": "Remates totales"
+    },
+    {
+      "qa": "market-type-id-79",
+      "selections": [],
+      "text": "Jugador que anota +2 goles",
+      "title": "Jugador que anota +2 goles"
+    },
+    {
+      "qa": "market-type-id-80",
+      "selections": [],
+      "text": "Triplete del Jugador",
+      "title": "Triplete del Jugador"
+    },
+    {
+      "qa": "market-type-id-1000661",
+      "selections": [],
+      "text": "Jugador que anota o da una asistencia",
+      "title": "Jugador que anota o da una asistencia"
+    },
+    {
+      "qa": "market-type-id-593",
+      "selections": [],
+      "text": "Ermedin Demirovic Asistencias totales",
+      "title": "Ermedin Demirovic Asistencias totales"
+    },
+    {
+      "qa": "market-type-id-593",
+      "selections": [],
+      "text": "Chris Führich Asistencias totales",
+      "title": "Chris Führich Asistencias totales"
+    },
+    {
+      "qa": "market-type-id-593",
+      "selections": [],
+      "text": "Jamie Leweling Asistencias totales",
+      "title": "Jamie Leweling Asistencias totales"
+    },
+    {
+      "qa": "market-type-id-593",
+      "selections": [],
+      "text": "Dzenan Pejcinovic Asistencias totales",
+      "title": "Dzenan Pejcinovic Asistencias totales"
+    },
+    {
+      "qa": "market-type-id-593",
+      "selections": [],
+      "text": "Leo Sauer Asistencias totales",
+      "title": "Leo Sauer Asistencias totales"
+    },
+    {
+      "qa": "market-type-id-593",
+      "selections": [],
+      "text": "Deniz Undav Asistencias totales",
+      "title": "Deniz Undav Asistencias totales"
+    },
+    {
+      "qa": "market-type-id-593",
+      "selections": [],
+      "text": "Bilal El Khannouss Asistencias totales",
+      "title": "Bilal El Khannouss Asistencias totales"
+    },
+    {
+      "qa": "market-type-id-593",
+      "selections": [],
+      "text": "Finn Jeltsch Asistencias totales",
+      "title": "Finn Jeltsch Asistencias totales"
+    },
+    {
+      "qa": "market-type-id-593",
+      "selections": [],
+      "text": "Atakan Karazor Asistencias totales",
+      "title": "Atakan Karazor Asistencias totales"
+    },
+    {
+      "qa": "market-type-id-593",
+      "selections": [],
+      "text": "Grischa Prömel Asistencias totales",
+      "title": "Grischa Prömel Asistencias totales"
+    },
+    {
+      "qa": "market-type-id-593",
+      "selections": [],
+      "text": "Angelo Stiller Asistencias totales",
+      "title": "Angelo Stiller Asistencias totales"
+    },
+    {
+      "qa": "market-type-id-593",
+      "selections": [],
+      "text": "Lorenz Assignon Asistencias totales",
+      "title": "Lorenz Assignon Asistencias totales"
+    },
+    {
+      "qa": "market-type-id-593",
+      "selections": [],
+      "text": "Jeff Chabot Asistencias totales",
+      "title": "Jeff Chabot Asistencias totales"
+    },
+    {
+      "qa": "market-type-id-593",
+      "selections": [],
+      "text": "Ramon Hendriks Asistencias totales",
+      "title": "Ramon Hendriks Asistencias totales"
+    },
+    {
+      "qa": "market-type-id-593",
+      "selections": [],
+      "text": "Luca Jaquez Asistencias totales",
+      "title": "Luca Jaquez Asistencias totales"
+    },
+    {
+      "qa": "market-type-id-593",
+      "selections": [],
+      "text": "Josha Vagnoman Asistencias totales",
+      "title": "Josha Vagnoman Asistencias totales"
+    },
+    {
+      "qa": "market-type-id-593",
+      "selections": [],
+      "text": "Yanik Spalt Asistencias totales",
+      "title": "Yanik Spalt Asistencias totales"
+    },
+    {
+      "qa": "market-type-id-593",
+      "selections": [],
+      "text": "Mirza Catovic Asistencias totales",
+      "title": "Mirza Catovic Asistencias totales"
+    },
+    {
+      "qa": "market-type-id-593",
+      "selections": [],
+      "text": "Julián Álvarez Asistencias totales",
+      "title": "Julián Álvarez Asistencias totales"
+    },
+    {
+      "qa": "market-type-id-593",
+      "selections": [],
+      "text": "Jonathan David Asistencias totales",
+      "title": "Jonathan David Asistencias totales"
+    },
+    {
+      "qa": "market-type-id-593",
+      "selections": [],
+      "text": "Ademola Lookman Asistencias totales",
+      "title": "Ademola Lookman Asistencias totales"
+    },
+    {
+      "qa": "market-type-id-593",
+      "selections": [],
+      "text": "Giuliano Simeone Asistencias totales",
+      "title": "Giuliano Simeone Asistencias totales"
+    },
+    {
+      "qa": "market-type-id-593",
+      "selections": [],
+      "text": "Alexander Sörloth Asistencias totales",
+      "title": "Alexander Sörloth Asistencias totales"
+    },
+    {
+      "qa": "market-type-id-593",
+      "selections": [],
+      "text": "Álex Baena Asistencias totales",
+      "title": "Álex Baena Asistencias totales"
+    },
+    {
+      "qa": "market-type-id-593",
+      "selections": [],
+      "text": "Morten Hjulmand Asistencias totales",
+      "title": "Morten Hjulmand Asistencias totales"
+    },
+    {
+      "qa": "market-type-id-593",
+      "selections": [],
+      "text": "Kang In Lee Asistencias totales",
+      "title": "Kang In Lee Asistencias totales"
+    },
+    {
+      "qa": "market-type-id-593",
+      "selections": [],
+      "text": "Marcos Llorente Asistencias totales",
+      "title": "Marcos Llorente Asistencias totales"
+    },
+    {
+      "qa": "market-type-id-593",
+      "selections": [],
+      "text": "Rodrigo Mendoza Asistencias totales",
+      "title": "Rodrigo Mendoza Asistencias totales"
+    },
+    {
+      "qa": "market-type-id-593",
+      "selections": [],
+      "text": "Koke Asistencias totales",
+      "title": "Koke Asistencias totales"
+    },
+    {
+      "qa": "market-type-id-593",
+      "selections": [],
+      "text": "Pablo Barrios Asistencias totales",
+      "title": "Pablo Barrios Asistencias totales"
+    },
+    {
+      "qa": "market-type-id-593",
+      "selections": [],
+      "text": "Jorge Dominguez Asistencias totales",
+      "title": "Jorge Dominguez Asistencias totales"
+    },
+    {
+      "qa": "market-type-id-593",
+      "selections": [],
+      "text": "Álex Grimaldo Asistencias totales",
+      "title": "Álex Grimaldo Asistencias totales"
+    },
+    {
+      "qa": "market-type-id-593",
+      "selections": [],
+      "text": "Dávid Hancko Asistencias totales",
+      "title": "Dávid Hancko Asistencias totales"
+    },
+    {
+      "qa": "market-type-id-593",
+      "selections": [],
+      "text": "Robin Le Normand Asistencias totales",
+      "title": "Robin Le Normand Asistencias totales"
+    },
+    {
+      "qa": "market-type-id-593",
+      "selections": [],
+      "text": "Dani Martinez Asistencias totales",
+      "title": "Dani Martinez Asistencias totales"
+    },
+    {
+      "qa": "market-type-id-593",
+      "selections": [],
+      "text": "Marc Pubill Asistencias totales",
+      "title": "Marc Pubill Asistencias totales"
+    },
+    {
+      "qa": "market-type-id-593",
+      "selections": [],
+      "text": "Jorge Castillo Asistencias totales",
+      "title": "Jorge Castillo Asistencias totales"
+    },
+    {
+      "qa": "market-type-id-593",
+      "selections": [],
+      "text": "Arnau Ortiz Asistencias totales",
+      "title": "Arnau Ortiz Asistencias totales"
+    },
+    {
+      "qa": "market-type-id-1000115",
+      "selections": [],
+      "text": "Fabian Bredlow Atajadas de Arquero",
+      "title": "Fabian Bredlow Atajadas de Arquero"
+    },
+    {
+      "qa": "market-type-id-1000115",
+      "selections": [],
+      "text": "Jan Oblak Atajadas de Arquero",
+      "title": "Jan Oblak Atajadas de Arquero"
+    },
+    {
+      "qa": "market-type-id-62",
+      "selections": [],
+      "text": "Recibir una tarjeta",
+      "title": "Recibir una tarjeta"
+    },
+    {
+      "qa": "market-type-id-346",
+      "selections": [],
+      "text": "Recibe una tarjeta roja",
+      "title": "Recibe una tarjeta roja"
+    },
+    {
+      "qa": "market-type-id-595",
+      "selections": [],
+      "text": "Ermedin Demirovic Remates totales",
+      "title": "Ermedin Demirovic Remates totales"
+    },
+    {
+      "qa": "market-type-id-595",
+      "selections": [],
+      "text": "Chris Führich Remates totales",
+      "title": "Chris Führich Remates totales"
+    },
+    {
+      "qa": "market-type-id-595",
+      "selections": [],
+      "text": "Jamie Leweling Remates totales",
+      "title": "Jamie Leweling Remates totales"
+    },
+    {
+      "qa": "market-type-id-595",
+      "selections": [],
+      "text": "Dzenan Pejcinovic Remates totales",
+      "title": "Dzenan Pejcinovic Remates totales"
+    },
+    {
+      "qa": "market-type-id-595",
+      "selections": [],
+      "text": "Leo Sauer Remates totales",
+      "title": "Leo Sauer Remates totales"
+    },
+    {
+      "qa": "market-type-id-595",
+      "selections": [],
+      "text": "Deniz Undav Remates totales",
+      "title": "Deniz Undav Remates totales"
+    },
+    {
+      "qa": "market-type-id-595",
+      "selections": [],
+      "text": "Bilal El Khannouss Remates totales",
+      "title": "Bilal El Khannouss Remates totales"
+    },
+    {
+      "qa": "market-type-id-595",
+      "selections": [],
+      "text": "Finn Jeltsch Remates totales",
+      "title": "Finn Jeltsch Remates totales"
+    },
+    {
+      "qa": "market-type-id-595",
+      "selections": [],
+      "text": "Atakan Karazor Remates totales",
+      "title": "Atakan Karazor Remates totales"
+    },
+    {
+      "qa": "market-type-id-595",
+      "selections": [],
+      "text": "Grischa Prömel Remates totales",
+      "title": "Grischa Prömel Remates totales"
+    },
+    {
+      "qa": "market-type-id-595",
+      "selections": [],
+      "text": "Angelo Stiller Remates totales",
+      "title": "Angelo Stiller Remates totales"
+    },
+    {
+      "qa": "market-type-id-595",
+      "selections": [],
+      "text": "Lorenz Assignon Remates totales",
+      "title": "Lorenz Assignon Remates totales"
+    },
+    {
+      "qa": "market-type-id-595",
+      "selections": [],
+      "text": "Jeff Chabot Remates totales",
+      "title": "Jeff Chabot Remates totales"
+    },
+    {
+      "qa": "market-type-id-595",
+      "selections": [],
+      "text": "Ramon Hendriks Remates totales",
+      "title": "Ramon Hendriks Remates totales"
+    },
+    {
+      "qa": "market-type-id-595",
+      "selections": [],
+      "text": "Luca Jaquez Remates totales",
+      "title": "Luca Jaquez Remates totales"
+    },
+    {
+      "qa": "market-type-id-595",
+      "selections": [],
+      "text": "Josha Vagnoman Remates totales",
+      "title": "Josha Vagnoman Remates totales"
+    },
+    {
+      "qa": "market-type-id-595",
+      "selections": [],
+      "text": "Yanik Spalt Remates totales",
+      "title": "Yanik Spalt Remates totales"
+    },
+    {
+      "qa": "market-type-id-595",
+      "selections": [],
+      "text": "Mirza Catovic Remates totales",
+      "title": "Mirza Catovic Remates totales"
+    },
+    {
+      "qa": "market-type-id-595",
+      "selections": [],
+      "text": "Julián Álvarez Remates totales",
+      "title": "Julián Álvarez Remates totales"
+    },
+    {
+      "qa": "market-type-id-595",
+      "selections": [],
+      "text": "Jonathan David Remates totales",
+      "title": "Jonathan David Remates totales"
+    },
+    {
+      "qa": "market-type-id-595",
+      "selections": [],
+      "text": "Ademola Lookman Remates totales",
+      "title": "Ademola Lookman Remates totales"
+    },
+    {
+      "qa": "market-type-id-595",
+      "selections": [],
+      "text": "Giuliano Simeone Remates totales",
+      "title": "Giuliano Simeone Remates totales"
+    },
+    {
+      "qa": "market-type-id-595",
+      "selections": [],
+      "text": "Alexander Sörloth Remates totales",
+      "title": "Alexander Sörloth Remates totales"
+    },
+    {
+      "qa": "market-type-id-595",
+      "selections": [],
+      "text": "Álex Baena Remates totales",
+      "title": "Álex Baena Remates totales"
+    },
+    {
+      "qa": "market-type-id-595",
+      "selections": [],
+      "text": "Morten Hjulmand Remates totales",
+      "title": "Morten Hjulmand Remates totales"
+    },
+    {
+      "qa": "market-type-id-595",
+      "selections": [],
+      "text": "Kang In Lee Remates totales",
+      "title": "Kang In Lee Remates totales"
+    },
+    {
+      "qa": "market-type-id-595",
+      "selections": [],
+      "text": "Marcos Llorente Remates totales",
+      "title": "Marcos Llorente Remates totales"
+    },
+    {
+      "qa": "market-type-id-595",
+      "selections": [],
+      "text": "Rodrigo Mendoza Remates totales",
+      "title": "Rodrigo Mendoza Remates totales"
+    },
+    {
+      "qa": "market-type-id-595",
+      "selections": [],
+      "text": "Koke Remates totales",
+      "title": "Koke Remates totales"
+    },
+    {
+      "qa": "market-type-id-595",
+      "selections": [],
+      "text": "Pablo Barrios Remates totales",
+      "title": "Pablo Barrios Remates totales"
+    },
+    {
+      "qa": "market-type-id-595",
+      "selections": [],
+      "text": "Jorge Dominguez Remates totales",
+      "title": "Jorge Dominguez Remates totales"
+    },
+    {
+      "qa": "market-type-id-595",
+      "selections": [],
+      "text": "Álex Grimaldo Remates totales",
+      "title": "Álex Grimaldo Remates totales"
+    },
+    {
+      "qa": "market-type-id-595",
+      "selections": [],
+      "text": "Dávid Hancko Remates totales",
+      "title": "Dávid Hancko Remates totales"
+    },
+    {
+      "qa": "market-type-id-595",
+      "selections": [],
+      "text": "Robin Le Normand Remates totales",
+      "title": "Robin Le Normand Remates totales"
+    },
+    {
+      "qa": "market-type-id-595",
+      "selections": [],
+      "text": "Dani Martinez Remates totales",
+      "title": "Dani Martinez Remates totales"
+    },
+    {
+      "qa": "market-type-id-595",
+      "selections": [],
+      "text": "Marc Pubill Remates totales",
+      "title": "Marc Pubill Remates totales"
+    },
+    {
+      "qa": "market-type-id-595",
+      "selections": [],
+      "text": "Jorge Castillo Remates totales",
+      "title": "Jorge Castillo Remates totales"
+    },
+    {
+      "qa": "market-type-id-595",
+      "selections": [],
+      "text": "Arnau Ortiz Remates totales",
+      "title": "Arnau Ortiz Remates totales"
+    },
+    {
+      "qa": "market-type-id-63",
+      "selections": [],
+      "text": "Jugador que recibe la primera tarjeta",
+      "title": "Jugador que recibe la primera tarjeta"
+    },
+    {
+      "qa": "market-type-id-597",
+      "selections": [],
+      "text": "Ermedin Demirovic Total de pases",
+      "title": "Ermedin Demirovic Total de pases"
+    },
+    {
+      "qa": "market-type-id-597",
+      "selections": [],
+      "text": "Chris Führich Total de pases",
+      "title": "Chris Führich Total de pases"
+    },
+    {
+      "qa": "market-type-id-597",
+      "selections": [],
+      "text": "Jamie Leweling Total de pases",
+      "title": "Jamie Leweling Total de pases"
+    },
+    {
+      "qa": "market-type-id-597",
+      "selections": [],
+      "text": "Dzenan Pejcinovic Total de pases",
+      "title": "Dzenan Pejcinovic Total de pases"
+    },
+    {
+      "qa": "market-type-id-597",
+      "selections": [],
+      "text": "Leo Sauer Total de pases",
+      "title": "Leo Sauer Total de pases"
+    },
+    {
+      "qa": "market-type-id-597",
+      "selections": [],
+      "text": "Deniz Undav Total de pases",
+      "title": "Deniz Undav Total de pases"
+    },
+    {
+      "qa": "market-type-id-597",
+      "selections": [],
+      "text": "Bilal El Khannouss Total de pases",
+      "title": "Bilal El Khannouss Total de pases"
+    },
+    {
+      "qa": "market-type-id-597",
+      "selections": [],
+      "text": "Finn Jeltsch Total de pases",
+      "title": "Finn Jeltsch Total de pases"
+    },
+    {
+      "qa": "market-type-id-597",
+      "selections": [],
+      "text": "Atakan Karazor Total de pases",
+      "title": "Atakan Karazor Total de pases"
+    },
+    {
+      "qa": "market-type-id-597",
+      "selections": [],
+      "text": "Grischa Prömel Total de pases",
+      "title": "Grischa Prömel Total de pases"
+    },
+    {
+      "qa": "market-type-id-597",
+      "selections": [],
+      "text": "Angelo Stiller Total de pases",
+      "title": "Angelo Stiller Total de pases"
+    },
+    {
+      "qa": "market-type-id-597",
+      "selections": [],
+      "text": "Lorenz Assignon Total de pases",
+      "title": "Lorenz Assignon Total de pases"
+    },
+    {
+      "qa": "market-type-id-597",
+      "selections": [],
+      "text": "Jeff Chabot Total de pases",
+      "title": "Jeff Chabot Total de pases"
+    },
+    {
+      "qa": "market-type-id-597",
+      "selections": [],
+      "text": "Ramon Hendriks Total de pases",
+      "title": "Ramon Hendriks Total de pases"
+    },
+    {
+      "qa": "market-type-id-597",
+      "selections": [],
+      "text": "Luca Jaquez Total de pases",
+      "title": "Luca Jaquez Total de pases"
+    },
+    {
+      "qa": "market-type-id-597",
+      "selections": [],
+      "text": "Josha Vagnoman Total de pases",
+      "title": "Josha Vagnoman Total de pases"
+    },
+    {
+      "qa": "market-type-id-597",
+      "selections": [],
+      "text": "Yanik Spalt Total de pases",
+      "title": "Yanik Spalt Total de pases"
+    },
+    {
+      "qa": "market-type-id-597",
+      "selections": [],
+      "text": "Mirza Catovic Total de pases",
+      "title": "Mirza Catovic Total de pases"
+    },
+    {
+      "qa": "market-type-id-597",
+      "selections": [],
+      "text": "Julián Álvarez Total de pases",
+      "title": "Julián Álvarez Total de pases"
+    },
+    {
+      "qa": "market-type-id-597",
+      "selections": [],
+      "text": "Jonathan David Total de pases",
+      "title": "Jonathan David Total de pases"
+    },
+    {
+      "qa": "market-type-id-597",
+      "selections": [],
+      "text": "Ademola Lookman Total de pases",
+      "title": "Ademola Lookman Total de pases"
+    },
+    {
+      "qa": "market-type-id-597",
+      "selections": [],
+      "text": "Giuliano Simeone Total de pases",
+      "title": "Giuliano Simeone Total de pases"
+    },
+    {
+      "qa": "market-type-id-597",
+      "selections": [],
+      "text": "Alexander Sörloth Total de pases",
+      "title": "Alexander Sörloth Total de pases"
+    },
+    {
+      "qa": "market-type-id-597",
+      "selections": [],
+      "text": "Álex Baena Total de pases",
+      "title": "Álex Baena Total de pases"
+    },
+    {
+      "qa": "market-type-id-597",
+      "selections": [],
+      "text": "Morten Hjulmand Total de pases",
+      "title": "Morten Hjulmand Total de pases"
+    },
+    {
+      "qa": "market-type-id-597",
+      "selections": [],
+      "text": "Kang In Lee Total de pases",
+      "title": "Kang In Lee Total de pases"
+    },
+    {
+      "qa": "market-type-id-597",
+      "selections": [],
+      "text": "Marcos Llorente Total de pases",
+      "title": "Marcos Llorente Total de pases"
+    },
+    {
+      "qa": "market-type-id-597",
+      "selections": [],
+      "text": "Rodrigo Mendoza Total de pases",
+      "title": "Rodrigo Mendoza Total de pases"
+    },
+    {
+      "qa": "market-type-id-597",
+      "selections": [],
+      "text": "Koke Total de pases",
+      "title": "Koke Total de pases"
+    },
+    {
+      "qa": "market-type-id-597",
+      "selections": [],
+      "text": "Pablo Barrios Total de pases",
+      "title": "Pablo Barrios Total de pases"
+    },
+    {
+      "qa": "market-type-id-597",
+      "selections": [],
+      "text": "Jorge Dominguez Total de pases",
+      "title": "Jorge Dominguez Total de pases"
+    },
+    {
+      "qa": "market-type-id-597",
+      "selections": [],
+      "text": "Álex Grimaldo Total de pases",
+      "title": "Álex Grimaldo Total de pases"
+    },
+    {
+      "qa": "market-type-id-597",
+      "selections": [],
+      "text": "Dávid Hancko Total de pases",
+      "title": "Dávid Hancko Total de pases"
+    },
+    {
+      "qa": "market-type-id-597",
+      "selections": [],
+      "text": "Robin Le Normand Total de pases",
+      "title": "Robin Le Normand Total de pases"
+    },
+    {
+      "qa": "market-type-id-597",
+      "selections": [],
+      "text": "Dani Martinez Total de pases",
+      "title": "Dani Martinez Total de pases"
+    },
+    {
+      "qa": "market-type-id-597",
+      "selections": [],
+      "text": "Marc Pubill Total de pases",
+      "title": "Marc Pubill Total de pases"
+    },
+    {
+      "qa": "market-type-id-597",
+      "selections": [],
+      "text": "Jorge Castillo Total de pases",
+      "title": "Jorge Castillo Total de pases"
+    },
+    {
+      "qa": "market-type-id-597",
+      "selections": [],
+      "text": "Arnau Ortiz Total de pases",
+      "title": "Arnau Ortiz Total de pases"
+    },
+    {
+      "qa": "market-type-id-599",
+      "selections": [],
+      "text": "Ermedin Demirovic Tackles totales",
+      "title": "Ermedin Demirovic Tackles totales"
+    },
+    {
+      "qa": "market-type-id-599",
+      "selections": [],
+      "text": "Chris Führich Tackles totales",
+      "title": "Chris Führich Tackles totales"
+    },
+    {
+      "qa": "market-type-id-599",
+      "selections": [],
+      "text": "Jamie Leweling Tackles totales",
+      "title": "Jamie Leweling Tackles totales"
+    },
+    {
+      "qa": "market-type-id-599",
+      "selections": [],
+      "text": "Dzenan Pejcinovic Tackles totales",
+      "title": "Dzenan Pejcinovic Tackles totales"
+    },
+    {
+      "qa": "market-type-id-599",
+      "selections": [],
+      "text": "Leo Sauer Tackles totales",
+      "title": "Leo Sauer Tackles totales"
+    },
+    {
+      "qa": "market-type-id-599",
+      "selections": [],
+      "text": "Deniz Undav Tackles totales",
+      "title": "Deniz Undav Tackles totales"
+    },
+    {
+      "qa": "market-type-id-599",
+      "selections": [],
+      "text": "Bilal El Khannouss Tackles totales",
+      "title": "Bilal El Khannouss Tackles totales"
+    },
+    {
+      "qa": "market-type-id-599",
+      "selections": [],
+      "text": "Finn Jeltsch Tackles totales",
+      "title": "Finn Jeltsch Tackles totales"
+    },
+    {
+      "qa": "market-type-id-599",
+      "selections": [],
+      "text": "Atakan Karazor Tackles totales",
+      "title": "Atakan Karazor Tackles totales"
+    },
+    {
+      "qa": "market-type-id-599",
+      "selections": [],
+      "text": "Grischa Prömel Tackles totales",
+      "title": "Grischa Prömel Tackles totales"
+    },
+    {
+      "qa": "market-type-id-599",
+      "selections": [],
+      "text": "Angelo Stiller Tackles totales",
+      "title": "Angelo Stiller Tackles totales"
+    },
+    {
+      "qa": "market-type-id-599",
+      "selections": [],
+      "text": "Lorenz Assignon Tackles totales",
+      "title": "Lorenz Assignon Tackles totales"
+    },
+    {
+      "qa": "market-type-id-599",
+      "selections": [],
+      "text": "Jeff Chabot Tackles totales",
+      "title": "Jeff Chabot Tackles totales"
+    },
+    {
+      "qa": "market-type-id-599",
+      "selections": [],
+      "text": "Ramon Hendriks Tackles totales",
+      "title": "Ramon Hendriks Tackles totales"
+    },
+    {
+      "qa": "market-type-id-599",
+      "selections": [],
+      "text": "Luca Jaquez Tackles totales",
+      "title": "Luca Jaquez Tackles totales"
+    },
+    {
+      "qa": "market-type-id-599",
+      "selections": [],
+      "text": "Josha Vagnoman Tackles totales",
+      "title": "Josha Vagnoman Tackles totales"
+    },
+    {
+      "qa": "market-type-id-599",
+      "selections": [],
+      "text": "Yanik Spalt Tackles totales",
+      "title": "Yanik Spalt Tackles totales"
+    },
+    {
+      "qa": "market-type-id-599",
+      "selections": [],
+      "text": "Mirza Catovic Tackles totales",
+      "title": "Mirza Catovic Tackles totales"
+    },
+    {
+      "qa": "market-type-id-599",
+      "selections": [],
+      "text": "Julián Álvarez Tackles totales",
+      "title": "Julián Álvarez Tackles totales"
+    },
+    {
+      "qa": "market-type-id-599",
+      "selections": [],
+      "text": "Jonathan David Tackles totales",
+      "title": "Jonathan David Tackles totales"
+    },
+    {
+      "qa": "market-type-id-599",
+      "selections": [],
+      "text": "Ademola Lookman Tackles totales",
+      "title": "Ademola Lookman Tackles totales"
+    },
+    {
+      "qa": "market-type-id-599",
+      "selections": [],
+      "text": "Giuliano Simeone Tackles totales",
+      "title": "Giuliano Simeone Tackles totales"
+    },
+    {
+      "qa": "market-type-id-599",
+      "selections": [],
+      "text": "Alexander Sörloth Tackles totales",
+      "title": "Alexander Sörloth Tackles totales"
+    },
+    {
+      "qa": "market-type-id-599",
+      "selections": [],
+      "text": "Álex Baena Tackles totales",
+      "title": "Álex Baena Tackles totales"
+    },
+    {
+      "qa": "market-type-id-599",
+      "selections": [],
+      "text": "Morten Hjulmand Tackles totales",
+      "title": "Morten Hjulmand Tackles totales"
+    },
+    {
+      "qa": "market-type-id-599",
+      "selections": [],
+      "text": "Kang In Lee Tackles totales",
+      "title": "Kang In Lee Tackles totales"
+    },
+    {
+      "qa": "market-type-id-599",
+      "selections": [],
+      "text": "Marcos Llorente Tackles totales",
+      "title": "Marcos Llorente Tackles totales"
+    },
+    {
+      "qa": "market-type-id-599",
+      "selections": [],
+      "text": "Rodrigo Mendoza Tackles totales",
+      "title": "Rodrigo Mendoza Tackles totales"
+    },
+    {
+      "qa": "market-type-id-599",
+      "selections": [],
+      "text": "Koke Tackles totales",
+      "title": "Koke Tackles totales"
+    },
+    {
+      "qa": "market-type-id-599",
+      "selections": [],
+      "text": "Pablo Barrios Tackles totales",
+      "title": "Pablo Barrios Tackles totales"
+    },
+    {
+      "qa": "market-type-id-599",
+      "selections": [],
+      "text": "Jorge Dominguez Tackles totales",
+      "title": "Jorge Dominguez Tackles totales"
+    },
+    {
+      "qa": "market-type-id-599",
+      "selections": [],
+      "text": "Álex Grimaldo Tackles totales",
+      "title": "Álex Grimaldo Tackles totales"
+    },
+    {
+      "qa": "market-type-id-599",
+      "selections": [],
+      "text": "Dávid Hancko Tackles totales",
+      "title": "Dávid Hancko Tackles totales"
+    },
+    {
+      "qa": "market-type-id-599",
+      "selections": [],
+      "text": "Robin Le Normand Tackles totales",
+      "title": "Robin Le Normand Tackles totales"
+    },
+    {
+      "qa": "market-type-id-599",
+      "selections": [],
+      "text": "Dani Martinez Tackles totales",
+      "title": "Dani Martinez Tackles totales"
+    },
+    {
+      "qa": "market-type-id-599",
+      "selections": [],
+      "text": "Marc Pubill Tackles totales",
+      "title": "Marc Pubill Tackles totales"
+    },
+    {
+      "qa": "market-type-id-599",
+      "selections": [],
+      "text": "Jorge Castillo Tackles totales",
+      "title": "Jorge Castillo Tackles totales"
+    },
+    {
+      "qa": "market-type-id-599",
+      "selections": [],
+      "text": "Arnau Ortiz Tackles totales",
+      "title": "Arnau Ortiz Tackles totales"
+    },
+    {
+      "qa": "market-type-id-1000681",
+      "selections": [],
+      "text": "Ermedin Demirovic Tiros Al Arco - Primer Tiempo",
+      "title": "Ermedin Demirovic Tiros Al Arco - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000681",
+      "selections": [],
+      "text": "Chris Führich Tiros Al Arco - Primer Tiempo",
+      "title": "Chris Führich Tiros Al Arco - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000681",
+      "selections": [],
+      "text": "Jamie Leweling Tiros Al Arco - Primer Tiempo",
+      "title": "Jamie Leweling Tiros Al Arco - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000681",
+      "selections": [],
+      "text": "Dzenan Pejcinovic Tiros Al Arco - Primer Tiempo",
+      "title": "Dzenan Pejcinovic Tiros Al Arco - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000681",
+      "selections": [],
+      "text": "Leo Sauer Tiros Al Arco - Primer Tiempo",
+      "title": "Leo Sauer Tiros Al Arco - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000681",
+      "selections": [],
+      "text": "Deniz Undav Tiros Al Arco - Primer Tiempo",
+      "title": "Deniz Undav Tiros Al Arco - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000681",
+      "selections": [],
+      "text": "Bilal El Khannouss Tiros Al Arco - Primer Tiempo",
+      "title": "Bilal El Khannouss Tiros Al Arco - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000681",
+      "selections": [],
+      "text": "Finn Jeltsch Tiros Al Arco - Primer Tiempo",
+      "title": "Finn Jeltsch Tiros Al Arco - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000681",
+      "selections": [],
+      "text": "Atakan Karazor Tiros Al Arco - Primer Tiempo",
+      "title": "Atakan Karazor Tiros Al Arco - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000681",
+      "selections": [],
+      "text": "Grischa Prömel Tiros Al Arco - Primer Tiempo",
+      "title": "Grischa Prömel Tiros Al Arco - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000681",
+      "selections": [],
+      "text": "Angelo Stiller Tiros Al Arco - Primer Tiempo",
+      "title": "Angelo Stiller Tiros Al Arco - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000681",
+      "selections": [],
+      "text": "Lorenz Assignon Tiros Al Arco - Primer Tiempo",
+      "title": "Lorenz Assignon Tiros Al Arco - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000681",
+      "selections": [],
+      "text": "Jeff Chabot Tiros Al Arco - Primer Tiempo",
+      "title": "Jeff Chabot Tiros Al Arco - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000681",
+      "selections": [],
+      "text": "Ramon Hendriks Tiros Al Arco - Primer Tiempo",
+      "title": "Ramon Hendriks Tiros Al Arco - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000681",
+      "selections": [],
+      "text": "Luca Jaquez Tiros Al Arco - Primer Tiempo",
+      "title": "Luca Jaquez Tiros Al Arco - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000681",
+      "selections": [],
+      "text": "Josha Vagnoman Tiros Al Arco - Primer Tiempo",
+      "title": "Josha Vagnoman Tiros Al Arco - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000681",
+      "selections": [],
+      "text": "Yanik Spalt Tiros Al Arco - Primer Tiempo",
+      "title": "Yanik Spalt Tiros Al Arco - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000681",
+      "selections": [],
+      "text": "Mirza Catovic Tiros Al Arco - Primer Tiempo",
+      "title": "Mirza Catovic Tiros Al Arco - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000681",
+      "selections": [],
+      "text": "Julián Álvarez Tiros Al Arco - Primer Tiempo",
+      "title": "Julián Álvarez Tiros Al Arco - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000681",
+      "selections": [],
+      "text": "Jonathan David Tiros Al Arco - Primer Tiempo",
+      "title": "Jonathan David Tiros Al Arco - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000681",
+      "selections": [],
+      "text": "Ademola Lookman Tiros Al Arco - Primer Tiempo",
+      "title": "Ademola Lookman Tiros Al Arco - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000681",
+      "selections": [],
+      "text": "Giuliano Simeone Tiros Al Arco - Primer Tiempo",
+      "title": "Giuliano Simeone Tiros Al Arco - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000681",
+      "selections": [],
+      "text": "Alexander Sörloth Tiros Al Arco - Primer Tiempo",
+      "title": "Alexander Sörloth Tiros Al Arco - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000681",
+      "selections": [],
+      "text": "Álex Baena Tiros Al Arco - Primer Tiempo",
+      "title": "Álex Baena Tiros Al Arco - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000681",
+      "selections": [],
+      "text": "Morten Hjulmand Tiros Al Arco - Primer Tiempo",
+      "title": "Morten Hjulmand Tiros Al Arco - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000681",
+      "selections": [],
+      "text": "Kang In Lee Tiros Al Arco - Primer Tiempo",
+      "title": "Kang In Lee Tiros Al Arco - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000681",
+      "selections": [],
+      "text": "Marcos Llorente Tiros Al Arco - Primer Tiempo",
+      "title": "Marcos Llorente Tiros Al Arco - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000681",
+      "selections": [],
+      "text": "Rodrigo Mendoza Tiros Al Arco - Primer Tiempo",
+      "title": "Rodrigo Mendoza Tiros Al Arco - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000681",
+      "selections": [],
+      "text": "Koke Tiros Al Arco - Primer Tiempo",
+      "title": "Koke Tiros Al Arco - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000681",
+      "selections": [],
+      "text": "Pablo Barrios Tiros Al Arco - Primer Tiempo",
+      "title": "Pablo Barrios Tiros Al Arco - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000681",
+      "selections": [],
+      "text": "Jorge Dominguez Tiros Al Arco - Primer Tiempo",
+      "title": "Jorge Dominguez Tiros Al Arco - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000681",
+      "selections": [],
+      "text": "Álex Grimaldo Tiros Al Arco - Primer Tiempo",
+      "title": "Álex Grimaldo Tiros Al Arco - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000681",
+      "selections": [],
+      "text": "Dávid Hancko Tiros Al Arco - Primer Tiempo",
+      "title": "Dávid Hancko Tiros Al Arco - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000681",
+      "selections": [],
+      "text": "Robin Le Normand Tiros Al Arco - Primer Tiempo",
+      "title": "Robin Le Normand Tiros Al Arco - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000681",
+      "selections": [],
+      "text": "Dani Martinez Tiros Al Arco - Primer Tiempo",
+      "title": "Dani Martinez Tiros Al Arco - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000681",
+      "selections": [],
+      "text": "Marc Pubill Tiros Al Arco - Primer Tiempo",
+      "title": "Marc Pubill Tiros Al Arco - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000681",
+      "selections": [],
+      "text": "Jorge Castillo Tiros Al Arco - Primer Tiempo",
+      "title": "Jorge Castillo Tiros Al Arco - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000681",
+      "selections": [],
+      "text": "Arnau Ortiz Tiros Al Arco - Primer Tiempo",
+      "title": "Arnau Ortiz Tiros Al Arco - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000680",
+      "selections": [],
+      "text": "Ermedin Demirovic Remates totales - Primer Tiempo",
+      "title": "Ermedin Demirovic Remates totales - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000680",
+      "selections": [],
+      "text": "Chris Führich Remates totales - Primer Tiempo",
+      "title": "Chris Führich Remates totales - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000680",
+      "selections": [],
+      "text": "Jamie Leweling Remates totales - Primer Tiempo",
+      "title": "Jamie Leweling Remates totales - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000680",
+      "selections": [],
+      "text": "Dzenan Pejcinovic Remates totales - Primer Tiempo",
+      "title": "Dzenan Pejcinovic Remates totales - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000680",
+      "selections": [],
+      "text": "Leo Sauer Remates totales - Primer Tiempo",
+      "title": "Leo Sauer Remates totales - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000680",
+      "selections": [],
+      "text": "Deniz Undav Remates totales - Primer Tiempo",
+      "title": "Deniz Undav Remates totales - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000680",
+      "selections": [],
+      "text": "Bilal El Khannouss Remates totales - Primer Tiempo",
+      "title": "Bilal El Khannouss Remates totales - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000680",
+      "selections": [],
+      "text": "Finn Jeltsch Remates totales - Primer Tiempo",
+      "title": "Finn Jeltsch Remates totales - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000680",
+      "selections": [],
+      "text": "Atakan Karazor Remates totales - Primer Tiempo",
+      "title": "Atakan Karazor Remates totales - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000680",
+      "selections": [],
+      "text": "Grischa Prömel Remates totales - Primer Tiempo",
+      "title": "Grischa Prömel Remates totales - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000680",
+      "selections": [],
+      "text": "Angelo Stiller Remates totales - Primer Tiempo",
+      "title": "Angelo Stiller Remates totales - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000680",
+      "selections": [],
+      "text": "Lorenz Assignon Remates totales - Primer Tiempo",
+      "title": "Lorenz Assignon Remates totales - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000680",
+      "selections": [],
+      "text": "Jeff Chabot Remates totales - Primer Tiempo",
+      "title": "Jeff Chabot Remates totales - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000680",
+      "selections": [],
+      "text": "Ramon Hendriks Remates totales - Primer Tiempo",
+      "title": "Ramon Hendriks Remates totales - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000680",
+      "selections": [],
+      "text": "Luca Jaquez Remates totales - Primer Tiempo",
+      "title": "Luca Jaquez Remates totales - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000680",
+      "selections": [],
+      "text": "Josha Vagnoman Remates totales - Primer Tiempo",
+      "title": "Josha Vagnoman Remates totales - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000680",
+      "selections": [],
+      "text": "Yanik Spalt Remates totales - Primer Tiempo",
+      "title": "Yanik Spalt Remates totales - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000680",
+      "selections": [],
+      "text": "Mirza Catovic Remates totales - Primer Tiempo",
+      "title": "Mirza Catovic Remates totales - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000680",
+      "selections": [],
+      "text": "Julián Álvarez Remates totales - Primer Tiempo",
+      "title": "Julián Álvarez Remates totales - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000680",
+      "selections": [],
+      "text": "Jonathan David Remates totales - Primer Tiempo",
+      "title": "Jonathan David Remates totales - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000680",
+      "selections": [],
+      "text": "Ademola Lookman Remates totales - Primer Tiempo",
+      "title": "Ademola Lookman Remates totales - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000680",
+      "selections": [],
+      "text": "Giuliano Simeone Remates totales - Primer Tiempo",
+      "title": "Giuliano Simeone Remates totales - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000680",
+      "selections": [],
+      "text": "Alexander Sörloth Remates totales - Primer Tiempo",
+      "title": "Alexander Sörloth Remates totales - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000680",
+      "selections": [],
+      "text": "Álex Baena Remates totales - Primer Tiempo",
+      "title": "Álex Baena Remates totales - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000680",
+      "selections": [],
+      "text": "Morten Hjulmand Remates totales - Primer Tiempo",
+      "title": "Morten Hjulmand Remates totales - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000680",
+      "selections": [],
+      "text": "Kang In Lee Remates totales - Primer Tiempo",
+      "title": "Kang In Lee Remates totales - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000680",
+      "selections": [],
+      "text": "Marcos Llorente Remates totales - Primer Tiempo",
+      "title": "Marcos Llorente Remates totales - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000680",
+      "selections": [],
+      "text": "Rodrigo Mendoza Remates totales - Primer Tiempo",
+      "title": "Rodrigo Mendoza Remates totales - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000680",
+      "selections": [],
+      "text": "Koke Remates totales - Primer Tiempo",
+      "title": "Koke Remates totales - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000680",
+      "selections": [],
+      "text": "Pablo Barrios Remates totales - Primer Tiempo",
+      "title": "Pablo Barrios Remates totales - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000680",
+      "selections": [],
+      "text": "Jorge Dominguez Remates totales - Primer Tiempo",
+      "title": "Jorge Dominguez Remates totales - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000680",
+      "selections": [],
+      "text": "Álex Grimaldo Remates totales - Primer Tiempo",
+      "title": "Álex Grimaldo Remates totales - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000680",
+      "selections": [],
+      "text": "Dávid Hancko Remates totales - Primer Tiempo",
+      "title": "Dávid Hancko Remates totales - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000680",
+      "selections": [],
+      "text": "Robin Le Normand Remates totales - Primer Tiempo",
+      "title": "Robin Le Normand Remates totales - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000680",
+      "selections": [],
+      "text": "Dani Martinez Remates totales - Primer Tiempo",
+      "title": "Dani Martinez Remates totales - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000680",
+      "selections": [],
+      "text": "Marc Pubill Remates totales - Primer Tiempo",
+      "title": "Marc Pubill Remates totales - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000680",
+      "selections": [],
+      "text": "Jorge Castillo Remates totales - Primer Tiempo",
+      "title": "Jorge Castillo Remates totales - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000680",
+      "selections": [],
+      "text": "Arnau Ortiz Remates totales - Primer Tiempo",
+      "title": "Arnau Ortiz Remates totales - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000676",
+      "selections": [],
+      "text": "Ermedin Demirovic Fueras de juego",
+      "title": "Ermedin Demirovic Fueras de juego"
+    },
+    {
+      "qa": "market-type-id-1000676",
+      "selections": [],
+      "text": "Chris Führich Fueras de juego",
+      "title": "Chris Führich Fueras de juego"
+    },
+    {
+      "qa": "market-type-id-1000676",
+      "selections": [],
+      "text": "Jamie Leweling Fueras de juego",
+      "title": "Jamie Leweling Fueras de juego"
+    },
+    {
+      "qa": "market-type-id-1000676",
+      "selections": [],
+      "text": "Dzenan Pejcinovic Fueras de juego",
+      "title": "Dzenan Pejcinovic Fueras de juego"
+    },
+    {
+      "qa": "market-type-id-1000676",
+      "selections": [],
+      "text": "Leo Sauer Fueras de juego",
+      "title": "Leo Sauer Fueras de juego"
+    },
+    {
+      "qa": "market-type-id-1000676",
+      "selections": [],
+      "text": "Deniz Undav Fueras de juego",
+      "title": "Deniz Undav Fueras de juego"
+    },
+    {
+      "qa": "market-type-id-1000676",
+      "selections": [],
+      "text": "Bilal El Khannouss Fueras de juego",
+      "title": "Bilal El Khannouss Fueras de juego"
+    },
+    {
+      "qa": "market-type-id-1000676",
+      "selections": [],
+      "text": "Finn Jeltsch Fueras de juego",
+      "title": "Finn Jeltsch Fueras de juego"
+    },
+    {
+      "qa": "market-type-id-1000676",
+      "selections": [],
+      "text": "Julián Álvarez Fueras de juego",
+      "title": "Julián Álvarez Fueras de juego"
+    },
+    {
+      "qa": "market-type-id-1000676",
+      "selections": [],
+      "text": "Jonathan David Fueras de juego",
+      "title": "Jonathan David Fueras de juego"
+    },
+    {
+      "qa": "market-type-id-1000676",
+      "selections": [],
+      "text": "Ademola Lookman Fueras de juego",
+      "title": "Ademola Lookman Fueras de juego"
+    },
+    {
+      "qa": "market-type-id-1000676",
+      "selections": [],
+      "text": "Giuliano Simeone Fueras de juego",
+      "title": "Giuliano Simeone Fueras de juego"
+    },
+    {
+      "qa": "market-type-id-1000676",
+      "selections": [],
+      "text": "Alexander Sörloth Fueras de juego",
+      "title": "Alexander Sörloth Fueras de juego"
+    },
+    {
+      "qa": "market-type-id-1000676",
+      "selections": [],
+      "text": "Álex Baena Fueras de juego",
+      "title": "Álex Baena Fueras de juego"
+    },
+    {
+      "qa": "market-type-id-1000676",
+      "selections": [],
+      "text": "Kang In Lee Fueras de juego",
+      "title": "Kang In Lee Fueras de juego"
+    },
+    {
+      "qa": "market-type-id-1000676",
+      "selections": [],
+      "text": "Marcos Llorente Fueras de juego",
+      "title": "Marcos Llorente Fueras de juego"
+    },
+    {
+      "qa": "market-type-id-1000676",
+      "selections": [],
+      "text": "Álex Grimaldo Fueras de juego",
+      "title": "Álex Grimaldo Fueras de juego"
+    },
+    {
+      "qa": "market-type-id-1000676",
+      "selections": [],
+      "text": "Arnau Ortiz Fueras de juego",
+      "title": "Arnau Ortiz Fueras de juego"
+    },
+    {
+      "qa": "market-type-id-347",
+      "selections": [],
+      "text": "Anota desde fuera del área",
+      "title": "Anota desde fuera del área"
+    },
+    {
+      "qa": "market-type-id-77",
+      "selections": [],
+      "text": "Anotar en cualquier momento - Primer Tiempo",
+      "title": "Anotar en cualquier momento - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000679",
+      "selections": [],
+      "text": "Ermedin Demirovic Faltas cometidas",
+      "title": "Ermedin Demirovic Faltas cometidas"
+    },
+    {
+      "qa": "market-type-id-1000679",
+      "selections": [],
+      "text": "Chris Führich Faltas cometidas",
+      "title": "Chris Führich Faltas cometidas"
+    },
+    {
+      "qa": "market-type-id-1000679",
+      "selections": [],
+      "text": "Jamie Leweling Faltas cometidas",
+      "title": "Jamie Leweling Faltas cometidas"
+    },
+    {
+      "qa": "market-type-id-1000679",
+      "selections": [],
+      "text": "Dzenan Pejcinovic Faltas cometidas",
+      "title": "Dzenan Pejcinovic Faltas cometidas"
+    },
+    {
+      "qa": "market-type-id-1000679",
+      "selections": [],
+      "text": "Leo Sauer Faltas cometidas",
+      "title": "Leo Sauer Faltas cometidas"
+    },
+    {
+      "qa": "market-type-id-1000679",
+      "selections": [],
+      "text": "Deniz Undav Faltas cometidas",
+      "title": "Deniz Undav Faltas cometidas"
+    },
+    {
+      "qa": "market-type-id-1000679",
+      "selections": [],
+      "text": "Bilal El Khannouss Faltas cometidas",
+      "title": "Bilal El Khannouss Faltas cometidas"
+    },
+    {
+      "qa": "market-type-id-1000679",
+      "selections": [],
+      "text": "Finn Jeltsch Faltas cometidas",
+      "title": "Finn Jeltsch Faltas cometidas"
+    },
+    {
+      "qa": "market-type-id-1000679",
+      "selections": [],
+      "text": "Atakan Karazor Faltas cometidas",
+      "title": "Atakan Karazor Faltas cometidas"
+    },
+    {
+      "qa": "market-type-id-1000679",
+      "selections": [],
+      "text": "Grischa Prömel Faltas cometidas",
+      "title": "Grischa Prömel Faltas cometidas"
+    },
+    {
+      "qa": "market-type-id-1000679",
+      "selections": [],
+      "text": "Angelo Stiller Faltas cometidas",
+      "title": "Angelo Stiller Faltas cometidas"
+    },
+    {
+      "qa": "market-type-id-1000679",
+      "selections": [],
+      "text": "Lorenz Assignon Faltas cometidas",
+      "title": "Lorenz Assignon Faltas cometidas"
+    },
+    {
+      "qa": "market-type-id-1000679",
+      "selections": [],
+      "text": "Jeff Chabot Faltas cometidas",
+      "title": "Jeff Chabot Faltas cometidas"
+    },
+    {
+      "qa": "market-type-id-1000679",
+      "selections": [],
+      "text": "Ramon Hendriks Faltas cometidas",
+      "title": "Ramon Hendriks Faltas cometidas"
+    },
+    {
+      "qa": "market-type-id-1000679",
+      "selections": [],
+      "text": "Luca Jaquez Faltas cometidas",
+      "title": "Luca Jaquez Faltas cometidas"
+    },
+    {
+      "qa": "market-type-id-1000679",
+      "selections": [],
+      "text": "Josha Vagnoman Faltas cometidas",
+      "title": "Josha Vagnoman Faltas cometidas"
+    },
+    {
+      "qa": "market-type-id-1000679",
+      "selections": [],
+      "text": "Yanik Spalt Faltas cometidas",
+      "title": "Yanik Spalt Faltas cometidas"
+    },
+    {
+      "qa": "market-type-id-1000679",
+      "selections": [],
+      "text": "Mirza Catovic Faltas cometidas",
+      "title": "Mirza Catovic Faltas cometidas"
+    },
+    {
+      "qa": "market-type-id-1000679",
+      "selections": [],
+      "text": "Julián Álvarez Faltas cometidas",
+      "title": "Julián Álvarez Faltas cometidas"
+    },
+    {
+      "qa": "market-type-id-1000679",
+      "selections": [],
+      "text": "Jonathan David Faltas cometidas",
+      "title": "Jonathan David Faltas cometidas"
+    },
+    {
+      "qa": "market-type-id-1000679",
+      "selections": [],
+      "text": "Ademola Lookman Faltas cometidas",
+      "title": "Ademola Lookman Faltas cometidas"
+    },
+    {
+      "qa": "market-type-id-1000679",
+      "selections": [],
+      "text": "Giuliano Simeone Faltas cometidas",
+      "title": "Giuliano Simeone Faltas cometidas"
+    },
+    {
+      "qa": "market-type-id-1000679",
+      "selections": [],
+      "text": "Alexander Sörloth Faltas cometidas",
+      "title": "Alexander Sörloth Faltas cometidas"
+    },
+    {
+      "qa": "market-type-id-1000679",
+      "selections": [],
+      "text": "Álex Baena Faltas cometidas",
+      "title": "Álex Baena Faltas cometidas"
+    },
+    {
+      "qa": "market-type-id-1000679",
+      "selections": [],
+      "text": "Morten Hjulmand Faltas cometidas",
+      "title": "Morten Hjulmand Faltas cometidas"
+    },
+    {
+      "qa": "market-type-id-1000679",
+      "selections": [],
+      "text": "Kang In Lee Faltas cometidas",
+      "title": "Kang In Lee Faltas cometidas"
+    },
+    {
+      "qa": "market-type-id-1000679",
+      "selections": [],
+      "text": "Marcos Llorente Faltas cometidas",
+      "title": "Marcos Llorente Faltas cometidas"
+    },
+    {
+      "qa": "market-type-id-1000679",
+      "selections": [],
+      "text": "Rodrigo Mendoza Faltas cometidas",
+      "title": "Rodrigo Mendoza Faltas cometidas"
+    },
+    {
+      "qa": "market-type-id-1000679",
+      "selections": [],
+      "text": "Koke Faltas cometidas",
+      "title": "Koke Faltas cometidas"
+    },
+    {
+      "qa": "market-type-id-1000679",
+      "selections": [],
+      "text": "Pablo Barrios Faltas cometidas",
+      "title": "Pablo Barrios Faltas cometidas"
+    },
+    {
+      "qa": "market-type-id-1000679",
+      "selections": [],
+      "text": "Jorge Dominguez Faltas cometidas",
+      "title": "Jorge Dominguez Faltas cometidas"
+    },
+    {
+      "qa": "market-type-id-1000679",
+      "selections": [],
+      "text": "Álex Grimaldo Faltas cometidas",
+      "title": "Álex Grimaldo Faltas cometidas"
+    },
+    {
+      "qa": "market-type-id-1000679",
+      "selections": [],
+      "text": "Dávid Hancko Faltas cometidas",
+      "title": "Dávid Hancko Faltas cometidas"
+    },
+    {
+      "qa": "market-type-id-1000679",
+      "selections": [],
+      "text": "Robin Le Normand Faltas cometidas",
+      "title": "Robin Le Normand Faltas cometidas"
+    },
+    {
+      "qa": "market-type-id-1000679",
+      "selections": [],
+      "text": "Dani Martinez Faltas cometidas",
+      "title": "Dani Martinez Faltas cometidas"
+    },
+    {
+      "qa": "market-type-id-1000679",
+      "selections": [],
+      "text": "Marc Pubill Faltas cometidas",
+      "title": "Marc Pubill Faltas cometidas"
+    },
+    {
+      "qa": "market-type-id-1000679",
+      "selections": [],
+      "text": "Jorge Castillo Faltas cometidas",
+      "title": "Jorge Castillo Faltas cometidas"
+    },
+    {
+      "qa": "market-type-id-1000679",
+      "selections": [],
+      "text": "Arnau Ortiz Faltas cometidas",
+      "title": "Arnau Ortiz Faltas cometidas"
+    },
+    {
+      "qa": "market-type-id-1000678",
+      "selections": [],
+      "text": "Ermedin Demirovic Faltas ganadas",
+      "title": "Ermedin Demirovic Faltas ganadas"
+    },
+    {
+      "qa": "market-type-id-1000678",
+      "selections": [],
+      "text": "Chris Führich Faltas ganadas",
+      "title": "Chris Führich Faltas ganadas"
+    },
+    {
+      "qa": "market-type-id-1000678",
+      "selections": [],
+      "text": "Jamie Leweling Faltas ganadas",
+      "title": "Jamie Leweling Faltas ganadas"
+    },
+    {
+      "qa": "market-type-id-1000678",
+      "selections": [],
+      "text": "Dzenan Pejcinovic Faltas ganadas",
+      "title": "Dzenan Pejcinovic Faltas ganadas"
+    },
+    {
+      "qa": "market-type-id-1000678",
+      "selections": [],
+      "text": "Leo Sauer Faltas ganadas",
+      "title": "Leo Sauer Faltas ganadas"
+    },
+    {
+      "qa": "market-type-id-1000678",
+      "selections": [],
+      "text": "Deniz Undav Faltas ganadas",
+      "title": "Deniz Undav Faltas ganadas"
+    },
+    {
+      "qa": "market-type-id-1000678",
+      "selections": [],
+      "text": "Bilal El Khannouss Faltas ganadas",
+      "title": "Bilal El Khannouss Faltas ganadas"
+    },
+    {
+      "qa": "market-type-id-1000678",
+      "selections": [],
+      "text": "Finn Jeltsch Faltas ganadas",
+      "title": "Finn Jeltsch Faltas ganadas"
+    },
+    {
+      "qa": "market-type-id-1000678",
+      "selections": [],
+      "text": "Atakan Karazor Faltas ganadas",
+      "title": "Atakan Karazor Faltas ganadas"
+    },
+    {
+      "qa": "market-type-id-1000678",
+      "selections": [],
+      "text": "Grischa Prömel Faltas ganadas",
+      "title": "Grischa Prömel Faltas ganadas"
+    },
+    {
+      "qa": "market-type-id-1000678",
+      "selections": [],
+      "text": "Angelo Stiller Faltas ganadas",
+      "title": "Angelo Stiller Faltas ganadas"
+    },
+    {
+      "qa": "market-type-id-1000678",
+      "selections": [],
+      "text": "Lorenz Assignon Faltas ganadas",
+      "title": "Lorenz Assignon Faltas ganadas"
+    },
+    {
+      "qa": "market-type-id-1000678",
+      "selections": [],
+      "text": "Jeff Chabot Faltas ganadas",
+      "title": "Jeff Chabot Faltas ganadas"
+    },
+    {
+      "qa": "market-type-id-1000678",
+      "selections": [],
+      "text": "Ramon Hendriks Faltas ganadas",
+      "title": "Ramon Hendriks Faltas ganadas"
+    },
+    {
+      "qa": "market-type-id-1000678",
+      "selections": [],
+      "text": "Luca Jaquez Faltas ganadas",
+      "title": "Luca Jaquez Faltas ganadas"
+    },
+    {
+      "qa": "market-type-id-1000678",
+      "selections": [],
+      "text": "Josha Vagnoman Faltas ganadas",
+      "title": "Josha Vagnoman Faltas ganadas"
+    },
+    {
+      "qa": "market-type-id-1000678",
+      "selections": [],
+      "text": "Yanik Spalt Faltas ganadas",
+      "title": "Yanik Spalt Faltas ganadas"
+    },
+    {
+      "qa": "market-type-id-1000678",
+      "selections": [],
+      "text": "Mirza Catovic Faltas ganadas",
+      "title": "Mirza Catovic Faltas ganadas"
+    },
+    {
+      "qa": "market-type-id-1000678",
+      "selections": [],
+      "text": "Julián Álvarez Faltas ganadas",
+      "title": "Julián Álvarez Faltas ganadas"
+    },
+    {
+      "qa": "market-type-id-1000678",
+      "selections": [],
+      "text": "Jonathan David Faltas ganadas",
+      "title": "Jonathan David Faltas ganadas"
+    },
+    {
+      "qa": "market-type-id-1000678",
+      "selections": [],
+      "text": "Ademola Lookman Faltas ganadas",
+      "title": "Ademola Lookman Faltas ganadas"
+    },
+    {
+      "qa": "market-type-id-1000678",
+      "selections": [],
+      "text": "Giuliano Simeone Faltas ganadas",
+      "title": "Giuliano Simeone Faltas ganadas"
+    },
+    {
+      "qa": "market-type-id-1000678",
+      "selections": [],
+      "text": "Alexander Sörloth Faltas ganadas",
+      "title": "Alexander Sörloth Faltas ganadas"
+    },
+    {
+      "qa": "market-type-id-1000678",
+      "selections": [],
+      "text": "Álex Baena Faltas ganadas",
+      "title": "Álex Baena Faltas ganadas"
+    },
+    {
+      "qa": "market-type-id-1000678",
+      "selections": [],
+      "text": "Morten Hjulmand Faltas ganadas",
+      "title": "Morten Hjulmand Faltas ganadas"
+    },
+    {
+      "qa": "market-type-id-1000678",
+      "selections": [],
+      "text": "Kang In Lee Faltas ganadas",
+      "title": "Kang In Lee Faltas ganadas"
+    },
+    {
+      "qa": "market-type-id-1000678",
+      "selections": [],
+      "text": "Marcos Llorente Faltas ganadas",
+      "title": "Marcos Llorente Faltas ganadas"
+    },
+    {
+      "qa": "market-type-id-1000678",
+      "selections": [],
+      "text": "Rodrigo Mendoza Faltas ganadas",
+      "title": "Rodrigo Mendoza Faltas ganadas"
+    },
+    {
+      "qa": "market-type-id-1000678",
+      "selections": [],
+      "text": "Koke Faltas ganadas",
+      "title": "Koke Faltas ganadas"
+    },
+    {
+      "qa": "market-type-id-1000678",
+      "selections": [],
+      "text": "Pablo Barrios Faltas ganadas",
+      "title": "Pablo Barrios Faltas ganadas"
+    },
+    {
+      "qa": "market-type-id-1000678",
+      "selections": [],
+      "text": "Jorge Dominguez Faltas ganadas",
+      "title": "Jorge Dominguez Faltas ganadas"
+    },
+    {
+      "qa": "market-type-id-1000678",
+      "selections": [],
+      "text": "Álex Grimaldo Faltas ganadas",
+      "title": "Álex Grimaldo Faltas ganadas"
+    },
+    {
+      "qa": "market-type-id-1000678",
+      "selections": [],
+      "text": "Dávid Hancko Faltas ganadas",
+      "title": "Dávid Hancko Faltas ganadas"
+    },
+    {
+      "qa": "market-type-id-1000678",
+      "selections": [],
+      "text": "Robin Le Normand Faltas ganadas",
+      "title": "Robin Le Normand Faltas ganadas"
+    },
+    {
+      "qa": "market-type-id-1000678",
+      "selections": [],
+      "text": "Dani Martinez Faltas ganadas",
+      "title": "Dani Martinez Faltas ganadas"
+    },
+    {
+      "qa": "market-type-id-1000678",
+      "selections": [],
+      "text": "Marc Pubill Faltas ganadas",
+      "title": "Marc Pubill Faltas ganadas"
+    },
+    {
+      "qa": "market-type-id-1000678",
+      "selections": [],
+      "text": "Jorge Castillo Faltas ganadas",
+      "title": "Jorge Castillo Faltas ganadas"
+    },
+    {
+      "qa": "market-type-id-1000678",
+      "selections": [],
+      "text": "Arnau Ortiz Faltas ganadas",
+      "title": "Arnau Ortiz Faltas ganadas"
+    },
+    {
+      "qa": "market-type-id-83",
+      "selections": [],
+      "text": "El jugador marca en ambos tiempos",
+      "title": "El jugador marca en ambos tiempos"
+    },
+    {
+      "qa": "market-type-id-542",
+      "selections": [],
+      "text": "El jugador golpea al palo",
+      "title": "El jugador golpea al palo"
+    },
+    {
+      "qa": "market-type-id-342",
+      "selections": [],
+      "text": "Anota de cabezazo",
+      "title": "Anota de cabezazo"
+    },
+    {
+      "qa": "market-type-id-5306",
+      "selections": [],
+      "text": "Primer goleador del equipo local",
+      "title": "Primer goleador del equipo local"
+    },
+    {
+      "qa": "market-type-id-5307",
+      "selections": [],
+      "text": "Primer goleador del equipo visitante",
+      "title": "Primer goleador del equipo visitante"
+    },
+    {
+      "qa": "market-type-id-33",
+      "selections": [],
+      "text": "Córners - Triple",
+      "title": "Córners - Triple"
+    },
+    {
+      "qa": "market-type-id-48",
+      "selections": [],
+      "text": "Córners cronometrados Más/Menos (00:00 - 09:59)",
+      "title": "Córners cronometrados Más/Menos (00:00 - 09:59)"
+    },
+    {
+      "qa": "market-type-id-48",
+      "selections": [],
+      "text": "Córners cronometrados Más/Menos (00:00 - 09:59)",
+      "title": "Córners cronometrados Más/Menos (00:00 - 09:59)"
+    },
+    {
+      "qa": "market-type-id-5016",
+      "selections": [],
+      "text": "VfB Stuttgart Córners cronometrados Más/Menos (00:00 - 09:59)",
+      "title": "VfB Stuttgart Córners cronometrados Más/Menos (00:00 - 09:59)"
+    },
+    {
+      "qa": "market-type-id-5017",
+      "selections": [],
+      "text": "Atlético Madrid Córners cronometrados Más/Menos (00:00 - 09:59)",
+      "title": "Atlético Madrid Córners cronometrados Más/Menos (00:00 - 09:59)"
+    },
+    {
+      "qa": "market-type-id-45",
+      "selections": [],
+      "text": "Primer Tiempo Equipo con más Córners",
+      "title": "Primer Tiempo Equipo con más Córners"
+    },
+    {
+      "qa": "market-type-id-41",
+      "selections": [],
+      "text": "Primer Tiempo VfB Stuttgart Más/Menos Córners",
+      "title": "Primer Tiempo VfB Stuttgart Más/Menos Córners"
+    },
+    {
+      "qa": "market-type-id-42",
+      "selections": [],
+      "text": "Primer Tiempo Atlético Madrid Más/Menos Córners",
+      "title": "Primer Tiempo Atlético Madrid Más/Menos Córners"
+    },
+    {
+      "qa": "market-type-id-36",
+      "selections": [],
+      "text": "Córners del Primer Tiempo - Triples",
+      "title": "Córners del Primer Tiempo - Triples"
+    },
+    {
+      "qa": "market-type-id-38",
+      "selections": [],
+      "text": "Córners en Segundo Tiempo Más/Menos",
+      "title": "Córners en Segundo Tiempo Más/Menos"
+    },
+    {
+      "qa": "market-type-id-44",
+      "selections": [],
+      "text": "Equipo con más Córners",
+      "title": "Equipo con más Córners"
+    },
+    {
+      "qa": "market-type-id-46",
+      "selections": [],
+      "text": "Carrera a X córners",
+      "title": "Carrera a X córners"
+    },
+    {
+      "qa": "market-type-id-32",
+      "selections": [],
+      "text": "Equipo del siguiente córner (Córner 1)",
+      "title": "Equipo del siguiente córner (Córner 1)"
+    },
+    {
+      "qa": "market-type-id-1000617",
+      "selections": [],
+      "text": "Asiático (Más/Menos) Total de Córners",
+      "title": "Asiático (Más/Menos) Total de Córners"
+    },
+    {
+      "qa": "market-type-id-1000619",
+      "selections": [],
+      "text": "Asiático (Más/Menos) - Córners Totales en el Primer Tiempo",
+      "title": "Asiático (Más/Menos) - Córners Totales en el Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-43",
+      "selections": [],
+      "text": "Hándicap de Córners - (2 bandas)",
+      "title": "Hándicap de Córners - (2 bandas)"
+    },
+    {
+      "qa": "market-type-id-201",
+      "selections": [],
+      "text": "Hándicap de Córners - Triples",
+      "title": "Hándicap de Córners - Triples"
+    },
+    {
+      "qa": "market-type-id-271",
+      "selections": [],
+      "text": "Tiempo con Más Córners",
+      "title": "Tiempo con Más Córners"
+    },
+    {
+      "qa": "market-type-id-35",
+      "selections": [],
+      "text": "Total de Córners",
+      "title": "Total de Córners"
+    },
+    {
+      "qa": "market-type-id-4017",
+      "selections": [],
+      "text": "Rangos de Córner",
+      "title": "Rangos de Córner"
+    },
+    {
+      "qa": "market-type-id-4015",
+      "selections": [],
+      "text": "Córners Marcador Correcto",
+      "title": "Córners Marcador Correcto"
+    },
+    {
+      "qa": "market-type-id-68",
+      "selections": [],
+      "text": "VfB Stuttgart Tarjetas Totales Más/Menos",
+      "title": "VfB Stuttgart Tarjetas Totales Más/Menos"
+    },
+    {
+      "qa": "market-type-id-69",
+      "selections": [],
+      "text": "Atlético Madrid Tarjetas Totales Más/Menos",
+      "title": "Atlético Madrid Tarjetas Totales Más/Menos"
+    },
+    {
+      "qa": "market-type-id-67",
+      "selections": [],
+      "text": "Hándicap - Tarjetas",
+      "title": "Hándicap - Tarjetas"
+    },
+    {
+      "qa": "market-type-id-168",
+      "selections": [],
+      "text": "Equipo con más tarjetas",
+      "title": "Equipo con más tarjetas"
+    },
+    {
+      "qa": "market-type-id-51",
+      "selections": [],
+      "text": "VfB Stuttgart Tarjeta roja",
+      "title": "VfB Stuttgart Tarjeta roja"
+    },
+    {
+      "qa": "market-type-id-52",
+      "selections": [],
+      "text": "Atlético Madrid Tarjeta roja",
+      "title": "Atlético Madrid Tarjeta roja"
+    },
+    {
+      "qa": "market-type-id-70",
+      "selections": [],
+      "text": "Primera tarjeta antes de 32:00",
+      "title": "Primera tarjeta antes de 32:00"
+    },
+    {
+      "qa": "market-type-id-64",
+      "selections": [],
+      "text": "Equipo que Recibe la Próxima Amonestación 1",
+      "title": "Equipo que Recibe la Próxima Amonestación 1"
+    },
+    {
+      "qa": "market-type-id-4155",
+      "selections": [],
+      "text": "VfB Stuttgart Total de Tarjetas en el Primer Tiempo (Más/Menos)",
+      "title": "VfB Stuttgart Total de Tarjetas en el Primer Tiempo (Más/Menos)"
+    },
+    {
+      "qa": "market-type-id-4156",
+      "selections": [],
+      "text": "Atlético Madrid Total de Tarjetas en el Primer Tiempo (Más/Menos)",
+      "title": "Atlético Madrid Total de Tarjetas en el Primer Tiempo (Más/Menos)"
+    },
+    {
+      "qa": "market-type-id-4022",
+      "selections": [],
+      "text": "Carrera a X Tarjetas",
+      "title": "Carrera a X Tarjetas"
+    },
+    {
+      "qa": "market-type-id-5014",
+      "selections": [],
+      "text": "Tarjeta mostrada en ambos tiempos",
+      "title": "Tarjeta mostrada en ambos tiempos"
+    },
+    {
+      "qa": "market-type-id-4024",
+      "selections": [],
+      "text": "Ambos equipos reciben una tarjeta en ambos tiempos",
+      "title": "Ambos equipos reciben una tarjeta en ambos tiempos"
+    },
+    {
+      "qa": "market-type-id-4157",
+      "selections": [],
+      "text": "VfB Stuttgart Segundo Tiempo Tarjetas Totales Mas/Menos",
+      "title": "VfB Stuttgart Segundo Tiempo Tarjetas Totales Mas/Menos"
+    },
+    {
+      "qa": "market-type-id-4158",
+      "selections": [],
+      "text": "Atlético Madrid Segundo Tiempo Tarjetas Totales Mas/Menos",
+      "title": "Atlético Madrid Segundo Tiempo Tarjetas Totales Mas/Menos"
+    },
+    {
+      "qa": "market-type-id-1000618",
+      "selections": [],
+      "text": "Asiático (Más/Menos) Tarjetas totales",
+      "title": "Asiático (Más/Menos) Tarjetas totales"
+    },
+    {
+      "qa": "market-type-id-1000620",
+      "selections": [],
+      "text": "Asiático (Más/Menos) - Total de Tarjetas en la Primera Mitad",
+      "title": "Asiático (Más/Menos) - Total de Tarjetas en la Primera Mitad"
+    },
+    {
+      "qa": "market-type-id-53",
+      "selections": [],
+      "text": "Tarjeta roja Primer Tiempo",
+      "title": "Tarjeta roja Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-55",
+      "selections": [],
+      "text": "Tarjeta roja y Penal concedido",
+      "title": "Tarjeta roja y Penal concedido"
+    },
+    {
+      "qa": "market-type-id-3965",
+      "selections": [],
+      "text": "Tarjeta roja o Penal concedido",
+      "title": "Tarjeta roja o Penal concedido"
+    },
+    {
+      "qa": "market-type-id-50",
+      "selections": [],
+      "text": "Tarjeta Roja Directa",
+      "title": "Tarjeta Roja Directa"
+    },
+    {
+      "qa": "market-type-id-586",
+      "selections": [],
+      "text": "Próximo equipo en recibir la tarjeta roja",
+      "title": "Próximo equipo en recibir la tarjeta roja"
+    },
+    {
+      "qa": "market-type-id-293",
+      "selections": [],
+      "text": "Tarjeta cronometrada (Más/Menos) (00:00 - 09:59)",
+      "title": "Tarjeta cronometrada (Más/Menos) (00:00 - 09:59)"
+    },
+    {
+      "qa": "market-type-id-2781",
+      "selections": [],
+      "text": "VfB Stuttgart Puntos de Tarjetas en 1er Tiempo",
+      "title": "VfB Stuttgart Puntos de Tarjetas en 1er Tiempo"
+    },
+    {
+      "qa": "market-type-id-2782",
+      "selections": [],
+      "text": "Atlético Madrid Puntos de Tarjetas en 1er Tiempo",
+      "title": "Atlético Madrid Puntos de Tarjetas en 1er Tiempo"
+    },
+    {
+      "qa": "market-type-id-71",
+      "selections": [],
+      "text": "Último equipo con tarjeta",
+      "title": "Último equipo con tarjeta"
+    },
+    {
+      "qa": "market-type-id-4023",
+      "selections": [],
+      "text": "Rangos de Tarjetas",
+      "title": "Rangos de Tarjetas"
+    },
+    {
+      "qa": "market-type-id-4021",
+      "selections": [],
+      "text": "Tarjetas de medio tiempo/tiempo completo",
+      "title": "Tarjetas de medio tiempo/tiempo completo"
+    },
+    {
+      "qa": "market-type-id-4020",
+      "selections": [],
+      "text": "Tarjetas Marcador Correcto",
+      "title": "Tarjetas Marcador Correcto"
+    },
+    {
+      "qa": "market-type-id-4160",
+      "selections": [
+        {
+          "aria": "Bet on Más de 12.5 with odds 1.67.",
+          "text": "Más de\n12.5\n1.67"
+        },
+        {
+          "aria": "Bet on Menos 12.5 with odds 2.12.",
+          "text": "Menos\n12.5\n2.12"
+        },
+        {
+          "aria": "Bet on Más de 13.5 with odds 2.05.",
+          "text": "Más de\n13.5\n2.05"
+        },
+        {
+          "aria": "Bet on Menos 13.5 with odds 1.72.",
+          "text": "Menos\n13.5\n1.72"
+        },
+        {
+          "aria": "Bet on Más de 14.5 with odds 2.55.",
+          "text": "Más de\n14.5\n2.55"
+        },
+        {
+          "aria": "Bet on Menos 14.5 with odds 1.47.",
+          "text": "Menos\n14.5\n1.47"
+        }
+      ],
+      "text": "VfB Stuttgart Remates totales\nMás de\n12.5\n1.67\nMenos\n12.5\n2.12\nMás de\n13.5\n2.05\nMenos\n13.5\n1.72\nMás de\n14.5\n2.55\nMenos\n14.5\n1.47",
+      "title": "VfB Stuttgart Remates totales"
+    },
+    {
+      "qa": "market-type-id-4161",
+      "selections": [
+        {
+          "aria": "Bet on Más de 13.5 with odds 1.55.",
+          "text": "Más de\n13.5\n1.55"
+        },
+        {
+          "aria": "Bet on Menos 13.5 with odds 2.35.",
+          "text": "Menos\n13.5\n2.35"
+        },
+        {
+          "aria": "Bet on Más de 14.5 with odds 1.85.",
+          "text": "Más de\n14.5\n1.85"
+        },
+        {
+          "aria": "Bet on Menos 14.5 with odds 1.9.",
+          "text": "Menos\n14.5\n1.90"
+        },
+        {
+          "aria": "Bet on Más de 15.5 with odds 2.25.",
+          "text": "Más de\n15.5\n2.25"
+        },
+        {
+          "aria": "Bet on Menos 15.5 with odds 1.6.",
+          "text": "Menos\n15.5\n1.60"
+        }
+      ],
+      "text": "Atlético Madrid Remates totales\nMás de\n13.5\n1.55\nMenos\n13.5\n2.35\nMás de\n14.5\n1.85\nMenos\n14.5\n1.90\nMás de\n15.5\n2.25\nMenos\n15.5\n1.60",
+      "title": "Atlético Madrid Remates totales"
+    },
+    {
+      "qa": "market-type-id-5344",
+      "selections": [],
+      "text": "Rangos de Tiros al Arco",
+      "title": "Rangos de Tiros al Arco"
+    },
+    {
+      "qa": "market-type-id-4629",
+      "selections": [
+        {
+          "aria": "Bet on Más de 22.5 with odds 1.8.",
+          "text": "Más de\n22.5\n1.80"
+        },
+        {
+          "aria": "Bet on Menos 22.5 with odds 1.95.",
+          "text": "Menos\n22.5\n1.95"
+        }
+      ],
+      "text": "Total de Faltas Cometidas\nMás de\n22.5\n1.80\nMenos\n22.5\n1.95",
+      "title": "Total de Faltas Cometidas"
+    },
+    {
+      "qa": "market-type-id-536",
+      "selections": [
+        {
+          "aria": "Bet on Más de 11.5 with odds 1.83.",
+          "text": "Más de\n11.5\n1.83"
+        },
+        {
+          "aria": "Bet on Menos 11.5 with odds 1.9.",
+          "text": "Menos\n11.5\n1.90"
+        }
+      ],
+      "text": "VfB Stuttgart Total de Faltas Cometidas\nMás de\n11.5\n1.83\nMenos\n11.5\n1.90",
+      "title": "VfB Stuttgart Total de Faltas Cometidas"
+    },
+    {
+      "qa": "market-type-id-493",
+      "selections": [
+        {
+          "aria": "Bet on Más de 11.5 with odds 2.05.",
+          "text": "Más de\n11.5\n2.05"
+        },
+        {
+          "aria": "Bet on Menos 11.5 with odds 1.72.",
+          "text": "Menos\n11.5\n1.72"
+        }
+      ],
+      "text": "Atlético Madrid Total de Faltas Cometidas\nMás de\n11.5\n2.05\nMenos\n11.5\n1.72",
+      "title": "Atlético Madrid Total de Faltas Cometidas"
+    },
+    {
+      "qa": "market-type-id-351",
+      "selections": [],
+      "text": "Total de Offsides",
+      "title": "Total de Offsides"
+    },
+    {
+      "qa": "market-type-id-436",
+      "selections": [],
+      "text": "VfB Stuttgart Total de Offsides",
+      "title": "VfB Stuttgart Total de Offsides"
+    },
+    {
+      "qa": "market-type-id-437",
+      "selections": [],
+      "text": "Atlético Madrid Total de Offsides",
+      "title": "Atlético Madrid Total de Offsides"
+    },
+    {
+      "qa": "market-type-id-457",
+      "selections": [],
+      "text": "Palo",
+      "title": "Palo"
+    },
+    {
+      "qa": "market-type-id-4115",
+      "selections": [],
+      "text": "Hándicap - Tiros al Arco 2-Way",
+      "title": "Hándicap - Tiros al Arco 2-Way"
+    },
+    {
+      "qa": "market-type-id-4108",
+      "selections": [],
+      "text": "Primer Tiempo Tiros al Arco",
+      "title": "Primer Tiempo Tiros al Arco"
+    },
+    {
+      "qa": "market-type-id-643",
+      "selections": [],
+      "text": "Total de Saques de meta",
+      "title": "Total de Saques de meta"
+    },
+    {
+      "qa": "market-type-id-4165",
+      "selections": [],
+      "text": "VfB Stuttgart Total de Saques de meta",
+      "title": "VfB Stuttgart Total de Saques de meta"
+    },
+    {
+      "qa": "market-type-id-4166",
+      "selections": [],
+      "text": "Atlético Madrid Total de Saques de meta",
+      "title": "Atlético Madrid Total de Saques de meta"
+    },
+    {
+      "qa": "market-type-id-460",
+      "selections": [],
+      "text": "Total de Saques de banda",
+      "title": "Total de Saques de banda"
+    },
+    {
+      "qa": "market-type-id-4167",
+      "selections": [],
+      "text": "VfB Stuttgart Total de Saques de banda",
+      "title": "VfB Stuttgart Total de Saques de banda"
+    },
+    {
+      "qa": "market-type-id-4168",
+      "selections": [],
+      "text": "Atlético Madrid Total de Saques de banda",
+      "title": "Atlético Madrid Total de Saques de banda"
+    },
+    {
+      "qa": "market-type-id-439",
+      "selections": [],
+      "text": "Total de pases",
+      "title": "Total de pases"
+    },
+    {
+      "qa": "market-type-id-1000113",
+      "selections": [],
+      "text": "VfB Stuttgart Total de pases",
+      "title": "VfB Stuttgart Total de pases"
+    },
+    {
+      "qa": "market-type-id-1000114",
+      "selections": [],
+      "text": "Atlético Madrid Total de pases",
+      "title": "Atlético Madrid Total de pases"
+    },
+    {
+      "qa": "market-type-id-644",
+      "selections": [],
+      "text": "Tackles totales",
+      "title": "Tackles totales"
+    },
+    {
+      "qa": "market-type-id-1000111",
+      "selections": [],
+      "text": "VfB Stuttgart Tackles totales",
+      "title": "VfB Stuttgart Tackles totales"
+    },
+    {
+      "qa": "market-type-id-1000112",
+      "selections": [],
+      "text": "Atlético Madrid Tackles totales",
+      "title": "Atlético Madrid Tackles totales"
+    },
+    {
+      "qa": "market-type-id-4114",
+      "selections": [],
+      "text": "Hándicap - Total de Offsides",
+      "title": "Hándicap - Total de Offsides"
+    },
+    {
+      "qa": "market-type-id-4111",
+      "selections": [],
+      "text": "Hándicap - Total de Saques de meta",
+      "title": "Hándicap - Total de Saques de meta"
+    },
+    {
+      "qa": "market-type-id-4104",
+      "selections": [],
+      "text": "Primer Tiempo Total de Saques de meta",
+      "title": "Primer Tiempo Total de Saques de meta"
+    },
+    {
+      "qa": "market-type-id-4113",
+      "selections": [],
+      "text": "Hándicap - Total de Saques de banda",
+      "title": "Hándicap - Total de Saques de banda"
+    },
+    {
+      "qa": "market-type-id-4106",
+      "selections": [],
+      "text": "Primer Tiempo Total de Saques de banda",
+      "title": "Primer Tiempo Total de Saques de banda"
+    },
+    {
+      "qa": "market-type-id-583",
+      "selections": [],
+      "text": "Primer Remate a portería",
+      "title": "Primer Remate a portería"
+    },
+    {
+      "qa": "market-type-id-627",
+      "selections": [],
+      "text": "Primer Offside",
+      "title": "Primer Offside"
+    },
+    {
+      "qa": "market-type-id-625",
+      "selections": [],
+      "text": "Primer Saque de meta",
+      "title": "Primer Saque de meta"
+    },
+    {
+      "qa": "market-type-id-355",
+      "selections": [],
+      "text": "Primer Saque de banda",
+      "title": "Primer Saque de banda"
+    },
+    {
+      "qa": "market-type-id-113",
+      "selections": [],
+      "text": "Primer Tiempo - Doble Oportunidad",
+      "title": "Primer Tiempo - Doble Oportunidad"
+    },
+    {
+      "qa": "market-type-id-407",
+      "selections": [],
+      "text": "Hándicap Primer Tiempo",
+      "title": "Hándicap Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-144",
+      "selections": [],
+      "text": "Gana cualquiera de los tiempos",
+      "title": "Gana cualquiera de los tiempos"
+    },
+    {
+      "qa": "market-type-id-92",
+      "selections": [],
+      "text": "Resultado Primer tiempo o Tiempo Completo",
+      "title": "Resultado Primer tiempo o Tiempo Completo"
+    },
+    {
+      "qa": "market-type-id-93",
+      "selections": [],
+      "text": "Primer Tiempo/Tiempo Completo - Doble oportunidad",
+      "title": "Primer Tiempo/Tiempo Completo - Doble oportunidad"
+    },
+    {
+      "qa": "market-type-id-12",
+      "selections": [],
+      "text": "Próximo gol en Primer Tiempo (Gol 1)",
+      "title": "Próximo gol en Primer Tiempo (Gol 1)"
+    },
+    {
+      "qa": "market-type-id-114",
+      "selections": [],
+      "text": "Ambos Equipos Anotan en el Primer Tiempo",
+      "title": "Ambos Equipos Anotan en el Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-118",
+      "selections": [],
+      "text": "Marcador correcto en el primer tiempo",
+      "title": "Marcador correcto en el primer tiempo"
+    },
+    {
+      "qa": "market-type-id-112",
+      "selections": [],
+      "text": "Apuesta sin Empate Medio Tiempo",
+      "title": "Apuesta sin Empate Medio Tiempo"
+    },
+    {
+      "qa": "market-type-id-141",
+      "selections": [],
+      "text": "Gol anotado en ambos tiempos",
+      "title": "Gol anotado en ambos tiempos"
+    },
+    {
+      "qa": "market-type-id-138",
+      "selections": [],
+      "text": "Ambos Equipos Anotan en el Primer Tiempo/Segundo Tiempo",
+      "title": "Ambos Equipos Anotan en el Primer Tiempo/Segundo Tiempo"
+    },
+    {
+      "qa": "market-type-id-107",
+      "selections": [],
+      "text": "Tiempo con Más Goles",
+      "title": "Tiempo con Más Goles"
+    },
+    {
+      "qa": "market-type-id-434",
+      "selections": [],
+      "text": "VfB Stuttgart Gana Ambos Tiempos",
+      "title": "VfB Stuttgart Gana Ambos Tiempos"
+    },
+    {
+      "qa": "market-type-id-431",
+      "selections": [],
+      "text": "Atlético Madrid Gana Ambos Tiempos",
+      "title": "Atlético Madrid Gana Ambos Tiempos"
+    },
+    {
+      "qa": "market-type-id-133",
+      "selections": [],
+      "text": "Resultado Segundo Tiempo",
+      "title": "Resultado Segundo Tiempo"
+    },
+    {
+      "qa": "market-type-id-134",
+      "selections": [],
+      "text": "Segundo Tiempo - Doble Oportunidad",
+      "title": "Segundo Tiempo - Doble Oportunidad"
+    },
+    {
+      "qa": "market-type-id-137",
+      "selections": [],
+      "text": "Ambos equipos anotan en el Segundo Tiempo",
+      "title": "Ambos equipos anotan en el Segundo Tiempo"
+    },
+    {
+      "qa": "market-type-id-120",
+      "selections": [],
+      "text": "Primer Tiempo VfB Stuttgart Total de Goles Exactos",
+      "title": "Primer Tiempo VfB Stuttgart Total de Goles Exactos"
+    },
+    {
+      "qa": "market-type-id-121",
+      "selections": [],
+      "text": "Primer Tiempo Atlético Madrid Total de Goles Exactos",
+      "title": "Primer Tiempo Atlético Madrid Total de Goles Exactos"
+    },
+    {
+      "qa": "market-type-id-4049",
+      "selections": [],
+      "text": "Segundo Tiempo - Más/Menos Total de Goles VfB Stuttgart",
+      "title": "Segundo Tiempo - Más/Menos Total de Goles VfB Stuttgart"
+    },
+    {
+      "qa": "market-type-id-4050",
+      "selections": [],
+      "text": "Segundo Tiempo - Más/Menos Total de Goles Atlético Madrid",
+      "title": "Segundo Tiempo - Más/Menos Total de Goles Atlético Madrid"
+    },
+    {
+      "qa": "market-type-id-110",
+      "selections": [],
+      "text": "Total de goles en el Primer Tiempo",
+      "title": "Total de goles en el Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-4684",
+      "selections": [],
+      "text": "Rango de Total de goles Primer Tiempo",
+      "title": "Rango de Total de goles Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-574",
+      "selections": [],
+      "text": "Medio Tiempo/Tiempo Completo y Más/Menos Goles",
+      "title": "Medio Tiempo/Tiempo Completo y Más/Menos Goles"
+    },
+    {
+      "qa": "market-type-id-574",
+      "selections": [],
+      "text": "Medio Tiempo/Tiempo Completo y Más/Menos Goles",
+      "title": "Medio Tiempo/Tiempo Completo y Más/Menos Goles"
+    },
+    {
+      "qa": "market-type-id-574",
+      "selections": [],
+      "text": "Medio Tiempo/Tiempo Completo y Más/Menos Goles",
+      "title": "Medio Tiempo/Tiempo Completo y Más/Menos Goles"
+    },
+    {
+      "qa": "market-type-id-24",
+      "selections": [],
+      "text": "Resultado del partido con Más/Menos (1.5)",
+      "title": "Resultado del partido con Más/Menos (1.5)"
+    },
+    {
+      "qa": "market-type-id-24",
+      "selections": [],
+      "text": "Resultado del partido con Más/Menos (2.5)",
+      "title": "Resultado del partido con Más/Menos (2.5)"
+    },
+    {
+      "qa": "market-type-id-24",
+      "selections": [],
+      "text": "Resultado del partido con Más/Menos (3.5)",
+      "title": "Resultado del partido con Más/Menos (3.5)"
+    },
+    {
+      "qa": "market-type-id-24",
+      "selections": [],
+      "text": "Resultado del partido con Más/Menos (4.5)",
+      "title": "Resultado del partido con Más/Menos (4.5)"
+    },
+    {
+      "qa": "market-type-id-24",
+      "selections": [],
+      "text": "Resultado del partido con Más/Menos (5.5)",
+      "title": "Resultado del partido con Más/Menos (5.5)"
+    },
+    {
+      "qa": "market-type-id-26",
+      "selections": [],
+      "text": "Doble Oportunidad con Más/Menos (1.5)",
+      "title": "Doble Oportunidad con Más/Menos (1.5)"
+    },
+    {
+      "qa": "market-type-id-26",
+      "selections": [],
+      "text": "Doble Oportunidad con Más/Menos (2.5)",
+      "title": "Doble Oportunidad con Más/Menos (2.5)"
+    },
+    {
+      "qa": "market-type-id-26",
+      "selections": [],
+      "text": "Doble Oportunidad con Más/Menos (3.5)",
+      "title": "Doble Oportunidad con Más/Menos (3.5)"
+    },
+    {
+      "qa": "market-type-id-26",
+      "selections": [],
+      "text": "Doble Oportunidad con Más/Menos (4.5)",
+      "title": "Doble Oportunidad con Más/Menos (4.5)"
+    },
+    {
+      "qa": "market-type-id-26",
+      "selections": [],
+      "text": "Doble Oportunidad con Más/Menos (5.5)",
+      "title": "Doble Oportunidad con Más/Menos (5.5)"
+    },
+    {
+      "qa": "market-type-id-23",
+      "selections": [],
+      "text": "Ambos Anotan y Más/Menos (2.5)",
+      "title": "Ambos Anotan y Más/Menos (2.5)"
+    },
+    {
+      "qa": "market-type-id-23",
+      "selections": [],
+      "text": "Ambos Anotan y Más/Menos (3.5)",
+      "title": "Ambos Anotan y Más/Menos (3.5)"
+    },
+    {
+      "qa": "market-type-id-23",
+      "selections": [],
+      "text": "Ambos Anotan y Más/Menos (4.5)",
+      "title": "Ambos Anotan y Más/Menos (4.5)"
+    },
+    {
+      "qa": "market-type-id-23",
+      "selections": [],
+      "text": "Ambos Anotan y Más/Menos (5.5)",
+      "title": "Ambos Anotan y Más/Menos (5.5)"
+    },
+    {
+      "qa": "market-type-id-20",
+      "selections": [],
+      "text": "Resultado del partido / Ambos Equipos Anotan",
+      "title": "Resultado del partido / Ambos Equipos Anotan"
+    },
+    {
+      "qa": "market-type-id-25",
+      "selections": [],
+      "text": "Doble oportunidad / Ambos equipos anotan",
+      "title": "Doble oportunidad / Ambos equipos anotan"
+    },
+    {
+      "qa": "market-type-id-532",
+      "selections": [],
+      "text": "Qué ocurrirá primero en el partido - Primer Tiempo",
+      "title": "Qué ocurrirá primero en el partido - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-56",
+      "selections": [],
+      "text": "Penal concedido",
+      "title": "Penal concedido"
+    },
+    {
+      "qa": "market-type-id-124",
+      "selections": [],
+      "text": "Tiempo del Primer Gol Menos/Más 28 minutos",
+      "title": "Tiempo del Primer Gol Menos/Más 28 minutos"
+    },
+    {
+      "qa": "market-type-id-384",
+      "selections": [],
+      "text": "VfB Stuttgart anota en ambos tiempos",
+      "title": "VfB Stuttgart anota en ambos tiempos"
+    },
+    {
+      "qa": "market-type-id-364",
+      "selections": [],
+      "text": "Atlético Madrid anota en ambos tiempos",
+      "title": "Atlético Madrid anota en ambos tiempos"
+    },
+    {
+      "qa": "market-type-id-72",
+      "selections": [],
+      "text": "Autogol",
+      "title": "Autogol"
+    },
+    {
+      "qa": "market-type-id-96",
+      "selections": [],
+      "text": "Margen del Triunfo",
+      "title": "Margen del Triunfo"
+    },
+    {
+      "qa": "market-type-id-58",
+      "selections": [],
+      "text": "Penal concedido Primer Tiempo",
+      "title": "Penal concedido Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-59",
+      "selections": [],
+      "text": "Equipo que Anota un Penal",
+      "title": "Equipo que Anota un Penal"
+    },
+    {
+      "qa": "market-type-id-60",
+      "selections": [],
+      "text": "Equipo que falla un penal",
+      "title": "Equipo que falla un penal"
+    },
+    {
+      "qa": "market-type-id-5025",
+      "selections": [],
+      "text": "VfB Stuttgart Penal concedido",
+      "title": "VfB Stuttgart Penal concedido"
+    },
+    {
+      "qa": "market-type-id-5026",
+      "selections": [],
+      "text": "Atlético Madrid Penal concedido",
+      "title": "Atlético Madrid Penal concedido"
+    },
+    {
+      "qa": "market-type-id-57",
+      "selections": [],
+      "text": "Dos penales concedidos",
+      "title": "Dos penales concedidos"
+    },
+    {
+      "qa": "market-type-id-61",
+      "selections": [],
+      "text": "Ambos equipos ganan un penal",
+      "title": "Ambos equipos ganan un penal"
+    },
+    {
+      "qa": "market-type-id-102",
+      "selections": [],
+      "text": "Curso del juego",
+      "title": "Curso del juego"
+    },
+    {
+      "qa": "market-type-id-270",
+      "selections": [],
+      "text": "VfB Stuttgart Gana luego de ir perdiendo",
+      "title": "VfB Stuttgart Gana luego de ir perdiendo"
+    },
+    {
+      "qa": "market-type-id-196",
+      "selections": [],
+      "text": "Atlético Madrid Gana luego de ir perdiendo",
+      "title": "Atlético Madrid Gana luego de ir perdiendo"
+    },
+    {
+      "qa": "market-type-id-5015",
+      "selections": [],
+      "text": "Resultado del partido o Ambos equipos anotan",
+      "title": "Resultado del partido o Ambos equipos anotan"
+    },
+    {
+      "qa": "market-type-id-5249",
+      "selections": [],
+      "text": "Resultado del partido o Goles totales Más/Menos 2.5",
+      "title": "Resultado del partido o Goles totales Más/Menos 2.5"
+    },
+    {
+      "qa": "market-type-id-18",
+      "selections": [],
+      "text": "Marcador correcto (múltiple)",
+      "title": "Marcador correcto (múltiple)"
+    },
+    {
+      "qa": "market-type-id-19",
+      "selections": [],
+      "text": "Marcador Correcto - Sin Perder",
+      "title": "Marcador Correcto - Sin Perder"
+    },
+    {
+      "qa": "market-type-id-147",
+      "selections": [],
+      "text": "Marcador correcto Primer tiempo/Tiempo completo",
+      "title": "Marcador correcto Primer tiempo/Tiempo completo"
+    },
+    {
+      "qa": "market-type-id-185",
+      "selections": [
+        {
+          "aria": "Bet on VfB Stuttgart -0.5 with odds 3.15.",
+          "text": "VfB Stuttgart\n-0.5\n3.15"
+        },
+        {
+          "aria": "Bet on Atlético Madrid +0.5 with odds 1.39.",
+          "text": "Atlético Madrid\n+0.5\n1.39"
+        },
+        {
+          "aria": "Bet on VfB Stuttgart 0.0 with odds 2.42.",
+          "text": "VfB Stuttgart 0.0\n2.42"
+        },
+        {
+          "aria": "Bet on Atlético Madrid 0.0 with odds 1.6.",
+          "text": "Atlético Madrid 0.0\n1.60"
+        },
+        {
+          "aria": "Bet on VfB Stuttgart +0.5 with odds 1.78.",
+          "text": "VfB Stuttgart\n+0.5\n1.78"
+        },
+        {
+          "aria": "Bet on Atlético Madrid -0.5 with odds 2.07.",
+          "text": "Atlético Madrid\n-0.5\n2.07"
+        },
+        {
+          "aria": "Bet on VfB Stuttgart +1.0 with odds 1.42.",
+          "text": "VfB Stuttgart\n+1.0\n1.42"
+        },
+        {
+          "aria": "Bet on Atlético Madrid -1.0 with odds 3.",
+          "text": "Atlético Madrid\n-1.0\n3.00"
+        }
+      ],
+      "text": "Hándicap Asiático (Resultado actual 0 - 0)\nVfB Stuttgart\n-0.5\n3.15\nAtlético Madrid\n+0.5\n1.39\nVfB Stuttgart 0.0\n2.42\nAtlético Madrid 0.0\n1.60\nVfB Stuttgart\n+0.5\n1.78\nAtlético Madrid\n-0.5\n2.07\nVfB Stuttgart\n+1.0\n1.42\nAtlético Madrid\n-1.0\n3.00\nMOSTRAR MENOS",
+      "title": "Hándicap Asiático (Resultado actual 0 - 0)"
+    },
+    {
+      "qa": "market-type-id-189",
+      "selections": [],
+      "text": "Asiático (Más/Menos) Total de goles",
+      "title": "Asiático (Más/Menos) Total de goles"
+    },
+    {
+      "qa": "market-type-id-186",
+      "selections": [],
+      "text": "Hándicap Asiático - Primer Tiempo (Resultado actual 0 - 0)",
+      "title": "Hándicap Asiático - Primer Tiempo (Resultado actual 0 - 0)"
+    },
+    {
+      "qa": "market-type-id-395",
+      "selections": [],
+      "text": "Asiático (Más/Menos) - Total de goles en el Primer Tiempo",
+      "title": "Asiático (Más/Menos) - Total de goles en el Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-122",
+      "selections": [],
+      "text": "Primer gol antes 24:00",
+      "title": "Primer gol antes 24:00"
+    },
+    {
+      "qa": "market-type-id-123",
+      "selections": [],
+      "text": "Gol anotado después del minuto 76:00",
+      "title": "Gol anotado después del minuto 76:00"
+    },
+    {
+      "qa": "market-type-id-125",
+      "selections": [],
+      "text": "Próximo gol antes de (Gol 1)",
+      "title": "Próximo gol antes de (Gol 1)"
+    },
+    {
+      "qa": "market-type-id-126",
+      "selections": [],
+      "text": "VfB Stuttgart Próximo gol antes de (Gol 1)",
+      "title": "VfB Stuttgart Próximo gol antes de (Gol 1)"
+    },
+    {
+      "qa": "market-type-id-127",
+      "selections": [],
+      "text": "Atlético Madrid Próximo gol antes de (Gol 1)",
+      "title": "Atlético Madrid Próximo gol antes de (Gol 1)"
+    },
+    {
+      "qa": "market-type-id-2934",
+      "selections": [],
+      "text": "Resultado por minuto 00:00 - 09:59",
+      "title": "Resultado por minuto 00:00 - 09:59"
+    },
+    {
+      "qa": "market-type-id-2934",
+      "selections": [],
+      "text": "Resultado por minuto 00:00 - 19:59",
+      "title": "Resultado por minuto 00:00 - 19:59"
+    },
+    {
+      "qa": "market-type-id-2934",
+      "selections": [],
+      "text": "Resultado por minuto 00:00 - 29:59",
+      "title": "Resultado por minuto 00:00 - 29:59"
+    },
+    {
+      "qa": "market-type-id-2934",
+      "selections": [],
+      "text": "Resultado por minuto 00:00 - 39:59",
+      "title": "Resultado por minuto 00:00 - 39:59"
+    },
+    {
+      "qa": "market-type-id-2934",
+      "selections": [],
+      "text": "Resultado por minuto 00:00 - 49:59",
+      "title": "Resultado por minuto 00:00 - 49:59"
+    },
+    {
+      "qa": "market-type-id-2934",
+      "selections": [],
+      "text": "Resultado por minuto 00:00 - 59:59",
+      "title": "Resultado por minuto 00:00 - 59:59"
+    },
+    {
+      "qa": "market-type-id-2934",
+      "selections": [],
+      "text": "Resultado por minuto 00:00 - 69:59",
+      "title": "Resultado por minuto 00:00 - 69:59"
+    },
+    {
+      "qa": "market-type-id-2934",
+      "selections": [],
+      "text": "Resultado por minuto 00:00 - 79:59",
+      "title": "Resultado por minuto 00:00 - 79:59"
+    },
+    {
+      "qa": "market-type-id-128",
+      "selections": [],
+      "text": "Rango de resultados por minuto (00:00 - 14:59)",
+      "title": "Rango de resultados por minuto (00:00 - 14:59)"
+    },
+    {
+      "qa": "market-type-id-128",
+      "selections": [],
+      "text": "Rango de resultados por minuto (15:00 - 29:59)",
+      "title": "Rango de resultados por minuto (15:00 - 29:59)"
+    },
+    {
+      "qa": "market-type-id-128",
+      "selections": [],
+      "text": "Rango de resultados por minuto (30:00 - 45:00)",
+      "title": "Rango de resultados por minuto (30:00 - 45:00)"
+    },
+    {
+      "qa": "market-type-id-128",
+      "selections": [],
+      "text": "Rango de resultados por minuto (45:00 - 59:59)",
+      "title": "Rango de resultados por minuto (45:00 - 59:59)"
+    },
+    {
+      "qa": "market-type-id-128",
+      "selections": [],
+      "text": "Rango de resultados por minuto (60:00 - 74:59)",
+      "title": "Rango de resultados por minuto (60:00 - 74:59)"
+    },
+    {
+      "qa": "market-type-id-128",
+      "selections": [],
+      "text": "Rango de resultados por minuto (75:00 - 90:00)",
+      "title": "Rango de resultados por minuto (75:00 - 90:00)"
+    },
+    {
+      "qa": "market-type-id-130",
+      "selections": [],
+      "text": "Goles cronometrados Más/Menos (00:00 - 14:59)",
+      "title": "Goles cronometrados Más/Menos (00:00 - 14:59)"
+    },
+    {
+      "qa": "market-type-id-130",
+      "selections": [],
+      "text": "Goles cronometrados Más/Menos (15:00 - 29:59)",
+      "title": "Goles cronometrados Más/Menos (15:00 - 29:59)"
+    },
+    {
+      "qa": "market-type-id-130",
+      "selections": [],
+      "text": "Goles cronometrados Más/Menos (30:00 - 45:00)",
+      "title": "Goles cronometrados Más/Menos (30:00 - 45:00)"
+    },
+    {
+      "qa": "market-type-id-130",
+      "selections": [],
+      "text": "Goles cronometrados Más/Menos (45:00 - 59:59)",
+      "title": "Goles cronometrados Más/Menos (45:00 - 59:59)"
+    },
+    {
+      "qa": "market-type-id-130",
+      "selections": [],
+      "text": "Goles cronometrados Más/Menos (60:00 - 74:59)",
+      "title": "Goles cronometrados Más/Menos (60:00 - 74:59)"
+    },
+    {
+      "qa": "market-type-id-27",
+      "selections": [],
+      "text": "Hora del próximo gol (Gol 1)",
+      "title": "Hora del próximo gol (Gol 1)"
+    },
+    {
+      "qa": "market-type-id-28",
+      "selections": [],
+      "text": "Hora del próximo gol VfB Stuttgart (Gol 1)",
+      "title": "Hora del próximo gol VfB Stuttgart (Gol 1)"
+    },
+    {
+      "qa": "market-type-id-29",
+      "selections": [],
+      "text": "Hora del próximo gol Atlético Madrid (Gol 1)",
+      "title": "Hora del próximo gol Atlético Madrid (Gol 1)"
+    },
+    {
+      "qa": "market-type-id-503",
+      "selections": [],
+      "text": "Total de Goles Exactos",
+      "title": "Total de Goles Exactos"
+    },
+    {
+      "qa": "market-type-id-34",
+      "selections": [
+        {
+          "aria": "Bet on Más de 8.5 with odds 1.44.",
+          "text": "Más de\n8.5\n1.44"
+        },
+        {
+          "aria": "Bet on Menos 8.5 with odds 2.65.",
+          "text": "Menos\n8.5\n2.65"
+        },
+        {
+          "aria": "Bet on Más de 9.5 with odds 1.75.",
+          "text": "Más de\n9.5\n1.75"
+        },
+        {
+          "aria": "Bet on Menos 9.5 with odds 2.02.",
+          "text": "Menos\n9.5\n2.02"
+        },
+        {
+          "aria": "Bet on Más de 10.5 with odds 2.25.",
+          "text": "Más de\n10.5\n2.25"
+        },
+        {
+          "aria": "Bet on Menos 10.5 with odds 1.6.",
+          "text": "Menos\n10.5\n1.60"
+        }
+      ],
+      "text": "Más/Menos Córners\nMás de\n8.5\n1.44\nMenos\n8.5\n2.65\nMás de\n9.5\n1.75\nMenos\n9.5\n2.02\nMás de\n10.5\n2.25\nMenos\n10.5\n1.60\nMOSTRAR TODO",
+      "title": "Más/Menos Córners"
+    },
+    {
+      "qa": "market-type-id-65",
+      "selections": [],
+      "text": "Tarjetas Totales Más/Menos",
+      "title": "Tarjetas Totales Más/Menos"
+    },
+    {
+      "qa": "market-type-id-13",
+      "selections": [
+        {
+          "aria": "Bet on Más de 2.5 with odds 1.53.",
+          "text": "Más de\n2.5\n1.53"
+        },
+        {
+          "aria": "Bet on Menos 2.5 with odds 2.52.",
+          "text": "Menos\n2.5\n2.52"
+        },
+        {
+          "aria": "Bet on Más de 3.5 with odds 2.27.",
+          "text": "Más de\n3.5\n2.27"
+        },
+        {
+          "aria": "Bet on Menos 3.5 with odds 1.65.",
+          "text": "Menos\n3.5\n1.65"
+        },
+        {
+          "aria": "Bet on Más de 4.5 with odds 3.8.",
+          "text": "Más de\n4.5\n3.80"
+        },
+        {
+          "aria": "Bet on Menos 4.5 with odds 1.27.",
+          "text": "Menos\n4.5\n1.27"
+        }
+      ],
+      "text": "Goles totales Más/Menos\nMás de\n2.5\n1.53\nMenos\n2.5\n2.52\nMás de\n3.5\n2.27\nMenos\n3.5\n1.65\nMás de\n4.5\n3.80\nMenos\n4.5\n1.27\nMOSTRAR TODO",
+      "title": "Goles totales Más/Menos"
+    },
+    {
+      "qa": "market-type-id-21",
+      "selections": [],
+      "text": "Gana el resto del Partido [0 - 0]",
+      "title": "Gana el resto del Partido [0 - 0]"
+    },
+    {
+      "qa": "market-type-id-47",
+      "selections": [],
+      "text": "Córners Impar/Par",
+      "title": "Córners Impar/Par"
+    },
+    {
+      "qa": "market-type-id-4016",
+      "selections": [],
+      "text": "Primer Tiempo/Tiempo Completo Córners",
+      "title": "Primer Tiempo/Tiempo Completo Córners"
+    },
+    {
+      "qa": "market-type-id-135",
+      "selections": [],
+      "text": "Apuesta sin Empate Segundo Tiempo",
+      "title": "Apuesta sin Empate Segundo Tiempo"
+    },
+    {
+      "qa": "market-type-id-142",
+      "selections": [],
+      "text": "Más de 1.5 goles anotados en cada tiempo",
+      "title": "Más de 1.5 goles anotados en cada tiempo"
+    },
+    {
+      "qa": "market-type-id-143",
+      "selections": [],
+      "text": "Menos de 1.5 Goles Anotados en Ambos Tiempos",
+      "title": "Menos de 1.5 Goles Anotados en Ambos Tiempos"
+    },
+    {
+      "qa": "market-type-id-4107",
+      "selections": [],
+      "text": "Primer Tiempo Offsides Más/Menos",
+      "title": "Primer Tiempo Offsides Más/Menos"
+    },
+    {
+      "qa": "market-type-id-496",
+      "selections": [],
+      "text": "Siguiente jugada después del min. (01:00)",
+      "title": "Siguiente jugada después del min. (01:00)"
+    },
+    {
+      "qa": "market-type-id-496",
+      "selections": [],
+      "text": "Siguiente jugada después del min. (02:00)",
+      "title": "Siguiente jugada después del min. (02:00)"
+    },
+    {
+      "qa": "market-type-id-496",
+      "selections": [],
+      "text": "Siguiente jugada después del min. (03:00)",
+      "title": "Siguiente jugada después del min. (03:00)"
+    },
+    {
+      "qa": "market-type-id-497",
+      "selections": [],
+      "text": "¿Qué sucederá en ... ? (00:00 - 00:59)",
+      "title": "¿Qué sucederá en ... ? (00:00 - 00:59)"
+    },
+    {
+      "qa": "market-type-id-497",
+      "selections": [],
+      "text": "¿Qué sucederá en ... ? (01:00 - 01:59)",
+      "title": "¿Qué sucederá en ... ? (01:00 - 01:59)"
+    },
+    {
+      "qa": "market-type-id-497",
+      "selections": [],
+      "text": "¿Qué sucederá en ... ? (02:00 - 02:59)",
+      "title": "¿Qué sucederá en ... ? (02:00 - 02:59)"
+    },
+    {
+      "qa": "market-type-id-3897",
+      "selections": [],
+      "text": "¿Qué sucederá en ... ? (00:00 - 04:59)",
+      "title": "¿Qué sucederá en ... ? (00:00 - 04:59)"
+    },
+    {
+      "qa": "market-type-id-3897",
+      "selections": [],
+      "text": "¿Qué sucederá en ... ? (05:00 - 09:59)",
+      "title": "¿Qué sucederá en ... ? (05:00 - 09:59)"
+    },
+    {
+      "qa": "market-type-id-3897",
+      "selections": [],
+      "text": "¿Qué sucederá en ... ? (10:00 - 14:59)",
+      "title": "¿Qué sucederá en ... ? (10:00 - 14:59)"
+    }
+  ],
+  "top": "Fútbol\n\nBásquetbol\n\nTenis\n\nEsports\n\nBéisbol\n\nMMA\n\nFútbol americano\n\nVoleibol\n\nHockey sobre hielo\n\nTenis de mesa\n\nBox\n\nBalonmano\n\nDardos\n\nVóley-playa\n\nFórmula 1\n\nUnión de Rugby\n\nLiga de Rugby\n\nCiclismo\n\nFutsal\n\nWaterpolo\n\nBádminton\n\nSnooker\n\nCriquet\n\nLacrosse\n\nMoto GP\n\nGolf\n\nDeportes de motor\n\nDeportes de invierno\n\nHockey sobre césped\n\nFloorball\n\nInicioFútbolChampions LeaguePartidosVfB Stuttgart - Atlético Madrid\nMartes, 20 Octubre 2026 14:00\nVfB Stuttgart\nAtlético Madrid\nPopulares\nGoles\nFormaciones\nJugadores\nCórners\nTarjetas\nEstadísticas\nPrimer Tiempo\nCombos\nEspeciales\nHándicap\nHándicap Asiático\nMinutos\nTodo\nBET\nBUILDER\nBB\nResultado del partido\n\n2 GOLES DE VENTAJA\n\n1\n3.20\nX\n3.85\n2\n2.10\nEl VfB Stuttgart ha perdido 3 de sus últimos 5 partidos en todas las competiciones.\nBB\nGoles totales Más/Menos\nHubo más de 2,5 goles en 34 de los últimos 51 partidos del VfB Stuttgart.\nEl VfB Stuttgart promedia 1,9 goles esperados por partido en sus últimos 51 encuentros.\nEl Atlético Madrid ha marcado 11 goles en sus últimos 5 partidos (2,2 por partido).\nMás de\n0.5\n1.03\nMenos\n0.5\n12.00\nMás de\n1.5\n1.17\nMenos\n1.5\n5.10\nMás de\n2.5\n1.53\nMenos\n2.5\n2.52\nMás de\n3.5\n2.27\nMenos\n3.5\n1.65\nMás de\n4.5\n3.80\nMenos\n4.5\n1.27\nMás de\n5.5\n6.60\nMenos\n5.5\n1.11\nMás de\n6.5\n11.25\nMenos\n6.5\n1.04\nMás de\n7.5\n16.00\nMenos\n7.5\n1.",
+  "fixture_id": "575362",
+  "url": "https://www.betano.pe/cuotas-de-partido/vfb-stuttgart-atletico-madrid/91598399/?bt=13",
+  "observed_at": "2026-10-19T06:17:27.863Z"
+}

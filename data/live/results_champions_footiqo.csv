@@ -1,0 +1,51 @@
+date,home_team,away_team,home_score,away_score,tournament,city,country,neutral
+2025-03-05,Feyenoord,Inter,0,2,UEFA Champions League,,,False
+2025-03-05,Bayern Munich,Bayer Leverkusen,3,0,UEFA Champions League,,,False
+2025-03-05,PSG,Liverpool,0,1,UEFA Champions League,,,False
+2025-03-05,Benfica,Barcelona,0,1,UEFA Champions League,,,False
+2025-03-11,Barcelona,Benfica,3,1,UEFA Champions League,,,False
+2025-03-11,Liverpool,PSG,0,1,UEFA Champions League,,,False
+2025-03-11,Inter,Feyenoord,2,1,UEFA Champions League,,,False
+2025-03-11,Bayer Leverkusen,Bayern Munich,0,2,UEFA Champions League,,,False
+2025-03-12,Lille,Dortmund,1,2,UEFA Champions League,,,False
+2025-03-12,Atl. Madrid,Real Madrid,1,0,UEFA Champions League,,,False
+2025-03-12,Aston Villa,Club Brugge KV,3,0,UEFA Champions League,,,False
+2025-03-12,Arsenal,PSV,2,2,UEFA Champions League,,,False
+2025-04-08,Arsenal,Real Madrid,3,0,UEFA Champions League,,,False
+2025-04-08,Bayern Munich,Inter,1,2,UEFA Champions League,,,False
+2025-04-09,Barcelona,Dortmund,4,0,UEFA Champions League,,,False
+2025-04-09,PSG,Aston Villa,3,1,UEFA Champions League,,,False
+2025-04-15,Dortmund,Barcelona,3,1,UEFA Champions League,,,False
+2025-04-15,Aston Villa,PSG,3,2,UEFA Champions League,,,False
+2025-04-16,Real Madrid,Arsenal,1,2,UEFA Champions League,,,False
+2025-04-16,Inter,Bayern Munich,2,2,UEFA Champions League,,,False
+2025-04-29,Arsenal,PSG,0,1,UEFA Champions League,,,False
+2025-04-30,Barcelona,Inter,3,3,UEFA Champions League,,,False
+2025-05-06,Inter,Barcelona,3,3,UEFA Champions League,,,False
+2025-05-07,PSG,Arsenal,2,1,UEFA Champions League,,,False
+2025-05-31,PSG,Inter,5,0,UEFA Champions League,,,False
+2026-03-11,Bayer Leverkusen,Arsenal,1,1,UEFA Champions League,,,False
+2026-03-11,PSG,Chelsea,5,2,UEFA Champions League,,,False
+2026-03-11,Bodo/Glimt,Sporting CP,3,0,UEFA Champions League,,,False
+2026-03-11,Real Madrid,Manchester City,3,0,UEFA Champions League,,,False
+2026-03-17,Sporting CP,Bodo/Glimt,3,0,UEFA Champions League,,,False
+2026-03-17,Manchester City,Real Madrid,1,2,UEFA Champions League,,,False
+2026-03-17,Chelsea,PSG,0,3,UEFA Champions League,,,False
+2026-03-17,Arsenal,Bayer Leverkusen,2,0,UEFA Champions League,,,False
+2026-03-18,Barcelona,Newcastle,7,2,UEFA Champions League,,,False
+2026-03-18,Tottenham,Atl. Madrid,3,2,UEFA Champions League,,,False
+2026-03-18,Liverpool,Galatasaray,4,0,UEFA Champions League,,,False
+2026-03-18,Bayern Munich,Atalanta,4,1,UEFA Champions League,,,False
+2026-04-07,Real Madrid,Bayern Munich,1,2,UEFA Champions League,,,False
+2026-04-07,Sporting CP,Arsenal,0,1,UEFA Champions League,,,False
+2026-04-08,PSG,Liverpool,2,0,UEFA Champions League,,,False
+2026-04-08,Barcelona,Atl. Madrid,0,2,UEFA Champions League,,,False
+2026-04-14,Liverpool,PSG,0,2,UEFA Champions League,,,False
+2026-04-14,Atl. Madrid,Barcelona,1,2,UEFA Champions League,,,False
+2026-04-15,Bayern Munich,Real Madrid,4,3,UEFA Champions League,,,False
+2026-04-15,Arsenal,Sporting CP,0,0,UEFA Champions League,,,False
+2026-04-28,PSG,Bayern Munich,5,4,UEFA Champions League,,,False
+2026-04-29,Atl. Madrid,Arsenal,1,1,UEFA Champions League,,,False
+2026-05-05,Arsenal,Atl. Madrid,1,0,UEFA Champions League,,,False
+2026-05-06,Bayern Munich,PSG,1,1,UEFA Champions League,,,False
+2026-05-30,PSG,Arsenal,1,1,UEFA Champions League,,,False

@@ -1,0 +1,4335 @@
+{
+  "heading": [
+    "SSC Napoli\nFK Bodo/Glimt"
+  ],
+  "markets": [
+    {
+      "qa": "market-type-id-1",
+      "selections": [
+        {
+          "aria": "Bet on 1 with odds 1.62.",
+          "text": "1\n1.62"
+        },
+        {
+          "aria": "Bet on X with odds 4.35.",
+          "text": "X\n4.35"
+        },
+        {
+          "aria": "Bet on 2 with odds 4.9.",
+          "text": "2\n4.90"
+        }
+      ],
+      "text": "Resultado del partido\n\n2 GOLES DE VENTAJA\n\n1\n1.62\nX\n4.35\n2\n4.90\nFK Bodo/Glimt ha ganado 33 de sus últimos 47 partidos en todas las competiciones.\nFK Bodo/Glimt ha ganado 3 de sus últimos 5 partidos en la Champions League.\nFK Bodo/Glimt ha ganado 15 de sus últimos 25 partidos como visitante en todas las competiciones.",
+      "title": "Resultado del partido\n\n2 GOLES DE VENTAJA"
+    },
+    {
+      "qa": "market-type-id-13",
+      "selections": [
+        {
+          "aria": "Bet on Más de 2.5 with odds 1.47.",
+          "text": "Más de\n2.5\n1.47"
+        },
+        {
+          "aria": "Bet on Menos 2.5 with odds 2.67.",
+          "text": "Menos\n2.5\n2.67"
+        },
+        {
+          "aria": "Bet on Más de 3.5 with odds 2.15.",
+          "text": "Más de\n3.5\n2.15"
+        },
+        {
+          "aria": "Bet on Menos 3.5 with odds 1.7.",
+          "text": "Menos\n3.5\n1.70"
+        },
+        {
+          "aria": "Bet on Más de 4.5 with odds 3.55.",
+          "text": "Más de\n4.5\n3.55"
+        },
+        {
+          "aria": "Bet on Menos 4.5 with odds 1.3.",
+          "text": "Menos\n4.5\n1.30"
+        }
+      ],
+      "text": "Goles totales Más/Menos\nEn 4 de los últimos 5 partidos de FK Bodo/Glimt en la Champions League hubo más de 2,5 goles.\nLos partidos de FK Bodo/Glimt han promediado 3,8 goles por partido en la Champions League esta temporada.\nEl 83 % de los últimos 47 partidos de FK Bodo/Glimt en todas las competiciones tuvieron más de 2,5 goles.\nFK Bodo/Glimt ha promediado 3,7 goles por partido en sus últimos 47 encuentros en todas las competiciones.\nMás de\n2.5\n1.47\nMenos\n2.5\n2.67\nMás de\n3.5\n2.15\nMenos\n3.5\n1.70\nMás de\n4.5\n3.55\nMenos\n4.5\n1.30\nMOSTRAR TODO",
+      "title": "Goles totales Más/Menos"
+    },
+    {
+      "qa": "market-type-id-9",
+      "selections": [
+        {
+          "aria": "Bet on SSC Napoli o Empate with odds 1.2.",
+          "text": "SSC Napoli o Empate\n1.20"
+        },
+        {
+          "aria": "Bet on SSC Napoli o FK Bodo/Glimt with odds 1.21.",
+          "text": "SSC Napoli o FK Bodo/Glimt\n1.21"
+        },
+        {
+          "aria": "Bet on FK Bodo/Glimt o Empate with odds 2.35.",
+          "text": "FK Bodo/Glimt o Empate\n2.35"
+        }
+      ],
+      "text": "Doble oportunidad\nSSC Napoli o Empate\n1.20\nSSC Napoli o FK Bodo/Glimt\n1.21\nFK Bodo/Glimt o Empate\n2.35",
+      "title": "Doble oportunidad"
+    },
+    {
+      "qa": "market-type-id-15",
+      "selections": [
+        {
+          "aria": "Bet on Sí with odds 1.52.",
+          "text": "Sí\n1.52"
+        },
+        {
+          "aria": "Bet on No with odds 2.42.",
+          "text": "No\n2.42"
+        }
+      ],
+      "text": "Ambos equipos anotan\nSí\n1.52\nNo\n2.42\nFK Bodo/Glimt ha marcado en 6 partidos consecutivos en todas las competiciones.",
+      "title": "Ambos equipos anotan"
+    },
+    {
+      "qa": "market-type-id-34",
+      "selections": [
+        {
+          "aria": "Bet on Más de 8.5 with odds 1.47.",
+          "text": "Más de\n8.5\n1.47"
+        },
+        {
+          "aria": "Bet on Menos 8.5 with odds 2.55.",
+          "text": "Menos\n8.5\n2.55"
+        },
+        {
+          "aria": "Bet on Más de 9.5 with odds 1.82.",
+          "text": "Más de\n9.5\n1.82"
+        },
+        {
+          "aria": "Bet on Menos 9.5 with odds 1.93.",
+          "text": "Menos\n9.5\n1.93"
+        },
+        {
+          "aria": "Bet on Más de 10.5 with odds 2.35.",
+          "text": "Más de\n10.5\n2.35"
+        },
+        {
+          "aria": "Bet on Menos 10.5 with odds 1.55.",
+          "text": "Menos\n10.5\n1.55"
+        }
+      ],
+      "text": "Más/Menos Córners\nSSC Napoli promedió 7,4 córners por partido en sus últimos 5 encuentros en todas las competiciones.\nFK Bodo/Glimt promedia 5,9 córners por partido en sus últimos 44 encuentros en todas las competiciones.\nSSC Napoli promedia 5,4 córners por partido en sus últimos 50 encuentros en todas las competiciones.\nMás de\n8.5\n1.47\nMenos\n8.5\n2.55\nMás de\n9.5\n1.82\nMenos\n9.5\n1.93\nMás de\n10.5\n2.35\nMenos\n10.5\n1.55\nMOSTRAR TODO",
+      "title": "Más/Menos Córners"
+    },
+    {
+      "qa": "market-type-id-65",
+      "selections": [],
+      "text": "Tarjetas Totales Más/Menos",
+      "title": "Tarjetas Totales Más/Menos"
+    },
+    {
+      "qa": "market-type-id-596",
+      "selections": [],
+      "text": "Tiros al Arco",
+      "title": "Tiros al Arco"
+    },
+    {
+      "qa": "market-type-id-76",
+      "selections": [],
+      "text": "Goleador",
+      "title": "Goleador"
+    },
+    {
+      "qa": "market-type-id-8",
+      "selections": [],
+      "text": "Resultado Primer Tiempo",
+      "title": "Resultado Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-14",
+      "selections": [],
+      "text": "Más/Menos Goles en Primer Tiempo",
+      "title": "Más/Menos Goles en Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-37",
+      "selections": [],
+      "text": "Córners en Primer Tiempo Más/Menos",
+      "title": "Córners en Primer Tiempo Más/Menos"
+    },
+    {
+      "qa": "market-type-id-66",
+      "selections": [],
+      "text": "Total de Tarjetas (Más/Menos) Primer Tiempo",
+      "title": "Total de Tarjetas (Más/Menos) Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-84",
+      "selections": [],
+      "text": "SSC Napoli - Goles totales Más/Menos",
+      "title": "SSC Napoli - Goles totales Más/Menos"
+    },
+    {
+      "qa": "market-type-id-85",
+      "selections": [],
+      "text": "FK Bodo/Glimt - Goles totales Más/Menos",
+      "title": "FK Bodo/Glimt - Goles totales Más/Menos"
+    },
+    {
+      "qa": "market-type-id-3966",
+      "selections": [],
+      "text": "Ambos equipos anotan o Más de 2.5",
+      "title": "Ambos equipos anotan o Más de 2.5"
+    },
+    {
+      "qa": "market-type-id-10",
+      "selections": [],
+      "text": "Apuesta sin Empate",
+      "title": "Apuesta sin Empate"
+    },
+    {
+      "qa": "market-type-id-408",
+      "selections": [],
+      "text": "Hándicap Resultado del Partido",
+      "title": "Hándicap Resultado del Partido"
+    },
+    {
+      "qa": "market-type-id-16",
+      "selections": [],
+      "text": "Primer Tiempo/Tiempo Completo",
+      "title": "Primer Tiempo/Tiempo Completo"
+    },
+    {
+      "qa": "market-type-id-17",
+      "selections": [],
+      "text": "Marcador Correcto",
+      "title": "Marcador Correcto"
+    },
+    {
+      "qa": "market-type-id-11",
+      "selections": [],
+      "text": "Próximo gol (Gol 1)",
+      "title": "Próximo gol (Gol 1)"
+    },
+    {
+      "qa": "market-type-id-115",
+      "selections": [],
+      "text": "Más/Menos Goles en Primer Tiempo SSC Napoli",
+      "title": "Más/Menos Goles en Primer Tiempo SSC Napoli"
+    },
+    {
+      "qa": "market-type-id-116",
+      "selections": [],
+      "text": "Más/Menos Goles en Primer Tiempo FK Bodo/Glimt",
+      "title": "Más/Menos Goles en Primer Tiempo FK Bodo/Glimt"
+    },
+    {
+      "qa": "market-type-id-131",
+      "selections": [],
+      "text": "Más/Menos Goles en Segundo Tiempo",
+      "title": "Más/Menos Goles en Segundo Tiempo"
+    },
+    {
+      "qa": "market-type-id-2818",
+      "selections": [],
+      "text": "Total de goles",
+      "title": "Total de goles"
+    },
+    {
+      "qa": "market-type-id-104",
+      "selections": [],
+      "text": "Total de goles (extra)",
+      "title": "Total de goles (extra)"
+    },
+    {
+      "qa": "market-type-id-31",
+      "selections": [],
+      "text": "Forma de anotación de gol (Gol 1)",
+      "title": "Forma de anotación de gol (Gol 1)"
+    },
+    {
+      "qa": "market-type-id-148",
+      "selections": [],
+      "text": "Total de goles par/impar",
+      "title": "Total de goles par/impar"
+    },
+    {
+      "qa": "market-type-id-341",
+      "selections": [],
+      "text": "Primer equipo en anotar X Goles",
+      "title": "Primer equipo en anotar X Goles"
+    },
+    {
+      "qa": "market-type-id-105",
+      "selections": [],
+      "text": "Total de goles del equipo",
+      "title": "Total de goles del equipo"
+    },
+    {
+      "qa": "market-type-id-13",
+      "selections": [
+        {
+          "aria": "Bet on Más de 2.5 with odds 1.47.",
+          "text": "Más de\n2.5\n1.47"
+        },
+        {
+          "aria": "Bet on Menos 2.5 with odds 2.67.",
+          "text": "Menos\n2.5\n2.67"
+        },
+        {
+          "aria": "Bet on Más de 3.5 with odds 2.15.",
+          "text": "Más de\n3.5\n2.15"
+        },
+        {
+          "aria": "Bet on Menos 3.5 with odds 1.7.",
+          "text": "Menos\n3.5\n1.70"
+        },
+        {
+          "aria": "Bet on Más de 4.5 with odds 3.55.",
+          "text": "Más de\n4.5\n3.55"
+        },
+        {
+          "aria": "Bet on Menos 4.5 with odds 1.3.",
+          "text": "Menos\n4.5\n1.30"
+        }
+      ],
+      "text": "Goles totales Más/Menos\nMás de\n2.5\n1.47\nMenos\n2.5\n2.67\nMás de\n3.5\n2.15\nMenos\n3.5\n1.70\nMás de\n4.5\n3.55\nMenos\n4.5\n1.30\nMOSTRAR TODO",
+      "title": "Goles totales Más/Menos"
+    },
+    {
+      "qa": "market-type-id-34",
+      "selections": [
+        {
+          "aria": "Bet on Más de 8.5 with odds 1.47.",
+          "text": "Más de\n8.5\n1.47"
+        },
+        {
+          "aria": "Bet on Menos 8.5 with odds 2.55.",
+          "text": "Menos\n8.5\n2.55"
+        },
+        {
+          "aria": "Bet on Más de 9.5 with odds 1.82.",
+          "text": "Más de\n9.5\n1.82"
+        },
+        {
+          "aria": "Bet on Menos 9.5 with odds 1.93.",
+          "text": "Menos\n9.5\n1.93"
+        },
+        {
+          "aria": "Bet on Más de 10.5 with odds 2.35.",
+          "text": "Más de\n10.5\n2.35"
+        },
+        {
+          "aria": "Bet on Menos 10.5 with odds 1.55.",
+          "text": "Menos\n10.5\n1.55"
+        }
+      ],
+      "text": "Más/Menos Córners\nMás de\n8.5\n1.47\nMenos\n8.5\n2.55\nMás de\n9.5\n1.82\nMenos\n9.5\n1.93\nMás de\n10.5\n2.35\nMenos\n10.5\n1.55\nMOSTRAR TODO",
+      "title": "Más/Menos Córners"
+    },
+    {
+      "qa": "market-type-id-37",
+      "selections": [],
+      "text": "Córners en Primer Tiempo Más/Menos",
+      "title": "Córners en Primer Tiempo Más/Menos"
+    },
+    {
+      "qa": "market-type-id-39",
+      "selections": [],
+      "text": "SSC Napoli Más/Menos Córners",
+      "title": "SSC Napoli Más/Menos Córners"
+    },
+    {
+      "qa": "market-type-id-40",
+      "selections": [],
+      "text": "FK Bodo/Glimt Más/Menos Córners",
+      "title": "FK Bodo/Glimt Más/Menos Córners"
+    },
+    {
+      "qa": "market-type-id-49",
+      "selections": [],
+      "text": "Total de tarjetas rojas",
+      "title": "Total de tarjetas rojas"
+    },
+    {
+      "qa": "market-type-id-65",
+      "selections": [],
+      "text": "Tarjetas Totales Más/Menos",
+      "title": "Tarjetas Totales Más/Menos"
+    },
+    {
+      "qa": "market-type-id-4151",
+      "selections": [],
+      "text": "Ambos equipos reciben una tarjeta",
+      "title": "Ambos equipos reciben una tarjeta"
+    },
+    {
+      "qa": "market-type-id-4152",
+      "selections": [],
+      "text": "Ambos equipos reciben 2 o más tarjetas",
+      "title": "Ambos equipos reciben 2 o más tarjetas"
+    },
+    {
+      "qa": "market-type-id-343",
+      "selections": [
+        {
+          "aria": "Bet on Más de 9.5 with odds 1.57.",
+          "text": "Más de\n9.5\n1.57"
+        },
+        {
+          "aria": "Bet on Menos 9.5 with odds 2.3.",
+          "text": "Menos\n9.5\n2.30"
+        },
+        {
+          "aria": "Bet on Más de 10.5 with odds 1.95.",
+          "text": "Más de\n10.5\n1.95"
+        },
+        {
+          "aria": "Bet on Menos 10.5 with odds 1.8.",
+          "text": "Menos\n10.5\n1.80"
+        },
+        {
+          "aria": "Bet on Más de 11.5 with odds 2.5.",
+          "text": "Más de\n11.5\n2.50"
+        },
+        {
+          "aria": "Bet on Menos 11.5 with odds 1.5.",
+          "text": "Menos\n11.5\n1.50"
+        }
+      ],
+      "text": "Tiros al Arco\nMás de\n9.5\n1.57\nMenos\n9.5\n2.30\nMás de\n10.5\n1.95\nMenos\n10.5\n1.80\nMás de\n11.5\n2.50\nMenos\n11.5\n1.50",
+      "title": "Tiros al Arco"
+    },
+    {
+      "qa": "market-type-id-535",
+      "selections": [
+        {
+          "aria": "Bet on Más de 5.5 with odds 1.47.",
+          "text": "Más de\n5.5\n1.47"
+        },
+        {
+          "aria": "Bet on Menos 5.5 with odds 2.55.",
+          "text": "Menos\n5.5\n2.55"
+        },
+        {
+          "aria": "Bet on Más de 6.5 with odds 1.9.",
+          "text": "Más de\n6.5\n1.90"
+        },
+        {
+          "aria": "Bet on Menos 6.5 with odds 1.85.",
+          "text": "Menos\n6.5\n1.85"
+        },
+        {
+          "aria": "Bet on Más de 7.5 with odds 2.57.",
+          "text": "Más de\n7.5\n2.57"
+        },
+        {
+          "aria": "Bet on Menos 7.5 with odds 1.47.",
+          "text": "Menos\n7.5\n1.47"
+        }
+      ],
+      "text": "SSC Napoli Tiros al Arco\nMás de\n5.5\n1.47\nMenos\n5.5\n2.55\nMás de\n6.5\n1.90\nMenos\n6.5\n1.85\nMás de\n7.5\n2.57\nMenos\n7.5\n1.47",
+      "title": "SSC Napoli Tiros al Arco"
+    },
+    {
+      "qa": "market-type-id-449",
+      "selections": [
+        {
+          "aria": "Bet on Más de 3.5 with odds 1.75.",
+          "text": "Más de\n3.5\n1.75"
+        },
+        {
+          "aria": "Bet on Menos 3.5 with odds 2.02.",
+          "text": "Menos\n3.5\n2.02"
+        }
+      ],
+      "text": "FK Bodo/Glimt Tiros al Arco\nMás de\n3.5\n1.75\nMenos\n3.5\n2.02",
+      "title": "FK Bodo/Glimt Tiros al Arco"
+    },
+    {
+      "qa": "market-type-id-4159",
+      "selections": [
+        {
+          "aria": "Bet on Más de 26.5 with odds 1.57.",
+          "text": "Más de\n26.5\n1.57"
+        },
+        {
+          "aria": "Bet on Menos 26.5 with odds 2.3.",
+          "text": "Menos\n26.5\n2.30"
+        },
+        {
+          "aria": "Bet on Más de 27.5 with odds 1.78.",
+          "text": "Más de\n27.5\n1.78"
+        },
+        {
+          "aria": "Bet on Menos 27.5 with odds 1.95.",
+          "text": "Menos\n27.5\n1.95"
+        },
+        {
+          "aria": "Bet on Más de 28.5 with odds 2.05.",
+          "text": "Más de\n28.5\n2.05"
+        },
+        {
+          "aria": "Bet on Menos 28.5 with odds 1.72.",
+          "text": "Menos\n28.5\n1.72"
+        }
+      ],
+      "text": "Remates totales\nMás de\n26.5\n1.57\nMenos\n26.5\n2.30\nMás de\n27.5\n1.78\nMenos\n27.5\n1.95\nMás de\n28.5\n2.05\nMenos\n28.5\n1.72",
+      "title": "Remates totales"
+    },
+    {
+      "qa": "market-type-id-79",
+      "selections": [],
+      "text": "Jugador que anota +2 goles",
+      "title": "Jugador que anota +2 goles"
+    },
+    {
+      "qa": "market-type-id-80",
+      "selections": [],
+      "text": "Triplete del Jugador",
+      "title": "Triplete del Jugador"
+    },
+    {
+      "qa": "market-type-id-1000661",
+      "selections": [],
+      "text": "Jugador que anota o da una asistencia",
+      "title": "Jugador que anota o da una asistencia"
+    },
+    {
+      "qa": "market-type-id-593",
+      "selections": [],
+      "text": "Rasmus Hojlund Asistencias totales",
+      "title": "Rasmus Hojlund Asistencias totales"
+    },
+    {
+      "qa": "market-type-id-593",
+      "selections": [],
+      "text": "Noa Lang Asistencias totales",
+      "title": "Noa Lang Asistencias totales"
+    },
+    {
+      "qa": "market-type-id-593",
+      "selections": [],
+      "text": "Lorenzo Lucca Asistencias totales",
+      "title": "Lorenzo Lucca Asistencias totales"
+    },
+    {
+      "qa": "market-type-id-593",
+      "selections": [],
+      "text": "Kevin De Bruyne Asistencias totales",
+      "title": "Kevin De Bruyne Asistencias totales"
+    },
+    {
+      "qa": "market-type-id-593",
+      "selections": [],
+      "text": "Billy Gilmour Asistencias totales",
+      "title": "Billy Gilmour Asistencias totales"
+    },
+    {
+      "qa": "market-type-id-593",
+      "selections": [],
+      "text": "Stanislav Lobotka Asistencias totales",
+      "title": "Stanislav Lobotka Asistencias totales"
+    },
+    {
+      "qa": "market-type-id-593",
+      "selections": [],
+      "text": "Matteo Politano Asistencias totales",
+      "title": "Matteo Politano Asistencias totales"
+    },
+    {
+      "qa": "market-type-id-593",
+      "selections": [],
+      "text": "Frank Anguissa Asistencias totales",
+      "title": "Frank Anguissa Asistencias totales"
+    },
+    {
+      "qa": "market-type-id-593",
+      "selections": [],
+      "text": "Benoît Badiashile Asistencias totales",
+      "title": "Benoît Badiashile Asistencias totales"
+    },
+    {
+      "qa": "market-type-id-593",
+      "selections": [],
+      "text": "Sam Beukema Asistencias totales",
+      "title": "Sam Beukema Asistencias totales"
+    },
+    {
+      "qa": "market-type-id-593",
+      "selections": [],
+      "text": "Giovanni Di Lorenzo Asistencias totales",
+      "title": "Giovanni Di Lorenzo Asistencias totales"
+    },
+    {
+      "qa": "market-type-id-593",
+      "selections": [],
+      "text": "Luca Marianucci Asistencias totales",
+      "title": "Luca Marianucci Asistencias totales"
+    },
+    {
+      "qa": "market-type-id-593",
+      "selections": [],
+      "text": "Rafa Marín Asistencias totales",
+      "title": "Rafa Marín Asistencias totales"
+    },
+    {
+      "qa": "market-type-id-593",
+      "selections": [],
+      "text": "Mathías Olivera Asistencias totales",
+      "title": "Mathías Olivera Asistencias totales"
+    },
+    {
+      "qa": "market-type-id-593",
+      "selections": [],
+      "text": "Amir Rrahmani Asistencias totales",
+      "title": "Amir Rrahmani Asistencias totales"
+    },
+    {
+      "qa": "market-type-id-593",
+      "selections": [],
+      "text": "Leonardo Spinazzola Asistencias totales",
+      "title": "Leonardo Spinazzola Asistencias totales"
+    },
+    {
+      "qa": "market-type-id-593",
+      "selections": [],
+      "text": "Alisson Santos Asistencias totales",
+      "title": "Alisson Santos Asistencias totales"
+    },
+    {
+      "qa": "market-type-id-593",
+      "selections": [],
+      "text": "Milton Pereyra Asistencias totales",
+      "title": "Milton Pereyra Asistencias totales"
+    },
+    {
+      "qa": "market-type-id-593",
+      "selections": [],
+      "text": "Costantino Favasuli Asistencias totales",
+      "title": "Costantino Favasuli Asistencias totales"
+    },
+    {
+      "qa": "market-type-id-593",
+      "selections": [],
+      "text": "David Neres Asistencias totales",
+      "title": "David Neres Asistencias totales"
+    },
+    {
+      "qa": "market-type-id-593",
+      "selections": [],
+      "text": "Antonio Vergara Asistencias totales",
+      "title": "Antonio Vergara Asistencias totales"
+    },
+    {
+      "qa": "market-type-id-593",
+      "selections": [],
+      "text": "Christian Garofalo Asistencias totales",
+      "title": "Christian Garofalo Asistencias totales"
+    },
+    {
+      "qa": "market-type-id-593",
+      "selections": [],
+      "text": "Jose Rodrigues Asistencias totales",
+      "title": "Jose Rodrigues Asistencias totales"
+    },
+    {
+      "qa": "market-type-id-593",
+      "selections": [],
+      "text": "Ola Brynhildsen Asistencias totales",
+      "title": "Ola Brynhildsen Asistencias totales"
+    },
+    {
+      "qa": "market-type-id-593",
+      "selections": [],
+      "text": "Ole Blomberg Asistencias totales",
+      "title": "Ole Blomberg Asistencias totales"
+    },
+    {
+      "qa": "market-type-id-593",
+      "selections": [],
+      "text": "Jens Petter Hauge Asistencias totales",
+      "title": "Jens Petter Hauge Asistencias totales"
+    },
+    {
+      "qa": "market-type-id-593",
+      "selections": [],
+      "text": "Joel Mvuka Asistencias totales",
+      "title": "Joel Mvuka Asistencias totales"
+    },
+    {
+      "qa": "market-type-id-593",
+      "selections": [],
+      "text": "Sondre Auklend Asistencias totales",
+      "title": "Sondre Auklend Asistencias totales"
+    },
+    {
+      "qa": "market-type-id-593",
+      "selections": [],
+      "text": "Patrick Berg Asistencias totales",
+      "title": "Patrick Berg Asistencias totales"
+    },
+    {
+      "qa": "market-type-id-593",
+      "selections": [],
+      "text": "Hakon Evjen Asistencias totales",
+      "title": "Hakon Evjen Asistencias totales"
+    },
+    {
+      "qa": "market-type-id-593",
+      "selections": [],
+      "text": "Sondre Fet Asistencias totales",
+      "title": "Sondre Fet Asistencias totales"
+    },
+    {
+      "qa": "market-type-id-593",
+      "selections": [],
+      "text": "Joshua Kitolano Asistencias totales",
+      "title": "Joshua Kitolano Asistencias totales"
+    },
+    {
+      "qa": "market-type-id-593",
+      "selections": [],
+      "text": "Ulrik Saltnes Asistencias totales",
+      "title": "Ulrik Saltnes Asistencias totales"
+    },
+    {
+      "qa": "market-type-id-593",
+      "selections": [],
+      "text": "Assan Sanyang Asistencias totales",
+      "title": "Assan Sanyang Asistencias totales"
+    },
+    {
+      "qa": "market-type-id-593",
+      "selections": [],
+      "text": "Fredrik Sjøvold Asistencias totales",
+      "title": "Fredrik Sjøvold Asistencias totales"
+    },
+    {
+      "qa": "market-type-id-593",
+      "selections": [],
+      "text": "Haitam Aleesami Asistencias totales",
+      "title": "Haitam Aleesami Asistencias totales"
+    },
+    {
+      "qa": "market-type-id-593",
+      "selections": [],
+      "text": "Fredrik Andre Bjorkan Asistencias totales",
+      "title": "Fredrik Andre Bjorkan Asistencias totales"
+    },
+    {
+      "qa": "market-type-id-593",
+      "selections": [],
+      "text": "Odin Bjørtuft Asistencias totales",
+      "title": "Odin Bjørtuft Asistencias totales"
+    },
+    {
+      "qa": "market-type-id-593",
+      "selections": [],
+      "text": "Isak Dybvik Maatta Asistencias totales",
+      "title": "Isak Dybvik Maatta Asistencias totales"
+    },
+    {
+      "qa": "market-type-id-593",
+      "selections": [],
+      "text": "Jostein Gundersen Asistencias totales",
+      "title": "Jostein Gundersen Asistencias totales"
+    },
+    {
+      "qa": "market-type-id-593",
+      "selections": [],
+      "text": "Villads Nielsen Asistencias totales",
+      "title": "Villads Nielsen Asistencias totales"
+    },
+    {
+      "qa": "market-type-id-593",
+      "selections": [],
+      "text": "Kasper Johansen Solhaug Asistencias totales",
+      "title": "Kasper Johansen Solhaug Asistencias totales"
+    },
+    {
+      "qa": "market-type-id-593",
+      "selections": [],
+      "text": "Andreas Helmersen Asistencias totales",
+      "title": "Andreas Helmersen Asistencias totales"
+    },
+    {
+      "qa": "market-type-id-593",
+      "selections": [],
+      "text": "Hindrin Najah Chooly Asistencias totales",
+      "title": "Hindrin Najah Chooly Asistencias totales"
+    },
+    {
+      "qa": "market-type-id-593",
+      "selections": [],
+      "text": "Mathias Blix Olsen Asistencias totales",
+      "title": "Mathias Blix Olsen Asistencias totales"
+    },
+    {
+      "qa": "market-type-id-593",
+      "selections": [],
+      "text": "Matias Jaiteh Asistencias totales",
+      "title": "Matias Jaiteh Asistencias totales"
+    },
+    {
+      "qa": "market-type-id-593",
+      "selections": [],
+      "text": "August Mikkelsen Asistencias totales",
+      "title": "August Mikkelsen Asistencias totales"
+    },
+    {
+      "qa": "market-type-id-593",
+      "selections": [],
+      "text": "Magnus Bech Riisnaes Asistencias totales",
+      "title": "Magnus Bech Riisnaes Asistencias totales"
+    },
+    {
+      "qa": "market-type-id-1000115",
+      "selections": [],
+      "text": "Vanja Milinković-Savić Atajadas de Arquero",
+      "title": "Vanja Milinković-Savić Atajadas de Arquero"
+    },
+    {
+      "qa": "market-type-id-1000115",
+      "selections": [],
+      "text": "Nikita Haikin Atajadas de Arquero",
+      "title": "Nikita Haikin Atajadas de Arquero"
+    },
+    {
+      "qa": "market-type-id-62",
+      "selections": [],
+      "text": "Recibir una tarjeta",
+      "title": "Recibir una tarjeta"
+    },
+    {
+      "qa": "market-type-id-346",
+      "selections": [],
+      "text": "Recibe una tarjeta roja",
+      "title": "Recibe una tarjeta roja"
+    },
+    {
+      "qa": "market-type-id-595",
+      "selections": [],
+      "text": "Rasmus Hojlund Remates totales",
+      "title": "Rasmus Hojlund Remates totales"
+    },
+    {
+      "qa": "market-type-id-595",
+      "selections": [],
+      "text": "Noa Lang Remates totales",
+      "title": "Noa Lang Remates totales"
+    },
+    {
+      "qa": "market-type-id-595",
+      "selections": [],
+      "text": "Lorenzo Lucca Remates totales",
+      "title": "Lorenzo Lucca Remates totales"
+    },
+    {
+      "qa": "market-type-id-595",
+      "selections": [],
+      "text": "Kevin De Bruyne Remates totales",
+      "title": "Kevin De Bruyne Remates totales"
+    },
+    {
+      "qa": "market-type-id-595",
+      "selections": [],
+      "text": "Billy Gilmour Remates totales",
+      "title": "Billy Gilmour Remates totales"
+    },
+    {
+      "qa": "market-type-id-595",
+      "selections": [],
+      "text": "Stanislav Lobotka Remates totales",
+      "title": "Stanislav Lobotka Remates totales"
+    },
+    {
+      "qa": "market-type-id-595",
+      "selections": [],
+      "text": "Matteo Politano Remates totales",
+      "title": "Matteo Politano Remates totales"
+    },
+    {
+      "qa": "market-type-id-595",
+      "selections": [],
+      "text": "Frank Anguissa Remates totales",
+      "title": "Frank Anguissa Remates totales"
+    },
+    {
+      "qa": "market-type-id-595",
+      "selections": [],
+      "text": "Benoît Badiashile Remates totales",
+      "title": "Benoît Badiashile Remates totales"
+    },
+    {
+      "qa": "market-type-id-595",
+      "selections": [],
+      "text": "Sam Beukema Remates totales",
+      "title": "Sam Beukema Remates totales"
+    },
+    {
+      "qa": "market-type-id-595",
+      "selections": [],
+      "text": "Giovanni Di Lorenzo Remates totales",
+      "title": "Giovanni Di Lorenzo Remates totales"
+    },
+    {
+      "qa": "market-type-id-595",
+      "selections": [],
+      "text": "Luca Marianucci Remates totales",
+      "title": "Luca Marianucci Remates totales"
+    },
+    {
+      "qa": "market-type-id-595",
+      "selections": [],
+      "text": "Rafa Marín Remates totales",
+      "title": "Rafa Marín Remates totales"
+    },
+    {
+      "qa": "market-type-id-595",
+      "selections": [],
+      "text": "Mathías Olivera Remates totales",
+      "title": "Mathías Olivera Remates totales"
+    },
+    {
+      "qa": "market-type-id-595",
+      "selections": [],
+      "text": "Amir Rrahmani Remates totales",
+      "title": "Amir Rrahmani Remates totales"
+    },
+    {
+      "qa": "market-type-id-595",
+      "selections": [],
+      "text": "Leonardo Spinazzola Remates totales",
+      "title": "Leonardo Spinazzola Remates totales"
+    },
+    {
+      "qa": "market-type-id-595",
+      "selections": [],
+      "text": "Alisson Santos Remates totales",
+      "title": "Alisson Santos Remates totales"
+    },
+    {
+      "qa": "market-type-id-595",
+      "selections": [],
+      "text": "Milton Pereyra Remates totales",
+      "title": "Milton Pereyra Remates totales"
+    },
+    {
+      "qa": "market-type-id-595",
+      "selections": [],
+      "text": "Costantino Favasuli Remates totales",
+      "title": "Costantino Favasuli Remates totales"
+    },
+    {
+      "qa": "market-type-id-595",
+      "selections": [],
+      "text": "David Neres Remates totales",
+      "title": "David Neres Remates totales"
+    },
+    {
+      "qa": "market-type-id-595",
+      "selections": [],
+      "text": "Antonio Vergara Remates totales",
+      "title": "Antonio Vergara Remates totales"
+    },
+    {
+      "qa": "market-type-id-595",
+      "selections": [],
+      "text": "Christian Garofalo Remates totales",
+      "title": "Christian Garofalo Remates totales"
+    },
+    {
+      "qa": "market-type-id-595",
+      "selections": [],
+      "text": "Jose Rodrigues Remates totales",
+      "title": "Jose Rodrigues Remates totales"
+    },
+    {
+      "qa": "market-type-id-595",
+      "selections": [],
+      "text": "Ola Brynhildsen Remates totales",
+      "title": "Ola Brynhildsen Remates totales"
+    },
+    {
+      "qa": "market-type-id-595",
+      "selections": [],
+      "text": "Ole Blomberg Remates totales",
+      "title": "Ole Blomberg Remates totales"
+    },
+    {
+      "qa": "market-type-id-595",
+      "selections": [],
+      "text": "Jens Petter Hauge Remates totales",
+      "title": "Jens Petter Hauge Remates totales"
+    },
+    {
+      "qa": "market-type-id-595",
+      "selections": [],
+      "text": "Joel Mvuka Remates totales",
+      "title": "Joel Mvuka Remates totales"
+    },
+    {
+      "qa": "market-type-id-595",
+      "selections": [],
+      "text": "Sondre Auklend Remates totales",
+      "title": "Sondre Auklend Remates totales"
+    },
+    {
+      "qa": "market-type-id-595",
+      "selections": [],
+      "text": "Patrick Berg Remates totales",
+      "title": "Patrick Berg Remates totales"
+    },
+    {
+      "qa": "market-type-id-595",
+      "selections": [],
+      "text": "Hakon Evjen Remates totales",
+      "title": "Hakon Evjen Remates totales"
+    },
+    {
+      "qa": "market-type-id-595",
+      "selections": [],
+      "text": "Sondre Fet Remates totales",
+      "title": "Sondre Fet Remates totales"
+    },
+    {
+      "qa": "market-type-id-595",
+      "selections": [],
+      "text": "Joshua Kitolano Remates totales",
+      "title": "Joshua Kitolano Remates totales"
+    },
+    {
+      "qa": "market-type-id-595",
+      "selections": [],
+      "text": "Ulrik Saltnes Remates totales",
+      "title": "Ulrik Saltnes Remates totales"
+    },
+    {
+      "qa": "market-type-id-595",
+      "selections": [],
+      "text": "Assan Sanyang Remates totales",
+      "title": "Assan Sanyang Remates totales"
+    },
+    {
+      "qa": "market-type-id-595",
+      "selections": [],
+      "text": "Fredrik Sjøvold Remates totales",
+      "title": "Fredrik Sjøvold Remates totales"
+    },
+    {
+      "qa": "market-type-id-595",
+      "selections": [],
+      "text": "Haitam Aleesami Remates totales",
+      "title": "Haitam Aleesami Remates totales"
+    },
+    {
+      "qa": "market-type-id-595",
+      "selections": [],
+      "text": "Fredrik Andre Bjorkan Remates totales",
+      "title": "Fredrik Andre Bjorkan Remates totales"
+    },
+    {
+      "qa": "market-type-id-595",
+      "selections": [],
+      "text": "Odin Bjørtuft Remates totales",
+      "title": "Odin Bjørtuft Remates totales"
+    },
+    {
+      "qa": "market-type-id-595",
+      "selections": [],
+      "text": "Isak Dybvik Maatta Remates totales",
+      "title": "Isak Dybvik Maatta Remates totales"
+    },
+    {
+      "qa": "market-type-id-595",
+      "selections": [],
+      "text": "Jostein Gundersen Remates totales",
+      "title": "Jostein Gundersen Remates totales"
+    },
+    {
+      "qa": "market-type-id-595",
+      "selections": [],
+      "text": "Villads Nielsen Remates totales",
+      "title": "Villads Nielsen Remates totales"
+    },
+    {
+      "qa": "market-type-id-595",
+      "selections": [],
+      "text": "Kasper Johansen Solhaug Remates totales",
+      "title": "Kasper Johansen Solhaug Remates totales"
+    },
+    {
+      "qa": "market-type-id-595",
+      "selections": [],
+      "text": "Andreas Helmersen Remates totales",
+      "title": "Andreas Helmersen Remates totales"
+    },
+    {
+      "qa": "market-type-id-595",
+      "selections": [],
+      "text": "Hindrin Najah Chooly Remates totales",
+      "title": "Hindrin Najah Chooly Remates totales"
+    },
+    {
+      "qa": "market-type-id-595",
+      "selections": [],
+      "text": "Mathias Blix Olsen Remates totales",
+      "title": "Mathias Blix Olsen Remates totales"
+    },
+    {
+      "qa": "market-type-id-595",
+      "selections": [],
+      "text": "Matias Jaiteh Remates totales",
+      "title": "Matias Jaiteh Remates totales"
+    },
+    {
+      "qa": "market-type-id-595",
+      "selections": [],
+      "text": "August Mikkelsen Remates totales",
+      "title": "August Mikkelsen Remates totales"
+    },
+    {
+      "qa": "market-type-id-595",
+      "selections": [],
+      "text": "Magnus Bech Riisnaes Remates totales",
+      "title": "Magnus Bech Riisnaes Remates totales"
+    },
+    {
+      "qa": "market-type-id-63",
+      "selections": [],
+      "text": "Jugador que recibe la primera tarjeta",
+      "title": "Jugador que recibe la primera tarjeta"
+    },
+    {
+      "qa": "market-type-id-597",
+      "selections": [],
+      "text": "Rasmus Hojlund Total de pases",
+      "title": "Rasmus Hojlund Total de pases"
+    },
+    {
+      "qa": "market-type-id-597",
+      "selections": [],
+      "text": "Noa Lang Total de pases",
+      "title": "Noa Lang Total de pases"
+    },
+    {
+      "qa": "market-type-id-597",
+      "selections": [],
+      "text": "Lorenzo Lucca Total de pases",
+      "title": "Lorenzo Lucca Total de pases"
+    },
+    {
+      "qa": "market-type-id-597",
+      "selections": [],
+      "text": "Kevin De Bruyne Total de pases",
+      "title": "Kevin De Bruyne Total de pases"
+    },
+    {
+      "qa": "market-type-id-597",
+      "selections": [],
+      "text": "Billy Gilmour Total de pases",
+      "title": "Billy Gilmour Total de pases"
+    },
+    {
+      "qa": "market-type-id-597",
+      "selections": [],
+      "text": "Stanislav Lobotka Total de pases",
+      "title": "Stanislav Lobotka Total de pases"
+    },
+    {
+      "qa": "market-type-id-597",
+      "selections": [],
+      "text": "Matteo Politano Total de pases",
+      "title": "Matteo Politano Total de pases"
+    },
+    {
+      "qa": "market-type-id-597",
+      "selections": [],
+      "text": "Frank Anguissa Total de pases",
+      "title": "Frank Anguissa Total de pases"
+    },
+    {
+      "qa": "market-type-id-597",
+      "selections": [],
+      "text": "Benoît Badiashile Total de pases",
+      "title": "Benoît Badiashile Total de pases"
+    },
+    {
+      "qa": "market-type-id-597",
+      "selections": [],
+      "text": "Sam Beukema Total de pases",
+      "title": "Sam Beukema Total de pases"
+    },
+    {
+      "qa": "market-type-id-597",
+      "selections": [],
+      "text": "Giovanni Di Lorenzo Total de pases",
+      "title": "Giovanni Di Lorenzo Total de pases"
+    },
+    {
+      "qa": "market-type-id-597",
+      "selections": [],
+      "text": "Luca Marianucci Total de pases",
+      "title": "Luca Marianucci Total de pases"
+    },
+    {
+      "qa": "market-type-id-597",
+      "selections": [],
+      "text": "Rafa Marín Total de pases",
+      "title": "Rafa Marín Total de pases"
+    },
+    {
+      "qa": "market-type-id-597",
+      "selections": [],
+      "text": "Mathías Olivera Total de pases",
+      "title": "Mathías Olivera Total de pases"
+    },
+    {
+      "qa": "market-type-id-597",
+      "selections": [],
+      "text": "Amir Rrahmani Total de pases",
+      "title": "Amir Rrahmani Total de pases"
+    },
+    {
+      "qa": "market-type-id-597",
+      "selections": [],
+      "text": "Leonardo Spinazzola Total de pases",
+      "title": "Leonardo Spinazzola Total de pases"
+    },
+    {
+      "qa": "market-type-id-597",
+      "selections": [],
+      "text": "Alisson Santos Total de pases",
+      "title": "Alisson Santos Total de pases"
+    },
+    {
+      "qa": "market-type-id-597",
+      "selections": [],
+      "text": "Milton Pereyra Total de pases",
+      "title": "Milton Pereyra Total de pases"
+    },
+    {
+      "qa": "market-type-id-597",
+      "selections": [],
+      "text": "Costantino Favasuli Total de pases",
+      "title": "Costantino Favasuli Total de pases"
+    },
+    {
+      "qa": "market-type-id-597",
+      "selections": [],
+      "text": "David Neres Total de pases",
+      "title": "David Neres Total de pases"
+    },
+    {
+      "qa": "market-type-id-597",
+      "selections": [],
+      "text": "Antonio Vergara Total de pases",
+      "title": "Antonio Vergara Total de pases"
+    },
+    {
+      "qa": "market-type-id-597",
+      "selections": [],
+      "text": "Christian Garofalo Total de pases",
+      "title": "Christian Garofalo Total de pases"
+    },
+    {
+      "qa": "market-type-id-597",
+      "selections": [],
+      "text": "Jose Rodrigues Total de pases",
+      "title": "Jose Rodrigues Total de pases"
+    },
+    {
+      "qa": "market-type-id-597",
+      "selections": [],
+      "text": "Ola Brynhildsen Total de pases",
+      "title": "Ola Brynhildsen Total de pases"
+    },
+    {
+      "qa": "market-type-id-597",
+      "selections": [],
+      "text": "Ole Blomberg Total de pases",
+      "title": "Ole Blomberg Total de pases"
+    },
+    {
+      "qa": "market-type-id-597",
+      "selections": [],
+      "text": "Jens Petter Hauge Total de pases",
+      "title": "Jens Petter Hauge Total de pases"
+    },
+    {
+      "qa": "market-type-id-597",
+      "selections": [],
+      "text": "Joel Mvuka Total de pases",
+      "title": "Joel Mvuka Total de pases"
+    },
+    {
+      "qa": "market-type-id-597",
+      "selections": [],
+      "text": "Sondre Auklend Total de pases",
+      "title": "Sondre Auklend Total de pases"
+    },
+    {
+      "qa": "market-type-id-597",
+      "selections": [],
+      "text": "Patrick Berg Total de pases",
+      "title": "Patrick Berg Total de pases"
+    },
+    {
+      "qa": "market-type-id-597",
+      "selections": [],
+      "text": "Hakon Evjen Total de pases",
+      "title": "Hakon Evjen Total de pases"
+    },
+    {
+      "qa": "market-type-id-597",
+      "selections": [],
+      "text": "Sondre Fet Total de pases",
+      "title": "Sondre Fet Total de pases"
+    },
+    {
+      "qa": "market-type-id-597",
+      "selections": [],
+      "text": "Joshua Kitolano Total de pases",
+      "title": "Joshua Kitolano Total de pases"
+    },
+    {
+      "qa": "market-type-id-597",
+      "selections": [],
+      "text": "Ulrik Saltnes Total de pases",
+      "title": "Ulrik Saltnes Total de pases"
+    },
+    {
+      "qa": "market-type-id-597",
+      "selections": [],
+      "text": "Assan Sanyang Total de pases",
+      "title": "Assan Sanyang Total de pases"
+    },
+    {
+      "qa": "market-type-id-597",
+      "selections": [],
+      "text": "Fredrik Sjøvold Total de pases",
+      "title": "Fredrik Sjøvold Total de pases"
+    },
+    {
+      "qa": "market-type-id-597",
+      "selections": [],
+      "text": "Haitam Aleesami Total de pases",
+      "title": "Haitam Aleesami Total de pases"
+    },
+    {
+      "qa": "market-type-id-597",
+      "selections": [],
+      "text": "Fredrik Andre Bjorkan Total de pases",
+      "title": "Fredrik Andre Bjorkan Total de pases"
+    },
+    {
+      "qa": "market-type-id-597",
+      "selections": [],
+      "text": "Odin Bjørtuft Total de pases",
+      "title": "Odin Bjørtuft Total de pases"
+    },
+    {
+      "qa": "market-type-id-597",
+      "selections": [],
+      "text": "Isak Dybvik Maatta Total de pases",
+      "title": "Isak Dybvik Maatta Total de pases"
+    },
+    {
+      "qa": "market-type-id-597",
+      "selections": [],
+      "text": "Jostein Gundersen Total de pases",
+      "title": "Jostein Gundersen Total de pases"
+    },
+    {
+      "qa": "market-type-id-597",
+      "selections": [],
+      "text": "Villads Nielsen Total de pases",
+      "title": "Villads Nielsen Total de pases"
+    },
+    {
+      "qa": "market-type-id-597",
+      "selections": [],
+      "text": "Kasper Johansen Solhaug Total de pases",
+      "title": "Kasper Johansen Solhaug Total de pases"
+    },
+    {
+      "qa": "market-type-id-597",
+      "selections": [],
+      "text": "Andreas Helmersen Total de pases",
+      "title": "Andreas Helmersen Total de pases"
+    },
+    {
+      "qa": "market-type-id-597",
+      "selections": [],
+      "text": "Hindrin Najah Chooly Total de pases",
+      "title": "Hindrin Najah Chooly Total de pases"
+    },
+    {
+      "qa": "market-type-id-597",
+      "selections": [],
+      "text": "Mathias Blix Olsen Total de pases",
+      "title": "Mathias Blix Olsen Total de pases"
+    },
+    {
+      "qa": "market-type-id-597",
+      "selections": [],
+      "text": "Matias Jaiteh Total de pases",
+      "title": "Matias Jaiteh Total de pases"
+    },
+    {
+      "qa": "market-type-id-597",
+      "selections": [],
+      "text": "August Mikkelsen Total de pases",
+      "title": "August Mikkelsen Total de pases"
+    },
+    {
+      "qa": "market-type-id-597",
+      "selections": [],
+      "text": "Magnus Bech Riisnaes Total de pases",
+      "title": "Magnus Bech Riisnaes Total de pases"
+    },
+    {
+      "qa": "market-type-id-599",
+      "selections": [],
+      "text": "Rasmus Hojlund Tackles totales",
+      "title": "Rasmus Hojlund Tackles totales"
+    },
+    {
+      "qa": "market-type-id-599",
+      "selections": [],
+      "text": "Noa Lang Tackles totales",
+      "title": "Noa Lang Tackles totales"
+    },
+    {
+      "qa": "market-type-id-599",
+      "selections": [],
+      "text": "Lorenzo Lucca Tackles totales",
+      "title": "Lorenzo Lucca Tackles totales"
+    },
+    {
+      "qa": "market-type-id-599",
+      "selections": [],
+      "text": "Kevin De Bruyne Tackles totales",
+      "title": "Kevin De Bruyne Tackles totales"
+    },
+    {
+      "qa": "market-type-id-599",
+      "selections": [],
+      "text": "Billy Gilmour Tackles totales",
+      "title": "Billy Gilmour Tackles totales"
+    },
+    {
+      "qa": "market-type-id-599",
+      "selections": [],
+      "text": "Stanislav Lobotka Tackles totales",
+      "title": "Stanislav Lobotka Tackles totales"
+    },
+    {
+      "qa": "market-type-id-599",
+      "selections": [],
+      "text": "Matteo Politano Tackles totales",
+      "title": "Matteo Politano Tackles totales"
+    },
+    {
+      "qa": "market-type-id-599",
+      "selections": [],
+      "text": "Frank Anguissa Tackles totales",
+      "title": "Frank Anguissa Tackles totales"
+    },
+    {
+      "qa": "market-type-id-599",
+      "selections": [],
+      "text": "Benoît Badiashile Tackles totales",
+      "title": "Benoît Badiashile Tackles totales"
+    },
+    {
+      "qa": "market-type-id-599",
+      "selections": [],
+      "text": "Sam Beukema Tackles totales",
+      "title": "Sam Beukema Tackles totales"
+    },
+    {
+      "qa": "market-type-id-599",
+      "selections": [],
+      "text": "Giovanni Di Lorenzo Tackles totales",
+      "title": "Giovanni Di Lorenzo Tackles totales"
+    },
+    {
+      "qa": "market-type-id-599",
+      "selections": [],
+      "text": "Luca Marianucci Tackles totales",
+      "title": "Luca Marianucci Tackles totales"
+    },
+    {
+      "qa": "market-type-id-599",
+      "selections": [],
+      "text": "Rafa Marín Tackles totales",
+      "title": "Rafa Marín Tackles totales"
+    },
+    {
+      "qa": "market-type-id-599",
+      "selections": [],
+      "text": "Mathías Olivera Tackles totales",
+      "title": "Mathías Olivera Tackles totales"
+    },
+    {
+      "qa": "market-type-id-599",
+      "selections": [],
+      "text": "Amir Rrahmani Tackles totales",
+      "title": "Amir Rrahmani Tackles totales"
+    },
+    {
+      "qa": "market-type-id-599",
+      "selections": [],
+      "text": "Leonardo Spinazzola Tackles totales",
+      "title": "Leonardo Spinazzola Tackles totales"
+    },
+    {
+      "qa": "market-type-id-599",
+      "selections": [],
+      "text": "Alisson Santos Tackles totales",
+      "title": "Alisson Santos Tackles totales"
+    },
+    {
+      "qa": "market-type-id-599",
+      "selections": [],
+      "text": "Milton Pereyra Tackles totales",
+      "title": "Milton Pereyra Tackles totales"
+    },
+    {
+      "qa": "market-type-id-599",
+      "selections": [],
+      "text": "Costantino Favasuli Tackles totales",
+      "title": "Costantino Favasuli Tackles totales"
+    },
+    {
+      "qa": "market-type-id-599",
+      "selections": [],
+      "text": "David Neres Tackles totales",
+      "title": "David Neres Tackles totales"
+    },
+    {
+      "qa": "market-type-id-599",
+      "selections": [],
+      "text": "Antonio Vergara Tackles totales",
+      "title": "Antonio Vergara Tackles totales"
+    },
+    {
+      "qa": "market-type-id-599",
+      "selections": [],
+      "text": "Christian Garofalo Tackles totales",
+      "title": "Christian Garofalo Tackles totales"
+    },
+    {
+      "qa": "market-type-id-599",
+      "selections": [],
+      "text": "Jose Rodrigues Tackles totales",
+      "title": "Jose Rodrigues Tackles totales"
+    },
+    {
+      "qa": "market-type-id-599",
+      "selections": [],
+      "text": "Ola Brynhildsen Tackles totales",
+      "title": "Ola Brynhildsen Tackles totales"
+    },
+    {
+      "qa": "market-type-id-599",
+      "selections": [],
+      "text": "Ole Blomberg Tackles totales",
+      "title": "Ole Blomberg Tackles totales"
+    },
+    {
+      "qa": "market-type-id-599",
+      "selections": [],
+      "text": "Jens Petter Hauge Tackles totales",
+      "title": "Jens Petter Hauge Tackles totales"
+    },
+    {
+      "qa": "market-type-id-599",
+      "selections": [],
+      "text": "Joel Mvuka Tackles totales",
+      "title": "Joel Mvuka Tackles totales"
+    },
+    {
+      "qa": "market-type-id-599",
+      "selections": [],
+      "text": "Sondre Auklend Tackles totales",
+      "title": "Sondre Auklend Tackles totales"
+    },
+    {
+      "qa": "market-type-id-599",
+      "selections": [],
+      "text": "Patrick Berg Tackles totales",
+      "title": "Patrick Berg Tackles totales"
+    },
+    {
+      "qa": "market-type-id-599",
+      "selections": [],
+      "text": "Hakon Evjen Tackles totales",
+      "title": "Hakon Evjen Tackles totales"
+    },
+    {
+      "qa": "market-type-id-599",
+      "selections": [],
+      "text": "Sondre Fet Tackles totales",
+      "title": "Sondre Fet Tackles totales"
+    },
+    {
+      "qa": "market-type-id-599",
+      "selections": [],
+      "text": "Joshua Kitolano Tackles totales",
+      "title": "Joshua Kitolano Tackles totales"
+    },
+    {
+      "qa": "market-type-id-599",
+      "selections": [],
+      "text": "Ulrik Saltnes Tackles totales",
+      "title": "Ulrik Saltnes Tackles totales"
+    },
+    {
+      "qa": "market-type-id-599",
+      "selections": [],
+      "text": "Assan Sanyang Tackles totales",
+      "title": "Assan Sanyang Tackles totales"
+    },
+    {
+      "qa": "market-type-id-599",
+      "selections": [],
+      "text": "Fredrik Sjøvold Tackles totales",
+      "title": "Fredrik Sjøvold Tackles totales"
+    },
+    {
+      "qa": "market-type-id-599",
+      "selections": [],
+      "text": "Haitam Aleesami Tackles totales",
+      "title": "Haitam Aleesami Tackles totales"
+    },
+    {
+      "qa": "market-type-id-599",
+      "selections": [],
+      "text": "Fredrik Andre Bjorkan Tackles totales",
+      "title": "Fredrik Andre Bjorkan Tackles totales"
+    },
+    {
+      "qa": "market-type-id-599",
+      "selections": [],
+      "text": "Odin Bjørtuft Tackles totales",
+      "title": "Odin Bjørtuft Tackles totales"
+    },
+    {
+      "qa": "market-type-id-599",
+      "selections": [],
+      "text": "Isak Dybvik Maatta Tackles totales",
+      "title": "Isak Dybvik Maatta Tackles totales"
+    },
+    {
+      "qa": "market-type-id-599",
+      "selections": [],
+      "text": "Jostein Gundersen Tackles totales",
+      "title": "Jostein Gundersen Tackles totales"
+    },
+    {
+      "qa": "market-type-id-599",
+      "selections": [],
+      "text": "Villads Nielsen Tackles totales",
+      "title": "Villads Nielsen Tackles totales"
+    },
+    {
+      "qa": "market-type-id-599",
+      "selections": [],
+      "text": "Kasper Johansen Solhaug Tackles totales",
+      "title": "Kasper Johansen Solhaug Tackles totales"
+    },
+    {
+      "qa": "market-type-id-599",
+      "selections": [],
+      "text": "Andreas Helmersen Tackles totales",
+      "title": "Andreas Helmersen Tackles totales"
+    },
+    {
+      "qa": "market-type-id-599",
+      "selections": [],
+      "text": "Hindrin Najah Chooly Tackles totales",
+      "title": "Hindrin Najah Chooly Tackles totales"
+    },
+    {
+      "qa": "market-type-id-599",
+      "selections": [],
+      "text": "Mathias Blix Olsen Tackles totales",
+      "title": "Mathias Blix Olsen Tackles totales"
+    },
+    {
+      "qa": "market-type-id-599",
+      "selections": [],
+      "text": "Matias Jaiteh Tackles totales",
+      "title": "Matias Jaiteh Tackles totales"
+    },
+    {
+      "qa": "market-type-id-599",
+      "selections": [],
+      "text": "August Mikkelsen Tackles totales",
+      "title": "August Mikkelsen Tackles totales"
+    },
+    {
+      "qa": "market-type-id-599",
+      "selections": [],
+      "text": "Magnus Bech Riisnaes Tackles totales",
+      "title": "Magnus Bech Riisnaes Tackles totales"
+    },
+    {
+      "qa": "market-type-id-1000681",
+      "selections": [],
+      "text": "Rasmus Hojlund Tiros Al Arco - Primer Tiempo",
+      "title": "Rasmus Hojlund Tiros Al Arco - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000681",
+      "selections": [],
+      "text": "Noa Lang Tiros Al Arco - Primer Tiempo",
+      "title": "Noa Lang Tiros Al Arco - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000681",
+      "selections": [],
+      "text": "Lorenzo Lucca Tiros Al Arco - Primer Tiempo",
+      "title": "Lorenzo Lucca Tiros Al Arco - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000681",
+      "selections": [],
+      "text": "Kevin De Bruyne Tiros Al Arco - Primer Tiempo",
+      "title": "Kevin De Bruyne Tiros Al Arco - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000681",
+      "selections": [],
+      "text": "Billy Gilmour Tiros Al Arco - Primer Tiempo",
+      "title": "Billy Gilmour Tiros Al Arco - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000681",
+      "selections": [],
+      "text": "Stanislav Lobotka Tiros Al Arco - Primer Tiempo",
+      "title": "Stanislav Lobotka Tiros Al Arco - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000681",
+      "selections": [],
+      "text": "Matteo Politano Tiros Al Arco - Primer Tiempo",
+      "title": "Matteo Politano Tiros Al Arco - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000681",
+      "selections": [],
+      "text": "Frank Anguissa Tiros Al Arco - Primer Tiempo",
+      "title": "Frank Anguissa Tiros Al Arco - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000681",
+      "selections": [],
+      "text": "Benoît Badiashile Tiros Al Arco - Primer Tiempo",
+      "title": "Benoît Badiashile Tiros Al Arco - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000681",
+      "selections": [],
+      "text": "Sam Beukema Tiros Al Arco - Primer Tiempo",
+      "title": "Sam Beukema Tiros Al Arco - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000681",
+      "selections": [],
+      "text": "Giovanni Di Lorenzo Tiros Al Arco - Primer Tiempo",
+      "title": "Giovanni Di Lorenzo Tiros Al Arco - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000681",
+      "selections": [],
+      "text": "Luca Marianucci Tiros Al Arco - Primer Tiempo",
+      "title": "Luca Marianucci Tiros Al Arco - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000681",
+      "selections": [],
+      "text": "Rafa Marín Tiros Al Arco - Primer Tiempo",
+      "title": "Rafa Marín Tiros Al Arco - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000681",
+      "selections": [],
+      "text": "Mathías Olivera Tiros Al Arco - Primer Tiempo",
+      "title": "Mathías Olivera Tiros Al Arco - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000681",
+      "selections": [],
+      "text": "Amir Rrahmani Tiros Al Arco - Primer Tiempo",
+      "title": "Amir Rrahmani Tiros Al Arco - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000681",
+      "selections": [],
+      "text": "Leonardo Spinazzola Tiros Al Arco - Primer Tiempo",
+      "title": "Leonardo Spinazzola Tiros Al Arco - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000681",
+      "selections": [],
+      "text": "Alisson Santos Tiros Al Arco - Primer Tiempo",
+      "title": "Alisson Santos Tiros Al Arco - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000681",
+      "selections": [],
+      "text": "Milton Pereyra Tiros Al Arco - Primer Tiempo",
+      "title": "Milton Pereyra Tiros Al Arco - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000681",
+      "selections": [],
+      "text": "Costantino Favasuli Tiros Al Arco - Primer Tiempo",
+      "title": "Costantino Favasuli Tiros Al Arco - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000681",
+      "selections": [],
+      "text": "David Neres Tiros Al Arco - Primer Tiempo",
+      "title": "David Neres Tiros Al Arco - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000681",
+      "selections": [],
+      "text": "Antonio Vergara Tiros Al Arco - Primer Tiempo",
+      "title": "Antonio Vergara Tiros Al Arco - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000681",
+      "selections": [],
+      "text": "Christian Garofalo Tiros Al Arco - Primer Tiempo",
+      "title": "Christian Garofalo Tiros Al Arco - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000681",
+      "selections": [],
+      "text": "Jose Rodrigues Tiros Al Arco - Primer Tiempo",
+      "title": "Jose Rodrigues Tiros Al Arco - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000681",
+      "selections": [],
+      "text": "Ola Brynhildsen Tiros Al Arco - Primer Tiempo",
+      "title": "Ola Brynhildsen Tiros Al Arco - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000681",
+      "selections": [],
+      "text": "Ole Blomberg Tiros Al Arco - Primer Tiempo",
+      "title": "Ole Blomberg Tiros Al Arco - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000681",
+      "selections": [],
+      "text": "Jens Petter Hauge Tiros Al Arco - Primer Tiempo",
+      "title": "Jens Petter Hauge Tiros Al Arco - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000681",
+      "selections": [],
+      "text": "Joel Mvuka Tiros Al Arco - Primer Tiempo",
+      "title": "Joel Mvuka Tiros Al Arco - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000681",
+      "selections": [],
+      "text": "Sondre Auklend Tiros Al Arco - Primer Tiempo",
+      "title": "Sondre Auklend Tiros Al Arco - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000681",
+      "selections": [],
+      "text": "Patrick Berg Tiros Al Arco - Primer Tiempo",
+      "title": "Patrick Berg Tiros Al Arco - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000681",
+      "selections": [],
+      "text": "Hakon Evjen Tiros Al Arco - Primer Tiempo",
+      "title": "Hakon Evjen Tiros Al Arco - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000681",
+      "selections": [],
+      "text": "Sondre Fet Tiros Al Arco - Primer Tiempo",
+      "title": "Sondre Fet Tiros Al Arco - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000681",
+      "selections": [],
+      "text": "Joshua Kitolano Tiros Al Arco - Primer Tiempo",
+      "title": "Joshua Kitolano Tiros Al Arco - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000681",
+      "selections": [],
+      "text": "Ulrik Saltnes Tiros Al Arco - Primer Tiempo",
+      "title": "Ulrik Saltnes Tiros Al Arco - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000681",
+      "selections": [],
+      "text": "Assan Sanyang Tiros Al Arco - Primer Tiempo",
+      "title": "Assan Sanyang Tiros Al Arco - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000681",
+      "selections": [],
+      "text": "Fredrik Sjøvold Tiros Al Arco - Primer Tiempo",
+      "title": "Fredrik Sjøvold Tiros Al Arco - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000681",
+      "selections": [],
+      "text": "Haitam Aleesami Tiros Al Arco - Primer Tiempo",
+      "title": "Haitam Aleesami Tiros Al Arco - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000681",
+      "selections": [],
+      "text": "Fredrik Andre Bjorkan Tiros Al Arco - Primer Tiempo",
+      "title": "Fredrik Andre Bjorkan Tiros Al Arco - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000681",
+      "selections": [],
+      "text": "Odin Bjørtuft Tiros Al Arco - Primer Tiempo",
+      "title": "Odin Bjørtuft Tiros Al Arco - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000681",
+      "selections": [],
+      "text": "Isak Dybvik Maatta Tiros Al Arco - Primer Tiempo",
+      "title": "Isak Dybvik Maatta Tiros Al Arco - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000681",
+      "selections": [],
+      "text": "Jostein Gundersen Tiros Al Arco - Primer Tiempo",
+      "title": "Jostein Gundersen Tiros Al Arco - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000681",
+      "selections": [],
+      "text": "Villads Nielsen Tiros Al Arco - Primer Tiempo",
+      "title": "Villads Nielsen Tiros Al Arco - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000681",
+      "selections": [],
+      "text": "Kasper Johansen Solhaug Tiros Al Arco - Primer Tiempo",
+      "title": "Kasper Johansen Solhaug Tiros Al Arco - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000681",
+      "selections": [],
+      "text": "Andreas Helmersen Tiros Al Arco - Primer Tiempo",
+      "title": "Andreas Helmersen Tiros Al Arco - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000681",
+      "selections": [],
+      "text": "Hindrin Najah Chooly Tiros Al Arco - Primer Tiempo",
+      "title": "Hindrin Najah Chooly Tiros Al Arco - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000681",
+      "selections": [],
+      "text": "Mathias Blix Olsen Tiros Al Arco - Primer Tiempo",
+      "title": "Mathias Blix Olsen Tiros Al Arco - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000681",
+      "selections": [],
+      "text": "Matias Jaiteh Tiros Al Arco - Primer Tiempo",
+      "title": "Matias Jaiteh Tiros Al Arco - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000681",
+      "selections": [],
+      "text": "August Mikkelsen Tiros Al Arco - Primer Tiempo",
+      "title": "August Mikkelsen Tiros Al Arco - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000681",
+      "selections": [],
+      "text": "Magnus Bech Riisnaes Tiros Al Arco - Primer Tiempo",
+      "title": "Magnus Bech Riisnaes Tiros Al Arco - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000680",
+      "selections": [],
+      "text": "Rasmus Hojlund Remates totales - Primer Tiempo",
+      "title": "Rasmus Hojlund Remates totales - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000680",
+      "selections": [],
+      "text": "Noa Lang Remates totales - Primer Tiempo",
+      "title": "Noa Lang Remates totales - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000680",
+      "selections": [],
+      "text": "Lorenzo Lucca Remates totales - Primer Tiempo",
+      "title": "Lorenzo Lucca Remates totales - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000680",
+      "selections": [],
+      "text": "Kevin De Bruyne Remates totales - Primer Tiempo",
+      "title": "Kevin De Bruyne Remates totales - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000680",
+      "selections": [],
+      "text": "Billy Gilmour Remates totales - Primer Tiempo",
+      "title": "Billy Gilmour Remates totales - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000680",
+      "selections": [],
+      "text": "Stanislav Lobotka Remates totales - Primer Tiempo",
+      "title": "Stanislav Lobotka Remates totales - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000680",
+      "selections": [],
+      "text": "Matteo Politano Remates totales - Primer Tiempo",
+      "title": "Matteo Politano Remates totales - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000680",
+      "selections": [],
+      "text": "Frank Anguissa Remates totales - Primer Tiempo",
+      "title": "Frank Anguissa Remates totales - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000680",
+      "selections": [],
+      "text": "Benoît Badiashile Remates totales - Primer Tiempo",
+      "title": "Benoît Badiashile Remates totales - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000680",
+      "selections": [],
+      "text": "Sam Beukema Remates totales - Primer Tiempo",
+      "title": "Sam Beukema Remates totales - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000680",
+      "selections": [],
+      "text": "Giovanni Di Lorenzo Remates totales - Primer Tiempo",
+      "title": "Giovanni Di Lorenzo Remates totales - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000680",
+      "selections": [],
+      "text": "Luca Marianucci Remates totales - Primer Tiempo",
+      "title": "Luca Marianucci Remates totales - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000680",
+      "selections": [],
+      "text": "Rafa Marín Remates totales - Primer Tiempo",
+      "title": "Rafa Marín Remates totales - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000680",
+      "selections": [],
+      "text": "Mathías Olivera Remates totales - Primer Tiempo",
+      "title": "Mathías Olivera Remates totales - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000680",
+      "selections": [],
+      "text": "Amir Rrahmani Remates totales - Primer Tiempo",
+      "title": "Amir Rrahmani Remates totales - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000680",
+      "selections": [],
+      "text": "Leonardo Spinazzola Remates totales - Primer Tiempo",
+      "title": "Leonardo Spinazzola Remates totales - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000680",
+      "selections": [],
+      "text": "Alisson Santos Remates totales - Primer Tiempo",
+      "title": "Alisson Santos Remates totales - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000680",
+      "selections": [],
+      "text": "Milton Pereyra Remates totales - Primer Tiempo",
+      "title": "Milton Pereyra Remates totales - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000680",
+      "selections": [],
+      "text": "Costantino Favasuli Remates totales - Primer Tiempo",
+      "title": "Costantino Favasuli Remates totales - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000680",
+      "selections": [],
+      "text": "David Neres Remates totales - Primer Tiempo",
+      "title": "David Neres Remates totales - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000680",
+      "selections": [],
+      "text": "Antonio Vergara Remates totales - Primer Tiempo",
+      "title": "Antonio Vergara Remates totales - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000680",
+      "selections": [],
+      "text": "Christian Garofalo Remates totales - Primer Tiempo",
+      "title": "Christian Garofalo Remates totales - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000680",
+      "selections": [],
+      "text": "Jose Rodrigues Remates totales - Primer Tiempo",
+      "title": "Jose Rodrigues Remates totales - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000680",
+      "selections": [],
+      "text": "Ola Brynhildsen Remates totales - Primer Tiempo",
+      "title": "Ola Brynhildsen Remates totales - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000680",
+      "selections": [],
+      "text": "Ole Blomberg Remates totales - Primer Tiempo",
+      "title": "Ole Blomberg Remates totales - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000680",
+      "selections": [],
+      "text": "Jens Petter Hauge Remates totales - Primer Tiempo",
+      "title": "Jens Petter Hauge Remates totales - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000680",
+      "selections": [],
+      "text": "Joel Mvuka Remates totales - Primer Tiempo",
+      "title": "Joel Mvuka Remates totales - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000680",
+      "selections": [],
+      "text": "Sondre Auklend Remates totales - Primer Tiempo",
+      "title": "Sondre Auklend Remates totales - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000680",
+      "selections": [],
+      "text": "Patrick Berg Remates totales - Primer Tiempo",
+      "title": "Patrick Berg Remates totales - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000680",
+      "selections": [],
+      "text": "Hakon Evjen Remates totales - Primer Tiempo",
+      "title": "Hakon Evjen Remates totales - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000680",
+      "selections": [],
+      "text": "Sondre Fet Remates totales - Primer Tiempo",
+      "title": "Sondre Fet Remates totales - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000680",
+      "selections": [],
+      "text": "Joshua Kitolano Remates totales - Primer Tiempo",
+      "title": "Joshua Kitolano Remates totales - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000680",
+      "selections": [],
+      "text": "Ulrik Saltnes Remates totales - Primer Tiempo",
+      "title": "Ulrik Saltnes Remates totales - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000680",
+      "selections": [],
+      "text": "Assan Sanyang Remates totales - Primer Tiempo",
+      "title": "Assan Sanyang Remates totales - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000680",
+      "selections": [],
+      "text": "Fredrik Sjøvold Remates totales - Primer Tiempo",
+      "title": "Fredrik Sjøvold Remates totales - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000680",
+      "selections": [],
+      "text": "Haitam Aleesami Remates totales - Primer Tiempo",
+      "title": "Haitam Aleesami Remates totales - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000680",
+      "selections": [],
+      "text": "Fredrik Andre Bjorkan Remates totales - Primer Tiempo",
+      "title": "Fredrik Andre Bjorkan Remates totales - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000680",
+      "selections": [],
+      "text": "Odin Bjørtuft Remates totales - Primer Tiempo",
+      "title": "Odin Bjørtuft Remates totales - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000680",
+      "selections": [],
+      "text": "Isak Dybvik Maatta Remates totales - Primer Tiempo",
+      "title": "Isak Dybvik Maatta Remates totales - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000680",
+      "selections": [],
+      "text": "Jostein Gundersen Remates totales - Primer Tiempo",
+      "title": "Jostein Gundersen Remates totales - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000680",
+      "selections": [],
+      "text": "Villads Nielsen Remates totales - Primer Tiempo",
+      "title": "Villads Nielsen Remates totales - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000680",
+      "selections": [],
+      "text": "Kasper Johansen Solhaug Remates totales - Primer Tiempo",
+      "title": "Kasper Johansen Solhaug Remates totales - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000680",
+      "selections": [],
+      "text": "Andreas Helmersen Remates totales - Primer Tiempo",
+      "title": "Andreas Helmersen Remates totales - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000680",
+      "selections": [],
+      "text": "Hindrin Najah Chooly Remates totales - Primer Tiempo",
+      "title": "Hindrin Najah Chooly Remates totales - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000680",
+      "selections": [],
+      "text": "Mathias Blix Olsen Remates totales - Primer Tiempo",
+      "title": "Mathias Blix Olsen Remates totales - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000680",
+      "selections": [],
+      "text": "Matias Jaiteh Remates totales - Primer Tiempo",
+      "title": "Matias Jaiteh Remates totales - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000680",
+      "selections": [],
+      "text": "August Mikkelsen Remates totales - Primer Tiempo",
+      "title": "August Mikkelsen Remates totales - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000680",
+      "selections": [],
+      "text": "Magnus Bech Riisnaes Remates totales - Primer Tiempo",
+      "title": "Magnus Bech Riisnaes Remates totales - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000676",
+      "selections": [],
+      "text": "Rasmus Hojlund Fueras de juego",
+      "title": "Rasmus Hojlund Fueras de juego"
+    },
+    {
+      "qa": "market-type-id-1000676",
+      "selections": [],
+      "text": "Noa Lang Fueras de juego",
+      "title": "Noa Lang Fueras de juego"
+    },
+    {
+      "qa": "market-type-id-1000676",
+      "selections": [],
+      "text": "Lorenzo Lucca Fueras de juego",
+      "title": "Lorenzo Lucca Fueras de juego"
+    },
+    {
+      "qa": "market-type-id-1000676",
+      "selections": [],
+      "text": "Kevin De Bruyne Fueras de juego",
+      "title": "Kevin De Bruyne Fueras de juego"
+    },
+    {
+      "qa": "market-type-id-1000676",
+      "selections": [],
+      "text": "Matteo Politano Fueras de juego",
+      "title": "Matteo Politano Fueras de juego"
+    },
+    {
+      "qa": "market-type-id-1000676",
+      "selections": [],
+      "text": "Frank Anguissa Fueras de juego",
+      "title": "Frank Anguissa Fueras de juego"
+    },
+    {
+      "qa": "market-type-id-1000676",
+      "selections": [],
+      "text": "Giovanni Di Lorenzo Fueras de juego",
+      "title": "Giovanni Di Lorenzo Fueras de juego"
+    },
+    {
+      "qa": "market-type-id-1000676",
+      "selections": [],
+      "text": "Mathías Olivera Fueras de juego",
+      "title": "Mathías Olivera Fueras de juego"
+    },
+    {
+      "qa": "market-type-id-1000676",
+      "selections": [],
+      "text": "Leonardo Spinazzola Fueras de juego",
+      "title": "Leonardo Spinazzola Fueras de juego"
+    },
+    {
+      "qa": "market-type-id-1000676",
+      "selections": [],
+      "text": "Alisson Santos Fueras de juego",
+      "title": "Alisson Santos Fueras de juego"
+    },
+    {
+      "qa": "market-type-id-1000676",
+      "selections": [],
+      "text": "Milton Pereyra Fueras de juego",
+      "title": "Milton Pereyra Fueras de juego"
+    },
+    {
+      "qa": "market-type-id-1000676",
+      "selections": [],
+      "text": "David Neres Fueras de juego",
+      "title": "David Neres Fueras de juego"
+    },
+    {
+      "qa": "market-type-id-1000676",
+      "selections": [],
+      "text": "Antonio Vergara Fueras de juego",
+      "title": "Antonio Vergara Fueras de juego"
+    },
+    {
+      "qa": "market-type-id-1000676",
+      "selections": [],
+      "text": "Jose Rodrigues Fueras de juego",
+      "title": "Jose Rodrigues Fueras de juego"
+    },
+    {
+      "qa": "market-type-id-1000676",
+      "selections": [],
+      "text": "Ola Brynhildsen Fueras de juego",
+      "title": "Ola Brynhildsen Fueras de juego"
+    },
+    {
+      "qa": "market-type-id-1000676",
+      "selections": [],
+      "text": "Ole Blomberg Fueras de juego",
+      "title": "Ole Blomberg Fueras de juego"
+    },
+    {
+      "qa": "market-type-id-1000676",
+      "selections": [],
+      "text": "Jens Petter Hauge Fueras de juego",
+      "title": "Jens Petter Hauge Fueras de juego"
+    },
+    {
+      "qa": "market-type-id-1000676",
+      "selections": [],
+      "text": "Joel Mvuka Fueras de juego",
+      "title": "Joel Mvuka Fueras de juego"
+    },
+    {
+      "qa": "market-type-id-1000676",
+      "selections": [],
+      "text": "Patrick Berg Fueras de juego",
+      "title": "Patrick Berg Fueras de juego"
+    },
+    {
+      "qa": "market-type-id-1000676",
+      "selections": [],
+      "text": "Fredrik Andre Bjorkan Fueras de juego",
+      "title": "Fredrik Andre Bjorkan Fueras de juego"
+    },
+    {
+      "qa": "market-type-id-1000676",
+      "selections": [],
+      "text": "Isak Dybvik Maatta Fueras de juego",
+      "title": "Isak Dybvik Maatta Fueras de juego"
+    },
+    {
+      "qa": "market-type-id-1000676",
+      "selections": [],
+      "text": "Andreas Helmersen Fueras de juego",
+      "title": "Andreas Helmersen Fueras de juego"
+    },
+    {
+      "qa": "market-type-id-1000676",
+      "selections": [],
+      "text": "Hindrin Najah Chooly Fueras de juego",
+      "title": "Hindrin Najah Chooly Fueras de juego"
+    },
+    {
+      "qa": "market-type-id-1000676",
+      "selections": [],
+      "text": "August Mikkelsen Fueras de juego",
+      "title": "August Mikkelsen Fueras de juego"
+    },
+    {
+      "qa": "market-type-id-347",
+      "selections": [],
+      "text": "Anota desde fuera del área",
+      "title": "Anota desde fuera del área"
+    },
+    {
+      "qa": "market-type-id-77",
+      "selections": [],
+      "text": "Anotar en cualquier momento - Primer Tiempo",
+      "title": "Anotar en cualquier momento - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-1000679",
+      "selections": [],
+      "text": "Rasmus Hojlund Faltas cometidas",
+      "title": "Rasmus Hojlund Faltas cometidas"
+    },
+    {
+      "qa": "market-type-id-1000679",
+      "selections": [],
+      "text": "Noa Lang Faltas cometidas",
+      "title": "Noa Lang Faltas cometidas"
+    },
+    {
+      "qa": "market-type-id-1000679",
+      "selections": [],
+      "text": "Lorenzo Lucca Faltas cometidas",
+      "title": "Lorenzo Lucca Faltas cometidas"
+    },
+    {
+      "qa": "market-type-id-1000679",
+      "selections": [],
+      "text": "Kevin De Bruyne Faltas cometidas",
+      "title": "Kevin De Bruyne Faltas cometidas"
+    },
+    {
+      "qa": "market-type-id-1000679",
+      "selections": [],
+      "text": "Billy Gilmour Faltas cometidas",
+      "title": "Billy Gilmour Faltas cometidas"
+    },
+    {
+      "qa": "market-type-id-1000679",
+      "selections": [],
+      "text": "Stanislav Lobotka Faltas cometidas",
+      "title": "Stanislav Lobotka Faltas cometidas"
+    },
+    {
+      "qa": "market-type-id-1000679",
+      "selections": [],
+      "text": "Matteo Politano Faltas cometidas",
+      "title": "Matteo Politano Faltas cometidas"
+    },
+    {
+      "qa": "market-type-id-1000679",
+      "selections": [],
+      "text": "Frank Anguissa Faltas cometidas",
+      "title": "Frank Anguissa Faltas cometidas"
+    },
+    {
+      "qa": "market-type-id-1000679",
+      "selections": [],
+      "text": "Benoît Badiashile Faltas cometidas",
+      "title": "Benoît Badiashile Faltas cometidas"
+    },
+    {
+      "qa": "market-type-id-1000679",
+      "selections": [],
+      "text": "Sam Beukema Faltas cometidas",
+      "title": "Sam Beukema Faltas cometidas"
+    },
+    {
+      "qa": "market-type-id-1000679",
+      "selections": [],
+      "text": "Giovanni Di Lorenzo Faltas cometidas",
+      "title": "Giovanni Di Lorenzo Faltas cometidas"
+    },
+    {
+      "qa": "market-type-id-1000679",
+      "selections": [],
+      "text": "Luca Marianucci Faltas cometidas",
+      "title": "Luca Marianucci Faltas cometidas"
+    },
+    {
+      "qa": "market-type-id-1000679",
+      "selections": [],
+      "text": "Rafa Marín Faltas cometidas",
+      "title": "Rafa Marín Faltas cometidas"
+    },
+    {
+      "qa": "market-type-id-1000679",
+      "selections": [],
+      "text": "Mathías Olivera Faltas cometidas",
+      "title": "Mathías Olivera Faltas cometidas"
+    },
+    {
+      "qa": "market-type-id-1000679",
+      "selections": [],
+      "text": "Amir Rrahmani Faltas cometidas",
+      "title": "Amir Rrahmani Faltas cometidas"
+    },
+    {
+      "qa": "market-type-id-1000679",
+      "selections": [],
+      "text": "Leonardo Spinazzola Faltas cometidas",
+      "title": "Leonardo Spinazzola Faltas cometidas"
+    },
+    {
+      "qa": "market-type-id-1000679",
+      "selections": [],
+      "text": "Alisson Santos Faltas cometidas",
+      "title": "Alisson Santos Faltas cometidas"
+    },
+    {
+      "qa": "market-type-id-1000679",
+      "selections": [],
+      "text": "Milton Pereyra Faltas cometidas",
+      "title": "Milton Pereyra Faltas cometidas"
+    },
+    {
+      "qa": "market-type-id-1000679",
+      "selections": [],
+      "text": "Costantino Favasuli Faltas cometidas",
+      "title": "Costantino Favasuli Faltas cometidas"
+    },
+    {
+      "qa": "market-type-id-1000679",
+      "selections": [],
+      "text": "David Neres Faltas cometidas",
+      "title": "David Neres Faltas cometidas"
+    },
+    {
+      "qa": "market-type-id-1000679",
+      "selections": [],
+      "text": "Antonio Vergara Faltas cometidas",
+      "title": "Antonio Vergara Faltas cometidas"
+    },
+    {
+      "qa": "market-type-id-1000679",
+      "selections": [],
+      "text": "Christian Garofalo Faltas cometidas",
+      "title": "Christian Garofalo Faltas cometidas"
+    },
+    {
+      "qa": "market-type-id-1000679",
+      "selections": [],
+      "text": "Jose Rodrigues Faltas cometidas",
+      "title": "Jose Rodrigues Faltas cometidas"
+    },
+    {
+      "qa": "market-type-id-1000679",
+      "selections": [],
+      "text": "Ola Brynhildsen Faltas cometidas",
+      "title": "Ola Brynhildsen Faltas cometidas"
+    },
+    {
+      "qa": "market-type-id-1000679",
+      "selections": [],
+      "text": "Ole Blomberg Faltas cometidas",
+      "title": "Ole Blomberg Faltas cometidas"
+    },
+    {
+      "qa": "market-type-id-1000679",
+      "selections": [],
+      "text": "Jens Petter Hauge Faltas cometidas",
+      "title": "Jens Petter Hauge Faltas cometidas"
+    },
+    {
+      "qa": "market-type-id-1000679",
+      "selections": [],
+      "text": "Joel Mvuka Faltas cometidas",
+      "title": "Joel Mvuka Faltas cometidas"
+    },
+    {
+      "qa": "market-type-id-1000679",
+      "selections": [],
+      "text": "Sondre Auklend Faltas cometidas",
+      "title": "Sondre Auklend Faltas cometidas"
+    },
+    {
+      "qa": "market-type-id-1000679",
+      "selections": [],
+      "text": "Patrick Berg Faltas cometidas",
+      "title": "Patrick Berg Faltas cometidas"
+    },
+    {
+      "qa": "market-type-id-1000679",
+      "selections": [],
+      "text": "Hakon Evjen Faltas cometidas",
+      "title": "Hakon Evjen Faltas cometidas"
+    },
+    {
+      "qa": "market-type-id-1000679",
+      "selections": [],
+      "text": "Sondre Fet Faltas cometidas",
+      "title": "Sondre Fet Faltas cometidas"
+    },
+    {
+      "qa": "market-type-id-1000679",
+      "selections": [],
+      "text": "Joshua Kitolano Faltas cometidas",
+      "title": "Joshua Kitolano Faltas cometidas"
+    },
+    {
+      "qa": "market-type-id-1000679",
+      "selections": [],
+      "text": "Ulrik Saltnes Faltas cometidas",
+      "title": "Ulrik Saltnes Faltas cometidas"
+    },
+    {
+      "qa": "market-type-id-1000679",
+      "selections": [],
+      "text": "Assan Sanyang Faltas cometidas",
+      "title": "Assan Sanyang Faltas cometidas"
+    },
+    {
+      "qa": "market-type-id-1000679",
+      "selections": [],
+      "text": "Fredrik Sjøvold Faltas cometidas",
+      "title": "Fredrik Sjøvold Faltas cometidas"
+    },
+    {
+      "qa": "market-type-id-1000679",
+      "selections": [],
+      "text": "Haitam Aleesami Faltas cometidas",
+      "title": "Haitam Aleesami Faltas cometidas"
+    },
+    {
+      "qa": "market-type-id-1000679",
+      "selections": [],
+      "text": "Fredrik Andre Bjorkan Faltas cometidas",
+      "title": "Fredrik Andre Bjorkan Faltas cometidas"
+    },
+    {
+      "qa": "market-type-id-1000679",
+      "selections": [],
+      "text": "Odin Bjørtuft Faltas cometidas",
+      "title": "Odin Bjørtuft Faltas cometidas"
+    },
+    {
+      "qa": "market-type-id-1000679",
+      "selections": [],
+      "text": "Isak Dybvik Maatta Faltas cometidas",
+      "title": "Isak Dybvik Maatta Faltas cometidas"
+    },
+    {
+      "qa": "market-type-id-1000679",
+      "selections": [],
+      "text": "Jostein Gundersen Faltas cometidas",
+      "title": "Jostein Gundersen Faltas cometidas"
+    },
+    {
+      "qa": "market-type-id-1000679",
+      "selections": [],
+      "text": "Villads Nielsen Faltas cometidas",
+      "title": "Villads Nielsen Faltas cometidas"
+    },
+    {
+      "qa": "market-type-id-1000679",
+      "selections": [],
+      "text": "Kasper Johansen Solhaug Faltas cometidas",
+      "title": "Kasper Johansen Solhaug Faltas cometidas"
+    },
+    {
+      "qa": "market-type-id-1000679",
+      "selections": [],
+      "text": "Andreas Helmersen Faltas cometidas",
+      "title": "Andreas Helmersen Faltas cometidas"
+    },
+    {
+      "qa": "market-type-id-1000679",
+      "selections": [],
+      "text": "Hindrin Najah Chooly Faltas cometidas",
+      "title": "Hindrin Najah Chooly Faltas cometidas"
+    },
+    {
+      "qa": "market-type-id-1000679",
+      "selections": [],
+      "text": "Mathias Blix Olsen Faltas cometidas",
+      "title": "Mathias Blix Olsen Faltas cometidas"
+    },
+    {
+      "qa": "market-type-id-1000679",
+      "selections": [],
+      "text": "Matias Jaiteh Faltas cometidas",
+      "title": "Matias Jaiteh Faltas cometidas"
+    },
+    {
+      "qa": "market-type-id-1000679",
+      "selections": [],
+      "text": "August Mikkelsen Faltas cometidas",
+      "title": "August Mikkelsen Faltas cometidas"
+    },
+    {
+      "qa": "market-type-id-1000679",
+      "selections": [],
+      "text": "Magnus Bech Riisnaes Faltas cometidas",
+      "title": "Magnus Bech Riisnaes Faltas cometidas"
+    },
+    {
+      "qa": "market-type-id-1000678",
+      "selections": [],
+      "text": "Rasmus Hojlund Faltas ganadas",
+      "title": "Rasmus Hojlund Faltas ganadas"
+    },
+    {
+      "qa": "market-type-id-1000678",
+      "selections": [],
+      "text": "Noa Lang Faltas ganadas",
+      "title": "Noa Lang Faltas ganadas"
+    },
+    {
+      "qa": "market-type-id-1000678",
+      "selections": [],
+      "text": "Lorenzo Lucca Faltas ganadas",
+      "title": "Lorenzo Lucca Faltas ganadas"
+    },
+    {
+      "qa": "market-type-id-1000678",
+      "selections": [],
+      "text": "Kevin De Bruyne Faltas ganadas",
+      "title": "Kevin De Bruyne Faltas ganadas"
+    },
+    {
+      "qa": "market-type-id-1000678",
+      "selections": [],
+      "text": "Billy Gilmour Faltas ganadas",
+      "title": "Billy Gilmour Faltas ganadas"
+    },
+    {
+      "qa": "market-type-id-1000678",
+      "selections": [],
+      "text": "Stanislav Lobotka Faltas ganadas",
+      "title": "Stanislav Lobotka Faltas ganadas"
+    },
+    {
+      "qa": "market-type-id-1000678",
+      "selections": [],
+      "text": "Matteo Politano Faltas ganadas",
+      "title": "Matteo Politano Faltas ganadas"
+    },
+    {
+      "qa": "market-type-id-1000678",
+      "selections": [],
+      "text": "Frank Anguissa Faltas ganadas",
+      "title": "Frank Anguissa Faltas ganadas"
+    },
+    {
+      "qa": "market-type-id-1000678",
+      "selections": [],
+      "text": "Benoît Badiashile Faltas ganadas",
+      "title": "Benoît Badiashile Faltas ganadas"
+    },
+    {
+      "qa": "market-type-id-1000678",
+      "selections": [],
+      "text": "Sam Beukema Faltas ganadas",
+      "title": "Sam Beukema Faltas ganadas"
+    },
+    {
+      "qa": "market-type-id-1000678",
+      "selections": [],
+      "text": "Giovanni Di Lorenzo Faltas ganadas",
+      "title": "Giovanni Di Lorenzo Faltas ganadas"
+    },
+    {
+      "qa": "market-type-id-1000678",
+      "selections": [],
+      "text": "Luca Marianucci Faltas ganadas",
+      "title": "Luca Marianucci Faltas ganadas"
+    },
+    {
+      "qa": "market-type-id-1000678",
+      "selections": [],
+      "text": "Rafa Marín Faltas ganadas",
+      "title": "Rafa Marín Faltas ganadas"
+    },
+    {
+      "qa": "market-type-id-1000678",
+      "selections": [],
+      "text": "Mathías Olivera Faltas ganadas",
+      "title": "Mathías Olivera Faltas ganadas"
+    },
+    {
+      "qa": "market-type-id-1000678",
+      "selections": [],
+      "text": "Amir Rrahmani Faltas ganadas",
+      "title": "Amir Rrahmani Faltas ganadas"
+    },
+    {
+      "qa": "market-type-id-1000678",
+      "selections": [],
+      "text": "Leonardo Spinazzola Faltas ganadas",
+      "title": "Leonardo Spinazzola Faltas ganadas"
+    },
+    {
+      "qa": "market-type-id-1000678",
+      "selections": [],
+      "text": "Alisson Santos Faltas ganadas",
+      "title": "Alisson Santos Faltas ganadas"
+    },
+    {
+      "qa": "market-type-id-1000678",
+      "selections": [],
+      "text": "Milton Pereyra Faltas ganadas",
+      "title": "Milton Pereyra Faltas ganadas"
+    },
+    {
+      "qa": "market-type-id-1000678",
+      "selections": [],
+      "text": "Costantino Favasuli Faltas ganadas",
+      "title": "Costantino Favasuli Faltas ganadas"
+    },
+    {
+      "qa": "market-type-id-1000678",
+      "selections": [],
+      "text": "David Neres Faltas ganadas",
+      "title": "David Neres Faltas ganadas"
+    },
+    {
+      "qa": "market-type-id-1000678",
+      "selections": [],
+      "text": "Antonio Vergara Faltas ganadas",
+      "title": "Antonio Vergara Faltas ganadas"
+    },
+    {
+      "qa": "market-type-id-1000678",
+      "selections": [],
+      "text": "Christian Garofalo Faltas ganadas",
+      "title": "Christian Garofalo Faltas ganadas"
+    },
+    {
+      "qa": "market-type-id-1000678",
+      "selections": [],
+      "text": "Jose Rodrigues Faltas ganadas",
+      "title": "Jose Rodrigues Faltas ganadas"
+    },
+    {
+      "qa": "market-type-id-1000678",
+      "selections": [],
+      "text": "Ola Brynhildsen Faltas ganadas",
+      "title": "Ola Brynhildsen Faltas ganadas"
+    },
+    {
+      "qa": "market-type-id-1000678",
+      "selections": [],
+      "text": "Ole Blomberg Faltas ganadas",
+      "title": "Ole Blomberg Faltas ganadas"
+    },
+    {
+      "qa": "market-type-id-1000678",
+      "selections": [],
+      "text": "Jens Petter Hauge Faltas ganadas",
+      "title": "Jens Petter Hauge Faltas ganadas"
+    },
+    {
+      "qa": "market-type-id-1000678",
+      "selections": [],
+      "text": "Joel Mvuka Faltas ganadas",
+      "title": "Joel Mvuka Faltas ganadas"
+    },
+    {
+      "qa": "market-type-id-1000678",
+      "selections": [],
+      "text": "Sondre Auklend Faltas ganadas",
+      "title": "Sondre Auklend Faltas ganadas"
+    },
+    {
+      "qa": "market-type-id-1000678",
+      "selections": [],
+      "text": "Patrick Berg Faltas ganadas",
+      "title": "Patrick Berg Faltas ganadas"
+    },
+    {
+      "qa": "market-type-id-1000678",
+      "selections": [],
+      "text": "Hakon Evjen Faltas ganadas",
+      "title": "Hakon Evjen Faltas ganadas"
+    },
+    {
+      "qa": "market-type-id-1000678",
+      "selections": [],
+      "text": "Sondre Fet Faltas ganadas",
+      "title": "Sondre Fet Faltas ganadas"
+    },
+    {
+      "qa": "market-type-id-1000678",
+      "selections": [],
+      "text": "Joshua Kitolano Faltas ganadas",
+      "title": "Joshua Kitolano Faltas ganadas"
+    },
+    {
+      "qa": "market-type-id-1000678",
+      "selections": [],
+      "text": "Ulrik Saltnes Faltas ganadas",
+      "title": "Ulrik Saltnes Faltas ganadas"
+    },
+    {
+      "qa": "market-type-id-1000678",
+      "selections": [],
+      "text": "Assan Sanyang Faltas ganadas",
+      "title": "Assan Sanyang Faltas ganadas"
+    },
+    {
+      "qa": "market-type-id-1000678",
+      "selections": [],
+      "text": "Fredrik Sjøvold Faltas ganadas",
+      "title": "Fredrik Sjøvold Faltas ganadas"
+    },
+    {
+      "qa": "market-type-id-1000678",
+      "selections": [],
+      "text": "Haitam Aleesami Faltas ganadas",
+      "title": "Haitam Aleesami Faltas ganadas"
+    },
+    {
+      "qa": "market-type-id-1000678",
+      "selections": [],
+      "text": "Fredrik Andre Bjorkan Faltas ganadas",
+      "title": "Fredrik Andre Bjorkan Faltas ganadas"
+    },
+    {
+      "qa": "market-type-id-1000678",
+      "selections": [],
+      "text": "Odin Bjørtuft Faltas ganadas",
+      "title": "Odin Bjørtuft Faltas ganadas"
+    },
+    {
+      "qa": "market-type-id-1000678",
+      "selections": [],
+      "text": "Isak Dybvik Maatta Faltas ganadas",
+      "title": "Isak Dybvik Maatta Faltas ganadas"
+    },
+    {
+      "qa": "market-type-id-1000678",
+      "selections": [],
+      "text": "Jostein Gundersen Faltas ganadas",
+      "title": "Jostein Gundersen Faltas ganadas"
+    },
+    {
+      "qa": "market-type-id-1000678",
+      "selections": [],
+      "text": "Villads Nielsen Faltas ganadas",
+      "title": "Villads Nielsen Faltas ganadas"
+    },
+    {
+      "qa": "market-type-id-1000678",
+      "selections": [],
+      "text": "Kasper Johansen Solhaug Faltas ganadas",
+      "title": "Kasper Johansen Solhaug Faltas ganadas"
+    },
+    {
+      "qa": "market-type-id-1000678",
+      "selections": [],
+      "text": "Andreas Helmersen Faltas ganadas",
+      "title": "Andreas Helmersen Faltas ganadas"
+    },
+    {
+      "qa": "market-type-id-1000678",
+      "selections": [],
+      "text": "Hindrin Najah Chooly Faltas ganadas",
+      "title": "Hindrin Najah Chooly Faltas ganadas"
+    },
+    {
+      "qa": "market-type-id-1000678",
+      "selections": [],
+      "text": "Mathias Blix Olsen Faltas ganadas",
+      "title": "Mathias Blix Olsen Faltas ganadas"
+    },
+    {
+      "qa": "market-type-id-1000678",
+      "selections": [],
+      "text": "Matias Jaiteh Faltas ganadas",
+      "title": "Matias Jaiteh Faltas ganadas"
+    },
+    {
+      "qa": "market-type-id-1000678",
+      "selections": [],
+      "text": "August Mikkelsen Faltas ganadas",
+      "title": "August Mikkelsen Faltas ganadas"
+    },
+    {
+      "qa": "market-type-id-1000678",
+      "selections": [],
+      "text": "Magnus Bech Riisnaes Faltas ganadas",
+      "title": "Magnus Bech Riisnaes Faltas ganadas"
+    },
+    {
+      "qa": "market-type-id-83",
+      "selections": [],
+      "text": "El jugador marca en ambos tiempos",
+      "title": "El jugador marca en ambos tiempos"
+    },
+    {
+      "qa": "market-type-id-542",
+      "selections": [],
+      "text": "El jugador golpea al palo",
+      "title": "El jugador golpea al palo"
+    },
+    {
+      "qa": "market-type-id-342",
+      "selections": [],
+      "text": "Anota de cabezazo",
+      "title": "Anota de cabezazo"
+    },
+    {
+      "qa": "market-type-id-5306",
+      "selections": [],
+      "text": "Primer goleador del equipo local",
+      "title": "Primer goleador del equipo local"
+    },
+    {
+      "qa": "market-type-id-5307",
+      "selections": [],
+      "text": "Primer goleador del equipo visitante",
+      "title": "Primer goleador del equipo visitante"
+    },
+    {
+      "qa": "market-type-id-33",
+      "selections": [],
+      "text": "Córners - Triple",
+      "title": "Córners - Triple"
+    },
+    {
+      "qa": "market-type-id-48",
+      "selections": [],
+      "text": "Córners cronometrados Más/Menos (00:00 - 09:59)",
+      "title": "Córners cronometrados Más/Menos (00:00 - 09:59)"
+    },
+    {
+      "qa": "market-type-id-48",
+      "selections": [],
+      "text": "Córners cronometrados Más/Menos (00:00 - 09:59)",
+      "title": "Córners cronometrados Más/Menos (00:00 - 09:59)"
+    },
+    {
+      "qa": "market-type-id-5016",
+      "selections": [],
+      "text": "SSC Napoli Córners cronometrados Más/Menos (00:00 - 09:59)",
+      "title": "SSC Napoli Córners cronometrados Más/Menos (00:00 - 09:59)"
+    },
+    {
+      "qa": "market-type-id-5017",
+      "selections": [],
+      "text": "FK Bodo/Glimt Córners cronometrados Más/Menos (00:00 - 09:59)",
+      "title": "FK Bodo/Glimt Córners cronometrados Más/Menos (00:00 - 09:59)"
+    },
+    {
+      "qa": "market-type-id-45",
+      "selections": [],
+      "text": "Primer Tiempo Equipo con más Córners",
+      "title": "Primer Tiempo Equipo con más Córners"
+    },
+    {
+      "qa": "market-type-id-41",
+      "selections": [],
+      "text": "Primer Tiempo SSC Napoli Más/Menos Córners",
+      "title": "Primer Tiempo SSC Napoli Más/Menos Córners"
+    },
+    {
+      "qa": "market-type-id-42",
+      "selections": [],
+      "text": "Primer Tiempo FK Bodo/Glimt Más/Menos Córners",
+      "title": "Primer Tiempo FK Bodo/Glimt Más/Menos Córners"
+    },
+    {
+      "qa": "market-type-id-36",
+      "selections": [],
+      "text": "Córners del Primer Tiempo - Triples",
+      "title": "Córners del Primer Tiempo - Triples"
+    },
+    {
+      "qa": "market-type-id-38",
+      "selections": [],
+      "text": "Córners en Segundo Tiempo Más/Menos",
+      "title": "Córners en Segundo Tiempo Más/Menos"
+    },
+    {
+      "qa": "market-type-id-44",
+      "selections": [],
+      "text": "Equipo con más Córners",
+      "title": "Equipo con más Córners"
+    },
+    {
+      "qa": "market-type-id-46",
+      "selections": [],
+      "text": "Carrera a X córners",
+      "title": "Carrera a X córners"
+    },
+    {
+      "qa": "market-type-id-32",
+      "selections": [],
+      "text": "Equipo del siguiente córner (Córner 1)",
+      "title": "Equipo del siguiente córner (Córner 1)"
+    },
+    {
+      "qa": "market-type-id-1000617",
+      "selections": [],
+      "text": "Asiático (Más/Menos) Total de Córners",
+      "title": "Asiático (Más/Menos) Total de Córners"
+    },
+    {
+      "qa": "market-type-id-1000619",
+      "selections": [],
+      "text": "Asiático (Más/Menos) - Córners Totales en el Primer Tiempo",
+      "title": "Asiático (Más/Menos) - Córners Totales en el Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-43",
+      "selections": [],
+      "text": "Hándicap de Córners - (2 bandas)",
+      "title": "Hándicap de Córners - (2 bandas)"
+    },
+    {
+      "qa": "market-type-id-201",
+      "selections": [],
+      "text": "Hándicap de Córners - Triples",
+      "title": "Hándicap de Córners - Triples"
+    },
+    {
+      "qa": "market-type-id-271",
+      "selections": [],
+      "text": "Tiempo con Más Córners",
+      "title": "Tiempo con Más Córners"
+    },
+    {
+      "qa": "market-type-id-35",
+      "selections": [],
+      "text": "Total de Córners",
+      "title": "Total de Córners"
+    },
+    {
+      "qa": "market-type-id-4017",
+      "selections": [],
+      "text": "Rangos de Córner",
+      "title": "Rangos de Córner"
+    },
+    {
+      "qa": "market-type-id-4015",
+      "selections": [],
+      "text": "Córners Marcador Correcto",
+      "title": "Córners Marcador Correcto"
+    },
+    {
+      "qa": "market-type-id-68",
+      "selections": [],
+      "text": "SSC Napoli Tarjetas Totales Más/Menos",
+      "title": "SSC Napoli Tarjetas Totales Más/Menos"
+    },
+    {
+      "qa": "market-type-id-69",
+      "selections": [],
+      "text": "FK Bodo/Glimt Tarjetas Totales Más/Menos",
+      "title": "FK Bodo/Glimt Tarjetas Totales Más/Menos"
+    },
+    {
+      "qa": "market-type-id-67",
+      "selections": [],
+      "text": "Hándicap - Tarjetas",
+      "title": "Hándicap - Tarjetas"
+    },
+    {
+      "qa": "market-type-id-168",
+      "selections": [],
+      "text": "Equipo con más tarjetas",
+      "title": "Equipo con más tarjetas"
+    },
+    {
+      "qa": "market-type-id-51",
+      "selections": [],
+      "text": "SSC Napoli Tarjeta roja",
+      "title": "SSC Napoli Tarjeta roja"
+    },
+    {
+      "qa": "market-type-id-52",
+      "selections": [],
+      "text": "FK Bodo/Glimt Tarjeta roja",
+      "title": "FK Bodo/Glimt Tarjeta roja"
+    },
+    {
+      "qa": "market-type-id-70",
+      "selections": [],
+      "text": "Primera tarjeta antes de 33:00",
+      "title": "Primera tarjeta antes de 33:00"
+    },
+    {
+      "qa": "market-type-id-64",
+      "selections": [],
+      "text": "Equipo que Recibe la Próxima Amonestación 1",
+      "title": "Equipo que Recibe la Próxima Amonestación 1"
+    },
+    {
+      "qa": "market-type-id-4155",
+      "selections": [],
+      "text": "SSC Napoli Total de Tarjetas en el Primer Tiempo (Más/Menos)",
+      "title": "SSC Napoli Total de Tarjetas en el Primer Tiempo (Más/Menos)"
+    },
+    {
+      "qa": "market-type-id-4156",
+      "selections": [],
+      "text": "FK Bodo/Glimt Total de Tarjetas en el Primer Tiempo (Más/Menos)",
+      "title": "FK Bodo/Glimt Total de Tarjetas en el Primer Tiempo (Más/Menos)"
+    },
+    {
+      "qa": "market-type-id-4022",
+      "selections": [],
+      "text": "Carrera a X Tarjetas",
+      "title": "Carrera a X Tarjetas"
+    },
+    {
+      "qa": "market-type-id-5014",
+      "selections": [],
+      "text": "Tarjeta mostrada en ambos tiempos",
+      "title": "Tarjeta mostrada en ambos tiempos"
+    },
+    {
+      "qa": "market-type-id-4024",
+      "selections": [],
+      "text": "Ambos equipos reciben una tarjeta en ambos tiempos",
+      "title": "Ambos equipos reciben una tarjeta en ambos tiempos"
+    },
+    {
+      "qa": "market-type-id-4157",
+      "selections": [],
+      "text": "SSC Napoli Segundo Tiempo Tarjetas Totales Mas/Menos",
+      "title": "SSC Napoli Segundo Tiempo Tarjetas Totales Mas/Menos"
+    },
+    {
+      "qa": "market-type-id-4158",
+      "selections": [],
+      "text": "FK Bodo/Glimt Segundo Tiempo Tarjetas Totales Mas/Menos",
+      "title": "FK Bodo/Glimt Segundo Tiempo Tarjetas Totales Mas/Menos"
+    },
+    {
+      "qa": "market-type-id-1000618",
+      "selections": [],
+      "text": "Asiático (Más/Menos) Tarjetas totales",
+      "title": "Asiático (Más/Menos) Tarjetas totales"
+    },
+    {
+      "qa": "market-type-id-1000620",
+      "selections": [],
+      "text": "Asiático (Más/Menos) - Total de Tarjetas en la Primera Mitad",
+      "title": "Asiático (Más/Menos) - Total de Tarjetas en la Primera Mitad"
+    },
+    {
+      "qa": "market-type-id-53",
+      "selections": [],
+      "text": "Tarjeta roja Primer Tiempo",
+      "title": "Tarjeta roja Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-55",
+      "selections": [],
+      "text": "Tarjeta roja y Penal concedido",
+      "title": "Tarjeta roja y Penal concedido"
+    },
+    {
+      "qa": "market-type-id-3965",
+      "selections": [],
+      "text": "Tarjeta roja o Penal concedido",
+      "title": "Tarjeta roja o Penal concedido"
+    },
+    {
+      "qa": "market-type-id-50",
+      "selections": [],
+      "text": "Tarjeta Roja Directa",
+      "title": "Tarjeta Roja Directa"
+    },
+    {
+      "qa": "market-type-id-586",
+      "selections": [],
+      "text": "Próximo equipo en recibir la tarjeta roja",
+      "title": "Próximo equipo en recibir la tarjeta roja"
+    },
+    {
+      "qa": "market-type-id-293",
+      "selections": [],
+      "text": "Tarjeta cronometrada (Más/Menos) (00:00 - 09:59)",
+      "title": "Tarjeta cronometrada (Más/Menos) (00:00 - 09:59)"
+    },
+    {
+      "qa": "market-type-id-2781",
+      "selections": [],
+      "text": "SSC Napoli Puntos de Tarjetas en 1er Tiempo",
+      "title": "SSC Napoli Puntos de Tarjetas en 1er Tiempo"
+    },
+    {
+      "qa": "market-type-id-2782",
+      "selections": [],
+      "text": "FK Bodo/Glimt Puntos de Tarjetas en 1er Tiempo",
+      "title": "FK Bodo/Glimt Puntos de Tarjetas en 1er Tiempo"
+    },
+    {
+      "qa": "market-type-id-71",
+      "selections": [],
+      "text": "Último equipo con tarjeta",
+      "title": "Último equipo con tarjeta"
+    },
+    {
+      "qa": "market-type-id-4023",
+      "selections": [],
+      "text": "Rangos de Tarjetas",
+      "title": "Rangos de Tarjetas"
+    },
+    {
+      "qa": "market-type-id-4021",
+      "selections": [],
+      "text": "Tarjetas de medio tiempo/tiempo completo",
+      "title": "Tarjetas de medio tiempo/tiempo completo"
+    },
+    {
+      "qa": "market-type-id-4020",
+      "selections": [],
+      "text": "Tarjetas Marcador Correcto",
+      "title": "Tarjetas Marcador Correcto"
+    },
+    {
+      "qa": "market-type-id-4160",
+      "selections": [
+        {
+          "aria": "Bet on Más de 16.5 with odds 1.7.",
+          "text": "Más de\n16.5\n1.70"
+        },
+        {
+          "aria": "Bet on Menos 16.5 with odds 2.07.",
+          "text": "Menos\n16.5\n2.07"
+        },
+        {
+          "aria": "Bet on Más de 17.5 with odds 2.02.",
+          "text": "Más de\n17.5\n2.02"
+        },
+        {
+          "aria": "Bet on Menos 17.5 with odds 1.75.",
+          "text": "Menos\n17.5\n1.75"
+        },
+        {
+          "aria": "Bet on Más de 18.5 with odds 2.45.",
+          "text": "Más de\n18.5\n2.45"
+        },
+        {
+          "aria": "Bet on Menos 18.5 with odds 1.5.",
+          "text": "Menos\n18.5\n1.50"
+        }
+      ],
+      "text": "SSC Napoli Remates totales\nMás de\n16.5\n1.70\nMenos\n16.5\n2.07\nMás de\n17.5\n2.02\nMenos\n17.5\n1.75\nMás de\n18.5\n2.45\nMenos\n18.5\n1.50",
+      "title": "SSC Napoli Remates totales"
+    },
+    {
+      "qa": "market-type-id-4161",
+      "selections": [
+        {
+          "aria": "Bet on Más de 9.5 with odds 1.52.",
+          "text": "Más de\n9.5\n1.52"
+        },
+        {
+          "aria": "Bet on Menos 9.5 with odds 2.45.",
+          "text": "Menos\n9.5\n2.45"
+        },
+        {
+          "aria": "Bet on Más de 10.5 with odds 1.83.",
+          "text": "Más de\n10.5\n1.83"
+        },
+        {
+          "aria": "Bet on Menos 10.5 with odds 1.9.",
+          "text": "Menos\n10.5\n1.90"
+        },
+        {
+          "aria": "Bet on Más de 11.5 with odds 2.32.",
+          "text": "Más de\n11.5\n2.32"
+        },
+        {
+          "aria": "Bet on Menos 11.5 with odds 1.57.",
+          "text": "Menos\n11.5\n1.57"
+        }
+      ],
+      "text": "FK Bodo/Glimt Remates totales\nMás de\n9.5\n1.52\nMenos\n9.5\n2.45\nMás de\n10.5\n1.83\nMenos\n10.5\n1.90\nMás de\n11.5\n2.32\nMenos\n11.5\n1.57",
+      "title": "FK Bodo/Glimt Remates totales"
+    },
+    {
+      "qa": "market-type-id-5344",
+      "selections": [],
+      "text": "Rangos de Tiros al Arco",
+      "title": "Rangos de Tiros al Arco"
+    },
+    {
+      "qa": "market-type-id-4629",
+      "selections": [
+        {
+          "aria": "Bet on Más de 21.5 with odds 1.8.",
+          "text": "Más de\n21.5\n1.80"
+        },
+        {
+          "aria": "Bet on Menos 21.5 with odds 1.95.",
+          "text": "Menos\n21.5\n1.95"
+        }
+      ],
+      "text": "Total de Faltas Cometidas\nMás de\n21.5\n1.80\nMenos\n21.5\n1.95",
+      "title": "Total de Faltas Cometidas"
+    },
+    {
+      "qa": "market-type-id-536",
+      "selections": [
+        {
+          "aria": "Bet on Más de 11.5 with odds 1.83.",
+          "text": "Más de\n11.5\n1.83"
+        },
+        {
+          "aria": "Bet on Menos 11.5 with odds 1.9.",
+          "text": "Menos\n11.5\n1.90"
+        }
+      ],
+      "text": "SSC Napoli Total de Faltas Cometidas\nMás de\n11.5\n1.83\nMenos\n11.5\n1.90",
+      "title": "SSC Napoli Total de Faltas Cometidas"
+    },
+    {
+      "qa": "market-type-id-493",
+      "selections": [
+        {
+          "aria": "Bet on Más de 10.5 with odds 2.07.",
+          "text": "Más de\n10.5\n2.07"
+        },
+        {
+          "aria": "Bet on Menos 10.5 with odds 1.7.",
+          "text": "Menos\n10.5\n1.70"
+        }
+      ],
+      "text": "FK Bodo/Glimt Total de Faltas Cometidas\nMás de\n10.5\n2.07\nMenos\n10.5\n1.70",
+      "title": "FK Bodo/Glimt Total de Faltas Cometidas"
+    },
+    {
+      "qa": "market-type-id-351",
+      "selections": [],
+      "text": "Total de Offsides",
+      "title": "Total de Offsides"
+    },
+    {
+      "qa": "market-type-id-436",
+      "selections": [],
+      "text": "SSC Napoli Total de Offsides",
+      "title": "SSC Napoli Total de Offsides"
+    },
+    {
+      "qa": "market-type-id-437",
+      "selections": [],
+      "text": "FK Bodo/Glimt Total de Offsides",
+      "title": "FK Bodo/Glimt Total de Offsides"
+    },
+    {
+      "qa": "market-type-id-457",
+      "selections": [],
+      "text": "Palo",
+      "title": "Palo"
+    },
+    {
+      "qa": "market-type-id-4115",
+      "selections": [],
+      "text": "Hándicap - Tiros al Arco 2-Way",
+      "title": "Hándicap - Tiros al Arco 2-Way"
+    },
+    {
+      "qa": "market-type-id-4108",
+      "selections": [],
+      "text": "Primer Tiempo Tiros al Arco",
+      "title": "Primer Tiempo Tiros al Arco"
+    },
+    {
+      "qa": "market-type-id-643",
+      "selections": [],
+      "text": "Total de Saques de meta",
+      "title": "Total de Saques de meta"
+    },
+    {
+      "qa": "market-type-id-4165",
+      "selections": [],
+      "text": "SSC Napoli Total de Saques de meta",
+      "title": "SSC Napoli Total de Saques de meta"
+    },
+    {
+      "qa": "market-type-id-4166",
+      "selections": [],
+      "text": "FK Bodo/Glimt Total de Saques de meta",
+      "title": "FK Bodo/Glimt Total de Saques de meta"
+    },
+    {
+      "qa": "market-type-id-460",
+      "selections": [],
+      "text": "Total de Saques de banda",
+      "title": "Total de Saques de banda"
+    },
+    {
+      "qa": "market-type-id-4167",
+      "selections": [],
+      "text": "SSC Napoli Total de Saques de banda",
+      "title": "SSC Napoli Total de Saques de banda"
+    },
+    {
+      "qa": "market-type-id-4168",
+      "selections": [],
+      "text": "FK Bodo/Glimt Total de Saques de banda",
+      "title": "FK Bodo/Glimt Total de Saques de banda"
+    },
+    {
+      "qa": "market-type-id-439",
+      "selections": [],
+      "text": "Total de pases",
+      "title": "Total de pases"
+    },
+    {
+      "qa": "market-type-id-1000113",
+      "selections": [],
+      "text": "SSC Napoli Total de pases",
+      "title": "SSC Napoli Total de pases"
+    },
+    {
+      "qa": "market-type-id-1000114",
+      "selections": [],
+      "text": "FK Bodo/Glimt Total de pases",
+      "title": "FK Bodo/Glimt Total de pases"
+    },
+    {
+      "qa": "market-type-id-644",
+      "selections": [],
+      "text": "Tackles totales",
+      "title": "Tackles totales"
+    },
+    {
+      "qa": "market-type-id-1000111",
+      "selections": [],
+      "text": "SSC Napoli Tackles totales",
+      "title": "SSC Napoli Tackles totales"
+    },
+    {
+      "qa": "market-type-id-1000112",
+      "selections": [],
+      "text": "FK Bodo/Glimt Tackles totales",
+      "title": "FK Bodo/Glimt Tackles totales"
+    },
+    {
+      "qa": "market-type-id-4114",
+      "selections": [],
+      "text": "Hándicap - Total de Offsides",
+      "title": "Hándicap - Total de Offsides"
+    },
+    {
+      "qa": "market-type-id-4111",
+      "selections": [],
+      "text": "Hándicap - Total de Saques de meta",
+      "title": "Hándicap - Total de Saques de meta"
+    },
+    {
+      "qa": "market-type-id-4104",
+      "selections": [],
+      "text": "Primer Tiempo Total de Saques de meta",
+      "title": "Primer Tiempo Total de Saques de meta"
+    },
+    {
+      "qa": "market-type-id-4113",
+      "selections": [],
+      "text": "Hándicap - Total de Saques de banda",
+      "title": "Hándicap - Total de Saques de banda"
+    },
+    {
+      "qa": "market-type-id-4106",
+      "selections": [],
+      "text": "Primer Tiempo Total de Saques de banda",
+      "title": "Primer Tiempo Total de Saques de banda"
+    },
+    {
+      "qa": "market-type-id-583",
+      "selections": [],
+      "text": "Primer Remate a portería",
+      "title": "Primer Remate a portería"
+    },
+    {
+      "qa": "market-type-id-627",
+      "selections": [],
+      "text": "Primer Offside",
+      "title": "Primer Offside"
+    },
+    {
+      "qa": "market-type-id-625",
+      "selections": [],
+      "text": "Primer Saque de meta",
+      "title": "Primer Saque de meta"
+    },
+    {
+      "qa": "market-type-id-355",
+      "selections": [],
+      "text": "Primer Saque de banda",
+      "title": "Primer Saque de banda"
+    },
+    {
+      "qa": "market-type-id-113",
+      "selections": [],
+      "text": "Primer Tiempo - Doble Oportunidad",
+      "title": "Primer Tiempo - Doble Oportunidad"
+    },
+    {
+      "qa": "market-type-id-407",
+      "selections": [],
+      "text": "Hándicap Primer Tiempo",
+      "title": "Hándicap Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-144",
+      "selections": [],
+      "text": "Gana cualquiera de los tiempos",
+      "title": "Gana cualquiera de los tiempos"
+    },
+    {
+      "qa": "market-type-id-92",
+      "selections": [],
+      "text": "Resultado Primer tiempo o Tiempo Completo",
+      "title": "Resultado Primer tiempo o Tiempo Completo"
+    },
+    {
+      "qa": "market-type-id-93",
+      "selections": [],
+      "text": "Primer Tiempo/Tiempo Completo - Doble oportunidad",
+      "title": "Primer Tiempo/Tiempo Completo - Doble oportunidad"
+    },
+    {
+      "qa": "market-type-id-12",
+      "selections": [],
+      "text": "Próximo gol en Primer Tiempo (Gol 1)",
+      "title": "Próximo gol en Primer Tiempo (Gol 1)"
+    },
+    {
+      "qa": "market-type-id-114",
+      "selections": [],
+      "text": "Ambos Equipos Anotan en el Primer Tiempo",
+      "title": "Ambos Equipos Anotan en el Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-118",
+      "selections": [],
+      "text": "Marcador correcto en el primer tiempo",
+      "title": "Marcador correcto en el primer tiempo"
+    },
+    {
+      "qa": "market-type-id-112",
+      "selections": [],
+      "text": "Apuesta sin Empate Medio Tiempo",
+      "title": "Apuesta sin Empate Medio Tiempo"
+    },
+    {
+      "qa": "market-type-id-141",
+      "selections": [],
+      "text": "Gol anotado en ambos tiempos",
+      "title": "Gol anotado en ambos tiempos"
+    },
+    {
+      "qa": "market-type-id-138",
+      "selections": [],
+      "text": "Ambos Equipos Anotan en el Primer Tiempo/Segundo Tiempo",
+      "title": "Ambos Equipos Anotan en el Primer Tiempo/Segundo Tiempo"
+    },
+    {
+      "qa": "market-type-id-107",
+      "selections": [],
+      "text": "Tiempo con Más Goles",
+      "title": "Tiempo con Más Goles"
+    },
+    {
+      "qa": "market-type-id-434",
+      "selections": [],
+      "text": "SSC Napoli Gana Ambos Tiempos",
+      "title": "SSC Napoli Gana Ambos Tiempos"
+    },
+    {
+      "qa": "market-type-id-431",
+      "selections": [],
+      "text": "FK Bodo/Glimt Gana Ambos Tiempos",
+      "title": "FK Bodo/Glimt Gana Ambos Tiempos"
+    },
+    {
+      "qa": "market-type-id-133",
+      "selections": [],
+      "text": "Resultado Segundo Tiempo",
+      "title": "Resultado Segundo Tiempo"
+    },
+    {
+      "qa": "market-type-id-134",
+      "selections": [],
+      "text": "Segundo Tiempo - Doble Oportunidad",
+      "title": "Segundo Tiempo - Doble Oportunidad"
+    },
+    {
+      "qa": "market-type-id-137",
+      "selections": [],
+      "text": "Ambos equipos anotan en el Segundo Tiempo",
+      "title": "Ambos equipos anotan en el Segundo Tiempo"
+    },
+    {
+      "qa": "market-type-id-120",
+      "selections": [],
+      "text": "Primer Tiempo SSC Napoli Total de Goles Exactos",
+      "title": "Primer Tiempo SSC Napoli Total de Goles Exactos"
+    },
+    {
+      "qa": "market-type-id-121",
+      "selections": [],
+      "text": "Primer Tiempo FK Bodo/Glimt Total de Goles Exactos",
+      "title": "Primer Tiempo FK Bodo/Glimt Total de Goles Exactos"
+    },
+    {
+      "qa": "market-type-id-4049",
+      "selections": [],
+      "text": "Segundo Tiempo - Más/Menos Total de Goles SSC Napoli",
+      "title": "Segundo Tiempo - Más/Menos Total de Goles SSC Napoli"
+    },
+    {
+      "qa": "market-type-id-4050",
+      "selections": [],
+      "text": "Segundo Tiempo - Más/Menos Total de Goles FK Bodo/Glimt",
+      "title": "Segundo Tiempo - Más/Menos Total de Goles FK Bodo/Glimt"
+    },
+    {
+      "qa": "market-type-id-110",
+      "selections": [],
+      "text": "Total de goles en el Primer Tiempo",
+      "title": "Total de goles en el Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-4684",
+      "selections": [],
+      "text": "Rango de Total de goles Primer Tiempo",
+      "title": "Rango de Total de goles Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-574",
+      "selections": [],
+      "text": "Medio Tiempo/Tiempo Completo y Más/Menos Goles",
+      "title": "Medio Tiempo/Tiempo Completo y Más/Menos Goles"
+    },
+    {
+      "qa": "market-type-id-574",
+      "selections": [],
+      "text": "Medio Tiempo/Tiempo Completo y Más/Menos Goles",
+      "title": "Medio Tiempo/Tiempo Completo y Más/Menos Goles"
+    },
+    {
+      "qa": "market-type-id-574",
+      "selections": [],
+      "text": "Medio Tiempo/Tiempo Completo y Más/Menos Goles",
+      "title": "Medio Tiempo/Tiempo Completo y Más/Menos Goles"
+    },
+    {
+      "qa": "market-type-id-24",
+      "selections": [],
+      "text": "Resultado del partido con Más/Menos (1.5)",
+      "title": "Resultado del partido con Más/Menos (1.5)"
+    },
+    {
+      "qa": "market-type-id-24",
+      "selections": [],
+      "text": "Resultado del partido con Más/Menos (2.5)",
+      "title": "Resultado del partido con Más/Menos (2.5)"
+    },
+    {
+      "qa": "market-type-id-24",
+      "selections": [],
+      "text": "Resultado del partido con Más/Menos (3.5)",
+      "title": "Resultado del partido con Más/Menos (3.5)"
+    },
+    {
+      "qa": "market-type-id-24",
+      "selections": [],
+      "text": "Resultado del partido con Más/Menos (4.5)",
+      "title": "Resultado del partido con Más/Menos (4.5)"
+    },
+    {
+      "qa": "market-type-id-24",
+      "selections": [],
+      "text": "Resultado del partido con Más/Menos (5.5)",
+      "title": "Resultado del partido con Más/Menos (5.5)"
+    },
+    {
+      "qa": "market-type-id-26",
+      "selections": [],
+      "text": "Doble Oportunidad con Más/Menos (1.5)",
+      "title": "Doble Oportunidad con Más/Menos (1.5)"
+    },
+    {
+      "qa": "market-type-id-26",
+      "selections": [],
+      "text": "Doble Oportunidad con Más/Menos (2.5)",
+      "title": "Doble Oportunidad con Más/Menos (2.5)"
+    },
+    {
+      "qa": "market-type-id-26",
+      "selections": [],
+      "text": "Doble Oportunidad con Más/Menos (3.5)",
+      "title": "Doble Oportunidad con Más/Menos (3.5)"
+    },
+    {
+      "qa": "market-type-id-26",
+      "selections": [],
+      "text": "Doble Oportunidad con Más/Menos (4.5)",
+      "title": "Doble Oportunidad con Más/Menos (4.5)"
+    },
+    {
+      "qa": "market-type-id-26",
+      "selections": [],
+      "text": "Doble Oportunidad con Más/Menos (5.5)",
+      "title": "Doble Oportunidad con Más/Menos (5.5)"
+    },
+    {
+      "qa": "market-type-id-23",
+      "selections": [],
+      "text": "Ambos Anotan y Más/Menos (2.5)",
+      "title": "Ambos Anotan y Más/Menos (2.5)"
+    },
+    {
+      "qa": "market-type-id-23",
+      "selections": [],
+      "text": "Ambos Anotan y Más/Menos (3.5)",
+      "title": "Ambos Anotan y Más/Menos (3.5)"
+    },
+    {
+      "qa": "market-type-id-23",
+      "selections": [],
+      "text": "Ambos Anotan y Más/Menos (4.5)",
+      "title": "Ambos Anotan y Más/Menos (4.5)"
+    },
+    {
+      "qa": "market-type-id-23",
+      "selections": [],
+      "text": "Ambos Anotan y Más/Menos (5.5)",
+      "title": "Ambos Anotan y Más/Menos (5.5)"
+    },
+    {
+      "qa": "market-type-id-20",
+      "selections": [],
+      "text": "Resultado del partido / Ambos Equipos Anotan",
+      "title": "Resultado del partido / Ambos Equipos Anotan"
+    },
+    {
+      "qa": "market-type-id-25",
+      "selections": [],
+      "text": "Doble oportunidad / Ambos equipos anotan",
+      "title": "Doble oportunidad / Ambos equipos anotan"
+    },
+    {
+      "qa": "market-type-id-532",
+      "selections": [],
+      "text": "Qué ocurrirá primero en el partido - Primer Tiempo",
+      "title": "Qué ocurrirá primero en el partido - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-56",
+      "selections": [],
+      "text": "Penal concedido",
+      "title": "Penal concedido"
+    },
+    {
+      "qa": "market-type-id-124",
+      "selections": [],
+      "text": "Tiempo del Primer Gol Menos/Más 28 minutos",
+      "title": "Tiempo del Primer Gol Menos/Más 28 minutos"
+    },
+    {
+      "qa": "market-type-id-384",
+      "selections": [],
+      "text": "SSC Napoli anota en ambos tiempos",
+      "title": "SSC Napoli anota en ambos tiempos"
+    },
+    {
+      "qa": "market-type-id-364",
+      "selections": [],
+      "text": "FK Bodo/Glimt anota en ambos tiempos",
+      "title": "FK Bodo/Glimt anota en ambos tiempos"
+    },
+    {
+      "qa": "market-type-id-72",
+      "selections": [],
+      "text": "Autogol",
+      "title": "Autogol"
+    },
+    {
+      "qa": "market-type-id-96",
+      "selections": [],
+      "text": "Margen del Triunfo",
+      "title": "Margen del Triunfo"
+    },
+    {
+      "qa": "market-type-id-58",
+      "selections": [],
+      "text": "Penal concedido Primer Tiempo",
+      "title": "Penal concedido Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-59",
+      "selections": [],
+      "text": "Equipo que Anota un Penal",
+      "title": "Equipo que Anota un Penal"
+    },
+    {
+      "qa": "market-type-id-60",
+      "selections": [],
+      "text": "Equipo que falla un penal",
+      "title": "Equipo que falla un penal"
+    },
+    {
+      "qa": "market-type-id-5025",
+      "selections": [],
+      "text": "SSC Napoli Penal concedido",
+      "title": "SSC Napoli Penal concedido"
+    },
+    {
+      "qa": "market-type-id-5026",
+      "selections": [],
+      "text": "FK Bodo/Glimt Penal concedido",
+      "title": "FK Bodo/Glimt Penal concedido"
+    },
+    {
+      "qa": "market-type-id-57",
+      "selections": [],
+      "text": "Dos penales concedidos",
+      "title": "Dos penales concedidos"
+    },
+    {
+      "qa": "market-type-id-61",
+      "selections": [],
+      "text": "Ambos equipos ganan un penal",
+      "title": "Ambos equipos ganan un penal"
+    },
+    {
+      "qa": "market-type-id-102",
+      "selections": [],
+      "text": "Curso del juego",
+      "title": "Curso del juego"
+    },
+    {
+      "qa": "market-type-id-270",
+      "selections": [],
+      "text": "SSC Napoli Gana luego de ir perdiendo",
+      "title": "SSC Napoli Gana luego de ir perdiendo"
+    },
+    {
+      "qa": "market-type-id-196",
+      "selections": [],
+      "text": "FK Bodo/Glimt Gana luego de ir perdiendo",
+      "title": "FK Bodo/Glimt Gana luego de ir perdiendo"
+    },
+    {
+      "qa": "market-type-id-5015",
+      "selections": [],
+      "text": "Resultado del partido o Ambos equipos anotan",
+      "title": "Resultado del partido o Ambos equipos anotan"
+    },
+    {
+      "qa": "market-type-id-5249",
+      "selections": [],
+      "text": "Resultado del partido o Goles totales Más/Menos 2.5",
+      "title": "Resultado del partido o Goles totales Más/Menos 2.5"
+    },
+    {
+      "qa": "market-type-id-18",
+      "selections": [],
+      "text": "Marcador correcto (múltiple)",
+      "title": "Marcador correcto (múltiple)"
+    },
+    {
+      "qa": "market-type-id-19",
+      "selections": [],
+      "text": "Marcador Correcto - Sin Perder",
+      "title": "Marcador Correcto - Sin Perder"
+    },
+    {
+      "qa": "market-type-id-147",
+      "selections": [],
+      "text": "Marcador correcto Primer tiempo/Tiempo completo",
+      "title": "Marcador correcto Primer tiempo/Tiempo completo"
+    },
+    {
+      "qa": "market-type-id-185",
+      "selections": [],
+      "text": "Hándicap Asiático (Resultado actual 0 - 0)",
+      "title": "Hándicap Asiático (Resultado actual 0 - 0)"
+    },
+    {
+      "qa": "market-type-id-189",
+      "selections": [],
+      "text": "Asiático (Más/Menos) Total de goles",
+      "title": "Asiático (Más/Menos) Total de goles"
+    },
+    {
+      "qa": "market-type-id-186",
+      "selections": [],
+      "text": "Hándicap Asiático - Primer Tiempo (Resultado actual 0 - 0)",
+      "title": "Hándicap Asiático - Primer Tiempo (Resultado actual 0 - 0)"
+    },
+    {
+      "qa": "market-type-id-395",
+      "selections": [],
+      "text": "Asiático (Más/Menos) - Total de goles en el Primer Tiempo",
+      "title": "Asiático (Más/Menos) - Total de goles en el Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-122",
+      "selections": [],
+      "text": "Primer gol antes 24:00",
+      "title": "Primer gol antes 24:00"
+    },
+    {
+      "qa": "market-type-id-123",
+      "selections": [],
+      "text": "Gol anotado después del minuto 77:00",
+      "title": "Gol anotado después del minuto 77:00"
+    },
+    {
+      "qa": "market-type-id-125",
+      "selections": [],
+      "text": "Próximo gol antes de (Gol 1)",
+      "title": "Próximo gol antes de (Gol 1)"
+    },
+    {
+      "qa": "market-type-id-126",
+      "selections": [],
+      "text": "SSC Napoli Próximo gol antes de (Gol 1)",
+      "title": "SSC Napoli Próximo gol antes de (Gol 1)"
+    },
+    {
+      "qa": "market-type-id-127",
+      "selections": [],
+      "text": "FK Bodo/Glimt Próximo gol antes de (Gol 1)",
+      "title": "FK Bodo/Glimt Próximo gol antes de (Gol 1)"
+    },
+    {
+      "qa": "market-type-id-2934",
+      "selections": [],
+      "text": "Resultado por minuto 00:00 - 09:59",
+      "title": "Resultado por minuto 00:00 - 09:59"
+    },
+    {
+      "qa": "market-type-id-2934",
+      "selections": [],
+      "text": "Resultado por minuto 00:00 - 19:59",
+      "title": "Resultado por minuto 00:00 - 19:59"
+    },
+    {
+      "qa": "market-type-id-2934",
+      "selections": [],
+      "text": "Resultado por minuto 00:00 - 29:59",
+      "title": "Resultado por minuto 00:00 - 29:59"
+    },
+    {
+      "qa": "market-type-id-2934",
+      "selections": [],
+      "text": "Resultado por minuto 00:00 - 39:59",
+      "title": "Resultado por minuto 00:00 - 39:59"
+    },
+    {
+      "qa": "market-type-id-2934",
+      "selections": [],
+      "text": "Resultado por minuto 00:00 - 49:59",
+      "title": "Resultado por minuto 00:00 - 49:59"
+    },
+    {
+      "qa": "market-type-id-2934",
+      "selections": [],
+      "text": "Resultado por minuto 00:00 - 59:59",
+      "title": "Resultado por minuto 00:00 - 59:59"
+    },
+    {
+      "qa": "market-type-id-2934",
+      "selections": [],
+      "text": "Resultado por minuto 00:00 - 69:59",
+      "title": "Resultado por minuto 00:00 - 69:59"
+    },
+    {
+      "qa": "market-type-id-2934",
+      "selections": [],
+      "text": "Resultado por minuto 00:00 - 79:59",
+      "title": "Resultado por minuto 00:00 - 79:59"
+    },
+    {
+      "qa": "market-type-id-128",
+      "selections": [],
+      "text": "Rango de resultados por minuto (00:00 - 14:59)",
+      "title": "Rango de resultados por minuto (00:00 - 14:59)"
+    },
+    {
+      "qa": "market-type-id-128",
+      "selections": [],
+      "text": "Rango de resultados por minuto (15:00 - 29:59)",
+      "title": "Rango de resultados por minuto (15:00 - 29:59)"
+    },
+    {
+      "qa": "market-type-id-128",
+      "selections": [],
+      "text": "Rango de resultados por minuto (30:00 - 45:00)",
+      "title": "Rango de resultados por minuto (30:00 - 45:00)"
+    },
+    {
+      "qa": "market-type-id-128",
+      "selections": [],
+      "text": "Rango de resultados por minuto (45:00 - 59:59)",
+      "title": "Rango de resultados por minuto (45:00 - 59:59)"
+    },
+    {
+      "qa": "market-type-id-128",
+      "selections": [],
+      "text": "Rango de resultados por minuto (60:00 - 74:59)",
+      "title": "Rango de resultados por minuto (60:00 - 74:59)"
+    },
+    {
+      "qa": "market-type-id-128",
+      "selections": [],
+      "text": "Rango de resultados por minuto (75:00 - 90:00)",
+      "title": "Rango de resultados por minuto (75:00 - 90:00)"
+    },
+    {
+      "qa": "market-type-id-130",
+      "selections": [],
+      "text": "Goles cronometrados Más/Menos (00:00 - 14:59)",
+      "title": "Goles cronometrados Más/Menos (00:00 - 14:59)"
+    },
+    {
+      "qa": "market-type-id-130",
+      "selections": [],
+      "text": "Goles cronometrados Más/Menos (15:00 - 29:59)",
+      "title": "Goles cronometrados Más/Menos (15:00 - 29:59)"
+    },
+    {
+      "qa": "market-type-id-130",
+      "selections": [],
+      "text": "Goles cronometrados Más/Menos (30:00 - 45:00)",
+      "title": "Goles cronometrados Más/Menos (30:00 - 45:00)"
+    },
+    {
+      "qa": "market-type-id-130",
+      "selections": [],
+      "text": "Goles cronometrados Más/Menos (45:00 - 59:59)",
+      "title": "Goles cronometrados Más/Menos (45:00 - 59:59)"
+    },
+    {
+      "qa": "market-type-id-130",
+      "selections": [],
+      "text": "Goles cronometrados Más/Menos (60:00 - 74:59)",
+      "title": "Goles cronometrados Más/Menos (60:00 - 74:59)"
+    },
+    {
+      "qa": "market-type-id-27",
+      "selections": [],
+      "text": "Hora del próximo gol (Gol 1)",
+      "title": "Hora del próximo gol (Gol 1)"
+    },
+    {
+      "qa": "market-type-id-28",
+      "selections": [],
+      "text": "Hora del próximo gol SSC Napoli (Gol 1)",
+      "title": "Hora del próximo gol SSC Napoli (Gol 1)"
+    },
+    {
+      "qa": "market-type-id-29",
+      "selections": [],
+      "text": "Hora del próximo gol FK Bodo/Glimt (Gol 1)",
+      "title": "Hora del próximo gol FK Bodo/Glimt (Gol 1)"
+    },
+    {
+      "qa": "market-type-id-503",
+      "selections": [],
+      "text": "Total de Goles Exactos",
+      "title": "Total de Goles Exactos"
+    },
+    {
+      "qa": "market-type-id-34",
+      "selections": [
+        {
+          "aria": "Bet on Más de 8.5 with odds 1.47.",
+          "text": "Más de\n8.5\n1.47"
+        },
+        {
+          "aria": "Bet on Menos 8.5 with odds 2.55.",
+          "text": "Menos\n8.5\n2.55"
+        },
+        {
+          "aria": "Bet on Más de 9.5 with odds 1.82.",
+          "text": "Más de\n9.5\n1.82"
+        },
+        {
+          "aria": "Bet on Menos 9.5 with odds 1.93.",
+          "text": "Menos\n9.5\n1.93"
+        },
+        {
+          "aria": "Bet on Más de 10.5 with odds 2.35.",
+          "text": "Más de\n10.5\n2.35"
+        },
+        {
+          "aria": "Bet on Menos 10.5 with odds 1.55.",
+          "text": "Menos\n10.5\n1.55"
+        }
+      ],
+      "text": "Más/Menos Córners\nMás de\n8.5\n1.47\nMenos\n8.5\n2.55\nMás de\n9.5\n1.82\nMenos\n9.5\n1.93\nMás de\n10.5\n2.35\nMenos\n10.5\n1.55\nMOSTRAR TODO",
+      "title": "Más/Menos Córners"
+    },
+    {
+      "qa": "market-type-id-65",
+      "selections": [],
+      "text": "Tarjetas Totales Más/Menos",
+      "title": "Tarjetas Totales Más/Menos"
+    },
+    {
+      "qa": "market-type-id-13",
+      "selections": [
+        {
+          "aria": "Bet on Más de 2.5 with odds 1.47.",
+          "text": "Más de\n2.5\n1.47"
+        },
+        {
+          "aria": "Bet on Menos 2.5 with odds 2.67.",
+          "text": "Menos\n2.5\n2.67"
+        },
+        {
+          "aria": "Bet on Más de 3.5 with odds 2.15.",
+          "text": "Más de\n3.5\n2.15"
+        },
+        {
+          "aria": "Bet on Menos 3.5 with odds 1.7.",
+          "text": "Menos\n3.5\n1.70"
+        },
+        {
+          "aria": "Bet on Más de 4.5 with odds 3.55.",
+          "text": "Más de\n4.5\n3.55"
+        },
+        {
+          "aria": "Bet on Menos 4.5 with odds 1.3.",
+          "text": "Menos\n4.5\n1.30"
+        }
+      ],
+      "text": "Goles totales Más/Menos\nMás de\n2.5\n1.47\nMenos\n2.5\n2.67\nMás de\n3.5\n2.15\nMenos\n3.5\n1.70\nMás de\n4.5\n3.55\nMenos\n4.5\n1.30\nMOSTRAR TODO",
+      "title": "Goles totales Más/Menos"
+    },
+    {
+      "qa": "market-type-id-21",
+      "selections": [],
+      "text": "Gana el resto del Partido [0 - 0]",
+      "title": "Gana el resto del Partido [0 - 0]"
+    },
+    {
+      "qa": "market-type-id-47",
+      "selections": [],
+      "text": "Córners Impar/Par",
+      "title": "Córners Impar/Par"
+    },
+    {
+      "qa": "market-type-id-4016",
+      "selections": [],
+      "text": "Primer Tiempo/Tiempo Completo Córners",
+      "title": "Primer Tiempo/Tiempo Completo Córners"
+    },
+    {
+      "qa": "market-type-id-135",
+      "selections": [],
+      "text": "Apuesta sin Empate Segundo Tiempo",
+      "title": "Apuesta sin Empate Segundo Tiempo"
+    },
+    {
+      "qa": "market-type-id-142",
+      "selections": [],
+      "text": "Más de 1.5 goles anotados en cada tiempo",
+      "title": "Más de 1.5 goles anotados en cada tiempo"
+    },
+    {
+      "qa": "market-type-id-143",
+      "selections": [],
+      "text": "Menos de 1.5 Goles Anotados en Ambos Tiempos",
+      "title": "Menos de 1.5 Goles Anotados en Ambos Tiempos"
+    },
+    {
+      "qa": "market-type-id-4107",
+      "selections": [],
+      "text": "Primer Tiempo Offsides Más/Menos",
+      "title": "Primer Tiempo Offsides Más/Menos"
+    },
+    {
+      "qa": "market-type-id-496",
+      "selections": [],
+      "text": "Siguiente jugada después del min. (01:00)",
+      "title": "Siguiente jugada después del min. (01:00)"
+    },
+    {
+      "qa": "market-type-id-496",
+      "selections": [],
+      "text": "Siguiente jugada después del min. (02:00)",
+      "title": "Siguiente jugada después del min. (02:00)"
+    },
+    {
+      "qa": "market-type-id-496",
+      "selections": [],
+      "text": "Siguiente jugada después del min. (03:00)",
+      "title": "Siguiente jugada después del min. (03:00)"
+    },
+    {
+      "qa": "market-type-id-497",
+      "selections": [],
+      "text": "¿Qué sucederá en ... ? (00:00 - 00:59)",
+      "title": "¿Qué sucederá en ... ? (00:00 - 00:59)"
+    },
+    {
+      "qa": "market-type-id-497",
+      "selections": [],
+      "text": "¿Qué sucederá en ... ? (01:00 - 01:59)",
+      "title": "¿Qué sucederá en ... ? (01:00 - 01:59)"
+    },
+    {
+      "qa": "market-type-id-497",
+      "selections": [],
+      "text": "¿Qué sucederá en ... ? (02:00 - 02:59)",
+      "title": "¿Qué sucederá en ... ? (02:00 - 02:59)"
+    },
+    {
+      "qa": "market-type-id-3897",
+      "selections": [],
+      "text": "¿Qué sucederá en ... ? (00:00 - 04:59)",
+      "title": "¿Qué sucederá en ... ? (00:00 - 04:59)"
+    },
+    {
+      "qa": "market-type-id-3897",
+      "selections": [],
+      "text": "¿Qué sucederá en ... ? (05:00 - 09:59)",
+      "title": "¿Qué sucederá en ... ? (05:00 - 09:59)"
+    },
+    {
+      "qa": "market-type-id-3897",
+      "selections": [],
+      "text": "¿Qué sucederá en ... ? (10:00 - 14:59)",
+      "title": "¿Qué sucederá en ... ? (10:00 - 14:59)"
+    }
+  ],
+  "top": "Fútbol\n\nBásquetbol\n\nTenis\n\nEsports\n\nBéisbol\n\nMMA\n\nFútbol americano\n\nVoleibol\n\nHockey sobre hielo\n\nTenis de mesa\n\nBox\n\nBalonmano\n\nDardos\n\nVóley-playa\n\nFórmula 1\n\nUnión de Rugby\n\nLiga de Rugby\n\nCiclismo\n\nFutsal\n\nWaterpolo\n\nBádminton\n\nSnooker\n\nCriquet\n\nLacrosse\n\nMoto GP\n\nGolf\n\nDeportes de motor\n\nDeportes de invierno\n\nHockey sobre césped\n\nFloorball\n\nInicioFútbolChampions LeaguePartidosSSC Napoli - FK Bodo/Glimt\nMartes, 20 Octubre 2026 14:00\nSSC Napoli\nFK Bodo/Glimt\nPopulares\nGoles\nFormaciones\nJugadores\nCórners\nTarjetas\nEstadísticas\nPrimer Tiempo\nCombos\nEspeciales\nHándicap\nHándicap Asiático\nMinutos\nTodo\nBET\nBUILDER\nBB\nResultado del partido\n\n2 GOLES DE VENTAJA\n\n1\n1.62\nX\n4.35\n2\n4.90\nFK Bodo/Glimt ha ganado 33 de sus últimos 47 partidos en todas las competiciones.\nFK Bodo/Glimt ha ganado 3 de sus últimos 5 partidos en la Champions League.\nFK Bodo/Glimt ha ganado 15 de sus últimos 25 partidos como visitante en todas las competiciones.\nBB\nGoles totales Más/Menos\nEn 4 de los últimos 5 partidos de FK Bodo/Glimt en la Champions League hubo más de 2,5 goles.\nLos partidos de FK Bodo/Glimt han promediado 3,8 goles por partido en la Champions League esta temporada.\nEl 83 % de los últimos 47 partidos de FK Bodo/Glimt en todas las competiciones tuvieron más de 2,5 goles.\nFK Bodo/Glimt ha promediado",
+  "fixture_id": "575366",
+  "url": "https://www.betano.pe/cuotas-de-partido/ssc-napoli-fk-bodo-glimt/91594349/?bt=13",
+  "observed_at": "2026-10-19T06:16:39.235Z"
+}

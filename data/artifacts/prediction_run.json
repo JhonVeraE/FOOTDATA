@@ -1,0 +1,422 @@
+{
+  "generated_at": "2026-10-19T03:57:31.686610+00:00",
+  "dataset_id": "addd753d87993037a5e1b3a8ad8d9f0bce3eb59dd302163bab8f6c0680beb024",
+  "matches_available": 9285,
+  "rows": 18570,
+  "sources": [
+    {
+      "file": "match_stats_4ligas.csv",
+      "rows": 17816,
+      "sha256": "15430912b29df7ae510b6f23a69e7907e4a67ae8fbbda987e3d6a4eca8c657a7"
+    },
+    {
+      "file": "match_stats_actualseason.csv",
+      "rows": 682,
+      "sha256": "1a538e5a80831a660e4076463edee84c362d58c59ccc3aa7dfc533b3c6833de7"
+    },
+    {
+      "file": "match_stats_champions_actualseason.csv",
+      "rows": 72,
+      "sha256": "bde3e2c7e76dd2b14fa9794281fe1499ad43d7c6bd458869dcf4ca2ffc5713f3"
+    }
+  ],
+  "quality_issues": [
+    {
+      "source": "match_stats_4ligas.csv",
+      "match_id": "Premier League_2021/22_3428",
+      "team": "West Ham",
+      "issue": "sot_for exceeds shots_for; both excluded"
+    },
+    {
+      "source": "match_stats_4ligas.csv",
+      "match_id": "Premier League_2021/22_3428",
+      "team": "Newcastle",
+      "issue": "sot_against exceeds shots_against; both excluded"
+    }
+  ],
+  "warnings": [],
+  "model": {
+    "version": "attack-defence-v2",
+    "config": {
+      "half_life_days": 365,
+      "regularization": 3,
+      "dixon_coles": true
+    },
+    "training_cutoff": "2026-10-19",
+    "latest_training_result": "2026-10-18",
+    "training_matches": 9285,
+    "rho": -0.039249755576544074,
+    "optimizer_iterations": 108
+  },
+  "forecast_selection": "next_complete_rounds_with_nearby_pending",
+  "round_coverage": {
+    "La Liga": {
+      "round": 10,
+      "matches": 10,
+      "expected_matches": 10,
+      "first_kickoff": "2026-10-23T19:00:00+00:00",
+      "last_kickoff": "2026-10-26T20:00:00+00:00",
+      "unavailable_fixture_ids": []
+    },
+    "Premier League": {
+      "round": 8,
+      "matches": 10,
+      "expected_matches": 10,
+      "first_kickoff": "2026-10-23T19:00:00+00:00",
+      "last_kickoff": "2026-10-25T16:30:00+00:00",
+      "unavailable_fixture_ids": []
+    },
+    "Bundesliga": {
+      "round": 7,
+      "matches": 9,
+      "expected_matches": 9,
+      "first_kickoff": "2026-10-23T18:30:00+00:00",
+      "last_kickoff": "2026-10-25T16:30:00+00:00",
+      "unavailable_fixture_ids": []
+    },
+    "Serie A": {
+      "round": 8,
+      "matches": 10,
+      "expected_matches": 10,
+      "first_kickoff": "2026-10-23T18:45:00+00:00",
+      "last_kickoff": "2026-10-25T19:45:00+00:00",
+      "unavailable_fixture_ids": []
+    },
+    "Ligue 1": {
+      "round": 8,
+      "matches": 9,
+      "expected_matches": 9,
+      "first_kickoff": "2026-10-23T18:45:00+00:00",
+      "last_kickoff": "2026-10-25T19:45:00+00:00",
+      "unavailable_fixture_ids": []
+    },
+    "UEFA Champions League": {
+      "round": 3,
+      "matches": 18,
+      "expected_matches": 18,
+      "first_kickoff": "2026-10-20T16:45:00+00:00",
+      "last_kickoff": "2026-10-21T19:00:00+00:00",
+      "unavailable_fixture_ids": []
+    }
+  },
+  "training_boundary_note": "Exclusive result dates; same-day rows included only after independently verified FINISHED scores and past kickoffs.",
+  "count_model_selection": {
+    "version": "venue-shrunk-count-v1",
+    "active_from": "2026-10-19",
+    "selected_until": "2025-03-01",
+    "validated_until": "2026-07-01",
+    "protocol": "Monthly frozen fits. Select Aug 2024-Feb 2025 by per-team MAE; gate Aug 2025-Jun 2026 on improved per-team MAE and Poisson NLL, with total MAE <=102% baseline. Current season through Oct 17 is diagnostic only. Oct 18 is excluded. Historical results are retrospective.",
+    "metrics": {
+      "corners": {
+        "config": {
+          "method": "venue_ratio",
+          "half_life_matches": 20,
+          "prior_matches": 15
+        },
+        "promoted": true,
+        "selection": {
+          "baseline": {
+            "matches": 1180,
+            "mae_per_team": 2.1457228280225444,
+            "mae_total": 2.709503936909245,
+            "poisson_nll_per_team": 2.4049259431982035,
+            "predicted_total": 9.75469731660697,
+            "actual_total": 9.684745762711865
+          },
+          "candidate": {
+            "matches": 1180,
+            "mae_per_team": 2.1220783780744283,
+            "mae_total": 2.7275914300170285,
+            "poisson_nll_per_team": 2.387711997896216,
+            "predicted_total": 9.69351818652325,
+            "actual_total": 9.684745762711865
+          }
+        },
+        "validation": {
+          "baseline": {
+            "matches": 1739,
+            "mae_per_team": 2.131151046779779,
+            "mae_total": 2.713198921230648,
+            "poisson_nll_per_team": 2.3929871836010888,
+            "predicted_total": 9.601829867438735,
+            "actual_total": 9.55031627372053
+          },
+          "candidate": {
+            "matches": 1739,
+            "mae_per_team": 2.098307115307478,
+            "mae_total": 2.7160082056581007,
+            "poisson_nll_per_team": 2.371482801353868,
+            "predicted_total": 9.672476792806455,
+            "actual_total": 9.55031627372053
+          }
+        },
+        "current_diagnostic": {
+          "baseline": {
+            "matches": 300,
+            "mae_per_team": 2.162378194555949,
+            "mae_total": 2.752780237690191,
+            "poisson_nll_per_team": 2.4155361769854933,
+            "predicted_total": 9.664235750819449,
+            "actual_total": 9.693333333333333
+          },
+          "candidate": {
+            "matches": 300,
+            "mae_per_team": 2.134271091965051,
+            "mae_total": 2.7515970743912606,
+            "poisson_nll_per_team": 2.387769761798608,
+            "predicted_total": 9.71101552699258,
+            "actual_total": 9.693333333333333
+          }
+        }
+      },
+      "cards": {
+        "config": {
+          "method": "venue_ratio",
+          "half_life_matches": 10,
+          "prior_matches": 30
+        },
+        "promoted": true,
+        "selection": {
+          "baseline": {
+            "matches": 1181,
+            "mae_per_team": 1.1559258253072668,
+            "mae_total": 1.7937741172012038,
+            "poisson_nll_per_team": 1.7459328820584035,
+            "predicted_total": 4.399401159889369,
+            "actual_total": 4.338696020321761
+          },
+          "candidate": {
+            "matches": 1181,
+            "mae_per_team": 1.1552111647693077,
+            "mae_total": 1.78911591213886,
+            "poisson_nll_per_team": 1.7427566788682576,
+            "predicted_total": 4.405875500380088,
+            "actual_total": 4.338696020321761
+          }
+        },
+        "validation": {
+          "baseline": {
+            "matches": 1739,
+            "mae_per_team": 1.1047798456119453,
+            "mae_total": 1.6877170152073475,
+            "poisson_nll_per_team": 1.6955040715363643,
+            "predicted_total": 4.158495604832799,
+            "actual_total": 4.092006900517539
+          },
+          "candidate": {
+            "matches": 1739,
+            "mae_per_team": 1.0996724573894605,
+            "mae_total": 1.6761582688195527,
+            "poisson_nll_per_team": 1.6919193712959324,
+            "predicted_total": 4.151636063725571,
+            "actual_total": 4.092006900517539
+          }
+        },
+        "current_diagnostic": {
+          "baseline": {
+            "matches": 300,
+            "mae_per_team": 1.0704171621617748,
+            "mae_total": 1.6030116305923208,
+            "poisson_nll_per_team": 1.6618939849846226,
+            "predicted_total": 4.121631583833402,
+            "actual_total": 3.97
+          },
+          "candidate": {
+            "matches": 300,
+            "mae_per_team": 1.0685499973628074,
+            "mae_total": 1.6041247852517062,
+            "poisson_nll_per_team": 1.6583479743038545,
+            "predicted_total": 4.1279669170743745,
+            "actual_total": 3.97
+          }
+        }
+      },
+      "shots": {
+        "config": {
+          "method": "venue_ratio",
+          "half_life_matches": 20,
+          "prior_matches": 5
+        },
+        "promoted": true,
+        "selection": {
+          "baseline": {
+            "matches": 1180,
+            "mae_per_team": 3.765654406989699,
+            "mae_total": 4.499585721269697,
+            "poisson_nll_per_team": 3.0540835825709753,
+            "predicted_total": 25.46348725905602,
+            "actual_total": 24.833898305084745
+          },
+          "candidate": {
+            "matches": 1180,
+            "mae_per_team": 3.6203709684314487,
+            "mae_total": 4.554165331345842,
+            "poisson_nll_per_team": 2.997252084463734,
+            "predicted_total": 25.089648525386558,
+            "actual_total": 24.833898305084745
+          }
+        },
+        "validation": {
+          "baseline": {
+            "matches": 1739,
+            "mae_per_team": 3.731663417532727,
+            "mae_total": 4.4642310231254845,
+            "poisson_nll_per_team": 3.038990552587159,
+            "predicted_total": 25.040115818189165,
+            "actual_total": 25.159861989649222
+          },
+          "candidate": {
+            "matches": 1739,
+            "mae_per_team": 3.6089959452647564,
+            "mae_total": 4.508723552326645,
+            "poisson_nll_per_team": 2.982638362461911,
+            "predicted_total": 25.255956286959137,
+            "actual_total": 25.159861989649222
+          }
+        },
+        "current_diagnostic": {
+          "baseline": {
+            "matches": 300,
+            "mae_per_team": 4.280208312278772,
+            "mae_total": 5.402350904346323,
+            "poisson_nll_per_team": 3.2996748657771677,
+            "predicted_total": 25.55149035993273,
+            "actual_total": 28.286666666666665
+          },
+          "candidate": {
+            "matches": 300,
+            "mae_per_team": 4.192122558934005,
+            "mae_total": 5.551876463819832,
+            "poisson_nll_per_team": 3.2607824436883233,
+            "predicted_total": 25.285490402524797,
+            "actual_total": 28.286666666666665
+          }
+        }
+      },
+      "sot": {
+        "config": {
+          "method": "venue_ratio",
+          "half_life_matches": 20,
+          "prior_matches": 5
+        },
+        "promoted": true,
+        "selection": {
+          "baseline": {
+            "matches": 1180,
+            "mae_per_team": 1.8065362146756405,
+            "mae_total": 2.397207056665199,
+            "poisson_nll_per_team": 2.20102721701514,
+            "predicted_total": 8.987972283602149,
+            "actual_total": 8.81271186440678
+          },
+          "candidate": {
+            "matches": 1180,
+            "mae_per_team": 1.744805932583593,
+            "mae_total": 2.39204482698704,
+            "poisson_nll_per_team": 2.1705708455416888,
+            "predicted_total": 8.80007178775462,
+            "actual_total": 8.81271186440678
+          }
+        },
+        "validation": {
+          "baseline": {
+            "matches": 1739,
+            "mae_per_team": 1.7860399792938706,
+            "mae_total": 2.3907265293209234,
+            "poisson_nll_per_team": 2.184001080343485,
+            "predicted_total": 8.683749975795273,
+            "actual_total": 8.619321449108684
+          },
+          "candidate": {
+            "matches": 1739,
+            "mae_per_team": 1.749912303727853,
+            "mae_total": 2.412111647704322,
+            "poisson_nll_per_team": 2.1639765429663873,
+            "predicted_total": 8.878583384007921,
+            "actual_total": 8.619321449108684
+          }
+        },
+        "current_diagnostic": {
+          "baseline": {
+            "matches": 300,
+            "mae_per_team": 1.9381369683645069,
+            "mae_total": 2.855142840459991,
+            "poisson_nll_per_team": 2.2948994886904828,
+            "predicted_total": 8.828769637021647,
+            "actual_total": 9.71
+          },
+          "candidate": {
+            "matches": 300,
+            "mae_per_team": 1.869283163879265,
+            "mae_total": 2.8463077929819405,
+            "poisson_nll_per_team": 2.2579546762396188,
+            "predicted_total": 8.859317739877124,
+            "actual_total": 9.71
+          }
+        }
+      },
+      "fouls": {
+        "config": {
+          "method": "venue_ratio",
+          "half_life_matches": 10,
+          "prior_matches": 15
+        },
+        "promoted": true,
+        "selection": {
+          "baseline": {
+            "matches": 1180,
+            "mae_per_team": 2.9145252539304236,
+            "mae_total": 4.202290173518073,
+            "poisson_nll_per_team": 2.714412108424413,
+            "predicted_total": 23.741590911111523,
+            "actual_total": 23.63305084745763
+          },
+          "candidate": {
+            "matches": 1180,
+            "mae_per_team": 2.88306877991981,
+            "mae_total": 4.144162206643946,
+            "poisson_nll_per_team": 2.7001373196453398,
+            "predicted_total": 23.777086944619104,
+            "actual_total": 23.63305084745763
+          }
+        },
+        "validation": {
+          "baseline": {
+            "matches": 1739,
+            "mae_per_team": 2.8833814001002676,
+            "mae_total": 4.293122480080168,
+            "poisson_nll_per_team": 2.6926330330113712,
+            "predicted_total": 23.66185740731895,
+            "actual_total": 23.525014376078207
+          },
+          "candidate": {
+            "matches": 1739,
+            "mae_per_team": 2.843066585698737,
+            "mae_total": 4.245378807279744,
+            "poisson_nll_per_team": 2.6790843885306828,
+            "predicted_total": 23.578608061330925,
+            "actual_total": 23.525014376078207
+          }
+        },
+        "current_diagnostic": {
+          "baseline": {
+            "matches": 300,
+            "mae_per_team": 3.076353685986691,
+            "mae_total": 4.435717707850193,
+            "poisson_nll_per_team": 2.7551634860820218,
+            "predicted_total": 23.50424859335008,
+            "actual_total": 23.303333333333335
+          },
+          "candidate": {
+            "matches": 300,
+            "mae_per_team": 3.061249362827866,
+            "mae_total": 4.371603131383126,
+            "poisson_nll_per_team": 2.749800586982466,
+            "predicted_total": 23.473960196617824,
+            "actual_total": 23.303333333333335
+          }
+        }
+      }
+    }
+  }
+}

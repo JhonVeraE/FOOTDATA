@@ -1,0 +1,7 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+data/live/_cache/
+data/artifacts/excel_partidos/
+.pytest_cache/

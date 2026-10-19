@@ -1,0 +1,1129 @@
+{
+  "heading": [
+    "Arsenal FC\nEverton FC"
+  ],
+  "markets": [
+    {
+      "qa": "market-type-id-1",
+      "selections": [
+        {
+          "aria": "Bet on 1 with odds 1.4.",
+          "text": "1\n1.40"
+        },
+        {
+          "aria": "Bet on X with odds 4.55.",
+          "text": "X\n4.55"
+        },
+        {
+          "aria": "Bet on 2 with odds 8.5.",
+          "text": "2\n8.50"
+        }
+      ],
+      "text": "Resultado del partido\n\n2 GOLES DE VENTAJA\n\n1\n1.40\nX\n4.55\n2\n8.50\nEl Arsenal FC ha ganado 4 de sus últimos 5 partidos en la Premier League.\nEl Arsenal FC ha ganado 4 de 6 duelos contra el Everton FC en todas las competiciones.\nEl Arsenal FC ha ganado 25 de sus últimos 31 partidos en casa en todas las competiciones.\nEl Arsenal FC ha ganado 45 de sus últimos 63 partidos en todas las competiciones.",
+      "title": "Resultado del partido\n\n2 GOLES DE VENTAJA"
+    },
+    {
+      "qa": "market-type-id-13",
+      "selections": [
+        {
+          "aria": "Bet on Más de 0.5 with odds 1.05.",
+          "text": "Más de\n0.5\n1.05"
+        },
+        {
+          "aria": "Bet on Menos 0.5 with odds 9.75.",
+          "text": "Menos\n0.5\n9.75"
+        },
+        {
+          "aria": "Bet on Más de 1.5 with odds 1.26.",
+          "text": "Más de\n1.5\n1.26"
+        },
+        {
+          "aria": "Bet on Menos 1.5 with odds 3.85.",
+          "text": "Menos\n1.5\n3.85"
+        },
+        {
+          "aria": "Bet on Más de 2.5 with odds 1.78.",
+          "text": "Más de\n2.5\n1.78"
+        },
+        {
+          "aria": "Bet on Menos 2.5 with odds 2.05.",
+          "text": "Menos\n2.5\n2.05"
+        },
+        {
+          "aria": "Bet on Más de 3.5 with odds 2.87.",
+          "text": "Más de\n3.5\n2.87"
+        },
+        {
+          "aria": "Bet on Menos 3.5 with odds 1.42.",
+          "text": "Menos\n3.5\n1.42"
+        },
+        {
+          "aria": "Bet on Más de 4.5 with odds 5.1.",
+          "text": "Más de\n4.5\n5.10"
+        },
+        {
+          "aria": "Bet on Menos 4.5 with odds 1.17.",
+          "text": "Menos\n4.5\n1.17"
+        },
+        {
+          "aria": "Bet on Más de 5.5 with odds 9.25.",
+          "text": "Más de\n5.5\n9.25"
+        },
+        {
+          "aria": "Bet on Menos 5.5 with odds 1.06.",
+          "text": "Menos\n5.5\n1.06"
+        },
+        {
+          "aria": "Bet on Más de 6.5 with odds 14.5.",
+          "text": "Más de\n6.5\n14.50"
+        },
+        {
+          "aria": "Bet on Menos 6.5 with odds 1.02.",
+          "text": "Menos\n6.5\n1.02"
+        }
+      ],
+      "text": "Goles totales Más/Menos\nHubo más de 2,5 goles en 4 de los últimos 5 partidos del Arsenal FC en todas las competiciones.\nLos partidos del Everton FC promedian 2,1 goles por partido en la Premier League esta temporada.\nSolo 2 de 7 partidos del Everton FC superaron los 2,5 goles en la Premier League esta temporada.\nEl Arsenal FC promedia 1,7 goles esperados por partido en la Premier League esta temporada.\nLos partidos del Everton FC promediaron 2,5 goles por encuentro en sus últimos 40 duelos en todas las competiciones.\nMás de\n0.5\n1.05\nMenos\n0.5\n9.75\nMás de\n1.5\n1.26\nMenos\n1.5\n3.85\nMás de\n2.5\n1.78\nMenos\n2.5\n2.05\nMás de\n3.5\n2.87\nMenos\n3.5\n1.42\nMás de\n4.5\n5.10\nMenos\n4.5\n1.17\nMás de\n5.5\n9.25\nMenos\n5.5\n1.06\nMás de\n6.5\n14.50\nMenos\n6.5\n1.02\nMOSTRAR MENOS",
+      "title": "Goles totales Más/Menos"
+    },
+    {
+      "qa": "market-type-id-9",
+      "selections": [
+        {
+          "aria": "Bet on Arsenal FC o Empate with odds 1.09.",
+          "text": "Arsenal FC o Empate\n1.09"
+        },
+        {
+          "aria": "Bet on Arsenal FC o Everton FC with odds 1.19.",
+          "text": "Arsenal FC o Everton FC\n1.19"
+        },
+        {
+          "aria": "Bet on Everton FC o Empate with odds 3.05.",
+          "text": "Everton FC o Empate\n3.05"
+        }
+      ],
+      "text": "Doble oportunidad\nArsenal FC o Empate\n1.09\nArsenal FC o Everton FC\n1.19\nEverton FC o Empate\n3.05",
+      "title": "Doble oportunidad"
+    },
+    {
+      "qa": "market-type-id-15",
+      "selections": [
+        {
+          "aria": "Bet on Sí with odds 2.",
+          "text": "Sí\n2.00"
+        },
+        {
+          "aria": "Bet on No with odds 1.75.",
+          "text": "No\n1.75"
+        }
+      ],
+      "text": "Ambos equipos anotan\nSí\n2.00\nNo\n1.75\nEl Arsenal FC ha mantenido la portería a cero en 4 de sus 7 partidos en la Premier League esta temporada.\nAmbos equipos marcaron en solo 2 de los últimos 5 enfrentamientos directos entre Arsenal FC y Everton FC.\nAmbos equipos marcaron en solo 3 de los 7 partidos del Everton FC en la Premier League esta temporada.\nEl Arsenal FC mantuvo la portería a cero en 31 de sus últimos 63 partidos en todas las competiciones.",
+      "title": "Ambos equipos anotan"
+    },
+    {
+      "qa": "market-type-id-8",
+      "selections": [
+        {
+          "aria": "Bet on Arsenal FC with odds 1.9.",
+          "text": "Arsenal FC\n1.90"
+        },
+        {
+          "aria": "Bet on Empate with odds 2.32.",
+          "text": "Empate\n2.32"
+        },
+        {
+          "aria": "Bet on Everton FC with odds 7.6.",
+          "text": "Everton FC\n7.60"
+        }
+      ],
+      "text": "Resultado Primer Tiempo\nArsenal FC\n1.90\nEmpate\n2.32\nEverton FC\n7.60\nEl Arsenal FC ganó la primera parte en 2 de sus últimos 4 enfrentamientos ante el Everton FC.\nEl Arsenal FC empató al descanso en 4 de sus últimos 5 partidos en la Premier League.\nEl Everton FC empató al descanso en 4 de sus últimos 5 encuentros en la Premier League.\nEl Everton FC registra un 55,6% de valoración de forma al descanso en sus últimos 3 duelos en la Premier League.\nEl Arsenal FC registra un flojo 26,7% de valoración al descanso en sus últimos 5 duelos en la Premier League.",
+      "title": "Resultado Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-14",
+      "selections": [],
+      "text": "Más/Menos Goles en Primer Tiempo",
+      "title": "Más/Menos Goles en Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-84",
+      "selections": [
+        {
+          "aria": "Bet on Más de 0.5 with odds 1.11.",
+          "text": "Más de\n0.5\n1.11"
+        },
+        {
+          "aria": "Bet on Menos 0.5 with odds 5.9.",
+          "text": "Menos\n0.5\n5.90"
+        },
+        {
+          "aria": "Bet on Más de 1.5 with odds 1.52.",
+          "text": "Más de\n1.5\n1.52"
+        },
+        {
+          "aria": "Bet on Menos 1.5 with odds 2.42.",
+          "text": "Menos\n1.5\n2.42"
+        },
+        {
+          "aria": "Bet on Más de 2.5 with odds 2.5.",
+          "text": "Más de\n2.5\n2.50"
+        },
+        {
+          "aria": "Bet on Menos 2.5 with odds 1.5.",
+          "text": "Menos\n2.5\n1.50"
+        },
+        {
+          "aria": "Bet on Más de 3.5 with odds 4.7.",
+          "text": "Más de\n3.5\n4.70"
+        },
+        {
+          "aria": "Bet on Menos 3.5 with odds 1.17.",
+          "text": "Menos\n3.5\n1.17"
+        },
+        {
+          "aria": "Bet on Más de 4.5 with odds 8.25.",
+          "text": "Más de\n4.5\n8.25"
+        },
+        {
+          "aria": "Bet on Menos 4.5 with odds 1.05.",
+          "text": "Menos\n4.5\n1.05"
+        },
+        {
+          "aria": "Bet on Más de 5.5 with odds 12.",
+          "text": "Más de\n5.5\n12.00"
+        },
+        {
+          "aria": "Bet on Menos 5.5 with odds 1.015.",
+          "text": "Menos\n5.5\n1.01"
+        }
+      ],
+      "text": "Arsenal FC - Goles totales Más/Menos\nEl Arsenal FC ha marcado 2+ goles en todos sus 3 partidos como local en la Premier League.\nMás de\n0.5\n1.11\nMenos\n0.5\n5.90\nMás de\n1.5\n1.52\nMenos\n1.5\n2.42\nMás de\n2.5\n2.50\nMenos\n2.5\n1.50\nMás de\n3.5\n4.70\nMenos\n3.5\n1.17\nMás de\n4.5\n8.25\nMenos\n4.5\n1.05\nMás de\n5.5\n12.00\nMenos\n5.5\n1.01\nMOSTRAR MENOS",
+      "title": "Arsenal FC - Goles totales Más/Menos"
+    },
+    {
+      "qa": "market-type-id-85",
+      "selections": [
+        {
+          "aria": "Bet on Más de 0.5 with odds 1.8.",
+          "text": "Más de\n0.5\n1.80"
+        },
+        {
+          "aria": "Bet on Menos 0.5 with odds 1.93.",
+          "text": "Menos\n0.5\n1.93"
+        },
+        {
+          "aria": "Bet on Más de 1.5 with odds 4.85.",
+          "text": "Más de\n1.5\n4.85"
+        },
+        {
+          "aria": "Bet on Menos 1.5 with odds 1.16.",
+          "text": "Menos\n1.5\n1.16"
+        },
+        {
+          "aria": "Bet on Más de 2.5 with odds 10.75.",
+          "text": "Más de\n2.5\n10.75"
+        },
+        {
+          "aria": "Bet on Menos 2.5 with odds 1.025.",
+          "text": "Menos\n2.5\n1.02"
+        }
+      ],
+      "text": "Everton FC - Goles totales Más/Menos\nEl Everton FC promedia solo 1 gol por partido fuera de casa en 3 duelos en la Premier League.\nMás de\n0.5\n1.80\nMenos\n0.5\n1.93\nMás de\n1.5\n4.85\nMenos\n1.5\n1.16\nMás de\n2.5\n10.75\nMenos\n2.5\n1.02",
+      "title": "Everton FC - Goles totales Más/Menos"
+    },
+    {
+      "qa": "market-type-id-3966",
+      "selections": [],
+      "text": "Ambos equipos anotan o Más de 2.5",
+      "title": "Ambos equipos anotan o Más de 2.5"
+    },
+    {
+      "qa": "market-type-id-10",
+      "selections": [],
+      "text": "Apuesta sin Empate",
+      "title": "Apuesta sin Empate"
+    },
+    {
+      "qa": "market-type-id-408",
+      "selections": [],
+      "text": "Hándicap Resultado del Partido",
+      "title": "Hándicap Resultado del Partido"
+    },
+    {
+      "qa": "market-type-id-16",
+      "selections": [],
+      "text": "Primer Tiempo/Tiempo Completo",
+      "title": "Primer Tiempo/Tiempo Completo"
+    },
+    {
+      "qa": "market-type-id-17",
+      "selections": [],
+      "text": "Marcador Correcto",
+      "title": "Marcador Correcto"
+    },
+    {
+      "qa": "market-type-id-11",
+      "selections": [],
+      "text": "Próximo gol (Gol 1)",
+      "title": "Próximo gol (Gol 1)"
+    },
+    {
+      "qa": "market-type-id-115",
+      "selections": [],
+      "text": "Más/Menos Goles en Primer Tiempo Arsenal FC",
+      "title": "Más/Menos Goles en Primer Tiempo Arsenal FC"
+    },
+    {
+      "qa": "market-type-id-116",
+      "selections": [],
+      "text": "Más/Menos Goles en Primer Tiempo Everton FC",
+      "title": "Más/Menos Goles en Primer Tiempo Everton FC"
+    },
+    {
+      "qa": "market-type-id-131",
+      "selections": [],
+      "text": "Más/Menos Goles en Segundo Tiempo",
+      "title": "Más/Menos Goles en Segundo Tiempo"
+    },
+    {
+      "qa": "market-type-id-2818",
+      "selections": [],
+      "text": "Total de goles",
+      "title": "Total de goles"
+    },
+    {
+      "qa": "market-type-id-104",
+      "selections": [],
+      "text": "Total de goles (extra)",
+      "title": "Total de goles (extra)"
+    },
+    {
+      "qa": "market-type-id-31",
+      "selections": [],
+      "text": "Forma de anotación de gol (Gol 1)",
+      "title": "Forma de anotación de gol (Gol 1)"
+    },
+    {
+      "qa": "market-type-id-148",
+      "selections": [],
+      "text": "Total de goles par/impar",
+      "title": "Total de goles par/impar"
+    },
+    {
+      "qa": "market-type-id-341",
+      "selections": [],
+      "text": "Primer equipo en anotar X Goles",
+      "title": "Primer equipo en anotar X Goles"
+    },
+    {
+      "qa": "market-type-id-105",
+      "selections": [],
+      "text": "Total de goles del equipo",
+      "title": "Total de goles del equipo"
+    },
+    {
+      "qa": "market-type-id-13",
+      "selections": [
+        {
+          "aria": "Bet on Más de 1.5 with odds 1.26.",
+          "text": "Más de\n1.5\n1.26"
+        },
+        {
+          "aria": "Bet on Menos 1.5 with odds 3.85.",
+          "text": "Menos\n1.5\n3.85"
+        },
+        {
+          "aria": "Bet on Más de 2.5 with odds 1.78.",
+          "text": "Más de\n2.5\n1.78"
+        },
+        {
+          "aria": "Bet on Menos 2.5 with odds 2.05.",
+          "text": "Menos\n2.5\n2.05"
+        },
+        {
+          "aria": "Bet on Más de 3.5 with odds 2.87.",
+          "text": "Más de\n3.5\n2.87"
+        },
+        {
+          "aria": "Bet on Menos 3.5 with odds 1.42.",
+          "text": "Menos\n3.5\n1.42"
+        }
+      ],
+      "text": "Goles totales Más/Menos\nMás de\n1.5\n1.26\nMenos\n1.5\n3.85\nMás de\n2.5\n1.78\nMenos\n2.5\n2.05\nMás de\n3.5\n2.87\nMenos\n3.5\n1.42\nMOSTRAR TODO",
+      "title": "Goles totales Más/Menos"
+    },
+    {
+      "qa": "market-type-id-457",
+      "selections": [],
+      "text": "Palo",
+      "title": "Palo"
+    },
+    {
+      "qa": "market-type-id-113",
+      "selections": [],
+      "text": "Primer Tiempo - Doble Oportunidad",
+      "title": "Primer Tiempo - Doble Oportunidad"
+    },
+    {
+      "qa": "market-type-id-407",
+      "selections": [],
+      "text": "Hándicap Primer Tiempo",
+      "title": "Hándicap Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-144",
+      "selections": [],
+      "text": "Gana cualquiera de los tiempos",
+      "title": "Gana cualquiera de los tiempos"
+    },
+    {
+      "qa": "market-type-id-92",
+      "selections": [],
+      "text": "Resultado Primer tiempo o Tiempo Completo",
+      "title": "Resultado Primer tiempo o Tiempo Completo"
+    },
+    {
+      "qa": "market-type-id-93",
+      "selections": [],
+      "text": "Primer Tiempo/Tiempo Completo - Doble oportunidad",
+      "title": "Primer Tiempo/Tiempo Completo - Doble oportunidad"
+    },
+    {
+      "qa": "market-type-id-12",
+      "selections": [],
+      "text": "Próximo gol en Primer Tiempo (Gol 1)",
+      "title": "Próximo gol en Primer Tiempo (Gol 1)"
+    },
+    {
+      "qa": "market-type-id-114",
+      "selections": [],
+      "text": "Ambos Equipos Anotan en el Primer Tiempo",
+      "title": "Ambos Equipos Anotan en el Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-118",
+      "selections": [],
+      "text": "Marcador correcto en el primer tiempo",
+      "title": "Marcador correcto en el primer tiempo"
+    },
+    {
+      "qa": "market-type-id-112",
+      "selections": [],
+      "text": "Apuesta sin Empate Medio Tiempo",
+      "title": "Apuesta sin Empate Medio Tiempo"
+    },
+    {
+      "qa": "market-type-id-141",
+      "selections": [],
+      "text": "Gol anotado en ambos tiempos",
+      "title": "Gol anotado en ambos tiempos"
+    },
+    {
+      "qa": "market-type-id-138",
+      "selections": [],
+      "text": "Ambos Equipos Anotan en el Primer Tiempo/Segundo Tiempo",
+      "title": "Ambos Equipos Anotan en el Primer Tiempo/Segundo Tiempo"
+    },
+    {
+      "qa": "market-type-id-107",
+      "selections": [],
+      "text": "Tiempo con Más Goles",
+      "title": "Tiempo con Más Goles"
+    },
+    {
+      "qa": "market-type-id-434",
+      "selections": [],
+      "text": "Arsenal FC Gana Ambos Tiempos",
+      "title": "Arsenal FC Gana Ambos Tiempos"
+    },
+    {
+      "qa": "market-type-id-431",
+      "selections": [],
+      "text": "Everton FC Gana Ambos Tiempos",
+      "title": "Everton FC Gana Ambos Tiempos"
+    },
+    {
+      "qa": "market-type-id-133",
+      "selections": [],
+      "text": "Resultado Segundo Tiempo",
+      "title": "Resultado Segundo Tiempo"
+    },
+    {
+      "qa": "market-type-id-134",
+      "selections": [],
+      "text": "Segundo Tiempo - Doble Oportunidad",
+      "title": "Segundo Tiempo - Doble Oportunidad"
+    },
+    {
+      "qa": "market-type-id-137",
+      "selections": [],
+      "text": "Ambos equipos anotan en el Segundo Tiempo",
+      "title": "Ambos equipos anotan en el Segundo Tiempo"
+    },
+    {
+      "qa": "market-type-id-120",
+      "selections": [],
+      "text": "Primer Tiempo Arsenal FC Total de Goles Exactos",
+      "title": "Primer Tiempo Arsenal FC Total de Goles Exactos"
+    },
+    {
+      "qa": "market-type-id-121",
+      "selections": [],
+      "text": "Primer Tiempo Everton FC Total de Goles Exactos",
+      "title": "Primer Tiempo Everton FC Total de Goles Exactos"
+    },
+    {
+      "qa": "market-type-id-4049",
+      "selections": [],
+      "text": "Segundo Tiempo - Más/Menos Total de Goles Arsenal FC",
+      "title": "Segundo Tiempo - Más/Menos Total de Goles Arsenal FC"
+    },
+    {
+      "qa": "market-type-id-4050",
+      "selections": [],
+      "text": "Segundo Tiempo - Más/Menos Total de Goles Everton FC",
+      "title": "Segundo Tiempo - Más/Menos Total de Goles Everton FC"
+    },
+    {
+      "qa": "market-type-id-110",
+      "selections": [],
+      "text": "Total de goles en el Primer Tiempo",
+      "title": "Total de goles en el Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-4684",
+      "selections": [],
+      "text": "Rango de Total de goles Primer Tiempo",
+      "title": "Rango de Total de goles Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-574",
+      "selections": [],
+      "text": "Medio Tiempo/Tiempo Completo y Más/Menos Goles",
+      "title": "Medio Tiempo/Tiempo Completo y Más/Menos Goles"
+    },
+    {
+      "qa": "market-type-id-574",
+      "selections": [],
+      "text": "Medio Tiempo/Tiempo Completo y Más/Menos Goles",
+      "title": "Medio Tiempo/Tiempo Completo y Más/Menos Goles"
+    },
+    {
+      "qa": "market-type-id-574",
+      "selections": [],
+      "text": "Medio Tiempo/Tiempo Completo y Más/Menos Goles",
+      "title": "Medio Tiempo/Tiempo Completo y Más/Menos Goles"
+    },
+    {
+      "qa": "market-type-id-24",
+      "selections": [
+        {
+          "aria": "Bet on Arsenal FC y Más 1.5 with odds 1.62.",
+          "text": "Arsenal FC y Más\n1.5\n1.62"
+        },
+        {
+          "aria": "Bet on Arsenal FC y Menos 1.5 with odds 6.3.",
+          "text": "Arsenal FC y Menos\n1.5\n6.30"
+        },
+        {
+          "aria": "Bet on Everton FC y Más 1.5 with odds 11.75.",
+          "text": "Everton FC y Más\n1.5\n11.75"
+        },
+        {
+          "aria": "Bet on Everton FC y Menos 1.5 with odds 17.",
+          "text": "Everton FC y Menos\n1.5\n17.00"
+        },
+        {
+          "aria": "Bet on Empate y Más 1.5 with odds 5.8.",
+          "text": "Empate y Más\n1.5\n5.80"
+        },
+        {
+          "aria": "Bet on Empate y Menos 1.5 with odds 9.75.",
+          "text": "Empate y Menos\n1.5\n9.75"
+        }
+      ],
+      "text": "Resultado del partido con Más/Menos (1.5)\nArsenal FC y Más\n1.5\n1.62\nArsenal FC y Menos\n1.5\n6.30\nEverton FC y Más\n1.5\n11.75\nEverton FC y Menos\n1.5\n17.00\nEmpate y Más\n1.5\n5.80\nEmpate y Menos\n1.5\n9.75",
+      "title": "Resultado del partido con Más/Menos (1.5)"
+    },
+    {
+      "qa": "market-type-id-24",
+      "selections": [],
+      "text": "Resultado del partido con Más/Menos (2.5)",
+      "title": "Resultado del partido con Más/Menos (2.5)"
+    },
+    {
+      "qa": "market-type-id-24",
+      "selections": [
+        {
+          "aria": "Bet on Arsenal FC y Más 3.5 with odds 3.3.",
+          "text": "Arsenal FC y Más\n3.5\n3.30"
+        },
+        {
+          "aria": "Bet on Arsenal FC y Menos 3.5 with odds 2.07.",
+          "text": "Arsenal FC y Menos\n3.5\n2.07"
+        },
+        {
+          "aria": "Bet on Everton FC y Más 3.5 with odds 37.",
+          "text": "Everton FC y Más\n3.5\n37.00"
+        },
+        {
+          "aria": "Bet on Everton FC y Menos 3.5 with odds 9.",
+          "text": "Everton FC y Menos\n3.5\n9.00"
+        },
+        {
+          "aria": "Bet on Empate y Más 3.5 with odds 16.5.",
+          "text": "Empate y Más\n3.5\n16.50"
+        },
+        {
+          "aria": "Bet on Empate y Menos 3.5 with odds 5.2.",
+          "text": "Empate y Menos\n3.5\n5.20"
+        }
+      ],
+      "text": "Resultado del partido con Más/Menos (3.5)\nArsenal FC y Más\n3.5\n3.30\nArsenal FC y Menos\n3.5\n2.07\nEverton FC y Más\n3.5\n37.00\nEverton FC y Menos\n3.5\n9.00\nEmpate y Más\n3.5\n16.50\nEmpate y Menos\n3.5\n5.20",
+      "title": "Resultado del partido con Más/Menos (3.5)"
+    },
+    {
+      "qa": "market-type-id-24",
+      "selections": [],
+      "text": "Resultado del partido con Más/Menos (4.5)",
+      "title": "Resultado del partido con Más/Menos (4.5)"
+    },
+    {
+      "qa": "market-type-id-24",
+      "selections": [],
+      "text": "Resultado del partido con Más/Menos (5.5)",
+      "title": "Resultado del partido con Más/Menos (5.5)"
+    },
+    {
+      "qa": "market-type-id-26",
+      "selections": [
+        {
+          "aria": "Bet on Arsenal FC o Everton FC y Más 1.5 with odds 1.5.",
+          "text": "Arsenal FC o Everton FC y Más\n1.5\n1.50"
+        },
+        {
+          "aria": "Bet on Arsenal FC o Everton FC y Menos 1.5 with odds 5.2.",
+          "text": "Arsenal FC o Everton FC y Menos\n1.5\n5.20"
+        },
+        {
+          "aria": "Bet on Arsenal FC o Empate y Más 1.5 with odds 1.36.",
+          "text": "Arsenal FC o Empate y Más\n1.5\n1.36"
+        },
+        {
+          "aria": "Bet on Arsenal FC o Empate y Menos 1.5 with odds 4.6.",
+          "text": "Arsenal FC o Empate y Menos\n1.5\n4.60"
+        },
+        {
+          "aria": "Bet on Everton FC o Empate y Más 1.5 with odds 4.35.",
+          "text": "Everton FC o Empate y Más\n1.5\n4.35"
+        },
+        {
+          "aria": "Bet on Everton FC o Empate y Menos 1.5 with odds 7.9.",
+          "text": "Everton FC o Empate y Menos\n1.5\n7.90"
+        }
+      ],
+      "text": "Doble Oportunidad con Más/Menos (1.5)\nArsenal FC o Everton FC y Más\n1.5\n1.50\nArsenal FC o Everton FC y Menos\n1.5\n5.20\nArsenal FC o Empate y Más\n1.5\n1.36\nArsenal FC o Empate y Menos\n1.5\n4.60\nEverton FC o Empate y Más\n1.5\n4.35\nEverton FC o Empate y Menos\n1.5\n7.90",
+      "title": "Doble Oportunidad con Más/Menos (1.5)"
+    },
+    {
+      "qa": "market-type-id-26",
+      "selections": [],
+      "text": "Doble Oportunidad con Más/Menos (2.5)",
+      "title": "Doble Oportunidad con Más/Menos (2.5)"
+    },
+    {
+      "qa": "market-type-id-26",
+      "selections": [
+        {
+          "aria": "Bet on Arsenal FC o Everton FC y Más 3.5 with odds 3.25.",
+          "text": "Arsenal FC o Everton FC y Más\n3.5\n3.25"
+        },
+        {
+          "aria": "Bet on Arsenal FC o Everton FC y Menos 3.5 with odds 1.8.",
+          "text": "Arsenal FC o Everton FC y Menos\n3.5\n1.80"
+        },
+        {
+          "aria": "Bet on Arsenal FC o Empate y Más 3.5 with odds 3.",
+          "text": "Arsenal FC o Empate y Más\n3.5\n3.00"
+        },
+        {
+          "aria": "Bet on Arsenal FC o Empate y Menos 3.5 with odds 1.6.",
+          "text": "Arsenal FC o Empate y Menos\n3.5\n1.60"
+        },
+        {
+          "aria": "Bet on Everton FC o Empate y Más 3.5 with odds 13.5.",
+          "text": "Everton FC o Empate y Más\n3.5\n13.50"
+        },
+        {
+          "aria": "Bet on Everton FC o Empate y Menos 3.5 with odds 3.65.",
+          "text": "Everton FC o Empate y Menos\n3.5\n3.65"
+        }
+      ],
+      "text": "Doble Oportunidad con Más/Menos (3.5)\nArsenal FC o Everton FC y Más\n3.5\n3.25\nArsenal FC o Everton FC y Menos\n3.5\n1.80\nArsenal FC o Empate y Más\n3.5\n3.00\nArsenal FC o Empate y Menos\n3.5\n1.60\nEverton FC o Empate y Más\n3.5\n13.50\nEverton FC o Empate y Menos\n3.5\n3.65",
+      "title": "Doble Oportunidad con Más/Menos (3.5)"
+    },
+    {
+      "qa": "market-type-id-26",
+      "selections": [],
+      "text": "Doble Oportunidad con Más/Menos (4.5)",
+      "title": "Doble Oportunidad con Más/Menos (4.5)"
+    },
+    {
+      "qa": "market-type-id-26",
+      "selections": [],
+      "text": "Doble Oportunidad con Más/Menos (5.5)",
+      "title": "Doble Oportunidad con Más/Menos (5.5)"
+    },
+    {
+      "qa": "market-type-id-23",
+      "selections": [],
+      "text": "Ambos Anotan y Más/Menos (2.5)",
+      "title": "Ambos Anotan y Más/Menos (2.5)"
+    },
+    {
+      "qa": "market-type-id-23",
+      "selections": [],
+      "text": "Ambos Anotan y Más/Menos (3.5)",
+      "title": "Ambos Anotan y Más/Menos (3.5)"
+    },
+    {
+      "qa": "market-type-id-23",
+      "selections": [],
+      "text": "Ambos Anotan y Más/Menos (4.5)",
+      "title": "Ambos Anotan y Más/Menos (4.5)"
+    },
+    {
+      "qa": "market-type-id-23",
+      "selections": [],
+      "text": "Ambos Anotan y Más/Menos (5.5)",
+      "title": "Ambos Anotan y Más/Menos (5.5)"
+    },
+    {
+      "qa": "market-type-id-20",
+      "selections": [],
+      "text": "Resultado del partido / Ambos Equipos Anotan",
+      "title": "Resultado del partido / Ambos Equipos Anotan"
+    },
+    {
+      "qa": "market-type-id-25",
+      "selections": [],
+      "text": "Doble oportunidad / Ambos equipos anotan",
+      "title": "Doble oportunidad / Ambos equipos anotan"
+    },
+    {
+      "qa": "market-type-id-532",
+      "selections": [],
+      "text": "Qué ocurrirá primero en el partido - Primer Tiempo",
+      "title": "Qué ocurrirá primero en el partido - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-56",
+      "selections": [],
+      "text": "Penal concedido",
+      "title": "Penal concedido"
+    },
+    {
+      "qa": "market-type-id-124",
+      "selections": [],
+      "text": "Tiempo del Primer Gol Menos/Más 28 minutos",
+      "title": "Tiempo del Primer Gol Menos/Más 28 minutos"
+    },
+    {
+      "qa": "market-type-id-384",
+      "selections": [],
+      "text": "Arsenal FC anota en ambos tiempos",
+      "title": "Arsenal FC anota en ambos tiempos"
+    },
+    {
+      "qa": "market-type-id-364",
+      "selections": [],
+      "text": "Everton FC anota en ambos tiempos",
+      "title": "Everton FC anota en ambos tiempos"
+    },
+    {
+      "qa": "market-type-id-72",
+      "selections": [],
+      "text": "Autogol",
+      "title": "Autogol"
+    },
+    {
+      "qa": "market-type-id-96",
+      "selections": [],
+      "text": "Margen del Triunfo",
+      "title": "Margen del Triunfo"
+    },
+    {
+      "qa": "market-type-id-58",
+      "selections": [],
+      "text": "Penal concedido Primer Tiempo",
+      "title": "Penal concedido Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-59",
+      "selections": [],
+      "text": "Equipo que Anota un Penal",
+      "title": "Equipo que Anota un Penal"
+    },
+    {
+      "qa": "market-type-id-60",
+      "selections": [],
+      "text": "Equipo que falla un penal",
+      "title": "Equipo que falla un penal"
+    },
+    {
+      "qa": "market-type-id-5025",
+      "selections": [],
+      "text": "Arsenal FC Penal concedido",
+      "title": "Arsenal FC Penal concedido"
+    },
+    {
+      "qa": "market-type-id-5026",
+      "selections": [],
+      "text": "Everton FC Penal concedido",
+      "title": "Everton FC Penal concedido"
+    },
+    {
+      "qa": "market-type-id-57",
+      "selections": [],
+      "text": "Dos penales concedidos",
+      "title": "Dos penales concedidos"
+    },
+    {
+      "qa": "market-type-id-61",
+      "selections": [],
+      "text": "Ambos equipos ganan un penal",
+      "title": "Ambos equipos ganan un penal"
+    },
+    {
+      "qa": "market-type-id-102",
+      "selections": [],
+      "text": "Curso del juego",
+      "title": "Curso del juego"
+    },
+    {
+      "qa": "market-type-id-270",
+      "selections": [],
+      "text": "Arsenal FC Gana luego de ir perdiendo",
+      "title": "Arsenal FC Gana luego de ir perdiendo"
+    },
+    {
+      "qa": "market-type-id-196",
+      "selections": [],
+      "text": "Everton FC Gana luego de ir perdiendo",
+      "title": "Everton FC Gana luego de ir perdiendo"
+    },
+    {
+      "qa": "market-type-id-5015",
+      "selections": [],
+      "text": "Resultado del partido o Ambos equipos anotan",
+      "title": "Resultado del partido o Ambos equipos anotan"
+    },
+    {
+      "qa": "market-type-id-5249",
+      "selections": [],
+      "text": "Resultado del partido o Goles totales Más/Menos 2.5",
+      "title": "Resultado del partido o Goles totales Más/Menos 2.5"
+    },
+    {
+      "qa": "market-type-id-18",
+      "selections": [],
+      "text": "Marcador correcto (múltiple)",
+      "title": "Marcador correcto (múltiple)"
+    },
+    {
+      "qa": "market-type-id-19",
+      "selections": [],
+      "text": "Marcador Correcto - Sin Perder",
+      "title": "Marcador Correcto - Sin Perder"
+    },
+    {
+      "qa": "market-type-id-147",
+      "selections": [],
+      "text": "Marcador correcto Primer tiempo/Tiempo completo",
+      "title": "Marcador correcto Primer tiempo/Tiempo completo"
+    },
+    {
+      "qa": "market-type-id-185",
+      "selections": [
+        {
+          "aria": "Bet on Arsenal FC -2.0 with odds 3.1.",
+          "text": "Arsenal FC\n-2.0\n3.10"
+        },
+        {
+          "aria": "Bet on Everton FC +2.0 with odds 1.4.",
+          "text": "Everton FC\n+2.0\n1.40"
+        },
+        {
+          "aria": "Bet on Arsenal FC -1.5 with odds 2.12.",
+          "text": "Arsenal FC\n-1.5\n2.12"
+        },
+        {
+          "aria": "Bet on Everton FC +1.5 with odds 1.75.",
+          "text": "Everton FC\n+1.5\n1.75"
+        },
+        {
+          "aria": "Bet on Arsenal FC -1.0 with odds 1.62.",
+          "text": "Arsenal FC\n-1.0\n1.62"
+        },
+        {
+          "aria": "Bet on Everton FC +1.0 with odds 2.37.",
+          "text": "Everton FC\n+1.0\n2.37"
+        },
+        {
+          "aria": "Bet on Arsenal FC -0.5 with odds 1.4.",
+          "text": "Arsenal FC\n-0.5\n1.40"
+        },
+        {
+          "aria": "Bet on Everton FC +0.5 with odds 3.1.",
+          "text": "Everton FC\n+0.5\n3.10"
+        }
+      ],
+      "text": "Hándicap Asiático (Resultado actual 0 - 0)\nArsenal FC\n-2.0\n3.10\nEverton FC\n+2.0\n1.40\nArsenal FC\n-1.5\n2.12\nEverton FC\n+1.5\n1.75\nArsenal FC\n-1.0\n1.62\nEverton FC\n+1.0\n2.37\nArsenal FC\n-0.5\n1.40\nEverton FC\n+0.5\n3.10\nMOSTRAR MENOS",
+      "title": "Hándicap Asiático (Resultado actual 0 - 0)"
+    },
+    {
+      "qa": "market-type-id-189",
+      "selections": [],
+      "text": "Asiático (Más/Menos) Total de goles",
+      "title": "Asiático (Más/Menos) Total de goles"
+    },
+    {
+      "qa": "market-type-id-186",
+      "selections": [],
+      "text": "Hándicap Asiático - Primer Tiempo (Resultado actual 0 - 0)",
+      "title": "Hándicap Asiático - Primer Tiempo (Resultado actual 0 - 0)"
+    },
+    {
+      "qa": "market-type-id-395",
+      "selections": [],
+      "text": "Asiático (Más/Menos) - Total de goles en el Primer Tiempo",
+      "title": "Asiático (Más/Menos) - Total de goles en el Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-122",
+      "selections": [],
+      "text": "Primer gol antes 28:00",
+      "title": "Primer gol antes 28:00"
+    },
+    {
+      "qa": "market-type-id-123",
+      "selections": [],
+      "text": "Gol anotado después del minuto 74:00",
+      "title": "Gol anotado después del minuto 74:00"
+    },
+    {
+      "qa": "market-type-id-125",
+      "selections": [],
+      "text": "Próximo gol antes de (Gol 1)",
+      "title": "Próximo gol antes de (Gol 1)"
+    },
+    {
+      "qa": "market-type-id-126",
+      "selections": [],
+      "text": "Arsenal FC Próximo gol antes de (Gol 1)",
+      "title": "Arsenal FC Próximo gol antes de (Gol 1)"
+    },
+    {
+      "qa": "market-type-id-127",
+      "selections": [],
+      "text": "Everton FC Próximo gol antes de (Gol 1)",
+      "title": "Everton FC Próximo gol antes de (Gol 1)"
+    },
+    {
+      "qa": "market-type-id-2934",
+      "selections": [],
+      "text": "Resultado por minuto 00:00 - 09:59",
+      "title": "Resultado por minuto 00:00 - 09:59"
+    },
+    {
+      "qa": "market-type-id-2934",
+      "selections": [],
+      "text": "Resultado por minuto 00:00 - 19:59",
+      "title": "Resultado por minuto 00:00 - 19:59"
+    },
+    {
+      "qa": "market-type-id-2934",
+      "selections": [],
+      "text": "Resultado por minuto 00:00 - 29:59",
+      "title": "Resultado por minuto 00:00 - 29:59"
+    },
+    {
+      "qa": "market-type-id-2934",
+      "selections": [],
+      "text": "Resultado por minuto 00:00 - 39:59",
+      "title": "Resultado por minuto 00:00 - 39:59"
+    },
+    {
+      "qa": "market-type-id-2934",
+      "selections": [],
+      "text": "Resultado por minuto 00:00 - 49:59",
+      "title": "Resultado por minuto 00:00 - 49:59"
+    },
+    {
+      "qa": "market-type-id-2934",
+      "selections": [],
+      "text": "Resultado por minuto 00:00 - 59:59",
+      "title": "Resultado por minuto 00:00 - 59:59"
+    },
+    {
+      "qa": "market-type-id-2934",
+      "selections": [],
+      "text": "Resultado por minuto 00:00 - 69:59",
+      "title": "Resultado por minuto 00:00 - 69:59"
+    },
+    {
+      "qa": "market-type-id-2934",
+      "selections": [],
+      "text": "Resultado por minuto 00:00 - 79:59",
+      "title": "Resultado por minuto 00:00 - 79:59"
+    },
+    {
+      "qa": "market-type-id-128",
+      "selections": [],
+      "text": "Rango de resultados por minuto (00:00 - 14:59)",
+      "title": "Rango de resultados por minuto (00:00 - 14:59)"
+    },
+    {
+      "qa": "market-type-id-128",
+      "selections": [],
+      "text": "Rango de resultados por minuto (15:00 - 29:59)",
+      "title": "Rango de resultados por minuto (15:00 - 29:59)"
+    },
+    {
+      "qa": "market-type-id-128",
+      "selections": [],
+      "text": "Rango de resultados por minuto (30:00 - 45:00)",
+      "title": "Rango de resultados por minuto (30:00 - 45:00)"
+    },
+    {
+      "qa": "market-type-id-128",
+      "selections": [],
+      "text": "Rango de resultados por minuto (45:00 - 59:59)",
+      "title": "Rango de resultados por minuto (45:00 - 59:59)"
+    },
+    {
+      "qa": "market-type-id-128",
+      "selections": [],
+      "text": "Rango de resultados por minuto (60:00 - 74:59)",
+      "title": "Rango de resultados por minuto (60:00 - 74:59)"
+    },
+    {
+      "qa": "market-type-id-128",
+      "selections": [],
+      "text": "Rango de resultados por minuto (75:00 - 90:00)",
+      "title": "Rango de resultados por minuto (75:00 - 90:00)"
+    },
+    {
+      "qa": "market-type-id-130",
+      "selections": [],
+      "text": "Goles cronometrados Más/Menos (00:00 - 14:59)",
+      "title": "Goles cronometrados Más/Menos (00:00 - 14:59)"
+    },
+    {
+      "qa": "market-type-id-130",
+      "selections": [],
+      "text": "Goles cronometrados Más/Menos (15:00 - 29:59)",
+      "title": "Goles cronometrados Más/Menos (15:00 - 29:59)"
+    },
+    {
+      "qa": "market-type-id-130",
+      "selections": [],
+      "text": "Goles cronometrados Más/Menos (30:00 - 45:00)",
+      "title": "Goles cronometrados Más/Menos (30:00 - 45:00)"
+    },
+    {
+      "qa": "market-type-id-130",
+      "selections": [],
+      "text": "Goles cronometrados Más/Menos (45:00 - 59:59)",
+      "title": "Goles cronometrados Más/Menos (45:00 - 59:59)"
+    },
+    {
+      "qa": "market-type-id-130",
+      "selections": [],
+      "text": "Goles cronometrados Más/Menos (60:00 - 74:59)",
+      "title": "Goles cronometrados Más/Menos (60:00 - 74:59)"
+    },
+    {
+      "qa": "market-type-id-27",
+      "selections": [],
+      "text": "Hora del próximo gol (Gol 1)",
+      "title": "Hora del próximo gol (Gol 1)"
+    },
+    {
+      "qa": "market-type-id-28",
+      "selections": [],
+      "text": "Hora del próximo gol Arsenal FC (Gol 1)",
+      "title": "Hora del próximo gol Arsenal FC (Gol 1)"
+    },
+    {
+      "qa": "market-type-id-29",
+      "selections": [],
+      "text": "Hora del próximo gol Everton FC (Gol 1)",
+      "title": "Hora del próximo gol Everton FC (Gol 1)"
+    },
+    {
+      "qa": "market-type-id-503",
+      "selections": [],
+      "text": "Total de Goles Exactos",
+      "title": "Total de Goles Exactos"
+    },
+    {
+      "qa": "market-type-id-13",
+      "selections": [
+        {
+          "aria": "Bet on Más de 1.5 with odds 1.26.",
+          "text": "Más de\n1.5\n1.26"
+        },
+        {
+          "aria": "Bet on Menos 1.5 with odds 3.85.",
+          "text": "Menos\n1.5\n3.85"
+        },
+        {
+          "aria": "Bet on Más de 2.5 with odds 1.78.",
+          "text": "Más de\n2.5\n1.78"
+        },
+        {
+          "aria": "Bet on Menos 2.5 with odds 2.05.",
+          "text": "Menos\n2.5\n2.05"
+        },
+        {
+          "aria": "Bet on Más de 3.5 with odds 2.87.",
+          "text": "Más de\n3.5\n2.87"
+        },
+        {
+          "aria": "Bet on Menos 3.5 with odds 1.42.",
+          "text": "Menos\n3.5\n1.42"
+        }
+      ],
+      "text": "Goles totales Más/Menos\nMás de\n1.5\n1.26\nMenos\n1.5\n3.85\nMás de\n2.5\n1.78\nMenos\n2.5\n2.05\nMás de\n3.5\n2.87\nMenos\n3.5\n1.42\nMOSTRAR TODO",
+      "title": "Goles totales Más/Menos"
+    },
+    {
+      "qa": "market-type-id-21",
+      "selections": [],
+      "text": "Gana el resto del Partido [0 - 0]",
+      "title": "Gana el resto del Partido [0 - 0]"
+    },
+    {
+      "qa": "market-type-id-135",
+      "selections": [],
+      "text": "Apuesta sin Empate Segundo Tiempo",
+      "title": "Apuesta sin Empate Segundo Tiempo"
+    },
+    {
+      "qa": "market-type-id-142",
+      "selections": [],
+      "text": "Más de 1.5 goles anotados en cada tiempo",
+      "title": "Más de 1.5 goles anotados en cada tiempo"
+    },
+    {
+      "qa": "market-type-id-143",
+      "selections": [],
+      "text": "Menos de 1.5 Goles Anotados en Ambos Tiempos",
+      "title": "Menos de 1.5 Goles Anotados en Ambos Tiempos"
+    }
+  ],
+  "top": "Fútbol\n\nBásquetbol\n\nTenis\n\nEsports\n\nBéisbol\n\nMMA\n\nFútbol americano\n\nVoleibol\n\nHockey sobre hielo\n\nTenis de mesa\n\nBox\n\nBalonmano\n\nDardos\n\nVóley-playa\n\nFórmula 1\n\nUnión de Rugby\n\nLiga de Rugby\n\nCiclismo\n\nFutsal\n\nWaterpolo\n\nBádminton\n\nSnooker\n\nCriquet\n\nLacrosse\n\nMoto GP\n\nGolf\n\nDeportes de motor\n\nDeportes de invierno\n\nFloorball\n\nInicioFútbolInglaterraPremier LeagueArsenal FC - Everton FC\nSábado, 24 Octubre 2026 09:00\nArsenal FC\nEverton FC\nPopulares\nGoles\nEstadísticas\nPrimer Tiempo\nCombos\nEspeciales\nHándicap\nHándicap Asiático\nMinutos\nTodo\nBET\nBUILDER\nBB\nResultado del partido\n\n2 GOLES DE VENTAJA\n\n1\n1.40\nX\n4.55\n2\n8.50\nEl Arsenal FC ha ganado 4 de sus últimos 5 partidos en la Premier League.\nEl Arsenal FC ha ganado 4 de 6 duelos contra el Everton FC en todas las competiciones.\nEl Arsenal FC ha ganado 25 de sus últimos 31 partidos en casa en todas las competiciones.\nEl Arsenal FC ha ganado 45 de sus últimos 63 partidos en todas las competiciones.\nBB\nGoles totales Más/Menos\nHubo más de 2,5 goles en 4 de los últimos 5 partidos del Arsenal FC en todas las competiciones.\nLos partidos del Everton FC promedian 2,1 goles por partido en la Premier League esta temporada.\nSolo 2 de 7 partidos del Everton FC superaron los 2,5 goles en la Premier League esta temporada.\nEl Arsenal FC promedia 1,7 gole",
+  "fixture_id": "560616",
+  "url": "https://www.betano.pe/cuotas-de-partido/arsenal-fc-everton-fc/93917477/?bt=9",
+  "observed_at": "2026-10-19T06:06:44.781Z"
+}

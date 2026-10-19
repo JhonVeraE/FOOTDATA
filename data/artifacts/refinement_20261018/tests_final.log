@@ -1,0 +1,42 @@
+test_missing_count_uses_its_own_effective_sample (test_forecast_refinements.ForecastRefinementTests.test_missing_count_uses_its_own_effective_sample) ... ok
+test_pending_round_does_not_replace_next_full_round (test_forecast_refinements.ForecastRefinementTests.test_pending_round_does_not_replace_next_full_round) ... ok
+test_unknown_kickoff_is_not_invented (test_forecast_refinements.ForecastRefinementTests.test_unknown_kickoff_is_not_invented) ... ok
+test_vectorized_validator_still_rejects_bad_auxiliary_data (test_forecast_refinements.ForecastRefinementTests.test_vectorized_validator_still_rejects_bad_auxiliary_data) ... ok
+test_venue_prior_is_not_the_all_venue_mean (test_forecast_refinements.ForecastRefinementTests.test_venue_prior_is_not_the_all_venue_mean) ... ok
+test_verified_today_result_can_train_next_fixture (test_forecast_refinements.ForecastRefinementTests.test_verified_today_result_can_train_next_fixture) ... ok
+test_full_match_repeated_values_must_agree (test_matchday_review.MatchdayReviewTests.test_full_match_repeated_values_must_agree) ... ok
+test_import_is_unique_reciprocal_and_attested (test_matchday_review.MatchdayReviewTests.test_import_is_unique_reciprocal_and_attested) ... ok
+test_missing_zero_card_category_is_the_only_optional_case (test_matchday_review.MatchdayReviewTests.test_missing_zero_card_category_is_the_only_optional_case) ... ok
+test_review_matches_prospective_archive_and_source_scores (test_matchday_review.MatchdayReviewTests.test_review_matches_prospective_archive_and_source_scores) ... ok
+test_latest_prematch_snapshot_only (test_pipeline.ArchiveTests.test_latest_prematch_snapshot_only) ... ok
+test_all_new_sources_loaded_once (test_pipeline.PipelineTests.test_all_new_sources_loaded_once) ... ok
+test_all_target_calendar_teams_have_explicit_identity (test_pipeline.PipelineTests.test_all_target_calendar_teams_have_explicit_identity) ... ok
+test_api_cache_expires (test_pipeline.PipelineTests.test_api_cache_expires) ... ok
+test_auxiliary_missing_values_are_not_zero_or_nan (test_pipeline.PipelineTests.test_auxiliary_missing_values_are_not_zero_or_nan) ... ok
+test_canonical_identity_has_no_fuzzy_guess (test_pipeline.PipelineTests.test_canonical_identity_has_no_fuzzy_guess) ... ok
+test_corrupt_historical_auxiliary_stats_are_quarantined (test_pipeline.PipelineTests.test_corrupt_historical_auxiliary_stats_are_quarantined) ... ok
+test_forecast_has_future_fixtures_only (test_pipeline.PipelineTests.test_forecast_has_future_fixtures_only) ... ok
+test_future_results_cannot_change_past_fit (test_pipeline.PipelineTests.test_future_results_cannot_change_past_fit) ... ok
+test_invalid_fixture_pairs_raise (test_pipeline.PipelineTests.test_invalid_fixture_pairs_raise) ... ok
+test_missing_cutoff_and_same_day_results (test_pipeline.PipelineTests.test_missing_cutoff_and_same_day_results) ... ok
+test_probabilities_and_no_score_clipping (test_pipeline.PipelineTests.test_probabilities_and_no_score_clipping) ... ok
+test_report_contract_and_h2h_uniqueness (test_pipeline.PipelineTests.test_report_contract_and_h2h_uniqueness) ... ok
+test_report_rejects_future_model (test_pipeline.PipelineTests.test_report_rejects_future_model) ... ok
+test_undated_elo_rejected (test_pipeline.PipelineTests.test_undated_elo_rejected) ... ok
+test_unknown_champions_club_is_explicit (test_pipeline.PipelineTests.test_unknown_champions_club_is_explicit) ... ok
+test_missing_metrics_do_not_become_zero (test_team_dashboard.TeamDashboardTests.test_missing_metrics_do_not_become_zero) ... ok
+test_no_matches_have_no_average (test_team_dashboard.TeamDashboardTests.test_no_matches_have_no_average) ... ok
+test_provider_points_are_preserved_even_with_deductions (test_team_dashboard.TeamDashboardTests.test_provider_points_are_preserved_even_with_deductions) ... ok
+test_splits_reconcile_and_means_use_observed_denominators (test_team_dashboard.TeamDashboardTests.test_splits_reconcile_and_means_use_observed_denominators) ... ok
+test_team_rosters_have_all_clubs_and_crests (test_team_dashboard.TeamDashboardTests.test_team_rosters_have_all_clubs_and_crests) ... ok
+test_asset_manifest_contains_no_download_failures (test_web_assets.WebAssetTests.test_asset_manifest_contains_no_download_failures) ... ok
+test_every_forecast_team_has_a_cached_crest (test_web_assets.WebAssetTests.test_every_forecast_team_has_a_cached_crest) ... ok
+test_every_target_competition_has_an_emblem (test_web_assets.WebAssetTests.test_every_target_competition_has_an_emblem) ... ok
+test_local_paths_and_image_formats (test_web_assets.WebAssetTests.test_local_paths_and_image_formats) ... ok
+
+----------------------------------------------------------------------
+Ran 35 tests in 24.273s
+
+OK
+Prospective archive: 1 completed matches scored.
+  [api] fixtures {'league': 1} -> cupo usado: 1/95

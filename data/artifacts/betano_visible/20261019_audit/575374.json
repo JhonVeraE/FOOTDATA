@@ -1,0 +1,1279 @@
+{
+  "heading": [
+    "Aston Villa\nViking FK"
+  ],
+  "markets": [
+    {
+      "qa": "market-type-id-1",
+      "selections": [
+        {
+          "aria": "Bet on 1 with odds 1.25.",
+          "text": "1\n1.25"
+        },
+        {
+          "aria": "Bet on X with odds 6.4.",
+          "text": "X\n6.40"
+        },
+        {
+          "aria": "Bet on 2 with odds 10.5.",
+          "text": "2\n10.50"
+        }
+      ],
+      "text": "Resultado del partido\n\n2 GOLES DE VENTAJA\n\n1\n1.25\nX\n6.40\n2\n10.50\nViking FK sumó 4 victorias y 1 empate en sus últimos 5 partidos en todas las competiciones.\nViking FK ganó 27 de 35 partidos en todas las competiciones, logrando un 77,1% de victorias.\nViking FK ganó 12 de sus 19 partidos como visitante en todas las competiciones (63,2% de victorias fuera).",
+      "title": "Resultado del partido\n\n2 GOLES DE VENTAJA"
+    },
+    {
+      "qa": "market-type-id-13",
+      "selections": [
+        {
+          "aria": "Bet on Más de 2.5 with odds 1.34.",
+          "text": "Más de\n2.5\n1.34"
+        },
+        {
+          "aria": "Bet on Menos 2.5 with odds 3.3.",
+          "text": "Menos\n2.5\n3.30"
+        },
+        {
+          "aria": "Bet on Más de 3.5 with odds 1.82.",
+          "text": "Más de\n3.5\n1.82"
+        },
+        {
+          "aria": "Bet on Menos 3.5 with odds 2.",
+          "text": "Menos\n3.5\n2.00"
+        },
+        {
+          "aria": "Bet on Más de 4.5 with odds 2.77.",
+          "text": "Más de\n4.5\n2.77"
+        },
+        {
+          "aria": "Bet on Menos 4.5 with odds 1.45.",
+          "text": "Menos\n4.5\n1.45"
+        }
+      ],
+      "text": "Goles totales Más/Menos\nLos últimos 3 partidos de Viking FK en la Champions League superaron los 2,5 goles.\nLos partidos de Viking FK en la Champions League promedian 4,5 goles por encuentro esta temporada.\nSe superaron los 2,5 goles en 4 de los últimos 5 partidos de Aston Villa en todas las competiciones.\nEl 80% de los últimos 35 partidos de Viking FK en todas las competiciones superó los 2,5 goles.\nLos últimos 35 partidos de Viking FK en todas las competiciones promediaron 3,7 goles por duelo.\nMás de\n2.5\n1.34\nMenos\n2.5\n3.30\nMás de\n3.5\n1.82\nMenos\n3.5\n2.00\nMás de\n4.5\n2.77\nMenos\n4.5\n1.45\nMOSTRAR TODO",
+      "title": "Goles totales Más/Menos"
+    },
+    {
+      "qa": "market-type-id-9",
+      "selections": [
+        {
+          "aria": "Bet on Aston Villa o Empate with odds 1.07.",
+          "text": "Aston Villa o Empate\n1.07"
+        },
+        {
+          "aria": "Bet on Aston Villa o Viking FK with odds 1.12.",
+          "text": "Aston Villa o Viking FK\n1.12"
+        },
+        {
+          "aria": "Bet on Viking FK o Empate with odds 4.15.",
+          "text": "Viking FK o Empate\n4.15"
+        }
+      ],
+      "text": "Doble oportunidad\nAston Villa o Empate\n1.07\nAston Villa o Viking FK\n1.12\nViking FK o Empate\n4.15",
+      "title": "Doble oportunidad"
+    },
+    {
+      "qa": "market-type-id-15",
+      "selections": [
+        {
+          "aria": "Bet on Sí with odds 1.67.",
+          "text": "Sí\n1.67"
+        },
+        {
+          "aria": "Bet on No with odds 2.1.",
+          "text": "No\n2.10"
+        }
+      ],
+      "text": "Ambos equipos anotan\nSí\n1.67\nNo\n2.10\nAmbos equipos marcaron en cada uno de los últimos 3 partidos de Viking FK en la Champions League.\nViking FK ha marcado en 10 partidos consecutivos en todas las competiciones.\nAston Villa ha visto portería en 7 partidos consecutivos en todas las competiciones.\nAmbos equipos marcaron en el 68,6% de los últimos 35 partidos de Viking FK en todas las competiciones.\nViking FK mantuvo su portería a cero en 3 de sus últimos 5 partidos en todas las competiciones.",
+      "title": "Ambos equipos anotan"
+    },
+    {
+      "qa": "market-type-id-76",
+      "selections": [],
+      "text": "Goleador",
+      "title": "Goleador"
+    },
+    {
+      "qa": "market-type-id-8",
+      "selections": [],
+      "text": "Resultado Primer Tiempo",
+      "title": "Resultado Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-14",
+      "selections": [],
+      "text": "Más/Menos Goles en Primer Tiempo",
+      "title": "Más/Menos Goles en Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-84",
+      "selections": [],
+      "text": "Aston Villa - Goles totales Más/Menos",
+      "title": "Aston Villa - Goles totales Más/Menos"
+    },
+    {
+      "qa": "market-type-id-85",
+      "selections": [],
+      "text": "Viking FK - Goles totales Más/Menos",
+      "title": "Viking FK - Goles totales Más/Menos"
+    },
+    {
+      "qa": "market-type-id-3966",
+      "selections": [],
+      "text": "Ambos equipos anotan o Más de 2.5",
+      "title": "Ambos equipos anotan o Más de 2.5"
+    },
+    {
+      "qa": "market-type-id-10",
+      "selections": [],
+      "text": "Apuesta sin Empate",
+      "title": "Apuesta sin Empate"
+    },
+    {
+      "qa": "market-type-id-408",
+      "selections": [],
+      "text": "Hándicap Resultado del Partido",
+      "title": "Hándicap Resultado del Partido"
+    },
+    {
+      "qa": "market-type-id-16",
+      "selections": [],
+      "text": "Primer Tiempo/Tiempo Completo",
+      "title": "Primer Tiempo/Tiempo Completo"
+    },
+    {
+      "qa": "market-type-id-17",
+      "selections": [],
+      "text": "Marcador Correcto",
+      "title": "Marcador Correcto"
+    },
+    {
+      "qa": "market-type-id-11",
+      "selections": [],
+      "text": "Próximo gol (Gol 1)",
+      "title": "Próximo gol (Gol 1)"
+    },
+    {
+      "qa": "market-type-id-115",
+      "selections": [],
+      "text": "Más/Menos Goles en Primer Tiempo Aston Villa",
+      "title": "Más/Menos Goles en Primer Tiempo Aston Villa"
+    },
+    {
+      "qa": "market-type-id-116",
+      "selections": [],
+      "text": "Más/Menos Goles en Primer Tiempo Viking FK",
+      "title": "Más/Menos Goles en Primer Tiempo Viking FK"
+    },
+    {
+      "qa": "market-type-id-131",
+      "selections": [],
+      "text": "Más/Menos Goles en Segundo Tiempo",
+      "title": "Más/Menos Goles en Segundo Tiempo"
+    },
+    {
+      "qa": "market-type-id-2818",
+      "selections": [],
+      "text": "Total de goles",
+      "title": "Total de goles"
+    },
+    {
+      "qa": "market-type-id-104",
+      "selections": [],
+      "text": "Total de goles (extra)",
+      "title": "Total de goles (extra)"
+    },
+    {
+      "qa": "market-type-id-31",
+      "selections": [],
+      "text": "Forma de anotación de gol (Gol 1)",
+      "title": "Forma de anotación de gol (Gol 1)"
+    },
+    {
+      "qa": "market-type-id-148",
+      "selections": [],
+      "text": "Total de goles par/impar",
+      "title": "Total de goles par/impar"
+    },
+    {
+      "qa": "market-type-id-341",
+      "selections": [],
+      "text": "Primer equipo en anotar X Goles",
+      "title": "Primer equipo en anotar X Goles"
+    },
+    {
+      "qa": "market-type-id-105",
+      "selections": [],
+      "text": "Total de goles del equipo",
+      "title": "Total de goles del equipo"
+    },
+    {
+      "qa": "market-type-id-13",
+      "selections": [
+        {
+          "aria": "Bet on Más de 2.5 with odds 1.34.",
+          "text": "Más de\n2.5\n1.34"
+        },
+        {
+          "aria": "Bet on Menos 2.5 with odds 3.3.",
+          "text": "Menos\n2.5\n3.30"
+        },
+        {
+          "aria": "Bet on Más de 3.5 with odds 1.82.",
+          "text": "Más de\n3.5\n1.82"
+        },
+        {
+          "aria": "Bet on Menos 3.5 with odds 2.",
+          "text": "Menos\n3.5\n2.00"
+        },
+        {
+          "aria": "Bet on Más de 4.5 with odds 2.77.",
+          "text": "Más de\n4.5\n2.77"
+        },
+        {
+          "aria": "Bet on Menos 4.5 with odds 1.45.",
+          "text": "Menos\n4.5\n1.45"
+        }
+      ],
+      "text": "Goles totales Más/Menos\nMás de\n2.5\n1.34\nMenos\n2.5\n3.30\nMás de\n3.5\n1.82\nMenos\n3.5\n2.00\nMás de\n4.5\n2.77\nMenos\n4.5\n1.45\nMOSTRAR TODO",
+      "title": "Goles totales Más/Menos"
+    },
+    {
+      "qa": "market-type-id-343",
+      "selections": [
+        {
+          "aria": "Bet on Más de 9.5 with odds 1.5.",
+          "text": "Más de\n9.5\n1.50"
+        },
+        {
+          "aria": "Bet on Menos 9.5 with odds 2.47.",
+          "text": "Menos\n9.5\n2.47"
+        },
+        {
+          "aria": "Bet on Más de 10.5 with odds 1.82.",
+          "text": "Más de\n10.5\n1.82"
+        },
+        {
+          "aria": "Bet on Menos 10.5 with odds 1.93.",
+          "text": "Menos\n10.5\n1.93"
+        },
+        {
+          "aria": "Bet on Más de 11.5 with odds 2.3.",
+          "text": "Más de\n11.5\n2.30"
+        },
+        {
+          "aria": "Bet on Menos 11.5 with odds 1.57.",
+          "text": "Menos\n11.5\n1.57"
+        }
+      ],
+      "text": "Tiros al Arco\nMás de\n9.5\n1.50\nMenos\n9.5\n2.47\nMás de\n10.5\n1.82\nMenos\n10.5\n1.93\nMás de\n11.5\n2.30\nMenos\n11.5\n1.57",
+      "title": "Tiros al Arco"
+    },
+    {
+      "qa": "market-type-id-535",
+      "selections": [
+        {
+          "aria": "Bet on Más de 6.5 with odds 1.45.",
+          "text": "Más de\n6.5\n1.45"
+        },
+        {
+          "aria": "Bet on Menos 6.5 with odds 2.65.",
+          "text": "Menos\n6.5\n2.65"
+        },
+        {
+          "aria": "Bet on Más de 7.5 with odds 1.8.",
+          "text": "Más de\n7.5\n1.80"
+        },
+        {
+          "aria": "Bet on Menos 7.5 with odds 1.93.",
+          "text": "Menos\n7.5\n1.93"
+        },
+        {
+          "aria": "Bet on Más de 8.5 with odds 2.4.",
+          "text": "Más de\n8.5\n2.40"
+        },
+        {
+          "aria": "Bet on Menos 8.5 with odds 1.53.",
+          "text": "Menos\n8.5\n1.53"
+        }
+      ],
+      "text": "Aston Villa Tiros al Arco\nMás de\n6.5\n1.45\nMenos\n6.5\n2.65\nMás de\n7.5\n1.80\nMenos\n7.5\n1.93\nMás de\n8.5\n2.40\nMenos\n8.5\n1.53",
+      "title": "Aston Villa Tiros al Arco"
+    },
+    {
+      "qa": "market-type-id-449",
+      "selections": [
+        {
+          "aria": "Bet on Más de 1.5 with odds 1.21.",
+          "text": "Más de\n1.5\n1.21"
+        },
+        {
+          "aria": "Bet on Menos 1.5 with odds 4.05.",
+          "text": "Menos\n1.5\n4.05"
+        },
+        {
+          "aria": "Bet on Más de 2.5 with odds 1.65.",
+          "text": "Más de\n2.5\n1.65"
+        },
+        {
+          "aria": "Bet on Menos 2.5 with odds 2.15.",
+          "text": "Menos\n2.5\n2.15"
+        },
+        {
+          "aria": "Bet on Más de 3.5 with odds 2.55.",
+          "text": "Más de\n3.5\n2.55"
+        },
+        {
+          "aria": "Bet on Menos 3.5 with odds 1.47.",
+          "text": "Menos\n3.5\n1.47"
+        }
+      ],
+      "text": "Viking FK Tiros al Arco\nMás de\n1.5\n1.21\nMenos\n1.5\n4.05\nMás de\n2.5\n1.65\nMenos\n2.5\n2.15\nMás de\n3.5\n2.55\nMenos\n3.5\n1.47",
+      "title": "Viking FK Tiros al Arco"
+    },
+    {
+      "qa": "market-type-id-4159",
+      "selections": [
+        {
+          "aria": "Bet on Más de 26.5 with odds 1.6.",
+          "text": "Más de\n26.5\n1.60"
+        },
+        {
+          "aria": "Bet on Menos 26.5 with odds 2.25.",
+          "text": "Menos\n26.5\n2.25"
+        },
+        {
+          "aria": "Bet on Más de 27.5 with odds 1.82.",
+          "text": "Más de\n27.5\n1.82"
+        },
+        {
+          "aria": "Bet on Menos 27.5 with odds 1.93.",
+          "text": "Menos\n27.5\n1.93"
+        },
+        {
+          "aria": "Bet on Más de 28.5 with odds 2.07.",
+          "text": "Más de\n28.5\n2.07"
+        },
+        {
+          "aria": "Bet on Menos 28.5 with odds 1.7.",
+          "text": "Menos\n28.5\n1.70"
+        }
+      ],
+      "text": "Remates totales\nMás de\n26.5\n1.60\nMenos\n26.5\n2.25\nMás de\n27.5\n1.82\nMenos\n27.5\n1.93\nMás de\n28.5\n2.07\nMenos\n28.5\n1.70",
+      "title": "Remates totales"
+    },
+    {
+      "qa": "market-type-id-79",
+      "selections": [],
+      "text": "Jugador que anota +2 goles",
+      "title": "Jugador que anota +2 goles"
+    },
+    {
+      "qa": "market-type-id-80",
+      "selections": [],
+      "text": "Triplete del Jugador",
+      "title": "Triplete del Jugador"
+    },
+    {
+      "qa": "market-type-id-347",
+      "selections": [],
+      "text": "Anota desde fuera del área",
+      "title": "Anota desde fuera del área"
+    },
+    {
+      "qa": "market-type-id-77",
+      "selections": [],
+      "text": "Anotar en cualquier momento - Primer Tiempo",
+      "title": "Anotar en cualquier momento - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-83",
+      "selections": [],
+      "text": "El jugador marca en ambos tiempos",
+      "title": "El jugador marca en ambos tiempos"
+    },
+    {
+      "qa": "market-type-id-5306",
+      "selections": [],
+      "text": "Primer goleador del equipo local",
+      "title": "Primer goleador del equipo local"
+    },
+    {
+      "qa": "market-type-id-5307",
+      "selections": [],
+      "text": "Primer goleador del equipo visitante",
+      "title": "Primer goleador del equipo visitante"
+    },
+    {
+      "qa": "market-type-id-4160",
+      "selections": [
+        {
+          "aria": "Bet on Más de 18.5 with odds 1.55.",
+          "text": "Más de\n18.5\n1.55"
+        },
+        {
+          "aria": "Bet on Menos 18.5 with odds 2.35.",
+          "text": "Menos\n18.5\n2.35"
+        },
+        {
+          "aria": "Bet on Más de 19.5 with odds 1.78.",
+          "text": "Más de\n19.5\n1.78"
+        },
+        {
+          "aria": "Bet on Menos 19.5 with odds 1.95.",
+          "text": "Menos\n19.5\n1.95"
+        },
+        {
+          "aria": "Bet on Más de 20.5 with odds 2.12.",
+          "text": "Más de\n20.5\n2.12"
+        },
+        {
+          "aria": "Bet on Menos 20.5 with odds 1.67.",
+          "text": "Menos\n20.5\n1.67"
+        }
+      ],
+      "text": "Aston Villa Remates totales\nMás de\n18.5\n1.55\nMenos\n18.5\n2.35\nMás de\n19.5\n1.78\nMenos\n19.5\n1.95\nMás de\n20.5\n2.12\nMenos\n20.5\n1.67",
+      "title": "Aston Villa Remates totales"
+    },
+    {
+      "qa": "market-type-id-4161",
+      "selections": [
+        {
+          "aria": "Bet on Más de 6.5 with odds 1.42.",
+          "text": "Más de\n6.5\n1.42"
+        },
+        {
+          "aria": "Bet on Menos 6.5 with odds 2.77.",
+          "text": "Menos\n6.5\n2.77"
+        },
+        {
+          "aria": "Bet on Más de 7.5 with odds 1.75.",
+          "text": "Más de\n7.5\n1.75"
+        },
+        {
+          "aria": "Bet on Menos 7.5 with odds 2.02.",
+          "text": "Menos\n7.5\n2.02"
+        },
+        {
+          "aria": "Bet on Más de 8.5 with odds 2.3.",
+          "text": "Más de\n8.5\n2.30"
+        },
+        {
+          "aria": "Bet on Menos 8.5 with odds 1.57.",
+          "text": "Menos\n8.5\n1.57"
+        }
+      ],
+      "text": "Viking FK Remates totales\nMás de\n6.5\n1.42\nMenos\n6.5\n2.77\nMás de\n7.5\n1.75\nMenos\n7.5\n2.02\nMás de\n8.5\n2.30\nMenos\n8.5\n1.57",
+      "title": "Viking FK Remates totales"
+    },
+    {
+      "qa": "market-type-id-5344",
+      "selections": [],
+      "text": "Rangos de Tiros al Arco",
+      "title": "Rangos de Tiros al Arco"
+    },
+    {
+      "qa": "market-type-id-351",
+      "selections": [],
+      "text": "Total de Offsides",
+      "title": "Total de Offsides"
+    },
+    {
+      "qa": "market-type-id-436",
+      "selections": [],
+      "text": "Aston Villa Total de Offsides",
+      "title": "Aston Villa Total de Offsides"
+    },
+    {
+      "qa": "market-type-id-437",
+      "selections": [],
+      "text": "Viking FK Total de Offsides",
+      "title": "Viking FK Total de Offsides"
+    },
+    {
+      "qa": "market-type-id-457",
+      "selections": [],
+      "text": "Palo",
+      "title": "Palo"
+    },
+    {
+      "qa": "market-type-id-4115",
+      "selections": [],
+      "text": "Hándicap - Tiros al Arco 2-Way",
+      "title": "Hándicap - Tiros al Arco 2-Way"
+    },
+    {
+      "qa": "market-type-id-4108",
+      "selections": [],
+      "text": "Primer Tiempo Tiros al Arco",
+      "title": "Primer Tiempo Tiros al Arco"
+    },
+    {
+      "qa": "market-type-id-643",
+      "selections": [],
+      "text": "Total de Saques de meta",
+      "title": "Total de Saques de meta"
+    },
+    {
+      "qa": "market-type-id-4165",
+      "selections": [],
+      "text": "Aston Villa Total de Saques de meta",
+      "title": "Aston Villa Total de Saques de meta"
+    },
+    {
+      "qa": "market-type-id-4166",
+      "selections": [],
+      "text": "Viking FK Total de Saques de meta",
+      "title": "Viking FK Total de Saques de meta"
+    },
+    {
+      "qa": "market-type-id-460",
+      "selections": [],
+      "text": "Total de Saques de banda",
+      "title": "Total de Saques de banda"
+    },
+    {
+      "qa": "market-type-id-4167",
+      "selections": [],
+      "text": "Aston Villa Total de Saques de banda",
+      "title": "Aston Villa Total de Saques de banda"
+    },
+    {
+      "qa": "market-type-id-4168",
+      "selections": [],
+      "text": "Viking FK Total de Saques de banda",
+      "title": "Viking FK Total de Saques de banda"
+    },
+    {
+      "qa": "market-type-id-439",
+      "selections": [],
+      "text": "Total de pases",
+      "title": "Total de pases"
+    },
+    {
+      "qa": "market-type-id-1000113",
+      "selections": [],
+      "text": "Aston Villa Total de pases",
+      "title": "Aston Villa Total de pases"
+    },
+    {
+      "qa": "market-type-id-1000114",
+      "selections": [],
+      "text": "Viking FK Total de pases",
+      "title": "Viking FK Total de pases"
+    },
+    {
+      "qa": "market-type-id-644",
+      "selections": [],
+      "text": "Tackles totales",
+      "title": "Tackles totales"
+    },
+    {
+      "qa": "market-type-id-1000111",
+      "selections": [],
+      "text": "Aston Villa Tackles totales",
+      "title": "Aston Villa Tackles totales"
+    },
+    {
+      "qa": "market-type-id-1000112",
+      "selections": [],
+      "text": "Viking FK Tackles totales",
+      "title": "Viking FK Tackles totales"
+    },
+    {
+      "qa": "market-type-id-4114",
+      "selections": [],
+      "text": "Hándicap - Total de Offsides",
+      "title": "Hándicap - Total de Offsides"
+    },
+    {
+      "qa": "market-type-id-4111",
+      "selections": [],
+      "text": "Hándicap - Total de Saques de meta",
+      "title": "Hándicap - Total de Saques de meta"
+    },
+    {
+      "qa": "market-type-id-4104",
+      "selections": [],
+      "text": "Primer Tiempo Total de Saques de meta",
+      "title": "Primer Tiempo Total de Saques de meta"
+    },
+    {
+      "qa": "market-type-id-4113",
+      "selections": [],
+      "text": "Hándicap - Total de Saques de banda",
+      "title": "Hándicap - Total de Saques de banda"
+    },
+    {
+      "qa": "market-type-id-4106",
+      "selections": [],
+      "text": "Primer Tiempo Total de Saques de banda",
+      "title": "Primer Tiempo Total de Saques de banda"
+    },
+    {
+      "qa": "market-type-id-583",
+      "selections": [],
+      "text": "Primer Remate a portería",
+      "title": "Primer Remate a portería"
+    },
+    {
+      "qa": "market-type-id-627",
+      "selections": [],
+      "text": "Primer Offside",
+      "title": "Primer Offside"
+    },
+    {
+      "qa": "market-type-id-625",
+      "selections": [],
+      "text": "Primer Saque de meta",
+      "title": "Primer Saque de meta"
+    },
+    {
+      "qa": "market-type-id-355",
+      "selections": [],
+      "text": "Primer Saque de banda",
+      "title": "Primer Saque de banda"
+    },
+    {
+      "qa": "market-type-id-113",
+      "selections": [],
+      "text": "Primer Tiempo - Doble Oportunidad",
+      "title": "Primer Tiempo - Doble Oportunidad"
+    },
+    {
+      "qa": "market-type-id-407",
+      "selections": [],
+      "text": "Hándicap Primer Tiempo",
+      "title": "Hándicap Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-144",
+      "selections": [],
+      "text": "Gana cualquiera de los tiempos",
+      "title": "Gana cualquiera de los tiempos"
+    },
+    {
+      "qa": "market-type-id-92",
+      "selections": [],
+      "text": "Resultado Primer tiempo o Tiempo Completo",
+      "title": "Resultado Primer tiempo o Tiempo Completo"
+    },
+    {
+      "qa": "market-type-id-93",
+      "selections": [],
+      "text": "Primer Tiempo/Tiempo Completo - Doble oportunidad",
+      "title": "Primer Tiempo/Tiempo Completo - Doble oportunidad"
+    },
+    {
+      "qa": "market-type-id-12",
+      "selections": [],
+      "text": "Próximo gol en Primer Tiempo (Gol 1)",
+      "title": "Próximo gol en Primer Tiempo (Gol 1)"
+    },
+    {
+      "qa": "market-type-id-114",
+      "selections": [],
+      "text": "Ambos Equipos Anotan en el Primer Tiempo",
+      "title": "Ambos Equipos Anotan en el Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-118",
+      "selections": [],
+      "text": "Marcador correcto en el primer tiempo",
+      "title": "Marcador correcto en el primer tiempo"
+    },
+    {
+      "qa": "market-type-id-112",
+      "selections": [],
+      "text": "Apuesta sin Empate Medio Tiempo",
+      "title": "Apuesta sin Empate Medio Tiempo"
+    },
+    {
+      "qa": "market-type-id-141",
+      "selections": [],
+      "text": "Gol anotado en ambos tiempos",
+      "title": "Gol anotado en ambos tiempos"
+    },
+    {
+      "qa": "market-type-id-138",
+      "selections": [],
+      "text": "Ambos Equipos Anotan en el Primer Tiempo/Segundo Tiempo",
+      "title": "Ambos Equipos Anotan en el Primer Tiempo/Segundo Tiempo"
+    },
+    {
+      "qa": "market-type-id-107",
+      "selections": [],
+      "text": "Tiempo con Más Goles",
+      "title": "Tiempo con Más Goles"
+    },
+    {
+      "qa": "market-type-id-434",
+      "selections": [],
+      "text": "Aston Villa Gana Ambos Tiempos",
+      "title": "Aston Villa Gana Ambos Tiempos"
+    },
+    {
+      "qa": "market-type-id-431",
+      "selections": [],
+      "text": "Viking FK Gana Ambos Tiempos",
+      "title": "Viking FK Gana Ambos Tiempos"
+    },
+    {
+      "qa": "market-type-id-133",
+      "selections": [],
+      "text": "Resultado Segundo Tiempo",
+      "title": "Resultado Segundo Tiempo"
+    },
+    {
+      "qa": "market-type-id-134",
+      "selections": [],
+      "text": "Segundo Tiempo - Doble Oportunidad",
+      "title": "Segundo Tiempo - Doble Oportunidad"
+    },
+    {
+      "qa": "market-type-id-137",
+      "selections": [],
+      "text": "Ambos equipos anotan en el Segundo Tiempo",
+      "title": "Ambos equipos anotan en el Segundo Tiempo"
+    },
+    {
+      "qa": "market-type-id-120",
+      "selections": [],
+      "text": "Primer Tiempo Aston Villa Total de Goles Exactos",
+      "title": "Primer Tiempo Aston Villa Total de Goles Exactos"
+    },
+    {
+      "qa": "market-type-id-121",
+      "selections": [],
+      "text": "Primer Tiempo Viking FK Total de Goles Exactos",
+      "title": "Primer Tiempo Viking FK Total de Goles Exactos"
+    },
+    {
+      "qa": "market-type-id-4049",
+      "selections": [],
+      "text": "Segundo Tiempo - Más/Menos Total de Goles Aston Villa",
+      "title": "Segundo Tiempo - Más/Menos Total de Goles Aston Villa"
+    },
+    {
+      "qa": "market-type-id-4050",
+      "selections": [],
+      "text": "Segundo Tiempo - Más/Menos Total de Goles Viking FK",
+      "title": "Segundo Tiempo - Más/Menos Total de Goles Viking FK"
+    },
+    {
+      "qa": "market-type-id-110",
+      "selections": [],
+      "text": "Total de goles en el Primer Tiempo",
+      "title": "Total de goles en el Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-4684",
+      "selections": [],
+      "text": "Rango de Total de goles Primer Tiempo",
+      "title": "Rango de Total de goles Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-574",
+      "selections": [],
+      "text": "Medio Tiempo/Tiempo Completo y Más/Menos Goles",
+      "title": "Medio Tiempo/Tiempo Completo y Más/Menos Goles"
+    },
+    {
+      "qa": "market-type-id-574",
+      "selections": [],
+      "text": "Medio Tiempo/Tiempo Completo y Más/Menos Goles",
+      "title": "Medio Tiempo/Tiempo Completo y Más/Menos Goles"
+    },
+    {
+      "qa": "market-type-id-574",
+      "selections": [],
+      "text": "Medio Tiempo/Tiempo Completo y Más/Menos Goles",
+      "title": "Medio Tiempo/Tiempo Completo y Más/Menos Goles"
+    },
+    {
+      "qa": "market-type-id-24",
+      "selections": [],
+      "text": "Resultado del partido con Más/Menos (1.5)",
+      "title": "Resultado del partido con Más/Menos (1.5)"
+    },
+    {
+      "qa": "market-type-id-24",
+      "selections": [],
+      "text": "Resultado del partido con Más/Menos (2.5)",
+      "title": "Resultado del partido con Más/Menos (2.5)"
+    },
+    {
+      "qa": "market-type-id-24",
+      "selections": [],
+      "text": "Resultado del partido con Más/Menos (3.5)",
+      "title": "Resultado del partido con Más/Menos (3.5)"
+    },
+    {
+      "qa": "market-type-id-24",
+      "selections": [],
+      "text": "Resultado del partido con Más/Menos (4.5)",
+      "title": "Resultado del partido con Más/Menos (4.5)"
+    },
+    {
+      "qa": "market-type-id-24",
+      "selections": [],
+      "text": "Resultado del partido con Más/Menos (5.5)",
+      "title": "Resultado del partido con Más/Menos (5.5)"
+    },
+    {
+      "qa": "market-type-id-26",
+      "selections": [],
+      "text": "Doble Oportunidad con Más/Menos (1.5)",
+      "title": "Doble Oportunidad con Más/Menos (1.5)"
+    },
+    {
+      "qa": "market-type-id-26",
+      "selections": [],
+      "text": "Doble Oportunidad con Más/Menos (2.5)",
+      "title": "Doble Oportunidad con Más/Menos (2.5)"
+    },
+    {
+      "qa": "market-type-id-26",
+      "selections": [],
+      "text": "Doble Oportunidad con Más/Menos (3.5)",
+      "title": "Doble Oportunidad con Más/Menos (3.5)"
+    },
+    {
+      "qa": "market-type-id-26",
+      "selections": [],
+      "text": "Doble Oportunidad con Más/Menos (4.5)",
+      "title": "Doble Oportunidad con Más/Menos (4.5)"
+    },
+    {
+      "qa": "market-type-id-26",
+      "selections": [],
+      "text": "Doble Oportunidad con Más/Menos (5.5)",
+      "title": "Doble Oportunidad con Más/Menos (5.5)"
+    },
+    {
+      "qa": "market-type-id-23",
+      "selections": [],
+      "text": "Ambos Anotan y Más/Menos (2.5)",
+      "title": "Ambos Anotan y Más/Menos (2.5)"
+    },
+    {
+      "qa": "market-type-id-23",
+      "selections": [],
+      "text": "Ambos Anotan y Más/Menos (3.5)",
+      "title": "Ambos Anotan y Más/Menos (3.5)"
+    },
+    {
+      "qa": "market-type-id-23",
+      "selections": [],
+      "text": "Ambos Anotan y Más/Menos (4.5)",
+      "title": "Ambos Anotan y Más/Menos (4.5)"
+    },
+    {
+      "qa": "market-type-id-23",
+      "selections": [],
+      "text": "Ambos Anotan y Más/Menos (5.5)",
+      "title": "Ambos Anotan y Más/Menos (5.5)"
+    },
+    {
+      "qa": "market-type-id-20",
+      "selections": [],
+      "text": "Resultado del partido / Ambos Equipos Anotan",
+      "title": "Resultado del partido / Ambos Equipos Anotan"
+    },
+    {
+      "qa": "market-type-id-25",
+      "selections": [],
+      "text": "Doble oportunidad / Ambos equipos anotan",
+      "title": "Doble oportunidad / Ambos equipos anotan"
+    },
+    {
+      "qa": "market-type-id-532",
+      "selections": [],
+      "text": "Qué ocurrirá primero en el partido - Primer Tiempo",
+      "title": "Qué ocurrirá primero en el partido - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-56",
+      "selections": [],
+      "text": "Penal concedido",
+      "title": "Penal concedido"
+    },
+    {
+      "qa": "market-type-id-124",
+      "selections": [],
+      "text": "Tiempo del Primer Gol Menos/Más 28 minutos",
+      "title": "Tiempo del Primer Gol Menos/Más 28 minutos"
+    },
+    {
+      "qa": "market-type-id-384",
+      "selections": [],
+      "text": "Aston Villa anota en ambos tiempos",
+      "title": "Aston Villa anota en ambos tiempos"
+    },
+    {
+      "qa": "market-type-id-364",
+      "selections": [],
+      "text": "Viking FK anota en ambos tiempos",
+      "title": "Viking FK anota en ambos tiempos"
+    },
+    {
+      "qa": "market-type-id-72",
+      "selections": [],
+      "text": "Autogol",
+      "title": "Autogol"
+    },
+    {
+      "qa": "market-type-id-96",
+      "selections": [],
+      "text": "Margen del Triunfo",
+      "title": "Margen del Triunfo"
+    },
+    {
+      "qa": "market-type-id-58",
+      "selections": [],
+      "text": "Penal concedido Primer Tiempo",
+      "title": "Penal concedido Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-59",
+      "selections": [],
+      "text": "Equipo que Anota un Penal",
+      "title": "Equipo que Anota un Penal"
+    },
+    {
+      "qa": "market-type-id-60",
+      "selections": [],
+      "text": "Equipo que falla un penal",
+      "title": "Equipo que falla un penal"
+    },
+    {
+      "qa": "market-type-id-5025",
+      "selections": [],
+      "text": "Aston Villa Penal concedido",
+      "title": "Aston Villa Penal concedido"
+    },
+    {
+      "qa": "market-type-id-5026",
+      "selections": [],
+      "text": "Viking FK Penal concedido",
+      "title": "Viking FK Penal concedido"
+    },
+    {
+      "qa": "market-type-id-57",
+      "selections": [],
+      "text": "Dos penales concedidos",
+      "title": "Dos penales concedidos"
+    },
+    {
+      "qa": "market-type-id-61",
+      "selections": [],
+      "text": "Ambos equipos ganan un penal",
+      "title": "Ambos equipos ganan un penal"
+    },
+    {
+      "qa": "market-type-id-102",
+      "selections": [],
+      "text": "Curso del juego",
+      "title": "Curso del juego"
+    },
+    {
+      "qa": "market-type-id-270",
+      "selections": [],
+      "text": "Aston Villa Gana luego de ir perdiendo",
+      "title": "Aston Villa Gana luego de ir perdiendo"
+    },
+    {
+      "qa": "market-type-id-196",
+      "selections": [],
+      "text": "Viking FK Gana luego de ir perdiendo",
+      "title": "Viking FK Gana luego de ir perdiendo"
+    },
+    {
+      "qa": "market-type-id-5015",
+      "selections": [],
+      "text": "Resultado del partido o Ambos equipos anotan",
+      "title": "Resultado del partido o Ambos equipos anotan"
+    },
+    {
+      "qa": "market-type-id-5249",
+      "selections": [],
+      "text": "Resultado del partido o Goles totales Más/Menos 2.5",
+      "title": "Resultado del partido o Goles totales Más/Menos 2.5"
+    },
+    {
+      "qa": "market-type-id-18",
+      "selections": [],
+      "text": "Marcador correcto (múltiple)",
+      "title": "Marcador correcto (múltiple)"
+    },
+    {
+      "qa": "market-type-id-19",
+      "selections": [],
+      "text": "Marcador Correcto - Sin Perder",
+      "title": "Marcador Correcto - Sin Perder"
+    },
+    {
+      "qa": "market-type-id-147",
+      "selections": [],
+      "text": "Marcador correcto Primer tiempo/Tiempo completo",
+      "title": "Marcador correcto Primer tiempo/Tiempo completo"
+    },
+    {
+      "qa": "market-type-id-185",
+      "selections": [],
+      "text": "Hándicap Asiático (Resultado actual 0 - 0)",
+      "title": "Hándicap Asiático (Resultado actual 0 - 0)"
+    },
+    {
+      "qa": "market-type-id-189",
+      "selections": [],
+      "text": "Asiático (Más/Menos) Total de goles",
+      "title": "Asiático (Más/Menos) Total de goles"
+    },
+    {
+      "qa": "market-type-id-186",
+      "selections": [],
+      "text": "Hándicap Asiático - Primer Tiempo (Resultado actual 0 - 0)",
+      "title": "Hándicap Asiático - Primer Tiempo (Resultado actual 0 - 0)"
+    },
+    {
+      "qa": "market-type-id-395",
+      "selections": [],
+      "text": "Asiático (Más/Menos) - Total de goles en el Primer Tiempo",
+      "title": "Asiático (Más/Menos) - Total de goles en el Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-122",
+      "selections": [],
+      "text": "Primer gol antes 21:00",
+      "title": "Primer gol antes 21:00"
+    },
+    {
+      "qa": "market-type-id-123",
+      "selections": [],
+      "text": "Gol anotado después del minuto 78:00",
+      "title": "Gol anotado después del minuto 78:00"
+    },
+    {
+      "qa": "market-type-id-125",
+      "selections": [],
+      "text": "Próximo gol antes de (Gol 1)",
+      "title": "Próximo gol antes de (Gol 1)"
+    },
+    {
+      "qa": "market-type-id-126",
+      "selections": [],
+      "text": "Aston Villa Próximo gol antes de (Gol 1)",
+      "title": "Aston Villa Próximo gol antes de (Gol 1)"
+    },
+    {
+      "qa": "market-type-id-127",
+      "selections": [],
+      "text": "Viking FK Próximo gol antes de (Gol 1)",
+      "title": "Viking FK Próximo gol antes de (Gol 1)"
+    },
+    {
+      "qa": "market-type-id-2934",
+      "selections": [],
+      "text": "Resultado por minuto 00:00 - 09:59",
+      "title": "Resultado por minuto 00:00 - 09:59"
+    },
+    {
+      "qa": "market-type-id-2934",
+      "selections": [],
+      "text": "Resultado por minuto 00:00 - 19:59",
+      "title": "Resultado por minuto 00:00 - 19:59"
+    },
+    {
+      "qa": "market-type-id-2934",
+      "selections": [],
+      "text": "Resultado por minuto 00:00 - 29:59",
+      "title": "Resultado por minuto 00:00 - 29:59"
+    },
+    {
+      "qa": "market-type-id-2934",
+      "selections": [],
+      "text": "Resultado por minuto 00:00 - 39:59",
+      "title": "Resultado por minuto 00:00 - 39:59"
+    },
+    {
+      "qa": "market-type-id-2934",
+      "selections": [],
+      "text": "Resultado por minuto 00:00 - 49:59",
+      "title": "Resultado por minuto 00:00 - 49:59"
+    },
+    {
+      "qa": "market-type-id-2934",
+      "selections": [],
+      "text": "Resultado por minuto 00:00 - 59:59",
+      "title": "Resultado por minuto 00:00 - 59:59"
+    },
+    {
+      "qa": "market-type-id-2934",
+      "selections": [],
+      "text": "Resultado por minuto 00:00 - 69:59",
+      "title": "Resultado por minuto 00:00 - 69:59"
+    },
+    {
+      "qa": "market-type-id-2934",
+      "selections": [],
+      "text": "Resultado por minuto 00:00 - 79:59",
+      "title": "Resultado por minuto 00:00 - 79:59"
+    },
+    {
+      "qa": "market-type-id-128",
+      "selections": [],
+      "text": "Rango de resultados por minuto (00:00 - 14:59)",
+      "title": "Rango de resultados por minuto (00:00 - 14:59)"
+    },
+    {
+      "qa": "market-type-id-128",
+      "selections": [],
+      "text": "Rango de resultados por minuto (15:00 - 29:59)",
+      "title": "Rango de resultados por minuto (15:00 - 29:59)"
+    },
+    {
+      "qa": "market-type-id-128",
+      "selections": [],
+      "text": "Rango de resultados por minuto (30:00 - 45:00)",
+      "title": "Rango de resultados por minuto (30:00 - 45:00)"
+    },
+    {
+      "qa": "market-type-id-128",
+      "selections": [],
+      "text": "Rango de resultados por minuto (45:00 - 59:59)",
+      "title": "Rango de resultados por minuto (45:00 - 59:59)"
+    },
+    {
+      "qa": "market-type-id-128",
+      "selections": [],
+      "text": "Rango de resultados por minuto (60:00 - 74:59)",
+      "title": "Rango de resultados por minuto (60:00 - 74:59)"
+    },
+    {
+      "qa": "market-type-id-128",
+      "selections": [],
+      "text": "Rango de resultados por minuto (75:00 - 90:00)",
+      "title": "Rango de resultados por minuto (75:00 - 90:00)"
+    },
+    {
+      "qa": "market-type-id-130",
+      "selections": [],
+      "text": "Goles cronometrados Más/Menos (00:00 - 14:59)",
+      "title": "Goles cronometrados Más/Menos (00:00 - 14:59)"
+    },
+    {
+      "qa": "market-type-id-130",
+      "selections": [],
+      "text": "Goles cronometrados Más/Menos (15:00 - 29:59)",
+      "title": "Goles cronometrados Más/Menos (15:00 - 29:59)"
+    },
+    {
+      "qa": "market-type-id-130",
+      "selections": [],
+      "text": "Goles cronometrados Más/Menos (30:00 - 45:00)",
+      "title": "Goles cronometrados Más/Menos (30:00 - 45:00)"
+    },
+    {
+      "qa": "market-type-id-130",
+      "selections": [],
+      "text": "Goles cronometrados Más/Menos (45:00 - 59:59)",
+      "title": "Goles cronometrados Más/Menos (45:00 - 59:59)"
+    },
+    {
+      "qa": "market-type-id-130",
+      "selections": [],
+      "text": "Goles cronometrados Más/Menos (60:00 - 74:59)",
+      "title": "Goles cronometrados Más/Menos (60:00 - 74:59)"
+    },
+    {
+      "qa": "market-type-id-27",
+      "selections": [],
+      "text": "Hora del próximo gol (Gol 1)",
+      "title": "Hora del próximo gol (Gol 1)"
+    },
+    {
+      "qa": "market-type-id-28",
+      "selections": [],
+      "text": "Hora del próximo gol Aston Villa (Gol 1)",
+      "title": "Hora del próximo gol Aston Villa (Gol 1)"
+    },
+    {
+      "qa": "market-type-id-29",
+      "selections": [],
+      "text": "Hora del próximo gol Viking FK (Gol 1)",
+      "title": "Hora del próximo gol Viking FK (Gol 1)"
+    },
+    {
+      "qa": "market-type-id-503",
+      "selections": [],
+      "text": "Total de Goles Exactos",
+      "title": "Total de Goles Exactos"
+    },
+    {
+      "qa": "market-type-id-13",
+      "selections": [
+        {
+          "aria": "Bet on Más de 2.5 with odds 1.34.",
+          "text": "Más de\n2.5\n1.34"
+        },
+        {
+          "aria": "Bet on Menos 2.5 with odds 3.3.",
+          "text": "Menos\n2.5\n3.30"
+        },
+        {
+          "aria": "Bet on Más de 3.5 with odds 1.82.",
+          "text": "Más de\n3.5\n1.82"
+        },
+        {
+          "aria": "Bet on Menos 3.5 with odds 2.",
+          "text": "Menos\n3.5\n2.00"
+        },
+        {
+          "aria": "Bet on Más de 4.5 with odds 2.77.",
+          "text": "Más de\n4.5\n2.77"
+        },
+        {
+          "aria": "Bet on Menos 4.5 with odds 1.45.",
+          "text": "Menos\n4.5\n1.45"
+        }
+      ],
+      "text": "Goles totales Más/Menos\nMás de\n2.5\n1.34\nMenos\n2.5\n3.30\nMás de\n3.5\n1.82\nMenos\n3.5\n2.00\nMás de\n4.5\n2.77\nMenos\n4.5\n1.45\nMOSTRAR TODO",
+      "title": "Goles totales Más/Menos"
+    },
+    {
+      "qa": "market-type-id-21",
+      "selections": [],
+      "text": "Gana el resto del Partido [0 - 0]",
+      "title": "Gana el resto del Partido [0 - 0]"
+    },
+    {
+      "qa": "market-type-id-135",
+      "selections": [],
+      "text": "Apuesta sin Empate Segundo Tiempo",
+      "title": "Apuesta sin Empate Segundo Tiempo"
+    },
+    {
+      "qa": "market-type-id-142",
+      "selections": [],
+      "text": "Más de 1.5 goles anotados en cada tiempo",
+      "title": "Más de 1.5 goles anotados en cada tiempo"
+    },
+    {
+      "qa": "market-type-id-143",
+      "selections": [],
+      "text": "Menos de 1.5 Goles Anotados en Ambos Tiempos",
+      "title": "Menos de 1.5 Goles Anotados en Ambos Tiempos"
+    },
+    {
+      "qa": "market-type-id-4107",
+      "selections": [],
+      "text": "Primer Tiempo Offsides Más/Menos",
+      "title": "Primer Tiempo Offsides Más/Menos"
+    }
+  ],
+  "top": "Fútbol\n\nBásquetbol\n\nTenis\n\nEsports\n\nBéisbol\n\nMMA\n\nFútbol americano\n\nVoleibol\n\nHockey sobre hielo\n\nTenis de mesa\n\nBox\n\nBalonmano\n\nDardos\n\nVóley-playa\n\nFórmula 1\n\nUnión de Rugby\n\nLiga de Rugby\n\nCiclismo\n\nFutsal\n\nWaterpolo\n\nBádminton\n\nSnooker\n\nCriquet\n\nLacrosse\n\nMoto GP\n\nGolf\n\nDeportes de motor\n\nDeportes de invierno\n\nFloorball\n\nInicioFútbolChampions LeaguePartidosAston Villa - Viking FK\nMiércoles, 21 Octubre 2026 14:00\nAston Villa\nViking FK\nSPONSOR PRINCIPAL\nApoyamos con orgullo al fútbol inglés\nPopulares\nGoles\nFormaciones\nJugadores\nEstadísticas\nPrimer Tiempo\nCombos\nEspeciales\nHándicap\nHándicap Asiático\nMinutos\nTodo\nBET\nBUILDER\nBB\nResultado del partido\n\n2 GOLES DE VENTAJA\n\n1\n1.25\nX\n6.40\n2\n10.50\nViking FK sumó 4 victorias y 1 empate en sus últimos 5 partidos en todas las competiciones.\nViking FK ganó 27 de 35 partidos en todas las competiciones, logrando un 77,1% de victorias.\nViking FK ganó 12 de sus 19 partidos como visitante en todas las competiciones (63,2% de victorias fuera).\nBB\nGoles totales Más/Menos\nLos últimos 3 partidos de Viking FK en la Champions League superaron los 2,5 goles.\nLos partidos de Viking FK en la Champions League promedian 4,5 goles por encuentro esta temporada.\nSe superaron los 2,5 goles en 4 de los últimos 5 partidos de Aston Villa en todas las competicion",
+  "fixture_id": "575374",
+  "url": "https://www.betano.pe/cuotas-de-partido/aston-villa-viking-fk/91588745/?bt=11",
+  "observed_at": "2026-10-19T06:18:52.124Z"
+}

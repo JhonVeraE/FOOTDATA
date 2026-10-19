@@ -1,0 +1,677 @@
+Browser tab: 25, Title: "Getafe CF - Rayo Vallecano Fútbol Cuotas | Betano", URL: "https://www.betano.pe/cuotas-de-partido/getafe-cf-rayo-vallecano/91668515/?bt=6".
+0 AXWebArea Getafe CF - Rayo Vallecano Fútbol Cuotas | Betano, URL: betano.pe/cuotas-de-partido/getafe-cf-rayo-vallecano/91668515/?bt=6
+	1 container
+		2 container
+			3 link Description: Betano Logo, Value: betano.pe/
+			4 container
+				5 button
+				6 button
+				7 button
+			8 button REGISTRO
+			9 button INGRESAR
+			10 content list
+				11 link Description: APUESTAS DEPORTIVAS, Value: betano.pe/
+				12 link Description: APUESTAS EN VIVO, Value: betano.pe/live/
+				13 link Description: CASINO, Value: betano.pe/casino/
+				14 link Description: CASINO EN VIVO, Value: betano.pe/casino/live/
+				15 link Description: VIRTUALES, Value: betano.pe/virtuals/
+				16 container
+					17 link Description: SOCIAL, Value: betano.pe/social/
+					18 text NUEVO
+		19 container
+			20 link betano.pe/sport/futbol/proximos-partidos-hoy/
+			21 link betano.pe/ganadores-competencia/
+			22 link betano.pe/apuestas-especiales/
+			23 link betano.pe/favoritos/
+			24 link betano.pe/missions/
+			25 link betano.pe/?panel=sportsTournaments
+			26 link betano.pe/celular/
+			27 link betano.pe/virtuals/
+			28 link betano.pe/master/
+			29 link betano.pe/win-streak/
+			30 link betano.pe/yours/foryou/
+			31 image
+			32 content list
+				33 container
+					34 content list
+						35 container
+							36 link Description: Fútbol, Value: betano.pe/sport/futbol/
+						37 container
+							38 link Description: Básquetbol, Value: betano.pe/sport/basquetbol/
+						39 container
+							40 link Description: Tenis, Value: betano.pe/sport/tenis/
+						41 container
+							42 link Description: Esports, Value: betano.pe/sport/esports/
+						43 container
+							44 link Description: Béisbol, Value: betano.pe/sport/beisbol/
+						45 container
+							46 link Description: MMA, Value: betano.pe/sport/mma/
+						47 container
+							48 link Description: Fútbol americano, Value: betano.pe/sport/futbol-americano/
+						49 container
+							50 link Description: Voleibol, Value: betano.pe/sport/voleibol/
+						51 container
+							52 link Description: Hockey sobre hielo, Value: betano.pe/sport/hockey-sobre-hielo/
+						53 container
+							54 link Description: Tenis de mesa, Value: betano.pe/sport/tenis-de-mesa/
+						55 container
+							56 link Description: Box, Value: betano.pe/sport/box/
+						57 container
+							58 link Description: Balonmano, Value: betano.pe/sport/balonmano/
+						59 container
+							60 link Description: Dardos, Value: betano.pe/sport/dardos/
+						61 container
+							62 link Description: Vóley-playa, Value: betano.pe/sport/voleibol-playa/
+						63 container
+							64 link Description: Fórmula 1, Value: betano.pe/sport/formula-1/
+						65 container
+							66 link Description: Unión de Rugby, Value: betano.pe/sport/rugby-union/
+						67 container
+							68 link Description: Liga de Rugby, Value: betano.pe/sport/rugby-league/
+						69 container
+							70 link Description: Ciclismo, Value: betano.pe/sport/ciclismo/
+						71 container
+							72 link Description: Futsal, Value: betano.pe/sport/futsal/
+						73 container
+							74 link Description: Waterpolo, Value: betano.pe/sport/waterpolo/
+						75 container
+							76 link Description: Bádminton, Value: betano.pe/sport/badminton/
+						77 container
+							78 link Description: Snooker, Value: betano.pe/sport/snooker/
+						79 container
+							80 link Description: Criquet, Value: betano.pe/sport/cricket/
+						81 container
+							82 link Description: Lacrosse, Value: betano.pe/sport/lacrosse/
+						83 container
+							84 link Description: Moto GP, Value: betano.pe/sport/motogp/
+						85 container
+							86 link Description: Golf, Value: betano.pe/sport/golf/
+						87 container
+							88 link Description: Deportes de motor, Value: betano.pe/sport/deportes-de-motor/
+						89 container
+							90 link Description: Deportes de invierno, Value: betano.pe/sport/deportes-de-inveirno/
+						91 container
+							92 link Description: Floorball, Value: betano.pe/sport/floorball/
+			93 link betano.pe/live-scores/
+		387 container
+			388 container Breadcrumb
+				389 content list
+					390 link Description: Inicio, Help: Betano, Value: betano.pe/
+					391 link Description: Fútbol, Value: betano.pe/sport/futbol/
+					392 link Description: España, Value: betano.pe/sport/futbol/campeonatos/espana/2/
+					393 link Description: LaLiga, Value: betano.pe/sport/futbol/espana/laliga/5/
+					394 text Getafe CF - Rayo Vallecano
+			395 container
+				396 text Lunes, 19 Octubre 2026 14:00
+				397 heading Getafe CF Getafe CF Rayo Vallecano Rayo Vallecano, Value: 1
+					398 link Description: Getafe CF Getafe CF, Value: betano.pe/sport/futbol/campeonatos/espana/5/getafe-cf/1970457-t/
+					399 image
+					400 link Description: Rayo Vallecano Rayo Vallecano, Value: betano.pe/sport/futbol/campeonatos/espana/5/rayo-vallecano/107232-t/
+			401 container
+				402 container
+					403 text Populares
+					404 text Goles
+					405 text Formaciones
+					406 text Jugadores
+					407 text Córners
+					408 text Tarjetas
+					409 text Estadísticas
+					410 text Primer Tiempo
+					411 text Combos
+					412 text Especiales
+					413 text Hándicap
+					414 text Hándicap Asiático
+					415 text Minutos
+					416 text Todo
+				417 button Collapse all
+					418 image Collapse all
+				419 container
+					420 text BET
+					421 text BUILDER
+			786 container
+				787 image
+				788 text La liquidación se determinará con base en los datos proporcionados por Opta.
+				789 image
+			741 container
+				790 text BB
+				791 text Remates totales
+				742 image
+				989 button Bet on Más de 20.5 with odds 1.23.
+					990 text Más de
+					991 text 20.5
+					992 text 1.23
+				993 button Bet on Menos 20.5 with odds 3.85.
+					994 text Menos
+					995 text 20.5
+					996 text 3.85
+				997 button Bet on Más de 21.5 with odds 1.34.
+					998 text Más de
+					999 text 21.5
+					1000 text 1.34
+				1001 button Bet on Menos 21.5 with odds 3.1.
+					1002 text Menos
+					1003 text 21.5
+					1004 text 3.10
+				1005 button Bet on Más de 22.5 with odds 1.47.
+					1006 text Más de
+					1007 text 22.5
+					1008 text 1.47
+				1009 button Bet on Menos 22.5 with odds 2.55.
+					1010 text Menos
+					1011 text 22.5
+					1012 text 2.55
+				743 button Bet on Más de 23.5 with odds 1.67.
+					792 text Más de
+					793 text 23.5
+					794 text 1.67
+				744 button Bet on Menos 23.5 with odds 2.12.
+					795 text Menos
+					796 text 23.5
+					797 text 2.12
+				745 button Bet on Más de 24.5 with odds 1.91.
+					798 text Más de
+					799 text 24.5
+					800 text 1.91
+				746 button Bet on Menos 24.5 with odds 1.82.
+					801 text Menos
+					802 text 24.5
+					803 text 1.82
+				747 button Bet on Más de 25.5 with odds 2.25.
+					804 text Más de
+					805 text 25.5
+					806 text 2.25
+				748 button Bet on Menos 25.5 with odds 1.6.
+					807 text Menos
+					808 text 25.5
+					809 text 1.60
+				1013 button Bet on Más de 26.5 with odds 2.67.
+					1014 text Más de
+					1015 text 26.5
+					1016 text 2.67
+				1017 button Bet on Menos 26.5 with odds 1.44.
+					1018 text Menos
+					1019 text 26.5
+					1020 text 1.44
+				1021 button Bet on Más de 27.5 with odds 3.25.
+					1022 text Más de
+					1023 text 27.5
+					1024 text 3.25
+				1025 button Bet on Menos 27.5 with odds 1.31.
+					1026 text Menos
+					1027 text 27.5
+					1028 text 1.31
+				1029 button Bet on Más de 28.5 with odds 3.95.
+					1030 text Más de
+					1031 text 28.5
+					1032 text 3.95
+				1033 button Bet on Menos 28.5 with odds 1.22.
+					1034 text Menos
+					1035 text 28.5
+					1036 text 1.22
+				749 button MOSTRAR MENOS
+			750 container
+				810 text BB
+				811 text Getafe CF Remates totales
+				751 image
+				1037 button Bet on Más de 9.5 with odds 1.27.
+					1038 text Más de
+					1039 text 9.5
+					1040 text 1.27
+				1041 button Bet on Menos 9.5 with odds 3.55.
+					1042 text Menos
+					1043 text 9.5
+					1044 text 3.55
+				752 button Bet on Más de 10.5 with odds 1.45.
+					812 text Más de
+					813 text 10.5
+					814 text 1.45
+				753 button Bet on Menos 10.5 with odds 2.62.
+					815 text Menos
+					816 text 10.5
+					817 text 2.62
+				754 button Bet on Más de 11.5 with odds 1.72.
+					818 text Más de
+					819 text 11.5
+					820 text 1.72
+				755 button Bet on Menos 11.5 with odds 2.05.
+					821 text Menos
+					822 text 11.5
+					823 text 2.05
+				756 button Bet on Más de 12.5 with odds 2.15.
+					824 text Más de
+					825 text 12.5
+					826 text 2.15
+				757 button Bet on Menos 12.5 with odds 1.65.
+					827 text Menos
+					828 text 12.5
+					829 text 1.65
+				1045 button Bet on Más de 13.5 with odds 2.75.
+					1046 text Más de
+					1047 text 13.5
+					1048 text 2.75
+				1049 button Bet on Menos 13.5 with odds 1.42.
+					1050 text Menos
+					1051 text 13.5
+					1052 text 1.42
+				1053 button Bet on Más de 14.5 with odds 3.6.
+					1054 text Más de
+					1055 text 14.5
+					1056 text 3.60
+				1057 button Bet on Menos 14.5 with odds 1.26.
+					1058 text Menos
+					1059 text 14.5
+					1060 text 1.26
+				1061 button Bet on Más de 15.5 with odds 4.8.
+					1062 text Más de
+					1063 text 15.5
+					1064 text 4.80
+				1065 button Bet on Menos 15.5 with odds 1.16.
+					1066 text Menos
+					1067 text 15.5
+					1068 text 1.16
+				758 button MOSTRAR MENOS
+			759 container
+				830 text BB
+				831 text Rayo Vallecano Remates totales
+				760 image
+				1069 button Bet on Más de 9.5 with odds 1.22.
+					1070 text Más de
+					1071 text 9.5
+					1072 text 1.22
+				1073 button Bet on Menos 9.5 with odds 4.
+					1074 text Menos
+					1075 text 9.5
+					1076 text 4.00
+				1077 button Bet on Más de 10.5 with odds 1.38.
+					1078 text Más de
+					1079 text 10.5
+					1080 text 1.38
+				1081 button Bet on Menos 10.5 with odds 2.9.
+					1082 text Menos
+					1083 text 10.5
+					1084 text 2.90
+				761 button Bet on Más de 11.5 with odds 1.62.
+					832 text Más de
+					833 text 11.5
+					834 text 1.62
+				762 button Bet on Menos 11.5 with odds 2.22.
+					835 text Menos
+					836 text 11.5
+					837 text 2.22
+				763 button Bet on Más de 12.5 with odds 1.95.
+					838 text Más de
+					839 text 12.5
+					840 text 1.95
+				764 button Bet on Menos 12.5 with odds 1.78.
+					841 text Menos
+					842 text 12.5
+					843 text 1.78
+				765 button Bet on Más de 13.5 with odds 2.47.
+					844 text Más de
+					845 text 13.5
+					846 text 2.47
+				766 button Bet on Menos 13.5 with odds 1.5.
+					847 text Menos
+					848 text 13.5
+					849 text 1.50
+				1085 button Bet on Más de 14.5 with odds 3.2.
+					1086 text Más de
+					1087 text 14.5
+					1088 text 3.20
+				1089 button Bet on Menos 14.5 with odds 1.32.
+					1090 text Menos
+					1091 text 14.5
+					1092 text 1.32
+				1093 button Bet on Más de 15.5 with odds 4.2.
+					1094 text Más de
+					1095 text 15.5
+					1096 text 4.20
+				1097 button Bet on Menos 15.5 with odds 1.2.
+					1098 text Menos
+					1099 text 15.5
+					1100 text 1.20
+				767 button MOSTRAR MENOS
+			768 container
+				850 text BB
+				851 text Tiros al Arco
+				769 image
+				1101 button Bet on Más de 4.5 with odds 1.09.
+					1102 text Más de
+					1103 text 4.5
+					1104 text 1.09
+				1105 button Bet on Menos 4.5 with odds 6.6.
+					1106 text Menos
+					1107 text 4.5
+					1108 text 6.60
+				1109 button Bet on Más de 5.5 with odds 1.2.
+					1110 text Más de
+					1111 text 5.5
+					1112 text 1.20
+				1113 button Bet on Menos 5.5 with odds 4.2.
+					1114 text Menos
+					1115 text 5.5
+					1116 text 4.20
+				770 button Bet on Más de 6.5 with odds 1.4.
+					852 text Más de
+					853 text 6.5
+					854 text 1.40
+				771 button Bet on Menos 6.5 with odds 2.82.
+					855 text Menos
+					856 text 6.5
+					857 text 2.82
+				772 button Bet on Más de 7.5 with odds 1.72.
+					858 text Más de
+					859 text 7.5
+					860 text 1.72
+				773 button Bet on Menos 7.5 with odds 2.05.
+					861 text Menos
+					862 text 7.5
+					863 text 2.05
+				774 button Bet on Más de 8.5 with odds 2.25.
+					864 text Más de
+					865 text 8.5
+					866 text 2.25
+				775 button Bet on Menos 8.5 with odds 1.6.
+					867 text Menos
+					868 text 8.5
+					869 text 1.60
+				1117 button Bet on Más de 9.5 with odds 3.05.
+					1118 text Más de
+					1119 text 9.5
+					1120 text 3.05
+				1121 button Bet on Menos 9.5 with odds 1.34.
+					1122 text Menos
+					1123 text 9.5
+					1124 text 1.34
+				1125 button Bet on Más de 10.5 with odds 4.3.
+					1126 text Más de
+					1127 text 10.5
+					1128 text 4.30
+				1129 button Bet on Menos 10.5 with odds 1.19.
+					1130 text Menos
+					1131 text 10.5
+					1132 text 1.19
+				1133 button Bet on Más de 11.5 with odds 6.1.
+					1134 text Más de
+					1135 text 11.5
+					1136 text 6.10
+				1137 button Bet on Menos 11.5 with odds 1.1.
+					1138 text Menos
+					1139 text 11.5
+					1140 text 1.10
+				1141 button Bet on Más de 12.5 with odds 8.25.
+					1142 text Más de
+					1143 text 12.5
+					1144 text 8.25
+				1145 button Bet on Menos 12.5 with odds 1.05.
+					1146 text Menos
+					1147 text 12.5
+					1148 text 1.05
+				776 button MOSTRAR MENOS
+			777 container
+				870 text BB
+				871 text Getafe CF Tiros al Arco
+				778 image
+				1149 button Bet on Más de 1.5 with odds 1.09.
+					1150 text Más de
+					1151 text 1.5
+					1152 text 1.09
+				1153 button Bet on Menos 1.5 with odds 6.4.
+					1154 text Menos
+					1155 text 1.5
+					1156 text 6.40
+				779 button Bet on Más de 2.5 with odds 1.31.
+					872 text Más de
+					873 text 2.5
+					874 text 1.31
+				780 button Bet on Menos 2.5 with odds 3.3.
+					875 text Menos
+					876 text 2.5
+					877 text 3.30
+				781 button Bet on Más de 3.5 with odds 1.75.
+					878 text Más de
+					879 text 3.5
+					880 text 1.75
+				782 button Bet on Menos 3.5 with odds 2.
+					881 text Menos
+					882 text 3.5
+					883 text 2.00
+				783 button Bet on Más de 4.5 with odds 2.62.
+					884 text Más de
+					885 text 4.5
+					886 text 2.62
+				784 button Bet on Menos 4.5 with odds 1.45.
+					887 text Menos
+					888 text 4.5
+					889 text 1.45
+				1157 button Bet on Más de 5.5 with odds 4.2.
+					1158 text Más de
+					1159 text 5.5
+					1160 text 4.20
+				1161 button Bet on Menos 5.5 with odds 1.2.
+					1162 text Menos
+					1163 text 5.5
+					1164 text 1.20
+				1165 button Bet on Más de 6.5 with odds 6.7.
+					1166 text Más de
+					1167 text 6.5
+					1168 text 6.70
+				1169 button Bet on Menos 6.5 with odds 1.09.
+					1170 text Menos
+					1171 text 6.5
+					1172 text 1.09
+				1173 button Bet on Más de 7.5 with odds 10.
+					1174 text Más de
+					1175 text 7.5
+					1176 text 10.00
+				1177 button Bet on Menos 7.5 with odds 1.03.
+					1178 text Menos
+					1179 text 7.5
+					1180 text 1.03
+				785 button MOSTRAR MENOS
+			890 container
+				891 text BB
+				892 text Rayo Vallecano Tiros al Arco
+				893 image
+				1181 button Bet on Más de 1.5 with odds 1.07.
+					1182 text Más de
+					1183 text 1.5
+					1184 text 1.07
+				1185 button Bet on Menos 1.5 with odds 7.4.
+					1186 text Menos
+					1187 text 1.5
+					1188 text 7.40
+				940 button Bet on Más de 2.5 with odds 1.24.
+					941 text Más de
+					942 text 2.5
+					943 text 1.24
+				944 button Bet on Menos 2.5 with odds 3.8.
+					945 text Menos
+					946 text 2.5
+					947 text 3.80
+				948 button Bet on Más de 3.5 with odds 1.6.
+					949 text Más de
+					950 text 3.5
+					951 text 1.60
+				952 button Bet on Menos 3.5 with odds 2.25.
+					953 text Menos
+					954 text 3.5
+					955 text 2.25
+				956 button Bet on Más de 4.5 with odds 2.3.
+					957 text Más de
+					958 text 4.5
+					959 text 2.30
+				960 button Bet on Menos 4.5 with odds 1.57.
+					961 text Menos
+					962 text 4.5
+					963 text 1.57
+				1189 button Bet on Más de 5.5 with odds 3.55.
+					1190 text Más de
+					1191 text 5.5
+					1192 text 3.55
+				1193 button Bet on Menos 5.5 with odds 1.27.
+					1194 text Menos
+					1195 text 5.5
+					1196 text 1.27
+				1197 button Bet on Más de 6.5 with odds 5.6.
+					1198 text Más de
+					1199 text 6.5
+					1200 text 5.60
+				1201 button Bet on Menos 6.5 with odds 1.12.
+					1202 text Menos
+					1203 text 6.5
+					1204 text 1.12
+				1205 button Bet on Más de 7.5 with odds 8.5.
+					1206 text Más de
+					1207 text 7.5
+					1208 text 8.50
+				1209 button Bet on Menos 7.5 with odds 1.05.
+					1210 text Menos
+					1211 text 7.5
+					1212 text 1.05
+				964 button MOSTRAR MENOS
+			894 container
+				895 text Rangos de Tiros al Arco
+				896 image
+			897 container
+				898 text BB
+				899 text Total de Faltas Cometidas
+				900 image
+				965 button Bet on Más de 27.5 with odds 1.8.
+					966 text Más de
+					967 text 27.5
+					968 text 1.80
+				969 button Bet on Menos 27.5 with odds 1.93.
+					970 text Menos
+					971 text 27.5
+					972 text 1.93
+			901 container
+				902 text BB
+				903 text Getafe CF Total de Faltas Cometidas
+				904 image
+				973 button Bet on Más de 14.5 with odds 2.05.
+					974 text Más de
+					975 text 14.5
+					976 text 2.05
+				977 button Bet on Menos 14.5 with odds 1.72.
+					978 text Menos
+					979 text 14.5
+					980 text 1.72
+			905 container
+				906 text BB
+				907 text Rayo Vallecano Total de Faltas Cometidas
+				908 image
+				981 button Bet on Más de 13.5 with odds 1.83.
+					982 text Más de
+					983 text 13.5
+					984 text 1.83
+				985 button Bet on Menos 13.5 with odds 1.9.
+					986 text Menos
+					987 text 13.5
+					988 text 1.90
+			909 container
+				910 text BB
+				911 text Total de Offsides
+				912 image
+			913 container
+				914 text BB
+				915 text Getafe CF Total de Offsides
+				916 image
+			917 container
+				918 text BB
+				919 text Rayo Vallecano Total de Offsides
+				920 image
+			921 container
+				922 text Palo
+				923 image
+			924 container
+				925 text Hándicap - Tiros al Arco 2-Way
+				926 image
+			927 container
+				928 text Primer Tiempo Tiros al Arco
+				929 image
+			930 container
+				931 text BB
+				932 text Hándicap - Total de Offsides
+				933 image
+			934 container
+				935 text Primer Remate a portería
+				936 image
+			937 container
+				938 text Primer Offside
+				939 image
+		361 container right-sidebar
+			362 container my-bets-section
+				363 text MIS APUESTAS
+				364 container
+					371 My bets tabs
+						372 radio button (settable, integer) Description: Abiertas, Value: 1, ID: 007bfcf4-ea15-43f7-b57b-ac4ec7071d9dUnsettled
+						373 radio button (settable, integer) Description: Resueltas, Value: 0, ID: 007bfcf4-ea15-43f7-b57b-ac4ec7071d9dSettled
+					374 text No tienes apuestas abiertas en este momento
+			375 container
+				376 heading Mentor de Apuestas, Value: 3
+					685 text Mentor de Apuestas
+				686 text Selecciona el monto que deseas apostar
+				379 text field (settable) 30
+				687 text Selecciona el monto que deseas ganar
+				381 button S/60 - S/200
+				382 button S/200 - S/600
+				383 button S/600 - S/3000
+				384 button S/3000 - S/20000
+				385 button S/20000 - S/30000
+				386 button Mostrar sugerencias
+			688 container
+				689 image
+				690 container
+					691 text BETANO ESTADÍSTICAS por
+					692 image
+				693 text Getafe CF
+				694 image
+				695 container
+					696 text E
+					697 text P
+					698 text G
+					699 text P
+					700 text E
+				701 text 14:00 19/10 Rayo Vallecano
+				702 image
+				703 container
+					704 text P
+					705 text G
+					706 text P
+					707 text G
+					708 text E
+				709 container
+					710 text Resumen
+					711 text Frente a frente
+					712 text Clasificación
+					713 text Estadísticas de Jugadores
+					714 image
+				715 container
+					716 text Análisis
+					717 image
+					718 text Hubo menos de 3 goles anotados en total en cada uno de los últimos 4 partidos de Getafe como local
+					719 image
+					720 text Se anotó al menos un gol en el primer tiempo de los últimos 5 partidos de Rayo Vallecano
+					721 image
+					722 text Esta temporada hubo al menos 1 gol(es) anotado(s) durante el primer tiempo en el 86% de los partidos de Rayo Vallecano en La Liga
+					723 image
+					724 text Ambos equipos han anotado en los últimos 7 partidos de Rayo Vallecano
+					725 image
+					726 text Hubo exactamente 1 goles en 4 de los 8 partidos de Getafe en esta temporada de La Liga
+					727 image
+					728 text Hubo cuatro o más tarjetas en cada uno de los últimos 11 partidos de Getafe en La Liga
+					729 image
+					730 text 9 de los últimos 10 partidos entre Getafe y Rayo Vallecano han tenido cuatro o más tarjetas
+					731 image
+					732 text Getafe anotó el primer gol del juego en sus últimos 7 partidos como local
+					733 image
+					734 text Getafe ha ganado apenas uno de sus últimos 5 partidos en La Liga
+					735 image
+					736 text Getafe no ha ganado sus últimos 10 partidos consecutivos ante Rayo Vallecano
+					737 image
+					738 text Getafe no ha ganado sus últimos 5 partidos consecutivos como local ante Rayo Vallecano
+					739 button Ver más
+					740 text Estadísticas de la Temporada 36.8% Prom. de Posesión 48.3% 8 Partidos Jugados 8 4 Total de Goles Anotados 11 0.5 Prom. de Goles Anotados 1.4 1.2 Prom. de Goles Concedidos 2.0 0.62 xGoles 1.13 2.5 Prom. de Tiros al Arco 4.1 6.1 Prom. de Tiros Fuera 4.9 3.9 Prom. de Córners 4.8 3.0 Prom. de Tarjetas Amarillas 2.1 3 Tarjetas Rojas 2 - Penales Concedidos - 2 Vallas Invictas 1 14.2 Faltas 12.0
+
+The focused UI element is 964 button MOSTRAR MENOS

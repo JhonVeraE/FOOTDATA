@@ -1,0 +1,447 @@
+{
+  "heading": [
+    "Tottenham Hotspur\nCoventry City"
+  ],
+  "markets": [
+    {
+      "qa": "market-type-id-2850",
+      "selections": [
+        {
+          "aria": "Bet on 1 with odds 1.55.",
+          "text": "1\n1.55"
+        },
+        {
+          "aria": "Bet on X with odds 4.65.",
+          "text": "X\n4.65"
+        },
+        {
+          "aria": "Bet on 2 with odds 6.",
+          "text": "2\n6.00"
+        }
+      ],
+      "text": "Resultado del partido SuperCuotas\n\nSUPERCUOTAS\n\n1\n1.55\nX\n4.65\n2\n6.00",
+      "title": "Resultado del partido SuperCuotas\n\nSUPERCUOTAS"
+    },
+    {
+      "qa": "market-type-id-1",
+      "selections": [
+        {
+          "aria": "Bet on 1 with odds 1.53.",
+          "text": "1\n1.53"
+        },
+        {
+          "aria": "Bet on X with odds 4.45.",
+          "text": "X\n4.45"
+        },
+        {
+          "aria": "Bet on 2 with odds 5.7.",
+          "text": "2\n5.70"
+        }
+      ],
+      "text": "Resultado del partido\n\n2 GOLES DE VENTAJA\n\n1\n1.53\nX\n4.45\n2\n5.70\nEl Coventry City ha ganado 2 de sus últimos 3 partidos en la Premier League.",
+      "title": "Resultado del partido\n\n2 GOLES DE VENTAJA"
+    },
+    {
+      "qa": "market-type-id-13",
+      "selections": [
+        {
+          "aria": "Bet on Más de 0.5 with odds 1.04.",
+          "text": "Más de\n0.5\n1.04"
+        },
+        {
+          "aria": "Bet on Menos 0.5 with odds 11.5.",
+          "text": "Menos\n0.5\n11.50"
+        },
+        {
+          "aria": "Bet on Más de 1.5 with odds 1.2.",
+          "text": "Más de\n1.5\n1.20"
+        },
+        {
+          "aria": "Bet on Menos 1.5 with odds 4.65.",
+          "text": "Menos\n1.5\n4.65"
+        },
+        {
+          "aria": "Bet on Más de 2.5 with odds 1.6.",
+          "text": "Más de\n2.5\n1.60"
+        },
+        {
+          "aria": "Bet on Menos 2.5 with odds 2.35.",
+          "text": "Menos\n2.5\n2.35"
+        },
+        {
+          "aria": "Bet on Más de 3.5 with odds 2.45.",
+          "text": "Más de\n3.5\n2.45"
+        },
+        {
+          "aria": "Bet on Menos 3.5 with odds 1.55.",
+          "text": "Menos\n3.5\n1.55"
+        },
+        {
+          "aria": "Bet on Más de 4.5 with odds 4.2.",
+          "text": "Más de\n4.5\n4.20"
+        },
+        {
+          "aria": "Bet on Menos 4.5 with odds 1.23.",
+          "text": "Menos\n4.5\n1.23"
+        },
+        {
+          "aria": "Bet on Más de 5.5 with odds 7.5.",
+          "text": "Más de\n5.5\n7.50"
+        },
+        {
+          "aria": "Bet on Menos 5.5 with odds 1.09.",
+          "text": "Menos\n5.5\n1.09"
+        },
+        {
+          "aria": "Bet on Más de 6.5 with odds 12.5.",
+          "text": "Más de\n6.5\n12.50"
+        },
+        {
+          "aria": "Bet on Menos 6.5 with odds 1.03.",
+          "text": "Menos\n6.5\n1.03"
+        },
+        {
+          "aria": "Bet on Más de 7.5 with odds 17.",
+          "text": "Más de\n7.5\n17.00"
+        },
+        {
+          "aria": "Bet on Menos 7.5 with odds 1.01.",
+          "text": "Menos\n7.5\n1.01"
+        }
+      ],
+      "text": "Goles totales Más/Menos\nSolo 2 de los 6 partidos del Tottenham Hotspur en la Premier League tuvieron más de 2,5 goles esta temporada.\nLos partidos del Tottenham Hotspur en la Premier League promedian 2 goles por encuentro esta temporada.\nMás de\n0.5\n1.04\nMenos\n0.5\n11.50\nMás de\n1.5\n1.20\nMenos\n1.5\n4.65\nMás de\n2.5\n1.60\nMenos\n2.5\n2.35\nMás de\n3.5\n2.45\nMenos\n3.5\n1.55\nMás de\n4.5\n4.20\nMenos\n4.5\n1.23\nMás de\n5.5\n7.50\nMenos\n5.5\n1.09\nMás de\n6.5\n12.50\nMenos\n6.5\n1.03\nMás de\n7.5\n17.00\nMenos\n7.5\n1.01\nMOSTRAR MENOS",
+      "title": "Goles totales Más/Menos"
+    },
+    {
+      "qa": "market-type-id-9",
+      "selections": [
+        {
+          "aria": "Bet on Tottenham Hotspur o Empate with odds 1.16.",
+          "text": "Tottenham Hotspur o Empate\n1.16"
+        },
+        {
+          "aria": "Bet on Tottenham Hotspur o Coventry City with odds 1.2.",
+          "text": "Tottenham Hotspur o Coventry City\n1.20"
+        },
+        {
+          "aria": "Bet on Coventry City o Empate with odds 2.55.",
+          "text": "Coventry City o Empate\n2.55"
+        }
+      ],
+      "text": "Doble oportunidad\nTottenham Hotspur o Empate\n1.16\nTottenham Hotspur o Coventry City\n1.20\nCoventry City o Empate\n2.55",
+      "title": "Doble oportunidad"
+    },
+    {
+      "qa": "market-type-id-15",
+      "selections": [
+        {
+          "aria": "Bet on Sí with odds 1.67.",
+          "text": "Sí\n1.67"
+        },
+        {
+          "aria": "Bet on No with odds 2.1.",
+          "text": "No\n2.10"
+        }
+      ],
+      "text": "Ambos equipos anotan\nSí\n1.67\nNo\n2.10\nAmbos equipos marcaron en solo 1 de los 6 partidos del Coventry City en la Premier League.\nAmbos equipos marcaron en solo 2 de los 6 partidos del Tottenham Hotspur en la Premier League.",
+      "title": "Ambos equipos anotan"
+    },
+    {
+      "qa": "market-type-id-34",
+      "selections": [
+        {
+          "aria": "Bet on Más de 4.5 with odds 1.015.",
+          "text": "Más de\n4.5\n1.01"
+        },
+        {
+          "aria": "Bet on Menos 4.5 with odds 11.75.",
+          "text": "Menos\n4.5\n11.75"
+        },
+        {
+          "aria": "Bet on Más de 5.5 with odds 1.04.",
+          "text": "Más de\n5.5\n1.04"
+        },
+        {
+          "aria": "Bet on Menos 5.5 with odds 9.",
+          "text": "Menos\n5.5\n9.00"
+        },
+        {
+          "aria": "Bet on Más de 6.5 with odds 1.1.",
+          "text": "Más de\n6.5\n1.10"
+        },
+        {
+          "aria": "Bet on Menos 6.5 with odds 6.3.",
+          "text": "Menos\n6.5\n6.30"
+        },
+        {
+          "aria": "Bet on Más de 7.5 with odds 1.2.",
+          "text": "Más de\n7.5\n1.20"
+        },
+        {
+          "aria": "Bet on Menos 7.5 with odds 4.25.",
+          "text": "Menos\n7.5\n4.25"
+        },
+        {
+          "aria": "Bet on Más de 8.5 with odds 1.36.",
+          "text": "Más de\n8.5\n1.36"
+        },
+        {
+          "aria": "Bet on Menos 8.5 with odds 3.",
+          "text": "Menos\n8.5\n3.00"
+        },
+        {
+          "aria": "Bet on Más de 9.5 with odds 1.6.",
+          "text": "Más de\n9.5\n1.60"
+        },
+        {
+          "aria": "Bet on Menos 9.5 with odds 2.25.",
+          "text": "Menos\n9.5\n2.25"
+        },
+        {
+          "aria": "Bet on Más de 10.5 with odds 2.",
+          "text": "Más de\n10.5\n2.00"
+        },
+        {
+          "aria": "Bet on Menos 10.5 with odds 1.75.",
+          "text": "Menos\n10.5\n1.75"
+        },
+        {
+          "aria": "Bet on Más de 11.5 with odds 2.62.",
+          "text": "Más de\n11.5\n2.62"
+        },
+        {
+          "aria": "Bet on Menos 11.5 with odds 1.45.",
+          "text": "Menos\n11.5\n1.45"
+        },
+        {
+          "aria": "Bet on Más de 12.5 with odds 3.55.",
+          "text": "Más de\n12.5\n3.55"
+        },
+        {
+          "aria": "Bet on Menos 12.5 with odds 1.27.",
+          "text": "Menos\n12.5\n1.27"
+        },
+        {
+          "aria": "Bet on Más de 13.5 with odds 4.85.",
+          "text": "Más de\n13.5\n4.85"
+        },
+        {
+          "aria": "Bet on Menos 13.5 with odds 1.16.",
+          "text": "Menos\n13.5\n1.16"
+        },
+        {
+          "aria": "Bet on Más de 14.5 with odds 6.4.",
+          "text": "Más de\n14.5\n6.40"
+        },
+        {
+          "aria": "Bet on Menos 14.5 with odds 1.09.",
+          "text": "Menos\n14.5\n1.09"
+        },
+        {
+          "aria": "Bet on Más de 15.5 with odds 8.5.",
+          "text": "Más de\n15.5\n8.50"
+        },
+        {
+          "aria": "Bet on Menos 15.5 with odds 1.05.",
+          "text": "Menos\n15.5\n1.05"
+        },
+        {
+          "aria": "Bet on Más de 16.5 with odds 10.5.",
+          "text": "Más de\n16.5\n10.50"
+        },
+        {
+          "aria": "Bet on Menos 16.5 with odds 1.025.",
+          "text": "Menos\n16.5\n1.02"
+        },
+        {
+          "aria": "Bet on Más de 17.5 with odds 12.",
+          "text": "Más de\n17.5\n12.00"
+        },
+        {
+          "aria": "Bet on Menos 17.5 with odds 1.015.",
+          "text": "Menos\n17.5\n1.01"
+        },
+        {
+          "aria": "Bet on Más de 18.5 with odds 14.",
+          "text": "Más de\n18.5\n14.00"
+        },
+        {
+          "aria": "Bet on Menos 18.5 with odds 1.006.",
+          "text": "Menos\n18.5\n1.006"
+        }
+      ],
+      "text": "Más/Menos Córners\nTottenham Hotspur y Coventry City promedian un total de 10,7 córners por partido en la Premier League.\nTottenham Hotspur promedió 7,8 córners por partido en sus últimos 5 encuentros en la Premier League.\nCoventry City promedia solo 3,7 córners por partido esta temporada en la Premier League.\nTottenham Hotspur promedia 5,6 córners por partido en sus últimos 49 encuentros en todas las competiciones.\nMás de\n4.5\n1.01\nMenos\n4.5\n11.75\nMás de\n5.5\n1.04\nMenos\n5.5\n9.00\nMás de\n6.5\n1.10\nMenos\n6.5\n6.30\nMás de\n7.5\n1.20\nMenos\n7.5\n4.25\nMás de\n8.5\n1.36\nMenos\n8.5\n3.00\nMás de\n9.5\n1.60\nMenos\n9.5\n2.25\nMás de\n10.5\n2.00\nMenos\n10.5\n1.75\nMás de\n11.5\n2.62\nMenos\n11.5\n1.45\nMás de\n12.5\n3.55\nMenos\n12.5\n1.27\nMás de\n13.5\n4.85\nMenos\n13.5\n1.16\nMás de\n14.5\n6.40\nMenos\n14.5\n1.09\nMás de\n15.5\n8.50\nMenos\n15.5\n1.05\nMás de\n16.5\n10.50\nMenos\n16.5\n1.02\nMás de\n17.5\n12.00\nMenos\n17.5\n1.01\nMás de\n18.5\n14.00\nMenos\n18.5\n1.006\nMOSTRAR MENOS",
+      "title": "Más/Menos Córners"
+    },
+    {
+      "qa": "market-type-id-65",
+      "selections": [],
+      "text": "Tarjetas Totales Más/Menos",
+      "title": "Tarjetas Totales Más/Menos"
+    },
+    {
+      "qa": "market-type-id-596",
+      "selections": [],
+      "text": "Tiros al Arco",
+      "title": "Tiros al Arco"
+    },
+    {
+      "qa": "market-type-id-76",
+      "selections": [],
+      "text": "Goleador",
+      "title": "Goleador"
+    },
+    {
+      "qa": "market-type-id-8",
+      "selections": [],
+      "text": "Resultado Primer Tiempo",
+      "title": "Resultado Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-14",
+      "selections": [],
+      "text": "Más/Menos Goles en Primer Tiempo",
+      "title": "Más/Menos Goles en Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-37",
+      "selections": [],
+      "text": "Córners en Primer Tiempo Más/Menos",
+      "title": "Córners en Primer Tiempo Más/Menos"
+    },
+    {
+      "qa": "market-type-id-66",
+      "selections": [],
+      "text": "Total de Tarjetas (Más/Menos) Primer Tiempo",
+      "title": "Total de Tarjetas (Más/Menos) Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-84",
+      "selections": [
+        {
+          "aria": "Bet on Más de 0.5 with odds 1.11.",
+          "text": "Más de\n0.5\n1.11"
+        },
+        {
+          "aria": "Bet on Menos 0.5 with odds 6.",
+          "text": "Menos\n0.5\n6.00"
+        },
+        {
+          "aria": "Bet on Más de 1.5 with odds 1.52.",
+          "text": "Más de\n1.5\n1.52"
+        },
+        {
+          "aria": "Bet on Menos 1.5 with odds 2.45.",
+          "text": "Menos\n1.5\n2.45"
+        },
+        {
+          "aria": "Bet on Más de 2.5 with odds 2.5.",
+          "text": "Más de\n2.5\n2.50"
+        },
+        {
+          "aria": "Bet on Menos 2.5 with odds 1.5.",
+          "text": "Menos\n2.5\n1.50"
+        },
+        {
+          "aria": "Bet on Más de 3.5 with odds 4.7.",
+          "text": "Más de\n3.5\n4.70"
+        },
+        {
+          "aria": "Bet on Menos 3.5 with odds 1.17.",
+          "text": "Menos\n3.5\n1.17"
+        },
+        {
+          "aria": "Bet on Más de 4.5 with odds 8.25.",
+          "text": "Más de\n4.5\n8.25"
+        },
+        {
+          "aria": "Bet on Menos 4.5 with odds 1.05.",
+          "text": "Menos\n4.5\n1.05"
+        },
+        {
+          "aria": "Bet on Más de 5.5 with odds 12.",
+          "text": "Más de\n5.5\n12.00"
+        },
+        {
+          "aria": "Bet on Menos 5.5 with odds 1.015.",
+          "text": "Menos\n5.5\n1.01"
+        }
+      ],
+      "text": "Tottenham Hotspur - Goles totales Más/Menos\nEl Tottenham Hotspur promedia solo 0,7 goles por partido en casa en la Premier League esta temporada.\nMás de\n0.5\n1.11\nMenos\n0.5\n6.00\nMás de\n1.5\n1.52\nMenos\n1.5\n2.45\nMás de\n2.5\n2.50\nMenos\n2.5\n1.50\nMás de\n3.5\n4.70\nMenos\n3.5\n1.17\nMás de\n4.5\n8.25\nMenos\n4.5\n1.05\nMás de\n5.5\n12.00\nMenos\n5.5\n1.01\nMOSTRAR MENOS",
+      "title": "Tottenham Hotspur - Goles totales Más/Menos"
+    },
+    {
+      "qa": "market-type-id-85",
+      "selections": [
+        {
+          "aria": "Bet on Más de 0.5 with odds 1.52.",
+          "text": "Más de\n0.5\n1.52"
+        },
+        {
+          "aria": "Bet on Menos 0.5 with odds 2.45.",
+          "text": "Menos\n0.5\n2.45"
+        },
+        {
+          "aria": "Bet on Más de 1.5 with odds 3.3.",
+          "text": "Más de\n1.5\n3.30"
+        },
+        {
+          "aria": "Bet on Menos 1.5 with odds 1.3.",
+          "text": "Menos\n1.5\n1.30"
+        },
+        {
+          "aria": "Bet on Más de 2.5 with odds 7.6.",
+          "text": "Más de\n2.5\n7.60"
+        },
+        {
+          "aria": "Bet on Menos 2.5 with odds 1.06.",
+          "text": "Menos\n2.5\n1.06"
+        },
+        {
+          "aria": "Bet on Más de 3.5 with odds 12.5.",
+          "text": "Más de\n3.5\n12.50"
+        },
+        {
+          "aria": "Bet on Menos 3.5 with odds 1.01.",
+          "text": "Menos\n3.5\n1.01"
+        }
+      ],
+      "text": "Coventry City - Goles totales Más/Menos\nEl Coventry City promedia apenas 0,3 goles por partido fuera de casa en la Premier League esta temporada.\nEl Coventry City promedia 1,7 goles por partido en sus últimos 3 duelos fuera de casa en todas las competiciones.\nMás de\n0.5\n1.52\nMenos\n0.5\n2.45\nMás de\n1.5\n3.30\nMenos\n1.5\n1.30\nMás de\n2.5\n7.60\nMenos\n2.5\n1.06\nMás de\n3.5\n12.50\nMenos\n3.5\n1.01\nMOSTRAR MENOS",
+      "title": "Coventry City - Goles totales Más/Menos"
+    },
+    {
+      "qa": "market-type-id-3966",
+      "selections": [],
+      "text": "Ambos equipos anotan o Más de 2.5",
+      "title": "Ambos equipos anotan o Más de 2.5"
+    },
+    {
+      "qa": "market-type-id-10",
+      "selections": [],
+      "text": "Apuesta sin Empate",
+      "title": "Apuesta sin Empate"
+    },
+    {
+      "qa": "market-type-id-408",
+      "selections": [],
+      "text": "Hándicap Resultado del Partido",
+      "title": "Hándicap Resultado del Partido"
+    },
+    {
+      "qa": "market-type-id-16",
+      "selections": [],
+      "text": "Primer Tiempo/Tiempo Completo",
+      "title": "Primer Tiempo/Tiempo Completo"
+    },
+    {
+      "qa": "market-type-id-17",
+      "selections": [],
+      "text": "Marcador Correcto",
+      "title": "Marcador Correcto"
+    }
+  ],
+  "top": "Fútbol\n\nBásquetbol\n\nTenis\n\nEsports\n\nBéisbol\n\nMMA\n\nFútbol americano\n\nVoleibol\n\nHockey sobre hielo\n\nTenis de mesa\n\nBox\n\nBalonmano\n\nDardos\n\nVóley-playa\n\nFórmula 1\n\nUnión de Rugby\n\nLiga de Rugby\n\nCiclismo\n\nFutsal\n\nWaterpolo\n\nBádminton\n\nSnooker\n\nCriquet\n\nLacrosse\n\nMoto GP\n\nGolf\n\nDeportes de motor\n\nDeportes de invierno\n\nFloorball\n\nInicioFútbolInglaterraPremier LeagueTottenham Hotspur - Coventry City\n\nBB BOOST\n\nLunes, 19 Octubre 2026 14:00\nTottenham Hotspur\nCoventry City\nSPONSOR PRINCIPAL\nApoyamos con orgullo al fútbol inglés\nPopulares\nGoles\nFormaciones\nJugadores\nCórners\nTarjetas\nEstadísticas\nPrimer Tiempo\nCombos\nEspeciales\nHándicap\nHándicap Asiático\nMinutos\nTodo\nBET\nBUILDER\nResultado del partido SuperCuotas\n\nSUPERCUOTAS\n\n1\n1.55\nX\n4.65\n2\n6.00\nBB\nResultado del partido\n\n2 GOLES DE VENTAJA\n\n1\n1.53\nX\n4.45\n2\n5.70\nEl Coventry City ha ganado 2 de sus últimos 3 partidos en la Premier League.\nMEJORES CUOTAS\n\n20% SÚPER MEJORADAS\n\nGoles totales Más/Menos-Más de 2.5\nResultado Primer Tiempo-Tottenham Hotspur\nAnotar en cualquier momento-Dominic Solanke (Tottenham Hotspur)\n3.90\n4.68\n\n10% MEJORADAS\n\nGoles totales Más/Menos-Más de 2.5\nMás/Menos Córners-Más de 10.5\nTarjetas Totales Más/Menos-Más de 3.5\n6.60\n7.26\n\n10% MEJORADAS\n\nResultado del partido-Tottenham Hotspur\nTarjetas Totales Más/Menos-Más de 3.5",
+  "fixture_id": "560606",
+  "url": "https://www.betano.pe/cuotas-de-partido/tottenham-hotspur-coventry-city/92788262/",
+  "observed_at": "2026-10-19T06:06:01.108Z"
+}

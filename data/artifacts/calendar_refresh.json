@@ -1,0 +1,35 @@
+{
+  "as_of": "2026-10-18",
+  "competitions": [
+    {
+      "competition": "UEFA Champions League",
+      "status": "refreshed",
+      "fixtures": 144
+    },
+    {
+      "competition": "La Liga",
+      "status": "refreshed",
+      "fixtures": 380
+    },
+    {
+      "competition": "Premier League",
+      "status": "refreshed",
+      "fixtures": 380
+    },
+    {
+      "competition": "Bundesliga",
+      "status": "refreshed",
+      "fixtures": 306
+    },
+    {
+      "competition": "Serie A",
+      "status": "refreshed",
+      "fixtures": 380
+    },
+    {
+      "competition": "Ligue 1",
+      "status": "refreshed",
+      "fixtures": 306
+    }
+  ]
+}

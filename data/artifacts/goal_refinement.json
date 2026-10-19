@@ -1,0 +1,79 @@
+{
+  "protocol": "Frozen monthly historical forecasts. Fit rate corrections Aug-Dec 2025; choose by Poisson NLL; gate on Jan-Jun 2026; report Aug-Oct 17 2026 without tuning. Retrospective evaluation; Oct 18 excluded.",
+  "fitted_until": "2026-01-01",
+  "validated_until": "2026-07-01",
+  "active_from": "2026-10-19",
+  "selected_candidate": "venue_rates",
+  "promoted": false,
+  "factors": {},
+  "candidate_training": {
+    "unchanged": {
+      "matches": 802,
+      "goal_poisson_nll": 2.891619277909978,
+      "goal_total_mae": 1.319821963488226,
+      "log_loss_1x2": 0.9767801795441201,
+      "btts_log_loss": 0.6942989202051663,
+      "over25_log_loss": 0.6858222387264131
+    },
+    "global_rate": {
+      "matches": 802,
+      "goal_poisson_nll": 2.891020795221682,
+      "goal_total_mae": 1.3145032990841579,
+      "log_loss_1x2": 0.9772060768669973,
+      "btts_log_loss": 0.6937477456943892,
+      "over25_log_loss": 0.685895530104641
+    },
+    "venue_rates": {
+      "matches": 802,
+      "goal_poisson_nll": 2.8883202639053196,
+      "goal_total_mae": 1.3157136525674527,
+      "log_loss_1x2": 0.9743659025768547,
+      "btts_log_loss": 0.6933891279987272,
+      "over25_log_loss": 0.6856914199554107
+    },
+    "league_rates": {
+      "matches": 802,
+      "goal_poisson_nll": 2.8892180228413293,
+      "goal_total_mae": 1.3111770229000201,
+      "log_loss_1x2": 0.9768976545307536,
+      "btts_log_loss": 0.6940641761980532,
+      "over25_log_loss": 0.6852090095918666
+    }
+  },
+  "validation": {
+    "baseline": {
+      "matches": 950,
+      "goal_poisson_nll": 2.9023737412603845,
+      "goal_total_mae": 1.2826741488747446,
+      "log_loss_1x2": 1.0081823165596129,
+      "btts_log_loss": 0.6851430889215346,
+      "over25_log_loss": 0.6875864544089226
+    },
+    "candidate": {
+      "matches": 950,
+      "goal_poisson_nll": 2.905940819188493,
+      "goal_total_mae": 1.281075946156797,
+      "log_loss_1x2": 1.0089259454667743,
+      "btts_log_loss": 0.6882311818649363,
+      "over25_log_loss": 0.6890794848111929
+    }
+  },
+  "current_diagnostic": {
+    "baseline": {
+      "matches": 322,
+      "goal_poisson_nll": 3.0134565688362307,
+      "goal_total_mae": 1.4028093766225653,
+      "log_loss_1x2": 0.9784770349101576,
+      "btts_log_loss": 0.6739619222267631,
+      "over25_log_loss": 0.6548056238115285
+    },
+    "candidate": {
+      "matches": 322,
+      "goal_poisson_nll": 3.0160765078616865,
+      "goal_total_mae": 1.4069900263488253,
+      "log_loss_1x2": 0.9771842159199065,
+      "btts_log_loss": 0.6772262631914754,
+      "over25_log_loss": 0.6575564197993087
+    }
+  }
+}

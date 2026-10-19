@@ -1,0 +1,1621 @@
+{
+  "heading": [
+    "Inter de Milán\nAC Fiorentina"
+  ],
+  "markets": [
+    {
+      "qa": "market-type-id-1",
+      "selections": [
+        {
+          "aria": "Bet on 1 with odds 1.39.",
+          "text": "1\n1.39"
+        },
+        {
+          "aria": "Bet on X with odds 5.",
+          "text": "X\n5.00"
+        },
+        {
+          "aria": "Bet on 2 with odds 7.7.",
+          "text": "2\n7.70"
+        }
+      ],
+      "text": "Resultado del partido\n\n2 GOLES DE VENTAJA\n\n1\n1.39\nX\n5.00\n2\n7.70\nInter de Milán ha ganado 4 de 4 partidos en casa en la Serie A esta temporada.\nInter de Milán ha ganado 6 de sus 7 partidos en la Serie A esta temporada.\nInter de Milán ha ganado 4 de los últimos 6 duelos directos ante la AC Fiorentina.\nInter de Milán sumó 13 puntos en sus últimos 5 partidos de Serie A.\nLa AC Fiorentina sumó solo 4 puntos en sus últimos 5 partidos de Serie A.",
+      "title": "Resultado del partido\n\n2 GOLES DE VENTAJA"
+    },
+    {
+      "qa": "market-type-id-13",
+      "selections": [
+        {
+          "aria": "Bet on Más de 0.5 with odds 1.03.",
+          "text": "Más de\n0.5\n1.03"
+        },
+        {
+          "aria": "Bet on Menos 0.5 with odds 13.",
+          "text": "Menos\n0.5\n13.00"
+        },
+        {
+          "aria": "Bet on Más de 1.5 with odds 1.15.",
+          "text": "Más de\n1.5\n1.15"
+        },
+        {
+          "aria": "Bet on Menos 1.5 with odds 5.5.",
+          "text": "Menos\n1.5\n5.50"
+        },
+        {
+          "aria": "Bet on Más de 2.5 with odds 1.47.",
+          "text": "Más de\n2.5\n1.47"
+        },
+        {
+          "aria": "Bet on Menos 2.5 with odds 2.72.",
+          "text": "Menos\n2.5\n2.72"
+        },
+        {
+          "aria": "Bet on Más de 3.5 with odds 2.12.",
+          "text": "Más de\n3.5\n2.12"
+        },
+        {
+          "aria": "Bet on Menos 3.5 with odds 1.72.",
+          "text": "Menos\n3.5\n1.72"
+        },
+        {
+          "aria": "Bet on Más de 4.5 with odds 3.5.",
+          "text": "Más de\n4.5\n3.50"
+        },
+        {
+          "aria": "Bet on Menos 4.5 with odds 1.31.",
+          "text": "Menos\n4.5\n1.31"
+        },
+        {
+          "aria": "Bet on Más de 5.5 with odds 6.",
+          "text": "Más de\n5.5\n6.00"
+        },
+        {
+          "aria": "Bet on Menos 5.5 with odds 1.13.",
+          "text": "Menos\n5.5\n1.13"
+        },
+        {
+          "aria": "Bet on Más de 6.5 with odds 10.25.",
+          "text": "Más de\n6.5\n10.25"
+        },
+        {
+          "aria": "Bet on Menos 6.5 with odds 1.05.",
+          "text": "Menos\n6.5\n1.05"
+        },
+        {
+          "aria": "Bet on Más de 7.5 with odds 15.",
+          "text": "Más de\n7.5\n15.00"
+        },
+        {
+          "aria": "Bet on Menos 7.5 with odds 1.015.",
+          "text": "Menos\n7.5\n1.01"
+        }
+      ],
+      "text": "Goles totales Más/Menos\nLos últimos 5 partidos del Inter de Milán en Serie A superaron los 2,5 goles.\nLos partidos del Inter de Milán en Serie A promedian 4,3 goles por encuentro esta temporada.\nLos partidos de la AC Fiorentina en Serie A promedian 3,6 goles por partido esta temporada.\n4 de los últimos 5 partidos de la AC Fiorentina en Serie A tuvieron más de 2,5 goles.\n3 de los últimos 5 duelos entre Inter de Milán y AC Fiorentina tuvieron más de 2,5 goles.\nMás de\n0.5\n1.03\nMenos\n0.5\n13.00\nMás de\n1.5\n1.15\nMenos\n1.5\n5.50\nMás de\n2.5\n1.47\nMenos\n2.5\n2.72\nMás de\n3.5\n2.12\nMenos\n3.5\n1.72\nMás de\n4.5\n3.50\nMenos\n4.5\n1.31\nMás de\n5.5\n6.00\nMenos\n5.5\n1.13\nMás de\n6.5\n10.25\nMenos\n6.5\n1.05\nMás de\n7.5\n15.00\nMenos\n7.5\n1.01\nMOSTRAR MENOS",
+      "title": "Goles totales Más/Menos"
+    },
+    {
+      "qa": "market-type-id-9",
+      "selections": [
+        {
+          "aria": "Bet on Inter de Milán o Empate with odds 1.11.",
+          "text": "Inter de Milán o Empate\n1.11"
+        },
+        {
+          "aria": "Bet on Inter de Milán o AC Fiorentina with odds 1.17.",
+          "text": "Inter de Milán o AC Fiorentina\n1.17"
+        },
+        {
+          "aria": "Bet on AC Fiorentina o Empate with odds 3.1.",
+          "text": "AC Fiorentina o Empate\n3.10"
+        }
+      ],
+      "text": "Doble oportunidad\nInter de Milán o Empate\n1.11\nInter de Milán o AC Fiorentina\n1.17\nAC Fiorentina o Empate\n3.10",
+      "title": "Doble oportunidad"
+    },
+    {
+      "qa": "market-type-id-15",
+      "selections": [
+        {
+          "aria": "Bet on Sí with odds 1.65.",
+          "text": "Sí\n1.65"
+        },
+        {
+          "aria": "Bet on No with odds 2.15.",
+          "text": "No\n2.15"
+        }
+      ],
+      "text": "Ambos equipos anotan\nSí\n1.65\nNo\n2.15\nAmbos equipos marcaron en los últimos 5 partidos de la AC Fiorentina en Serie A.\nAmbos equipos marcaron en 4 de los últimos 5 partidos del Inter de Milán en Serie A.\nEl Inter de Milán ha marcado en 7 partidos consecutivos de Serie A.\nLa AC Fiorentina ha encajado 10 goles en sus últimos 5 partidos de Serie A.\nLa AC Fiorentina ha marcado en 6 partidos consecutivos en todas las competiciones.",
+      "title": "Ambos equipos anotan"
+    },
+    {
+      "qa": "market-type-id-34",
+      "selections": [
+        {
+          "aria": "Bet on Más de 3.5 with odds 1.01.",
+          "text": "Más de\n3.5\n1.01"
+        },
+        {
+          "aria": "Bet on Menos 3.5 with odds 12.5.",
+          "text": "Menos\n3.5\n12.50"
+        },
+        {
+          "aria": "Bet on Más de 4.5 with odds 1.03.",
+          "text": "Más de\n4.5\n1.03"
+        },
+        {
+          "aria": "Bet on Menos 4.5 with odds 10.",
+          "text": "Menos\n4.5\n10.00"
+        },
+        {
+          "aria": "Bet on Más de 5.5 with odds 1.08.",
+          "text": "Más de\n5.5\n1.08"
+        },
+        {
+          "aria": "Bet on Menos 5.5 with odds 6.9.",
+          "text": "Menos\n5.5\n6.90"
+        },
+        {
+          "aria": "Bet on Más de 6.5 with odds 1.18.",
+          "text": "Más de\n6.5\n1.18"
+        },
+        {
+          "aria": "Bet on Menos 6.5 with odds 4.55.",
+          "text": "Menos\n6.5\n4.55"
+        },
+        {
+          "aria": "Bet on Más de 7.5 with odds 1.34.",
+          "text": "Más de\n7.5\n1.34"
+        },
+        {
+          "aria": "Bet on Menos 7.5 with odds 3.1.",
+          "text": "Menos\n7.5\n3.10"
+        },
+        {
+          "aria": "Bet on Más de 8.5 with odds 1.6.",
+          "text": "Más de\n8.5\n1.60"
+        },
+        {
+          "aria": "Bet on Menos 8.5 with odds 2.25.",
+          "text": "Menos\n8.5\n2.25"
+        },
+        {
+          "aria": "Bet on Más de 9.5 with odds 2.02.",
+          "text": "Más de\n9.5\n2.02"
+        },
+        {
+          "aria": "Bet on Menos 9.5 with odds 1.75.",
+          "text": "Menos\n9.5\n1.75"
+        },
+        {
+          "aria": "Bet on Más de 10.5 with odds 2.67.",
+          "text": "Más de\n10.5\n2.67"
+        },
+        {
+          "aria": "Bet on Menos 10.5 with odds 1.44.",
+          "text": "Menos\n10.5\n1.44"
+        },
+        {
+          "aria": "Bet on Más de 11.5 with odds 3.65.",
+          "text": "Más de\n11.5\n3.65"
+        },
+        {
+          "aria": "Bet on Menos 11.5 with odds 1.25.",
+          "text": "Menos\n11.5\n1.25"
+        },
+        {
+          "aria": "Bet on Más de 12.5 with odds 5.1.",
+          "text": "Más de\n12.5\n5.10"
+        },
+        {
+          "aria": "Bet on Menos 12.5 with odds 1.15.",
+          "text": "Menos\n12.5\n1.15"
+        },
+        {
+          "aria": "Bet on Más de 13.5 with odds 6.9.",
+          "text": "Más de\n13.5\n6.90"
+        },
+        {
+          "aria": "Bet on Menos 13.5 with odds 1.08.",
+          "text": "Menos\n13.5\n1.08"
+        },
+        {
+          "aria": "Bet on Más de 14.5 with odds 9.",
+          "text": "Más de\n14.5\n9.00"
+        },
+        {
+          "aria": "Bet on Menos 14.5 with odds 1.04.",
+          "text": "Menos\n14.5\n1.04"
+        },
+        {
+          "aria": "Bet on Más de 15.5 with odds 11.",
+          "text": "Más de\n15.5\n11.00"
+        },
+        {
+          "aria": "Bet on Menos 15.5 with odds 1.02.",
+          "text": "Menos\n15.5\n1.02"
+        },
+        {
+          "aria": "Bet on Más de 16.5 with odds 12.5.",
+          "text": "Más de\n16.5\n12.50"
+        },
+        {
+          "aria": "Bet on Menos 16.5 with odds 1.01.",
+          "text": "Menos\n16.5\n1.01"
+        },
+        {
+          "aria": "Bet on Más de 17.5 with odds 15.",
+          "text": "Más de\n17.5\n15.00"
+        },
+        {
+          "aria": "Bet on Menos 17.5 with odds 1.005.",
+          "text": "Menos\n17.5\n1.005"
+        }
+      ],
+      "text": "Más/Menos Córners\nInter de Milán y AC Fiorentina promedian un total combinado de 11,2 córners por partido en la Serie A esta temporada.\nLa AC Fiorentina promedió 6,3 córners por partido en sus últimos 3 encuentros de Serie A.\nEl Inter de Milán sacó 6 o más córners en 4 de sus últimos 7 partidos en la Serie A.\nEl Inter de Milán promedia 5,9 córners por partido esta temporada en la Serie A (7 partidos).\nEl Inter de Milán promedia 5,9 córners por partido en sus últimos 54 encuentros en todas las competiciones.\nMás de\n3.5\n1.01\nMenos\n3.5\n12.50\nMás de\n4.5\n1.03\nMenos\n4.5\n10.00\nMás de\n5.5\n1.08\nMenos\n5.5\n6.90\nMás de\n6.5\n1.18\nMenos\n6.5\n4.55\nMás de\n7.5\n1.34\nMenos\n7.5\n3.10\nMás de\n8.5\n1.60\nMenos\n8.5\n2.25\nMás de\n9.5\n2.02\nMenos\n9.5\n1.75\nMás de\n10.5\n2.67\nMenos\n10.5\n1.44\nMás de\n11.5\n3.65\nMenos\n11.5\n1.25\nMás de\n12.5\n5.10\nMenos\n12.5\n1.15\nMás de\n13.5\n6.90\nMenos\n13.5\n1.08\nMás de\n14.5\n9.00\nMenos\n14.5\n1.04\nMás de\n15.5\n11.00\nMenos\n15.5\n1.02\nMás de\n16.5\n12.50\nMenos\n16.5\n1.01\nMás de\n17.5\n15.00\nMenos\n17.5\n1.005\nMOSTRAR MENOS",
+      "title": "Más/Menos Córners"
+    },
+    {
+      "qa": "market-type-id-8",
+      "selections": [],
+      "text": "Resultado Primer Tiempo",
+      "title": "Resultado Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-14",
+      "selections": [],
+      "text": "Más/Menos Goles en Primer Tiempo",
+      "title": "Más/Menos Goles en Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-37",
+      "selections": [],
+      "text": "Córners en Primer Tiempo Más/Menos",
+      "title": "Córners en Primer Tiempo Más/Menos"
+    },
+    {
+      "qa": "market-type-id-84",
+      "selections": [
+        {
+          "aria": "Bet on Más de 0.5 with odds 1.07.",
+          "text": "Más de\n0.5\n1.07"
+        },
+        {
+          "aria": "Bet on Menos 0.5 with odds 7.4.",
+          "text": "Menos\n0.5\n7.40"
+        },
+        {
+          "aria": "Bet on Más de 1.5 with odds 1.36.",
+          "text": "Más de\n1.5\n1.36"
+        },
+        {
+          "aria": "Bet on Menos 1.5 with odds 3.",
+          "text": "Menos\n1.5\n3.00"
+        },
+        {
+          "aria": "Bet on Más de 2.5 with odds 2.07.",
+          "text": "Más de\n2.5\n2.07"
+        },
+        {
+          "aria": "Bet on Menos 2.5 with odds 1.7.",
+          "text": "Menos\n2.5\n1.70"
+        },
+        {
+          "aria": "Bet on Más de 3.5 with odds 3.65.",
+          "text": "Más de\n3.5\n3.65"
+        },
+        {
+          "aria": "Bet on Menos 3.5 with odds 1.26.",
+          "text": "Menos\n3.5\n1.26"
+        },
+        {
+          "aria": "Bet on Más de 4.5 with odds 6.6.",
+          "text": "Más de\n4.5\n6.60"
+        },
+        {
+          "aria": "Bet on Menos 4.5 with odds 1.09.",
+          "text": "Menos\n4.5\n1.09"
+        },
+        {
+          "aria": "Bet on Más de 5.5 with odds 10.25.",
+          "text": "Más de\n5.5\n10.25"
+        },
+        {
+          "aria": "Bet on Menos 5.5 with odds 1.025.",
+          "text": "Menos\n5.5\n1.02"
+        },
+        {
+          "aria": "Bet on Más de 6.5 with odds 13.5.",
+          "text": "Más de\n6.5\n13.50"
+        },
+        {
+          "aria": "Bet on Menos 6.5 with odds 1.007.",
+          "text": "Menos\n6.5\n1.007"
+        }
+      ],
+      "text": "Inter de Milán - Goles totales Más/Menos\nEl Inter de Milán ha marcado 3+ goles en sus 4 partidos en casa en la Serie A.\nEl Inter de Milán promedia 3,7 goles por partido en sus últimos 3 duelos en casa en Serie A.\nMás de\n0.5\n1.07\nMenos\n0.5\n7.40\nMás de\n1.5\n1.36\nMenos\n1.5\n3.00\nMás de\n2.5\n2.07\nMenos\n2.5\n1.70\nMás de\n3.5\n3.65\nMenos\n3.5\n1.26\nMás de\n4.5\n6.60\nMenos\n4.5\n1.09\nMás de\n5.5\n10.25\nMenos\n5.5\n1.02\nMás de\n6.5\n13.50\nMenos\n6.5\n1.007\nMOSTRAR MENOS",
+      "title": "Inter de Milán - Goles totales Más/Menos"
+    },
+    {
+      "qa": "market-type-id-85",
+      "selections": [
+        {
+          "aria": "Bet on Más de 0.5 with odds 1.55.",
+          "text": "Más de\n0.5\n1.55"
+        },
+        {
+          "aria": "Bet on Menos 0.5 with odds 2.37.",
+          "text": "Menos\n0.5\n2.37"
+        },
+        {
+          "aria": "Bet on Más de 1.5 with odds 3.45.",
+          "text": "Más de\n1.5\n3.45"
+        },
+        {
+          "aria": "Bet on Menos 1.5 with odds 1.28.",
+          "text": "Menos\n1.5\n1.28"
+        },
+        {
+          "aria": "Bet on Más de 2.5 with odds 8.",
+          "text": "Más de\n2.5\n8.00"
+        },
+        {
+          "aria": "Bet on Menos 2.5 with odds 1.06.",
+          "text": "Menos\n2.5\n1.06"
+        },
+        {
+          "aria": "Bet on Más de 3.5 with odds 12.5.",
+          "text": "Más de\n3.5\n12.50"
+        },
+        {
+          "aria": "Bet on Menos 3.5 with odds 1.009.",
+          "text": "Menos\n3.5\n1.009"
+        }
+      ],
+      "text": "AC Fiorentina - Goles totales Más/Menos\nLa AC Fiorentina ha marcado 3+ goles en 1 de sus 3 partidos a domicilio en la Serie A esta temporada.\nLa AC Fiorentina promedia 1,7 goles por partido en sus últimos 3 partidos a domicilio en todas las competiciones.\nMás de\n0.5\n1.55\nMenos\n0.5\n2.37\nMás de\n1.5\n3.45\nMenos\n1.5\n1.28\nMás de\n2.5\n8.00\nMenos\n2.5\n1.06\nMás de\n3.5\n12.50\nMenos\n3.5\n1.009\nMOSTRAR MENOS",
+      "title": "AC Fiorentina - Goles totales Más/Menos"
+    },
+    {
+      "qa": "market-type-id-3966",
+      "selections": [],
+      "text": "Ambos equipos anotan o Más de 2.5",
+      "title": "Ambos equipos anotan o Más de 2.5"
+    },
+    {
+      "qa": "market-type-id-10",
+      "selections": [],
+      "text": "Apuesta sin Empate",
+      "title": "Apuesta sin Empate"
+    },
+    {
+      "qa": "market-type-id-408",
+      "selections": [],
+      "text": "Hándicap Resultado del Partido",
+      "title": "Hándicap Resultado del Partido"
+    },
+    {
+      "qa": "market-type-id-16",
+      "selections": [],
+      "text": "Primer Tiempo/Tiempo Completo",
+      "title": "Primer Tiempo/Tiempo Completo"
+    },
+    {
+      "qa": "market-type-id-17",
+      "selections": [],
+      "text": "Marcador Correcto",
+      "title": "Marcador Correcto"
+    },
+    {
+      "qa": "market-type-id-11",
+      "selections": [],
+      "text": "Próximo gol (Gol 1)",
+      "title": "Próximo gol (Gol 1)"
+    },
+    {
+      "qa": "market-type-id-115",
+      "selections": [],
+      "text": "Más/Menos Goles en Primer Tiempo Inter de Milán",
+      "title": "Más/Menos Goles en Primer Tiempo Inter de Milán"
+    },
+    {
+      "qa": "market-type-id-116",
+      "selections": [],
+      "text": "Más/Menos Goles en Primer Tiempo AC Fiorentina",
+      "title": "Más/Menos Goles en Primer Tiempo AC Fiorentina"
+    },
+    {
+      "qa": "market-type-id-131",
+      "selections": [],
+      "text": "Más/Menos Goles en Segundo Tiempo",
+      "title": "Más/Menos Goles en Segundo Tiempo"
+    },
+    {
+      "qa": "market-type-id-2818",
+      "selections": [],
+      "text": "Total de goles",
+      "title": "Total de goles"
+    },
+    {
+      "qa": "market-type-id-104",
+      "selections": [],
+      "text": "Total de goles (extra)",
+      "title": "Total de goles (extra)"
+    },
+    {
+      "qa": "market-type-id-31",
+      "selections": [],
+      "text": "Forma de anotación de gol (Gol 1)",
+      "title": "Forma de anotación de gol (Gol 1)"
+    },
+    {
+      "qa": "market-type-id-148",
+      "selections": [],
+      "text": "Total de goles par/impar",
+      "title": "Total de goles par/impar"
+    },
+    {
+      "qa": "market-type-id-341",
+      "selections": [],
+      "text": "Primer equipo en anotar X Goles",
+      "title": "Primer equipo en anotar X Goles"
+    },
+    {
+      "qa": "market-type-id-105",
+      "selections": [],
+      "text": "Total de goles del equipo",
+      "title": "Total de goles del equipo"
+    },
+    {
+      "qa": "market-type-id-13",
+      "selections": [
+        {
+          "aria": "Bet on Más de 2.5 with odds 1.47.",
+          "text": "Más de\n2.5\n1.47"
+        },
+        {
+          "aria": "Bet on Menos 2.5 with odds 2.72.",
+          "text": "Menos\n2.5\n2.72"
+        },
+        {
+          "aria": "Bet on Más de 3.5 with odds 2.12.",
+          "text": "Más de\n3.5\n2.12"
+        },
+        {
+          "aria": "Bet on Menos 3.5 with odds 1.72.",
+          "text": "Menos\n3.5\n1.72"
+        },
+        {
+          "aria": "Bet on Más de 4.5 with odds 3.5.",
+          "text": "Más de\n4.5\n3.50"
+        },
+        {
+          "aria": "Bet on Menos 4.5 with odds 1.31.",
+          "text": "Menos\n4.5\n1.31"
+        }
+      ],
+      "text": "Goles totales Más/Menos\nMás de\n2.5\n1.47\nMenos\n2.5\n2.72\nMás de\n3.5\n2.12\nMenos\n3.5\n1.72\nMás de\n4.5\n3.50\nMenos\n4.5\n1.31\nMOSTRAR TODO",
+      "title": "Goles totales Más/Menos"
+    },
+    {
+      "qa": "market-type-id-34",
+      "selections": [
+        {
+          "aria": "Bet on Más de 8.5 with odds 1.6.",
+          "text": "Más de\n8.5\n1.60"
+        },
+        {
+          "aria": "Bet on Menos 8.5 with odds 2.25.",
+          "text": "Menos\n8.5\n2.25"
+        },
+        {
+          "aria": "Bet on Más de 9.5 with odds 2.02.",
+          "text": "Más de\n9.5\n2.02"
+        },
+        {
+          "aria": "Bet on Menos 9.5 with odds 1.75.",
+          "text": "Menos\n9.5\n1.75"
+        },
+        {
+          "aria": "Bet on Más de 10.5 with odds 2.67.",
+          "text": "Más de\n10.5\n2.67"
+        },
+        {
+          "aria": "Bet on Menos 10.5 with odds 1.44.",
+          "text": "Menos\n10.5\n1.44"
+        }
+      ],
+      "text": "Más/Menos Córners\nMás de\n8.5\n1.60\nMenos\n8.5\n2.25\nMás de\n9.5\n2.02\nMenos\n9.5\n1.75\nMás de\n10.5\n2.67\nMenos\n10.5\n1.44\nMOSTRAR TODO",
+      "title": "Más/Menos Córners"
+    },
+    {
+      "qa": "market-type-id-37",
+      "selections": [],
+      "text": "Córners en Primer Tiempo Más/Menos",
+      "title": "Córners en Primer Tiempo Más/Menos"
+    },
+    {
+      "qa": "market-type-id-39",
+      "selections": [
+        {
+          "aria": "Bet on Más de 2.5 with odds 1.04.",
+          "text": "Más de\n2.5\n1.04"
+        },
+        {
+          "aria": "Bet on Menos 2.5 with odds 9.25.",
+          "text": "Menos\n2.5\n9.25"
+        },
+        {
+          "aria": "Bet on Más de 3.5 with odds 1.12.",
+          "text": "Más de\n3.5\n1.12"
+        },
+        {
+          "aria": "Bet on Menos 3.5 with odds 5.6.",
+          "text": "Menos\n3.5\n5.60"
+        },
+        {
+          "aria": "Bet on Más de 4.5 with odds 1.28.",
+          "text": "Más de\n4.5\n1.28"
+        },
+        {
+          "aria": "Bet on Menos 4.5 with odds 3.45.",
+          "text": "Menos\n4.5\n3.45"
+        },
+        {
+          "aria": "Bet on Más de 5.5 with odds 1.57.",
+          "text": "Más de\n5.5\n1.57"
+        },
+        {
+          "aria": "Bet on Menos 5.5 with odds 2.32.",
+          "text": "Menos\n5.5\n2.32"
+        },
+        {
+          "aria": "Bet on Más de 6.5 with odds 2.07.",
+          "text": "Más de\n6.5\n2.07"
+        },
+        {
+          "aria": "Bet on Menos 6.5 with odds 1.7.",
+          "text": "Menos\n6.5\n1.70"
+        },
+        {
+          "aria": "Bet on Más de 7.5 with odds 2.9.",
+          "text": "Más de\n7.5\n2.90"
+        },
+        {
+          "aria": "Bet on Menos 7.5 with odds 1.38.",
+          "text": "Menos\n7.5\n1.38"
+        },
+        {
+          "aria": "Bet on Más de 8.5 with odds 4.25.",
+          "text": "Más de\n8.5\n4.25"
+        },
+        {
+          "aria": "Bet on Menos 8.5 with odds 1.2.",
+          "text": "Menos\n8.5\n1.20"
+        },
+        {
+          "aria": "Bet on Más de 9.5 with odds 6.1.",
+          "text": "Más de\n9.5\n6.10"
+        },
+        {
+          "aria": "Bet on Menos 9.5 with odds 1.1.",
+          "text": "Menos\n9.5\n1.10"
+        },
+        {
+          "aria": "Bet on Más de 10.5 with odds 8.25.",
+          "text": "Más de\n10.5\n8.25"
+        },
+        {
+          "aria": "Bet on Menos 10.5 with odds 1.05.",
+          "text": "Menos\n10.5\n1.05"
+        }
+      ],
+      "text": "Inter de Milán Más/Menos Córners\nEl Inter de Milán promedia 6,5 córners por partido en casa en la Serie A esta temporada (4 partidos).\nMás de\n2.5\n1.04\nMenos\n2.5\n9.25\nMás de\n3.5\n1.12\nMenos\n3.5\n5.60\nMás de\n4.5\n1.28\nMenos\n4.5\n3.45\nMás de\n5.5\n1.57\nMenos\n5.5\n2.32\nMás de\n6.5\n2.07\nMenos\n6.5\n1.70\nMás de\n7.5\n2.90\nMenos\n7.5\n1.38\nMás de\n8.5\n4.25\nMenos\n8.5\n1.20\nMás de\n9.5\n6.10\nMenos\n9.5\n1.10\nMás de\n10.5\n8.25\nMenos\n10.5\n1.05\nMOSTRAR MENOS",
+      "title": "Inter de Milán Más/Menos Córners"
+    },
+    {
+      "qa": "market-type-id-40",
+      "selections": [
+        {
+          "aria": "Bet on Más de 0.5 with odds 1.04.",
+          "text": "Más de\n0.5\n1.04"
+        },
+        {
+          "aria": "Bet on Menos 0.5 with odds 9.25.",
+          "text": "Menos\n0.5\n9.25"
+        },
+        {
+          "aria": "Bet on Más de 1.5 with odds 1.21.",
+          "text": "Más de\n1.5\n1.21"
+        },
+        {
+          "aria": "Bet on Menos 1.5 with odds 4.1.",
+          "text": "Menos\n1.5\n4.10"
+        },
+        {
+          "aria": "Bet on Más de 2.5 with odds 1.62.",
+          "text": "Más de\n2.5\n1.62"
+        },
+        {
+          "aria": "Bet on Menos 2.5 with odds 2.2.",
+          "text": "Menos\n2.5\n2.20"
+        },
+        {
+          "aria": "Bet on Más de 3.5 with odds 2.55.",
+          "text": "Más de\n3.5\n2.55"
+        },
+        {
+          "aria": "Bet on Menos 3.5 with odds 1.47.",
+          "text": "Menos\n3.5\n1.47"
+        },
+        {
+          "aria": "Bet on Más de 4.5 with odds 4.3.",
+          "text": "Más de\n4.5\n4.30"
+        },
+        {
+          "aria": "Bet on Menos 4.5 with odds 1.2.",
+          "text": "Menos\n4.5\n1.20"
+        },
+        {
+          "aria": "Bet on Más de 5.5 with odds 7.1.",
+          "text": "Más de\n5.5\n7.10"
+        },
+        {
+          "aria": "Bet on Menos 5.5 with odds 1.08.",
+          "text": "Menos\n5.5\n1.08"
+        },
+        {
+          "aria": "Bet on Más de 6.5 with odds 10.5.",
+          "text": "Más de\n6.5\n10.50"
+        },
+        {
+          "aria": "Bet on Menos 6.5 with odds 1.025.",
+          "text": "Menos\n6.5\n1.02"
+        },
+        {
+          "aria": "Bet on Más de 7.5 with odds 13.",
+          "text": "Más de\n7.5\n13.00"
+        },
+        {
+          "aria": "Bet on Menos 7.5 with odds 1.008.",
+          "text": "Menos\n7.5\n1.008"
+        }
+      ],
+      "text": "AC Fiorentina Más/Menos Córners\nMás de\n0.5\n1.04\nMenos\n0.5\n9.25\nMás de\n1.5\n1.21\nMenos\n1.5\n4.10\nMás de\n2.5\n1.62\nMenos\n2.5\n2.20\nMás de\n3.5\n2.55\nMenos\n3.5\n1.47\nMás de\n4.5\n4.30\nMenos\n4.5\n1.20\nMás de\n5.5\n7.10\nMenos\n5.5\n1.08\nMás de\n6.5\n10.50\nMenos\n6.5\n1.02\nMás de\n7.5\n13.00\nMenos\n7.5\n1.008\nMOSTRAR MENOS",
+      "title": "AC Fiorentina Más/Menos Córners"
+    },
+    {
+      "qa": "market-type-id-33",
+      "selections": [],
+      "text": "Córners - Triple",
+      "title": "Córners - Triple"
+    },
+    {
+      "qa": "market-type-id-48",
+      "selections": [],
+      "text": "Córners cronometrados Más/Menos (00:00 - 09:59)",
+      "title": "Córners cronometrados Más/Menos (00:00 - 09:59)"
+    },
+    {
+      "qa": "market-type-id-48",
+      "selections": [],
+      "text": "Córners cronometrados Más/Menos (00:00 - 09:59)",
+      "title": "Córners cronometrados Más/Menos (00:00 - 09:59)"
+    },
+    {
+      "qa": "market-type-id-5016",
+      "selections": [],
+      "text": "Inter de Milán Córners cronometrados Más/Menos (00:00 - 09:59)",
+      "title": "Inter de Milán Córners cronometrados Más/Menos (00:00 - 09:59)"
+    },
+    {
+      "qa": "market-type-id-5017",
+      "selections": [],
+      "text": "AC Fiorentina Córners cronometrados Más/Menos (00:00 - 09:59)",
+      "title": "AC Fiorentina Córners cronometrados Más/Menos (00:00 - 09:59)"
+    },
+    {
+      "qa": "market-type-id-45",
+      "selections": [],
+      "text": "Primer Tiempo Equipo con más Córners",
+      "title": "Primer Tiempo Equipo con más Córners"
+    },
+    {
+      "qa": "market-type-id-41",
+      "selections": [],
+      "text": "Primer Tiempo Inter de Milán Más/Menos Córners",
+      "title": "Primer Tiempo Inter de Milán Más/Menos Córners"
+    },
+    {
+      "qa": "market-type-id-42",
+      "selections": [],
+      "text": "Primer Tiempo AC Fiorentina Más/Menos Córners",
+      "title": "Primer Tiempo AC Fiorentina Más/Menos Córners"
+    },
+    {
+      "qa": "market-type-id-36",
+      "selections": [],
+      "text": "Córners del Primer Tiempo - Triples",
+      "title": "Córners del Primer Tiempo - Triples"
+    },
+    {
+      "qa": "market-type-id-38",
+      "selections": [],
+      "text": "Córners en Segundo Tiempo Más/Menos",
+      "title": "Córners en Segundo Tiempo Más/Menos"
+    },
+    {
+      "qa": "market-type-id-44",
+      "selections": [],
+      "text": "Equipo con más Córners",
+      "title": "Equipo con más Córners"
+    },
+    {
+      "qa": "market-type-id-46",
+      "selections": [],
+      "text": "Carrera a X córners",
+      "title": "Carrera a X córners"
+    },
+    {
+      "qa": "market-type-id-32",
+      "selections": [],
+      "text": "Equipo del siguiente córner (Córner 1)",
+      "title": "Equipo del siguiente córner (Córner 1)"
+    },
+    {
+      "qa": "market-type-id-1000617",
+      "selections": [],
+      "text": "Asiático (Más/Menos) Total de Córners",
+      "title": "Asiático (Más/Menos) Total de Córners"
+    },
+    {
+      "qa": "market-type-id-1000619",
+      "selections": [],
+      "text": "Asiático (Más/Menos) - Córners Totales en el Primer Tiempo",
+      "title": "Asiático (Más/Menos) - Córners Totales en el Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-43",
+      "selections": [],
+      "text": "Hándicap de Córners - (2 bandas)",
+      "title": "Hándicap de Córners - (2 bandas)"
+    },
+    {
+      "qa": "market-type-id-201",
+      "selections": [],
+      "text": "Hándicap de Córners - Triples",
+      "title": "Hándicap de Córners - Triples"
+    },
+    {
+      "qa": "market-type-id-271",
+      "selections": [],
+      "text": "Tiempo con Más Córners",
+      "title": "Tiempo con Más Córners"
+    },
+    {
+      "qa": "market-type-id-35",
+      "selections": [],
+      "text": "Total de Córners",
+      "title": "Total de Córners"
+    },
+    {
+      "qa": "market-type-id-4017",
+      "selections": [],
+      "text": "Rangos de Córner",
+      "title": "Rangos de Córner"
+    },
+    {
+      "qa": "market-type-id-4015",
+      "selections": [],
+      "text": "Córners Marcador Correcto",
+      "title": "Córners Marcador Correcto"
+    },
+    {
+      "qa": "market-type-id-457",
+      "selections": [],
+      "text": "Palo",
+      "title": "Palo"
+    },
+    {
+      "qa": "market-type-id-113",
+      "selections": [],
+      "text": "Primer Tiempo - Doble Oportunidad",
+      "title": "Primer Tiempo - Doble Oportunidad"
+    },
+    {
+      "qa": "market-type-id-407",
+      "selections": [],
+      "text": "Hándicap Primer Tiempo",
+      "title": "Hándicap Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-144",
+      "selections": [],
+      "text": "Gana cualquiera de los tiempos",
+      "title": "Gana cualquiera de los tiempos"
+    },
+    {
+      "qa": "market-type-id-92",
+      "selections": [],
+      "text": "Resultado Primer tiempo o Tiempo Completo",
+      "title": "Resultado Primer tiempo o Tiempo Completo"
+    },
+    {
+      "qa": "market-type-id-93",
+      "selections": [],
+      "text": "Primer Tiempo/Tiempo Completo - Doble oportunidad",
+      "title": "Primer Tiempo/Tiempo Completo - Doble oportunidad"
+    },
+    {
+      "qa": "market-type-id-12",
+      "selections": [],
+      "text": "Próximo gol en Primer Tiempo (Gol 1)",
+      "title": "Próximo gol en Primer Tiempo (Gol 1)"
+    },
+    {
+      "qa": "market-type-id-114",
+      "selections": [],
+      "text": "Ambos Equipos Anotan en el Primer Tiempo",
+      "title": "Ambos Equipos Anotan en el Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-118",
+      "selections": [],
+      "text": "Marcador correcto en el primer tiempo",
+      "title": "Marcador correcto en el primer tiempo"
+    },
+    {
+      "qa": "market-type-id-112",
+      "selections": [],
+      "text": "Apuesta sin Empate Medio Tiempo",
+      "title": "Apuesta sin Empate Medio Tiempo"
+    },
+    {
+      "qa": "market-type-id-141",
+      "selections": [],
+      "text": "Gol anotado en ambos tiempos",
+      "title": "Gol anotado en ambos tiempos"
+    },
+    {
+      "qa": "market-type-id-138",
+      "selections": [],
+      "text": "Ambos Equipos Anotan en el Primer Tiempo/Segundo Tiempo",
+      "title": "Ambos Equipos Anotan en el Primer Tiempo/Segundo Tiempo"
+    },
+    {
+      "qa": "market-type-id-107",
+      "selections": [],
+      "text": "Tiempo con Más Goles",
+      "title": "Tiempo con Más Goles"
+    },
+    {
+      "qa": "market-type-id-434",
+      "selections": [],
+      "text": "Inter de Milán Gana Ambos Tiempos",
+      "title": "Inter de Milán Gana Ambos Tiempos"
+    },
+    {
+      "qa": "market-type-id-431",
+      "selections": [],
+      "text": "AC Fiorentina Gana Ambos Tiempos",
+      "title": "AC Fiorentina Gana Ambos Tiempos"
+    },
+    {
+      "qa": "market-type-id-133",
+      "selections": [],
+      "text": "Resultado Segundo Tiempo",
+      "title": "Resultado Segundo Tiempo"
+    },
+    {
+      "qa": "market-type-id-134",
+      "selections": [],
+      "text": "Segundo Tiempo - Doble Oportunidad",
+      "title": "Segundo Tiempo - Doble Oportunidad"
+    },
+    {
+      "qa": "market-type-id-137",
+      "selections": [],
+      "text": "Ambos equipos anotan en el Segundo Tiempo",
+      "title": "Ambos equipos anotan en el Segundo Tiempo"
+    },
+    {
+      "qa": "market-type-id-120",
+      "selections": [],
+      "text": "Primer Tiempo Inter de Milán Total de Goles Exactos",
+      "title": "Primer Tiempo Inter de Milán Total de Goles Exactos"
+    },
+    {
+      "qa": "market-type-id-121",
+      "selections": [],
+      "text": "Primer Tiempo AC Fiorentina Total de Goles Exactos",
+      "title": "Primer Tiempo AC Fiorentina Total de Goles Exactos"
+    },
+    {
+      "qa": "market-type-id-4049",
+      "selections": [],
+      "text": "Segundo Tiempo - Más/Menos Total de Goles Inter de Milán",
+      "title": "Segundo Tiempo - Más/Menos Total de Goles Inter de Milán"
+    },
+    {
+      "qa": "market-type-id-4050",
+      "selections": [],
+      "text": "Segundo Tiempo - Más/Menos Total de Goles AC Fiorentina",
+      "title": "Segundo Tiempo - Más/Menos Total de Goles AC Fiorentina"
+    },
+    {
+      "qa": "market-type-id-110",
+      "selections": [],
+      "text": "Total de goles en el Primer Tiempo",
+      "title": "Total de goles en el Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-4684",
+      "selections": [],
+      "text": "Rango de Total de goles Primer Tiempo",
+      "title": "Rango de Total de goles Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-574",
+      "selections": [],
+      "text": "Medio Tiempo/Tiempo Completo y Más/Menos Goles",
+      "title": "Medio Tiempo/Tiempo Completo y Más/Menos Goles"
+    },
+    {
+      "qa": "market-type-id-574",
+      "selections": [],
+      "text": "Medio Tiempo/Tiempo Completo y Más/Menos Goles",
+      "title": "Medio Tiempo/Tiempo Completo y Más/Menos Goles"
+    },
+    {
+      "qa": "market-type-id-574",
+      "selections": [],
+      "text": "Medio Tiempo/Tiempo Completo y Más/Menos Goles",
+      "title": "Medio Tiempo/Tiempo Completo y Más/Menos Goles"
+    },
+    {
+      "qa": "market-type-id-24",
+      "selections": [
+        {
+          "aria": "Bet on Inter de Milán y Más 1.5 with odds 1.5.",
+          "text": "Inter de Milán y Más\n1.5\n1.50"
+        },
+        {
+          "aria": "Bet on Inter de Milán y Menos 1.5 with odds 8.75.",
+          "text": "Inter de Milán y Menos\n1.5\n8.75"
+        },
+        {
+          "aria": "Bet on AC Fiorentina y Más 1.5 with odds 8.5.",
+          "text": "AC Fiorentina y Más\n1.5\n8.50"
+        },
+        {
+          "aria": "Bet on AC Fiorentina y Menos 1.5 with odds 22.",
+          "text": "AC Fiorentina y Menos\n1.5\n22.00"
+        },
+        {
+          "aria": "Bet on Empate y Más 1.5 with odds 5.4.",
+          "text": "Empate y Más\n1.5\n5.40"
+        },
+        {
+          "aria": "Bet on Empate y Menos 1.5 with odds 13.",
+          "text": "Empate y Menos\n1.5\n13.00"
+        }
+      ],
+      "text": "Resultado del partido con Más/Menos (1.5)\nInter de Milán y Más\n1.5\n1.50\nInter de Milán y Menos\n1.5\n8.75\nAC Fiorentina y Más\n1.5\n8.50\nAC Fiorentina y Menos\n1.5\n22.00\nEmpate y Más\n1.5\n5.40\nEmpate y Menos\n1.5\n13.00",
+      "title": "Resultado del partido con Más/Menos (1.5)"
+    },
+    {
+      "qa": "market-type-id-24",
+      "selections": [
+        {
+          "aria": "Bet on Inter de Milán y Más 2.5 with odds 1.78.",
+          "text": "Inter de Milán y Más\n2.5\n1.78"
+        },
+        {
+          "aria": "Bet on Inter de Milán y Menos 2.5 with odds 4.5.",
+          "text": "Inter de Milán y Menos\n2.5\n4.50"
+        },
+        {
+          "aria": "Bet on AC Fiorentina y Más 2.5 with odds 10.",
+          "text": "AC Fiorentina y Más\n2.5\n10.00"
+        },
+        {
+          "aria": "Bet on AC Fiorentina y Menos 2.5 with odds 17.",
+          "text": "AC Fiorentina y Menos\n2.5\n17.00"
+        },
+        {
+          "aria": "Bet on Empate y Más 2.5 with odds 11.5.",
+          "text": "Empate y Más\n2.5\n11.50"
+        },
+        {
+          "aria": "Bet on Empate y Menos 2.5 with odds 6.7.",
+          "text": "Empate y Menos\n2.5\n6.70"
+        }
+      ],
+      "text": "Resultado del partido con Más/Menos (2.5)\nInter de Milán y Más\n2.5\n1.78\nInter de Milán y Menos\n2.5\n4.50\nAC Fiorentina y Más\n2.5\n10.00\nAC Fiorentina y Menos\n2.5\n17.00\nEmpate y Más\n2.5\n11.50\nEmpate y Menos\n2.5\n6.70",
+      "title": "Resultado del partido con Más/Menos (2.5)"
+    },
+    {
+      "qa": "market-type-id-24",
+      "selections": [],
+      "text": "Resultado del partido con Más/Menos (3.5)",
+      "title": "Resultado del partido con Más/Menos (3.5)"
+    },
+    {
+      "qa": "market-type-id-24",
+      "selections": [],
+      "text": "Resultado del partido con Más/Menos (4.5)",
+      "title": "Resultado del partido con Más/Menos (4.5)"
+    },
+    {
+      "qa": "market-type-id-24",
+      "selections": [],
+      "text": "Resultado del partido con Más/Menos (5.5)",
+      "title": "Resultado del partido con Más/Menos (5.5)"
+    },
+    {
+      "qa": "market-type-id-26",
+      "selections": [
+        {
+          "aria": "Bet on Inter de Milán o AC Fiorentina y Más 1.5 with odds 1.36.",
+          "text": "Inter de Milán o AC Fiorentina y Más\n1.5\n1.36"
+        },
+        {
+          "aria": "Bet on Inter de Milán o AC Fiorentina y Menos 1.5 with odds 7.1.",
+          "text": "Inter de Milán o AC Fiorentina y Menos\n1.5\n7.10"
+        },
+        {
+          "aria": "Bet on Inter de Milán o Empate y Más 1.5 with odds 1.27.",
+          "text": "Inter de Milán o Empate y Más\n1.5\n1.27"
+        },
+        {
+          "aria": "Bet on Inter de Milán o Empate y Menos 1.5 with odds 6.8.",
+          "text": "Inter de Milán o Empate y Menos\n1.5\n6.80"
+        },
+        {
+          "aria": "Bet on AC Fiorentina o Empate y Más 1.5 with odds 3.7.",
+          "text": "AC Fiorentina o Empate y Más\n1.5\n3.70"
+        },
+        {
+          "aria": "Bet on AC Fiorentina o Empate y Menos 1.5 with odds 11.75.",
+          "text": "AC Fiorentina o Empate y Menos\n1.5\n11.75"
+        }
+      ],
+      "text": "Doble Oportunidad con Más/Menos (1.5)\nInter de Milán o AC Fiorentina y Más\n1.5\n1.36\nInter de Milán o AC Fiorentina y Menos\n1.5\n7.10\nInter de Milán o Empate y Más\n1.5\n1.27\nInter de Milán o Empate y Menos\n1.5\n6.80\nAC Fiorentina o Empate y Más\n1.5\n3.70\nAC Fiorentina o Empate y Menos\n1.5\n11.75",
+      "title": "Doble Oportunidad con Más/Menos (1.5)"
+    },
+    {
+      "qa": "market-type-id-26",
+      "selections": [
+        {
+          "aria": "Bet on Inter de Milán o AC Fiorentina y Más 2.5 with odds 1.6.",
+          "text": "Inter de Milán o AC Fiorentina y Más\n2.5\n1.60"
+        },
+        {
+          "aria": "Bet on Inter de Milán o AC Fiorentina y Menos 2.5 with odds 3.95.",
+          "text": "Inter de Milán o AC Fiorentina y Menos\n2.5\n3.95"
+        },
+        {
+          "aria": "Bet on Inter de Milán o Empate y Más 2.5 with odds 1.62.",
+          "text": "Inter de Milán o Empate y Más\n2.5\n1.62"
+        },
+        {
+          "aria": "Bet on Inter de Milán o Empate y Menos 2.5 with odds 3.",
+          "text": "Inter de Milán o Empate y Menos\n2.5\n3.00"
+        },
+        {
+          "aria": "Bet on AC Fiorentina o Empate y Más 2.5 with odds 6.3.",
+          "text": "AC Fiorentina o Empate y Más\n2.5\n6.30"
+        },
+        {
+          "aria": "Bet on AC Fiorentina o Empate y Menos 2.5 with odds 5.4.",
+          "text": "AC Fiorentina o Empate y Menos\n2.5\n5.40"
+        }
+      ],
+      "text": "Doble Oportunidad con Más/Menos (2.5)\nInter de Milán o AC Fiorentina y Más\n2.5\n1.60\nInter de Milán o AC Fiorentina y Menos\n2.5\n3.95\nInter de Milán o Empate y Más\n2.5\n1.62\nInter de Milán o Empate y Menos\n2.5\n3.00\nAC Fiorentina o Empate y Más\n2.5\n6.30\nAC Fiorentina o Empate y Menos\n2.5\n5.40",
+      "title": "Doble Oportunidad con Más/Menos (2.5)"
+    },
+    {
+      "qa": "market-type-id-26",
+      "selections": [],
+      "text": "Doble Oportunidad con Más/Menos (3.5)",
+      "title": "Doble Oportunidad con Más/Menos (3.5)"
+    },
+    {
+      "qa": "market-type-id-26",
+      "selections": [],
+      "text": "Doble Oportunidad con Más/Menos (4.5)",
+      "title": "Doble Oportunidad con Más/Menos (4.5)"
+    },
+    {
+      "qa": "market-type-id-26",
+      "selections": [],
+      "text": "Doble Oportunidad con Más/Menos (5.5)",
+      "title": "Doble Oportunidad con Más/Menos (5.5)"
+    },
+    {
+      "qa": "market-type-id-23",
+      "selections": [],
+      "text": "Ambos Anotan y Más/Menos (2.5)",
+      "title": "Ambos Anotan y Más/Menos (2.5)"
+    },
+    {
+      "qa": "market-type-id-23",
+      "selections": [],
+      "text": "Ambos Anotan y Más/Menos (3.5)",
+      "title": "Ambos Anotan y Más/Menos (3.5)"
+    },
+    {
+      "qa": "market-type-id-23",
+      "selections": [],
+      "text": "Ambos Anotan y Más/Menos (4.5)",
+      "title": "Ambos Anotan y Más/Menos (4.5)"
+    },
+    {
+      "qa": "market-type-id-23",
+      "selections": [],
+      "text": "Ambos Anotan y Más/Menos (5.5)",
+      "title": "Ambos Anotan y Más/Menos (5.5)"
+    },
+    {
+      "qa": "market-type-id-20",
+      "selections": [],
+      "text": "Resultado del partido / Ambos Equipos Anotan",
+      "title": "Resultado del partido / Ambos Equipos Anotan"
+    },
+    {
+      "qa": "market-type-id-25",
+      "selections": [],
+      "text": "Doble oportunidad / Ambos equipos anotan",
+      "title": "Doble oportunidad / Ambos equipos anotan"
+    },
+    {
+      "qa": "market-type-id-532",
+      "selections": [],
+      "text": "Qué ocurrirá primero en el partido - Primer Tiempo",
+      "title": "Qué ocurrirá primero en el partido - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-56",
+      "selections": [],
+      "text": "Penal concedido",
+      "title": "Penal concedido"
+    },
+    {
+      "qa": "market-type-id-124",
+      "selections": [],
+      "text": "Tiempo del Primer Gol Menos/Más 28 minutos",
+      "title": "Tiempo del Primer Gol Menos/Más 28 minutos"
+    },
+    {
+      "qa": "market-type-id-384",
+      "selections": [],
+      "text": "Inter de Milán anota en ambos tiempos",
+      "title": "Inter de Milán anota en ambos tiempos"
+    },
+    {
+      "qa": "market-type-id-364",
+      "selections": [],
+      "text": "AC Fiorentina anota en ambos tiempos",
+      "title": "AC Fiorentina anota en ambos tiempos"
+    },
+    {
+      "qa": "market-type-id-72",
+      "selections": [],
+      "text": "Autogol",
+      "title": "Autogol"
+    },
+    {
+      "qa": "market-type-id-96",
+      "selections": [],
+      "text": "Margen del Triunfo",
+      "title": "Margen del Triunfo"
+    },
+    {
+      "qa": "market-type-id-58",
+      "selections": [],
+      "text": "Penal concedido Primer Tiempo",
+      "title": "Penal concedido Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-59",
+      "selections": [],
+      "text": "Equipo que Anota un Penal",
+      "title": "Equipo que Anota un Penal"
+    },
+    {
+      "qa": "market-type-id-60",
+      "selections": [],
+      "text": "Equipo que falla un penal",
+      "title": "Equipo que falla un penal"
+    },
+    {
+      "qa": "market-type-id-5025",
+      "selections": [],
+      "text": "Inter de Milán Penal concedido",
+      "title": "Inter de Milán Penal concedido"
+    },
+    {
+      "qa": "market-type-id-5026",
+      "selections": [],
+      "text": "AC Fiorentina Penal concedido",
+      "title": "AC Fiorentina Penal concedido"
+    },
+    {
+      "qa": "market-type-id-57",
+      "selections": [],
+      "text": "Dos penales concedidos",
+      "title": "Dos penales concedidos"
+    },
+    {
+      "qa": "market-type-id-61",
+      "selections": [],
+      "text": "Ambos equipos ganan un penal",
+      "title": "Ambos equipos ganan un penal"
+    },
+    {
+      "qa": "market-type-id-102",
+      "selections": [],
+      "text": "Curso del juego",
+      "title": "Curso del juego"
+    },
+    {
+      "qa": "market-type-id-270",
+      "selections": [],
+      "text": "Inter de Milán Gana luego de ir perdiendo",
+      "title": "Inter de Milán Gana luego de ir perdiendo"
+    },
+    {
+      "qa": "market-type-id-196",
+      "selections": [],
+      "text": "AC Fiorentina Gana luego de ir perdiendo",
+      "title": "AC Fiorentina Gana luego de ir perdiendo"
+    },
+    {
+      "qa": "market-type-id-5015",
+      "selections": [],
+      "text": "Resultado del partido o Ambos equipos anotan",
+      "title": "Resultado del partido o Ambos equipos anotan"
+    },
+    {
+      "qa": "market-type-id-5249",
+      "selections": [],
+      "text": "Resultado del partido o Goles totales Más/Menos 2.5",
+      "title": "Resultado del partido o Goles totales Más/Menos 2.5"
+    },
+    {
+      "qa": "market-type-id-18",
+      "selections": [],
+      "text": "Marcador correcto (múltiple)",
+      "title": "Marcador correcto (múltiple)"
+    },
+    {
+      "qa": "market-type-id-19",
+      "selections": [],
+      "text": "Marcador Correcto - Sin Perder",
+      "title": "Marcador Correcto - Sin Perder"
+    },
+    {
+      "qa": "market-type-id-147",
+      "selections": [],
+      "text": "Marcador correcto Primer tiempo/Tiempo completo",
+      "title": "Marcador correcto Primer tiempo/Tiempo completo"
+    },
+    {
+      "qa": "market-type-id-185",
+      "selections": [
+        {
+          "aria": "Bet on Inter de Milán -2.0 with odds 2.75.",
+          "text": "Inter de Milán\n-2.0\n2.75"
+        },
+        {
+          "aria": "Bet on AC Fiorentina +2.0 with odds 1.47.",
+          "text": "AC Fiorentina\n+2.0\n1.47"
+        },
+        {
+          "aria": "Bet on Inter de Milán -1.5 with odds 2.",
+          "text": "Inter de Milán\n-1.5\n2.00"
+        },
+        {
+          "aria": "Bet on AC Fiorentina +1.5 with odds 1.85.",
+          "text": "AC Fiorentina\n+1.5\n1.85"
+        },
+        {
+          "aria": "Bet on Inter de Milán -1.0 with odds 1.57.",
+          "text": "Inter de Milán\n-1.0\n1.57"
+        },
+        {
+          "aria": "Bet on AC Fiorentina +1.0 with odds 2.47.",
+          "text": "AC Fiorentina\n+1.0\n2.47"
+        }
+      ],
+      "text": "Hándicap Asiático (Resultado actual 0 - 0)\nInter de Milán\n-2.0\n2.75\nAC Fiorentina\n+2.0\n1.47\nInter de Milán\n-1.5\n2.00\nAC Fiorentina\n+1.5\n1.85\nInter de Milán\n-1.0\n1.57\nAC Fiorentina\n+1.0\n2.47",
+      "title": "Hándicap Asiático (Resultado actual 0 - 0)"
+    },
+    {
+      "qa": "market-type-id-189",
+      "selections": [],
+      "text": "Asiático (Más/Menos) Total de goles",
+      "title": "Asiático (Más/Menos) Total de goles"
+    },
+    {
+      "qa": "market-type-id-186",
+      "selections": [],
+      "text": "Hándicap Asiático - Primer Tiempo (Resultado actual 0 - 0)",
+      "title": "Hándicap Asiático - Primer Tiempo (Resultado actual 0 - 0)"
+    },
+    {
+      "qa": "market-type-id-395",
+      "selections": [],
+      "text": "Asiático (Más/Menos) - Total de goles en el Primer Tiempo",
+      "title": "Asiático (Más/Menos) - Total de goles en el Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-122",
+      "selections": [],
+      "text": "Primer gol antes 24:00",
+      "title": "Primer gol antes 24:00"
+    },
+    {
+      "qa": "market-type-id-123",
+      "selections": [],
+      "text": "Gol anotado después del minuto 77:00",
+      "title": "Gol anotado después del minuto 77:00"
+    },
+    {
+      "qa": "market-type-id-125",
+      "selections": [],
+      "text": "Próximo gol antes de (Gol 1)",
+      "title": "Próximo gol antes de (Gol 1)"
+    },
+    {
+      "qa": "market-type-id-126",
+      "selections": [],
+      "text": "Inter de Milán Próximo gol antes de (Gol 1)",
+      "title": "Inter de Milán Próximo gol antes de (Gol 1)"
+    },
+    {
+      "qa": "market-type-id-127",
+      "selections": [],
+      "text": "AC Fiorentina Próximo gol antes de (Gol 1)",
+      "title": "AC Fiorentina Próximo gol antes de (Gol 1)"
+    },
+    {
+      "qa": "market-type-id-2934",
+      "selections": [],
+      "text": "Resultado por minuto 00:00 - 09:59",
+      "title": "Resultado por minuto 00:00 - 09:59"
+    },
+    {
+      "qa": "market-type-id-2934",
+      "selections": [],
+      "text": "Resultado por minuto 00:00 - 19:59",
+      "title": "Resultado por minuto 00:00 - 19:59"
+    },
+    {
+      "qa": "market-type-id-2934",
+      "selections": [],
+      "text": "Resultado por minuto 00:00 - 29:59",
+      "title": "Resultado por minuto 00:00 - 29:59"
+    },
+    {
+      "qa": "market-type-id-2934",
+      "selections": [],
+      "text": "Resultado por minuto 00:00 - 39:59",
+      "title": "Resultado por minuto 00:00 - 39:59"
+    },
+    {
+      "qa": "market-type-id-2934",
+      "selections": [],
+      "text": "Resultado por minuto 00:00 - 49:59",
+      "title": "Resultado por minuto 00:00 - 49:59"
+    },
+    {
+      "qa": "market-type-id-2934",
+      "selections": [],
+      "text": "Resultado por minuto 00:00 - 59:59",
+      "title": "Resultado por minuto 00:00 - 59:59"
+    },
+    {
+      "qa": "market-type-id-2934",
+      "selections": [],
+      "text": "Resultado por minuto 00:00 - 69:59",
+      "title": "Resultado por minuto 00:00 - 69:59"
+    },
+    {
+      "qa": "market-type-id-2934",
+      "selections": [],
+      "text": "Resultado por minuto 00:00 - 79:59",
+      "title": "Resultado por minuto 00:00 - 79:59"
+    },
+    {
+      "qa": "market-type-id-128",
+      "selections": [],
+      "text": "Rango de resultados por minuto (00:00 - 14:59)",
+      "title": "Rango de resultados por minuto (00:00 - 14:59)"
+    },
+    {
+      "qa": "market-type-id-128",
+      "selections": [],
+      "text": "Rango de resultados por minuto (15:00 - 29:59)",
+      "title": "Rango de resultados por minuto (15:00 - 29:59)"
+    },
+    {
+      "qa": "market-type-id-128",
+      "selections": [],
+      "text": "Rango de resultados por minuto (30:00 - 45:00)",
+      "title": "Rango de resultados por minuto (30:00 - 45:00)"
+    },
+    {
+      "qa": "market-type-id-128",
+      "selections": [],
+      "text": "Rango de resultados por minuto (45:00 - 59:59)",
+      "title": "Rango de resultados por minuto (45:00 - 59:59)"
+    },
+    {
+      "qa": "market-type-id-128",
+      "selections": [],
+      "text": "Rango de resultados por minuto (60:00 - 74:59)",
+      "title": "Rango de resultados por minuto (60:00 - 74:59)"
+    },
+    {
+      "qa": "market-type-id-128",
+      "selections": [],
+      "text": "Rango de resultados por minuto (75:00 - 90:00)",
+      "title": "Rango de resultados por minuto (75:00 - 90:00)"
+    },
+    {
+      "qa": "market-type-id-130",
+      "selections": [],
+      "text": "Goles cronometrados Más/Menos (00:00 - 14:59)",
+      "title": "Goles cronometrados Más/Menos (00:00 - 14:59)"
+    },
+    {
+      "qa": "market-type-id-130",
+      "selections": [],
+      "text": "Goles cronometrados Más/Menos (15:00 - 29:59)",
+      "title": "Goles cronometrados Más/Menos (15:00 - 29:59)"
+    },
+    {
+      "qa": "market-type-id-130",
+      "selections": [],
+      "text": "Goles cronometrados Más/Menos (30:00 - 45:00)",
+      "title": "Goles cronometrados Más/Menos (30:00 - 45:00)"
+    },
+    {
+      "qa": "market-type-id-130",
+      "selections": [],
+      "text": "Goles cronometrados Más/Menos (45:00 - 59:59)",
+      "title": "Goles cronometrados Más/Menos (45:00 - 59:59)"
+    },
+    {
+      "qa": "market-type-id-130",
+      "selections": [],
+      "text": "Goles cronometrados Más/Menos (60:00 - 74:59)",
+      "title": "Goles cronometrados Más/Menos (60:00 - 74:59)"
+    },
+    {
+      "qa": "market-type-id-27",
+      "selections": [],
+      "text": "Hora del próximo gol (Gol 1)",
+      "title": "Hora del próximo gol (Gol 1)"
+    },
+    {
+      "qa": "market-type-id-28",
+      "selections": [],
+      "text": "Hora del próximo gol Inter de Milán (Gol 1)",
+      "title": "Hora del próximo gol Inter de Milán (Gol 1)"
+    },
+    {
+      "qa": "market-type-id-29",
+      "selections": [],
+      "text": "Hora del próximo gol AC Fiorentina (Gol 1)",
+      "title": "Hora del próximo gol AC Fiorentina (Gol 1)"
+    },
+    {
+      "qa": "market-type-id-503",
+      "selections": [],
+      "text": "Total de Goles Exactos",
+      "title": "Total de Goles Exactos"
+    },
+    {
+      "qa": "market-type-id-34",
+      "selections": [
+        {
+          "aria": "Bet on Más de 8.5 with odds 1.6.",
+          "text": "Más de\n8.5\n1.60"
+        },
+        {
+          "aria": "Bet on Menos 8.5 with odds 2.25.",
+          "text": "Menos\n8.5\n2.25"
+        },
+        {
+          "aria": "Bet on Más de 9.5 with odds 2.02.",
+          "text": "Más de\n9.5\n2.02"
+        },
+        {
+          "aria": "Bet on Menos 9.5 with odds 1.75.",
+          "text": "Menos\n9.5\n1.75"
+        },
+        {
+          "aria": "Bet on Más de 10.5 with odds 2.67.",
+          "text": "Más de\n10.5\n2.67"
+        },
+        {
+          "aria": "Bet on Menos 10.5 with odds 1.44.",
+          "text": "Menos\n10.5\n1.44"
+        }
+      ],
+      "text": "Más/Menos Córners\nMás de\n8.5\n1.60\nMenos\n8.5\n2.25\nMás de\n9.5\n2.02\nMenos\n9.5\n1.75\nMás de\n10.5\n2.67\nMenos\n10.5\n1.44\nMOSTRAR TODO",
+      "title": "Más/Menos Córners"
+    },
+    {
+      "qa": "market-type-id-13",
+      "selections": [
+        {
+          "aria": "Bet on Más de 2.5 with odds 1.47.",
+          "text": "Más de\n2.5\n1.47"
+        },
+        {
+          "aria": "Bet on Menos 2.5 with odds 2.72.",
+          "text": "Menos\n2.5\n2.72"
+        },
+        {
+          "aria": "Bet on Más de 3.5 with odds 2.12.",
+          "text": "Más de\n3.5\n2.12"
+        },
+        {
+          "aria": "Bet on Menos 3.5 with odds 1.72.",
+          "text": "Menos\n3.5\n1.72"
+        },
+        {
+          "aria": "Bet on Más de 4.5 with odds 3.5.",
+          "text": "Más de\n4.5\n3.50"
+        },
+        {
+          "aria": "Bet on Menos 4.5 with odds 1.31.",
+          "text": "Menos\n4.5\n1.31"
+        }
+      ],
+      "text": "Goles totales Más/Menos\nMás de\n2.5\n1.47\nMenos\n2.5\n2.72\nMás de\n3.5\n2.12\nMenos\n3.5\n1.72\nMás de\n4.5\n3.50\nMenos\n4.5\n1.31\nMOSTRAR TODO",
+      "title": "Goles totales Más/Menos"
+    },
+    {
+      "qa": "market-type-id-21",
+      "selections": [],
+      "text": "Gana el resto del Partido [0 - 0]",
+      "title": "Gana el resto del Partido [0 - 0]"
+    },
+    {
+      "qa": "market-type-id-47",
+      "selections": [],
+      "text": "Córners Impar/Par",
+      "title": "Córners Impar/Par"
+    },
+    {
+      "qa": "market-type-id-4016",
+      "selections": [],
+      "text": "Primer Tiempo/Tiempo Completo Córners",
+      "title": "Primer Tiempo/Tiempo Completo Córners"
+    },
+    {
+      "qa": "market-type-id-135",
+      "selections": [],
+      "text": "Apuesta sin Empate Segundo Tiempo",
+      "title": "Apuesta sin Empate Segundo Tiempo"
+    },
+    {
+      "qa": "market-type-id-142",
+      "selections": [],
+      "text": "Más de 1.5 goles anotados en cada tiempo",
+      "title": "Más de 1.5 goles anotados en cada tiempo"
+    },
+    {
+      "qa": "market-type-id-143",
+      "selections": [],
+      "text": "Menos de 1.5 Goles Anotados en Ambos Tiempos",
+      "title": "Menos de 1.5 Goles Anotados en Ambos Tiempos"
+    }
+  ],
+  "top": "Fútbol\n\nBásquetbol\n\nTenis\n\nEsports\n\nBéisbol\n\nMMA\n\nFútbol americano\n\nVoleibol\n\nHockey sobre hielo\n\nTenis de mesa\n\nBox\n\nBalonmano\n\nDardos\n\nVóley-playa\n\nFórmula 1\n\nUnión de Rugby\n\nLiga de Rugby\n\nCiclismo\n\nFutsal\n\nWaterpolo\n\nBádminton\n\nSnooker\n\nCriquet\n\nLacrosse\n\nMoto GP\n\nGolf\n\nDeportes de motor\n\nDeportes de invierno\n\nHockey sobre césped\n\nFloorball\n\nInicioFútbolItaliaSerie AInter de Milán - AC Fiorentina\nDomingo, 25 Octubre 2026 06:30\nInter de Milán\nAC Fiorentina\nPopulares\nGoles\nCórners\nEstadísticas\nPrimer Tiempo\nCombos\nEspeciales\nHándicap\nHándicap Asiático\nMinutos\nTodo\nBET\nBUILDER\nBB\nResultado del partido\n\n2 GOLES DE VENTAJA\n\n1\n1.39\nX\n5.00\n2\n7.70\nInter de Milán ha ganado 4 de 4 partidos en casa en la Serie A esta temporada.\nInter de Milán ha ganado 6 de sus 7 partidos en la Serie A esta temporada.\nInter de Milán ha ganado 4 de los últimos 6 duelos directos ante la AC Fiorentina.\nInter de Milán sumó 13 puntos en sus últimos 5 partidos de Serie A.\nLa AC Fiorentina sumó solo 4 puntos en sus últimos 5 partidos de Serie A.\nBB\nGoles totales Más/Menos\nLos últimos 5 partidos del Inter de Milán en Serie A superaron los 2,5 goles.\nLos partidos del Inter de Milán en Serie A promedian 4,3 goles por encuentro esta temporada.\nLos partidos de la AC Fiorentina en Serie A promedian 3,6 goles por par",
+  "fixture_id": "558563",
+  "url": "https://www.betano.pe/cuotas-de-partido/inter-de-milan-ac-fiorentina/92996999/?bt=10",
+  "observed_at": "2026-10-19T06:13:25.531Z"
+}

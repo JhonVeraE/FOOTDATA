@@ -1,0 +1,1919 @@
+date,home_team,away_team,home_score,away_score,tournament,city,country,neutral,season
+,Slovan Bratislava,FC Struga,4,2,Champions League,,,False,2024/25
+,FC Struga,Slovan Bratislava,2,1,Champions League,,,False,2024/25
+,The New Saints,Decic Tuzi,3,0,Champions League,,,False,2024/25
+,Decic Tuzi,The New Saints,1,1,Champions League,,,False,2024/25
+,Borac Banja Luka,Egnatia Rrogozhinë,1,0,Champions League,,,False,2024/25
+,Egnatia Rrogozhinë,Borac Banja Luka,1,2,Champions League,,,False,2024/25
+,Hamrun Spartans,Lincoln Red Imps,0,1,Champions League,,,False,2024/25
+,Lincoln Red Imps,Hamrun Spartans,1,0,Champions League,,,False,2024/25
+,UE Santa Coloma,FC Ballkani,1,2,Champions League,,,False,2024/25
+,FC Ballkani,UE Santa Coloma,2,1,Champions League,,,False,2024/25
+,Flora Tallinn,NK Celje,0,5,Champions League,,,False,2024/25
+,NK Celje,Flora Tallinn,1,2,Champions League,,,False,2024/25
+,KI Klaksvik,Differdange 03,2,0,Champions League,,,False,2024/25
+,Differdange 03,KI Klaksvik,0,0,Champions League,,,False,2024/25
+,FK Panevezys,HJK Helsinki,3,0,Champions League,,,False,2024/25
+,HJK Helsinki,FK Panevezys,1,1,Champions League,,,False,2024/25
+,RFS Riga,Larne FC,3,0,Champions League,,,False,2024/25
+,Larne FC,RFS Riga,4,0,Champions League,,,False,2024/25
+,Vikingur Reykjavik,Shamrock Rovers,0,0,Champions League,,,False,2024/25
+,Shamrock Rovers,Vikingur Reykjavik,1,2,Champions League,,,False,2024/25
+,AC Virtus,FCSB,1,7,Champions League,,,False,2024/25
+,FCSB,AC Virtus,0,4,Champions League,,,False,2024/25
+,Ludogorets Razgrad,Dinamo Batumi,3,1,Champions League,,,False,2024/25
+,Dinamo Batumi,Ludogorets Razgrad,0,1,Champions League,,,False,2024/25
+,Ordabasy Shymkent,Petrocub Hîncesti,0,0,Champions League,,,False,2024/25
+,Petrocub Hîncesti,Ordabasy Shymkent,0,1,Champions League,,,False,2024/25
+,Dinamo Minsk,Pyunik Yerevan,0,0,Champions League,,,False,2024/25
+,Pyunik Yerevan,Dinamo Minsk,1,0,Champions League,,,False,2024/25
+,Ludogorets Razgrad,Dinamo Minsk,2,0,Champions League,,,False,2024/25
+,Dinamo Minsk,Ludogorets Razgrad,0,1,Champions League,,,False,2024/25
+,APOEL Nicosia,Petrocub Hîncesti,1,0,Champions League,,,False,2024/25
+,Petrocub Hîncesti,APOEL Nicosia,1,1,Champions League,,,False,2024/25
+,Ferencváros,The New Saints,5,0,Champions League,,,False,2024/25
+,The New Saints,Ferencváros,2,1,Champions League,,,False,2024/25
+,PAOK Thessaloniki,Borac Banja Luka,3,2,Champions League,,,False,2024/25
+,Borac Banja Luka,PAOK Thessaloniki,1,0,Champions League,,,False,2024/25
+,Bodø/Glimt,RFS Riga,4,0,Champions League,,,False,2024/25
+,RFS Riga,Bodø/Glimt,3,1,Champions League,,,False,2024/25
+,Malmö FF,KI Klaksvik,4,1,Champions League,,,False,2024/25
+,KI Klaksvik,Malmö FF,2,3,Champions League,,,False,2024/25
+,Shamrock Rovers,Sparta Praha,0,2,Champions League,,,False,2024/25
+,Sparta Praha,Shamrock Rovers,2,4,Champions League,,,False,2024/25
+,UE Santa Coloma,FC Midtjylland,0,3,Champions League,,,False,2024/25
+,FC Midtjylland,UE Santa Coloma,0,1,Champions League,,,False,2024/25
+,NK Celje,Slovan Bratislava,1,1,Champions League,,,False,2024/25
+,Slovan Bratislava,NK Celje,0,5,Champions League,,,False,2024/25
+,FK Panevezys,Jagiellonia Bialystok,0,4,Champions League,,,False,2024/25
+,Jagiellonia Bialystok,FK Panevezys,1,3,Champions League,,,False,2024/25
+,,Qarabag FK,0,2,Champions League,,,False,2024/25
+,Qarabag FK,,0,5,Champions League,,,False,2024/25
+,FCSB,Maccabi Tel-Aviv,1,1,Champions League,,,False,2024/25
+,Maccabi Tel-Aviv,FCSB,1,0,Champions League,,,False,2024/25
+,FC Lugano,Fenerbahçe,3,4,Champions League,,,False,2024/25
+,Fenerbahçe,FC Lugano,1,2,Champions League,,,False,2024/25
+,Dynamo Kyiv,Partizan Belgrade,6,2,Champions League,,,False,2024/25
+,Partizan Belgrade,Dynamo Kyiv,3,0,Champions League,,,False,2024/25
+,Qarabag FK,Ludogorets Razgrad,1,2,Champions League,,,False,2024/25
+,Ludogorets Razgrad,Qarabag FK,7,2,Champions League,,,False,2024/25
+,Slovan Bratislava,APOEL Nicosia,2,0,Champions League,,,False,2024/25
+,APOEL Nicosia,Slovan Bratislava,0,0,Champions League,,,False,2024/25
+,Sparta Praha,FCSB,1,1,Champions League,,,False,2024/25
+,FCSB,Sparta Praha,3,2,Champions League,,,False,2024/25
+,Malmö FF,PAOK Thessaloniki,2,2,Champions League,,,False,2024/25
+,PAOK Thessaloniki,Malmö FF,4,3,Champions League,,,False,2024/25
+,FC Midtjylland,Ferencváros,2,0,Champions League,,,False,2024/25
+,Ferencváros,FC Midtjylland,1,1,Champions League,,,False,2024/25
+,Jagiellonia Bialystok,Bodø/Glimt,0,1,Champions League,,,False,2024/25
+,Bodø/Glimt,Jagiellonia Bialystok,1,4,Champions League,,,False,2024/25
+,Slavia Praha,Union Saint-Gilloise,3,1,Champions League,,,False,2024/25
+,Union Saint-Gilloise,Slavia Praha,1,0,Champions League,,,False,2024/25
+,Lille OSC,Fenerbahçe,2,1,Champions League,,,False,2024/25
+,Fenerbahçe,Lille OSC,1,1,Champions League,,,False,2024/25
+,Dynamo Kyiv,Glasgow Rangers,1,1,Champions League,,,False,2024/25
+,Glasgow Rangers,Dynamo Kyiv,2,0,Champions League,,,False,2024/25
+,FC Salzburg,FC Twente Enschede,2,1,Champions League,,,False,2024/25
+,FC Twente Enschede,FC Salzburg,3,3,Champions League,,,False,2024/25
+,Young Boys,Galatasaray,3,2,Champions League,,,False,2024/25
+,Galatasaray,Young Boys,1,0,Champions League,,,False,2024/25
+,Dinamo Zagreb,Qarabag FK,3,0,Champions League,,,False,2024/25
+,Qarabag FK,Dinamo Zagreb,2,0,Champions League,,,False,2024/25
+,FC Midtjylland,Slovan Bratislava,1,1,Champions League,,,False,2024/25
+,Slovan Bratislava,FC Midtjylland,2,3,Champions League,,,False,2024/25
+,Bodø/Glimt,Red Star Belgrade,2,1,Champions League,,,False,2024/25
+,Red Star Belgrade,Bodø/Glimt,0,2,Champions League,,,False,2024/25
+,Malmö FF,Sparta Praha,0,2,Champions League,,,False,2024/25
+,Sparta Praha,Malmö FF,0,2,Champions League,,,False,2024/25
+,Lille OSC,Slavia Praha,2,0,Champions League,,,False,2024/25
+,Slavia Praha,Lille OSC,1,2,Champions League,,,False,2024/25
+,Dynamo Kyiv,FC Salzburg,0,2,Champions League,,,False,2024/25
+,FC Salzburg,Dynamo Kyiv,1,1,Champions League,,,False,2024/25
+,Young Boys,Aston Villa,0,3,Champions League,,,False,2024/25
+,Juventus,PSV Eindhoven,3,1,Champions League,,,False,2024/25
+,AC Milan,Liverpool,1,3,Champions League,,,False,2024/25
+,Bayern München,Dinamo Zagreb,9,2,Champions League,,,False,2024/25
+,Real Madrid,VfB Stuttgart,3,1,Champions League,,,False,2024/25
+,Sporting CP Lisbon,Lille OSC,2,0,Champions League,,,False,2024/25
+,Sparta Praha,FC Salzburg,3,0,Champions League,,,False,2024/25
+,Bologna,Shakhtar Donetsk,0,0,Champions League,,,False,2024/25
+,Celtic,Slovan Bratislava,5,1,Champions League,,,False,2024/25
+,Club Brugge,Borussia Dortmund,0,3,Champions League,,,False,2024/25
+,Manchester City,Internazionale,0,0,Champions League,,,False,2024/25
+,Paris Saint-Germain,Girona FC,1,0,Champions League,,,False,2024/25
+,Feyenoord,Bayer Leverkusen,0,4,Champions League,,,False,2024/25
+,Red Star Belgrade,Benfica,1,2,Champions League,,,False,2024/25
+,AS Monaco,FC Barcelona,2,1,Champions League,,,False,2024/25
+,Atalanta,Arsenal,0,0,Champions League,,,False,2024/25
+,Atlético Madrid,RB Leipzig,2,1,Champions League,,,False,2024/25
+,Stade Brestois,Sturm Graz,2,1,Champions League,,,False,2024/25
+,FC Salzburg,Stade Brestois,0,4,Champions League,,,False,2024/25
+,VfB Stuttgart,Sparta Praha,1,1,Champions League,,,False,2024/25
+,Arsenal,Paris Saint-Germain,2,0,Champions League,,,False,2024/25
+,Bayer Leverkusen,AC Milan,1,0,Champions League,,,False,2024/25
+,Borussia Dortmund,Celtic,7,1,Champions League,,,False,2024/25
+,FC Barcelona,Young Boys,5,0,Champions League,,,False,2024/25
+,Internazionale,Red Star Belgrade,4,0,Champions League,,,False,2024/25
+,PSV Eindhoven,Sporting CP Lisbon,1,1,Champions League,,,False,2024/25
+,Slovan Bratislava,Manchester City,0,4,Champions League,,,False,2024/25
+,Shakhtar Donetsk,Atalanta,0,3,Champions League,,,False,2024/25
+,Girona FC,Feyenoord,2,3,Champions League,,,False,2024/25
+,Aston Villa,Bayern München,1,0,Champions League,,,False,2024/25
+,Dinamo Zagreb,AS Monaco,2,2,Champions League,,,False,2024/25
+,Liverpool,Bologna,2,0,Champions League,,,False,2024/25
+,Lille OSC,Real Madrid,1,0,Champions League,,,False,2024/25
+,RB Leipzig,Juventus,2,3,Champions League,,,False,2024/25
+,Sturm Graz,Club Brugge,0,1,Champions League,,,False,2024/25
+,Benfica,Atlético Madrid,4,0,Champions League,,,False,2024/25
+,AC Milan,Club Brugge,3,1,Champions League,,,False,2024/25
+,AS Monaco,Red Star Belgrade,5,1,Champions League,,,False,2024/25
+,Arsenal,Shakhtar Donetsk,1,0,Champions League,,,False,2024/25
+,Aston Villa,Bologna,2,0,Champions League,,,False,2024/25
+,Girona FC,Slovan Bratislava,2,0,Champions League,,,False,2024/25
+,Juventus,VfB Stuttgart,0,1,Champions League,,,False,2024/25
+,Paris Saint-Germain,PSV Eindhoven,1,1,Champions League,,,False,2024/25
+,Real Madrid,Borussia Dortmund,5,2,Champions League,,,False,2024/25
+,Sturm Graz,Sporting CP Lisbon,0,2,Champions League,,,False,2024/25
+,Atalanta,Celtic,0,0,Champions League,,,False,2024/25
+,Stade Brestois,Bayer Leverkusen,1,1,Champions League,,,False,2024/25
+,Atlético Madrid,Lille OSC,1,3,Champions League,,,False,2024/25
+,Young Boys,Internazionale,0,1,Champions League,,,False,2024/25
+,FC Barcelona,Bayern München,4,1,Champions League,,,False,2024/25
+,FC Salzburg,Dinamo Zagreb,0,2,Champions League,,,False,2024/25
+,Manchester City,Sparta Praha,5,0,Champions League,,,False,2024/25
+,RB Leipzig,Liverpool,0,1,Champions League,,,False,2024/25
+,Benfica,Feyenoord,1,3,Champions League,,,False,2024/25
+,PSV Eindhoven,Girona FC,4,0,Champions League,,,False,2024/25
+,Slovan Bratislava,Dinamo Zagreb,1,4,Champions League,,,False,2024/25
+,Bologna,AS Monaco,0,1,Champions League,,,False,2024/25
+,Borussia Dortmund,Sturm Graz,1,0,Champions League,,,False,2024/25
+,Celtic,RB Leipzig,3,1,Champions League,,,False,2024/25
+,Liverpool,Bayer Leverkusen,4,0,Champions League,,,False,2024/25
+,Lille OSC,Juventus,1,1,Champions League,,,False,2024/25
+,Real Madrid,AC Milan,1,3,Champions League,,,False,2024/25
+,Sporting CP Lisbon,Manchester City,4,1,Champions League,,,False,2024/25
+,Club Brugge,Aston Villa,1,0,Champions League,,,False,2024/25
+,Shakhtar Donetsk,Young Boys,2,1,Champions League,,,False,2024/25
+,Sparta Praha,Stade Brestois,1,2,Champions League,,,False,2024/25
+,Bayern München,Benfica,1,0,Champions League,,,False,2024/25
+,Internazionale,Arsenal,1,0,Champions League,,,False,2024/25
+,Feyenoord,FC Salzburg,1,3,Champions League,,,False,2024/25
+,Red Star Belgrade,FC Barcelona,2,5,Champions League,,,False,2024/25
+,Paris Saint-Germain,Atlético Madrid,1,2,Champions League,,,False,2024/25
+,VfB Stuttgart,Atalanta,0,2,Champions League,,,False,2024/25
+,Sparta Praha,Atlético Madrid,0,6,Champions League,,,False,2024/25
+,Slovan Bratislava,AC Milan,2,3,Champions League,,,False,2024/25
+,Bayer Leverkusen,FC Salzburg,5,0,Champions League,,,False,2024/25
+,Young Boys,Atalanta,1,6,Champions League,,,False,2024/25
+,FC Barcelona,Stade Brestois,3,0,Champions League,,,False,2024/25
+,Bayern München,Paris Saint-Germain,1,0,Champions League,,,False,2024/25
+,Internazionale,RB Leipzig,1,0,Champions League,,,False,2024/25
+,Manchester City,Feyenoord,3,3,Champions League,,,False,2024/25
+,Sporting CP Lisbon,Arsenal,1,5,Champions League,,,False,2024/25
+,Red Star Belgrade,VfB Stuttgart,5,1,Champions League,,,False,2024/25
+,Sturm Graz,Girona FC,1,0,Champions League,,,False,2024/25
+,AS Monaco,Benfica,2,3,Champions League,,,False,2024/25
+,Aston Villa,Juventus,0,0,Champions League,,,False,2024/25
+,Bologna,Lille OSC,1,2,Champions League,,,False,2024/25
+,Celtic,Club Brugge,1,1,Champions League,,,False,2024/25
+,Dinamo Zagreb,Borussia Dortmund,0,3,Champions League,,,False,2024/25
+,Liverpool,Real Madrid,2,0,Champions League,,,False,2024/25
+,PSV Eindhoven,Shakhtar Donetsk,3,2,Champions League,,,False,2024/25
+,Girona FC,Liverpool,0,1,Champions League,,,False,2024/25
+,Dinamo Zagreb,Celtic,0,0,Champions League,,,False,2024/25
+,Atalanta,Real Madrid,2,3,Champions League,,,False,2024/25
+,Bayer Leverkusen,Internazionale,1,0,Champions League,,,False,2024/25
+,Club Brugge,Sporting CP Lisbon,2,1,Champions League,,,False,2024/25
+,FC Salzburg,Paris Saint-Germain,0,3,Champions League,,,False,2024/25
+,Shakhtar Donetsk,Bayern München,1,5,Champions League,,,False,2024/25
+,RB Leipzig,Aston Villa,2,3,Champions League,,,False,2024/25
+,Stade Brestois,PSV Eindhoven,1,0,Champions League,,,False,2024/25
+,Atlético Madrid,Slovan Bratislava,3,1,Champions League,,,False,2024/25
+,Lille OSC,Sturm Graz,3,2,Champions League,,,False,2024/25
+,AC Milan,Red Star Belgrade,2,1,Champions League,,,False,2024/25
+,Arsenal,AS Monaco,3,0,Champions League,,,False,2024/25
+,Borussia Dortmund,FC Barcelona,2,3,Champions League,,,False,2024/25
+,Feyenoord,Sparta Praha,4,2,Champions League,,,False,2024/25
+,Juventus,Manchester City,2,0,Champions League,,,False,2024/25
+,Benfica,Bologna,0,0,Champions League,,,False,2024/25
+,VfB Stuttgart,Young Boys,5,1,Champions League,,,False,2024/25
+,AS Monaco,Aston Villa,1,0,Champions League,,,False,2024/25
+,Atalanta,Sturm Graz,5,0,Champions League,,,False,2024/25
+,Atlético Madrid,Bayer Leverkusen,2,1,Champions League,,,False,2024/25
+,Bologna,Borussia Dortmund,2,1,Champions League,,,False,2024/25
+,Club Brugge,Juventus,0,0,Champions League,,,False,2024/25
+,Red Star Belgrade,PSV Eindhoven,2,3,Champions League,,,False,2024/25
+,Liverpool,Lille OSC,2,1,Champions League,,,False,2024/25
+,Slovan Bratislava,VfB Stuttgart,1,3,Champions League,,,False,2024/25
+,Benfica,FC Barcelona,4,5,Champions League,,,False,2024/25
+,Shakhtar Donetsk,Stade Brestois,2,0,Champions League,,,False,2024/25
+,RB Leipzig,Sporting CP Lisbon,2,1,Champions League,,,False,2024/25
+,AC Milan,Girona FC,1,0,Champions League,,,False,2024/25
+,Sparta Praha,Internazionale,0,1,Champions League,,,False,2024/25
+,Arsenal,Dinamo Zagreb,3,0,Champions League,,,False,2024/25
+,Celtic,Young Boys,1,0,Champions League,,,False,2024/25
+,Feyenoord,Bayern München,3,0,Champions League,,,False,2024/25
+,Paris Saint-Germain,Manchester City,4,2,Champions League,,,False,2024/25
+,Real Madrid,FC Salzburg,5,1,Champions League,,,False,2024/25
+,Aston Villa,Celtic,4,2,Champions League,,,False,2024/25
+,Bayer Leverkusen,Sparta Praha,2,0,Champions League,,,False,2024/25
+,Borussia Dortmund,Shakhtar Donetsk,3,1,Champions League,,,False,2024/25
+,Young Boys,Red Star Belgrade,0,1,Champions League,,,False,2024/25
+,FC Barcelona,Atalanta,2,2,Champions League,,,False,2024/25
+,Bayern München,Slovan Bratislava,3,1,Champions League,,,False,2024/25
+,Internazionale,AS Monaco,3,0,Champions League,,,False,2024/25
+,FC Salzburg,Atlético Madrid,1,4,Champions League,,,False,2024/25
+,Girona FC,Arsenal,1,2,Champions League,,,False,2024/25
+,Dinamo Zagreb,AC Milan,2,1,Champions League,,,False,2024/25
+,Juventus,Benfica,0,2,Champions League,,,False,2024/25
+,Lille OSC,Feyenoord,6,1,Champions League,,,False,2024/25
+,Manchester City,Club Brugge,3,1,Champions League,,,False,2024/25
+,PSV Eindhoven,Liverpool,3,2,Champions League,,,False,2024/25
+,Sturm Graz,RB Leipzig,1,0,Champions League,,,False,2024/25
+,Sporting CP Lisbon,Bologna,1,1,Champions League,,,False,2024/25
+,Stade Brestois,Real Madrid,0,3,Champions League,,,False,2024/25
+,VfB Stuttgart,Paris Saint-Germain,1,4,Champions League,,,False,2024/25
+,Stade Brestois,Paris Saint-Germain,0,3,Champions League,,,False,2024/25
+,Paris Saint-Germain,Stade Brestois,0,7,Champions League,,,False,2024/25
+,Club Brugge,Atalanta,2,1,Champions League,,,False,2024/25
+,Atalanta,Club Brugge,3,1,Champions League,,,False,2024/25
+,Manchester City,Real Madrid,2,3,Champions League,,,False,2024/25
+,Real Madrid,Manchester City,1,3,Champions League,,,False,2024/25
+,Juventus,PSV Eindhoven,2,1,Champions League,,,False,2024/25
+,PSV Eindhoven,Juventus,1,3,Champions League,,,False,2024/25
+,Feyenoord,AC Milan,1,0,Champions League,,,False,2024/25
+,AC Milan,Feyenoord,1,1,Champions League,,,False,2024/25
+,Celtic,Bayern München,1,2,Champions League,,,False,2024/25
+,Bayern München,Celtic,1,1,Champions League,,,False,2024/25
+,Sporting CP Lisbon,Borussia Dortmund,0,3,Champions League,,,False,2024/25
+,Borussia Dortmund,Sporting CP Lisbon,0,0,Champions League,,,False,2024/25
+,AS Monaco,Benfica,0,1,Champions League,,,False,2024/25
+,Benfica,AS Monaco,3,3,Champions League,,,False,2024/25
+,Paris Saint-Germain,Liverpool,0,1,Champions League,,,False,2024/25
+,Liverpool,Paris Saint-Germain,1,0,Champions League,,,False,2024/25
+,Club Brugge,Aston Villa,1,3,Champions League,,,False,2024/25
+,Aston Villa,Club Brugge,0,3,Champions League,,,False,2024/25
+,Real Madrid,Atlético Madrid,2,1,Champions League,,,False,2024/25
+,Atlético Madrid,Real Madrid,0,1,Champions League,,,False,2024/25
+,PSV Eindhoven,Arsenal,1,7,Champions League,,,False,2024/25
+,Arsenal,PSV Eindhoven,2,2,Champions League,,,False,2024/25
+,Feyenoord,Internazionale,0,2,Champions League,,,False,2024/25
+,Internazionale,Feyenoord,1,2,Champions League,,,False,2024/25
+,Bayern München,Bayer Leverkusen,3,0,Champions League,,,False,2024/25
+,Bayer Leverkusen,Bayern München,2,0,Champions League,,,False,2024/25
+,Borussia Dortmund,Lille OSC,1,1,Champions League,,,False,2024/25
+,Lille OSC,Borussia Dortmund,2,1,Champions League,,,False,2024/25
+,Benfica,FC Barcelona,0,1,Champions League,,,False,2024/25
+,FC Barcelona,Benfica,1,3,Champions League,,,False,2024/25
+,Paris Saint-Germain,Aston Villa,3,1,Champions League,,,False,2024/25
+,Aston Villa,Paris Saint-Germain,2,3,Champions League,,,False,2024/25
+,Arsenal,Real Madrid,3,0,Champions League,,,False,2024/25
+,Real Madrid,Arsenal,2,1,Champions League,,,False,2024/25
+,Bayern München,Internazionale,1,2,Champions League,,,False,2024/25
+,Internazionale,Bayern München,2,2,Champions League,,,False,2024/25
+,FC Barcelona,Borussia Dortmund,4,0,Champions League,,,False,2024/25
+,Borussia Dortmund,FC Barcelona,1,3,Champions League,,,False,2024/25
+,Arsenal,Paris Saint-Germain,0,1,Champions League,,,False,2024/25
+,Paris Saint-Germain,Arsenal,1,2,Champions League,,,False,2024/25
+,FC Barcelona,Internazionale,3,3,Champions League,,,False,2024/25
+,Internazionale,FC Barcelona,3,4,Champions League,,,False,2024/25
+,Paris Saint-Germain,Internazionale,5,0,Champions League,,,True,2024/25
+,Botev Plovdiv,NK Maribor,2,1,Europa League,,,False,2024/25
+,NK Maribor,Botev Plovdiv,2,2,Europa League,,,False,2024/25
+,IF Elfsborg,Pafos FC,3,0,Europa League,,,False,2024/25
+,Pafos FC,IF Elfsborg,5,2,Europa League,,,False,2024/25
+,Paksi FC,Corvinul Hunedoara,0,4,Europa League,,,False,2024/25
+,Corvinul Hunedoara,Paksi FC,2,0,Europa League,,,False,2024/25
+,Sheriff Tiraspol,Zira FK,0,1,Europa League,,,False,2024/25
+,Zira FK,Sheriff Tiraspol,2,1,Europa League,,,False,2024/25
+,Wisla Kraków,KF Llapi,2,0,Europa League,,,False,2024/25
+,KF Llapi,Wisla Kraków,2,1,Europa League,,,False,2024/25
+,MFK Ruzomberok,Tobol Kustanai,5,2,Europa League,,,False,2024/25
+,Tobol Kustanai,MFK Ruzomberok,0,1,Europa League,,,False,2024/25
+,Ajax,Vojvodina Novi Sad,1,0,Europa League,,,False,2024/25
+,Vojvodina Novi Sad,Ajax,3,1,Europa League,,,False,2024/25
+,MFK Ruzomberok,Trabzonspor,0,2,Europa League,,,False,2024/25
+,Trabzonspor,MFK Ruzomberok,0,1,Europa League,,,False,2024/25
+,Wisla Kraków,Rapid Wien,1,2,Europa League,,,False,2024/25
+,Rapid Wien,Wisla Kraków,1,6,Europa League,,,False,2024/25
+,Kilmarnock,Cercle Brugge,1,1,Europa League,,,False,2024/25
+,Cercle Brugge,Kilmarnock,0,1,Europa League,,,False,2024/25
+,Molde FK,Silkeborg IF,3,1,Europa League,,,False,2024/25
+,Silkeborg IF,Molde FK,2,3,Europa League,,,False,2024/25
+,Corvinul Hunedoara,NK Rijeka,0,0,Europa League,,,False,2024/25
+,NK Rijeka,Corvinul Hunedoara,0,1,Europa League,,,False,2024/25
+,Sporting Braga,Maccabi Petah-Tikva,2,0,Europa League,,,False,2024/25
+,Maccabi Petah-Tikva,Sporting Braga,5,0,Europa League,,,False,2024/25
+,Panathinaikos,Botev Plovdiv,2,1,Europa League,,,False,2024/25
+,Botev Plovdiv,Panathinaikos,4,0,Europa League,,,False,2024/25
+,Sheriff Tiraspol,IF Elfsborg,0,1,Europa League,,,False,2024/25
+,IF Elfsborg,Sheriff Tiraspol,0,2,Europa League,,,False,2024/25
+,Partizan Belgrade,FC Lugano,0,1,Europa League,,,False,2024/25
+,FC Lugano,Partizan Belgrade,2,2,Europa League,,,False,2024/25
+,Molde FK,Cercle Brugge,3,0,Europa League,,,False,2024/25
+,Cercle Brugge,Molde FK,0,1,Europa League,,,False,2024/25
+,Panathinaikos,Ajax,0,1,Europa League,,,False,2024/25
+,Ajax,Panathinaikos,1,0,Europa League,,,False,2024/25
+,Trabzonspor,Rapid Wien,0,1,Europa League,,,False,2024/25
+,Rapid Wien,Trabzonspor,0,2,Europa League,,,False,2024/25
+,Sporting Braga,Servette FC Genève,0,0,Europa League,,,False,2024/25
+,Servette FC Genève,Sporting Braga,2,1,Europa League,,,False,2024/25
+,NK Rijeka,IF Elfsborg,1,1,Europa League,,,False,2024/25
+,IF Elfsborg,NK Rijeka,0,2,Europa League,,,False,2024/25
+,Kryvbas Kryviy Rih,Viktoria Plzen,1,2,Europa League,,,False,2024/25
+,Viktoria Plzen,Kryvbas Kryviy Rih,0,1,Europa League,,,False,2024/25
+,KI Klaksvik,Borac Banja Luka,2,1,Europa League,,,False,2024/25
+,Borac Banja Luka,KI Klaksvik,1,3,Europa League,,,False,2024/25
+,UE Santa Coloma,RFS Riga,0,2,Europa League,,,False,2024/25
+,RFS Riga,UE Santa Coloma,0,7,Europa League,,,False,2024/25
+,NK Celje,Shamrock Rovers,1,0,Europa League,,,False,2024/25
+,Shamrock Rovers,NK Celje,1,3,Europa League,,,False,2024/25
+,FK Panevezys,Maccabi Tel-Aviv,1,2,Europa League,,,False,2024/25
+,Maccabi Tel-Aviv,FK Panevezys,0,3,Europa League,,,False,2024/25
+,Petrocub Hîncesti,The New Saints,1,0,Europa League,,,False,2024/25
+,The New Saints,Petrocub Hîncesti,0,0,Europa League,,,False,2024/25
+,Dinamo Minsk,Lincoln Red Imps,2,0,Europa League,,,False,2024/25
+,Lincoln Red Imps,Dinamo Minsk,1,2,Europa League,,,False,2024/25
+,Dinamo Minsk,Anderlecht,0,1,Europa League,,,False,2024/25
+,Anderlecht,Dinamo Minsk,0,1,Europa League,,,False,2024/25
+,Jagiellonia Bialystok,Ajax,1,4,Europa League,,,False,2024/25
+,Ajax,Jagiellonia Bialystok,0,3,Europa League,,,False,2024/25
+,Ludogorets Razgrad,Petrocub Hîncesti,4,0,Europa League,,,False,2024/25
+,Petrocub Hîncesti,Ludogorets Razgrad,2,1,Europa League,,,False,2024/25
+,FC Lugano,Besiktas,3,3,Europa League,,,False,2024/25
+,Besiktas,FC Lugano,1,5,Europa League,,,False,2024/25
+,LASK,FCSB,1,1,Europa League,,,False,2024/25
+,FCSB,LASK,0,1,Europa League,,,False,2024/25
+,RFS Riga,APOEL Nicosia,2,1,Europa League,,,False,2024/25
+,APOEL Nicosia,RFS Riga,1,2,Europa League,,,False,2024/25
+,Maccabi Tel-Aviv,TSC Backa Topola,3,0,Europa League,,,False,2024/25
+,TSC Backa Topola,Maccabi Tel-Aviv,5,1,Europa League,,,False,2024/25
+,PAOK Thessaloniki,Shamrock Rovers,4,0,Europa League,,,False,2024/25
+,Shamrock Rovers,PAOK Thessaloniki,2,0,Europa League,,,False,2024/25
+,Ferencváros,Borac Banja Luka,0,0,Europa League,,,False,2024/25
+,Borac Banja Luka,Ferencváros,1,1,Europa League,,,False,2024/25
+,Molde FK,IF Elfsborg,0,1,Europa League,,,False,2024/25
+,IF Elfsborg,Molde FK,1,0,Europa League,,,False,2024/25
+,Sporting Braga,Rapid Wien,2,1,Europa League,,,False,2024/25
+,Rapid Wien,Sporting Braga,2,2,Europa League,,,False,2024/25
+,Viktoria Plzen,Hearts FC,1,0,Europa League,,,False,2024/25
+,Hearts FC,Viktoria Plzen,1,0,Europa League,,,False,2024/25
+,AZ Alkmaar,IF Elfsborg,3,2,Europa League,,,False,2024/25
+,Bodø/Glimt,FC Porto,3,2,Europa League,,,False,2024/25
+,Dynamo Kyiv,Lazio,0,3,Europa League,,,False,2024/25
+,FC Midtjylland,1899 Hoffenheim,1,1,Europa League,,,False,2024/25
+,Galatasaray,PAOK Thessaloniki,3,1,Europa League,,,False,2024/25
+,Manchester United,FC Twente Enschede,1,1,Europa League,,,False,2024/25
+,OGC Nice,Real Sociedad,1,1,Europa League,,,False,2024/25
+,Ludogorets Razgrad,Slavia Praha,0,2,Europa League,,,False,2024/25
+,Anderlecht,Ferencváros,2,1,Europa League,,,False,2024/25
+,Fenerbahçe,Union Saint-Gilloise,2,1,Europa League,,,False,2024/25
+,Malmö FF,Glasgow Rangers,0,2,Europa League,,,False,2024/25
+,Ajax,Besiktas,4,0,Europa League,,,False,2024/25
+,AS Roma,Athletic Bilbao,1,1,Europa League,,,False,2024/25
+,Eintracht Frankfurt,Viktoria Plzen,3,3,Europa League,,,False,2024/25
+,FCSB,RFS Riga,4,1,Europa League,,,False,2024/25
+,Olympique Lyon,Olympiakos Piraeus,2,0,Europa League,,,False,2024/25
+,Sporting Braga,Maccabi Tel-Aviv,2,1,Europa League,,,False,2024/25
+,Tottenham Hotspur,Qarabag FK,3,0,Europa League,,,False,2024/25
+,RFS Riga,Galatasaray,2,2,Europa League,,,False,2024/25
+,Ferencváros,Tottenham Hotspur,1,2,Europa League,,,False,2024/25
+,Maccabi Tel-Aviv,FC Midtjylland,0,2,Europa League,,,False,2024/25
+,Olympiakos Piraeus,Sporting Braga,3,0,Europa League,,,False,2024/25
+,Qarabag FK,Malmö FF,1,2,Europa League,,,False,2024/25
+,Real Sociedad,Anderlecht,1,2,Europa League,,,False,2024/25
+,Lazio,OGC Nice,4,1,Europa League,,,False,2024/25
+,Slavia Praha,Ajax,1,1,Europa League,,,False,2024/25
+,1899 Hoffenheim,Dynamo Kyiv,2,0,Europa League,,,False,2024/25
+,Athletic Bilbao,AZ Alkmaar,2,0,Europa League,,,False,2024/25
+,Besiktas,Eintracht Frankfurt,1,3,Europa League,,,False,2024/25
+,FC Porto,Manchester United,3,3,Europa League,,,False,2024/25
+,FC Twente Enschede,Fenerbahçe,1,1,Europa League,,,False,2024/25
+,Viktoria Plzen,Ludogorets Razgrad,0,0,Europa League,,,False,2024/25
+,IF Elfsborg,AS Roma,1,0,Europa League,,,False,2024/25
+,PAOK Thessaloniki,FCSB,0,1,Europa League,,,False,2024/25
+,Union Saint-Gilloise,Bodø/Glimt,0,0,Europa League,,,False,2024/25
+,Glasgow Rangers,Olympique Lyon,1,4,Europa League,,,False,2024/25
+,Galatasaray,IF Elfsborg,4,3,Europa League,,,False,2024/25
+,Sporting Braga,Bodø/Glimt,1,2,Europa League,,,False,2024/25
+,AS Roma,Dynamo Kyiv,1,0,Europa League,,,False,2024/25
+,Eintracht Frankfurt,RFS Riga,1,0,Europa League,,,False,2024/25
+,FC Midtjylland,Union Saint-Gilloise,1,0,Europa League,,,False,2024/25
+,Ferencváros,OGC Nice,1,0,Europa League,,,False,2024/25
+,Maccabi Tel-Aviv,Real Sociedad,1,2,Europa League,,,False,2024/25
+,PAOK Thessaloniki,Viktoria Plzen,2,2,Europa League,,,False,2024/25
+,Qarabag FK,Ajax,0,3,Europa League,,,False,2024/25
+,Athletic Bilbao,Slavia Praha,1,0,Europa League,,,False,2024/25
+,FC Porto,1899 Hoffenheim,2,0,Europa League,,,False,2024/25
+,FC Twente Enschede,Lazio,0,2,Europa League,,,False,2024/25
+,Fenerbahçe,Manchester United,1,1,Europa League,,,False,2024/25
+,Malmö FF,Olympiakos Piraeus,0,1,Europa League,,,False,2024/25
+,Olympique Lyon,Besiktas,0,1,Europa League,,,False,2024/25
+,Glasgow Rangers,FCSB,4,0,Europa League,,,False,2024/25
+,Anderlecht,Ludogorets Razgrad,2,0,Europa League,,,False,2024/25
+,Tottenham Hotspur,AZ Alkmaar,1,0,Europa League,,,False,2024/25
+,Besiktas,Malmö FF,2,1,Europa League,,,False,2024/25
+,Eintracht Frankfurt,Slavia Praha,1,0,Europa League,,,False,2024/25
+,Bodø/Glimt,Qarabag FK,1,2,Europa League,,,False,2024/25
+,FCSB,FC Midtjylland,2,0,Europa League,,,False,2024/25
+,Galatasaray,Tottenham Hotspur,3,2,Europa League,,,False,2024/25
+,IF Elfsborg,Sporting Braga,1,1,Europa League,,,False,2024/25
+,OGC Nice,FC Twente Enschede,2,2,Europa League,,,False,2024/25
+,Olympiakos Piraeus,Glasgow Rangers,1,1,Europa League,,,False,2024/25
+,Ludogorets Razgrad,Athletic Bilbao,1,2,Europa League,,,False,2024/25
+,Union Saint-Gilloise,AS Roma,1,1,Europa League,,,False,2024/25
+,Ajax,Maccabi Tel-Aviv,5,0,Europa League,,,False,2024/25
+,AZ Alkmaar,Fenerbahçe,3,1,Europa League,,,False,2024/25
+,Dynamo Kyiv,Ferencváros,0,4,Europa League,,,False,2024/25
+,RFS Riga,Anderlecht,1,1,Europa League,,,False,2024/25
+,Viktoria Plzen,Real Sociedad,2,1,Europa League,,,False,2024/25
+,Manchester United,PAOK Thessaloniki,2,0,Europa League,,,False,2024/25
+,Lazio,FC Porto,2,1,Europa League,,,False,2024/25
+,1899 Hoffenheim,Olympique Lyon,2,2,Europa League,,,False,2024/25
+,Athletic Bilbao,IF Elfsborg,3,0,Europa League,,,False,2024/25
+,AZ Alkmaar,Galatasaray,1,1,Europa League,,,False,2024/25
+,Besiktas,Maccabi Tel-Aviv,1,3,Europa League,,,False,2024/25
+,Dynamo Kyiv,Viktoria Plzen,1,2,Europa League,,,False,2024/25
+,RFS Riga,PAOK Thessaloniki,0,2,Europa League,,,False,2024/25
+,Qarabag FK,Olympique Lyon,1,4,Europa League,,,False,2024/25
+,Anderlecht,FC Porto,2,2,Europa League,,,False,2024/25
+,Lazio,Ludogorets Razgrad,0,0,Europa League,,,False,2024/25
+,FC Midtjylland,Eintracht Frankfurt,1,2,Europa League,,,False,2024/25
+,FC Twente Enschede,Union Saint-Gilloise,0,1,Europa League,,,False,2024/25
+,Ferencváros,Malmö FF,4,1,Europa League,,,False,2024/25
+,FCSB,Olympiakos Piraeus,0,0,Europa League,,,False,2024/25
+,Manchester United,Bodø/Glimt,3,2,Europa League,,,False,2024/25
+,OGC Nice,Glasgow Rangers,1,4,Europa League,,,False,2024/25
+,Real Sociedad,Ajax,2,0,Europa League,,,False,2024/25
+,Sporting Braga,1899 Hoffenheim,3,0,Europa League,,,False,2024/25
+,Slavia Praha,Fenerbahçe,1,2,Europa League,,,False,2024/25
+,Tottenham Hotspur,AS Roma,2,2,Europa League,,,False,2024/25
+,Fenerbahçe,Athletic Bilbao,0,2,Europa League,,,False,2024/25
+,AS Roma,Sporting Braga,3,0,Europa League,,,False,2024/25
+,Viktoria Plzen,Manchester United,1,2,Europa League,,,False,2024/25
+,Malmö FF,Galatasaray,2,2,Europa League,,,False,2024/25
+,Olympiakos Piraeus,FC Twente Enschede,0,0,Europa League,,,False,2024/25
+,PAOK Thessaloniki,Ferencváros,5,0,Europa League,,,False,2024/25
+,Ludogorets Razgrad,AZ Alkmaar,2,2,Europa League,,,False,2024/25
+,Union Saint-Gilloise,OGC Nice,2,1,Europa League,,,False,2024/25
+,1899 Hoffenheim,FCSB,0,0,Europa League,,,False,2024/25
+,Ajax,Lazio,1,3,Europa League,,,False,2024/25
+,FC Porto,FC Midtjylland,2,0,Europa League,,,False,2024/25
+,Bodø/Glimt,Besiktas,2,1,Europa League,,,False,2024/25
+,IF Elfsborg,Qarabag FK,1,0,Europa League,,,False,2024/25
+,Maccabi Tel-Aviv,RFS Riga,2,1,Europa League,,,False,2024/25
+,Olympique Lyon,Eintracht Frankfurt,3,2,Europa League,,,False,2024/25
+,Glasgow Rangers,Tottenham Hotspur,1,1,Europa League,,,False,2024/25
+,Real Sociedad,Dynamo Kyiv,3,0,Europa League,,,False,2024/25
+,Slavia Praha,Anderlecht,1,2,Europa League,,,False,2024/25
+,Galatasaray,Dynamo Kyiv,3,3,Europa League,,,False,2024/25
+,Besiktas,Athletic Bilbao,4,1,Europa League,,,False,2024/25
+,AZ Alkmaar,AS Roma,1,0,Europa League,,,False,2024/25
+,FC Porto,Olympiakos Piraeus,0,1,Europa League,,,False,2024/25
+,Viktoria Plzen,Anderlecht,2,0,Europa League,,,False,2024/25
+,Fenerbahçe,Olympique Lyon,0,0,Europa League,,,False,2024/25
+,Bodø/Glimt,Maccabi Tel-Aviv,3,1,Europa League,,,False,2024/25
+,Malmö FF,FC Twente Enschede,2,3,Europa League,,,False,2024/25
+,Qarabag FK,FCSB,2,3,Europa League,,,False,2024/25
+,1899 Hoffenheim,Tottenham Hotspur,2,3,Europa League,,,False,2024/25
+,Eintracht Frankfurt,Ferencváros,2,0,Europa League,,,False,2024/25
+,RFS Riga,Ajax,1,0,Europa League,,,False,2024/25
+,IF Elfsborg,OGC Nice,1,0,Europa League,,,False,2024/25
+,Manchester United,Glasgow Rangers,2,1,Europa League,,,False,2024/25
+,PAOK Thessaloniki,Slavia Praha,2,0,Europa League,,,False,2024/25
+,Ludogorets Razgrad,FC Midtjylland,0,2,Europa League,,,False,2024/25
+,Union Saint-Gilloise,Sporting Braga,2,1,Europa League,,,False,2024/25
+,Lazio,Real Sociedad,3,1,Europa League,,,False,2024/25
+,Ajax,Galatasaray,2,1,Europa League,,,False,2024/25
+,AS Roma,Eintracht Frankfurt,2,0,Europa League,,,False,2024/25
+,Athletic Bilbao,Viktoria Plzen,3,1,Europa League,,,False,2024/25
+,Dynamo Kyiv,RFS Riga,1,0,Europa League,,,False,2024/25
+,FC Midtjylland,Fenerbahçe,2,2,Europa League,,,False,2024/25
+,FC Twente Enschede,Besiktas,1,0,Europa League,,,False,2024/25
+,Ferencváros,AZ Alkmaar,4,3,Europa League,,,False,2024/25
+,FCSB,Manchester United,0,2,Europa League,,,False,2024/25
+,Maccabi Tel-Aviv,FC Porto,0,1,Europa League,,,False,2024/25
+,OGC Nice,Bodø/Glimt,1,1,Europa League,,,False,2024/25
+,Olympiakos Piraeus,Qarabag FK,3,0,Europa League,,,False,2024/25
+,Olympique Lyon,Ludogorets Razgrad,1,1,Europa League,,,False,2024/25
+,Glasgow Rangers,Union Saint-Gilloise,2,1,Europa League,,,False,2024/25
+,Real Sociedad,PAOK Thessaloniki,2,0,Europa League,,,False,2024/25
+,Anderlecht,1899 Hoffenheim,3,4,Europa League,,,False,2024/25
+,Sporting Braga,Lazio,1,0,Europa League,,,False,2024/25
+,Slavia Praha,Malmö FF,2,2,Europa League,,,False,2024/25
+,Tottenham Hotspur,IF Elfsborg,3,0,Europa League,,,False,2024/25
+,Ferencváros,Viktoria Plzen,1,0,Europa League,,,False,2024/25
+,Viktoria Plzen,Ferencváros,0,3,Europa League,,,False,2024/25
+,FC Twente Enschede,Bodø/Glimt,2,1,Europa League,,,False,2024/25
+,Bodø/Glimt,FC Twente Enschede,2,5,Europa League,,,False,2024/25
+,Union Saint-Gilloise,Ajax,0,2,Europa League,,,False,2024/25
+,Ajax,Union Saint-Gilloise,2,1,Europa League,,,False,2024/25
+,AZ Alkmaar,Galatasaray,4,1,Europa League,,,False,2024/25
+,Galatasaray,AZ Alkmaar,2,2,Europa League,,,False,2024/25
+,FC Midtjylland,Real Sociedad,1,2,Europa League,,,False,2024/25
+,Real Sociedad,FC Midtjylland,2,5,Europa League,,,False,2024/25
+,PAOK Thessaloniki,FCSB,1,2,Europa League,,,False,2024/25
+,FCSB,PAOK Thessaloniki,0,2,Europa League,,,False,2024/25
+,Fenerbahçe,Anderlecht,3,0,Europa League,,,False,2024/25
+,Anderlecht,Fenerbahçe,2,2,Europa League,,,False,2024/25
+,FC Porto,AS Roma,1,1,Europa League,,,False,2024/25
+,AS Roma,FC Porto,2,3,Europa League,,,False,2024/25
+,Viktoria Plzen,Lazio,1,2,Europa League,,,False,2024/25
+,Lazio,Viktoria Plzen,1,1,Europa League,,,False,2024/25
+,Bodø/Glimt,Olympiakos Piraeus,3,0,Europa League,,,False,2024/25
+,Olympiakos Piraeus,Bodø/Glimt,1,2,Europa League,,,False,2024/25
+,Ajax,Eintracht Frankfurt,1,2,Europa League,,,False,2024/25
+,Eintracht Frankfurt,Ajax,1,4,Europa League,,,False,2024/25
+,AZ Alkmaar,Tottenham Hotspur,1,0,Europa League,,,False,2024/25
+,Tottenham Hotspur,AZ Alkmaar,1,3,Europa League,,,False,2024/25
+,Real Sociedad,Manchester United,1,1,Europa League,,,False,2024/25
+,Manchester United,Real Sociedad,1,4,Europa League,,,False,2024/25
+,FCSB,Olympique Lyon,1,3,Europa League,,,False,2024/25
+,Olympique Lyon,FCSB,0,4,Europa League,,,False,2024/25
+,Fenerbahçe,Glasgow Rangers,1,3,Europa League,,,False,2024/25
+,Glasgow Rangers,Fenerbahçe,2,0,Europa League,,,False,2024/25
+,AS Roma,Athletic Bilbao,2,1,Europa League,,,False,2024/25
+,Athletic Bilbao,AS Roma,1,3,Europa League,,,False,2024/25
+,Bodø/Glimt,Lazio,2,0,Europa League,,,False,2024/25
+,Lazio,Bodø/Glimt,1,3,Europa League,,,False,2024/25
+,Tottenham Hotspur,Eintracht Frankfurt,1,1,Europa League,,,False,2024/25
+,Eintracht Frankfurt,Tottenham Hotspur,1,0,Europa League,,,False,2024/25
+,Olympique Lyon,Manchester United,2,2,Europa League,,,False,2024/25
+,Manchester United,Olympique Lyon,4,5,Europa League,,,False,2024/25
+,Glasgow Rangers,Athletic Bilbao,0,0,Europa League,,,False,2024/25
+,Athletic Bilbao,Glasgow Rangers,0,2,Europa League,,,False,2024/25
+,Tottenham Hotspur,Bodø/Glimt,3,1,Europa League,,,False,2024/25
+,Bodø/Glimt,Tottenham Hotspur,2,0,Europa League,,,False,2024/25
+,Athletic Bilbao,Manchester United,0,3,Europa League,,,False,2024/25
+,Manchester United,Athletic Bilbao,1,4,Europa League,,,False,2024/25
+,Tottenham Hotspur,Manchester United,1,0,Europa League,,,True,2024/25
+,Velez Mostar,Inter Club d'Escaldes,1,1,Conference League,,,False,2024/25
+,Inter Club d'Escaldes,Velez Mostar,1,5,Conference League,,,False,2024/25
+,La Fiorita,Isloch Minsk Raion,0,1,Conference League,,,False,2024/25
+,Isloch Minsk Raion,La Fiorita,1,0,Conference League,,,False,2024/25
+,KF Malisheva,Buducnost Podgorica,1,0,Conference League,,,False,2024/25
+,Buducnost Podgorica,KF Malisheva,0,3,Conference League,,,False,2024/25
+,Torpedo Kutaisi,KF Tirana,1,1,Conference League,,,False,2024/25
+,KF Tirana,Torpedo Kutaisi,1,0,Conference League,,,False,2024/25
+,FC Noah,Shkendija Tetovo,2,0,Conference League,,,False,2024/25
+,Shkendija Tetovo,FC Noah,2,1,Conference League,,,False,2024/25
+,Floriana,Tre Penne,3,1,Conference League,,,False,2024/25
+,Tre Penne,Floriana,1,1,Conference League,,,False,2024/25
+,Caernarfon Town,Crusaders Belfast,2,0,Conference League,,,False,2024/25
+,Crusaders Belfast,Caernarfon Town,1,3,Conference League,,,False,2024/25
+,Atlètic Club d'Escaldes,F91 Dudelange,0,1,Conference League,,,False,2024/25
+,F91 Dudelange,Atlètic Club d'Escaldes,0,2,Conference League,,,False,2024/25
+,Shelbourne,St Joseph's FC,2,1,Conference League,,,False,2024/25
+,St Joseph's FC,Shelbourne,1,1,Conference League,,,False,2024/25
+,Tikves Kavadarci,Breidablik,3,2,Conference League,,,False,2024/25
+,Breidablik,Tikves Kavadarci,1,3,Conference League,,,False,2024/25
+,Torpedo Zhodino,Milsami Orhei,2,4,Conference League,,,False,2024/25
+,Milsami Orhei,Torpedo Zhodino,0,0,Conference League,,,False,2024/25
+,Kalev Tallinn,Urartu FC,1,2,Conference League,,,False,2024/25
+,Urartu FC,Kalev Tallinn,0,2,Conference League,,,False,2024/25
+,Partizani Tirana,Marsaxlokk,1,1,Conference League,,,False,2024/25
+,Marsaxlokk,Partizani Tirana,2,1,Conference League,,,False,2024/25
+,FK Aktobe,FK Sarajevo,0,1,Conference League,,,False,2024/25
+,FK Sarajevo,FK Aktobe,3,2,Conference League,,,False,2024/25
+,Mornar Bar,Dinamo Tbilisi,2,1,Conference League,,,False,2024/25
+,Dinamo Tbilisi,Mornar Bar,1,1,Conference League,,,False,2024/25
+,FA Siauliai,Levadia Tallinn,0,2,Conference League,,,False,2024/25
+,Levadia Tallinn,FA Siauliai,0,0,Conference League,,,False,2024/25
+,Valur Reykjavik,Vllaznia Shkodër,2,2,Conference League,,,False,2024/25
+,Vllaznia Shkodër,Valur Reykjavik,4,0,Conference League,,,False,2024/25
+,FK Auda,B36 Torshavn,2,0,Conference League,,,False,2024/25
+,B36 Torshavn,FK Auda,1,0,Conference League,,,False,2024/25
+,NK Bravo,Connah's Quay,0,1,Conference League,,,False,2024/25
+,Connah's Quay,NK Bravo,2,0,Conference League,,,False,2024/25
+,UNA Strassen,KuPS Kuopio,0,0,Conference League,,,False,2024/25
+,KuPS Kuopio,UNA Strassen,0,5,Conference League,,,False,2024/25
+,Bala Town,Paide Linnameeskond,1,2,Conference League,,,False,2024/25
+,Paide Linnameeskond,Bala Town,1,1,Conference League,,,False,2024/25
+,FCB Magpies,Derry City,2,0,Conference League,,,False,2024/25
+,Derry City,FCB Magpies,1,2,Conference League,,,False,2024/25
+,Stjarnan FC,Linfield Belfast,2,0,Conference League,,,False,2024/25
+,Linfield Belfast,Stjarnan FC,2,3,Conference League,,,False,2024/25
+,FK Liepaja,Víkingur,1,1,Conference League,,,False,2024/25
+,Víkingur,FK Liepaja,0,2,Conference League,,,False,2024/25
+,VPS Vaasa,Zalgiris Vilnius,1,2,Conference League,,,False,2024/25
+,Zalgiris Vilnius,VPS Vaasa,0,1,Conference League,,,False,2024/25
+,Go Ahead Eagles,SK Brann Bergen,0,0,Conference League,,,False,2024/25
+,SK Brann Bergen,Go Ahead Eagles,1,2,Conference League,,,False,2024/25
+,Valur Reykjavik,St. Mirren,0,0,Conference League,,,False,2024/25
+,St. Mirren,Valur Reykjavik,1,4,Conference League,,,False,2024/25
+,FCB Magpies,FC København,0,3,Conference League,,,False,2024/25
+,FC København,FCB Magpies,1,5,Conference League,,,False,2024/25
+,F91 Dudelange,BK Häcken,2,6,Conference League,,,False,2024/25
+,BK Häcken,F91 Dudelange,1,6,Conference League,,,False,2024/25
+,Cliftonville,FK Auda,1,2,Conference League,,,False,2024/25
+,FK Auda,Cliftonville,0,2,Conference League,,,False,2024/25
+,Omonia Nicosia,Torpedo Kutaisi,3,1,Conference League,,,False,2024/25
+,Torpedo Kutaisi,Omonia Nicosia,2,1,Conference League,,,False,2024/25
+,Sumgayit FK,FC Fehérvár,1,2,Conference League,,,False,2024/25
+,FC Fehérvár,Sumgayit FK,0,0,Conference League,,,False,2024/25
+,Istanbul Basaksehir,La Fiorita,6,1,Conference League,,,False,2024/25
+,La Fiorita,Istanbul Basaksehir,4,0,Conference League,,,False,2024/25
+,Hapoel Beer-Sheva,Cherno More Varna,0,0,Conference League,,,False,2024/25
+,Cherno More Varna,Hapoel Beer-Sheva,2,1,Conference League,,,False,2024/25
+,FC Sankt Gallen,Tobol Kustanai,4,1,Conference League,,,False,2024/25
+,Tobol Kustanai,FC Sankt Gallen,1,0,Conference League,,,False,2024/25
+,Breidablik,FC Drita,1,2,Conference League,,,False,2024/25
+,FC Drita,Breidablik,0,1,Conference League,,,False,2024/25
+,Ilves Tampere,Austria Wien,2,1,Conference League,,,False,2024/25
+,Austria Wien,Ilves Tampere,3,4,Conference League,,,False,2024/25
+,Legia Warsaw,Caernarfon Town,6,0,Conference League,,,False,2024/25
+,Caernarfon Town,Legia Warsaw,5,0,Conference League,,,False,2024/25
+,Hajduk Split,HB Torshavn,2,0,Conference League,,,False,2024/25
+,HB Torshavn,Hajduk Split,0,0,Conference League,,,False,2024/25
+,Mladá Boleslav,Transinvest Vilnius,2,0,Conference League,,,False,2024/25
+,Transinvest Vilnius,Mladá Boleslav,1,0,Conference League,,,False,2024/25
+,NK Osijek,Levadia Tallinn,5,1,Conference League,,,False,2024/25
+,Levadia Tallinn,NK Osijek,1,0,Conference League,,,False,2024/25
+,CSKA 1948 Sofia,Buducnost Podgorica,1,0,Conference League,,,False,2024/25
+,Buducnost Podgorica,CSKA 1948 Sofia,1,1,Conference League,,,False,2024/25
+,SC Dnipro-1,Puskás Akadémia,0,3,Conference League,,,False,2024/25
+,Puskás Akadémia,SC Dnipro-1,0,3,Conference League,,,False,2024/25
+,Zrinjski Mostar,NK Bravo,0,1,Conference League,,,False,2024/25
+,NK Bravo,Zrinjski Mostar,3,1,Conference League,,,False,2024/25
+,FC Noah,Sliema Wanderers,7,0,Conference League,,,False,2024/25
+,Sliema Wanderers,FC Noah,0,0,Conference League,,,False,2024/25
+,Olimpija Ljubljana,Polissya Zhytomyr,2,0,Conference League,,,False,2024/25
+,Polissya Zhytomyr,Olimpija Ljubljana,2,1,Conference League,,,False,2024/25
+,Zira FK,DAC Dunajska Streda,4,0,Conference League,,,False,2024/25
+,DAC Dunajska Streda,Zira FK,2,1,Conference League,,,False,2024/25
+,Zalgiris Vilnius,Pafos FC,2,1,Conference League,,,False,2024/25
+,Pafos FC,Zalgiris Vilnius,0,3,Conference League,,,False,2024/25
+,Riga FC,Slask Wroclaw,1,0,Conference League,,,False,2024/25
+,Slask Wroclaw,Riga FC,1,3,Conference League,,,False,2024/25
+,Baník Ostrava,Urartu FC,5,1,Conference League,,,False,2024/25
+,Urartu FC,Baník Ostrava,2,0,Conference League,,,False,2024/25
+,AEK Athens,Inter Club d'Escaldes,4,3,Conference League,,,False,2024/25
+,Inter Club d'Escaldes,AEK Athens,4,0,Conference League,,,False,2024/25
+,NK Maribor,Universitatea Craiova,2,0,Conference League,,,False,2024/25
+,Universitatea Craiova,NK Maribor,2,3,Conference League,,,False,2024/25
+,Djurgårdens IF,Progrès Niederkorn,3,0,Conference League,,,False,2024/25
+,Progrès Niederkorn,Djurgårdens IF,0,1,Conference League,,,False,2024/25
+,Floriana,Vitória Guimarães,0,1,Conference League,,,False,2024/25
+,Vitória Guimarães,Floriana,0,4,Conference League,,,False,2024/25
+,FC Zürich,Shelbourne,3,0,Conference League,,,False,2024/25
+,Shelbourne,FC Zürich,0,0,Conference League,,,False,2024/25
+,KuPS Kuopio,Tromsø IL,0,1,Conference League,,,False,2024/25
+,Tromsø IL,KuPS Kuopio,0,1,Conference League,,,False,2024/25
+,St. Patrick's Athletic,FC Vaduz,3,1,Conference League,,,False,2024/25
+,FC Vaduz,St. Patrick's Athletic,2,2,Conference League,,,False,2024/25
+,AA Gent,Víkingur,4,1,Conference League,,,False,2024/25
+,Víkingur,AA Gent,3,0,Conference League,,,False,2024/25
+,Stjarnan FC,Paide Linnameeskond,2,1,Conference League,,,False,2024/25
+,Paide Linnameeskond,Stjarnan FC,0,4,Conference League,,,False,2024/25
+,Brøndby IF,KF Llapi,6,0,Conference League,,,False,2024/25
+,KF Llapi,Brøndby IF,2,2,Conference League,,,False,2024/25
+,CFR Cluj,Neman Grodno,0,0,Conference League,,,False,2024/25
+,Neman Grodno,CFR Cluj,5,0,Conference League,,,False,2024/25
+,Zimbru Chisinau,Ararat-Armenia,0,3,Conference League,,,False,2024/25
+,Ararat-Armenia,Zimbru Chisinau,1,3,Conference League,,,False,2024/25
+,Radnicki 1923,Mornar Bar,1,0,Conference League,,,False,2024/25
+,Mornar Bar,Radnicki 1923,1,2,Conference League,,,False,2024/25
+,FK Sarajevo,Spartak Trnava,0,0,Conference League,,,False,2024/25
+,Spartak Trnava,FK Sarajevo,0,3,Conference League,,,False,2024/25
+,Maccabi Haifa,Sabah FK,0,3,Conference League,,,False,2024/25
+,Sabah FK,Maccabi Haifa,6,3,Conference League,,,False,2024/25
+,Paksi FC,AEK Larnaca,3,0,Conference League,,,False,2024/25
+,AEK Larnaca,Paksi FC,2,0,Conference League,,,False,2024/25
+,Saburtalo Tbilisi,Partizani Tirana,2,0,Conference League,,,False,2024/25
+,Partizani Tirana,Saburtalo Tbilisi,0,0,Conference League,,,False,2024/25
+,Milsami Orhei,FK Astana,1,1,Conference League,,,False,2024/25
+,FK Astana,Milsami Orhei,0,1,Conference League,,,False,2024/25
+,Differdange 03,Ordabasy Shymkent,1,0,Conference League,,,False,2024/25
+,Ordabasy Shymkent,Differdange 03,3,4,Conference League,,,False,2024/25
+,Vikingur Reykjavik,Egnatia Rrogozhinë,0,1,Conference League,,,False,2024/25
+,Egnatia Rrogozhinë,Vikingur Reykjavik,2,0,Conference League,,,False,2024/25
+,AC Virtus,Flora Tallinn,0,0,Conference League,,,False,2024/25
+,Flora Tallinn,AC Virtus,2,5,Conference League,,,False,2024/25
+,FC Struga,Pyunik Yerevan,2,1,Conference League,,,False,2024/25
+,Pyunik Yerevan,FC Struga,1,3,Conference League,,,False,2024/25
+,Dinamo Batumi,Decic Tuzi,0,2,Conference League,,,False,2024/25
+,Decic Tuzi,Dinamo Batumi,0,0,Conference League,,,False,2024/25
+,FC Ballkani,Hamrun Spartans,0,0,Conference League,,,False,2024/25
+,Hamrun Spartans,FC Ballkani,2,0,Conference League,,,False,2024/25
+,Mladá Boleslav,Hapoel Beer-Sheva,1,1,Conference League,,,False,2024/25
+,Hapoel Beer-Sheva,Mladá Boleslav,4,2,Conference League,,,False,2024/25
+,Paksi FC,Mornar Bar,3,0,Conference League,,,False,2024/25
+,Mornar Bar,Paksi FC,2,2,Conference League,,,False,2024/25
+,St. Patrick's Athletic,Sabah FK,1,0,Conference League,,,False,2024/25
+,Sabah FK,St. Patrick's Athletic,1,0,Conference League,,,False,2024/25
+,Corvinul Hunedoara,FK Astana,1,2,Conference League,,,False,2024/25
+,FK Astana,Corvinul Hunedoara,1,6,Conference League,,,False,2024/25
+,Saburtalo Tbilisi,Istanbul Basaksehir,0,1,Conference League,,,False,2024/25
+,Istanbul Basaksehir,Saburtalo Tbilisi,0,2,Conference League,,,False,2024/25
+,Kilmarnock,Tromsø IL,2,2,Conference League,,,False,2024/25
+,Tromsø IL,Kilmarnock,1,0,Conference League,,,False,2024/25
+,BK Häcken,Paide Linnameeskond,6,1,Conference League,,,False,2024/25
+,Paide Linnameeskond,BK Häcken,1,1,Conference League,,,False,2024/25
+,St. Mirren,SK Brann Bergen,1,1,Conference League,,,False,2024/25
+,SK Brann Bergen,St. Mirren,1,3,Conference League,,,False,2024/25
+,MFK Ruzomberok,Hajduk Split,0,0,Conference League,,,False,2024/25
+,Hajduk Split,MFK Ruzomberok,1,0,Conference League,,,False,2024/25
+,Brøndby IF,Legia Warsaw,2,3,Conference League,,,False,2024/25
+,Legia Warsaw,Brøndby IF,1,1,Conference League,,,False,2024/25
+,Ararat-Armenia,Puskás Akadémia,0,1,Conference League,,,False,2024/25
+,Puskás Akadémia,Ararat-Armenia,3,3,Conference League,,,False,2024/25
+,NK Maribor,Vojvodina Novi Sad,2,1,Conference League,,,False,2024/25
+,Vojvodina Novi Sad,NK Maribor,0,1,Conference League,,,False,2024/25
+,CSKA 1948 Sofia,Pafos FC,2,1,Conference League,,,False,2024/25
+,Pafos FC,CSKA 1948 Sofia,0,4,Conference League,,,False,2024/25
+,FC Noah,AEK Athens,3,1,Conference League,,,False,2024/25
+,AEK Athens,FC Noah,0,1,Conference League,,,False,2024/25
+,Maccabi Petah-Tikva,CFR Cluj,0,1,Conference League,,,False,2024/25
+,CFR Cluj,Maccabi Petah-Tikva,0,1,Conference League,,,False,2024/25
+,FC Zürich,Vitória Guimarães,0,3,Conference League,,,False,2024/25
+,Vitória Guimarães,FC Zürich,0,2,Conference League,,,False,2024/25
+,Spartak Trnava,Wisla Kraków,3,1,Conference League,,,False,2024/25
+,Wisla Kraków,Spartak Trnava,1,3,Conference League,,,False,2024/25
+,Ilves Tampere,Djurgårdens IF,1,1,Conference League,,,False,2024/25
+,Djurgårdens IF,Ilves Tampere,1,3,Conference League,,,False,2024/25
+,FK Auda,FC Drita,1,0,Conference League,,,False,2024/25
+,FC Drita,FK Auda,1,3,Conference League,,,False,2024/25
+,Silkeborg IF,AA Gent,2,2,Conference League,,,False,2024/25
+,AA Gent,Silkeborg IF,2,3,Conference League,,,False,2024/25
+,NK Osijek,Zira FK,1,1,Conference League,,,False,2024/25
+,Zira FK,NK Osijek,2,2,Conference League,,,False,2024/25
+,FC Sankt Gallen,Slask Wroclaw,2,0,Conference League,,,False,2024/25
+,Slask Wroclaw,FC Sankt Gallen,2,3,Conference League,,,False,2024/25
+,Botev Plovdiv,Zrinjski Mostar,2,1,Conference League,,,False,2024/25
+,Zrinjski Mostar,Botev Plovdiv,0,2,Conference League,,,False,2024/25
+,Omonia Nicosia,FC Fehérvár,1,0,Conference League,,,False,2024/25
+,FC Fehérvár,Omonia Nicosia,2,0,Conference League,,,False,2024/25
+,FC København,Baník Ostrava,1,0,Conference League,,,False,2024/25
+,Baník Ostrava,FC København,0,1,Conference League,,,False,2024/25
+,Olimpija Ljubljana,Sheriff Tiraspol,3,0,Conference League,,,False,2024/25
+,Sheriff Tiraspol,Olimpija Ljubljana,1,0,Conference League,,,False,2024/25
+,Vikingur Reykjavik,Flora Tallinn,1,1,Conference League,,,False,2024/25
+,Flora Tallinn,Vikingur Reykjavik,2,1,Conference League,,,False,2024/25
+,Ordabasy Shymkent,Pyunik Yerevan,0,1,Conference League,,,False,2024/25
+,Pyunik Yerevan,Ordabasy Shymkent,0,1,Conference League,,,False,2024/25
+,FC Ballkani,Larne FC,0,1,Conference League,,,False,2024/25
+,Larne FC,FC Ballkani,1,0,Conference League,,,False,2024/25
+,HJK Helsinki,Decic Tuzi,1,0,Conference League,,,False,2024/25
+,Decic Tuzi,HJK Helsinki,1,2,Conference League,,,False,2024/25
+,Omonia Nicosia,Zira FK,6,0,Conference League,,,False,2024/25
+,Zira FK,Omonia Nicosia,0,1,Conference League,,,False,2024/25
+,Vitória Guimarães,Zrinjski Mostar,3,0,Conference League,,,False,2024/25
+,Zrinjski Mostar,Vitória Guimarães,4,0,Conference League,,,False,2024/25
+,Djurgårdens IF,NK Maribor,1,0,Conference League,,,False,2024/25
+,NK Maribor,Djurgårdens IF,1,0,Conference League,,,False,2024/25
+,FC Sankt Gallen,Trabzonspor,0,0,Conference League,,,False,2024/25
+,Trabzonspor,FC Sankt Gallen,1,1,Conference League,,,False,2024/25
+,SK Brann Bergen,FK Astana,2,0,Conference League,,,False,2024/25
+,FK Astana,SK Brann Bergen,0,3,Conference League,,,False,2024/25
+,Wisla Kraków,Cercle Brugge,1,6,Conference League,,,False,2024/25
+,Cercle Brugge,Wisla Kraków,4,1,Conference League,,,False,2024/25
+,RC Lens,Panathinaikos,2,1,Conference League,,,False,2024/25
+,Panathinaikos,RC Lens,0,2,Conference League,,,False,2024/25
+,Legia Warsaw,FC Drita,2,0,Conference League,,,False,2024/25
+,FC Drita,Legia Warsaw,1,0,Conference League,,,False,2024/25
+,Mladá Boleslav,Paksi FC,2,2,Conference League,,,False,2024/25
+,Paksi FC,Mladá Boleslav,3,0,Conference League,,,False,2024/25
+,BK Häcken,1.FC Heidenheim,1,2,Conference League,,,False,2024/25
+,1.FC Heidenheim,BK Häcken,2,3,Conference League,,,False,2024/25
+,NK Rijeka,Olimpija Ljubljana,1,1,Conference League,,,False,2024/25
+,Olimpija Ljubljana,NK Rijeka,0,5,Conference League,,,False,2024/25
+,St. Patrick's Athletic,Istanbul Basaksehir,0,0,Conference League,,,False,2024/25
+,Istanbul Basaksehir,St. Patrick's Athletic,0,2,Conference League,,,False,2024/25
+,FC København,Kilmarnock,2,0,Conference League,,,False,2024/25
+,Kilmarnock,FC København,1,1,Conference League,,,False,2024/25
+,Fiorentina,Puskás Akadémia,3,3,Conference League,,,False,2024/25
+,Puskás Akadémia,Fiorentina,1,1,Conference League,,,False,2024/25
+,Chelsea,Servette FC Genève,2,0,Conference League,,,False,2024/25
+,Servette FC Genève,Chelsea,1,2,Conference League,,,False,2024/25
+,CFR Cluj,Pafos FC,1,0,Conference League,,,False,2024/25
+,Pafos FC,CFR Cluj,0,3,Conference League,,,False,2024/25
+,Partizan Belgrade,AA Gent,0,1,Conference League,,,False,2024/25
+,AA Gent,Partizan Belgrade,0,1,Conference League,,,False,2024/25
+,Kryvbas Kryviy Rih,Real Betis,0,2,Conference League,,,False,2024/25
+,Real Betis,Kryvbas Kryviy Rih,0,3,Conference League,,,False,2024/25
+,FC Noah,MFK Ruzomberok,3,0,Conference League,,,False,2024/25
+,MFK Ruzomberok,FC Noah,1,3,Conference League,,,False,2024/25
+,Lincoln Red Imps,Larne FC,2,1,Conference League,,,False,2024/25
+,Larne FC,Lincoln Red Imps,1,3,Conference League,,,False,2024/25
+,Pyunik Yerevan,NK Celje,1,0,Conference League,,,False,2024/25
+,NK Celje,Pyunik Yerevan,1,4,Conference League,,,False,2024/25
+,Vikingur Reykjavik,UE Santa Coloma,5,0,Conference League,,,False,2024/25
+,UE Santa Coloma,Vikingur Reykjavik,0,0,Conference League,,,False,2024/25
+,FK Panevezys,The New Saints,0,3,Conference League,,,False,2024/25
+,The New Saints,FK Panevezys,0,0,Conference League,,,False,2024/25
+,KI Klaksvik,HJK Helsinki,2,2,Conference League,,,False,2024/25
+,HJK Helsinki,KI Klaksvik,1,2,Conference League,,,False,2024/25
+,Istanbul Basaksehir,Rapid Wien,1,2,Conference League,,,False,2024/25
+,Vitória Guimarães,NK Celje,3,1,Conference League,,,False,2024/25
+,1.FC Heidenheim,Olimpija Ljubljana,2,1,Conference League,,,False,2024/25
+,Cercle Brugge,FC Sankt Gallen,6,2,Conference League,,,False,2024/25
+,FK Astana,TSC Backa Topola,1,0,Conference League,,,False,2024/25
+,Dinamo Minsk,Hearts FC,1,2,Conference League,,,False,2024/25
+,FC Noah,Mladá Boleslav,2,0,Conference League,,,False,2024/25
+,Legia Warsaw,Real Betis,1,0,Conference League,,,False,2024/25
+,Molde FK,Larne FC,3,0,Conference League,,,False,2024/25
+,Omonia Nicosia,Vikingur Reykjavik,4,0,Conference League,,,False,2024/25
+,Fiorentina,The New Saints,2,0,Conference League,,,False,2024/25
+,Chelsea,AA Gent,4,2,Conference League,,,False,2024/25
+,FC København,Jagiellonia Bialystok,1,2,Conference League,,,False,2024/25
+,FC Lugano,HJK Helsinki,3,0,Conference League,,,False,2024/25
+,Petrocub Hîncesti,Pafos FC,1,4,Conference League,,,False,2024/25
+,Borac Banja Luka,Panathinaikos,1,1,Conference League,,,False,2024/25
+,LASK,Djurgårdens IF,2,2,Conference League,,,False,2024/25
+,Shamrock Rovers,APOEL Nicosia,1,1,Conference League,,,False,2024/25
+,APOEL Nicosia,Borac Banja Luka,0,1,Conference League,,,False,2024/25
+,Djurgårdens IF,Vitória Guimarães,1,2,Conference League,,,False,2024/25
+,FC Sankt Gallen,Fiorentina,2,4,Conference League,,,False,2024/25
+,Hearts FC,Omonia Nicosia,2,0,Conference League,,,False,2024/25
+,Jagiellonia Bialystok,Petrocub Hîncesti,2,0,Conference League,,,False,2024/25
+,AA Gent,Molde FK,2,1,Conference League,,,False,2024/25
+,Larne FC,Shamrock Rovers,1,4,Conference League,,,False,2024/25
+,NK Celje,Istanbul Basaksehir,5,1,Conference League,,,False,2024/25
+,Panathinaikos,Chelsea,1,4,Conference League,,,False,2024/25
+,Rapid Wien,FC Noah,1,0,Conference League,,,False,2024/25
+,Mladá Boleslav,FC Lugano,0,1,Conference League,,,False,2024/25
+,TSC Backa Topola,Legia Warsaw,0,3,Conference League,,,False,2024/25
+,HJK Helsinki,Dinamo Minsk,1,0,Conference League,,,False,2024/25
+,Olimpija Ljubljana,LASK,2,0,Conference League,,,False,2024/25
+,Pafos FC,1.FC Heidenheim,0,1,Conference League,,,False,2024/25
+,Real Betis,FC København,1,1,Conference League,,,False,2024/25
+,The New Saints,FK Astana,2,0,Conference League,,,False,2024/25
+,Vikingur Reykjavik,Cercle Brugge,3,1,Conference League,,,False,2024/25
+,Petrocub Hîncesti,Rapid Wien,0,3,Conference League,,,False,2024/25
+,TSC Backa Topola,FC Lugano,4,1,Conference League,,,False,2024/25
+,HJK Helsinki,Olimpija Ljubljana,0,2,Conference League,,,False,2024/25
+,AA Gent,Omonia Nicosia,1,0,Conference League,,,False,2024/25
+,Legia Warsaw,Dinamo Minsk,4,0,Conference League,,,False,2024/25
+,Pafos FC,FK Astana,1,0,Conference League,,,False,2024/25
+,Shamrock Rovers,The New Saints,2,1,Conference League,,,False,2024/25
+,Vikingur Reykjavik,Borac Banja Luka,2,0,Conference League,,,False,2024/25
+,APOEL Nicosia,Fiorentina,2,1,Conference League,,,False,2024/25
+,Chelsea,FC Noah,8,0,Conference League,,,False,2024/25
+,Djurgårdens IF,Panathinaikos,2,1,Conference League,,,False,2024/25
+,FC København,Istanbul Basaksehir,2,2,Conference League,,,False,2024/25
+,Hearts FC,1.FC Heidenheim,0,2,Conference League,,,False,2024/25
+,Jagiellonia Bialystok,Molde FK,3,0,Conference League,,,False,2024/25
+,Larne FC,FC Sankt Gallen,1,2,Conference League,,,False,2024/25
+,LASK,Cercle Brugge,0,0,Conference League,,,False,2024/25
+,Real Betis,NK Celje,2,1,Conference League,,,False,2024/25
+,Vitória Guimarães,Mladá Boleslav,2,1,Conference League,,,False,2024/25
+,Istanbul Basaksehir,Petrocub Hîncesti,1,1,Conference League,,,False,2024/25
+,FK Astana,Vitória Guimarães,1,1,Conference League,,,False,2024/25
+,1.FC Heidenheim,Chelsea,0,2,Conference League,,,False,2024/25
+,Cercle Brugge,Hearts FC,2,0,Conference League,,,False,2024/25
+,Dinamo Minsk,FC København,1,2,Conference League,,,False,2024/25
+,FC Noah,Vikingur Reykjavik,0,0,Conference League,,,False,2024/25
+,FC Sankt Gallen,TSC Backa Topola,2,2,Conference League,,,False,2024/25
+,Borac Banja Luka,LASK,2,1,Conference League,,,False,2024/25
+,Molde FK,APOEL Nicosia,0,1,Conference League,,,False,2024/25
+,NK Celje,Jagiellonia Bialystok,3,3,Conference League,,,False,2024/25
+,Panathinaikos,HJK Helsinki,1,0,Conference League,,,False,2024/25
+,The New Saints,Djurgårdens IF,0,1,Conference League,,,False,2024/25
+,Fiorentina,Pafos FC,3,2,Conference League,,,False,2024/25
+,FC Lugano,AA Gent,2,0,Conference League,,,False,2024/25
+,Mladá Boleslav,Real Betis,2,1,Conference League,,,False,2024/25
+,Olimpija Ljubljana,Larne FC,1,0,Conference League,,,False,2024/25
+,Omonia Nicosia,Legia Warsaw,0,3,Conference League,,,False,2024/25
+,Rapid Wien,Shamrock Rovers,1,1,Conference League,,,False,2024/25
+,FK Astana,Chelsea,1,3,Conference League,,,False,2024/25
+,Fiorentina,LASK,7,0,Conference League,,,False,2024/25
+,FC København,Hearts FC,2,0,Conference League,,,False,2024/25
+,Dinamo Minsk,Larne FC,2,0,Conference League,,,False,2024/25
+,FC Noah,APOEL Nicosia,1,3,Conference League,,,False,2024/25
+,Petrocub Hîncesti,Real Betis,0,1,Conference League,,,False,2024/25
+,HJK Helsinki,Molde FK,2,2,Conference League,,,False,2024/25
+,Istanbul Basaksehir,1.FC Heidenheim,3,1,Conference League,,,False,2024/25
+,Legia Warsaw,FC Lugano,1,2,Conference League,,,False,2024/25
+,Olimpija Ljubljana,Cercle Brugge,1,4,Conference League,,,False,2024/25
+,FC Sankt Gallen,Vitória Guimarães,1,4,Conference League,,,False,2024/25
+,Mladá Boleslav,Jagiellonia Bialystok,1,0,Conference League,,,False,2024/25
+,AA Gent,TSC Backa Topola,3,0,Conference League,,,False,2024/25
+,Omonia Nicosia,Rapid Wien,3,1,Conference League,,,False,2024/25
+,Pafos FC,NK Celje,2,0,Conference League,,,False,2024/25
+,Shamrock Rovers,Borac Banja Luka,3,0,Conference League,,,False,2024/25
+,The New Saints,Panathinaikos,0,2,Conference League,,,False,2024/25
+,Vikingur Reykjavik,Djurgårdens IF,1,2,Conference League,,,False,2024/25
+,1.FC Heidenheim,FC Sankt Gallen,1,1,Conference League,,,False,2024/25
+,APOEL Nicosia,FK Astana,1,1,Conference League,,,False,2024/25
+,Cercle Brugge,Istanbul Basaksehir,1,1,Conference League,,,False,2024/25
+,Chelsea,Shamrock Rovers,5,1,Conference League,,,False,2024/25
+,Djurgårdens IF,Legia Warsaw,3,1,Conference League,,,False,2024/25
+,FC Lugano,Pafos FC,2,2,Conference League,,,False,2024/25
+,Borac Banja Luka,Omonia Nicosia,0,0,Conference League,,,False,2024/25
+,TSC Backa Topola,FC Noah,4,3,Conference League,,,False,2024/25
+,Hearts FC,Petrocub Hîncesti,2,2,Conference League,,,False,2024/25
+,Jagiellonia Bialystok,Olimpija Ljubljana,0,0,Conference League,,,False,2024/25
+,Larne FC,AA Gent,1,0,Conference League,,,False,2024/25
+,LASK,Vikingur Reykjavik,1,1,Conference League,,,False,2024/25
+,Molde FK,Mladá Boleslav,4,3,Conference League,,,False,2024/25
+,NK Celje,The New Saints,3,2,Conference League,,,False,2024/25
+,Panathinaikos,Dinamo Minsk,4,0,Conference League,,,False,2024/25
+,Real Betis,HJK Helsinki,1,0,Conference League,,,False,2024/25
+,Rapid Wien,FC København,3,0,Conference League,,,False,2024/25
+,Vitória Guimarães,Fiorentina,1,1,Conference League,,,False,2024/25
+,AA Gent,Real Betis,0,3,Conference League,,,False,2024/25
+,Real Betis,AA Gent,1,0,Conference League,,,False,2024/25
+,TSC Backa Topola,Jagiellonia Bialystok,1,3,Conference League,,,False,2024/25
+,Jagiellonia Bialystok,TSC Backa Topola,1,3,Conference League,,,False,2024/25
+,NK Celje,APOEL Nicosia,2,2,Conference League,,,False,2024/25
+,APOEL Nicosia,NK Celje,2,0,Conference League,,,False,2024/25
+,Vikingur Reykjavik,Panathinaikos,2,1,Conference League,,,False,2024/25
+,Panathinaikos,Vikingur Reykjavik,0,2,Conference League,,,False,2024/25
+,Borac Banja Luka,Olimpija Ljubljana,1,0,Conference League,,,False,2024/25
+,Olimpija Ljubljana,Borac Banja Luka,0,0,Conference League,,,False,2024/25
+,Omonia Nicosia,Pafos FC,1,1,Conference League,,,False,2024/25
+,Pafos FC,Omonia Nicosia,1,2,Conference League,,,False,2024/25
+,Molde FK,Shamrock Rovers,0,1,Conference League,,,False,2024/25
+,Shamrock Rovers,Molde FK,1,0,Conference League,,,False,2024/25
+,FC København,1.FC Heidenheim,1,2,Conference League,,,False,2024/25
+,1.FC Heidenheim,FC København,3,1,Conference League,,,False,2024/25
+,Real Betis,Vitória Guimarães,2,2,Conference League,,,False,2024/25
+,Vitória Guimarães,Real Betis,4,0,Conference League,,,False,2024/25
+,Jagiellonia Bialystok,Cercle Brugge,3,0,Conference League,,,False,2024/25
+,Cercle Brugge,Jagiellonia Bialystok,0,2,Conference League,,,False,2024/25
+,NK Celje,FC Lugano,1,0,Conference League,,,False,2024/25
+,FC Lugano,NK Celje,4,5,Conference League,,,False,2024/25
+,Panathinaikos,Fiorentina,3,2,Conference League,,,False,2024/25
+,Fiorentina,Panathinaikos,1,3,Conference League,,,False,2024/25
+,Borac Banja Luka,Rapid Wien,1,1,Conference League,,,False,2024/25
+,Rapid Wien,Borac Banja Luka,1,2,Conference League,,,False,2024/25
+,Pafos FC,Djurgårdens IF,1,0,Conference League,,,False,2024/25
+,Djurgårdens IF,Pafos FC,0,3,Conference League,,,False,2024/25
+,Molde FK,Legia Warsaw,3,2,Conference League,,,False,2024/25
+,Legia Warsaw,Molde FK,0,2,Conference League,,,False,2024/25
+,FC København,Chelsea,1,2,Conference League,,,False,2024/25
+,Chelsea,FC København,0,1,Conference League,,,False,2024/25
+,Real Betis,Jagiellonia Bialystok,2,0,Conference League,,,False,2024/25
+,Jagiellonia Bialystok,Real Betis,1,1,Conference League,,,False,2024/25
+,NK Celje,Fiorentina,1,2,Conference League,,,False,2024/25
+,Fiorentina,NK Celje,2,2,Conference League,,,False,2024/25
+,Djurgårdens IF,Rapid Wien,0,1,Conference League,,,False,2024/25
+,Rapid Wien,Djurgårdens IF,4,1,Conference League,,,False,2024/25
+,Legia Warsaw,Chelsea,0,3,Conference League,,,False,2024/25
+,Chelsea,Legia Warsaw,2,1,Conference League,,,False,2024/25
+,Real Betis,Fiorentina,2,1,Conference League,,,False,2024/25
+,Fiorentina,Real Betis,2,2,Conference League,,,False,2024/25
+,Djurgårdens IF,Chelsea,1,4,Conference League,,,False,2024/25
+,Chelsea,Djurgårdens IF,0,1,Conference League,,,False,2024/25
+,Real Betis,Chelsea,1,4,Conference League,,,True,2024/25
+,Zalgiris Vilnius,Hamrun Spartans,2,0,Champions League,,,False,2025/26
+,Hamrun Spartans,Zalgiris Vilnius,0,2,Champions League,,,False,2025/26
+,KuPS Kuopio,Milsami Orhei,1,0,Champions League,,,False,2025/26
+,Milsami Orhei,KuPS Kuopio,0,0,Champions League,,,False,2025/26
+,The New Saints,Shkendija Tetovo,0,0,Champions League,,,False,2025/26
+,Shkendija Tetovo,The New Saints,1,2,Champions League,,,False,2025/26
+,Iberia 1999,Malmö FF,1,3,Champions League,,,False,2025/26
+,Malmö FF,Iberia 1999,1,3,Champions League,,,False,2025/26
+,Levadia Tallinn,RFS Riga,0,1,Champions League,,,False,2025/26
+,RFS Riga,Levadia Tallinn,0,1,Champions League,,,False,2025/26
+,FC Drita,Differdange 03,1,0,Champions League,,,False,2025/26
+,Differdange 03,FC Drita,3,2,Champions League,,,False,2025/26
+,Víkingur,Lincoln Red Imps,2,3,Champions League,,,False,2025/26
+,Lincoln Red Imps,Víkingur,0,1,Champions League,,,False,2025/26
+,Egnatia Rrogozhinë,Breidablik,1,0,Champions League,,,False,2025/26
+,Breidablik,Egnatia Rrogozhinë,0,5,Champions League,,,False,2025/26
+,Shelbourne,Linfield Belfast,1,0,Champions League,,,False,2025/26
+,Linfield Belfast,Shelbourne,1,1,Champions League,,,False,2025/26
+,FCSB,Inter Club d'Escaldes,3,1,Champions League,,,False,2025/26
+,Inter Club d'Escaldes,FCSB,1,2,Champions League,,,False,2025/26
+,AC Virtus,Zrinjski Mostar,0,2,Champions League,,,False,2025/26
+,Zrinjski Mostar,AC Virtus,1,2,Champions League,,,False,2025/26
+,Olimpija Ljubljana,Kairat Almaty,1,1,Champions League,,,False,2025/26
+,Kairat Almaty,Olimpija Ljubljana,0,2,Champions League,,,False,2025/26
+,FC Noah,Buducnost Podgorica,1,0,Champions League,,,False,2025/26
+,Buducnost Podgorica,FC Noah,2,2,Champions League,,,False,2025/26
+,Ludogorets Razgrad,Dinamo Minsk,1,0,Champions League,,,False,2025/26
+,Dinamo Minsk,Ludogorets Razgrad,2,2,Champions League,,,False,2025/26
+,RFS Riga,Malmö FF,1,4,Champions League,,,False,2025/26
+,Malmö FF,RFS Riga,0,1,Champions League,,,False,2025/26
+,Hamrun Spartans,Dynamo Kyiv,0,3,Champions League,,,False,2025/26
+,Dynamo Kyiv,Hamrun Spartans,0,3,Champions League,,,False,2025/26
+,Pafos FC,Maccabi Tel-Aviv,1,1,Champions League,,,False,2025/26
+,Maccabi Tel-Aviv,Pafos FC,1,0,Champions League,,,False,2025/26
+,Lincoln Red Imps,Red Star Belgrade,0,1,Champions League,,,False,2025/26
+,Red Star Belgrade,Lincoln Red Imps,1,5,Champions League,,,False,2025/26
+,FC Noah,Ferencváros,1,2,Champions League,,,False,2025/26
+,Ferencváros,FC Noah,3,4,Champions League,,,False,2025/26
+,Lech Poznan,Breidablik,7,1,Champions League,,,False,2025/26
+,Breidablik,Lech Poznan,1,0,Champions League,,,False,2025/26
+,FC København,FC Drita,2,0,Champions League,,,False,2025/26
+,FC Drita,FC København,1,0,Champions League,,,False,2025/26
+,NK Rijeka,Ludogorets Razgrad,0,0,Champions League,,,False,2025/26
+,Ludogorets Razgrad,NK Rijeka,1,3,Champions League,,,False,2025/26
+,Shkendija Tetovo,FCSB,1,0,Champions League,,,False,2025/26
+,FCSB,Shkendija Tetovo,2,1,Champions League,,,False,2025/26
+,Slovan Bratislava,Zrinjski Mostar,4,0,Champions League,,,False,2025/26
+,Zrinjski Mostar,Slovan Bratislava,2,2,Champions League,,,False,2025/26
+,Shelbourne,Qarabag FK,0,3,Champions League,,,False,2025/26
+,Qarabag FK,Shelbourne,0,1,Champions League,,,False,2025/26
+,KuPS Kuopio,Kairat Almaty,2,0,Champions League,,,False,2025/26
+,Kairat Almaty,KuPS Kuopio,0,3,Champions League,,,False,2025/26
+,SK Brann Bergen,FC Salzburg,1,4,Champions League,,,False,2025/26
+,FC Salzburg,SK Brann Bergen,1,1,Champions League,,,False,2025/26
+,Viktoria Plzen,Servette FC Genève,0,1,Champions League,,,False,2025/26
+,Servette FC Genève,Viktoria Plzen,3,1,Champions League,,,False,2025/26
+,Glasgow Rangers,Panathinaikos,2,0,Champions League,,,False,2025/26
+,Panathinaikos,Glasgow Rangers,1,1,Champions League,,,False,2025/26
+,Malmö FF,FC København,0,0,Champions League,,,False,2025/26
+,FC København,Malmö FF,0,5,Champions League,,,False,2025/26
+,Kairat Almaty,Slovan Bratislava,1,0,Champions League,,,False,2025/26
+,Slovan Bratislava,Kairat Almaty,0,1,Champions League,,,False,2025/26
+,Lech Poznan,Red Star Belgrade,1,3,Champions League,,,False,2025/26
+,Red Star Belgrade,Lech Poznan,1,1,Champions League,,,False,2025/26
+,Ludogorets Razgrad,Ferencváros,0,0,Champions League,,,False,2025/26
+,Ferencváros,Ludogorets Razgrad,0,3,Champions League,,,False,2025/26
+,Dynamo Kyiv,Pafos FC,0,1,Champions League,,,False,2025/26
+,Pafos FC,Dynamo Kyiv,0,2,Champions League,,,False,2025/26
+,Shkendija Tetovo,Qarabag FK,0,1,Champions League,,,False,2025/26
+,Qarabag FK,Shkendija Tetovo,1,5,Champions League,,,False,2025/26
+,FC Salzburg,Club Brugge,0,1,Champions League,,,False,2025/26
+,Club Brugge,FC Salzburg,2,3,Champions League,,,False,2025/26
+,Glasgow Rangers,Viktoria Plzen,3,0,Champions League,,,False,2025/26
+,Viktoria Plzen,Glasgow Rangers,1,2,Champions League,,,False,2025/26
+,OGC Nice,Benfica,0,2,Champions League,,,False,2025/26
+,Benfica,OGC Nice,0,2,Champions League,,,False,2025/26
+,Feyenoord,Fenerbahçe,2,1,Champions League,,,False,2025/26
+,Fenerbahçe,Feyenoord,2,5,Champions League,,,False,2025/26
+,Ferencváros,Qarabag FK,1,3,Champions League,,,False,2025/26
+,Qarabag FK,Ferencváros,3,2,Champions League,,,False,2025/26
+,Red Star Belgrade,Pafos FC,1,2,Champions League,,,False,2025/26
+,Pafos FC,Red Star Belgrade,1,1,Champions League,,,False,2025/26
+,Bodø/Glimt,Sturm Graz,5,0,Champions League,,,False,2025/26
+,Sturm Graz,Bodø/Glimt,1,2,Champions League,,,False,2025/26
+,Celtic,Kairat Almaty,0,0,Champions League,,,False,2025/26
+,Kairat Almaty,Celtic,0,0,Champions League,,,False,2025/26
+,FC Basel,FC København,1,1,Champions League,,,False,2025/26
+,FC København,FC Basel,0,2,Champions League,,,False,2025/26
+,Fenerbahçe,Benfica,0,0,Champions League,,,False,2025/26
+,Benfica,Fenerbahçe,0,1,Champions League,,,False,2025/26
+,Glasgow Rangers,Club Brugge,1,3,Champions League,,,False,2025/26
+,Club Brugge,Glasgow Rangers,0,6,Champions League,,,False,2025/26
+,Athletic Bilbao,Arsenal,0,2,Champions League,,,False,2025/26
+,PSV Eindhoven,Union Saint-Gilloise,1,3,Champions League,,,False,2025/26
+,Juventus,Borussia Dortmund,4,4,Champions League,,,False,2025/26
+,Real Madrid,Olympique Marseille,2,1,Champions League,,,False,2025/26
+,Benfica,Qarabag FK,2,3,Champions League,,,False,2025/26
+,Tottenham Hotspur,Villarreal,1,0,Champions League,,,False,2025/26
+,Olympiakos Piraeus,Pafos FC,0,0,Champions League,,,False,2025/26
+,Slavia Praha,Bodø/Glimt,2,2,Champions League,,,False,2025/26
+,Ajax,Internazionale,0,2,Champions League,,,False,2025/26
+,Bayern München,Chelsea,3,1,Champions League,,,False,2025/26
+,Liverpool,Atlético Madrid,3,2,Champions League,,,False,2025/26
+,Paris Saint-Germain,Atalanta,4,0,Champions League,,,False,2025/26
+,Club Brugge,AS Monaco,4,1,Champions League,,,False,2025/26
+,FC København,Bayer Leverkusen,2,2,Champions League,,,False,2025/26
+,Eintracht Frankfurt,Galatasaray,5,1,Champions League,,,False,2025/26
+,Manchester City,Napoli,2,0,Champions League,,,False,2025/26
+,Newcastle United,FC Barcelona,1,2,Champions League,,,False,2025/26
+,Sporting CP Lisbon,Kairat Almaty,4,1,Champions League,,,False,2025/26
+,Atalanta,Club Brugge,2,1,Champions League,,,False,2025/26
+,Kairat Almaty,Real Madrid,0,5,Champions League,,,False,2025/26
+,Atlético Madrid,Eintracht Frankfurt,5,1,Champions League,,,False,2025/26
+,Chelsea,Benfica,1,0,Champions League,,,False,2025/26
+,Internazionale,Slavia Praha,3,0,Champions League,,,False,2025/26
+,Bodø/Glimt,Tottenham Hotspur,2,2,Champions League,,,False,2025/26
+,Galatasaray,Liverpool,1,0,Champions League,,,False,2025/26
+,Olympique Marseille,Ajax,4,0,Champions League,,,False,2025/26
+,Pafos FC,Bayern München,1,5,Champions League,,,False,2025/26
+,Qarabag FK,FC København,2,0,Champions League,,,False,2025/26
+,Union Saint-Gilloise,Newcastle United,0,4,Champions League,,,False,2025/26
+,Arsenal,Olympiakos Piraeus,2,0,Champions League,,,False,2025/26
+,AS Monaco,Manchester City,2,2,Champions League,,,False,2025/26
+,Bayer Leverkusen,PSV Eindhoven,1,1,Champions League,,,False,2025/26
+,Borussia Dortmund,Athletic Bilbao,4,1,Champions League,,,False,2025/26
+,FC Barcelona,Paris Saint-Germain,1,2,Champions League,,,False,2025/26
+,Napoli,Sporting CP Lisbon,2,1,Champions League,,,False,2025/26
+,Villarreal,Juventus,2,2,Champions League,,,False,2025/26
+,FC Barcelona,Olympiakos Piraeus,6,1,Champions League,,,False,2025/26
+,Kairat Almaty,Pafos FC,0,0,Champions League,,,False,2025/26
+,Arsenal,Atlético Madrid,4,0,Champions League,,,False,2025/26
+,Bayer Leverkusen,Paris Saint-Germain,2,7,Champions League,,,False,2025/26
+,FC København,Borussia Dortmund,2,4,Champions League,,,False,2025/26
+,Newcastle United,Benfica,3,0,Champions League,,,False,2025/26
+,PSV Eindhoven,Napoli,6,2,Champions League,,,False,2025/26
+,Union Saint-Gilloise,Internazionale,0,4,Champions League,,,False,2025/26
+,Villarreal,Manchester City,0,2,Champions League,,,False,2025/26
+,Athletic Bilbao,Qarabag FK,3,1,Champions League,,,False,2025/26
+,Galatasaray,Bodø/Glimt,3,1,Champions League,,,False,2025/26
+,AS Monaco,Tottenham Hotspur,0,0,Champions League,,,False,2025/26
+,Atalanta,Slavia Praha,0,0,Champions League,,,False,2025/26
+,Chelsea,Ajax,5,1,Champions League,,,False,2025/26
+,Eintracht Frankfurt,Liverpool,1,5,Champions League,,,False,2025/26
+,Bayern München,Club Brugge,4,0,Champions League,,,False,2025/26
+,Real Madrid,Juventus,1,0,Champions League,,,False,2025/26
+,Sporting CP Lisbon,Olympique Marseille,2,1,Champions League,,,False,2025/26
+,Slavia Praha,Arsenal,0,3,Champions League,,,False,2025/26
+,Napoli,Eintracht Frankfurt,0,0,Champions League,,,False,2025/26
+,Atlético Madrid,Union Saint-Gilloise,3,1,Champions League,,,False,2025/26
+,Bodø/Glimt,AS Monaco,0,1,Champions League,,,False,2025/26
+,Juventus,Sporting CP Lisbon,1,1,Champions League,,,False,2025/26
+,Liverpool,Real Madrid,1,0,Champions League,,,False,2025/26
+,Olympiakos Piraeus,PSV Eindhoven,1,1,Champions League,,,False,2025/26
+,Paris Saint-Germain,Bayern München,1,2,Champions League,,,False,2025/26
+,Tottenham Hotspur,FC København,4,0,Champions League,,,False,2025/26
+,Pafos FC,Villarreal,1,0,Champions League,,,False,2025/26
+,Qarabag FK,Chelsea,2,2,Champions League,,,False,2025/26
+,Ajax,Galatasaray,0,3,Champions League,,,False,2025/26
+,Club Brugge,FC Barcelona,3,3,Champions League,,,False,2025/26
+,Internazionale,Kairat Almaty,2,1,Champions League,,,False,2025/26
+,Manchester City,Borussia Dortmund,4,1,Champions League,,,False,2025/26
+,Newcastle United,Athletic Bilbao,2,0,Champions League,,,False,2025/26
+,Olympique Marseille,Atalanta,0,1,Champions League,,,False,2025/26
+,Benfica,Bayer Leverkusen,0,1,Champions League,,,False,2025/26
+,Ajax,Benfica,0,2,Champions League,,,False,2025/26
+,Galatasaray,Union Saint-Gilloise,0,1,Champions League,,,False,2025/26
+,Borussia Dortmund,Villarreal,4,0,Champions League,,,False,2025/26
+,Chelsea,FC Barcelona,3,0,Champions League,,,False,2025/26
+,Bodø/Glimt,Juventus,2,3,Champions League,,,False,2025/26
+,Manchester City,Bayer Leverkusen,0,2,Champions League,,,False,2025/26
+,Olympique Marseille,Newcastle United,2,1,Champions League,,,False,2025/26
+,Slavia Praha,Athletic Bilbao,0,0,Champions League,,,False,2025/26
+,Napoli,Qarabag FK,2,0,Champions League,,,False,2025/26
+,FC København,Kairat Almaty,3,2,Champions League,,,False,2025/26
+,Pafos FC,AS Monaco,2,2,Champions League,,,False,2025/26
+,Arsenal,Bayern München,3,1,Champions League,,,False,2025/26
+,Atlético Madrid,Internazionale,2,1,Champions League,,,False,2025/26
+,Eintracht Frankfurt,Atalanta,0,3,Champions League,,,False,2025/26
+,Liverpool,PSV Eindhoven,1,4,Champions League,,,False,2025/26
+,Olympiakos Piraeus,Real Madrid,3,4,Champions League,,,False,2025/26
+,Paris Saint-Germain,Tottenham Hotspur,5,3,Champions League,,,False,2025/26
+,Sporting CP Lisbon,Club Brugge,3,0,Champions League,,,False,2025/26
+,Kairat Almaty,Olympiakos Piraeus,0,1,Champions League,,,False,2025/26
+,Bayern München,Sporting CP Lisbon,3,1,Champions League,,,False,2025/26
+,AS Monaco,Galatasaray,1,0,Champions League,,,False,2025/26
+,Atalanta,Chelsea,2,1,Champions League,,,False,2025/26
+,FC Barcelona,Eintracht Frankfurt,2,1,Champions League,,,False,2025/26
+,Internazionale,Liverpool,0,1,Champions League,,,False,2025/26
+,PSV Eindhoven,Atlético Madrid,2,3,Champions League,,,False,2025/26
+,Union Saint-Gilloise,Olympique Marseille,2,3,Champions League,,,False,2025/26
+,Tottenham Hotspur,Slavia Praha,3,0,Champions League,,,False,2025/26
+,Qarabag FK,Ajax,2,4,Champions League,,,False,2025/26
+,Villarreal,FC København,2,3,Champions League,,,False,2025/26
+,Athletic Bilbao,Paris Saint-Germain,0,0,Champions League,,,False,2025/26
+,Bayer Leverkusen,Newcastle United,2,2,Champions League,,,False,2025/26
+,Borussia Dortmund,Bodø/Glimt,2,2,Champions League,,,False,2025/26
+,Club Brugge,Arsenal,0,3,Champions League,,,False,2025/26
+,Juventus,Pafos FC,2,0,Champions League,,,False,2025/26
+,Real Madrid,Manchester City,1,2,Champions League,,,False,2025/26
+,Benfica,Napoli,2,0,Champions League,,,False,2025/26
+,Kairat Almaty,Club Brugge,1,4,Champions League,,,False,2025/26
+,Bodø/Glimt,Manchester City,3,1,Champions League,,,False,2025/26
+,FC København,Napoli,1,1,Champions League,,,False,2025/26
+,Internazionale,Arsenal,1,3,Champions League,,,False,2025/26
+,Olympiakos Piraeus,Bayer Leverkusen,2,0,Champions League,,,False,2025/26
+,Real Madrid,AS Monaco,6,1,Champions League,,,False,2025/26
+,Sporting CP Lisbon,Paris Saint-Germain,2,1,Champions League,,,False,2025/26
+,Tottenham Hotspur,Borussia Dortmund,2,0,Champions League,,,False,2025/26
+,Villarreal,Ajax,1,2,Champions League,,,False,2025/26
+,Galatasaray,Atlético Madrid,1,1,Champions League,,,False,2025/26
+,Qarabag FK,Eintracht Frankfurt,3,2,Champions League,,,False,2025/26
+,Atalanta,Athletic Bilbao,2,3,Champions League,,,False,2025/26
+,Chelsea,Pafos FC,1,0,Champions League,,,False,2025/26
+,Bayern München,Union Saint-Gilloise,2,0,Champions League,,,False,2025/26
+,Juventus,Benfica,2,0,Champions League,,,False,2025/26
+,Newcastle United,PSV Eindhoven,3,0,Champions League,,,False,2025/26
+,Olympique Marseille,Liverpool,0,3,Champions League,,,False,2025/26
+,Slavia Praha,FC Barcelona,2,4,Champions League,,,False,2025/26
+,Ajax,Olympiakos Piraeus,1,2,Champions League,,,False,2025/26
+,Arsenal,Kairat Almaty,3,2,Champions League,,,False,2025/26
+,AS Monaco,Juventus,0,0,Champions League,,,False,2025/26
+,Athletic Bilbao,Sporting CP Lisbon,2,3,Champions League,,,False,2025/26
+,Atlético Madrid,Bodø/Glimt,1,2,Champions League,,,False,2025/26
+,Bayer Leverkusen,Villarreal,3,0,Champions League,,,False,2025/26
+,Borussia Dortmund,Internazionale,0,2,Champions League,,,False,2025/26
+,Club Brugge,Olympique Marseille,3,0,Champions League,,,False,2025/26
+,Eintracht Frankfurt,Tottenham Hotspur,0,2,Champions League,,,False,2025/26
+,FC Barcelona,FC København,4,1,Champions League,,,False,2025/26
+,Liverpool,Qarabag FK,6,0,Champions League,,,False,2025/26
+,Manchester City,Galatasaray,2,0,Champions League,,,False,2025/26
+,Pafos FC,Slavia Praha,4,1,Champions League,,,False,2025/26
+,Paris Saint-Germain,Newcastle United,1,1,Champions League,,,False,2025/26
+,PSV Eindhoven,Bayern München,1,2,Champions League,,,False,2025/26
+,Union Saint-Gilloise,Atalanta,1,0,Champions League,,,False,2025/26
+,Benfica,Real Madrid,4,2,Champions League,,,False,2025/26
+,Napoli,Chelsea,2,3,Champions League,,,False,2025/26
+,AS Monaco,Paris Saint-Germain,2,3,Champions League,,,False,2025/26
+,Paris Saint-Germain,AS Monaco,2,2,Champions League,,,False,2025/26
+,Galatasaray,Juventus,5,2,Champions League,,,False,2025/26
+,Juventus,Galatasaray,2,3,Champions League,,,False,2025/26
+,Benfica,Real Madrid,0,1,Champions League,,,False,2025/26
+,Real Madrid,Benfica,1,2,Champions League,,,False,2025/26
+,Borussia Dortmund,Atalanta,2,0,Champions League,,,False,2025/26
+,Atalanta,Borussia Dortmund,1,4,Champions League,,,False,2025/26
+,Qarabag FK,Newcastle United,1,6,Champions League,,,False,2025/26
+,Newcastle United,Qarabag FK,2,3,Champions League,,,False,2025/26
+,Club Brugge,Atlético Madrid,3,3,Champions League,,,False,2025/26
+,Atlético Madrid,Club Brugge,1,4,Champions League,,,False,2025/26
+,Bodø/Glimt,Internazionale,3,1,Champions League,,,False,2025/26
+,Internazionale,Bodø/Glimt,2,1,Champions League,,,False,2025/26
+,Olympiakos Piraeus,Bayer Leverkusen,0,2,Champions League,,,False,2025/26
+,Bayer Leverkusen,Olympiakos Piraeus,0,0,Champions League,,,False,2025/26
+,Paris Saint-Germain,Chelsea,5,2,Champions League,,,False,2025/26
+,Chelsea,Paris Saint-Germain,3,0,Champions League,,,False,2025/26
+,Galatasaray,Liverpool,1,0,Champions League,,,False,2025/26
+,Liverpool,Galatasaray,0,4,Champions League,,,False,2025/26
+,Real Madrid,Manchester City,3,0,Champions League,,,False,2025/26
+,Manchester City,Real Madrid,2,1,Champions League,,,False,2025/26
+,Atalanta,Bayern München,1,6,Champions League,,,False,2025/26
+,Bayern München,Atalanta,1,4,Champions League,,,False,2025/26
+,Newcastle United,FC Barcelona,1,1,Champions League,,,False,2025/26
+,FC Barcelona,Newcastle United,2,7,Champions League,,,False,2025/26
+,Atlético Madrid,Tottenham Hotspur,5,2,Champions League,,,False,2025/26
+,Tottenham Hotspur,Atlético Madrid,2,3,Champions League,,,False,2025/26
+,Bodø/Glimt,Sporting CP Lisbon,3,0,Champions League,,,False,2025/26
+,Sporting CP Lisbon,Bodø/Glimt,0,5,Champions League,,,False,2025/26
+,Bayer Leverkusen,Arsenal,1,1,Champions League,,,False,2025/26
+,Arsenal,Bayer Leverkusen,0,2,Champions League,,,False,2025/26
+,Paris Saint-Germain,Liverpool,2,0,Champions League,,,False,2025/26
+,Liverpool,Paris Saint-Germain,2,0,Champions League,,,False,2025/26
+,Real Madrid,Bayern München,1,2,Champions League,,,False,2025/26
+,Bayern München,Real Madrid,3,4,Champions League,,,False,2025/26
+,FC Barcelona,Atlético Madrid,0,2,Champions League,,,False,2025/26
+,Atlético Madrid,FC Barcelona,2,1,Champions League,,,False,2025/26
+,Sporting CP Lisbon,Arsenal,0,1,Champions League,,,False,2025/26
+,Arsenal,Sporting CP Lisbon,0,0,Champions League,,,False,2025/26
+,Paris Saint-Germain,Bayern München,5,4,Champions League,,,False,2025/26
+,Bayern München,Paris Saint-Germain,1,1,Champions League,,,False,2025/26
+,Atlético Madrid,Arsenal,1,1,Champions League,,,False,2025/26
+,Arsenal,Atlético Madrid,0,1,Champions League,,,False,2025/26
+,Paris Saint-Germain,Arsenal,1,1,Champions League,,,True,2025/26
+,Shakhtar Donetsk,Ilves Tampere,6,0,Europa League,,,False,2025/26
+,Ilves Tampere,Shakhtar Donetsk,0,0,Europa League,,,False,2025/26
+,Sheriff Tiraspol,FC Prishtina,4,0,Europa League,,,False,2025/26
+,FC Prishtina,Sheriff Tiraspol,1,2,Europa League,,,False,2025/26
+,Spartak Trnava,BK Häcken,0,1,Europa League,,,False,2025/26
+,BK Häcken,Spartak Trnava,2,2,Europa League,,,False,2025/26
+,Sabah FK,NK Celje,2,3,Europa League,,,False,2025/26
+,NK Celje,Sabah FK,3,3,Europa League,,,False,2025/26
+,Legia Warsaw,FK Aktobe,1,0,Europa League,,,False,2025/26
+,FK Aktobe,Legia Warsaw,1,0,Europa League,,,False,2025/26
+,Levski Sofia,Hapoel Beer-Sheva,0,0,Europa League,,,False,2025/26
+,Hapoel Beer-Sheva,Levski Sofia,1,1,Europa League,,,False,2025/26
+,AEK Larnaca,Partizan Belgrade,1,0,Europa League,,,False,2025/26
+,Partizan Belgrade,AEK Larnaca,1,2,Europa League,,,False,2025/26
+,Paksi FC,CFR Cluj,0,0,Europa League,,,False,2025/26
+,CFR Cluj,Paksi FC,0,3,Europa League,,,False,2025/26
+,FC Lugano,CFR Cluj,0,0,Europa League,,,False,2025/26
+,CFR Cluj,FC Lugano,0,1,Europa League,,,False,2025/26
+,NK Celje,AEK Larnaca,1,1,Europa League,,,False,2025/26
+,AEK Larnaca,NK Celje,1,2,Europa League,,,False,2025/26
+,Levski Sofia,Sporting Braga,0,0,Europa League,,,False,2025/26
+,Sporting Braga,Levski Sofia,0,1,Europa League,,,False,2025/26
+,Baník Ostrava,Legia Warsaw,2,2,Europa League,,,False,2025/26
+,Legia Warsaw,Baník Ostrava,1,2,Europa League,,,False,2025/26
+,Anderlecht,BK Häcken,1,0,Europa League,,,False,2025/26
+,BK Häcken,Anderlecht,1,2,Europa League,,,False,2025/26
+,Sheriff Tiraspol,FC Utrecht,1,3,Europa League,,,False,2025/26
+,FC Utrecht,Sheriff Tiraspol,1,4,Europa League,,,False,2025/26
+,FC Midtjylland,Hibernian,1,1,Europa League,,,False,2025/26
+,Hibernian,FC Midtjylland,2,1,Europa League,,,False,2025/26
+,Besiktas,Shakhtar Donetsk,2,4,Europa League,,,False,2025/26
+,Shakhtar Donetsk,Besiktas,0,2,Europa League,,,False,2025/26
+,AEK Larnaca,Legia Warsaw,4,1,Europa League,,,False,2025/26
+,Legia Warsaw,AEK Larnaca,1,2,Europa League,,,False,2025/26
+,Fredrikstad FK,FC Midtjylland,1,3,Europa League,,,False,2025/26
+,FC Midtjylland,Fredrikstad FK,0,2,Europa League,,,False,2025/26
+,CFR Cluj,Sporting Braga,1,2,Europa League,,,False,2025/26
+,Sporting Braga,CFR Cluj,0,2,Europa League,,,False,2025/26
+,PAOK Thessaloniki,Wolfsberger AC,0,0,Europa League,,,False,2025/26
+,Wolfsberger AC,PAOK Thessaloniki,1,0,Europa League,,,False,2025/26
+,Servette FC Genève,FC Utrecht,1,3,Europa League,,,False,2025/26
+,FC Utrecht,Servette FC Genève,1,2,Europa League,,,False,2025/26
+,BK Häcken,SK Brann Bergen,0,2,Europa League,,,False,2025/26
+,SK Brann Bergen,BK Häcken,1,0,Europa League,,,False,2025/26
+,Panathinaikos,Shakhtar Donetsk,0,0,Europa League,,,False,2025/26
+,Shakhtar Donetsk,Panathinaikos,0,0,Europa League,,,False,2025/26
+,Lincoln Red Imps,FC Noah,1,1,Europa League,,,False,2025/26
+,FC Noah,Lincoln Red Imps,0,0,Europa League,,,False,2025/26
+,NK Rijeka,Shelbourne,1,2,Europa League,,,False,2025/26
+,Shelbourne,NK Rijeka,3,1,Europa League,,,False,2025/26
+,RFS Riga,KuPS Kuopio,1,2,Europa League,,,False,2025/26
+,KuPS Kuopio,RFS Riga,0,1,Europa League,,,False,2025/26
+,Hamrun Spartans,Maccabi Tel-Aviv,1,2,Europa League,,,False,2025/26
+,Maccabi Tel-Aviv,Hamrun Spartans,1,3,Europa League,,,False,2025/26
+,Zrinjski Mostar,Breidablik,1,1,Europa League,,,False,2025/26
+,Breidablik,Zrinjski Mostar,2,1,Europa League,,,False,2025/26
+,FCSB,FC Drita,3,2,Europa League,,,False,2025/26
+,FC Drita,FCSB,3,1,Europa League,,,False,2025/26
+,Maccabi Tel-Aviv,Dynamo Kyiv,3,1,Europa League,,,False,2025/26
+,Dynamo Kyiv,Maccabi Tel-Aviv,0,1,Europa League,,,False,2025/26
+,Shkendija Tetovo,Ludogorets Razgrad,2,1,Europa League,,,False,2025/26
+,Ludogorets Razgrad,Shkendija Tetovo,1,4,Europa League,,,False,2025/26
+,Slovan Bratislava,Young Boys,0,1,Europa League,,,False,2025/26
+,Young Boys,Slovan Bratislava,2,3,Europa League,,,False,2025/26
+,Malmö FF,Sigma Olomouc,3,0,Europa League,,,False,2025/26
+,Sigma Olomouc,Malmö FF,2,0,Europa League,,,False,2025/26
+,Panathinaikos,Samsunspor,2,1,Europa League,,,False,2025/26
+,Samsunspor,Panathinaikos,0,0,Europa League,,,False,2025/26
+,Aberdeen,FCSB,2,2,Europa League,,,False,2025/26
+,FCSB,Aberdeen,0,3,Europa League,,,False,2025/26
+,Lech Poznan,Racing Genk,1,5,Europa League,,,False,2025/26
+,Racing Genk,Lech Poznan,2,1,Europa League,,,False,2025/26
+,FC Midtjylland,KuPS Kuopio,4,0,Europa League,,,False,2025/26
+,KuPS Kuopio,FC Midtjylland,2,0,Europa League,,,False,2025/26
+,Lincoln Red Imps,Sporting Braga,0,4,Europa League,,,False,2025/26
+,Sporting Braga,Lincoln Red Imps,1,5,Europa League,,,False,2025/26
+,Zrinjski Mostar,FC Utrecht,0,2,Europa League,,,False,2025/26
+,FC Utrecht,Zrinjski Mostar,0,0,Europa League,,,False,2025/26
+,SK Brann Bergen,AEK Larnaca,2,1,Europa League,,,False,2025/26
+,AEK Larnaca,SK Brann Bergen,4,0,Europa League,,,False,2025/26
+,NK Rijeka,PAOK Thessaloniki,1,0,Europa League,,,False,2025/26
+,PAOK Thessaloniki,NK Rijeka,0,5,Europa League,,,False,2025/26
+,FC Midtjylland,Sturm Graz,2,0,Europa League,,,False,2025/26
+,PAOK Thessaloniki,Maccabi Tel-Aviv,0,0,Europa League,,,False,2025/26
+,Red Star Belgrade,Celtic,1,1,Europa League,,,False,2025/26
+,Dinamo Zagreb,Fenerbahçe,3,1,Europa League,,,False,2025/26
+,Malmö FF,Ludogorets Razgrad,1,2,Europa League,,,False,2025/26
+,OGC Nice,AS Roma,1,2,Europa League,,,False,2025/26
+,Real Betis,Nottingham Forest,2,2,Europa League,,,False,2025/26
+,Sporting Braga,Feyenoord,1,0,Europa League,,,False,2025/26
+,SC Freiburg,FC Basel,2,1,Europa League,,,False,2025/26
+,Go Ahead Eagles,FCSB,0,1,Europa League,,,False,2025/26
+,Lille OSC,SK Brann Bergen,2,1,Europa League,,,False,2025/26
+,Aston Villa,Bologna,1,0,Europa League,,,False,2025/26
+,Young Boys,Panathinaikos,1,4,Europa League,,,False,2025/26
+,FC Salzburg,FC Porto,0,1,Europa League,,,False,2025/26
+,FC Utrecht,Olympique Lyon,0,1,Europa League,,,False,2025/26
+,Ferencváros,Viktoria Plzen,1,1,Europa League,,,False,2025/26
+,Glasgow Rangers,Racing Genk,0,1,Europa League,,,False,2025/26
+,VfB Stuttgart,Celta de Vigo,2,1,Europa League,,,False,2025/26
+,AS Roma,Lille OSC,0,1,Europa League,,,False,2025/26
+,Bologna,SC Freiburg,1,1,Europa League,,,False,2025/26
+,Celtic,Sporting Braga,0,2,Europa League,,,False,2025/26
+,Viktoria Plzen,Malmö FF,3,0,Europa League,,,False,2025/26
+,Fenerbahçe,OGC Nice,2,1,Europa League,,,False,2025/26
+,FCSB,Young Boys,0,2,Europa League,,,False,2025/26
+,Panathinaikos,Go Ahead Eagles,1,2,Europa League,,,False,2025/26
+,Ludogorets Razgrad,Real Betis,0,2,Europa League,,,False,2025/26
+,SK Brann Bergen,FC Utrecht,1,0,Europa League,,,False,2025/26
+,FC Basel,VfB Stuttgart,2,0,Europa League,,,False,2025/26
+,FC Porto,Red Star Belgrade,2,1,Europa League,,,False,2025/26
+,Feyenoord,Aston Villa,0,2,Europa League,,,False,2025/26
+,Racing Genk,Ferencváros,0,1,Europa League,,,False,2025/26
+,Maccabi Tel-Aviv,Dinamo Zagreb,1,3,Europa League,,,False,2025/26
+,Nottingham Forest,FC Midtjylland,2,3,Europa League,,,False,2025/26
+,Olympique Lyon,FC Salzburg,2,0,Europa League,,,False,2025/26
+,Celta de Vigo,PAOK Thessaloniki,3,1,Europa League,,,False,2025/26
+,Sturm Graz,Glasgow Rangers,2,1,Europa League,,,False,2025/26
+,FC Salzburg,Ferencváros,2,3,Europa League,,,False,2025/26
+,Fenerbahçe,VfB Stuttgart,1,0,Europa League,,,False,2025/26
+,Feyenoord,Panathinaikos,3,1,Europa League,,,False,2025/26
+,FCSB,Bologna,1,2,Europa League,,,False,2025/26
+,Go Ahead Eagles,Aston Villa,2,1,Europa League,,,False,2025/26
+,Racing Genk,Real Betis,0,0,Europa League,,,False,2025/26
+,Olympique Lyon,FC Basel,2,0,Europa League,,,False,2025/26
+,Sporting Braga,Red Star Belgrade,2,0,Europa League,,,False,2025/26
+,SK Brann Bergen,Glasgow Rangers,3,0,Europa League,,,False,2025/26
+,AS Roma,Viktoria Plzen,1,2,Europa League,,,False,2025/26
+,Young Boys,Ludogorets Razgrad,3,2,Europa League,,,False,2025/26
+,Celtic,Sturm Graz,2,1,Europa League,,,False,2025/26
+,Lille OSC,PAOK Thessaloniki,3,4,Europa League,,,False,2025/26
+,Maccabi Tel-Aviv,FC Midtjylland,0,3,Europa League,,,False,2025/26
+,Malmö FF,Dinamo Zagreb,1,1,Europa League,,,False,2025/26
+,Nottingham Forest,FC Porto,2,0,Europa League,,,False,2025/26
+,Celta de Vigo,OGC Nice,2,1,Europa League,,,False,2025/26
+,SC Freiburg,FC Utrecht,2,0,Europa League,,,False,2025/26
+,FC Salzburg,Go Ahead Eagles,2,0,Europa League,,,False,2025/26
+,FC Basel,FCSB,3,1,Europa League,,,False,2025/26
+,FC Midtjylland,Celtic,3,1,Europa League,,,False,2025/26
+,FC Utrecht,FC Porto,1,1,Europa League,,,False,2025/26
+,Red Star Belgrade,Lille OSC,1,0,Europa League,,,False,2025/26
+,Dinamo Zagreb,Celta de Vigo,0,3,Europa League,,,False,2025/26
+,Malmö FF,Panathinaikos,0,1,Europa League,,,False,2025/26
+,OGC Nice,SC Freiburg,1,3,Europa League,,,False,2025/26
+,Sturm Graz,Nottingham Forest,0,0,Europa League,,,False,2025/26
+,Aston Villa,Maccabi Tel-Aviv,2,0,Europa League,,,False,2025/26
+,Bologna,SK Brann Bergen,0,0,Europa League,,,False,2025/26
+,Viktoria Plzen,Fenerbahçe,0,0,Europa League,,,False,2025/26
+,Ferencváros,Ludogorets Razgrad,3,1,Europa League,,,False,2025/26
+,PAOK Thessaloniki,Young Boys,4,0,Europa League,,,False,2025/26
+,Glasgow Rangers,AS Roma,0,2,Europa League,,,False,2025/26
+,Real Betis,Olympique Lyon,2,0,Europa League,,,False,2025/26
+,Sporting Braga,Racing Genk,3,4,Europa League,,,False,2025/26
+,VfB Stuttgart,Feyenoord,2,0,Europa League,,,False,2025/26
+,AS Roma,FC Midtjylland,2,1,Europa League,,,False,2025/26
+,Aston Villa,Young Boys,2,1,Europa League,,,False,2025/26
+,FC Porto,OGC Nice,3,0,Europa League,,,False,2025/26
+,Viktoria Plzen,SC Freiburg,0,0,Europa League,,,False,2025/26
+,Fenerbahçe,Ferencváros,1,1,Europa League,,,False,2025/26
+,Feyenoord,Celtic,1,3,Europa League,,,False,2025/26
+,Lille OSC,Dinamo Zagreb,4,0,Europa League,,,False,2025/26
+,PAOK Thessaloniki,SK Brann Bergen,1,1,Europa League,,,False,2025/26
+,Ludogorets Razgrad,Celta de Vigo,3,2,Europa League,,,False,2025/26
+,Bologna,FC Salzburg,4,1,Europa League,,,False,2025/26
+,Red Star Belgrade,FCSB,1,0,Europa League,,,False,2025/26
+,Go Ahead Eagles,VfB Stuttgart,0,4,Europa League,,,False,2025/26
+,Racing Genk,FC Basel,2,1,Europa League,,,False,2025/26
+,Maccabi Tel-Aviv,Olympique Lyon,0,6,Europa League,,,False,2025/26
+,Nottingham Forest,Malmö FF,3,0,Europa League,,,False,2025/26
+,Panathinaikos,Sturm Graz,2,1,Europa League,,,False,2025/26
+,Glasgow Rangers,Sporting Braga,1,1,Europa League,,,False,2025/26
+,Real Betis,FC Utrecht,2,1,Europa League,,,False,2025/26
+,Young Boys,Lille OSC,1,0,Europa League,,,False,2025/26
+,FC Midtjylland,Racing Genk,1,0,Europa League,,,False,2025/26
+,FC Utrecht,Nottingham Forest,1,2,Europa League,,,False,2025/26
+,Ferencváros,Glasgow Rangers,2,1,Europa League,,,False,2025/26
+,Dinamo Zagreb,Real Betis,1,3,Europa League,,,False,2025/26
+,OGC Nice,Sporting Braga,0,1,Europa League,,,False,2025/26
+,Ludogorets Razgrad,PAOK Thessaloniki,3,3,Europa League,,,False,2025/26
+,Sturm Graz,Red Star Belgrade,0,1,Europa League,,,False,2025/26
+,VfB Stuttgart,Maccabi Tel-Aviv,4,1,Europa League,,,False,2025/26
+,Celtic,AS Roma,0,3,Europa League,,,False,2025/26
+,FC Porto,Malmö FF,2,1,Europa League,,,False,2025/26
+,FC Basel,Aston Villa,1,2,Europa League,,,False,2025/26
+,FCSB,Feyenoord,4,3,Europa League,,,False,2025/26
+,Olympique Lyon,Go Ahead Eagles,2,1,Europa League,,,False,2025/26
+,Panathinaikos,Viktoria Plzen,0,0,Europa League,,,False,2025/26
+,Celta de Vigo,Bologna,1,2,Europa League,,,False,2025/26
+,SC Freiburg,FC Salzburg,1,0,Europa League,,,False,2025/26
+,SK Brann Bergen,Fenerbahçe,0,4,Europa League,,,False,2025/26
+,Bologna,Celtic,2,2,Europa League,,,False,2025/26
+,Young Boys,Olympique Lyon,0,1,Europa League,,,False,2025/26
+,Viktoria Plzen,FC Porto,1,1,Europa League,,,False,2025/26
+,Fenerbahçe,Aston Villa,0,1,Europa League,,,False,2025/26
+,Feyenoord,Sturm Graz,3,0,Europa League,,,False,2025/26
+,Malmö FF,Red Star Belgrade,0,1,Europa League,,,False,2025/26
+,PAOK Thessaloniki,Real Betis,2,0,Europa League,,,False,2025/26
+,SC Freiburg,Maccabi Tel-Aviv,1,0,Europa League,,,False,2025/26
+,SK Brann Bergen,FC Midtjylland,3,3,Europa League,,,False,2025/26
+,AS Roma,VfB Stuttgart,2,0,Europa League,,,False,2025/26
+,FC Utrecht,Racing Genk,0,2,Europa League,,,False,2025/26
+,FC Salzburg,FC Basel,3,1,Europa League,,,False,2025/26
+,Ferencváros,Panathinaikos,1,1,Europa League,,,False,2025/26
+,Dinamo Zagreb,FCSB,4,1,Europa League,,,False,2025/26
+,OGC Nice,Go Ahead Eagles,3,1,Europa League,,,False,2025/26
+,Glasgow Rangers,Ludogorets Razgrad,1,0,Europa League,,,False,2025/26
+,Celta de Vigo,Lille OSC,2,1,Europa League,,,False,2025/26
+,Sporting Braga,Nottingham Forest,1,0,Europa League,,,False,2025/26
+,Aston Villa,FC Salzburg,3,2,Europa League,,,False,2025/26
+,Celtic,FC Utrecht,4,2,Europa League,,,False,2025/26
+,FC Porto,Glasgow Rangers,3,1,Europa League,,,False,2025/26
+,FC Basel,Viktoria Plzen,0,1,Europa League,,,False,2025/26
+,FC Midtjylland,Dinamo Zagreb,2,0,Europa League,,,False,2025/26
+,Red Star Belgrade,Celta de Vigo,1,1,Europa League,,,False,2025/26
+,FCSB,Fenerbahçe,1,1,Europa League,,,False,2025/26
+,Go Ahead Eagles,Sporting Braga,0,0,Europa League,,,False,2025/26
+,Racing Genk,Malmö FF,2,1,Europa League,,,False,2025/26
+,Lille OSC,SC Freiburg,1,0,Europa League,,,False,2025/26
+,Maccabi Tel-Aviv,Bologna,0,3,Europa League,,,False,2025/26
+,Nottingham Forest,Ferencváros,4,0,Europa League,,,False,2025/26
+,Olympique Lyon,PAOK Thessaloniki,4,2,Europa League,,,False,2025/26
+,Panathinaikos,AS Roma,1,1,Europa League,,,False,2025/26
+,Ludogorets Razgrad,OGC Nice,1,0,Europa League,,,False,2025/26
+,Real Betis,Feyenoord,2,1,Europa League,,,False,2025/26
+,Sturm Graz,SK Brann Bergen,1,0,Europa League,,,False,2025/26
+,VfB Stuttgart,Young Boys,3,2,Europa League,,,False,2025/26
+,Ludogorets Razgrad,Ferencváros,2,1,Europa League,,,False,2025/26
+,Ferencváros,Ludogorets Razgrad,0,2,Europa League,,,False,2025/26
+,Panathinaikos,Viktoria Plzen,2,2,Europa League,,,False,2025/26
+,Viktoria Plzen,Panathinaikos,1,1,Europa League,,,False,2025/26
+,Dinamo Zagreb,Racing Genk,1,3,Europa League,,,False,2025/26
+,Racing Genk,Dinamo Zagreb,3,3,Europa League,,,False,2025/26
+,PAOK Thessaloniki,Celta de Vigo,1,2,Europa League,,,False,2025/26
+,Celta de Vigo,PAOK Thessaloniki,0,1,Europa League,,,False,2025/26
+,Celtic,VfB Stuttgart,1,4,Europa League,,,False,2025/26
+,VfB Stuttgart,Celtic,1,0,Europa League,,,False,2025/26
+,Fenerbahçe,Nottingham Forest,0,3,Europa League,,,False,2025/26
+,Nottingham Forest,Fenerbahçe,2,1,Europa League,,,False,2025/26
+,SK Brann Bergen,Bologna,0,1,Europa League,,,False,2025/26
+,Bologna,SK Brann Bergen,0,1,Europa League,,,False,2025/26
+,Lille OSC,Red Star Belgrade,0,1,Europa League,,,False,2025/26
+,Red Star Belgrade,Lille OSC,2,0,Europa League,,,False,2025/26
+,Ferencváros,Sporting Braga,2,0,Europa League,,,False,2025/26
+,Sporting Braga,Ferencváros,0,4,Europa League,,,False,2025/26
+,Panathinaikos,Real Betis,1,0,Europa League,,,False,2025/26
+,Real Betis,Panathinaikos,0,4,Europa League,,,False,2025/26
+,Racing Genk,SC Freiburg,1,0,Europa League,,,False,2025/26
+,SC Freiburg,Racing Genk,1,5,Europa League,,,False,2025/26
+,Celta de Vigo,Olympique Lyon,1,1,Europa League,,,False,2025/26
+,Olympique Lyon,Celta de Vigo,2,0,Europa League,,,False,2025/26
+,VfB Stuttgart,FC Porto,1,2,Europa League,,,False,2025/26
+,FC Porto,VfB Stuttgart,0,2,Europa League,,,False,2025/26
+,Nottingham Forest,FC Midtjylland,0,1,Europa League,,,False,2025/26
+,FC Midtjylland,Nottingham Forest,2,1,Europa League,,,False,2025/26
+,Bologna,AS Roma,1,1,Europa League,,,False,2025/26
+,AS Roma,Bologna,4,3,Europa League,,,False,2025/26
+,Lille OSC,Aston Villa,0,1,Europa League,,,False,2025/26
+,Aston Villa,Lille OSC,0,2,Europa League,,,False,2025/26
+,Sporting Braga,Real Betis,1,1,Europa League,,,False,2025/26
+,Real Betis,Sporting Braga,4,2,Europa League,,,False,2025/26
+,SC Freiburg,Celta de Vigo,3,0,Europa League,,,False,2025/26
+,Celta de Vigo,SC Freiburg,3,1,Europa League,,,False,2025/26
+,FC Porto,Nottingham Forest,1,1,Europa League,,,False,2025/26
+,Nottingham Forest,FC Porto,0,1,Europa League,,,False,2025/26
+,Bologna,Aston Villa,1,3,Europa League,,,False,2025/26
+,Aston Villa,Bologna,0,4,Europa League,,,False,2025/26
+,Sporting Braga,SC Freiburg,2,1,Europa League,,,False,2025/26
+,SC Freiburg,Sporting Braga,1,3,Europa League,,,False,2025/26
+,Nottingham Forest,Aston Villa,1,0,Europa League,,,False,2025/26
+,Aston Villa,Nottingham Forest,0,4,Europa League,,,False,2025/26
+,SC Freiburg,Aston Villa,0,3,Europa League,,,True,2025/26
+,NSI Runavik,HJK Helsinki,4,0,Conference League,,,False,2025/26
+,HJK Helsinki,NSI Runavik,0,5,Conference League,,,False,2025/26
+,St. Patrick's Athletic,FC Hegelmann,1,0,Conference League,,,False,2025/26
+,FC Hegelmann,St. Patrick's Athletic,2,0,Conference League,,,False,2025/26
+,FCB Magpies,Paide Linnameeskond,2,3,Conference League,,,False,2025/26
+,Paide Linnameeskond,FCB Magpies,1,4,Conference League,,,False,2025/26
+,Vllaznia Shkodër,BFC Daugavpils,0,1,Conference League,,,False,2025/26
+,BFC Daugavpils,Vllaznia Shkodër,4,2,Conference League,,,False,2025/26
+,Torpedo Kutaisi,Ordabasy Shymkent,4,3,Conference League,,,False,2025/26
+,Ordabasy Shymkent,Torpedo Kutaisi,1,1,Conference League,,,False,2025/26
+,Decic Tuzi,Sileks Kratovo,2,0,Conference League,,,False,2025/26
+,Sileks Kratovo,Decic Tuzi,1,2,Conference League,,,False,2025/26
+,Birkirkara,Petrocub Hîncesti,1,0,Conference League,,,False,2025/26
+,Petrocub Hîncesti,Birkirkara,0,3,Conference League,,,False,2025/26
+,Urartu FC,Neman Grodno,1,2,Conference League,,,False,2025/26
+,Neman Grodno,Urartu FC,0,4,Conference League,,,False,2025/26
+,Zeljeznicar Sarajevo,NK Koper,1,1,Conference League,,,False,2025/26
+,NK Koper,Zeljeznicar Sarajevo,1,3,Conference League,,,False,2025/26
+,Sutjeska Niksic,Dynamo Brest,1,2,Conference League,,,False,2025/26
+,Dynamo Brest,Sutjeska Niksic,2,0,Conference League,,,False,2025/26
+,Atlètic Club d'Escaldes,F91 Dudelange,2,0,Conference League,,,False,2025/26
+,F91 Dudelange,Atlètic Club d'Escaldes,3,2,Conference League,,,False,2025/26
+,Vardar Skopje,La Fiorita,3,0,Conference League,,,False,2025/26
+,La Fiorita,Vardar Skopje,2,2,Conference League,,,False,2025/26
+,SJK Seinäjoki,KI Klaksvik,1,2,Conference League,,,False,2025/26
+,KI Klaksvik,SJK Seinäjoki,0,2,Conference League,,,False,2025/26
+,Larne FC,FK Auda,0,0,Conference League,,,False,2025/26
+,FK Auda,Larne FC,2,2,Conference League,,,False,2025/26
+,Valur Reykjavik,Flora Tallinn,3,0,Conference League,,,False,2025/26
+,Flora Tallinn,Valur Reykjavik,2,1,Conference League,,,False,2025/26
+,Kauno Zalgiris,Penybont,3,0,Conference League,,,False,2025/26
+,Penybont,Kauno Zalgiris,1,1,Conference League,,,False,2025/26
+,Kalju Nomme,Partizani Tirana,1,1,Conference League,,,False,2025/26
+,Partizani Tirana,Kalju Nomme,1,0,Conference League,,,False,2025/26
+,Floriana,Haverfordwest County,2,1,Conference League,,,False,2025/26
+,Haverfordwest County,Floriana,3,2,Conference League,,,False,2025/26
+,KF Malisheva,Vikingur Reykjavik,0,1,Conference League,,,False,2025/26
+,Vikingur Reykjavik,KF Malisheva,0,8,Conference League,,,False,2025/26
+,St Joseph's FC,Cliftonville,2,2,Conference League,,,False,2025/26
+,Cliftonville,St Joseph's FC,3,2,Conference League,,,False,2025/26
+,Tre Fiori,Pyunik Yerevan,1,0,Conference League,,,False,2025/26
+,Pyunik Yerevan,Tre Fiori,0,5,Conference League,,,False,2025/26
+,Torpedo Zhodino,Rabotnicki Skopje,3,0,Conference League,,,False,2025/26
+,Rabotnicki Skopje,Torpedo Zhodino,1,0,Conference League,,,False,2025/26
+,Racing Union Luxembourg,Dila Gori,1,2,Conference League,,,False,2025/26
+,Dila Gori,Racing Union Luxembourg,0,1,Conference League,,,False,2025/26
+,Borac Banja Luka,FC Santa Coloma,1,4,Conference League,,,False,2025/26
+,FC Santa Coloma,Borac Banja Luka,2,0,Conference League,,,False,2025/26
+,Dundee United,UNA Strassen,1,0,Conference League,,,False,2025/26
+,UNA Strassen,Dundee United,1,0,Conference League,,,False,2025/26
+,FC Ballkani,Floriana,4,2,Conference League,,,False,2025/26
+,Floriana,FC Ballkani,1,1,Conference League,,,False,2025/26
+,NK Varazdin,CD Santa Clara,2,1,Conference League,,,False,2025/26
+,CD Santa Clara,NK Varazdin,0,2,Conference League,,,False,2025/26
+,Vardar Skopje,Lausanne        Sports,2,1,Conference League,,,False,2025/26
+,Lausanne        Sports,Vardar Skopje,0,5,Conference League,,,False,2025/26
+,St Joseph's FC,Shamrock Rovers,0,4,Conference League,,,False,2025/26
+,Shamrock Rovers,St Joseph's FC,0,0,Conference League,,,False,2025/26
+,Larne FC,FC Prishtina,0,0,Conference League,,,False,2025/26
+,FC Prishtina,Larne FC,1,1,Conference League,,,False,2025/26
+,Viking Stavanger,NK Koper,7,0,Conference League,,,False,2025/26
+,NK Koper,Viking Stavanger,5,3,Conference League,,,False,2025/26
+,Kauno Zalgiris,Valur Reykjavik,1,1,Conference League,,,False,2025/26
+,Valur Reykjavik,Kauno Zalgiris,2,1,Conference League,,,False,2025/26
+,HB Torshavn,Brøndby IF,1,1,Conference League,,,False,2025/26
+,Brøndby IF,HB Torshavn,0,1,Conference League,,,False,2025/26
+,Ilves Tampere,AZ Alkmaar,4,3,Conference League,,,False,2025/26
+,AZ Alkmaar,Ilves Tampere,0,5,Conference League,,,False,2025/26
+,FC Kosice,Neman Grodno,2,3,Conference League,,,False,2025/26
+,Neman Grodno,FC Kosice,1,1,Conference League,,,False,2025/26
+,AEK Athens,Hapoel Beer-Sheva,1,0,Conference League,,,False,2025/26
+,Hapoel Beer-Sheva,AEK Athens,0,0,Conference League,,,False,2025/26
+,Paksi FC,NK Maribor,1,0,Conference League,,,False,2025/26
+,NK Maribor,Paksi FC,1,1,Conference League,,,False,2025/26
+,FC Oleksandriya,Partizan Belgrade,0,2,Conference League,,,False,2025/26
+,Partizan Belgrade,FC Oleksandriya,0,4,Conference League,,,False,2025/26
+,Zira FK,Hajduk Split,1,1,Conference League,,,False,2025/26
+,Hajduk Split,Zira FK,1,2,Conference League,,,False,2025/26
+,FC Vaduz,Dungannon Swifts,0,1,Conference League,,,False,2025/26
+,Dungannon Swifts,FC Vaduz,3,0,Conference League,,,False,2025/26
+,Pyunik Yerevan,ETO Györ,2,1,Conference League,,,False,2025/26
+,ETO Györ,Pyunik Yerevan,1,3,Conference League,,,False,2025/26
+,Vllaznia Shkodër,Vikingur Reykjavik,2,1,Conference League,,,False,2025/26
+,Vikingur Reykjavik,Vllaznia Shkodër,2,4,Conference League,,,False,2025/26
+,Hibernians FC,Spartak Trnava,1,2,Conference League,,,False,2025/26
+,Spartak Trnava,Hibernians FC,1,5,Conference League,,,False,2025/26
+,Arda Kardzhali,HJK Helsinki,0,0,Conference League,,,False,2025/26
+,HJK Helsinki,Arda Kardzhali,2,2,Conference League,,,False,2025/26
+,Silkeborg IF,KA Akureyri,1,1,Conference League,,,False,2025/26
+,KA Akureyri,Silkeborg IF,3,2,Conference League,,,False,2025/26
+,Riga FC,Dila Gori,2,1,Conference League,,,False,2025/26
+,Dila Gori,Riga FC,3,3,Conference League,,,False,2025/26
+,Hammarby IF,Charleroi,0,0,Conference League,,,False,2025/26
+,Charleroi,Hammarby IF,2,1,Conference League,,,False,2025/26
+,St. Patrick's Athletic,Kalju Nomme,1,0,Conference League,,,False,2025/26
+,Kalju Nomme,St. Patrick's Athletic,2,2,Conference League,,,False,2025/26
+,FK Aktobe,Sparta Praha,2,1,Conference League,,,False,2025/26
+,Sparta Praha,FK Aktobe,0,4,Conference League,,,False,2025/26
+,Rosenborg BK,Banga Gargzdai,5,0,Conference League,,,False,2025/26
+,Banga Gargzdai,Rosenborg BK,2,0,Conference League,,,False,2025/26
+,Raków Czestochowa,MSK Zilina,3,0,Conference League,,,False,2025/26
+,MSK Zilina,Raków Czestochowa,3,1,Conference League,,,False,2025/26
+,Radnicki 1923,KI Klaksvik,0,0,Conference League,,,False,2025/26
+,KI Klaksvik,Radnicki 1923,0,1,Conference League,,,False,2025/26
+,Paide Linnameeskond,AIK Stockholm,0,2,Conference League,,,False,2025/26
+,AIK Stockholm,Paide Linnameeskond,0,6,Conference League,,,False,2025/26
+,FK Astana,Zimbru Chisinau,1,1,Conference League,,,False,2025/26
+,Zimbru Chisinau,FK Astana,2,0,Conference League,,,False,2025/26
+,Atlètic Club d'Escaldes,Dinamo Tirana,1,2,Conference League,,,False,2025/26
+,Dinamo Tirana,Atlètic Club d'Escaldes,1,1,Conference League,,,False,2025/26
+,Petrocub Hîncesti,Sabah FK,0,2,Conference League,,,False,2025/26
+,Sabah FK,Petrocub Hîncesti,1,4,Conference League,,,False,2025/26
+,Novi Pazar,Jagiellonia Bialystok,1,2,Conference League,,,False,2025/26
+,Jagiellonia Bialystok,Novi Pazar,1,3,Conference League,,,False,2025/26
+,FK Sarajevo,Universitatea Craiova,2,1,Conference League,,,False,2025/26
+,Universitatea Craiova,FK Sarajevo,0,4,Conference League,,,False,2025/26
+,Decic Tuzi,Rapid Wien,0,2,Conference League,,,False,2025/26
+,Rapid Wien,Decic Tuzi,2,4,Conference League,,,False,2025/26
+,Austria Wien,Spaeri Tbilisi,2,0,Conference League,,,False,2025/26
+,Spaeri Tbilisi,Austria Wien,5,0,Conference League,,,False,2025/26
+,Ararat-Armenia,Universitatea Cluj,0,0,Conference League,,,False,2025/26
+,Universitatea Cluj,Ararat-Armenia,2,1,Conference League,,,False,2025/26
+,Polissya Zhytomyr,FC Santa Coloma,1,2,Conference League,,,False,2025/26
+,FC Santa Coloma,Polissya Zhytomyr,4,1,Conference League,,,False,2025/26
+,Aris Limassol,Puskás Akadémia,3,2,Conference League,,,False,2025/26
+,Puskás Akadémia,Aris Limassol,2,0,Conference League,,,False,2025/26
+,Torpedo Zhodino,Maccabi Haifa,1,1,Conference League,,,False,2025/26
+,Maccabi Haifa,Torpedo Zhodino,0,3,Conference League,,,False,2025/26
+,Araz Nakhchivan,Aris Thessaloniki,2,1,Conference League,,,False,2025/26
+,Aris Thessaloniki,Araz Nakhchivan,2,2,Conference League,,,False,2025/26
+,Omonia Nicosia,Torpedo Kutaisi,1,0,Conference League,,,False,2025/26
+,Torpedo Kutaisi,Omonia Nicosia,4,0,Conference League,,,False,2025/26
+,Cherno More Varna,Istanbul Basaksehir,0,1,Conference League,,,False,2025/26
+,Istanbul Basaksehir,Cherno More Varna,0,4,Conference League,,,False,2025/26
+,Sutjeska Niksic,Beitar Jerusalem,1,2,Conference League,,,False,2025/26
+,Beitar Jerusalem,Sutjeska Niksic,2,5,Conference League,,,False,2025/26
+,Levadia Tallinn,Iberia 1999,1,0,Conference League,,,False,2025/26
+,Iberia 1999,Levadia Tallinn,2,2,Conference League,,,False,2025/26
+,Zalgiris Vilnius,Linfield Belfast,0,0,Conference League,,,False,2025/26
+,Linfield Belfast,Zalgiris Vilnius,0,2,Conference League,,,False,2025/26
+,The New Saints,Differdange 03,0,1,Conference League,,,False,2025/26
+,Differdange 03,The New Saints,0,1,Conference League,,,False,2025/26
+,Olimpija Ljubljana,Inter Club d'Escaldes,4,2,Conference League,,,False,2025/26
+,Inter Club d'Escaldes,Olimpija Ljubljana,1,1,Conference League,,,False,2025/26
+,Buducnost Podgorica,Milsami Orhei,0,0,Conference League,,,False,2025/26
+,Milsami Orhei,Buducnost Podgorica,1,2,Conference League,,,False,2025/26
+,Dinamo Minsk,Egnatia Rrogozhinë,0,2,Conference League,,,False,2025/26
+,Egnatia Rrogozhinë,Dinamo Minsk,0,1,Conference League,,,False,2025/26
+,Rapid Wien,Dundee United,2,2,Conference League,,,False,2025/26
+,Dundee United,Rapid Wien,2,2,Conference League,,,False,2025/26
+,KI Klaksvik,Neman Grodno,2,0,Conference League,,,False,2025/26
+,Neman Grodno,KI Klaksvik,0,2,Conference League,,,False,2025/26
+,Anderlecht,Sheriff Tiraspol,3,0,Conference League,,,False,2025/26
+,Sheriff Tiraspol,Anderlecht,1,1,Conference League,,,False,2025/26
+,Viking Stavanger,Istanbul Basaksehir,1,3,Conference League,,,False,2025/26
+,Istanbul Basaksehir,Viking Stavanger,1,1,Conference League,,,False,2025/26
+,AIK Stockholm,ETO Györ,2,1,Conference League,,,False,2025/26
+,ETO Györ,AIK Stockholm,0,2,Conference League,,,False,2025/26
+,Sparta Praha,Ararat-Armenia,4,1,Conference League,,,False,2025/26
+,Ararat-Armenia,Sparta Praha,2,1,Conference League,,,False,2025/26
+,Riga FC,Beitar Jerusalem,3,0,Conference League,,,False,2025/26
+,Beitar Jerusalem,Riga FC,1,3,Conference League,,,False,2025/26
+,Lausanne Sports,FK Astana,3,1,Conference League,,,False,2025/26
+,FK Astana,Lausanne Sports,2,0,Conference League,,,False,2025/26
+,Araz Nakhchivan,Omonia Nicosia,0,4,Conference League,,,False,2025/26
+,Omonia Nicosia,Araz Nakhchivan,0,5,Conference League,,,False,2025/26
+,Universitatea Craiova,Spartak Trnava,3,0,Conference League,,,False,2025/26
+,Spartak Trnava,Universitatea Craiova,3,4,Conference League,,,False,2025/26
+,AZ Alkmaar,FC Vaduz,3,0,Conference League,,,False,2025/26
+,FC Vaduz,AZ Alkmaar,1,0,Conference League,,,False,2025/26
+,Vikingur Reykjavik,Brøndby IF,3,0,Conference League,,,False,2025/26
+,Brøndby IF,Vikingur Reykjavik,0,4,Conference League,,,False,2025/26
+,Larne FC,CD Santa Clara,0,3,Conference League,,,False,2025/26
+,CD Santa Clara,Larne FC,0,0,Conference League,,,False,2025/26
+,FC Ballkani,Shamrock Rovers,1,0,Conference League,,,False,2025/26
+,Shamrock Rovers,FC Ballkani,0,4,Conference League,,,False,2025/26
+,Polissya Zhytomyr,Paksi FC,3,0,Conference League,,,False,2025/26
+,Paksi FC,Polissya Zhytomyr,1,2,Conference League,,,False,2025/26
+,FC Lugano,NK Celje,0,5,Conference League,,,False,2025/26
+,NK Celje,FC Lugano,4,2,Conference League,,,False,2025/26
+,Hajduk Split,Dinamo Tirana,2,1,Conference League,,,False,2025/26
+,Dinamo Tirana,Hajduk Split,1,3,Conference League,,,False,2025/26
+,Aris Limassol,AEK Athens,2,2,Conference League,,,False,2025/26
+,AEK Athens,Aris Limassol,1,3,Conference League,,,False,2025/26
+,Raków Czestochowa,Maccabi Haifa,0,1,Conference League,,,False,2025/26
+,Maccabi Haifa,Raków Czestochowa,2,0,Conference League,,,False,2025/26
+,Levski Sofia,Sabah FK,1,0,Conference League,,,False,2025/26
+,Sabah FK,Levski Sofia,2,0,Conference League,,,False,2025/26
+,Silkeborg IF,Jagiellonia Bialystok,0,1,Conference League,,,False,2025/26
+,Jagiellonia Bialystok,Silkeborg IF,2,2,Conference League,,,False,2025/26
+,Partizan Belgrade,Hibernian,0,2,Conference League,,,False,2025/26
+,Hibernian,Partizan Belgrade,3,2,Conference League,,,False,2025/26
+,Baník Ostrava,Austria Wien,4,3,Conference League,,,False,2025/26
+,Austria Wien,Baník Ostrava,1,1,Conference League,,,False,2025/26
+,Rosenborg BK,Hammarby IF,0,0,Conference League,,,False,2025/26
+,Hammarby IF,Rosenborg BK,1,0,Conference League,,,False,2025/26
+,St. Patrick's Athletic,Besiktas,1,4,Conference League,,,False,2025/26
+,Besiktas,St. Patrick's Athletic,2,3,Conference League,,,False,2025/26
+,Kauno Zalgiris,Arda Kardzhali,0,1,Conference League,,,False,2025/26
+,Arda Kardzhali,Kauno Zalgiris,0,2,Conference League,,,False,2025/26
+,Olimpija Ljubljana,Egnatia Rrogozhinë,0,0,Conference League,,,False,2025/26
+,Egnatia Rrogozhinë,Olimpija Ljubljana,4,2,Conference League,,,False,2025/26
+,Milsami Orhei,AC Virtus,3,2,Conference League,,,False,2025/26
+,AC Virtus,Milsami Orhei,0,3,Conference League,,,False,2025/26
+,Differdange 03,Levadia Tallinn,2,3,Conference League,,,False,2025/26
+,Levadia Tallinn,Differdange 03,3,1,Conference League,,,False,2025/26
+,Víkingur,Linfield Belfast,2,1,Conference League,,,False,2025/26
+,Linfield Belfast,Víkingur,0,2,Conference League,,,False,2025/26
+,RC Strasbourg,Brøndby IF,0,0,Conference League,,,False,2025/26
+,Brøndby IF,RC Strasbourg,3,2,Conference League,,,False,2025/26
+,Anderlecht,AEK Athens,1,1,Conference League,,,False,2025/26
+,AEK Athens,Anderlecht,0,2,Conference League,,,False,2025/26
+,NK Celje,Baník Ostrava,1,0,Conference League,,,False,2025/26
+,Baník Ostrava,NK Celje,2,0,Conference League,,,False,2025/26
+,Levski Sofia,AZ Alkmaar,0,2,Conference League,,,False,2025/26
+,AZ Alkmaar,Levski Sofia,1,4,Conference League,,,False,2025/26
+,Neman Grodno,Rayo Vallecano,0,1,Conference League,,,False,2025/26
+,Rayo Vallecano,Neman Grodno,0,4,Conference League,,,False,2025/26
+,Jagiellonia Bialystok,Dinamo Tirana,3,0,Conference League,,,False,2025/26
+,Dinamo Tirana,Jagiellonia Bialystok,1,1,Conference League,,,False,2025/26
+,Istanbul Basaksehir,Universitatea Craiova,1,2,Conference League,,,False,2025/26
+,Universitatea Craiova,Istanbul Basaksehir,1,3,Conference League,,,False,2025/26
+,Raków Czestochowa,Arda Kardzhali,1,0,Conference League,,,False,2025/26
+,Arda Kardzhali,Raków Czestochowa,2,1,Conference League,,,False,2025/26
+,Polissya Zhytomyr,Fiorentina,0,3,Conference League,,,False,2025/26
+,Fiorentina,Polissya Zhytomyr,2,3,Conference League,,,False,2025/26
+,Lausanne           Sports,Besiktas,1,1,Conference League,,,False,2025/26
+,Besiktas,Lausanne           Sports,1,0,Conference League,,,False,2025/26
+,Shakhtar Donetsk,Servette FC Genève,1,1,Conference League,,,False,2025/26
+,Servette FC Genève,Shakhtar Donetsk,2,1,Conference League,,,False,2025/26
+,Crystal Palace,Fredrikstad FK,1,0,Conference League,,,False,2025/26
+,Fredrikstad FK,Crystal Palace,0,0,Conference League,,,False,2025/26
+,Hibernian,Legia Warsaw,1,2,Conference League,,,False,2025/26
+,Legia Warsaw,Hibernian,3,3,Conference League,,,False,2025/26
+,ETO Györ,Rapid Wien,2,1,Conference League,,,False,2025/26
+,Rapid Wien,ETO Györ,0,2,Conference League,,,False,2025/26
+,CD Santa Clara,Shamrock Rovers,1,2,Conference League,,,False,2025/26
+,Shamrock Rovers,CD Santa Clara,0,0,Conference League,,,False,2025/26
+,Rosenborg BK,FSV Mainz 05,2,1,Conference League,,,False,2025/26
+,FSV Mainz 05,Rosenborg BK,1,4,Conference League,,,False,2025/26
+,Sparta Praha,Riga FC,2,0,Conference League,,,False,2025/26
+,Riga FC,Sparta Praha,0,1,Conference League,,,False,2025/26
+,BK Häcken,CFR Cluj,7,2,Conference League,,,False,2025/26
+,CFR Cluj,BK Häcken,0,1,Conference League,,,False,2025/26
+,Wolfsberger AC,Omonia Nicosia,2,1,Conference League,,,False,2025/26
+,Omonia Nicosia,Wolfsberger AC,0,1,Conference League,,,False,2025/26
+,Hamrun Spartans,RFS Riga,1,0,Conference League,,,False,2025/26
+,RFS Riga,Hamrun Spartans,2,2,Conference League,,,False,2025/26
+,Shelbourne,Linfield Belfast,3,1,Conference League,,,False,2025/26
+,Linfield Belfast,Shelbourne,2,0,Conference League,,,False,2025/26
+,Breidablik,AC Virtus,2,1,Conference League,,,False,2025/26
+,AC Virtus,Breidablik,3,1,Conference League,,,False,2025/26
+,FC Drita,Differdange 03,2,1,Conference League,,,False,2025/26
+,Differdange 03,FC Drita,1,0,Conference League,,,False,2025/26
+,Olimpija Ljubljana,FC Noah,1,4,Conference League,,,False,2025/26
+,FC Noah,Olimpija Ljubljana,2,3,Conference League,,,False,2025/26
+,Dynamo Kyiv,Crystal Palace,0,2,Conference League,,,False,2025/26
+,Lausanne Sports,Breidablik,3,0,Conference League,,,False,2025/26
+,FC Noah,NK Rijeka,1,0,Conference League,,,False,2025/26
+,Zrinjski Mostar,Lincoln Red Imps,5,0,Conference League,,,False,2025/26
+,Jagiellonia Bialystok,Hamrun Spartans,1,0,Conference League,,,False,2025/26
+,Lech Poznan,Rapid Wien,4,1,Conference League,,,False,2025/26
+,KuPS Kuopio,FC Drita,1,1,Conference League,,,False,2025/26
+,Omonia Nicosia,FSV Mainz 05,0,1,Conference League,,,False,2025/26
+,Rayo Vallecano,Shkendija Tetovo,2,0,Conference League,,,False,2025/26
+,Aberdeen,Shakhtar Donetsk,2,3,Conference League,,,False,2025/26
+,Sparta Praha,Shamrock Rovers,4,1,Conference League,,,False,2025/26
+,Fiorentina,Sigma Olomouc,2,0,Conference League,,,False,2025/26
+,AEK Larnaca,AZ Alkmaar,4,0,Conference League,,,False,2025/26
+,Legia Warsaw,Samsunspor,0,1,Conference League,,,False,2025/26
+,NK Celje,AEK Athens,3,1,Conference League,,,False,2025/26
+,Raków Czestochowa,Universitatea Craiova,2,0,Conference League,,,False,2025/26
+,Shelbourne,BK Häcken,0,0,Conference League,,,False,2025/26
+,Slovan Bratislava,RC Strasbourg,1,2,Conference League,,,False,2025/26
+,AEK Athens,Aberdeen,6,0,Conference League,,,False,2025/26
+,BK Häcken,Rayo Vallecano,2,2,Conference League,,,False,2025/26
+,Breidablik,KuPS Kuopio,0,0,Conference League,,,False,2025/26
+,Shakhtar Donetsk,Legia Warsaw,1,2,Conference League,,,False,2025/26
+,FC Drita,Omonia Nicosia,1,1,Conference League,,,False,2025/26
+,NK Rijeka,Sparta Praha,1,0,Conference League,,,False,2025/26
+,Shkendija Tetovo,Shelbourne,1,0,Conference League,,,False,2025/26
+,RC Strasbourg,Jagiellonia Bialystok,1,1,Conference League,,,False,2025/26
+,Rapid Wien,Fiorentina,0,3,Conference League,,,False,2025/26
+,FSV Mainz 05,Zrinjski Mostar,1,0,Conference League,,,False,2025/26
+,AZ Alkmaar,Slovan Bratislava,1,0,Conference League,,,False,2025/26
+,Crystal Palace,AEK Larnaca,0,1,Conference League,,,False,2025/26
+,Hamrun Spartans,Lausanne Sports,0,1,Conference League,,,False,2025/26
+,Lincoln Red Imps,Lech Poznan,2,1,Conference League,,,False,2025/26
+,Samsunspor,Dynamo Kyiv,3,0,Conference League,,,False,2025/26
+,Shamrock Rovers,NK Celje,0,2,Conference League,,,False,2025/26
+,Sigma Olomouc,Raków Czestochowa,1,1,Conference League,,,False,2025/26
+,Universitatea Craiova,FC Noah,1,1,Conference League,,,False,2025/26
+,FSV Mainz 05,Fiorentina,2,1,Conference League,,,False,2025/26
+,Sparta Praha,Raków Czestochowa,0,0,Conference League,,,False,2025/26
+,AEK Athens,Shamrock Rovers,1,1,Conference League,,,False,2025/26
+,AEK Larnaca,Aberdeen,0,0,Conference League,,,False,2025/26
+,Shakhtar Donetsk,Breidablik,2,0,Conference League,,,False,2025/26
+,FC Noah,Sigma Olomouc,1,2,Conference League,,,False,2025/26
+,KuPS Kuopio,Slovan Bratislava,3,1,Conference League,,,False,2025/26
+,NK Celje,Legia Warsaw,2,1,Conference League,,,False,2025/26
+,Samsunspor,Hamrun Spartans,3,0,Conference League,,,False,2025/26
+,BK Häcken,RC Strasbourg,1,2,Conference League,,,False,2025/26
+,Crystal Palace,AZ Alkmaar,3,1,Conference League,,,False,2025/26
+,Lausanne Sports,Omonia Nicosia,1,1,Conference League,,,False,2025/26
+,Dynamo Kyiv,Zrinjski Mostar,6,0,Conference League,,,False,2025/26
+,Shkendija Tetovo,Jagiellonia Bialystok,1,1,Conference League,,,False,2025/26
+,Lincoln Red Imps,NK Rijeka,1,1,Conference League,,,False,2025/26
+,Rayo Vallecano,Lech Poznan,3,2,Conference League,,,False,2025/26
+,Shelbourne,FC Drita,0,1,Conference League,,,False,2025/26
+,Rapid Wien,Universitatea Craiova,0,1,Conference League,,,False,2025/26
+,AZ Alkmaar,Shelbourne,2,0,Conference League,,,False,2025/26
+,Hamrun Spartans,Lincoln Red Imps,3,1,Conference League,,,False,2025/26
+,Zrinjski Mostar,BK Häcken,2,1,Conference League,,,False,2025/26
+,Lech Poznan,Lausanne Sports,2,0,Conference League,,,False,2025/26
+,Omonia Nicosia,Dynamo Kyiv,2,0,Conference League,,,False,2025/26
+,Raków Czestochowa,Rapid Wien,4,1,Conference League,,,False,2025/26
+,Sigma Olomouc,NK Celje,2,1,Conference League,,,False,2025/26
+,Universitatea Craiova,FSV Mainz 05,1,0,Conference League,,,False,2025/26
+,Slovan Bratislava,Rayo Vallecano,2,1,Conference League,,,False,2025/26
+,Aberdeen,FC Noah,1,1,Conference League,,,False,2025/26
+,Fiorentina,AEK Athens,0,1,Conference League,,,False,2025/26
+,Breidablik,Samsunspor,2,2,Conference League,,,False,2025/26
+,FC Drita,Shkendija Tetovo,1,0,Conference League,,,False,2025/26
+,NK Rijeka,AEK Larnaca,0,0,Conference League,,,False,2025/26
+,Jagiellonia Bialystok,KuPS Kuopio,1,0,Conference League,,,False,2025/26
+,Legia Warsaw,Sparta Praha,0,1,Conference League,,,False,2025/26
+,RC Strasbourg,Crystal Palace,2,1,Conference League,,,False,2025/26
+,Shamrock Rovers,Shakhtar Donetsk,1,2,Conference League,,,False,2025/26
+,Fiorentina,Dynamo Kyiv,2,1,Conference League,,,False,2025/26
+,BK Häcken,AEK Larnaca,1,1,Conference League,,,False,2025/26
+,Breidablik,Shamrock Rovers,3,1,Conference League,,,False,2025/26
+,FC Drita,AZ Alkmaar,0,3,Conference League,,,False,2025/26
+,FC Noah,Legia Warsaw,2,1,Conference League,,,False,2025/26
+,Jagiellonia Bialystok,Rayo Vallecano,1,2,Conference League,,,False,2025/26
+,Shkendija Tetovo,Slovan Bratislava,2,0,Conference League,,,False,2025/26
+,Samsunspor,AEK Athens,1,2,Conference League,,,False,2025/26
+,Universitatea Craiova,Sparta Praha,1,2,Conference League,,,False,2025/26
+,Aberdeen,RC Strasbourg,0,1,Conference League,,,False,2025/26
+,Hamrun Spartans,Shakhtar Donetsk,0,2,Conference League,,,False,2025/26
+,NK Rijeka,NK Celje,3,0,Conference League,,,False,2025/26
+,Lech Poznan,FSV Mainz 05,1,1,Conference League,,,False,2025/26
+,KuPS Kuopio,Lausanne      Sports,0,0,Conference League,,,False,2025/26
+,Lincoln Red Imps,Sigma Olomouc,2,1,Conference League,,,False,2025/26
+,Raków Czestochowa,Zrinjski Mostar,1,0,Conference League,,,False,2025/26
+,Shelbourne,Crystal Palace,0,3,Conference League,,,False,2025/26
+,Rapid Wien,Omonia Nicosia,0,1,Conference League,,,False,2025/26
+,FSV Mainz 05,Samsunspor,2,0,Conference League,,,False,2025/26
+,Sparta Praha,Aberdeen,3,0,Conference League,,,False,2025/26
+,AEK Athens,Universitatea Craiova,3,2,Conference League,,,False,2025/26
+,AEK Larnaca,Shkendija Tetovo,1,0,Conference League,,,False,2025/26
+,AZ Alkmaar,Jagiellonia Bialystok,0,0,Conference League,,,False,2025/26
+,Crystal Palace,KuPS Kuopio,2,2,Conference League,,,False,2025/26
+,Shakhtar Donetsk,NK Rijeka,0,0,Conference League,,,False,2025/26
+,Dynamo Kyiv,FC Noah,2,0,Conference League,,,False,2025/26
+,Lausanne Sports,Fiorentina,1,0,Conference League,,,False,2025/26
+,Zrinjski Mostar,Rapid Wien,1,1,Conference League,,,False,2025/26
+,Legia Warsaw,Lincoln Red Imps,4,1,Conference League,,,False,2025/26
+,NK Celje,Shelbourne,0,0,Conference League,,,False,2025/26
+,Omonia Nicosia,Raków Czestochowa,0,1,Conference League,,,False,2025/26
+,RC Strasbourg,Breidablik,3,1,Conference League,,,False,2025/26
+,Rayo Vallecano,FC Drita,3,0,Conference League,,,False,2025/26
+,Shamrock Rovers,Hamrun Spartans,3,1,Conference League,,,False,2025/26
+,Sigma Olomouc,Lech Poznan,1,2,Conference League,,,False,2025/26
+,Slovan Bratislava,BK Häcken,1,0,Conference League,,,False,2025/26
+,KuPS Kuopio,Lech Poznan,0,2,Conference League,,,False,2025/26
+,Lech Poznan,KuPS Kuopio,0,1,Conference League,,,False,2025/26
+,FC Noah,AZ Alkmaar,1,0,Conference League,,,False,2025/26
+,AZ Alkmaar,FC Noah,0,4,Conference League,,,False,2025/26
+,Zrinjski Mostar,Crystal Palace,1,1,Conference League,,,False,2025/26
+,Crystal Palace,Zrinjski Mostar,0,2,Conference League,,,False,2025/26
+,Jagiellonia Bialystok,Fiorentina,0,3,Conference League,,,False,2025/26
+,Fiorentina,Jagiellonia Bialystok,4,2,Conference League,,,False,2025/26
+,Shkendija Tetovo,Samsunspor,0,1,Conference League,,,False,2025/26
+,Samsunspor,Shkendija Tetovo,0,4,Conference League,,,False,2025/26
+,FC Drita,NK Celje,2,3,Conference League,,,False,2025/26
+,NK Celje,FC Drita,2,3,Conference League,,,False,2025/26
+,Sigma Olomouc,Lausanne Sports,1,1,Conference League,,,False,2025/26
+,Lausanne Sports,Sigma Olomouc,2,1,Conference League,,,False,2025/26
+,Omonia Nicosia,NK Rijeka,0,1,Conference League,,,False,2025/26
+,NK Rijeka,Omonia Nicosia,1,3,Conference League,,,False,2025/26
+,Lech Poznan,Shakhtar Donetsk,1,3,Conference League,,,False,2025/26
+,Shakhtar Donetsk,Lech Poznan,2,1,Conference League,,,False,2025/26
+,AZ Alkmaar,Sparta Praha,2,1,Conference League,,,False,2025/26
+,Sparta Praha,AZ Alkmaar,4,0,Conference League,,,False,2025/26
+,Crystal Palace,AEK Larnaca,0,0,Conference League,,,False,2025/26
+,AEK Larnaca,Crystal Palace,2,1,Conference League,,,False,2025/26
+,Fiorentina,Raków Czestochowa,2,1,Conference League,,,False,2025/26
+,Raków Czestochowa,Fiorentina,2,1,Conference League,,,False,2025/26
+,Samsunspor,Rayo Vallecano,1,3,Conference League,,,False,2025/26
+,Rayo Vallecano,Samsunspor,1,0,Conference League,,,False,2025/26
+,NK Celje,AEK Athens,0,4,Conference League,,,False,2025/26
+,AEK Athens,NK Celje,2,0,Conference League,,,False,2025/26
+,Sigma Olomouc,FSV Mainz 05,0,0,Conference League,,,False,2025/26
+,FSV Mainz 05,Sigma Olomouc,0,2,Conference League,,,False,2025/26
+,NK Rijeka,RC Strasbourg,1,2,Conference League,,,False,2025/26
+,RC Strasbourg,NK Rijeka,1,1,Conference League,,,False,2025/26
+,Shakhtar Donetsk,AZ Alkmaar,3,0,Conference League,,,False,2025/26
+,AZ Alkmaar,Shakhtar Donetsk,2,2,Conference League,,,False,2025/26
+,Crystal Palace,Fiorentina,3,0,Conference League,,,False,2025/26
+,Fiorentina,Crystal Palace,1,2,Conference League,,,False,2025/26
+,Rayo Vallecano,AEK Athens,3,0,Conference League,,,False,2025/26
+,AEK Athens,Rayo Vallecano,1,3,Conference League,,,False,2025/26
+,FSV Mainz 05,RC Strasbourg,2,0,Conference League,,,False,2025/26
+,RC Strasbourg,FSV Mainz 05,0,4,Conference League,,,False,2025/26
+,Shakhtar Donetsk,Crystal Palace,1,3,Conference League,,,False,2025/26
+,Crystal Palace,Shakhtar Donetsk,1,2,Conference League,,,False,2025/26
+,Rayo Vallecano,RC Strasbourg,1,0,Conference League,,,False,2025/26
+,RC Strasbourg,Rayo Vallecano,1,0,Conference League,,,False,2025/26
+,Crystal Palace,Rayo Vallecano,1,0,Conference League,,,True,2025/26

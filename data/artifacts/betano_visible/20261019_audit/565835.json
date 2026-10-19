@@ -1,0 +1,1587 @@
+{
+  "heading": [
+    "TSG 1899 Hoffenheim\nBayer 04 Leverkusen"
+  ],
+  "markets": [
+    {
+      "qa": "market-type-id-1",
+      "selections": [
+        {
+          "aria": "Bet on 1 with odds 2.67.",
+          "text": "1\n2.67"
+        },
+        {
+          "aria": "Bet on X with odds 4.05.",
+          "text": "X\n4.05"
+        },
+        {
+          "aria": "Bet on 2 with odds 2.35.",
+          "text": "2\n2.35"
+        }
+      ],
+      "text": "Resultado del partido\n\n2 GOLES DE VENTAJA\n\n1\n2.67\nX\n4.05\n2\n2.35\nBayer 04 Leverkusen ha ganado 3 partidos consecutivos en la Bundesliga.\nBayer 04 Leverkusen sumó 13 puntos en sus últimos 5 partidos de Bundesliga.\nTSG 1899 Hoffenheim perdió 3 de sus últimos 5 partidos en la Bundesliga.",
+      "title": "Resultado del partido\n\n2 GOLES DE VENTAJA"
+    },
+    {
+      "qa": "market-type-id-13",
+      "selections": [
+        {
+          "aria": "Bet on Más de 0.5 with odds 1.02.",
+          "text": "Más de\n0.5\n1.02"
+        },
+        {
+          "aria": "Bet on Menos 0.5 with odds 14.",
+          "text": "Menos\n0.5\n14.00"
+        },
+        {
+          "aria": "Bet on Más de 1.5 with odds 1.12.",
+          "text": "Más de\n1.5\n1.12"
+        },
+        {
+          "aria": "Bet on Menos 1.5 with odds 6.2.",
+          "text": "Menos\n1.5\n6.20"
+        },
+        {
+          "aria": "Bet on Más de 2.5 with odds 1.39.",
+          "text": "Más de\n2.5\n1.39"
+        },
+        {
+          "aria": "Bet on Menos 2.5 with odds 3.",
+          "text": "Menos\n2.5\n3.00"
+        },
+        {
+          "aria": "Bet on Más de 3.5 with odds 1.95.",
+          "text": "Más de\n3.5\n1.95"
+        },
+        {
+          "aria": "Bet on Menos 3.5 with odds 1.87.",
+          "text": "Menos\n3.5\n1.87"
+        },
+        {
+          "aria": "Bet on Más de 4.5 with odds 3.1.",
+          "text": "Más de\n4.5\n3.10"
+        },
+        {
+          "aria": "Bet on Menos 4.5 with odds 1.38.",
+          "text": "Menos\n4.5\n1.38"
+        },
+        {
+          "aria": "Bet on Más de 5.5 with odds 5.2.",
+          "text": "Más de\n5.5\n5.20"
+        },
+        {
+          "aria": "Bet on Menos 5.5 with odds 1.16.",
+          "text": "Menos\n5.5\n1.16"
+        },
+        {
+          "aria": "Bet on Más de 6.5 with odds 9.",
+          "text": "Más de\n6.5\n9.00"
+        },
+        {
+          "aria": "Bet on Menos 6.5 with odds 1.07.",
+          "text": "Menos\n6.5\n1.07"
+        },
+        {
+          "aria": "Bet on Más de 7.5 with odds 13.5.",
+          "text": "Más de\n7.5\n13.50"
+        },
+        {
+          "aria": "Bet on Menos 7.5 with odds 1.025.",
+          "text": "Menos\n7.5\n1.02"
+        }
+      ],
+      "text": "Goles totales Más/Menos\nLos últimos 5 partidos de TSG 1899 Hoffenheim en la Bundesliga tuvieron más de 2,5 goles.\n4 de los últimos 5 partidos de Bayer 04 Leverkusen en Bundesliga superaron los 2,5 goles.\n4 de los últimos 5 enfrentamientos directos en todas las competiciones tuvieron más de 2,5 goles.\nLos partidos de TSG 1899 Hoffenheim promediaron 3,53 goles en sus últimos 38 encuentros en todas las competiciones.\nAmbos equipos promediaron un total combinado de 4,6 goles por partido en sus últimos 5 encuentros en la Bundesliga.\nMás de\n0.5\n1.02\nMenos\n0.5\n14.00\nMás de\n1.5\n1.12\nMenos\n1.5\n6.20\nMás de\n2.5\n1.39\nMenos\n2.5\n3.00\nMás de\n3.5\n1.95\nMenos\n3.5\n1.87\nMás de\n4.5\n3.10\nMenos\n4.5\n1.38\nMás de\n5.5\n5.20\nMenos\n5.5\n1.16\nMás de\n6.5\n9.00\nMenos\n6.5\n1.07\nMás de\n7.5\n13.50\nMenos\n7.5\n1.02\nMOSTRAR MENOS",
+      "title": "Goles totales Más/Menos"
+    },
+    {
+      "qa": "market-type-id-9",
+      "selections": [
+        {
+          "aria": "Bet on TSG 1899 Hoffenheim o Empate with odds 1.62.",
+          "text": "TSG 1899 Hoffenheim o Empate\n1.62"
+        },
+        {
+          "aria": "Bet on TSG 1899 Hoffenheim o Bayer 04 Leverkusen with odds 1.24.",
+          "text": "TSG 1899 Hoffenheim o Bayer 04 Leverkusen\n1.24"
+        },
+        {
+          "aria": "Bet on Bayer 04 Leverkusen o Empate with odds 1.5.",
+          "text": "Bayer 04 Leverkusen o Empate\n1.50"
+        }
+      ],
+      "text": "Doble oportunidad\nTSG 1899 Hoffenheim o Empate\n1.62\nTSG 1899 Hoffenheim o Bayer 04 Leverkusen\n1.24\nBayer 04 Leverkusen o Empate\n1.50",
+      "title": "Doble oportunidad"
+    },
+    {
+      "qa": "market-type-id-15",
+      "selections": [
+        {
+          "aria": "Bet on Sí with odds 1.36.",
+          "text": "Sí\n1.36"
+        },
+        {
+          "aria": "Bet on No with odds 3.",
+          "text": "No\n3.00"
+        }
+      ],
+      "text": "Ambos equipos anotan\nSí\n1.36\nNo\n3.00\nAmbos equipos marcaron en los últimos 5 partidos de TSG 1899 Hoffenheim en la Bundesliga.\nAmbos equipos marcaron en 4 de los últimos 5 enfrentamientos directos en todas las competiciones.\nTSG 1899 Hoffenheim y Bayer 04 Leverkusen encadenan 6 partidos consecutivos marcando en la Bundesliga.\nTSG 1899 Hoffenheim ha recibido 12 goles en sus últimos 5 partidos en todas las competiciones.",
+      "title": "Ambos equipos anotan"
+    },
+    {
+      "qa": "market-type-id-34",
+      "selections": [
+        {
+          "aria": "Bet on Más de 4.5 with odds 1.015.",
+          "text": "Más de\n4.5\n1.01"
+        },
+        {
+          "aria": "Bet on Menos 4.5 with odds 11.75.",
+          "text": "Menos\n4.5\n11.75"
+        },
+        {
+          "aria": "Bet on Más de 5.5 with odds 1.04.",
+          "text": "Más de\n5.5\n1.04"
+        },
+        {
+          "aria": "Bet on Menos 5.5 with odds 9.",
+          "text": "Menos\n5.5\n9.00"
+        },
+        {
+          "aria": "Bet on Más de 6.5 with odds 1.1.",
+          "text": "Más de\n6.5\n1.10"
+        },
+        {
+          "aria": "Bet on Menos 6.5 with odds 6.3.",
+          "text": "Menos\n6.5\n6.30"
+        },
+        {
+          "aria": "Bet on Más de 7.5 with odds 1.19.",
+          "text": "Más de\n7.5\n1.19"
+        },
+        {
+          "aria": "Bet on Menos 7.5 with odds 4.3.",
+          "text": "Menos\n7.5\n4.30"
+        },
+        {
+          "aria": "Bet on Más de 8.5 with odds 1.36.",
+          "text": "Más de\n8.5\n1.36"
+        },
+        {
+          "aria": "Bet on Menos 8.5 with odds 3.",
+          "text": "Menos\n8.5\n3.00"
+        },
+        {
+          "aria": "Bet on Más de 9.5 with odds 1.62.",
+          "text": "Más de\n9.5\n1.62"
+        },
+        {
+          "aria": "Bet on Menos 9.5 with odds 2.22.",
+          "text": "Menos\n9.5\n2.22"
+        },
+        {
+          "aria": "Bet on Más de 10.5 with odds 2.",
+          "text": "Más de\n10.5\n2.00"
+        },
+        {
+          "aria": "Bet on Menos 10.5 with odds 1.75.",
+          "text": "Menos\n10.5\n1.75"
+        },
+        {
+          "aria": "Bet on Más de 11.5 with odds 2.65.",
+          "text": "Más de\n11.5\n2.65"
+        },
+        {
+          "aria": "Bet on Menos 11.5 with odds 1.44.",
+          "text": "Menos\n11.5\n1.44"
+        },
+        {
+          "aria": "Bet on Más de 12.5 with odds 3.55.",
+          "text": "Más de\n12.5\n3.55"
+        },
+        {
+          "aria": "Bet on Menos 12.5 with odds 1.27.",
+          "text": "Menos\n12.5\n1.27"
+        },
+        {
+          "aria": "Bet on Más de 13.5 with odds 4.9.",
+          "text": "Más de\n13.5\n4.90"
+        },
+        {
+          "aria": "Bet on Menos 13.5 with odds 1.15.",
+          "text": "Menos\n13.5\n1.15"
+        },
+        {
+          "aria": "Bet on Más de 14.5 with odds 6.6.",
+          "text": "Más de\n14.5\n6.60"
+        },
+        {
+          "aria": "Bet on Menos 14.5 with odds 1.09.",
+          "text": "Menos\n14.5\n1.09"
+        },
+        {
+          "aria": "Bet on Más de 15.5 with odds 8.75.",
+          "text": "Más de\n15.5\n8.75"
+        },
+        {
+          "aria": "Bet on Menos 15.5 with odds 1.05.",
+          "text": "Menos\n15.5\n1.05"
+        },
+        {
+          "aria": "Bet on Más de 16.5 with odds 10.75.",
+          "text": "Más de\n16.5\n10.75"
+        },
+        {
+          "aria": "Bet on Menos 16.5 with odds 1.025.",
+          "text": "Menos\n16.5\n1.02"
+        },
+        {
+          "aria": "Bet on Más de 17.5 with odds 12.5.",
+          "text": "Más de\n17.5\n12.50"
+        },
+        {
+          "aria": "Bet on Menos 17.5 with odds 1.01.",
+          "text": "Menos\n17.5\n1.01"
+        },
+        {
+          "aria": "Bet on Más de 18.5 with odds 14.",
+          "text": "Más de\n18.5\n14.00"
+        },
+        {
+          "aria": "Bet on Menos 18.5 with odds 1.005.",
+          "text": "Menos\n18.5\n1.005"
+        }
+      ],
+      "text": "Más/Menos Córners\nTSG 1899 Hoffenheim y Bayer 04 Leverkusen promedian 14 córners combinados por partido en la Bundesliga.\nBayer 04 Leverkusen promedió 8,2 córners por partido en sus últimos 5 encuentros en la Bundesliga.\nTSG 1899 Hoffenheim promedió 6,6 córners por partido en sus últimos 5 encuentros en la Bundesliga.\nTSG 1899 Hoffenheim promedia 6,4 córners por partido en sus últimos 38 encuentros en todas las competiciones.\nBayer 04 Leverkusen promedia 5,5 córners por partido en sus últimos 50 encuentros en todas las competiciones.\nMás de\n4.5\n1.01\nMenos\n4.5\n11.75\nMás de\n5.5\n1.04\nMenos\n5.5\n9.00\nMás de\n6.5\n1.10\nMenos\n6.5\n6.30\nMás de\n7.5\n1.19\nMenos\n7.5\n4.30\nMás de\n8.5\n1.36\nMenos\n8.5\n3.00\nMás de\n9.5\n1.62\nMenos\n9.5\n2.22\nMás de\n10.5\n2.00\nMenos\n10.5\n1.75\nMás de\n11.5\n2.65\nMenos\n11.5\n1.44\nMás de\n12.5\n3.55\nMenos\n12.5\n1.27\nMás de\n13.5\n4.90\nMenos\n13.5\n1.15\nMás de\n14.5\n6.60\nMenos\n14.5\n1.09\nMás de\n15.5\n8.75\nMenos\n15.5\n1.05\nMás de\n16.5\n10.75\nMenos\n16.5\n1.02\nMás de\n17.5\n12.50\nMenos\n17.5\n1.01\nMás de\n18.5\n14.00\nMenos\n18.5\n1.005\nMOSTRAR MENOS",
+      "title": "Más/Menos Córners"
+    },
+    {
+      "qa": "market-type-id-8",
+      "selections": [],
+      "text": "Resultado Primer Tiempo",
+      "title": "Resultado Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-14",
+      "selections": [],
+      "text": "Más/Menos Goles en Primer Tiempo",
+      "title": "Más/Menos Goles en Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-37",
+      "selections": [],
+      "text": "Córners en Primer Tiempo Más/Menos",
+      "title": "Córners en Primer Tiempo Más/Menos"
+    },
+    {
+      "qa": "market-type-id-84",
+      "selections": [
+        {
+          "aria": "Bet on Más de 0.5 with odds 1.18.",
+          "text": "Más de\n0.5\n1.18"
+        },
+        {
+          "aria": "Bet on Menos 0.5 with odds 4.5.",
+          "text": "Menos\n0.5\n4.50"
+        },
+        {
+          "aria": "Bet on Más de 1.5 with odds 1.8.",
+          "text": "Más de\n1.5\n1.80"
+        },
+        {
+          "aria": "Bet on Menos 1.5 with odds 1.95.",
+          "text": "Menos\n1.5\n1.95"
+        },
+        {
+          "aria": "Bet on Más de 2.5 with odds 3.35.",
+          "text": "Más de\n2.5\n3.35"
+        },
+        {
+          "aria": "Bet on Menos 2.5 with odds 1.29.",
+          "text": "Menos\n2.5\n1.29"
+        },
+        {
+          "aria": "Bet on Más de 3.5 with odds 6.6.",
+          "text": "Más de\n3.5\n6.60"
+        },
+        {
+          "aria": "Bet on Menos 3.5 with odds 1.09.",
+          "text": "Menos\n3.5\n1.09"
+        },
+        {
+          "aria": "Bet on Más de 4.5 with odds 11.",
+          "text": "Más de\n4.5\n11.00"
+        },
+        {
+          "aria": "Bet on Menos 4.5 with odds 1.02.",
+          "text": "Menos\n4.5\n1.02"
+        },
+        {
+          "aria": "Bet on Más de 5.5 with odds 14.",
+          "text": "Más de\n5.5\n14.00"
+        },
+        {
+          "aria": "Bet on Menos 5.5 with odds 1.005.",
+          "text": "Menos\n5.5\n1.005"
+        }
+      ],
+      "text": "TSG 1899 Hoffenheim - Goles totales Más/Menos\nEl TSG 1899 Hoffenheim ha marcado en sus 3 partidos como local en la Bundesliga.\nEl TSG 1899 Hoffenheim marcó 2+ goles en cada uno de sus últimos 3 duelos en casa en Bundesliga.\nMás de\n0.5\n1.18\nMenos\n0.5\n4.50\nMás de\n1.5\n1.80\nMenos\n1.5\n1.95\nMás de\n2.5\n3.35\nMenos\n2.5\n1.29\nMás de\n3.5\n6.60\nMenos\n3.5\n1.09\nMás de\n4.5\n11.00\nMenos\n4.5\n1.02\nMás de\n5.5\n14.00\nMenos\n5.5\n1.005\nMOSTRAR MENOS",
+      "title": "TSG 1899 Hoffenheim - Goles totales Más/Menos"
+    },
+    {
+      "qa": "market-type-id-85",
+      "selections": [
+        {
+          "aria": "Bet on Más de 0.5 with odds 1.15.",
+          "text": "Más de\n0.5\n1.15"
+        },
+        {
+          "aria": "Bet on Menos 0.5 with odds 5.1.",
+          "text": "Menos\n0.5\n5.10"
+        },
+        {
+          "aria": "Bet on Más de 1.5 with odds 1.7.",
+          "text": "Más de\n1.5\n1.70"
+        },
+        {
+          "aria": "Bet on Menos 1.5 with odds 2.07.",
+          "text": "Menos\n1.5\n2.07"
+        },
+        {
+          "aria": "Bet on Más de 2.5 with odds 3.05.",
+          "text": "Más de\n2.5\n3.05"
+        },
+        {
+          "aria": "Bet on Menos 2.5 with odds 1.35.",
+          "text": "Menos\n2.5\n1.35"
+        },
+        {
+          "aria": "Bet on Más de 3.5 with odds 6.",
+          "text": "Más de\n3.5\n6.00"
+        },
+        {
+          "aria": "Bet on Menos 3.5 with odds 1.11.",
+          "text": "Menos\n3.5\n1.11"
+        },
+        {
+          "aria": "Bet on Más de 4.5 with odds 10.25.",
+          "text": "Más de\n4.5\n10.25"
+        },
+        {
+          "aria": "Bet on Menos 4.5 with odds 1.03.",
+          "text": "Menos\n4.5\n1.03"
+        },
+        {
+          "aria": "Bet on Más de 5.5 with odds 13.5.",
+          "text": "Más de\n5.5\n13.50"
+        },
+        {
+          "aria": "Bet on Menos 5.5 with odds 1.006.",
+          "text": "Menos\n5.5\n1.006"
+        }
+      ],
+      "text": "Bayer 04 Leverkusen - Goles totales Más/Menos\nEl Bayer 04 Leverkusen promedia 2,7 goles por partido fuera de casa en la Bundesliga.\nMás de\n0.5\n1.15\nMenos\n0.5\n5.10\nMás de\n1.5\n1.70\nMenos\n1.5\n2.07\nMás de\n2.5\n3.05\nMenos\n2.5\n1.35\nMás de\n3.5\n6.00\nMenos\n3.5\n1.11\nMás de\n4.5\n10.25\nMenos\n4.5\n1.03\nMás de\n5.5\n13.50\nMenos\n5.5\n1.006\nMOSTRAR MENOS",
+      "title": "Bayer 04 Leverkusen - Goles totales Más/Menos"
+    },
+    {
+      "qa": "market-type-id-3966",
+      "selections": [],
+      "text": "Ambos equipos anotan o Más de 2.5",
+      "title": "Ambos equipos anotan o Más de 2.5"
+    },
+    {
+      "qa": "market-type-id-10",
+      "selections": [],
+      "text": "Apuesta sin Empate",
+      "title": "Apuesta sin Empate"
+    },
+    {
+      "qa": "market-type-id-408",
+      "selections": [],
+      "text": "Hándicap Resultado del Partido",
+      "title": "Hándicap Resultado del Partido"
+    },
+    {
+      "qa": "market-type-id-16",
+      "selections": [],
+      "text": "Primer Tiempo/Tiempo Completo",
+      "title": "Primer Tiempo/Tiempo Completo"
+    },
+    {
+      "qa": "market-type-id-17",
+      "selections": [],
+      "text": "Marcador Correcto",
+      "title": "Marcador Correcto"
+    },
+    {
+      "qa": "market-type-id-11",
+      "selections": [],
+      "text": "Próximo gol (Gol 1)",
+      "title": "Próximo gol (Gol 1)"
+    },
+    {
+      "qa": "market-type-id-115",
+      "selections": [],
+      "text": "Más/Menos Goles en Primer Tiempo TSG 1899 Hoffenheim",
+      "title": "Más/Menos Goles en Primer Tiempo TSG 1899 Hoffenheim"
+    },
+    {
+      "qa": "market-type-id-116",
+      "selections": [],
+      "text": "Más/Menos Goles en Primer Tiempo Bayer 04 Leverkusen",
+      "title": "Más/Menos Goles en Primer Tiempo Bayer 04 Leverkusen"
+    },
+    {
+      "qa": "market-type-id-131",
+      "selections": [],
+      "text": "Más/Menos Goles en Segundo Tiempo",
+      "title": "Más/Menos Goles en Segundo Tiempo"
+    },
+    {
+      "qa": "market-type-id-2818",
+      "selections": [],
+      "text": "Total de goles",
+      "title": "Total de goles"
+    },
+    {
+      "qa": "market-type-id-104",
+      "selections": [],
+      "text": "Total de goles (extra)",
+      "title": "Total de goles (extra)"
+    },
+    {
+      "qa": "market-type-id-31",
+      "selections": [],
+      "text": "Forma de anotación de gol (Gol 1)",
+      "title": "Forma de anotación de gol (Gol 1)"
+    },
+    {
+      "qa": "market-type-id-148",
+      "selections": [],
+      "text": "Total de goles par/impar",
+      "title": "Total de goles par/impar"
+    },
+    {
+      "qa": "market-type-id-341",
+      "selections": [],
+      "text": "Primer equipo en anotar X Goles",
+      "title": "Primer equipo en anotar X Goles"
+    },
+    {
+      "qa": "market-type-id-105",
+      "selections": [],
+      "text": "Total de goles del equipo",
+      "title": "Total de goles del equipo"
+    },
+    {
+      "qa": "market-type-id-13",
+      "selections": [
+        {
+          "aria": "Bet on Más de 2.5 with odds 1.39.",
+          "text": "Más de\n2.5\n1.39"
+        },
+        {
+          "aria": "Bet on Menos 2.5 with odds 3.",
+          "text": "Menos\n2.5\n3.00"
+        },
+        {
+          "aria": "Bet on Más de 3.5 with odds 1.95.",
+          "text": "Más de\n3.5\n1.95"
+        },
+        {
+          "aria": "Bet on Menos 3.5 with odds 1.87.",
+          "text": "Menos\n3.5\n1.87"
+        },
+        {
+          "aria": "Bet on Más de 4.5 with odds 3.1.",
+          "text": "Más de\n4.5\n3.10"
+        },
+        {
+          "aria": "Bet on Menos 4.5 with odds 1.38.",
+          "text": "Menos\n4.5\n1.38"
+        }
+      ],
+      "text": "Goles totales Más/Menos\nMás de\n2.5\n1.39\nMenos\n2.5\n3.00\nMás de\n3.5\n1.95\nMenos\n3.5\n1.87\nMás de\n4.5\n3.10\nMenos\n4.5\n1.38\nMOSTRAR TODO",
+      "title": "Goles totales Más/Menos"
+    },
+    {
+      "qa": "market-type-id-34",
+      "selections": [
+        {
+          "aria": "Bet on Más de 9.5 with odds 1.62.",
+          "text": "Más de\n9.5\n1.62"
+        },
+        {
+          "aria": "Bet on Menos 9.5 with odds 2.22.",
+          "text": "Menos\n9.5\n2.22"
+        },
+        {
+          "aria": "Bet on Más de 10.5 with odds 2.",
+          "text": "Más de\n10.5\n2.00"
+        },
+        {
+          "aria": "Bet on Menos 10.5 with odds 1.75.",
+          "text": "Menos\n10.5\n1.75"
+        },
+        {
+          "aria": "Bet on Más de 11.5 with odds 2.65.",
+          "text": "Más de\n11.5\n2.65"
+        },
+        {
+          "aria": "Bet on Menos 11.5 with odds 1.44.",
+          "text": "Menos\n11.5\n1.44"
+        }
+      ],
+      "text": "Más/Menos Córners\nMás de\n9.5\n1.62\nMenos\n9.5\n2.22\nMás de\n10.5\n2.00\nMenos\n10.5\n1.75\nMás de\n11.5\n2.65\nMenos\n11.5\n1.44\nMOSTRAR TODO",
+      "title": "Más/Menos Córners"
+    },
+    {
+      "qa": "market-type-id-37",
+      "selections": [],
+      "text": "Córners en Primer Tiempo Más/Menos",
+      "title": "Córners en Primer Tiempo Más/Menos"
+    },
+    {
+      "qa": "market-type-id-39",
+      "selections": [
+        {
+          "aria": "Bet on Más de 1.5 with odds 1.03.",
+          "text": "Más de\n1.5\n1.03"
+        },
+        {
+          "aria": "Bet on Menos 1.5 with odds 10.",
+          "text": "Menos\n1.5\n10.00"
+        },
+        {
+          "aria": "Bet on Más de 2.5 with odds 1.12.",
+          "text": "Más de\n2.5\n1.12"
+        },
+        {
+          "aria": "Bet on Menos 2.5 with odds 5.7.",
+          "text": "Menos\n2.5\n5.70"
+        },
+        {
+          "aria": "Bet on Más de 3.5 with odds 1.31.",
+          "text": "Más de\n3.5\n1.31"
+        },
+        {
+          "aria": "Bet on Menos 3.5 with odds 3.3.",
+          "text": "Menos\n3.5\n3.30"
+        },
+        {
+          "aria": "Bet on Más de 4.5 with odds 1.67.",
+          "text": "Más de\n4.5\n1.67"
+        },
+        {
+          "aria": "Bet on Menos 4.5 with odds 2.12.",
+          "text": "Menos\n4.5\n2.12"
+        },
+        {
+          "aria": "Bet on Más de 5.5 with odds 2.32.",
+          "text": "Más de\n5.5\n2.32"
+        },
+        {
+          "aria": "Bet on Menos 5.5 with odds 1.57.",
+          "text": "Menos\n5.5\n1.57"
+        },
+        {
+          "aria": "Bet on Más de 6.5 with odds 3.45.",
+          "text": "Más de\n6.5\n3.45"
+        },
+        {
+          "aria": "Bet on Menos 6.5 with odds 1.28.",
+          "text": "Menos\n6.5\n1.28"
+        },
+        {
+          "aria": "Bet on Más de 7.5 with odds 5.2.",
+          "text": "Más de\n7.5\n5.20"
+        },
+        {
+          "aria": "Bet on Menos 7.5 with odds 1.14.",
+          "text": "Menos\n7.5\n1.14"
+        },
+        {
+          "aria": "Bet on Más de 8.5 with odds 7.6.",
+          "text": "Más de\n8.5\n7.60"
+        },
+        {
+          "aria": "Bet on Menos 8.5 with odds 1.06.",
+          "text": "Menos\n8.5\n1.06"
+        },
+        {
+          "aria": "Bet on Más de 9.5 with odds 10.5.",
+          "text": "Más de\n9.5\n10.50"
+        },
+        {
+          "aria": "Bet on Menos 9.5 with odds 1.025.",
+          "text": "Menos\n9.5\n1.02"
+        }
+      ],
+      "text": "TSG 1899 Hoffenheim Más/Menos Córners\nTSG 1899 Hoffenheim promedia 7,3 córners por partido en casa esta temporada en la Bundesliga.\nMás de\n1.5\n1.03\nMenos\n1.5\n10.00\nMás de\n2.5\n1.12\nMenos\n2.5\n5.70\nMás de\n3.5\n1.31\nMenos\n3.5\n3.30\nMás de\n4.5\n1.67\nMenos\n4.5\n2.12\nMás de\n5.5\n2.32\nMenos\n5.5\n1.57\nMás de\n6.5\n3.45\nMenos\n6.5\n1.28\nMás de\n7.5\n5.20\nMenos\n7.5\n1.14\nMás de\n8.5\n7.60\nMenos\n8.5\n1.06\nMás de\n9.5\n10.50\nMenos\n9.5\n1.02\nMOSTRAR MENOS",
+      "title": "TSG 1899 Hoffenheim Más/Menos Córners"
+    },
+    {
+      "qa": "market-type-id-40",
+      "selections": [
+        {
+          "aria": "Bet on Más de 1.5 with odds 1.025.",
+          "text": "Más de\n1.5\n1.02"
+        },
+        {
+          "aria": "Bet on Menos 1.5 with odds 10.5.",
+          "text": "Menos\n1.5\n10.50"
+        },
+        {
+          "aria": "Bet on Más de 2.5 with odds 1.1.",
+          "text": "Más de\n2.5\n1.10"
+        },
+        {
+          "aria": "Bet on Menos 2.5 with odds 6.2.",
+          "text": "Menos\n2.5\n6.20"
+        },
+        {
+          "aria": "Bet on Más de 3.5 with odds 1.26.",
+          "text": "Más de\n3.5\n1.26"
+        },
+        {
+          "aria": "Bet on Menos 3.5 with odds 3.65.",
+          "text": "Menos\n3.5\n3.65"
+        },
+        {
+          "aria": "Bet on Más de 4.5 with odds 1.57.",
+          "text": "Más de\n4.5\n1.57"
+        },
+        {
+          "aria": "Bet on Menos 4.5 with odds 2.32.",
+          "text": "Menos\n4.5\n2.32"
+        },
+        {
+          "aria": "Bet on Más de 5.5 with odds 2.12.",
+          "text": "Más de\n5.5\n2.12"
+        },
+        {
+          "aria": "Bet on Menos 5.5 with odds 1.67.",
+          "text": "Menos\n5.5\n1.67"
+        },
+        {
+          "aria": "Bet on Más de 6.5 with odds 3.05.",
+          "text": "Más de\n6.5\n3.05"
+        },
+        {
+          "aria": "Bet on Menos 6.5 with odds 1.35.",
+          "text": "Menos\n6.5\n1.35"
+        },
+        {
+          "aria": "Bet on Más de 7.5 with odds 4.6.",
+          "text": "Más de\n7.5\n4.60"
+        },
+        {
+          "aria": "Bet on Menos 7.5 with odds 1.17.",
+          "text": "Menos\n7.5\n1.17"
+        },
+        {
+          "aria": "Bet on Más de 8.5 with odds 6.9.",
+          "text": "Más de\n8.5\n6.90"
+        },
+        {
+          "aria": "Bet on Menos 8.5 with odds 1.08.",
+          "text": "Menos\n8.5\n1.08"
+        },
+        {
+          "aria": "Bet on Más de 9.5 with odds 9.75.",
+          "text": "Más de\n9.5\n9.75"
+        },
+        {
+          "aria": "Bet on Menos 9.5 with odds 1.03.",
+          "text": "Menos\n9.5\n1.03"
+        }
+      ],
+      "text": "Bayer 04 Leverkusen Más/Menos Córners\nBayer 04 Leverkusen promedia 6,7 córners por partido fuera de casa esta temporada en la Bundesliga.\nMás de\n1.5\n1.02\nMenos\n1.5\n10.50\nMás de\n2.5\n1.10\nMenos\n2.5\n6.20\nMás de\n3.5\n1.26\nMenos\n3.5\n3.65\nMás de\n4.5\n1.57\nMenos\n4.5\n2.32\nMás de\n5.5\n2.12\nMenos\n5.5\n1.67\nMás de\n6.5\n3.05\nMenos\n6.5\n1.35\nMás de\n7.5\n4.60\nMenos\n7.5\n1.17\nMás de\n8.5\n6.90\nMenos\n8.5\n1.08\nMás de\n9.5\n9.75\nMenos\n9.5\n1.03\nMOSTRAR MENOS",
+      "title": "Bayer 04 Leverkusen Más/Menos Córners"
+    },
+    {
+      "qa": "market-type-id-33",
+      "selections": [],
+      "text": "Córners - Triple",
+      "title": "Córners - Triple"
+    },
+    {
+      "qa": "market-type-id-48",
+      "selections": [],
+      "text": "Córners cronometrados Más/Menos (00:00 - 09:59)",
+      "title": "Córners cronometrados Más/Menos (00:00 - 09:59)"
+    },
+    {
+      "qa": "market-type-id-48",
+      "selections": [],
+      "text": "Córners cronometrados Más/Menos (00:00 - 09:59)",
+      "title": "Córners cronometrados Más/Menos (00:00 - 09:59)"
+    },
+    {
+      "qa": "market-type-id-5016",
+      "selections": [],
+      "text": "TSG 1899 Hoffenheim Córners cronometrados Más/Menos (00:00 - 09:59)",
+      "title": "TSG 1899 Hoffenheim Córners cronometrados Más/Menos (00:00 - 09:59)"
+    },
+    {
+      "qa": "market-type-id-5017",
+      "selections": [],
+      "text": "Bayer 04 Leverkusen Córners cronometrados Más/Menos (00:00 - 09:59)",
+      "title": "Bayer 04 Leverkusen Córners cronometrados Más/Menos (00:00 - 09:59)"
+    },
+    {
+      "qa": "market-type-id-45",
+      "selections": [],
+      "text": "Primer Tiempo Equipo con más Córners",
+      "title": "Primer Tiempo Equipo con más Córners"
+    },
+    {
+      "qa": "market-type-id-41",
+      "selections": [],
+      "text": "Primer Tiempo TSG 1899 Hoffenheim Más/Menos Córners",
+      "title": "Primer Tiempo TSG 1899 Hoffenheim Más/Menos Córners"
+    },
+    {
+      "qa": "market-type-id-42",
+      "selections": [],
+      "text": "Primer Tiempo Bayer 04 Leverkusen Más/Menos Córners",
+      "title": "Primer Tiempo Bayer 04 Leverkusen Más/Menos Córners"
+    },
+    {
+      "qa": "market-type-id-36",
+      "selections": [],
+      "text": "Córners del Primer Tiempo - Triples",
+      "title": "Córners del Primer Tiempo - Triples"
+    },
+    {
+      "qa": "market-type-id-38",
+      "selections": [],
+      "text": "Córners en Segundo Tiempo Más/Menos",
+      "title": "Córners en Segundo Tiempo Más/Menos"
+    },
+    {
+      "qa": "market-type-id-44",
+      "selections": [],
+      "text": "Equipo con más Córners",
+      "title": "Equipo con más Córners"
+    },
+    {
+      "qa": "market-type-id-46",
+      "selections": [],
+      "text": "Carrera a X córners",
+      "title": "Carrera a X córners"
+    },
+    {
+      "qa": "market-type-id-32",
+      "selections": [],
+      "text": "Equipo del siguiente córner (Córner 1)",
+      "title": "Equipo del siguiente córner (Córner 1)"
+    },
+    {
+      "qa": "market-type-id-1000617",
+      "selections": [],
+      "text": "Asiático (Más/Menos) Total de Córners",
+      "title": "Asiático (Más/Menos) Total de Córners"
+    },
+    {
+      "qa": "market-type-id-1000619",
+      "selections": [],
+      "text": "Asiático (Más/Menos) - Córners Totales en el Primer Tiempo",
+      "title": "Asiático (Más/Menos) - Córners Totales en el Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-43",
+      "selections": [],
+      "text": "Hándicap de Córners - (2 bandas)",
+      "title": "Hándicap de Córners - (2 bandas)"
+    },
+    {
+      "qa": "market-type-id-201",
+      "selections": [],
+      "text": "Hándicap de Córners - Triples",
+      "title": "Hándicap de Córners - Triples"
+    },
+    {
+      "qa": "market-type-id-271",
+      "selections": [],
+      "text": "Tiempo con Más Córners",
+      "title": "Tiempo con Más Córners"
+    },
+    {
+      "qa": "market-type-id-35",
+      "selections": [],
+      "text": "Total de Córners",
+      "title": "Total de Córners"
+    },
+    {
+      "qa": "market-type-id-4017",
+      "selections": [],
+      "text": "Rangos de Córner",
+      "title": "Rangos de Córner"
+    },
+    {
+      "qa": "market-type-id-4015",
+      "selections": [],
+      "text": "Córners Marcador Correcto",
+      "title": "Córners Marcador Correcto"
+    },
+    {
+      "qa": "market-type-id-457",
+      "selections": [],
+      "text": "Palo",
+      "title": "Palo"
+    },
+    {
+      "qa": "market-type-id-113",
+      "selections": [],
+      "text": "Primer Tiempo - Doble Oportunidad",
+      "title": "Primer Tiempo - Doble Oportunidad"
+    },
+    {
+      "qa": "market-type-id-407",
+      "selections": [],
+      "text": "Hándicap Primer Tiempo",
+      "title": "Hándicap Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-144",
+      "selections": [],
+      "text": "Gana cualquiera de los tiempos",
+      "title": "Gana cualquiera de los tiempos"
+    },
+    {
+      "qa": "market-type-id-92",
+      "selections": [],
+      "text": "Resultado Primer tiempo o Tiempo Completo",
+      "title": "Resultado Primer tiempo o Tiempo Completo"
+    },
+    {
+      "qa": "market-type-id-93",
+      "selections": [],
+      "text": "Primer Tiempo/Tiempo Completo - Doble oportunidad",
+      "title": "Primer Tiempo/Tiempo Completo - Doble oportunidad"
+    },
+    {
+      "qa": "market-type-id-12",
+      "selections": [],
+      "text": "Próximo gol en Primer Tiempo (Gol 1)",
+      "title": "Próximo gol en Primer Tiempo (Gol 1)"
+    },
+    {
+      "qa": "market-type-id-114",
+      "selections": [],
+      "text": "Ambos Equipos Anotan en el Primer Tiempo",
+      "title": "Ambos Equipos Anotan en el Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-118",
+      "selections": [],
+      "text": "Marcador correcto en el primer tiempo",
+      "title": "Marcador correcto en el primer tiempo"
+    },
+    {
+      "qa": "market-type-id-112",
+      "selections": [],
+      "text": "Apuesta sin Empate Medio Tiempo",
+      "title": "Apuesta sin Empate Medio Tiempo"
+    },
+    {
+      "qa": "market-type-id-141",
+      "selections": [],
+      "text": "Gol anotado en ambos tiempos",
+      "title": "Gol anotado en ambos tiempos"
+    },
+    {
+      "qa": "market-type-id-138",
+      "selections": [],
+      "text": "Ambos Equipos Anotan en el Primer Tiempo/Segundo Tiempo",
+      "title": "Ambos Equipos Anotan en el Primer Tiempo/Segundo Tiempo"
+    },
+    {
+      "qa": "market-type-id-107",
+      "selections": [],
+      "text": "Tiempo con Más Goles",
+      "title": "Tiempo con Más Goles"
+    },
+    {
+      "qa": "market-type-id-434",
+      "selections": [],
+      "text": "TSG 1899 Hoffenheim Gana Ambos Tiempos",
+      "title": "TSG 1899 Hoffenheim Gana Ambos Tiempos"
+    },
+    {
+      "qa": "market-type-id-431",
+      "selections": [],
+      "text": "Bayer 04 Leverkusen Gana Ambos Tiempos",
+      "title": "Bayer 04 Leverkusen Gana Ambos Tiempos"
+    },
+    {
+      "qa": "market-type-id-133",
+      "selections": [],
+      "text": "Resultado Segundo Tiempo",
+      "title": "Resultado Segundo Tiempo"
+    },
+    {
+      "qa": "market-type-id-134",
+      "selections": [],
+      "text": "Segundo Tiempo - Doble Oportunidad",
+      "title": "Segundo Tiempo - Doble Oportunidad"
+    },
+    {
+      "qa": "market-type-id-137",
+      "selections": [],
+      "text": "Ambos equipos anotan en el Segundo Tiempo",
+      "title": "Ambos equipos anotan en el Segundo Tiempo"
+    },
+    {
+      "qa": "market-type-id-120",
+      "selections": [],
+      "text": "Primer Tiempo TSG 1899 Hoffenheim Total de Goles Exactos",
+      "title": "Primer Tiempo TSG 1899 Hoffenheim Total de Goles Exactos"
+    },
+    {
+      "qa": "market-type-id-121",
+      "selections": [],
+      "text": "Primer Tiempo Bayer 04 Leverkusen Total de Goles Exactos",
+      "title": "Primer Tiempo Bayer 04 Leverkusen Total de Goles Exactos"
+    },
+    {
+      "qa": "market-type-id-4049",
+      "selections": [],
+      "text": "Segundo Tiempo - Más/Menos Total de Goles TSG 1899 Hoffenheim",
+      "title": "Segundo Tiempo - Más/Menos Total de Goles TSG 1899 Hoffenheim"
+    },
+    {
+      "qa": "market-type-id-4050",
+      "selections": [],
+      "text": "Segundo Tiempo - Más/Menos Total de Goles Bayer 04 Leverkusen",
+      "title": "Segundo Tiempo - Más/Menos Total de Goles Bayer 04 Leverkusen"
+    },
+    {
+      "qa": "market-type-id-110",
+      "selections": [],
+      "text": "Total de goles en el Primer Tiempo",
+      "title": "Total de goles en el Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-4684",
+      "selections": [],
+      "text": "Rango de Total de goles Primer Tiempo",
+      "title": "Rango de Total de goles Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-574",
+      "selections": [],
+      "text": "Medio Tiempo/Tiempo Completo y Más/Menos Goles",
+      "title": "Medio Tiempo/Tiempo Completo y Más/Menos Goles"
+    },
+    {
+      "qa": "market-type-id-574",
+      "selections": [],
+      "text": "Medio Tiempo/Tiempo Completo y Más/Menos Goles",
+      "title": "Medio Tiempo/Tiempo Completo y Más/Menos Goles"
+    },
+    {
+      "qa": "market-type-id-574",
+      "selections": [],
+      "text": "Medio Tiempo/Tiempo Completo y Más/Menos Goles",
+      "title": "Medio Tiempo/Tiempo Completo y Más/Menos Goles"
+    },
+    {
+      "qa": "market-type-id-24",
+      "selections": [
+        {
+          "aria": "Bet on TSG 1899 Hoffenheim y Más 1.5 with odds 2.8.",
+          "text": "TSG 1899 Hoffenheim y Más\n1.5\n2.80"
+        },
+        {
+          "aria": "Bet on TSG 1899 Hoffenheim y Menos 1.5 with odds 15.5.",
+          "text": "TSG 1899 Hoffenheim y Menos\n1.5\n15.50"
+        },
+        {
+          "aria": "Bet on Bayer 04 Leverkusen y Más 1.5 with odds 2.47.",
+          "text": "Bayer 04 Leverkusen y Más\n1.5\n2.47"
+        },
+        {
+          "aria": "Bet on Bayer 04 Leverkusen y Menos 1.5 with odds 14.",
+          "text": "Bayer 04 Leverkusen y Menos\n1.5\n14.00"
+        },
+        {
+          "aria": "Bet on Empate y Más 1.5 with odds 4.1.",
+          "text": "Empate y Más\n1.5\n4.10"
+        },
+        {
+          "aria": "Bet on Empate y Menos 1.5 with odds 14.",
+          "text": "Empate y Menos\n1.5\n14.00"
+        }
+      ],
+      "text": "Resultado del partido con Más/Menos (1.5)\nTSG 1899 Hoffenheim y Más\n1.5\n2.80\nTSG 1899 Hoffenheim y Menos\n1.5\n15.50\nBayer 04 Leverkusen y Más\n1.5\n2.47\nBayer 04 Leverkusen y Menos\n1.5\n14.00\nEmpate y Más\n1.5\n4.10\nEmpate y Menos\n1.5\n14.00",
+      "title": "Resultado del partido con Más/Menos (1.5)"
+    },
+    {
+      "qa": "market-type-id-24",
+      "selections": [],
+      "text": "Resultado del partido con Más/Menos (2.5)",
+      "title": "Resultado del partido con Más/Menos (2.5)"
+    },
+    {
+      "qa": "market-type-id-24",
+      "selections": [],
+      "text": "Resultado del partido con Más/Menos (3.5)",
+      "title": "Resultado del partido con Más/Menos (3.5)"
+    },
+    {
+      "qa": "market-type-id-24",
+      "selections": [],
+      "text": "Resultado del partido con Más/Menos (4.5)",
+      "title": "Resultado del partido con Más/Menos (4.5)"
+    },
+    {
+      "qa": "market-type-id-24",
+      "selections": [],
+      "text": "Resultado del partido con Más/Menos (5.5)",
+      "title": "Resultado del partido con Más/Menos (5.5)"
+    },
+    {
+      "qa": "market-type-id-26",
+      "selections": [
+        {
+          "aria": "Bet on TSG 1899 Hoffenheim o Bayer 04 Leverkusen y Más 1.5 with odds 1.42.",
+          "text": "TSG 1899 Hoffenheim o Bayer 04 Leverkusen y Más\n1.5\n1.42"
+        },
+        {
+          "aria": "Bet on TSG 1899 Hoffenheim o Bayer 04 Leverkusen y Menos 1.5 with odds 8.25.",
+          "text": "TSG 1899 Hoffenheim o Bayer 04 Leverkusen y Menos\n1.5\n8.25"
+        },
+        {
+          "aria": "Bet on TSG 1899 Hoffenheim o Empate y Más 1.5 with odds 1.82.",
+          "text": "TSG 1899 Hoffenheim o Empate y Más\n1.5\n1.82"
+        },
+        {
+          "aria": "Bet on TSG 1899 Hoffenheim o Empate y Menos 1.5 with odds 10.5.",
+          "text": "TSG 1899 Hoffenheim o Empate y Menos\n1.5\n10.50"
+        },
+        {
+          "aria": "Bet on Bayer 04 Leverkusen o Empate y Más 1.5 with odds 1.67.",
+          "text": "Bayer 04 Leverkusen o Empate y Más\n1.5\n1.67"
+        },
+        {
+          "aria": "Bet on Bayer 04 Leverkusen o Empate y Menos 1.5 with odds 9.75.",
+          "text": "Bayer 04 Leverkusen o Empate y Menos\n1.5\n9.75"
+        }
+      ],
+      "text": "Doble Oportunidad con Más/Menos (1.5)\nTSG 1899 Hoffenheim o Bayer 04 Leverkusen y Más\n1.5\n1.42\nTSG 1899 Hoffenheim o Bayer 04 Leverkusen y Menos\n1.5\n8.25\nTSG 1899 Hoffenheim o Empate y Más\n1.5\n1.82\nTSG 1899 Hoffenheim o Empate y Menos\n1.5\n10.50\nBayer 04 Leverkusen o Empate y Más\n1.5\n1.67\nBayer 04 Leverkusen o Empate y Menos\n1.5\n9.75",
+      "title": "Doble Oportunidad con Más/Menos (1.5)"
+    },
+    {
+      "qa": "market-type-id-26",
+      "selections": [],
+      "text": "Doble Oportunidad con Más/Menos (2.5)",
+      "title": "Doble Oportunidad con Más/Menos (2.5)"
+    },
+    {
+      "qa": "market-type-id-26",
+      "selections": [],
+      "text": "Doble Oportunidad con Más/Menos (3.5)",
+      "title": "Doble Oportunidad con Más/Menos (3.5)"
+    },
+    {
+      "qa": "market-type-id-26",
+      "selections": [],
+      "text": "Doble Oportunidad con Más/Menos (4.5)",
+      "title": "Doble Oportunidad con Más/Menos (4.5)"
+    },
+    {
+      "qa": "market-type-id-26",
+      "selections": [],
+      "text": "Doble Oportunidad con Más/Menos (5.5)",
+      "title": "Doble Oportunidad con Más/Menos (5.5)"
+    },
+    {
+      "qa": "market-type-id-23",
+      "selections": [],
+      "text": "Ambos Anotan y Más/Menos (2.5)",
+      "title": "Ambos Anotan y Más/Menos (2.5)"
+    },
+    {
+      "qa": "market-type-id-23",
+      "selections": [],
+      "text": "Ambos Anotan y Más/Menos (3.5)",
+      "title": "Ambos Anotan y Más/Menos (3.5)"
+    },
+    {
+      "qa": "market-type-id-23",
+      "selections": [],
+      "text": "Ambos Anotan y Más/Menos (4.5)",
+      "title": "Ambos Anotan y Más/Menos (4.5)"
+    },
+    {
+      "qa": "market-type-id-23",
+      "selections": [],
+      "text": "Ambos Anotan y Más/Menos (5.5)",
+      "title": "Ambos Anotan y Más/Menos (5.5)"
+    },
+    {
+      "qa": "market-type-id-20",
+      "selections": [],
+      "text": "Resultado del partido / Ambos Equipos Anotan",
+      "title": "Resultado del partido / Ambos Equipos Anotan"
+    },
+    {
+      "qa": "market-type-id-25",
+      "selections": [],
+      "text": "Doble oportunidad / Ambos equipos anotan",
+      "title": "Doble oportunidad / Ambos equipos anotan"
+    },
+    {
+      "qa": "market-type-id-532",
+      "selections": [],
+      "text": "Qué ocurrirá primero en el partido - Primer Tiempo",
+      "title": "Qué ocurrirá primero en el partido - Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-56",
+      "selections": [],
+      "text": "Penal concedido",
+      "title": "Penal concedido"
+    },
+    {
+      "qa": "market-type-id-124",
+      "selections": [],
+      "text": "Tiempo del Primer Gol Menos/Más 28 minutos",
+      "title": "Tiempo del Primer Gol Menos/Más 28 minutos"
+    },
+    {
+      "qa": "market-type-id-384",
+      "selections": [],
+      "text": "TSG 1899 Hoffenheim anota en ambos tiempos",
+      "title": "TSG 1899 Hoffenheim anota en ambos tiempos"
+    },
+    {
+      "qa": "market-type-id-364",
+      "selections": [],
+      "text": "Bayer 04 Leverkusen anota en ambos tiempos",
+      "title": "Bayer 04 Leverkusen anota en ambos tiempos"
+    },
+    {
+      "qa": "market-type-id-72",
+      "selections": [],
+      "text": "Autogol",
+      "title": "Autogol"
+    },
+    {
+      "qa": "market-type-id-96",
+      "selections": [],
+      "text": "Margen del Triunfo",
+      "title": "Margen del Triunfo"
+    },
+    {
+      "qa": "market-type-id-58",
+      "selections": [],
+      "text": "Penal concedido Primer Tiempo",
+      "title": "Penal concedido Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-59",
+      "selections": [],
+      "text": "Equipo que Anota un Penal",
+      "title": "Equipo que Anota un Penal"
+    },
+    {
+      "qa": "market-type-id-60",
+      "selections": [],
+      "text": "Equipo que falla un penal",
+      "title": "Equipo que falla un penal"
+    },
+    {
+      "qa": "market-type-id-5025",
+      "selections": [],
+      "text": "TSG 1899 Hoffenheim Penal concedido",
+      "title": "TSG 1899 Hoffenheim Penal concedido"
+    },
+    {
+      "qa": "market-type-id-5026",
+      "selections": [],
+      "text": "Bayer 04 Leverkusen Penal concedido",
+      "title": "Bayer 04 Leverkusen Penal concedido"
+    },
+    {
+      "qa": "market-type-id-57",
+      "selections": [],
+      "text": "Dos penales concedidos",
+      "title": "Dos penales concedidos"
+    },
+    {
+      "qa": "market-type-id-61",
+      "selections": [],
+      "text": "Ambos equipos ganan un penal",
+      "title": "Ambos equipos ganan un penal"
+    },
+    {
+      "qa": "market-type-id-102",
+      "selections": [],
+      "text": "Curso del juego",
+      "title": "Curso del juego"
+    },
+    {
+      "qa": "market-type-id-270",
+      "selections": [],
+      "text": "TSG 1899 Hoffenheim Gana luego de ir perdiendo",
+      "title": "TSG 1899 Hoffenheim Gana luego de ir perdiendo"
+    },
+    {
+      "qa": "market-type-id-196",
+      "selections": [],
+      "text": "Bayer 04 Leverkusen Gana luego de ir perdiendo",
+      "title": "Bayer 04 Leverkusen Gana luego de ir perdiendo"
+    },
+    {
+      "qa": "market-type-id-5015",
+      "selections": [],
+      "text": "Resultado del partido o Ambos equipos anotan",
+      "title": "Resultado del partido o Ambos equipos anotan"
+    },
+    {
+      "qa": "market-type-id-5249",
+      "selections": [],
+      "text": "Resultado del partido o Goles totales Más/Menos 2.5",
+      "title": "Resultado del partido o Goles totales Más/Menos 2.5"
+    },
+    {
+      "qa": "market-type-id-18",
+      "selections": [],
+      "text": "Marcador correcto (múltiple)",
+      "title": "Marcador correcto (múltiple)"
+    },
+    {
+      "qa": "market-type-id-19",
+      "selections": [],
+      "text": "Marcador Correcto - Sin Perder",
+      "title": "Marcador Correcto - Sin Perder"
+    },
+    {
+      "qa": "market-type-id-147",
+      "selections": [],
+      "text": "Marcador correcto Primer tiempo/Tiempo completo",
+      "title": "Marcador correcto Primer tiempo/Tiempo completo"
+    },
+    {
+      "qa": "market-type-id-185",
+      "selections": [
+        {
+          "aria": "Bet on TSG 1899 Hoffenheim -0.5 with odds 2.62.",
+          "text": "TSG 1899 Hoffenheim\n-0.5\n2.62"
+        },
+        {
+          "aria": "Bet on Bayer 04 Leverkusen +0.5 with odds 1.52.",
+          "text": "Bayer 04 Leverkusen\n+0.5\n1.52"
+        },
+        {
+          "aria": "Bet on TSG 1899 Hoffenheim 0.0 with odds 2.05.",
+          "text": "TSG 1899 Hoffenheim 0.0\n2.05"
+        },
+        {
+          "aria": "Bet on Bayer 04 Leverkusen 0.0 with odds 1.8.",
+          "text": "Bayer 04 Leverkusen 0.0\n1.80"
+        },
+        {
+          "aria": "Bet on TSG 1899 Hoffenheim +0.5 with odds 1.65.",
+          "text": "TSG 1899 Hoffenheim\n+0.5\n1.65"
+        },
+        {
+          "aria": "Bet on Bayer 04 Leverkusen -0.5 with odds 2.32.",
+          "text": "Bayer 04 Leverkusen\n-0.5\n2.32"
+        }
+      ],
+      "text": "Hándicap Asiático (Resultado actual 0 - 0)\nTSG 1899 Hoffenheim\n-0.5\n2.62\nBayer 04 Leverkusen\n+0.5\n1.52\nTSG 1899 Hoffenheim 0.0\n2.05\nBayer 04 Leverkusen 0.0\n1.80\nTSG 1899 Hoffenheim\n+0.5\n1.65\nBayer 04 Leverkusen\n-0.5\n2.32",
+      "title": "Hándicap Asiático (Resultado actual 0 - 0)"
+    },
+    {
+      "qa": "market-type-id-189",
+      "selections": [],
+      "text": "Asiático (Más/Menos) Total de goles",
+      "title": "Asiático (Más/Menos) Total de goles"
+    },
+    {
+      "qa": "market-type-id-186",
+      "selections": [],
+      "text": "Hándicap Asiático - Primer Tiempo (Resultado actual 0 - 0)",
+      "title": "Hándicap Asiático - Primer Tiempo (Resultado actual 0 - 0)"
+    },
+    {
+      "qa": "market-type-id-395",
+      "selections": [],
+      "text": "Asiático (Más/Menos) - Total de goles en el Primer Tiempo",
+      "title": "Asiático (Más/Menos) - Total de goles en el Primer Tiempo"
+    },
+    {
+      "qa": "market-type-id-122",
+      "selections": [],
+      "text": "Primer gol antes 22:00",
+      "title": "Primer gol antes 22:00"
+    },
+    {
+      "qa": "market-type-id-123",
+      "selections": [],
+      "text": "Gol anotado después del minuto 78:00",
+      "title": "Gol anotado después del minuto 78:00"
+    },
+    {
+      "qa": "market-type-id-125",
+      "selections": [],
+      "text": "Próximo gol antes de (Gol 1)",
+      "title": "Próximo gol antes de (Gol 1)"
+    },
+    {
+      "qa": "market-type-id-126",
+      "selections": [],
+      "text": "TSG 1899 Hoffenheim Próximo gol antes de (Gol 1)",
+      "title": "TSG 1899 Hoffenheim Próximo gol antes de (Gol 1)"
+    },
+    {
+      "qa": "market-type-id-127",
+      "selections": [],
+      "text": "Bayer 04 Leverkusen Próximo gol antes de (Gol 1)",
+      "title": "Bayer 04 Leverkusen Próximo gol antes de (Gol 1)"
+    },
+    {
+      "qa": "market-type-id-2934",
+      "selections": [],
+      "text": "Resultado por minuto 00:00 - 09:59",
+      "title": "Resultado por minuto 00:00 - 09:59"
+    },
+    {
+      "qa": "market-type-id-2934",
+      "selections": [],
+      "text": "Resultado por minuto 00:00 - 19:59",
+      "title": "Resultado por minuto 00:00 - 19:59"
+    },
+    {
+      "qa": "market-type-id-2934",
+      "selections": [],
+      "text": "Resultado por minuto 00:00 - 29:59",
+      "title": "Resultado por minuto 00:00 - 29:59"
+    },
+    {
+      "qa": "market-type-id-2934",
+      "selections": [],
+      "text": "Resultado por minuto 00:00 - 39:59",
+      "title": "Resultado por minuto 00:00 - 39:59"
+    },
+    {
+      "qa": "market-type-id-2934",
+      "selections": [],
+      "text": "Resultado por minuto 00:00 - 49:59",
+      "title": "Resultado por minuto 00:00 - 49:59"
+    },
+    {
+      "qa": "market-type-id-2934",
+      "selections": [],
+      "text": "Resultado por minuto 00:00 - 59:59",
+      "title": "Resultado por minuto 00:00 - 59:59"
+    },
+    {
+      "qa": "market-type-id-2934",
+      "selections": [],
+      "text": "Resultado por minuto 00:00 - 69:59",
+      "title": "Resultado por minuto 00:00 - 69:59"
+    },
+    {
+      "qa": "market-type-id-2934",
+      "selections": [],
+      "text": "Resultado por minuto 00:00 - 79:59",
+      "title": "Resultado por minuto 00:00 - 79:59"
+    },
+    {
+      "qa": "market-type-id-128",
+      "selections": [],
+      "text": "Rango de resultados por minuto (00:00 - 14:59)",
+      "title": "Rango de resultados por minuto (00:00 - 14:59)"
+    },
+    {
+      "qa": "market-type-id-128",
+      "selections": [],
+      "text": "Rango de resultados por minuto (15:00 - 29:59)",
+      "title": "Rango de resultados por minuto (15:00 - 29:59)"
+    },
+    {
+      "qa": "market-type-id-128",
+      "selections": [],
+      "text": "Rango de resultados por minuto (30:00 - 45:00)",
+      "title": "Rango de resultados por minuto (30:00 - 45:00)"
+    },
+    {
+      "qa": "market-type-id-128",
+      "selections": [],
+      "text": "Rango de resultados por minuto (45:00 - 59:59)",
+      "title": "Rango de resultados por minuto (45:00 - 59:59)"
+    },
+    {
+      "qa": "market-type-id-128",
+      "selections": [],
+      "text": "Rango de resultados por minuto (60:00 - 74:59)",
+      "title": "Rango de resultados por minuto (60:00 - 74:59)"
+    },
+    {
+      "qa": "market-type-id-128",
+      "selections": [],
+      "text": "Rango de resultados por minuto (75:00 - 90:00)",
+      "title": "Rango de resultados por minuto (75:00 - 90:00)"
+    },
+    {
+      "qa": "market-type-id-130",
+      "selections": [],
+      "text": "Goles cronometrados Más/Menos (00:00 - 14:59)",
+      "title": "Goles cronometrados Más/Menos (00:00 - 14:59)"
+    },
+    {
+      "qa": "market-type-id-130",
+      "selections": [],
+      "text": "Goles cronometrados Más/Menos (15:00 - 29:59)",
+      "title": "Goles cronometrados Más/Menos (15:00 - 29:59)"
+    },
+    {
+      "qa": "market-type-id-130",
+      "selections": [],
+      "text": "Goles cronometrados Más/Menos (30:00 - 45:00)",
+      "title": "Goles cronometrados Más/Menos (30:00 - 45:00)"
+    },
+    {
+      "qa": "market-type-id-130",
+      "selections": [],
+      "text": "Goles cronometrados Más/Menos (45:00 - 59:59)",
+      "title": "Goles cronometrados Más/Menos (45:00 - 59:59)"
+    },
+    {
+      "qa": "market-type-id-130",
+      "selections": [],
+      "text": "Goles cronometrados Más/Menos (60:00 - 74:59)",
+      "title": "Goles cronometrados Más/Menos (60:00 - 74:59)"
+    },
+    {
+      "qa": "market-type-id-27",
+      "selections": [],
+      "text": "Hora del próximo gol (Gol 1)",
+      "title": "Hora del próximo gol (Gol 1)"
+    },
+    {
+      "qa": "market-type-id-28",
+      "selections": [],
+      "text": "Hora del próximo gol TSG 1899 Hoffenheim (Gol 1)",
+      "title": "Hora del próximo gol TSG 1899 Hoffenheim (Gol 1)"
+    },
+    {
+      "qa": "market-type-id-29",
+      "selections": [],
+      "text": "Hora del próximo gol Bayer 04 Leverkusen (Gol 1)",
+      "title": "Hora del próximo gol Bayer 04 Leverkusen (Gol 1)"
+    },
+    {
+      "qa": "market-type-id-503",
+      "selections": [],
+      "text": "Total de Goles Exactos",
+      "title": "Total de Goles Exactos"
+    },
+    {
+      "qa": "market-type-id-34",
+      "selections": [
+        {
+          "aria": "Bet on Más de 9.5 with odds 1.62.",
+          "text": "Más de\n9.5\n1.62"
+        },
+        {
+          "aria": "Bet on Menos 9.5 with odds 2.22.",
+          "text": "Menos\n9.5\n2.22"
+        },
+        {
+          "aria": "Bet on Más de 10.5 with odds 2.",
+          "text": "Más de\n10.5\n2.00"
+        },
+        {
+          "aria": "Bet on Menos 10.5 with odds 1.75.",
+          "text": "Menos\n10.5\n1.75"
+        },
+        {
+          "aria": "Bet on Más de 11.5 with odds 2.65.",
+          "text": "Más de\n11.5\n2.65"
+        },
+        {
+          "aria": "Bet on Menos 11.5 with odds 1.44.",
+          "text": "Menos\n11.5\n1.44"
+        }
+      ],
+      "text": "Más/Menos Córners\nMás de\n9.5\n1.62\nMenos\n9.5\n2.22\nMás de\n10.5\n2.00\nMenos\n10.5\n1.75\nMás de\n11.5\n2.65\nMenos\n11.5\n1.44\nMOSTRAR TODO",
+      "title": "Más/Menos Córners"
+    },
+    {
+      "qa": "market-type-id-13",
+      "selections": [
+        {
+          "aria": "Bet on Más de 2.5 with odds 1.39.",
+          "text": "Más de\n2.5\n1.39"
+        },
+        {
+          "aria": "Bet on Menos 2.5 with odds 3.",
+          "text": "Menos\n2.5\n3.00"
+        },
+        {
+          "aria": "Bet on Más de 3.5 with odds 1.95.",
+          "text": "Más de\n3.5\n1.95"
+        },
+        {
+          "aria": "Bet on Menos 3.5 with odds 1.87.",
+          "text": "Menos\n3.5\n1.87"
+        },
+        {
+          "aria": "Bet on Más de 4.5 with odds 3.1.",
+          "text": "Más de\n4.5\n3.10"
+        },
+        {
+          "aria": "Bet on Menos 4.5 with odds 1.38.",
+          "text": "Menos\n4.5\n1.38"
+        }
+      ],
+      "text": "Goles totales Más/Menos\nMás de\n2.5\n1.39\nMenos\n2.5\n3.00\nMás de\n3.5\n1.95\nMenos\n3.5\n1.87\nMás de\n4.5\n3.10\nMenos\n4.5\n1.38\nMOSTRAR TODO",
+      "title": "Goles totales Más/Menos"
+    },
+    {
+      "qa": "market-type-id-21",
+      "selections": [],
+      "text": "Gana el resto del Partido [0 - 0]",
+      "title": "Gana el resto del Partido [0 - 0]"
+    },
+    {
+      "qa": "market-type-id-47",
+      "selections": [],
+      "text": "Córners Impar/Par",
+      "title": "Córners Impar/Par"
+    },
+    {
+      "qa": "market-type-id-4016",
+      "selections": [],
+      "text": "Primer Tiempo/Tiempo Completo Córners",
+      "title": "Primer Tiempo/Tiempo Completo Córners"
+    },
+    {
+      "qa": "market-type-id-135",
+      "selections": [],
+      "text": "Apuesta sin Empate Segundo Tiempo",
+      "title": "Apuesta sin Empate Segundo Tiempo"
+    },
+    {
+      "qa": "market-type-id-142",
+      "selections": [],
+      "text": "Más de 1.5 goles anotados en cada tiempo",
+      "title": "Más de 1.5 goles anotados en cada tiempo"
+    },
+    {
+      "qa": "market-type-id-143",
+      "selections": [],
+      "text": "Menos de 1.5 Goles Anotados en Ambos Tiempos",
+      "title": "Menos de 1.5 Goles Anotados en Ambos Tiempos"
+    }
+  ],
+  "top": "Fútbol\n\nBásquetbol\n\nTenis\n\nEsports\n\nBéisbol\n\nMMA\n\nFútbol americano\n\nVoleibol\n\nHockey sobre hielo\n\nTenis de mesa\n\nBox\n\nBalonmano\n\nDardos\n\nVóley-playa\n\nFórmula 1\n\nUnión de Rugby\n\nLiga de Rugby\n\nCiclismo\n\nFutsal\n\nWaterpolo\n\nBádminton\n\nSnooker\n\nCriquet\n\nLacrosse\n\nMoto GP\n\nGolf\n\nDeportes de motor\n\nDeportes de invierno\n\nHockey sobre césped\n\nFloorball\n\nInicioFútbolAlemaniaBundesligaTSG 1899 Hoffenheim - Bayer 04 Leverkusen\nDomingo, 25 Octubre 2026 09:30\nTSG 1899 Hoffenheim\nBayer 04 Leverkusen\nPopulares\nGoles\nCórners\nEstadísticas\nPrimer Tiempo\nCombos\nEspeciales\nHándicap\nHándicap Asiático\nMinutos\nTodo\nBET\nBUILDER\nBB\nResultado del partido\n\n2 GOLES DE VENTAJA\n\n1\n2.67\nX\n4.05\n2\n2.35\nBayer 04 Leverkusen ha ganado 3 partidos consecutivos en la Bundesliga.\nBayer 04 Leverkusen sumó 13 puntos en sus últimos 5 partidos de Bundesliga.\nTSG 1899 Hoffenheim perdió 3 de sus últimos 5 partidos en la Bundesliga.\nBB\nGoles totales Más/Menos\nLos últimos 5 partidos de TSG 1899 Hoffenheim en la Bundesliga tuvieron más de 2,5 goles.\n4 de los últimos 5 partidos de Bayer 04 Leverkusen en Bundesliga superaron los 2,5 goles.\n4 de los últimos 5 enfrentamientos directos en todas las competiciones tuvieron más de 2,5 goles.\nLos partidos de TSG 1899 Hoffenheim promediaron 3,53 goles en sus últimos 38 encuentros en toda",
+  "fixture_id": "565835",
+  "url": "https://www.betano.pe/cuotas-de-partido/tsg-1899-hoffenheim-bayer-04-leverkusen/91658163/?bt=10",
+  "observed_at": "2026-10-19T06:10:51.238Z"
+}

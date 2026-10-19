@@ -1,0 +1,15 @@
+{
+  "model_version": "attack-defence-v2",
+  "config": {
+    "half_life_days": 365,
+    "regularization": 3,
+    "dixon_coles": true
+  },
+  "temperature": 1.0170313276970937,
+  "calibration_until": "2025-07-01",
+  "selected_on": "2024-08-01 to 2025-03-01",
+  "calibrated_on": "2025-03-01 to 2025-07-01",
+  "promoted": true,
+  "selection_metric": "log_loss",
+  "dataset_id": "642af377b7ade1f57fcc8107472f7646ebc97ed427b1a0d6a6cb372f40447570"
+}
