@@ -1,2 +1,3 @@
 [build]
-  publish = "web"
+  base = "web"
+  publish = "."
