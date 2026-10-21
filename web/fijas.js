@@ -34,6 +34,7 @@ function pickView(c,level,compact=false){
  if(!c){card.append(E('h3',null,'Sin propuesta con respaldo'),E('p','pick-reason',level?.reason||'Ninguna línea reúne mayoría reciente en ambas muestras, probabilidad de este nivel y precio suficiente cuando hay cuota contrastada.'));return card;}
  if(!compact)card.append(E('span','pick-market',c.market));
  card.append(E('h3','pick-title',pickLabel(c)),E('p','pick-meaning',selectionMeaning(c)),E('p','pick-probability',`Prob. del modelo: ${pct(c.probability*100)}`));
+ if(c.editorial_override)card.append(E('small','evidence-caption','Selección editorial · conserva la probabilidad conjunta del modelo.'));
  const ev=E('div','pick-evidence');ev.append(E('span','evidence-label','FORMA RECIENTE'),E('p',null,recentText(c)));
  if(!compact)ev.append(E('p','evidence-caption','Veces que se cumplió esta selección; hasta cinco partidos por equipo en su localía.'));
  card.append(ev);

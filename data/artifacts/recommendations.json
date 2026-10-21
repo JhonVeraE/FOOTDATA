@@ -58118,22 +58118,22 @@
           "key": "risky",
           "label": "Arriesgada",
           "selection": {
-            "id": "result_goals:total:1X:3.5:over",
+            "id": "result_goals:total:home:2.5:over",
             "fixture_id": "575370",
             "kind": "result_goals",
             "market": "Resultado y goles",
             "scope": "total",
-            "side": "1X",
-            "line": 3.5,
-            "label": "Real Madrid o empate y más de 3,5 goles",
-            "probability": 0.5971403995570238,
+            "side": "home",
+            "line": 2.5,
+            "label": "Gana Real Madrid y más de 2,5 goles",
+            "probability": 0.6557961050875657,
             "probability_method": "Probabilidad conjunta de la misma matriz de goles; no producto de mercados",
             "individually_calibrated": false,
-            "fair_odds": 1.6746480404638997,
-            "pricing_probability": 0.5471403995570238,
+            "fair_odds": 1.5248641952005406,
+            "pricing_probability": 0.6057961050875657,
             "stress_discount": 0.05,
-            "minimum_odds": 1.9190686720448753,
-            "price_status": "below_reference",
+            "minimum_odds": 1.7332564392242606,
+            "price_status": "unverified",
             "bookmaker": "Betano",
             "direction": "over",
             "evidence": {
@@ -58143,7 +58143,7 @@
                   "venue": "local",
                   "scope": "combined_competitions_and_venue",
                   "measure": "partido",
-                  "hits": 3,
+                  "hits": 4,
                   "matches": 5,
                   "current_hit_streak": 1
                 },
@@ -58158,58 +58158,18 @@
                 }
               ],
               "matches": 10,
-              "hits": 7,
-              "rate": 0.7,
+              "hits": 8,
+              "rate": 0.8,
               "window": "Hasta cinco por equipo y localía dentro de 365 días; la mezcla de competiciones se identifica en cada muestra",
               "latest_result": "2026-10-18"
             },
-            "support_gap": 0.10285960044297615,
-            "odds_audit": {
-              "fixture_id": "575370",
-              "candidate_id": "result_goals:total:1X:3.5:over",
-              "home": "Real Madrid",
-              "away": "RB Leipzig",
-              "kickoff_utc": "2026-10-21T19:00:00+00:00",
-              "label": "Real Madrid o empate y más de 3,5 goles",
-              "minimum_odds": 1.9190686720448753,
-              "observed_at": "2026-10-19T06:19:04.633Z",
-              "source_url": "https://www.betano.pe/cuotas-de-partido/real-madrid-rb-leipzig/91598490/?bt=11",
-              "identity_verified": true,
-              "status": "below_reference",
-              "kind": "result_goals",
-              "scope": "total",
-              "side": "1X",
-              "line": 3.5,
-              "extra": "over",
-              "odds": 1.67,
-              "bookmaker_market": "Doble Oportunidad con Más/Menos (3.5)",
-              "bookmaker_selection": "Real Madrid o Empate y Más 3.5"
-            },
-            "observed_quote": {
-              "fixture_id": "575370",
-              "candidate_id": "result_goals:total:1X:3.5:over",
-              "home": "Real Madrid",
-              "away": "RB Leipzig",
-              "kickoff_utc": "2026-10-21T19:00:00+00:00",
-              "label": "Real Madrid o empate y más de 3,5 goles",
-              "minimum_odds": 1.9190686720448753,
-              "observed_at": "2026-10-19T06:19:04.633Z",
-              "source_url": "https://www.betano.pe/cuotas-de-partido/real-madrid-rb-leipzig/91598490/?bt=11",
-              "identity_verified": true,
-              "status": "below_reference",
-              "kind": "result_goals",
-              "scope": "total",
-              "side": "1X",
-              "line": 3.5,
-              "extra": "over",
-              "odds": 1.67,
-              "bookmaker_market": "Doble Oportunidad con Más/Menos (3.5)",
-              "bookmaker_selection": "Real Madrid o Empate y Más 3.5",
-              "bookmaker": "Betano",
-              "complete_market_snapshot": false
-            }
+            "support_gap": 0.14420389491243435,
+            "editorial_override": true,
+            "published_at": "2026-10-21T16:34:56.202237+00:00",
+            "editorial_reason": "Propuesta solicitada por el usuario para el vídeo Real Madrid–Leipzig: gana Madrid y más de 2,5 goles."
           },
-          "status": "available"
+          "status": "available",
+          "selection_origin": "user_requested"
         }
       ],
       "markets": [
@@ -63062,7 +63022,8 @@
     "odds": "Cuota teórica = 1/p. Umbral orientativo = 1,05/(p − descuento): 5 puntos para goles/resultado y 10 para conteos. Son hipótesis de sensibilidad elegidas, no un intervalo de confianza ni calibración adicional. Introduce la cuota Betano del mismo mercado para comparar. No se han obtenido cuotas en vivo ni confirmado disponibilidad de las líneas.",
     "validation": "Estas reglas de selección y probabilidades de mercados ampliados necesitan evaluación prospectiva propia. Mayor cumplimiento reciente no demuestra rentabilidad futura.",
     "priority": "Se priorizan ganador, doble oportunidad, hándicap, ambos marcan, goles y resultado con goles entre las propuestas que cumplen los mismos filtros de respaldo y precio. Remates, tiros al arco, faltas y córners son complementarios. La prioridad no modifica las probabilidades del modelo.",
-    "streaks": "Cada muestra muestra los aciertos consecutivos más recientes de la selección, hasta cinco observaciones válidas. Es un dato descriptivo para revisar la continuidad, no un multiplicador de probabilidad."
+    "streaks": "Cada muestra muestra los aciertos consecutivos más recientes de la selección, hasta cinco observaciones válidas. Es un dato descriptivo para revisar la continuidad, no un multiplicador de probabilidad.",
+    "editorial": "Las selecciones editoriales solicitadas se identifican en su ficha. El nivel es una etiqueta editorial y puede quedar fuera de las bandas automáticas; la probabilidad del modelo se conserva."
   },
   "odds_audit": {
     "schema_version": 1,
@@ -63080,5 +63041,15 @@
     "first_observed_at": "2026-10-19T06:03:29.870Z",
     "last_observed_at": "2026-10-19T06:19:56.806Z",
     "note": "Cuotas capturadas en páginas públicas. No son precios en vivo. No se colocaron apuestas. Selecciones y probabilidades originales conservadas."
-  }
+  },
+  "editorial_overrides": [
+    {
+      "fixture_id": "575370",
+      "tier": "risky",
+      "candidate_id": "result_goals:total:home:2.5:over",
+      "published_at": "2026-10-21T16:34:56.202237+00:00",
+      "reason": "Propuesta solicitada por el usuario para el vídeo Real Madrid–Leipzig: gana Madrid y más de 2,5 goles."
+    }
+  ],
+  "revised_at": "2026-10-21T16:34:56.202237+00:00"
 }

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "overrides": [
+    {
+      "fixture_id": "575370",
+      "home": "Real Madrid",
+      "away": "RB Leipzig",
+      "kickoff_utc": "2026-10-21T19:00:00+00:00",
+      "tier": "risky",
+      "candidate_id": "result_goals:total:home:2.5:over",
+      "reason": "Propuesta solicitada por el usuario para el vídeo Real Madrid–Leipzig: gana Madrid y más de 2,5 goles."
+    }
+  ]
+}

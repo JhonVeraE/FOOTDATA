@@ -11,7 +11,7 @@ import pandas as pd
 from scipy.stats import nbinom, poisson
 from data_store import canonical_team, load_match_stats
 from goal_model import score_distribution
-from paths import ARTIFACT_DIR, WEB_DIR
+from paths import ARTIFACT_DIR, WEB_DIR, DATA_DIR
 
 VERSION='market-shortlist-v3'
 LEVELS=[('conservative','Conservadora',.78,.88,.82),('normal','Normal',.63,.78,.70),('risky','Arriesgada',.50,.63,.59)]
@@ -230,12 +230,45 @@ def build_payload(predictions,stats,as_of=None,quotes=None):
         days.append({'date_lima':day,'matches':len(fixtures),'parlays':[choose_parlay(fixtures,size,now) for size in [3,4]]})
     return {'schema_version':2,'version':VERSION,'generated_at':now.isoformat(),'dataset_id':predictions['run']['dataset_id'],'prediction_run_generated_at':predictions['run']['generated_at'],'matches':matches,'days':days,'bookmaker':{'name':'Betano','live_odds_available':False,'rules_url':BETANO_RULES},'policy':{'levels':'Conservadora 78–88%, normal 63–78%, arriesgada 50–63%. Además se exige cuota teórica ≥1,18. Son bandas relativas de selección.','selection':'Mayoría estricta en ambas muestras recientes, al menos tres observaciones válidas por equipo y cinco encuentros únicos. Se descartan candidatos con discrepancia modelo/frecuencia superior a 30 puntos. La frecuencia no sustituye a una probabilidad calibrada.','scope':'Hasta cinco partidos por equipo y localía, anteriores al corte. Champions puede usar forma doméstica/europea combinada, identificada expresamente. No se recomienda con muestra insuficiente.','settlement':'90 minutos y añadido; hándicap asiático con medias unidades. Tarjetas excluidas: el CSV agregado no reproduce las reglas Betano de roja = 2, segunda amarilla excluida.','parlay':'Una selección por partido sin repetir equipos. Producto bajo independencia; los mercados combinados de un mismo partido se calculan en la matriz conjunta, nunca multiplicándolos.','odds':'Cuota teórica = 1/p. Umbral orientativo = 1,05/(p − descuento): 5 puntos para goles/resultado y 10 para conteos. Son hipótesis de sensibilidad elegidas, no un intervalo de confianza ni calibración adicional. Introduce la cuota Betano del mismo mercado para comparar. No se han obtenido cuotas en vivo ni confirmado disponibilidad de las líneas.','validation':'Estas reglas de selección y probabilidades de mercados ampliados necesitan evaluación prospectiva propia. Mayor cumplimiento reciente no demuestra rentabilidad futura.'}}
 
+def apply_editorial_overrides(data,predictions,stats,as_of=None,overrides=None):
+    """Explicit editorial slots retain the model's joint probability and cutoff.
+
+    Never change archived publications or transfer a different market's quote.
+    Ignore expired slots when a later matchday is generated.
+    """
+    clock=utc(as_of) if as_of is not None else pd.Timestamp.now(tz='UTC')
+    if overrides is None:
+        path=DATA_DIR/'recommendation_overrides.json'
+        overrides=json.loads(path.read_text(encoding='utf-8')).get('overrides',[]) if path.exists() else []
+    reports={str(m['fixture_id']):m for m in predictions['matches']}
+    applied=[]
+    for override in overrides:
+        fid=str(override['fixture_id'])
+        match=next((m for m in data['matches'] if m['fixture_id']==fid),None)
+        report=reports.get(fid)
+        if match is None or report is None or utc(match['kickoff_utc'])<=clock:continue
+        if [match['home'],match['away'],match['kickoff_utc']]!=[override['home'],override['away'],override['kickoff_utc']]:raise ValueError('Editorial fixture identity mismatch')
+        if utc(report['generated_at'])>=utc(report['kickoff_utc']):raise ValueError('Editorial forecast is not pre-match')
+        tier=next(t for t in match['tiers'] if t['key']==override['tier'])
+        options=candidates(report,historical_context(stats,report),as_of=clock)
+        chosen=next((c for c in options if c['id']==override['candidate_id']),None)
+        if chosen is None:raise ValueError('Unknown editorial market')
+        chosen.update(editorial_override=True,published_at=clock.isoformat(),editorial_reason=override['reason'])
+        tier.update(selection=chosen,status='available',selection_origin='user_requested')
+        applied.append({'fixture_id':fid,'tier':tier['key'],'candidate_id':chosen['id'],'published_at':clock.isoformat(),'reason':override['reason']})
+    if applied:
+        data['editorial_overrides']=applied
+        data['revised_at']=clock.isoformat()
+        data['policy']['editorial']='Las selecciones editoriales solicitadas se identifican en su ficha. El nivel es una etiqueta editorial y puede quedar fuera de las bandas automáticas; la probabilidad del modelo se conserva.'
+    return data
+
 def publish_recommendations(predictions,stats=None):
     if stats is None:stats=load_match_stats()
     quote_file=ARTIFACT_DIR/'betano_odds.json'
     quote_records=json.loads(quote_file.read_text(encoding='utf-8'))['records'] if quote_file.exists() else []
     quotes={(r['fixture_id'],r['candidate_id']):r for r in quote_records}
     data=build_payload(predictions,stats,quotes=quotes)
+    apply_editorial_overrides(data,predictions,stats)
     data['policy']['priority']='Se priorizan ganador, doble oportunidad, hándicap, ambos marcan, goles y resultado con goles entre las propuestas que cumplen los mismos filtros de respaldo y precio. Remates, tiros al arco, faltas y córners son complementarios. La prioridad no modifica las probabilidades del modelo.'
     data['policy']['streaks']='Cada muestra muestra los aciertos consecutivos más recientes de la selección, hasta cinco observaciones válidas. Es un dato descriptivo para revisar la continuidad, no un multiplicador de probabilidad.'
     data['bookmaker'].update(observed_odds_records=len(quote_records),observed_fixtures=len({r['fixture_id'] for r in quote_records}),latest_quote_observation=max((r['observed_at'] for r in quote_records),default=None),live_odds_available=False)
