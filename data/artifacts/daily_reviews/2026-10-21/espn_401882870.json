@@ -1,0 +1,1051 @@
+{
+  "header": {
+    "id": "401882870",
+    "uid": "s:600~l:740~e:401882870",
+    "season": {
+      "year": 2026,
+      "current": true,
+      "type": 14357,
+      "name": "2026-27 LALIGA"
+    },
+    "timeValid": true,
+    "competitions": [
+      {
+        "id": "401882870",
+        "uid": "s:600~l:740~e:401882870~c:401882870",
+        "date": "2026-10-21T18:00Z",
+        "neutralSite": false,
+        "conferenceCompetition": false,
+        "boxscoreAvailable": true,
+        "commentaryAvailable": true,
+        "liveAvailable": false,
+        "onWatchESPN": true,
+        "recent": false,
+        "wallclockAvailable": true,
+        "boxscoreSource": "full",
+        "playByPlaySource": "full",
+        "competitors": [
+          {
+            "id": "1538",
+            "uid": "s:600~t:1538",
+            "order": 0,
+            "homeAway": "home",
+            "winner": true,
+            "team": {
+              "id": "1538",
+              "guid": "be2c6909-0dc7-4b81-9f73-0eab434d732f",
+              "uid": "s:600~t:1538",
+              "location": "Levante",
+              "name": "Levante",
+              "abbreviation": "LEV",
+              "displayName": "Levante",
+              "shortDisplayName": "Levante",
+              "color": "C8142F",
+              "alternateColor": "000000",
+              "logos": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/soccer/500/1538.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2019-05-08T16:07Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/soccer/500-dark/1538.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "dark"
+                  ],
+                  "lastUpdated": "2019-05-08T16:07Z"
+                }
+              ],
+              "groups": {
+                "name": "2026-27 LALIGA"
+              },
+              "links": [
+                {
+                  "rel": [
+                    "clubhouse",
+                    "desktop",
+                    "team"
+                  ],
+                  "href": "https://www.espn.com/soccer/club/_/id/1538/levante",
+                  "text": "Clubhouse"
+                }
+              ],
+              "form": "DDDLL"
+            },
+            "score": "3",
+            "linescores": [
+              {
+                "displayValue": "2"
+              },
+              {
+                "displayValue": "1"
+              }
+            ],
+            "record": [
+              {
+                "type": "total",
+                "summary": "2-4-3",
+                "displayValue": "2-4-3"
+              },
+              {
+                "type": "points",
+                "summary": "10",
+                "displayValue": "10"
+              }
+            ],
+            "possession": false
+          },
+          {
+            "id": "93",
+            "uid": "s:600~t:93",
+            "order": 1,
+            "homeAway": "away",
+            "winner": false,
+            "team": {
+              "id": "93",
+              "guid": "748c6251-7239-2c15-2b2f-dfde911bbe55",
+              "uid": "s:600~t:93",
+              "location": "Athletic Club",
+              "name": "Athletic Club",
+              "abbreviation": "ATH",
+              "displayName": "Athletic Club",
+              "shortDisplayName": "Athletic",
+              "color": "C8142F",
+              "alternateColor": "000000",
+              "logos": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/soccer/500/93.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2022-05-18T17:24Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/soccer/500-dark/93.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "dark"
+                  ],
+                  "lastUpdated": "2019-05-08T16:07Z"
+                }
+              ],
+              "groups": {
+                "name": "2026-27 LALIGA"
+              },
+              "links": [
+                {
+                  "rel": [
+                    "clubhouse",
+                    "desktop",
+                    "team"
+                  ],
+                  "href": "https://www.espn.com/soccer/club/_/id/93/athletic-club",
+                  "text": "Clubhouse"
+                }
+              ],
+              "form": "DDDDW"
+            },
+            "score": "1",
+            "linescores": [
+              {
+                "displayValue": "0"
+              },
+              {
+                "displayValue": "1"
+              }
+            ],
+            "record": [
+              {
+                "type": "total",
+                "summary": "2-3-3",
+                "displayValue": "2-3-3"
+              },
+              {
+                "type": "points",
+                "summary": "9",
+                "displayValue": "9"
+              }
+            ],
+            "possession": false
+          }
+        ],
+        "notes": [],
+        "status": {
+          "type": {
+            "id": "28",
+            "name": "STATUS_FULL_TIME",
+            "state": "post",
+            "completed": true,
+            "description": "Full Time",
+            "detail": "FT",
+            "shortDetail": "FT"
+          }
+        },
+        "broadcasts": [
+          {
+            "type": {
+              "id": "1",
+              "shortName": "TV"
+            },
+            "market": {},
+            "media": {
+              "shortName": "ESPN Deportes"
+            },
+            "lang": "en",
+            "region": "us",
+            "isNational": false
+          },
+          {
+            "type": {
+              "id": "4",
+              "shortName": "STREAMING"
+            },
+            "market": {
+              "id": "1",
+              "type": "National"
+            },
+            "media": {
+              "shortName": "ESPN+"
+            },
+            "lang": "en",
+            "region": "us",
+            "isNational": true
+          }
+        ],
+        "details": [
+          {
+            "clock": {
+              "value": 1157.0,
+              "displayValue": "20'"
+            },
+            "scoringPlay": true,
+            "team": {
+              "id": "1538",
+              "uid": "s:600~t:1538",
+              "location": "Levante",
+              "name": "Levante",
+              "abbreviation": "LEV",
+              "displayName": "Levante"
+            },
+            "participants": [
+              {
+                "athlete": {
+                  "id": "267591",
+                  "displayName": "Roger Brugué",
+                  "shortName": "R. Brugué",
+                  "links": [
+                    {
+                      "language": "en-US",
+                      "rel": [
+                        "playercard",
+                        "desktop",
+                        "athlete"
+                      ],
+                      "href": "https://www.espn.com/soccer/player/_/id/267591/roger-brugue",
+                      "text": "Player Card",
+                      "shortText": "Player Card"
+                    }
+                  ]
+                }
+              },
+              {
+                "athlete": {
+                  "id": "362752",
+                  "displayName": "Dani Requena",
+                  "shortName": "D. Requena",
+                  "links": [
+                    {
+                      "language": "en-US",
+                      "rel": [
+                        "playercard",
+                        "desktop",
+                        "athlete"
+                      ],
+                      "href": "https://www.espn.com/soccer/player/_/id/362752/dani-requena",
+                      "text": "Player Card",
+                      "shortText": "Player Card"
+                    }
+                  ]
+                }
+              }
+            ],
+            "addedClock": {
+              "value": 0.0,
+              "displayValue": ""
+            },
+            "redCard": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "clock": {
+              "value": 1278.0,
+              "displayValue": "22'"
+            },
+            "scoringPlay": true,
+            "team": {
+              "id": "1538",
+              "uid": "s:600~t:1538",
+              "location": "Levante",
+              "name": "Levante",
+              "abbreviation": "LEV",
+              "displayName": "Levante"
+            },
+            "participants": [
+              {
+                "athlete": {
+                  "id": "267591",
+                  "displayName": "Roger Brugué",
+                  "shortName": "R. Brugué",
+                  "links": [
+                    {
+                      "language": "en-US",
+                      "rel": [
+                        "playercard",
+                        "desktop",
+                        "athlete"
+                      ],
+                      "href": "https://www.espn.com/soccer/player/_/id/267591/roger-brugue",
+                      "text": "Player Card",
+                      "shortText": "Player Card"
+                    }
+                  ]
+                }
+              }
+            ],
+            "addedClock": {
+              "value": 0.0,
+              "displayValue": ""
+            },
+            "redCard": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "clock": {
+              "value": 3967.0,
+              "displayValue": "67'"
+            },
+            "scoringPlay": true,
+            "team": {
+              "id": "93",
+              "uid": "s:600~t:93",
+              "location": "Athletic Club",
+              "name": "Athletic Club",
+              "abbreviation": "ATH",
+              "displayName": "Athletic Club"
+            },
+            "participants": [
+              {
+                "athlete": {
+                  "id": "209579",
+                  "displayName": "Álex Berenguer",
+                  "shortName": "Á. Berenguer",
+                  "links": [
+                    {
+                      "language": "en-US",
+                      "rel": [
+                        "playercard",
+                        "desktop",
+                        "athlete"
+                      ],
+                      "href": "https://www.espn.com/soccer/player/_/id/209579/alex-berenguer",
+                      "text": "Player Card",
+                      "shortText": "Player Card"
+                    }
+                  ]
+                }
+              }
+            ],
+            "addedClock": {
+              "value": 0.0,
+              "displayValue": ""
+            },
+            "redCard": false,
+            "penaltyKick": true,
+            "ownGoal": false
+          },
+          {
+            "clock": {
+              "value": 4349.0,
+              "displayValue": "73'"
+            },
+            "scoringPlay": false,
+            "team": {
+              "id": "93",
+              "uid": "s:600~t:93",
+              "location": "Athletic Club",
+              "name": "Athletic Club",
+              "abbreviation": "ATH",
+              "displayName": "Athletic Club"
+            },
+            "participants": [
+              {
+                "athlete": {
+                  "id": "159317",
+                  "displayName": "Aymeric Laporte",
+                  "shortName": "A. Laporte",
+                  "links": [
+                    {
+                      "language": "en-US",
+                      "rel": [
+                        "playercard",
+                        "desktop",
+                        "athlete"
+                      ],
+                      "href": "https://www.espn.com/soccer/player/_/id/159317/aymeric-laporte",
+                      "text": "Player Card",
+                      "shortText": "Player Card"
+                    }
+                  ]
+                }
+              }
+            ],
+            "addedClock": {
+              "value": 0.0,
+              "displayValue": ""
+            },
+            "redCard": true,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "clock": {
+              "value": 5400.0,
+              "displayValue": "90'+8'"
+            },
+            "scoringPlay": true,
+            "team": {
+              "id": "1538",
+              "uid": "s:600~t:1538",
+              "location": "Levante",
+              "name": "Levante",
+              "abbreviation": "LEV",
+              "displayName": "Levante"
+            },
+            "participants": [
+              {
+                "athlete": {
+                  "id": "346676",
+                  "displayName": "Etta Eyong",
+                  "shortName": "E. Eyong",
+                  "links": [
+                    {
+                      "language": "en-US",
+                      "rel": [
+                        "playercard",
+                        "desktop",
+                        "athlete"
+                      ],
+                      "href": "https://www.espn.com/soccer/player/_/id/346676/etta-eyong",
+                      "text": "Player Card",
+                      "shortText": "Player Card"
+                    }
+                  ]
+                }
+              }
+            ],
+            "addedClock": {
+              "value": 450.0,
+              "displayValue": "8"
+            },
+            "redCard": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          }
+        ],
+        "groups": {
+          "id": "1",
+          "name": "2000/2001 Spanish Primera División\r\n",
+          "abbreviation": "2000/2001"
+        },
+        "isFinal": false,
+        "isThirdPlace": false,
+        "altGameNote": "LALIGA",
+        "boxscoreMinutes": false,
+        "shotMapAvailable": true
+      }
+    ],
+    "links": [
+      {
+        "rel": [
+          "summary",
+          "desktop",
+          "event"
+        ],
+        "href": "https://www.espn.com/soccer/match/_/gameId/401882870/athletic-club-levante",
+        "text": "Summary",
+        "shortText": "Summary",
+        "isExternal": false,
+        "isPremium": false
+      },
+      {
+        "rel": [
+          "commentary",
+          "desktop",
+          "event"
+        ],
+        "href": "https://www.espn.com/soccer/commentary/_/gameId/401882870",
+        "text": "Commentary",
+        "shortText": "Commentary",
+        "isExternal": false,
+        "isPremium": false
+      },
+      {
+        "rel": [
+          "videos",
+          "desktop",
+          "event"
+        ],
+        "href": "https://www.espn.com/soccer/video/_/gameId/401882870",
+        "text": "Videos",
+        "shortText": "Videos",
+        "isExternal": false,
+        "isPremium": false
+      }
+    ],
+    "league": {
+      "id": "740",
+      "uid": "s:600~l:740",
+      "name": "Spanish LALIGA",
+      "abbreviation": "LALIGA",
+      "shortName": "LALIGA",
+      "midsizeName": "ESP.1",
+      "slug": "esp.1",
+      "isTournament": false,
+      "links": [
+        {
+          "rel": [
+            "index",
+            "desktop",
+            "league"
+          ],
+          "href": "https://www.espn.com/soccer/league/_/name/esp.1",
+          "text": "Index"
+        },
+        {
+          "rel": [
+            "index",
+            "sportscenter",
+            "app",
+            "league"
+          ],
+          "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~l:740",
+          "text": "Index"
+        },
+        {
+          "rel": [
+            "schedule",
+            "desktop",
+            "league"
+          ],
+          "href": "https://www.espn.com/soccer/schedule/_/league/esp.1",
+          "text": "Schedule"
+        },
+        {
+          "rel": [
+            "schedule",
+            "sportscenter",
+            "app",
+            "league"
+          ],
+          "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~l:740&section=scores",
+          "text": "Schedule"
+        },
+        {
+          "rel": [
+            "standings",
+            "desktop",
+            "league"
+          ],
+          "href": "https://www.espn.com/soccer/table/_/league/esp.1",
+          "text": "Standings"
+        },
+        {
+          "rel": [
+            "standings",
+            "sportscenter",
+            "app",
+            "league"
+          ],
+          "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~l:740&section=standings",
+          "text": "Standings"
+        },
+        {
+          "rel": [
+            "scores",
+            "desktop",
+            "league"
+          ],
+          "href": "https://www.espn.com/soccer/scoreboard/_/league/esp.1",
+          "text": "Scores"
+        },
+        {
+          "rel": [
+            "scores",
+            "sportscenter",
+            "app",
+            "league"
+          ],
+          "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~l:740&section=scores",
+          "text": "Scores"
+        },
+        {
+          "rel": [
+            "stats",
+            "desktop",
+            "league"
+          ],
+          "href": "https://www.espn.com/soccer/stats/_/league/esp.1",
+          "text": "Stats"
+        },
+        {
+          "rel": [
+            "stats",
+            "sportscenter",
+            "app",
+            "league"
+          ],
+          "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~l:740&section=stats",
+          "text": "Stats"
+        },
+        {
+          "rel": [
+            "teams",
+            "desktop",
+            "league"
+          ],
+          "href": "https://www.espn.com/soccer/teams/_/league/esp.1",
+          "text": "Teams"
+        }
+      ],
+      "logos": [
+        {
+          "href": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png",
+          "rel": [
+            "full",
+            "default"
+          ]
+        },
+        {
+          "href": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/15.png",
+          "rel": [
+            "full",
+            "dark"
+          ]
+        }
+      ]
+    },
+    "linksv4": [
+      {
+        "rel": [
+          "summary",
+          "desktop",
+          "event"
+        ],
+        "href": "https://www.espn.com/soccer/match/_/gameId/401882870/athletic-club-levante",
+        "text": "Gamecast",
+        "shortText": "Summary",
+        "isExternal": false,
+        "isPremium": false
+      },
+      {
+        "rel": [
+          "teamstats",
+          "desktop",
+          "event"
+        ],
+        "href": "https://www.espn.com/soccer/team-stats/_/gameId/401882870",
+        "text": "Team Stats",
+        "shortText": "Team Stats",
+        "isExternal": false,
+        "isPremium": false
+      },
+      {
+        "rel": [
+          "playerstats",
+          "desktop",
+          "event"
+        ],
+        "href": "https://www.espn.com/soccer/player-stats/_/gameId/401882870",
+        "text": "Player Stats",
+        "shortText": "Player Stats",
+        "isExternal": false,
+        "isPremium": false
+      },
+      {
+        "rel": [
+          "commentary",
+          "desktop",
+          "event"
+        ],
+        "href": "https://www.espn.com/soccer/commentary/_/gameId/401882870",
+        "text": "Commentary",
+        "shortText": "Commentary",
+        "isExternal": false,
+        "isPremium": false
+      },
+      {
+        "rel": [
+          "videos",
+          "desktop",
+          "event"
+        ],
+        "href": "https://www.espn.com/soccer/video/_/gameId/401882870",
+        "text": "Videos",
+        "shortText": "Videos",
+        "isExternal": false,
+        "isPremium": false
+      }
+    ]
+  },
+  "boxscore": {
+    "teams": [
+      {
+        "team": {
+          "id": "1538",
+          "uid": "s:600~t:1538",
+          "slug": "esp.levante",
+          "location": "Levante",
+          "name": "Levante",
+          "abbreviation": "LEV",
+          "displayName": "Levante",
+          "shortDisplayName": "Levante",
+          "color": "C8142F",
+          "alternateColor": "000000",
+          "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/1538.png",
+          "uniform": {
+            "type": "home",
+            "color": "052c54",
+            "alternateColor": "a6083f"
+          }
+        },
+        "statistics": [
+          {
+            "name": "foulsCommitted",
+            "displayValue": "13",
+            "label": "Fouls"
+          },
+          {
+            "name": "yellowCards",
+            "displayValue": "2",
+            "label": "Yellow Cards"
+          },
+          {
+            "name": "redCards",
+            "displayValue": "0",
+            "label": "Red Cards"
+          },
+          {
+            "name": "offsides",
+            "displayValue": "0",
+            "label": "Offsides"
+          },
+          {
+            "name": "wonCorners",
+            "displayValue": "3",
+            "label": "Corner Kicks"
+          },
+          {
+            "name": "saves",
+            "displayValue": "3",
+            "label": "Saves"
+          },
+          {
+            "name": "possessionPct",
+            "displayValue": "38.1",
+            "label": "Possession"
+          },
+          {
+            "name": "totalShots",
+            "displayValue": "12",
+            "label": "SHOTS"
+          },
+          {
+            "name": "shotsOnTarget",
+            "displayValue": "7",
+            "label": "ON GOAL"
+          },
+          {
+            "name": "shotPct",
+            "displayValue": "0.6",
+            "label": "On Target %"
+          },
+          {
+            "name": "penaltyKickGoals",
+            "displayValue": "0",
+            "label": "Penalty Goals"
+          },
+          {
+            "name": "penaltyKickShots",
+            "displayValue": "0",
+            "label": "Penalty Kicks Taken"
+          },
+          {
+            "name": "accuratePasses",
+            "displayValue": "254",
+            "label": "Accurate Passes"
+          },
+          {
+            "name": "totalPasses",
+            "displayValue": "331",
+            "label": "Passes"
+          },
+          {
+            "name": "passPct",
+            "displayValue": "0.8",
+            "label": "Pass Completion %"
+          },
+          {
+            "name": "accurateCrosses",
+            "displayValue": "6",
+            "label": "Accurate Crosses"
+          },
+          {
+            "name": "totalCrosses",
+            "displayValue": "16",
+            "label": "Crosses"
+          },
+          {
+            "name": "crossPct",
+            "displayValue": "0.4",
+            "label": "Cross %"
+          },
+          {
+            "name": "totalLongBalls",
+            "displayValue": "65",
+            "label": "Long Balls"
+          },
+          {
+            "name": "accurateLongBalls",
+            "displayValue": "30",
+            "label": "Accurate Long Balls"
+          },
+          {
+            "name": "longballPct",
+            "displayValue": "0.5",
+            "label": "Long Balls %"
+          },
+          {
+            "name": "blockedShots",
+            "displayValue": "2",
+            "label": "Blocked Shots"
+          },
+          {
+            "name": "effectiveTackles",
+            "displayValue": "13",
+            "label": "Effective Tackles"
+          },
+          {
+            "name": "totalTackles",
+            "displayValue": "15",
+            "label": "Tackles"
+          },
+          {
+            "name": "tacklePct",
+            "displayValue": "0.9",
+            "label": "Tackle %"
+          },
+          {
+            "name": "interceptions",
+            "displayValue": "7",
+            "label": "Interceptions"
+          },
+          {
+            "name": "effectiveClearance",
+            "displayValue": "40",
+            "label": "Effective Clearances"
+          },
+          {
+            "name": "totalClearance",
+            "displayValue": "40",
+            "label": "Clearances"
+          }
+        ],
+        "displayOrder": 1,
+        "homeAway": "home"
+      },
+      {
+        "team": {
+          "id": "93",
+          "uid": "s:600~t:93",
+          "slug": "esp.athletic_club",
+          "location": "Athletic Club",
+          "name": "Athletic Club",
+          "abbreviation": "ATH",
+          "displayName": "Athletic Club",
+          "shortDisplayName": "Athletic",
+          "color": "C8142F",
+          "alternateColor": "000000",
+          "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/93.png",
+          "uniform": {
+            "type": "third",
+            "color": "55dcf7"
+          }
+        },
+        "statistics": [
+          {
+            "name": "foulsCommitted",
+            "displayValue": "12",
+            "label": "Fouls"
+          },
+          {
+            "name": "yellowCards",
+            "displayValue": "1",
+            "label": "Yellow Cards"
+          },
+          {
+            "name": "redCards",
+            "displayValue": "1",
+            "label": "Red Cards"
+          },
+          {
+            "name": "offsides",
+            "displayValue": "0",
+            "label": "Offsides"
+          },
+          {
+            "name": "wonCorners",
+            "displayValue": "9",
+            "label": "Corner Kicks"
+          },
+          {
+            "name": "saves",
+            "displayValue": "4",
+            "label": "Saves"
+          },
+          {
+            "name": "possessionPct",
+            "displayValue": "61.9",
+            "label": "Possession"
+          },
+          {
+            "name": "totalShots",
+            "displayValue": "21",
+            "label": "SHOTS"
+          },
+          {
+            "name": "shotsOnTarget",
+            "displayValue": "4",
+            "label": "ON GOAL"
+          },
+          {
+            "name": "shotPct",
+            "displayValue": "0.2",
+            "label": "On Target %"
+          },
+          {
+            "name": "penaltyKickGoals",
+            "displayValue": "0",
+            "label": "Penalty Goals"
+          },
+          {
+            "name": "penaltyKickShots",
+            "displayValue": "1",
+            "label": "Penalty Kicks Taken"
+          },
+          {
+            "name": "accuratePasses",
+            "displayValue": "458",
+            "label": "Accurate Passes"
+          },
+          {
+            "name": "totalPasses",
+            "displayValue": "542",
+            "label": "Passes"
+          },
+          {
+            "name": "passPct",
+            "displayValue": "0.8",
+            "label": "Pass Completion %"
+          },
+          {
+            "name": "accurateCrosses",
+            "displayValue": "9",
+            "label": "Accurate Crosses"
+          },
+          {
+            "name": "totalCrosses",
+            "displayValue": "28",
+            "label": "Crosses"
+          },
+          {
+            "name": "crossPct",
+            "displayValue": "0.3",
+            "label": "Cross %"
+          },
+          {
+            "name": "totalLongBalls",
+            "displayValue": "70",
+            "label": "Long Balls"
+          },
+          {
+            "name": "accurateLongBalls",
+            "displayValue": "39",
+            "label": "Accurate Long Balls"
+          },
+          {
+            "name": "longballPct",
+            "displayValue": "0.6",
+            "label": "Long Balls %"
+          },
+          {
+            "name": "blockedShots",
+            "displayValue": "5",
+            "label": "Blocked Shots"
+          },
+          {
+            "name": "effectiveTackles",
+            "displayValue": "7",
+            "label": "Effective Tackles"
+          },
+          {
+            "name": "totalTackles",
+            "displayValue": "10",
+            "label": "Tackles"
+          },
+          {
+            "name": "tacklePct",
+            "displayValue": "0.7",
+            "label": "Tackle %"
+          },
+          {
+            "name": "interceptions",
+            "displayValue": "9",
+            "label": "Interceptions"
+          },
+          {
+            "name": "effectiveClearance",
+            "displayValue": "24",
+            "label": "Effective Clearances"
+          },
+          {
+            "name": "totalClearance",
+            "displayValue": "24",
+            "label": "Clearances"
+          }
+        ],
+        "displayOrder": 2,
+        "homeAway": "away"
+      }
+    ]
+  },
+  "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/summary?event=401882870"
+}

@@ -1,8 +1,8 @@
 {
   "status": "scored",
-  "scored_matches": 32,
-  "accuracy": 0.65625,
-  "log_loss": 0.833205770031055,
+  "scored_matches": 42,
+  "accuracy": 0.6666666666666666,
+  "log_loss": 0.8877464240733175,
   "rule": "Latest archived prediction generated before kickoff; scores from canonical dated final statistics only.",
   "predictions": [
     {
@@ -452,6 +452,146 @@
       "outcome": 0,
       "hit": true,
       "log_loss": 0.4923184103169162
+    },
+    {
+      "fixture_id": "575368",
+      "date": "2026-10-21",
+      "model": "attack-defence-v2",
+      "generated_at": "2026-10-19T03:57:26.523666+00:00",
+      "probabilities": [
+        0.5956315499541903,
+        0.1920496172570189,
+        0.21231883278879077
+      ],
+      "outcome": 0,
+      "hit": true,
+      "log_loss": 0.5181330078589986
+    },
+    {
+      "fixture_id": "575369",
+      "date": "2026-10-21",
+      "model": "attack-defence-v2",
+      "generated_at": "2026-10-19T03:57:27.139934+00:00",
+      "probabilities": [
+        0.7224648109748774,
+        0.16025600870960752,
+        0.11727918031551508
+      ],
+      "outcome": 2,
+      "hit": false,
+      "log_loss": 2.143198029992409
+    },
+    {
+      "fixture_id": "575375",
+      "date": "2026-10-21",
+      "model": "attack-defence-v2",
+      "generated_at": "2026-10-19T03:57:29.100140+00:00",
+      "probabilities": [
+        0.8910944549201909,
+        0.07081608474889318,
+        0.03808946033091581
+      ],
+      "outcome": 2,
+      "hit": false,
+      "log_loss": 3.267817666853591
+    },
+    {
+      "fixture_id": "575370",
+      "date": "2026-10-21",
+      "model": "attack-defence-v2",
+      "generated_at": "2026-10-19T03:57:30.342600+00:00",
+      "probabilities": [
+        0.7467861955735748,
+        0.13703116815316296,
+        0.11618263627326227
+      ],
+      "outcome": 0,
+      "hit": true,
+      "log_loss": 0.29197635225566826
+    },
+    {
+      "fixture_id": "575371",
+      "date": "2026-10-21",
+      "model": "attack-defence-v2",
+      "generated_at": "2026-10-19T03:57:27.944111+00:00",
+      "probabilities": [
+        0.7778706425165897,
+        0.11833248216785379,
+        0.10379687531555655
+      ],
+      "outcome": 0,
+      "hit": true,
+      "log_loss": 0.25119503788689324
+    },
+    {
+      "fixture_id": "575372",
+      "date": "2026-10-21",
+      "model": "attack-defence-v2",
+      "generated_at": "2026-10-19T03:57:30.998227+00:00",
+      "probabilities": [
+        0.5716258244553202,
+        0.19670586609896465,
+        0.23166830944571523
+      ],
+      "outcome": 1,
+      "hit": false,
+      "log_loss": 1.626045731464626
+    },
+    {
+      "fixture_id": "575373",
+      "date": "2026-10-21",
+      "model": "attack-defence-v2",
+      "generated_at": "2026-10-19T03:57:31.574773+00:00",
+      "probabilities": [
+        0.5551226702241802,
+        0.1816154405347732,
+        0.26326188924104665
+      ],
+      "outcome": 0,
+      "hit": true,
+      "log_loss": 0.5885661622277112
+    },
+    {
+      "fixture_id": "575374",
+      "date": "2026-10-21",
+      "model": "attack-defence-v2",
+      "generated_at": "2026-10-19T03:57:29.717770+00:00",
+      "probabilities": [
+        0.614371683927257,
+        0.17967552968078915,
+        0.2059527863919538
+      ],
+      "outcome": 0,
+      "hit": true,
+      "log_loss": 0.4871551855687096
+    },
+    {
+      "fixture_id": "575376",
+      "date": "2026-10-21",
+      "model": "attack-defence-v2",
+      "generated_at": "2026-10-19T03:57:28.524427+00:00",
+      "probabilities": [
+        0.6376054434687379,
+        0.16741076983887104,
+        0.19498378669239103
+      ],
+      "outcome": 0,
+      "hit": true,
+      "log_loss": 0.45003561410729015
+    },
+    {
+      "fixture_id": "564685",
+      "date": "2026-10-21",
+      "model": "attack-defence-v2",
+      "generated_at": "2026-10-19T03:56:50.790601+00:00",
+      "probabilities": [
+        0.3683792201482886,
+        0.27416991590929246,
+        0.35745086394241893
+      ],
+      "outcome": 0,
+      "hit": true,
+      "log_loss": 0.9986423818696721
     }
   ]
 }

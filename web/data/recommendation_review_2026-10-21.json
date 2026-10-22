@@ -1,0 +1,1126 @@
+{
+  "date": "2026-10-21",
+  "reviewed_at": "2026-10-22T20:18:37.702989+00:00",
+  "frozen_shortlist_sha256": "86d54bf7e7c077666215e75b21529307ce0a8ffc414dac25116af9a171d05b06",
+  "matches": [
+    {
+      "fixture_id": "564685",
+      "home": "Levante",
+      "away": "Ath Bilbao",
+      "metrics": {
+        "goals": [
+          3,
+          1
+        ],
+        "shots": [
+          12,
+          21
+        ],
+        "sot": [
+          7,
+          4
+        ],
+        "fouls": [
+          13,
+          12
+        ],
+        "corners": [
+          3,
+          9
+        ],
+        "cards": [
+          2,
+          2
+        ]
+      },
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401882870/athletic-club-levante"
+    },
+    {
+      "fixture_id": "575368",
+      "home": "Como",
+      "away": "Man United",
+      "metrics": {
+        "goals": [
+          4,
+          1
+        ],
+        "shots": [
+          11,
+          13
+        ],
+        "sot": [
+          8,
+          4
+        ],
+        "fouls": [
+          10,
+          11
+        ],
+        "corners": [
+          1,
+          4
+        ],
+        "cards": [
+          1,
+          3
+        ]
+      },
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401915395/manchester-united-como"
+    },
+    {
+      "fixture_id": "575369",
+      "home": "Lille",
+      "away": "Galatasaray",
+      "metrics": {
+        "goals": [
+          2,
+          4
+        ],
+        "shots": [
+          15,
+          10
+        ],
+        "sot": [
+          5,
+          4
+        ],
+        "fouls": [
+          9,
+          10
+        ],
+        "corners": [
+          3,
+          3
+        ],
+        "cards": [
+          3,
+          1
+        ]
+      },
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401915396/galatasaray-lille"
+    },
+    {
+      "fixture_id": "575371",
+      "home": "Inter",
+      "away": "Shakhtar Donetsk",
+      "metrics": {
+        "goals": [
+          1,
+          0
+        ],
+        "shots": [
+          13,
+          12
+        ],
+        "sot": [
+          5,
+          4
+        ],
+        "fouls": [
+          9,
+          10
+        ],
+        "corners": [
+          5,
+          4
+        ],
+        "cards": [
+          3,
+          2
+        ]
+      },
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401915390/shakhtar-donetsk-internazionale"
+    },
+    {
+      "fixture_id": "575376",
+      "home": "Betis",
+      "away": "Feyenoord",
+      "metrics": {
+        "goals": [
+          1,
+          0
+        ],
+        "shots": [
+          23,
+          12
+        ],
+        "sot": [
+          10,
+          2
+        ],
+        "fouls": [
+          8,
+          10
+        ],
+        "corners": [
+          4,
+          4
+        ],
+        "cards": [
+          1,
+          2
+        ]
+      },
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401915389/feyenoord-rotterdam-real-betis"
+    },
+    {
+      "fixture_id": "575375",
+      "home": "Sporting CP",
+      "away": "LASK",
+      "metrics": {
+        "goals": [
+          2,
+          3
+        ],
+        "shots": [
+          16,
+          11
+        ],
+        "sot": [
+          4,
+          7
+        ],
+        "fouls": [
+          10,
+          22
+        ],
+        "corners": [
+          7,
+          4
+        ],
+        "cards": [
+          2,
+          5
+        ]
+      },
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401915391/lask-linz-sporting-cp"
+    },
+    {
+      "fixture_id": "575374",
+      "home": "Aston Villa",
+      "away": "Viking FK",
+      "metrics": {
+        "goals": [
+          3,
+          1
+        ],
+        "shots": [
+          21,
+          10
+        ],
+        "sot": [
+          10,
+          3
+        ],
+        "fouls": [
+          7,
+          14
+        ],
+        "corners": [
+          8,
+          6
+        ],
+        "cards": [
+          0,
+          0
+        ]
+      },
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401915394/viking-fk-aston-villa"
+    },
+    {
+      "fixture_id": "575370",
+      "home": "Real Madrid",
+      "away": "RB Leipzig",
+      "metrics": {
+        "goals": [
+          4,
+          1
+        ],
+        "shots": [
+          18,
+          11
+        ],
+        "sot": [
+          11,
+          6
+        ],
+        "fouls": [
+          13,
+          12
+        ],
+        "corners": [
+          7,
+          1
+        ],
+        "cards": [
+          1,
+          1
+        ]
+      },
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401915313/rb-leipzig-real-madrid"
+    },
+    {
+      "fixture_id": "575372",
+      "home": "Bayern Munich",
+      "away": "Arsenal",
+      "metrics": {
+        "goals": [
+          2,
+          2
+        ],
+        "shots": [
+          13,
+          14
+        ],
+        "sot": [
+          5,
+          5
+        ],
+        "fouls": [
+          15,
+          6
+        ],
+        "corners": [
+          3,
+          5
+        ],
+        "cards": [
+          0,
+          2
+        ]
+      },
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401915312/arsenal-bayern-munich"
+    },
+    {
+      "fixture_id": "575373",
+      "home": "Club Brugge KV",
+      "away": "Lens",
+      "metrics": {
+        "goals": [
+          3,
+          0
+        ],
+        "shots": [
+          11,
+          19
+        ],
+        "sot": [
+          5,
+          7
+        ],
+        "fouls": [
+          6,
+          10
+        ],
+        "corners": [
+          1,
+          5
+        ],
+        "cards": [
+          2,
+          2
+        ]
+      },
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401915388/lens-club-brugge"
+    }
+  ],
+  "tiers": [
+    {
+      "fixture_id": "564685",
+      "selection_id": "handicap:total:home:1.5:",
+      "match": "Levante – Ath Bilbao",
+      "market": "Hándicap de goles",
+      "label": "Levante +1,5",
+      "probability": 0.8398679834468926,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 3,
+      "actual_away": 1,
+      "tier": "Conservadora"
+    },
+    {
+      "fixture_id": "564685",
+      "selection_id": "double_chance:total:12:None:",
+      "match": "Levante – Ath Bilbao",
+      "market": "Doble oportunidad",
+      "label": "Cualquiera gana, sin empate",
+      "probability": 0.7258300840907075,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 3,
+      "actual_away": 1,
+      "tier": "Normal"
+    },
+    {
+      "fixture_id": "564685",
+      "selection_id": "fouls:away:under:14.5:",
+      "match": "Levante – Ath Bilbao",
+      "market": "Faltas",
+      "label": "Ath Bilbao: menos de 14,5 faltas",
+      "probability": 0.5946264749561174,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "fouls",
+      "actual_home": 13,
+      "actual_away": 12,
+      "tier": "Arriesgada"
+    },
+    {
+      "fixture_id": "575368",
+      "selection_id": "goals:away:under:2.5:",
+      "match": "Como – Man United",
+      "market": "Goles",
+      "label": "Man United: menos de 2,5 goles",
+      "probability": 0.8208971694241425,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 4,
+      "actual_away": 1,
+      "tier": "Conservadora"
+    },
+    {
+      "fixture_id": "575368",
+      "selection_id": "corners:total:under:10.5:",
+      "match": "Como – Man United",
+      "market": "Córners",
+      "label": "Menos de 10,5 córners",
+      "probability": 0.7102176869144191,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "corners",
+      "actual_home": 1,
+      "actual_away": 4,
+      "tier": "Normal"
+    },
+    {
+      "fixture_id": "575368",
+      "selection_id": "handicap:total:away:1.5:",
+      "match": "Como – Man United",
+      "market": "Hándicap de goles",
+      "label": "Man United +1,5",
+      "probability": 0.6094869944760926,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "goals",
+      "actual_home": 4,
+      "actual_away": 1,
+      "tier": "Arriesgada"
+    },
+    {
+      "fixture_id": "575370",
+      "selection_id": "goals:total:over:2.5:",
+      "match": "Real Madrid – RB Leipzig",
+      "market": "Goles",
+      "label": "Más de 2,5 goles",
+      "probability": 0.8265424348013183,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 4,
+      "actual_away": 1,
+      "tier": "Conservadora"
+    },
+    {
+      "fixture_id": "575370",
+      "selection_id": "btts:total:yes:None:",
+      "match": "Real Madrid – RB Leipzig",
+      "market": "Ambos marcan",
+      "label": "Ambos marcan: sí",
+      "probability": 0.6975661444913981,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 4,
+      "actual_away": 1,
+      "tier": "Normal"
+    },
+    {
+      "fixture_id": "575370",
+      "selection_id": "result_goals:total:home:2.5:over",
+      "match": "Real Madrid – RB Leipzig",
+      "market": "Resultado y goles",
+      "label": "Gana Real Madrid y más de 2,5 goles",
+      "probability": 0.6557961050875657,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 4,
+      "actual_away": 1,
+      "tier": "Arriesgada"
+    },
+    {
+      "fixture_id": "575372",
+      "selection_id": "goals:away:under:2.5:",
+      "match": "Bayern Munich – Arsenal",
+      "market": "Goles",
+      "label": "Arsenal: menos de 2,5 goles",
+      "probability": 0.8042090034153837,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 2,
+      "tier": "Conservadora"
+    },
+    {
+      "fixture_id": "575372",
+      "selection_id": "fouls:total:under:23.5:",
+      "match": "Bayern Munich – Arsenal",
+      "market": "Faltas",
+      "label": "Menos de 23,5 faltas totales",
+      "probability": 0.6986312860897763,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "fouls",
+      "actual_home": 15,
+      "actual_away": 6,
+      "tier": "Normal"
+    },
+    {
+      "fixture_id": "575372",
+      "selection_id": "shots:total:under:28.5:",
+      "match": "Bayern Munich – Arsenal",
+      "market": "Remates",
+      "label": "Menos de 28,5 remates totales",
+      "probability": 0.6096889583613435,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "shots",
+      "actual_home": 13,
+      "actual_away": 14,
+      "tier": "Arriesgada"
+    }
+  ],
+  "unique_selections": [
+    {
+      "fixture_id": "564685",
+      "selection_id": "double_chance:total:12:None:",
+      "match": "Levante – Ath Bilbao",
+      "market": "Doble oportunidad",
+      "label": "Cualquiera gana, sin empate",
+      "probability": 0.7258300840907075,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 3,
+      "actual_away": 1
+    },
+    {
+      "fixture_id": "564685",
+      "selection_id": "handicap:total:home:1.5:",
+      "match": "Levante – Ath Bilbao",
+      "market": "Hándicap de goles",
+      "label": "Levante +1,5",
+      "probability": 0.8398679834468926,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 3,
+      "actual_away": 1
+    },
+    {
+      "fixture_id": "564685",
+      "selection_id": "goals:total:over:1.5:",
+      "match": "Levante – Ath Bilbao",
+      "market": "Goles",
+      "label": "Más de 1,5 goles",
+      "probability": 0.7391770073252849,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 3,
+      "actual_away": 1
+    },
+    {
+      "fixture_id": "564685",
+      "selection_id": "shots:away:under:16.5:",
+      "match": "Levante – Ath Bilbao",
+      "market": "Remates",
+      "label": "Ath Bilbao: menos de 16,5 remates",
+      "probability": 0.7425186041807086,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "shots",
+      "actual_home": 12,
+      "actual_away": 21
+    },
+    {
+      "fixture_id": "564685",
+      "selection_id": "sot:away:under:5.5:",
+      "match": "Levante – Ath Bilbao",
+      "market": "Tiros al arco",
+      "label": "Ath Bilbao: menos de 5,5 tiros al arco",
+      "probability": 0.7306767165100417,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "sot",
+      "actual_home": 7,
+      "actual_away": 4
+    },
+    {
+      "fixture_id": "564685",
+      "selection_id": "fouls:away:under:16.5:",
+      "match": "Levante – Ath Bilbao",
+      "market": "Faltas",
+      "label": "Ath Bilbao: menos de 16,5 faltas",
+      "probability": 0.7533932078804754,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "fouls",
+      "actual_home": 13,
+      "actual_away": 12
+    },
+    {
+      "fixture_id": "564685",
+      "selection_id": "corners:total:over:7.5:",
+      "match": "Levante – Ath Bilbao",
+      "market": "Córners",
+      "label": "Más de 7,5 córners",
+      "probability": 0.7354468737005375,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "corners",
+      "actual_home": 3,
+      "actual_away": 9
+    },
+    {
+      "fixture_id": "564685",
+      "selection_id": "fouls:away:under:14.5:",
+      "match": "Levante – Ath Bilbao",
+      "market": "Faltas",
+      "label": "Ath Bilbao: menos de 14,5 faltas",
+      "probability": 0.5946264749561174,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "fouls",
+      "actual_home": 13,
+      "actual_away": 12
+    },
+    {
+      "fixture_id": "575368",
+      "selection_id": "double_chance:total:1X:None:",
+      "match": "Como – Man United",
+      "market": "Doble oportunidad",
+      "label": "Como o empate",
+      "probability": 0.7876811672112092,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 4,
+      "actual_away": 1
+    },
+    {
+      "fixture_id": "575368",
+      "selection_id": "handicap:total:away:2.5:",
+      "match": "Como – Man United",
+      "market": "Hándicap de goles",
+      "label": "Man United +2,5",
+      "probability": 0.7835104163400042,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "goals",
+      "actual_home": 4,
+      "actual_away": 1
+    },
+    {
+      "fixture_id": "575368",
+      "selection_id": "goals:home:under:3.5:",
+      "match": "Como – Man United",
+      "market": "Goles",
+      "label": "Como: menos de 3,5 goles",
+      "probability": 0.7640496996662398,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "goals",
+      "actual_home": 4,
+      "actual_away": 1
+    },
+    {
+      "fixture_id": "575368",
+      "selection_id": "shots:total:under:30.5:",
+      "match": "Como – Man United",
+      "market": "Remates",
+      "label": "Menos de 30,5 remates totales",
+      "probability": 0.7223103818049074,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "shots",
+      "actual_home": 11,
+      "actual_away": 13
+    },
+    {
+      "fixture_id": "575368",
+      "selection_id": "sot:total:over:6.5:",
+      "match": "Como – Man United",
+      "market": "Tiros al arco",
+      "label": "Más de 6,5 tiros al arco totales",
+      "probability": 0.7412186193074954,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "sot",
+      "actual_home": 8,
+      "actual_away": 4
+    },
+    {
+      "fixture_id": "575368",
+      "selection_id": "fouls:away:over:8.5:",
+      "match": "Como – Man United",
+      "market": "Faltas",
+      "label": "Man United: más de 8,5 faltas",
+      "probability": 0.718281508066482,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "fouls",
+      "actual_home": 10,
+      "actual_away": 11
+    },
+    {
+      "fixture_id": "575368",
+      "selection_id": "corners:away:under:5.5:",
+      "match": "Como – Man United",
+      "market": "Córners",
+      "label": "Man United: menos de 5,5 córners",
+      "probability": 0.7426600469238516,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "corners",
+      "actual_home": 1,
+      "actual_away": 4
+    },
+    {
+      "fixture_id": "575368",
+      "selection_id": "goals:away:under:2.5:",
+      "match": "Como – Man United",
+      "market": "Goles",
+      "label": "Man United: menos de 2,5 goles",
+      "probability": 0.8208971694241425,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 4,
+      "actual_away": 1
+    },
+    {
+      "fixture_id": "575368",
+      "selection_id": "corners:total:under:10.5:",
+      "match": "Como – Man United",
+      "market": "Córners",
+      "label": "Menos de 10,5 córners",
+      "probability": 0.7102176869144191,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "corners",
+      "actual_home": 1,
+      "actual_away": 4
+    },
+    {
+      "fixture_id": "575368",
+      "selection_id": "handicap:total:away:1.5:",
+      "match": "Como – Man United",
+      "market": "Hándicap de goles",
+      "label": "Man United +1,5",
+      "probability": 0.6094869944760926,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "goals",
+      "actual_home": 4,
+      "actual_away": 1
+    },
+    {
+      "fixture_id": "575370",
+      "selection_id": "result:total:home:None:",
+      "match": "Real Madrid – RB Leipzig",
+      "market": "Resultado 1X2",
+      "label": "Gana Real Madrid",
+      "probability": 0.7467861955735748,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 4,
+      "actual_away": 1
+    },
+    {
+      "fixture_id": "575370",
+      "selection_id": "handicap:total:home:-1.5:",
+      "match": "Real Madrid – RB Leipzig",
+      "market": "Hándicap de goles",
+      "label": "Real Madrid -1,5",
+      "probability": 0.5663563183301327,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 4,
+      "actual_away": 1
+    },
+    {
+      "fixture_id": "575370",
+      "selection_id": "goals:total:over:2.5:",
+      "match": "Real Madrid – RB Leipzig",
+      "market": "Goles",
+      "label": "Más de 2,5 goles",
+      "probability": 0.8265424348013183,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 4,
+      "actual_away": 1
+    },
+    {
+      "fixture_id": "575370",
+      "selection_id": "btts:total:yes:None:",
+      "match": "Real Madrid – RB Leipzig",
+      "market": "Ambos marcan",
+      "label": "Ambos marcan: sí",
+      "probability": 0.6975661444913981,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 4,
+      "actual_away": 1
+    },
+    {
+      "fixture_id": "575370",
+      "selection_id": "result_goals:total:1X:2.5:over",
+      "match": "Real Madrid – RB Leipzig",
+      "market": "Resultado y goles",
+      "label": "Real Madrid o empate y más de 2,5 goles",
+      "probability": 0.7321301668880542,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 4,
+      "actual_away": 1
+    },
+    {
+      "fixture_id": "575370",
+      "selection_id": "shots:away:under:16.5:",
+      "match": "Real Madrid – RB Leipzig",
+      "market": "Remates",
+      "label": "RB Leipzig: menos de 16,5 remates",
+      "probability": 0.7364876647959789,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "shots",
+      "actual_home": 18,
+      "actual_away": 11
+    },
+    {
+      "fixture_id": "575370",
+      "selection_id": "sot:home:under:8.5:",
+      "match": "Real Madrid – RB Leipzig",
+      "market": "Tiros al arco",
+      "label": "Real Madrid: menos de 8,5 tiros al arco",
+      "probability": 0.7424618927407259,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "sot",
+      "actual_home": 11,
+      "actual_away": 6
+    },
+    {
+      "fixture_id": "575370",
+      "selection_id": "fouls:away:under:13.5:",
+      "match": "Real Madrid – RB Leipzig",
+      "market": "Faltas",
+      "label": "RB Leipzig: menos de 13,5 faltas",
+      "probability": 0.7389606660222137,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "fouls",
+      "actual_home": 13,
+      "actual_away": 12
+    },
+    {
+      "fixture_id": "575370",
+      "selection_id": "corners:total:over:7.5:",
+      "match": "Real Madrid – RB Leipzig",
+      "market": "Córners",
+      "label": "Más de 7,5 córners",
+      "probability": 0.7548427791722402,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "corners",
+      "actual_home": 7,
+      "actual_away": 1
+    },
+    {
+      "fixture_id": "575370",
+      "selection_id": "result_goals:total:home:2.5:over",
+      "match": "Real Madrid – RB Leipzig",
+      "market": "Resultado y goles",
+      "label": "Gana Real Madrid y más de 2,5 goles",
+      "probability": 0.6557961050875657,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 4,
+      "actual_away": 1
+    },
+    {
+      "fixture_id": "575372",
+      "selection_id": "double_chance:total:12:None:",
+      "match": "Bayern Munich – Arsenal",
+      "market": "Doble oportunidad",
+      "label": "Cualquiera gana, sin empate",
+      "probability": 0.8032941339010354,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 2
+    },
+    {
+      "fixture_id": "575372",
+      "selection_id": "goals:away:under:2.5:",
+      "match": "Bayern Munich – Arsenal",
+      "market": "Goles",
+      "label": "Arsenal: menos de 2,5 goles",
+      "probability": 0.8042090034153837,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 2
+    },
+    {
+      "fixture_id": "575372",
+      "selection_id": "shots:away:over:7.5:",
+      "match": "Bayern Munich – Arsenal",
+      "market": "Remates",
+      "label": "Arsenal: más de 7,5 remates",
+      "probability": 0.735987102444715,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "shots",
+      "actual_home": 13,
+      "actual_away": 14
+    },
+    {
+      "fixture_id": "575372",
+      "selection_id": "sot:away:under:5.5:",
+      "match": "Bayern Munich – Arsenal",
+      "market": "Tiros al arco",
+      "label": "Arsenal: menos de 5,5 tiros al arco",
+      "probability": 0.7890475595331995,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "sot",
+      "actual_home": 5,
+      "actual_away": 5
+    },
+    {
+      "fixture_id": "575372",
+      "selection_id": "fouls:total:over:17.5:",
+      "match": "Bayern Munich – Arsenal",
+      "market": "Faltas",
+      "label": "Más de 17,5 faltas totales",
+      "probability": 0.7338012068342965,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "fouls",
+      "actual_home": 15,
+      "actual_away": 6
+    },
+    {
+      "fixture_id": "575372",
+      "selection_id": "corners:total:under:12.5:",
+      "match": "Bayern Munich – Arsenal",
+      "market": "Córners",
+      "label": "Menos de 12,5 córners",
+      "probability": 0.7666500076968296,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "corners",
+      "actual_home": 3,
+      "actual_away": 5
+    },
+    {
+      "fixture_id": "575372",
+      "selection_id": "fouls:total:under:23.5:",
+      "match": "Bayern Munich – Arsenal",
+      "market": "Faltas",
+      "label": "Menos de 23,5 faltas totales",
+      "probability": 0.6986312860897763,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "fouls",
+      "actual_home": 15,
+      "actual_away": 6
+    },
+    {
+      "fixture_id": "575372",
+      "selection_id": "shots:total:under:28.5:",
+      "match": "Bayern Munich – Arsenal",
+      "market": "Remates",
+      "label": "Menos de 28,5 remates totales",
+      "probability": 0.6096889583613435,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "shots",
+      "actual_home": 13,
+      "actual_away": 14
+    }
+  ],
+  "tier_summary": {
+    "selections": 12,
+    "settled": 12,
+    "won": 11,
+    "lost": 1,
+    "unverified": 0,
+    "hit_rate": 0.9166666666666666
+  },
+  "unique_summary": {
+    "selections": 36,
+    "settled": 36,
+    "won": 30,
+    "lost": 6,
+    "unverified": 0,
+    "hit_rate": 0.8333333333333334
+  },
+  "by_tier": {
+    "Conservadora": {
+      "selections": 4,
+      "settled": 4,
+      "won": 4,
+      "lost": 0,
+      "unverified": 0,
+      "hit_rate": 1.0
+    },
+    "Normal": {
+      "selections": 4,
+      "settled": 4,
+      "won": 4,
+      "lost": 0,
+      "unverified": 0,
+      "hit_rate": 1.0
+    },
+    "Arriesgada": {
+      "selections": 4,
+      "settled": 4,
+      "won": 3,
+      "lost": 1,
+      "unverified": 0,
+      "hit_rate": 0.75
+    }
+  },
+  "parlays": [
+    {
+      "size": 3,
+      "status": "won",
+      "probability_before_match": 0.5698557558464199,
+      "legs": [
+        {
+          "fixture_id": "564685",
+          "selection_id": "handicap:total:home:1.5:",
+          "match": "Levante – Ath Bilbao",
+          "market": "Hándicap de goles",
+          "label": "Levante +1,5",
+          "probability": 0.8398679834468926,
+          "status": "won",
+          "hit": true,
+          "actual_metric": "goals",
+          "actual_home": 3,
+          "actual_away": 1
+        },
+        {
+          "fixture_id": "575368",
+          "selection_id": "goals:away:under:2.5:",
+          "match": "Como – Man United",
+          "market": "Goles",
+          "label": "Man United: menos de 2,5 goles",
+          "probability": 0.8208971694241425,
+          "status": "won",
+          "hit": true,
+          "actual_metric": "goals",
+          "actual_home": 4,
+          "actual_away": 1
+        },
+        {
+          "fixture_id": "575370",
+          "selection_id": "goals:total:over:2.5:",
+          "match": "Real Madrid – RB Leipzig",
+          "market": "Goles",
+          "label": "Más de 2,5 goles",
+          "probability": 0.8265424348013183,
+          "status": "won",
+          "hit": true,
+          "actual_metric": "goals",
+          "actual_home": 4,
+          "actual_away": 1
+        }
+      ]
+    },
+    {
+      "size": 4,
+      "status": "won",
+      "probability_before_match": 0.45828312949976957,
+      "legs": [
+        {
+          "fixture_id": "564685",
+          "selection_id": "handicap:total:home:1.5:",
+          "match": "Levante – Ath Bilbao",
+          "market": "Hándicap de goles",
+          "label": "Levante +1,5",
+          "probability": 0.8398679834468926,
+          "status": "won",
+          "hit": true,
+          "actual_metric": "goals",
+          "actual_home": 3,
+          "actual_away": 1
+        },
+        {
+          "fixture_id": "575368",
+          "selection_id": "goals:away:under:2.5:",
+          "match": "Como – Man United",
+          "market": "Goles",
+          "label": "Man United: menos de 2,5 goles",
+          "probability": 0.8208971694241425,
+          "status": "won",
+          "hit": true,
+          "actual_metric": "goals",
+          "actual_home": 4,
+          "actual_away": 1
+        },
+        {
+          "fixture_id": "575370",
+          "selection_id": "goals:total:over:2.5:",
+          "match": "Real Madrid – RB Leipzig",
+          "market": "Goles",
+          "label": "Más de 2,5 goles",
+          "probability": 0.8265424348013183,
+          "status": "won",
+          "hit": true,
+          "actual_metric": "goals",
+          "actual_home": 4,
+          "actual_away": 1
+        },
+        {
+          "fixture_id": "575372",
+          "selection_id": "goals:away:under:2.5:",
+          "match": "Bayern Munich – Arsenal",
+          "market": "Goles",
+          "label": "Arsenal: menos de 2,5 goles",
+          "probability": 0.8042090034153837,
+          "status": "won",
+          "hit": true,
+          "actual_metric": "goals",
+          "actual_home": 2,
+          "actual_away": 2
+        }
+      ]
+    }
+  ],
+  "analysis": [
+    "Fijas principales: 11/12. Mercados únicos: 30/36. Se conservan las probabilidades previas y se registran los resultados, sin reajustar el modelo con esta jornada.",
+    "Conservadora: 4/4 acertadas.",
+    "Normal: 4/4 acertadas.",
+    "Arriesgada: 3/4 acertadas.",
+    "Falló Man United +1,5 en Como – Man United: resultado final 4–1 (goals).",
+    "6 partidos no tenían fijas principales publicadas; no se cuentan como fallos ni aciertos.",
+    "Combinada de 3: 3/3 selecciones cumplidas.",
+    "Combinada de 4: 4/4 selecciones cumplidas."
+  ]
+}

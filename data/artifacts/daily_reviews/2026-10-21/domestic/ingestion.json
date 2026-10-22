@@ -1,0 +1,363 @@
+{
+  "date": "2026-10-21",
+  "ingested_at": "2026-10-22T20:17:23.963606+00:00",
+  "provider": "ESPN final boxscores, final scores cross-checked with football-data.org",
+  "matches": [
+    {
+      "espn_event_id": "401882870",
+      "kickoff_utc": "2026-10-21T18:00Z",
+      "home": "Levante",
+      "away": "Ath Bilbao",
+      "metrics": {
+        "goals": [
+          3,
+          1
+        ],
+        "shots": [
+          12,
+          21
+        ],
+        "sot": [
+          7,
+          4
+        ],
+        "fouls": [
+          13,
+          12
+        ],
+        "corners": [
+          3,
+          9
+        ],
+        "cards": [
+          2,
+          2
+        ]
+      },
+      "yellow": [
+        2,
+        1
+      ],
+      "red": [
+        0,
+        1
+      ],
+      "additional_statistics": {
+        "home": [
+          {
+            "name": "foulsCommitted",
+            "displayValue": "13",
+            "label": "Fouls"
+          },
+          {
+            "name": "yellowCards",
+            "displayValue": "2",
+            "label": "Yellow Cards"
+          },
+          {
+            "name": "redCards",
+            "displayValue": "0",
+            "label": "Red Cards"
+          },
+          {
+            "name": "offsides",
+            "displayValue": "0",
+            "label": "Offsides"
+          },
+          {
+            "name": "wonCorners",
+            "displayValue": "3",
+            "label": "Corner Kicks"
+          },
+          {
+            "name": "saves",
+            "displayValue": "3",
+            "label": "Saves"
+          },
+          {
+            "name": "possessionPct",
+            "displayValue": "38.1",
+            "label": "Possession"
+          },
+          {
+            "name": "totalShots",
+            "displayValue": "12",
+            "label": "SHOTS"
+          },
+          {
+            "name": "shotsOnTarget",
+            "displayValue": "7",
+            "label": "ON GOAL"
+          },
+          {
+            "name": "shotPct",
+            "displayValue": "0.6",
+            "label": "On Target %"
+          },
+          {
+            "name": "penaltyKickGoals",
+            "displayValue": "0",
+            "label": "Penalty Goals"
+          },
+          {
+            "name": "penaltyKickShots",
+            "displayValue": "0",
+            "label": "Penalty Kicks Taken"
+          },
+          {
+            "name": "accuratePasses",
+            "displayValue": "254",
+            "label": "Accurate Passes"
+          },
+          {
+            "name": "totalPasses",
+            "displayValue": "331",
+            "label": "Passes"
+          },
+          {
+            "name": "passPct",
+            "displayValue": "0.8",
+            "label": "Pass Completion %"
+          },
+          {
+            "name": "accurateCrosses",
+            "displayValue": "6",
+            "label": "Accurate Crosses"
+          },
+          {
+            "name": "totalCrosses",
+            "displayValue": "16",
+            "label": "Crosses"
+          },
+          {
+            "name": "crossPct",
+            "displayValue": "0.4",
+            "label": "Cross %"
+          },
+          {
+            "name": "totalLongBalls",
+            "displayValue": "65",
+            "label": "Long Balls"
+          },
+          {
+            "name": "accurateLongBalls",
+            "displayValue": "30",
+            "label": "Accurate Long Balls"
+          },
+          {
+            "name": "longballPct",
+            "displayValue": "0.5",
+            "label": "Long Balls %"
+          },
+          {
+            "name": "blockedShots",
+            "displayValue": "2",
+            "label": "Blocked Shots"
+          },
+          {
+            "name": "effectiveTackles",
+            "displayValue": "13",
+            "label": "Effective Tackles"
+          },
+          {
+            "name": "totalTackles",
+            "displayValue": "15",
+            "label": "Tackles"
+          },
+          {
+            "name": "tacklePct",
+            "displayValue": "0.9",
+            "label": "Tackle %"
+          },
+          {
+            "name": "interceptions",
+            "displayValue": "7",
+            "label": "Interceptions"
+          },
+          {
+            "name": "effectiveClearance",
+            "displayValue": "40",
+            "label": "Effective Clearances"
+          },
+          {
+            "name": "totalClearance",
+            "displayValue": "40",
+            "label": "Clearances"
+          }
+        ],
+        "away": [
+          {
+            "name": "foulsCommitted",
+            "displayValue": "12",
+            "label": "Fouls"
+          },
+          {
+            "name": "yellowCards",
+            "displayValue": "1",
+            "label": "Yellow Cards"
+          },
+          {
+            "name": "redCards",
+            "displayValue": "1",
+            "label": "Red Cards"
+          },
+          {
+            "name": "offsides",
+            "displayValue": "0",
+            "label": "Offsides"
+          },
+          {
+            "name": "wonCorners",
+            "displayValue": "9",
+            "label": "Corner Kicks"
+          },
+          {
+            "name": "saves",
+            "displayValue": "4",
+            "label": "Saves"
+          },
+          {
+            "name": "possessionPct",
+            "displayValue": "61.9",
+            "label": "Possession"
+          },
+          {
+            "name": "totalShots",
+            "displayValue": "21",
+            "label": "SHOTS"
+          },
+          {
+            "name": "shotsOnTarget",
+            "displayValue": "4",
+            "label": "ON GOAL"
+          },
+          {
+            "name": "shotPct",
+            "displayValue": "0.2",
+            "label": "On Target %"
+          },
+          {
+            "name": "penaltyKickGoals",
+            "displayValue": "0",
+            "label": "Penalty Goals"
+          },
+          {
+            "name": "penaltyKickShots",
+            "displayValue": "1",
+            "label": "Penalty Kicks Taken"
+          },
+          {
+            "name": "accuratePasses",
+            "displayValue": "458",
+            "label": "Accurate Passes"
+          },
+          {
+            "name": "totalPasses",
+            "displayValue": "542",
+            "label": "Passes"
+          },
+          {
+            "name": "passPct",
+            "displayValue": "0.8",
+            "label": "Pass Completion %"
+          },
+          {
+            "name": "accurateCrosses",
+            "displayValue": "9",
+            "label": "Accurate Crosses"
+          },
+          {
+            "name": "totalCrosses",
+            "displayValue": "28",
+            "label": "Crosses"
+          },
+          {
+            "name": "crossPct",
+            "displayValue": "0.3",
+            "label": "Cross %"
+          },
+          {
+            "name": "totalLongBalls",
+            "displayValue": "70",
+            "label": "Long Balls"
+          },
+          {
+            "name": "accurateLongBalls",
+            "displayValue": "39",
+            "label": "Accurate Long Balls"
+          },
+          {
+            "name": "longballPct",
+            "displayValue": "0.6",
+            "label": "Long Balls %"
+          },
+          {
+            "name": "blockedShots",
+            "displayValue": "5",
+            "label": "Blocked Shots"
+          },
+          {
+            "name": "effectiveTackles",
+            "displayValue": "7",
+            "label": "Effective Tackles"
+          },
+          {
+            "name": "totalTackles",
+            "displayValue": "10",
+            "label": "Tackles"
+          },
+          {
+            "name": "tacklePct",
+            "displayValue": "0.7",
+            "label": "Tackle %"
+          },
+          {
+            "name": "interceptions",
+            "displayValue": "9",
+            "label": "Interceptions"
+          },
+          {
+            "name": "effectiveClearance",
+            "displayValue": "24",
+            "label": "Effective Clearances"
+          },
+          {
+            "name": "totalClearance",
+            "displayValue": "24",
+            "label": "Clearances"
+          }
+        ]
+      },
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401882870/athletic-club-levante",
+      "fixture_id": "564685",
+      "date": "2026-10-21",
+      "round": 6,
+      "league": "La Liga",
+      "match_id": "La Liga_2026/27_espn_401882870"
+    }
+  ],
+  "added_rows": 2,
+  "added_rows_this_run": 0,
+  "dataset_matches": 346,
+  "dataset_rows": 692,
+  "columns": [
+    "match_id",
+    "date",
+    "league",
+    "is_home",
+    "team",
+    "opponent",
+    "goals_for",
+    "goals_against",
+    "shots_for",
+    "shots_against",
+    "sot_for",
+    "sot_against",
+    "fouls_for",
+    "fouls_against",
+    "corners_for",
+    "corners_against",
+    "cards_for",
+    "cards_against"
+  ]
+}

@@ -1,0 +1,1052 @@
+{
+  "header": {
+    "id": "401915391",
+    "uid": "s:600~l:775~e:401915391",
+    "season": {
+      "year": 2026,
+      "current": true,
+      "type": 14534,
+      "name": "2026-27 UEFA Champions League, League Phase"
+    },
+    "timeValid": true,
+    "competitions": [
+      {
+        "id": "401915391",
+        "uid": "s:600~l:775~e:401915391~c:401915391",
+        "date": "2026-10-21T19:00Z",
+        "neutralSite": false,
+        "conferenceCompetition": false,
+        "boxscoreAvailable": true,
+        "commentaryAvailable": true,
+        "liveAvailable": false,
+        "onWatchESPN": false,
+        "recent": false,
+        "wallclockAvailable": true,
+        "boxscoreSource": "full",
+        "playByPlaySource": "full",
+        "competitors": [
+          {
+            "id": "2250",
+            "uid": "s:600~t:2250",
+            "order": 0,
+            "homeAway": "home",
+            "winner": false,
+            "team": {
+              "id": "2250",
+              "guid": "83129753-aceb-0dc8-5f91-bab84a85d88e",
+              "uid": "s:600~t:2250",
+              "location": "Sporting CP",
+              "name": "Sporting CP",
+              "abbreviation": "SCP",
+              "displayName": "Sporting CP",
+              "shortDisplayName": "Sporting",
+              "color": "008127",
+              "alternateColor": "ffffff",
+              "logos": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/soccer/500/2250.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2019-05-08T16:07Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/soccer/500-dark/2250.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "dark"
+                  ],
+                  "lastUpdated": "2019-05-08T16:07Z"
+                }
+              ],
+              "groups": {
+                "name": "League Phase"
+              },
+              "links": [
+                {
+                  "rel": [
+                    "clubhouse",
+                    "desktop",
+                    "team"
+                  ],
+                  "href": "https://www.espn.com/soccer/club/_/id/2250/sporting-cp",
+                  "text": "Clubhouse"
+                }
+              ],
+              "form": "DWWDD"
+            },
+            "score": "2",
+            "linescores": [
+              {
+                "displayValue": "1"
+              },
+              {
+                "displayValue": "1"
+              }
+            ],
+            "record": [
+              {
+                "type": "total",
+                "summary": "2-0-1",
+                "displayValue": "2-0-1"
+              },
+              {
+                "type": "points",
+                "summary": "6",
+                "displayValue": "6"
+              }
+            ],
+            "possession": false
+          },
+          {
+            "id": "4411",
+            "uid": "s:600~t:4411",
+            "order": 1,
+            "homeAway": "away",
+            "winner": true,
+            "team": {
+              "id": "4411",
+              "guid": "59b800db-8347-7c7f-e4e4-e4fb06c87ad8",
+              "uid": "s:600~t:4411",
+              "location": "LASK Linz",
+              "name": "LASK Linz",
+              "abbreviation": "LAS",
+              "displayName": "LASK Linz",
+              "shortDisplayName": "LASK Linz",
+              "color": "ffffff",
+              "alternateColor": "000000",
+              "logos": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/soccer/500/4411.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2019-05-08T16:07Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/soccer/500-dark/4411.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "dark"
+                  ],
+                  "lastUpdated": "2019-05-08T16:07Z"
+                }
+              ],
+              "groups": {
+                "name": "League Phase"
+              },
+              "links": [
+                {
+                  "rel": [
+                    "clubhouse",
+                    "desktop",
+                    "team"
+                  ],
+                  "href": "https://www.espn.com/soccer/club/_/id/4411/lask-linz",
+                  "text": "Clubhouse"
+                }
+              ],
+              "form": "DWLLD"
+            },
+            "score": "3",
+            "linescores": [
+              {
+                "displayValue": "1"
+              },
+              {
+                "displayValue": "2"
+              }
+            ],
+            "record": [
+              {
+                "type": "total",
+                "summary": "1-0-2",
+                "displayValue": "1-0-2"
+              },
+              {
+                "type": "points",
+                "summary": "3",
+                "displayValue": "3"
+              }
+            ],
+            "possession": false
+          }
+        ],
+        "notes": [],
+        "status": {
+          "type": {
+            "id": "28",
+            "name": "STATUS_FULL_TIME",
+            "state": "post",
+            "completed": true,
+            "description": "Full Time",
+            "detail": "FT",
+            "shortDetail": "FT"
+          }
+        },
+        "broadcasts": [
+          {
+            "type": {
+              "id": "4",
+              "shortName": "STREAMING"
+            },
+            "market": {},
+            "media": {
+              "shortName": "Paramount+"
+            },
+            "lang": "en",
+            "region": "us",
+            "isNational": false
+          }
+        ],
+        "details": [
+          {
+            "clock": {
+              "value": 255.0,
+              "displayValue": "5'"
+            },
+            "scoringPlay": true,
+            "team": {
+              "id": "2250",
+              "uid": "s:600~t:2250",
+              "location": "Sporting CP",
+              "name": "Sporting CP",
+              "abbreviation": "SCP",
+              "displayName": "Sporting CP"
+            },
+            "participants": [
+              {
+                "athlete": {
+                  "id": "272722",
+                  "displayName": "Luis Suárez",
+                  "shortName": "L. Suárez",
+                  "links": [
+                    {
+                      "language": "en-US",
+                      "rel": [
+                        "playercard",
+                        "desktop",
+                        "athlete"
+                      ],
+                      "href": "https://www.espn.com/soccer/player/_/id/272722/luis-suarez",
+                      "text": "Player Card",
+                      "shortText": "Player Card"
+                    }
+                  ]
+                }
+              }
+            ],
+            "addedClock": {
+              "value": 0.0,
+              "displayValue": ""
+            },
+            "redCard": false,
+            "penaltyKick": true,
+            "ownGoal": false
+          },
+          {
+            "clock": {
+              "value": 868.0,
+              "displayValue": "15'"
+            },
+            "scoringPlay": true,
+            "team": {
+              "id": "4411",
+              "uid": "s:600~t:4411",
+              "location": "LASK Linz",
+              "name": "LASK Linz",
+              "abbreviation": "LAS",
+              "displayName": "LASK Linz"
+            },
+            "participants": [
+              {
+                "athlete": {
+                  "id": "37442",
+                  "displayName": "Christoph Lang",
+                  "shortName": "C. Lang",
+                  "links": [
+                    {
+                      "language": "en-US",
+                      "rel": [
+                        "playercard",
+                        "desktop",
+                        "athlete"
+                      ],
+                      "href": "https://www.espn.com/soccer/player/_/id/37442/christoph-lang",
+                      "text": "Player Card",
+                      "shortText": "Player Card"
+                    }
+                  ]
+                }
+              },
+              {
+                "athlete": {
+                  "id": "286853",
+                  "displayName": "Kasper Jørgensen",
+                  "shortName": "K. Jørgensen",
+                  "links": [
+                    {
+                      "language": "en-US",
+                      "rel": [
+                        "playercard",
+                        "desktop",
+                        "athlete"
+                      ],
+                      "href": "https://www.espn.com/soccer/player/_/id/286853/kasper-jørgensen",
+                      "text": "Player Card",
+                      "shortText": "Player Card"
+                    }
+                  ]
+                }
+              }
+            ],
+            "addedClock": {
+              "value": 0.0,
+              "displayValue": ""
+            },
+            "redCard": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "clock": {
+              "value": 3723.0,
+              "displayValue": "63'"
+            },
+            "scoringPlay": true,
+            "team": {
+              "id": "4411",
+              "uid": "s:600~t:4411",
+              "location": "LASK Linz",
+              "name": "LASK Linz",
+              "abbreviation": "LAS",
+              "displayName": "LASK Linz"
+            },
+            "participants": [
+              {
+                "athlete": {
+                  "id": "259131",
+                  "displayName": "Sasa Kalajdzic",
+                  "shortName": "S. Kalajdzic",
+                  "links": [
+                    {
+                      "language": "en-US",
+                      "rel": [
+                        "playercard",
+                        "desktop",
+                        "athlete"
+                      ],
+                      "href": "https://www.espn.com/soccer/player/_/id/259131/sasa-kalajdzic",
+                      "text": "Player Card",
+                      "shortText": "Player Card"
+                    }
+                  ]
+                }
+              },
+              {
+                "athlete": {
+                  "id": "273480",
+                  "displayName": "Robert Ljubicic",
+                  "shortName": "R. Ljubicic",
+                  "links": [
+                    {
+                      "language": "en-US",
+                      "rel": [
+                        "playercard",
+                        "desktop",
+                        "athlete"
+                      ],
+                      "href": "https://www.espn.com/soccer/player/_/id/273480/robert-ljubicic",
+                      "text": "Player Card",
+                      "shortText": "Player Card"
+                    }
+                  ]
+                }
+              }
+            ],
+            "addedClock": {
+              "value": 0.0,
+              "displayValue": ""
+            },
+            "redCard": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "clock": {
+              "value": 4029.0,
+              "displayValue": "68'"
+            },
+            "scoringPlay": true,
+            "team": {
+              "id": "4411",
+              "uid": "s:600~t:4411",
+              "location": "LASK Linz",
+              "name": "LASK Linz",
+              "abbreviation": "LAS",
+              "displayName": "LASK Linz"
+            },
+            "participants": [
+              {
+                "athlete": {
+                  "id": "306899",
+                  "displayName": "Krystof Danek",
+                  "shortName": "K. Danek",
+                  "links": [
+                    {
+                      "language": "en-US",
+                      "rel": [
+                        "playercard",
+                        "desktop",
+                        "athlete"
+                      ],
+                      "href": "https://www.espn.com/soccer/player/_/id/306899/krystof-danek",
+                      "text": "Player Card",
+                      "shortText": "Player Card"
+                    }
+                  ]
+                }
+              },
+              {
+                "athlete": {
+                  "id": "318956",
+                  "displayName": "Samuel Adeniran",
+                  "shortName": "S. Adeniran",
+                  "links": [
+                    {
+                      "language": "en-US",
+                      "rel": [
+                        "playercard",
+                        "desktop",
+                        "athlete"
+                      ],
+                      "href": "https://www.espn.com/soccer/player/_/id/318956/samuel-adeniran",
+                      "text": "Player Card",
+                      "shortText": "Player Card"
+                    }
+                  ]
+                }
+              }
+            ],
+            "addedClock": {
+              "value": 0.0,
+              "displayValue": ""
+            },
+            "redCard": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "clock": {
+              "value": 5323.0,
+              "displayValue": "89'"
+            },
+            "scoringPlay": true,
+            "team": {
+              "id": "2250",
+              "uid": "s:600~t:2250",
+              "location": "Sporting CP",
+              "name": "Sporting CP",
+              "abbreviation": "SCP",
+              "displayName": "Sporting CP"
+            },
+            "participants": [
+              {
+                "athlete": {
+                  "id": "272722",
+                  "displayName": "Luis Suárez",
+                  "shortName": "L. Suárez",
+                  "links": [
+                    {
+                      "language": "en-US",
+                      "rel": [
+                        "playercard",
+                        "desktop",
+                        "athlete"
+                      ],
+                      "href": "https://www.espn.com/soccer/player/_/id/272722/luis-suarez",
+                      "text": "Player Card",
+                      "shortText": "Player Card"
+                    }
+                  ]
+                }
+              }
+            ],
+            "addedClock": {
+              "value": 0.0,
+              "displayValue": ""
+            },
+            "redCard": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          }
+        ],
+        "groups": {
+          "id": "1",
+          "name": "Group A",
+          "abbreviation": "A"
+        },
+        "isFinal": false,
+        "isThirdPlace": false,
+        "altGameNote": "UEFA Champions League, League Phase",
+        "boxscoreMinutes": false,
+        "shotMapAvailable": true
+      }
+    ],
+    "links": [
+      {
+        "rel": [
+          "summary",
+          "desktop",
+          "event"
+        ],
+        "href": "https://www.espn.com/soccer/match/_/gameId/401915391/lask-linz-sporting-cp",
+        "text": "Summary",
+        "shortText": "Summary",
+        "isExternal": false,
+        "isPremium": false
+      },
+      {
+        "rel": [
+          "commentary",
+          "desktop",
+          "event"
+        ],
+        "href": "https://www.espn.com/soccer/commentary/_/gameId/401915391",
+        "text": "Commentary",
+        "shortText": "Commentary",
+        "isExternal": false,
+        "isPremium": false
+      }
+    ],
+    "league": {
+      "id": "775",
+      "uid": "s:600~l:775",
+      "name": "UEFA Champions League",
+      "abbreviation": "UEFA Champions League",
+      "shortName": "UEFA Champions League",
+      "midsizeName": "UEFA.CHAMPIONS",
+      "slug": "uefa.champions",
+      "isTournament": true,
+      "links": [
+        {
+          "rel": [
+            "index",
+            "desktop",
+            "league"
+          ],
+          "href": "https://www.espn.com/soccer/league/_/name/uefa.champions",
+          "text": "Index"
+        },
+        {
+          "rel": [
+            "index",
+            "sportscenter",
+            "app",
+            "league"
+          ],
+          "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~l:775",
+          "text": "Index"
+        },
+        {
+          "rel": [
+            "schedule",
+            "desktop",
+            "league"
+          ],
+          "href": "https://www.espn.com/soccer/schedule/_/league/uefa.champions",
+          "text": "Schedule"
+        },
+        {
+          "rel": [
+            "schedule",
+            "sportscenter",
+            "app",
+            "league"
+          ],
+          "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~l:775&section=scores",
+          "text": "Schedule"
+        },
+        {
+          "rel": [
+            "standings",
+            "desktop",
+            "league"
+          ],
+          "href": "https://www.espn.com/soccer/table/_/league/uefa.champions",
+          "text": "Standings"
+        },
+        {
+          "rel": [
+            "standings",
+            "sportscenter",
+            "app",
+            "league"
+          ],
+          "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~l:775&section=standings",
+          "text": "Standings"
+        },
+        {
+          "rel": [
+            "scores",
+            "desktop",
+            "league"
+          ],
+          "href": "https://www.espn.com/soccer/scoreboard/_/league/uefa.champions",
+          "text": "Scores"
+        },
+        {
+          "rel": [
+            "scores",
+            "sportscenter",
+            "app",
+            "league"
+          ],
+          "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~l:775&section=scores",
+          "text": "Scores"
+        },
+        {
+          "rel": [
+            "stats",
+            "desktop",
+            "league"
+          ],
+          "href": "https://www.espn.com/soccer/stats/_/league/uefa.champions",
+          "text": "Stats"
+        },
+        {
+          "rel": [
+            "stats",
+            "sportscenter",
+            "app",
+            "league"
+          ],
+          "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~l:775&section=stats",
+          "text": "Stats"
+        },
+        {
+          "rel": [
+            "teams",
+            "desktop",
+            "league"
+          ],
+          "href": "https://www.espn.com/soccer/teams/_/league/uefa.champions",
+          "text": "Teams"
+        }
+      ],
+      "logos": [
+        {
+          "href": "https://a.espncdn.com/i/leaguelogos/soccer/500/2.png",
+          "rel": [
+            "full",
+            "default"
+          ]
+        },
+        {
+          "href": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2.png",
+          "rel": [
+            "full",
+            "dark"
+          ]
+        }
+      ]
+    },
+    "linksv4": [
+      {
+        "rel": [
+          "summary",
+          "desktop",
+          "event"
+        ],
+        "href": "https://www.espn.com/soccer/match/_/gameId/401915391/lask-linz-sporting-cp",
+        "text": "Gamecast",
+        "shortText": "Summary",
+        "isExternal": false,
+        "isPremium": false
+      },
+      {
+        "rel": [
+          "teamstats",
+          "desktop",
+          "event"
+        ],
+        "href": "https://www.espn.com/soccer/team-stats/_/gameId/401915391",
+        "text": "Team Stats",
+        "shortText": "Team Stats",
+        "isExternal": false,
+        "isPremium": false
+      },
+      {
+        "rel": [
+          "playerstats",
+          "desktop",
+          "event"
+        ],
+        "href": "https://www.espn.com/soccer/player-stats/_/gameId/401915391",
+        "text": "Player Stats",
+        "shortText": "Player Stats",
+        "isExternal": false,
+        "isPremium": false
+      },
+      {
+        "rel": [
+          "commentary",
+          "desktop",
+          "event"
+        ],
+        "href": "https://www.espn.com/soccer/commentary/_/gameId/401915391",
+        "text": "Commentary",
+        "shortText": "Commentary",
+        "isExternal": false,
+        "isPremium": false
+      }
+    ]
+  },
+  "boxscore": {
+    "teams": [
+      {
+        "team": {
+          "id": "2250",
+          "uid": "s:600~t:2250",
+          "slug": "por.sporting_lisbon",
+          "location": "Sporting CP",
+          "name": "Sporting CP",
+          "abbreviation": "SCP",
+          "displayName": "Sporting CP",
+          "shortDisplayName": "Sporting",
+          "color": "008127",
+          "alternateColor": "ffffff",
+          "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2250.png",
+          "uniform": {
+            "type": "home",
+            "color": "2f6a4e",
+            "alternateColor": "ffffff"
+          }
+        },
+        "statistics": [
+          {
+            "name": "foulsCommitted",
+            "displayValue": "10",
+            "label": "Fouls"
+          },
+          {
+            "name": "yellowCards",
+            "displayValue": "2",
+            "label": "Yellow Cards"
+          },
+          {
+            "name": "redCards",
+            "displayValue": "0",
+            "label": "Red Cards"
+          },
+          {
+            "name": "offsides",
+            "displayValue": "3",
+            "label": "Offsides"
+          },
+          {
+            "name": "wonCorners",
+            "displayValue": "7",
+            "label": "Corner Kicks"
+          },
+          {
+            "name": "saves",
+            "displayValue": "4",
+            "label": "Saves"
+          },
+          {
+            "name": "possessionPct",
+            "displayValue": "62.3",
+            "label": "Possession"
+          },
+          {
+            "name": "totalShots",
+            "displayValue": "16",
+            "label": "SHOTS"
+          },
+          {
+            "name": "shotsOnTarget",
+            "displayValue": "4",
+            "label": "ON GOAL"
+          },
+          {
+            "name": "shotPct",
+            "displayValue": "0.3",
+            "label": "On Target %"
+          },
+          {
+            "name": "penaltyKickGoals",
+            "displayValue": "0",
+            "label": "Penalty Goals"
+          },
+          {
+            "name": "penaltyKickShots",
+            "displayValue": "1",
+            "label": "Penalty Kicks Taken"
+          },
+          {
+            "name": "accuratePasses",
+            "displayValue": "506",
+            "label": "Accurate Passes"
+          },
+          {
+            "name": "totalPasses",
+            "displayValue": "574",
+            "label": "Passes"
+          },
+          {
+            "name": "passPct",
+            "displayValue": "0.9",
+            "label": "Pass Completion %"
+          },
+          {
+            "name": "accurateCrosses",
+            "displayValue": "7",
+            "label": "Accurate Crosses"
+          },
+          {
+            "name": "totalCrosses",
+            "displayValue": "19",
+            "label": "Crosses"
+          },
+          {
+            "name": "crossPct",
+            "displayValue": "0.4",
+            "label": "Cross %"
+          },
+          {
+            "name": "totalLongBalls",
+            "displayValue": "42",
+            "label": "Long Balls"
+          },
+          {
+            "name": "accurateLongBalls",
+            "displayValue": "24",
+            "label": "Accurate Long Balls"
+          },
+          {
+            "name": "longballPct",
+            "displayValue": "0.6",
+            "label": "Long Balls %"
+          },
+          {
+            "name": "blockedShots",
+            "displayValue": "5",
+            "label": "Blocked Shots"
+          },
+          {
+            "name": "effectiveTackles",
+            "displayValue": "7",
+            "label": "Effective Tackles"
+          },
+          {
+            "name": "totalTackles",
+            "displayValue": "12",
+            "label": "Tackles"
+          },
+          {
+            "name": "tacklePct",
+            "displayValue": "0.6",
+            "label": "Tackle %"
+          },
+          {
+            "name": "interceptions",
+            "displayValue": "7",
+            "label": "Interceptions"
+          },
+          {
+            "name": "effectiveClearance",
+            "displayValue": "9",
+            "label": "Effective Clearances"
+          },
+          {
+            "name": "totalClearance",
+            "displayValue": "9",
+            "label": "Clearances"
+          }
+        ],
+        "displayOrder": 1,
+        "homeAway": "home"
+      },
+      {
+        "team": {
+          "id": "4411",
+          "uid": "s:600~t:4411",
+          "slug": "aut.lask_linz",
+          "location": "LASK Linz",
+          "name": "LASK Linz",
+          "abbreviation": "LAS",
+          "displayName": "LASK Linz",
+          "shortDisplayName": "LASK Linz",
+          "color": "ffffff",
+          "alternateColor": "000000",
+          "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/4411.png",
+          "uniform": {
+            "type": "away",
+            "color": "ff0000",
+            "alternateColor": "000000"
+          }
+        },
+        "statistics": [
+          {
+            "name": "foulsCommitted",
+            "displayValue": "22",
+            "label": "Fouls"
+          },
+          {
+            "name": "yellowCards",
+            "displayValue": "5",
+            "label": "Yellow Cards"
+          },
+          {
+            "name": "redCards",
+            "displayValue": "0",
+            "label": "Red Cards"
+          },
+          {
+            "name": "offsides",
+            "displayValue": "3",
+            "label": "Offsides"
+          },
+          {
+            "name": "wonCorners",
+            "displayValue": "4",
+            "label": "Corner Kicks"
+          },
+          {
+            "name": "saves",
+            "displayValue": "2",
+            "label": "Saves"
+          },
+          {
+            "name": "possessionPct",
+            "displayValue": "37.7",
+            "label": "Possession"
+          },
+          {
+            "name": "totalShots",
+            "displayValue": "11",
+            "label": "SHOTS"
+          },
+          {
+            "name": "shotsOnTarget",
+            "displayValue": "7",
+            "label": "ON GOAL"
+          },
+          {
+            "name": "shotPct",
+            "displayValue": "0.6",
+            "label": "On Target %"
+          },
+          {
+            "name": "penaltyKickGoals",
+            "displayValue": "0",
+            "label": "Penalty Goals"
+          },
+          {
+            "name": "penaltyKickShots",
+            "displayValue": "0",
+            "label": "Penalty Kicks Taken"
+          },
+          {
+            "name": "accuratePasses",
+            "displayValue": "293",
+            "label": "Accurate Passes"
+          },
+          {
+            "name": "totalPasses",
+            "displayValue": "355",
+            "label": "Passes"
+          },
+          {
+            "name": "passPct",
+            "displayValue": "0.8",
+            "label": "Pass Completion %"
+          },
+          {
+            "name": "accurateCrosses",
+            "displayValue": "4",
+            "label": "Accurate Crosses"
+          },
+          {
+            "name": "totalCrosses",
+            "displayValue": "9",
+            "label": "Crosses"
+          },
+          {
+            "name": "crossPct",
+            "displayValue": "0.4",
+            "label": "Cross %"
+          },
+          {
+            "name": "totalLongBalls",
+            "displayValue": "52",
+            "label": "Long Balls"
+          },
+          {
+            "name": "accurateLongBalls",
+            "displayValue": "27",
+            "label": "Accurate Long Balls"
+          },
+          {
+            "name": "longballPct",
+            "displayValue": "0.5",
+            "label": "Long Balls %"
+          },
+          {
+            "name": "blockedShots",
+            "displayValue": "2",
+            "label": "Blocked Shots"
+          },
+          {
+            "name": "effectiveTackles",
+            "displayValue": "12",
+            "label": "Effective Tackles"
+          },
+          {
+            "name": "totalTackles",
+            "displayValue": "20",
+            "label": "Tackles"
+          },
+          {
+            "name": "tacklePct",
+            "displayValue": "0.6",
+            "label": "Tackle %"
+          },
+          {
+            "name": "interceptions",
+            "displayValue": "8",
+            "label": "Interceptions"
+          },
+          {
+            "name": "effectiveClearance",
+            "displayValue": "20",
+            "label": "Effective Clearances"
+          },
+          {
+            "name": "totalClearance",
+            "displayValue": "20",
+            "label": "Clearances"
+          }
+        ],
+        "displayOrder": 2,
+        "homeAway": "away"
+      }
+    ]
+  },
+  "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/summary?event=401915391"
+}

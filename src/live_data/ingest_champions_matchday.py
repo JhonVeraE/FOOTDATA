@@ -14,7 +14,7 @@ from review_matchday import save
 LEAGUE='UEFA Champions League'
 ESPN_NAMES={'Fenerbahce':'Fenerbahçe','Slavia Prague':'Slavia Praha',
  'Borussia Dortmund':'Dortmund','AS Roma':'Roma','PSV Eindhoven':'PSV',
- 'VfB Stuttgart':'Stuttgart','Atlético Madrid':'Ath Madrid'}
+ 'Internazionale':'Inter','VfB Stuttgart':'Stuttgart','Atlético Madrid':'Ath Madrid'}
 FIELDS={'shots':'totalShots','sot':'shotsOnTarget','fouls':'foulsCommitted','corners':'wonCorners'}
 def identity(name):return canonical_team(ESPN_NAMES.get(name,name))
 def count(value):
@@ -47,13 +47,18 @@ def parse_event(event,detail,date):
       'metrics':metrics,'yellow': [c[0] for c in cards],'red':[c[1] for c in cards],
       'additional_statistics':extra,'source_url':event['links'][0]['href']}
 
-def main(capture_dir,date):
+def main(capture_dir,date,league=LEAGUE):
     capture=Path(capture_dir);archive=ARTIFACT_DIR/'daily_reviews'/date
-    scoreboard=json.loads((capture/'espn_scoreboard_raw.json').read_text(encoding='utf-8'))
+    domestic=league!=LEAGUE
+    if domestic:archive=archive/'domestic'
+    code='PD' if league=='La Liga' else 'CL'
+    scoreboard_name='esp.1_scoreboard.json' if domestic else 'espn_scoreboard_raw.json'
+    dataset='match_stats_actualseason' if domestic else 'match_stats_champions_actualseason'
+    scoreboard=json.loads((capture/scoreboard_name).read_text(encoding='utf-8'))
     provider=json.loads((capture/'football_data_matches_range.json').read_text(encoding='utf-8'))
     forecasts=json.loads((capture/'predictions_before_results.json').read_text(encoding='utf-8'))
-    expected={m['fixture_id']:m for m in forecasts['matches'] if m['competition']==LEAGUE and m['fecha']==date}
-    api={str(m['id']):m for m in provider['matches'] if m['competition']['code']=='CL' and str(pd.Timestamp(m['utcDate']).tz_convert('America/Lima').date())==date}
+    expected={m['fixture_id']:m for m in forecasts['matches'] if m['competition']==league and m['fecha']==date}
+    api={str(m['id']):m for m in provider['matches'] if m['competition']['code']==code and str(pd.Timestamp(m['utcDate']).tz_convert('America/Lima').date())==date}
     if not expected or set(api)!=set(expected):raise ValueError('Date coverage differs between calendar and frozen forecast')
     pairs={(m['local'],m['visitante']):m for m in expected.values()}
     records=[];seen=set();rows=[];sources=[]
@@ -68,19 +73,19 @@ def main(capture_dir,date):
         if pd.Timestamp(rec['kickoff_utc'])!=pd.Timestamp(m['kickoff_utc']):raise ValueError('Conflicting kickoff')
         goals=final['score']['fullTime']
         if final['status']!='FINISHED' or rec['metrics']['goals']!=[goals['home'],goals['away']]:raise ValueError('Conflicting final score')
-        rec.update(fixture_id=fid,date=date,round=m['jornada'],league=LEAGUE)
-        mid=f"{LEAGUE}_2026/27_espn_{rec['espn_event_id']}";rec['match_id']=mid
+        rec.update(fixture_id=fid,date=date,round=m['jornada'],league=league)
+        mid=f"{league}_2026/27_espn_{rec['espn_event_id']}";rec['match_id']=mid
         for side in [0,1]:
-            row={'match_id':mid,'date':date,'league':LEAGUE,'is_home':side==0,'team':key[side],'opponent':key[1-side]}
+            row={'match_id':mid,'date':date,'league':league,'is_home':side==0,'team':key[side],'opponent':key[1-side]}
             for metric,value in rec['metrics'].items():row[metric+'_for']=value[side];row[metric+'_against']=value[1-side]
             rows.append(row)
-        sources.append({'match_id':mid,'fixture_id':fid,'espn_event_id':rec['espn_event_id'],'date':date,'league':LEAGUE,'round':rec['round'],
+        sources.append({'match_id':mid,'fixture_id':fid,'espn_event_id':rec['espn_event_id'],'date':date,'league':league,'round':rec['round'],
           'home':key[0],'away':key[1],'yellow_home':rec['yellow'][0],'yellow_away':rec['yellow'][1],
           'red_home':rec['red'][0],'red_away':rec['red'][1],'url':rec['source_url'],'provider':'ESPN',
-          'statistics_endpoint':f"https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/summary?event={rec['espn_event_id']}"})
+          'statistics_endpoint':f"https://site.api.espn.com/apis/site/v2/sports/soccer/{'esp.1' if domestic else 'uefa.champions'}/summary?event={rec['espn_event_id']}"})
         records.append(rec)
     if seen!=set(expected):raise ValueError('Incomplete Champions matchday')
-    csv_path=DATA_DIR/'match_stats_champions_actualseason.csv';manifest_path=DATA_DIR/'match_stats_champions_actualseason.sources.json';cal_path=DATA_DIR/'matches_footballdata.csv'
+    csv_path=DATA_DIR/f'{dataset}.csv';manifest_path=DATA_DIR/f'{dataset}.sources.json';cal_path=DATA_DIR/'matches_footballdata.csv'
     old=pd.read_csv(csv_path);new=pd.DataFrame(rows)
     def check(frame):
         v=frame.copy();v['date']=pd.to_datetime(v.date);v['is_home']=v.is_home.astype(str).str.lower().map({'true':True,'false':False})
@@ -88,7 +93,7 @@ def main(capture_dir,date):
     check(new)
     fresh=[]
     for row in rows:
-        duplicate=old[(old.date==date)&(old.league==LEAGUE)&(old.team==row['team'])&(old.opponent==row['opponent'])]
+        duplicate=old[(old.date==date)&(old.league==league)&(old.team==row['team'])&(old.opponent==row['opponent'])]
         if len(duplicate)>1:raise ValueError('Duplicate fixture in existing data')
         if not duplicate.empty:
             if any(duplicate.iloc[0][k]!=row[k] for k in row if k.endswith(('_for','_against'))):raise ValueError('Conflicting existing statistics')
@@ -98,9 +103,14 @@ def main(capture_dir,date):
     manifest['sources'].extend(s for s in sources if s['match_id'] not in known)
     counts=combined.groupby('team').size().to_dict()
     manifest.update(as_of=date,matches=int(combined.match_id.nunique()),rows=len(combined),date_min=str(combined.date.min()),date_max=str(combined.date.max()),
-       source='Sofascore full-match ALL statistics for the original rounds; public ESPN final boxscores for 20 October 2026.',
-       scope='League phase only. Finalised matches through the stated date; round 3 is partial until all fixtures are recorded.',
+       source=f'Sofascore full-match ALL statistics for the original rounds; public ESPN final boxscores through {date}.',
+       scope=f'Finalised {league} fixtures recorded through {date}; coverage is recorded per source.',
        team_match_counts={k:int(v) for k,v in counts.items()},round_counts={str(k):sum(int(x['round'])==k for x in manifest['sources']) for k in sorted({int(x['round']) for x in manifest['sources']})})
+    if domestic:
+        manifest['coverage']=[{'league':name,'matches':int(g.match_id.nunique()),'rows':len(g),
+          'round_counts':{str(k):sum(x.get('league')==name and int(x['round'])==k for x in manifest['sources'])
+             for k in sorted({int(x['round']) for x in manifest['sources'] if x.get('league')==name})}}
+          for name,g in combined.groupby('league')]
     calendar=pd.read_csv(cal_path)
     for rec in records:
         mask=calendar.match_id.astype(str).eq(rec['fixture_id'])
@@ -116,13 +126,13 @@ def main(capture_dir,date):
     record={'date':date,'ingested_at':datetime.now(timezone.utc).isoformat(),'provider':'ESPN final boxscores, final scores cross-checked with football-data.org',
       'matches':records,'added_rows':len(combined)-len(pd.read_csv(backup/csv_path.name)),
       'added_rows_this_run':len(fresh),'dataset_matches':int(combined.match_id.nunique()),'dataset_rows':len(combined),'columns':list(combined.columns)}
-    save(archive/'ingestion.json',record);save(WEB_DIR/'data'/f'actuals_{date}.json',record)
+    save(archive/'ingestion.json',record);save(WEB_DIR/'data'/f"actuals_{date}{'_domestic' if domestic else ''}.json",record)
     for src in capture.glob('*.json'):
         if not (archive/src.name).exists():shutil.copy2(src,archive/src.name)
     for name,digest in hashes.items():
         if hashlib.sha256((WEB_DIR/'data'/name).read_bytes()).hexdigest()!=digest:raise ValueError('Original predictions changed')
-    print(json.dumps({'date':date,'matches_ingested':len(records),'added_rows':len(fresh),'champions_matches':int(combined.match_id.nunique()),'champions_rows':len(combined)},indent=2))
+    print(json.dumps({'date':date,'matches_ingested':len(records),'added_rows':len(fresh),'dataset_matches':int(combined.match_id.nunique()),'dataset_rows':len(combined)},indent=2))
     return record
 
 if __name__=='__main__':
-    p=argparse.ArgumentParser();p.add_argument('--capture-dir',required=True);p.add_argument('--date',required=True);a=p.parse_args();main(a.capture_dir,a.date)
+    p=argparse.ArgumentParser();p.add_argument('--capture-dir',required=True);p.add_argument('--date',required=True);p.add_argument('--league',default=LEAGUE,choices=[LEAGUE,'La Liga']);a=p.parse_args();main(a.capture_dir,a.date,a.league)

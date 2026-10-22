@@ -1,0 +1,1119 @@
+{
+  "header": {
+    "id": "401915313",
+    "uid": "s:600~l:775~e:401915313",
+    "season": {
+      "year": 2026,
+      "current": true,
+      "type": 14534,
+      "name": "2026-27 UEFA Champions League, League Phase"
+    },
+    "timeValid": true,
+    "competitions": [
+      {
+        "id": "401915313",
+        "uid": "s:600~l:775~e:401915313~c:401915313",
+        "date": "2026-10-21T19:00Z",
+        "neutralSite": false,
+        "conferenceCompetition": false,
+        "boxscoreAvailable": true,
+        "commentaryAvailable": true,
+        "liveAvailable": false,
+        "onWatchESPN": false,
+        "recent": false,
+        "wallclockAvailable": true,
+        "boxscoreSource": "full",
+        "playByPlaySource": "full",
+        "competitors": [
+          {
+            "id": "86",
+            "uid": "s:600~t:86",
+            "order": 0,
+            "homeAway": "home",
+            "winner": true,
+            "team": {
+              "id": "86",
+              "guid": "66434654-a8ba-a04c-98e5-6bbd0dbbb780",
+              "uid": "s:600~t:86",
+              "location": "Real Madrid",
+              "name": "Real Madrid",
+              "abbreviation": "RMA",
+              "displayName": "Real Madrid",
+              "shortDisplayName": "Real Madrid",
+              "color": "ffffff",
+              "alternateColor": "1B4D3E",
+              "logos": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2019-05-08T16:07Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/soccer/500-dark/86.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "dark"
+                  ],
+                  "lastUpdated": "2019-05-08T16:07Z"
+                }
+              ],
+              "groups": {
+                "name": "League Phase"
+              },
+              "links": [
+                {
+                  "rel": [
+                    "clubhouse",
+                    "desktop",
+                    "team"
+                  ],
+                  "href": "https://www.espn.com/soccer/club/_/id/86/real-madrid",
+                  "text": "Clubhouse"
+                }
+              ],
+              "form": "DWWWL"
+            },
+            "score": "4",
+            "linescores": [
+              {
+                "displayValue": "1"
+              },
+              {
+                "displayValue": "3"
+              }
+            ],
+            "record": [
+              {
+                "type": "total",
+                "summary": "3-0-0",
+                "displayValue": "3-0-0"
+              },
+              {
+                "type": "points",
+                "summary": "9",
+                "displayValue": "9"
+              }
+            ],
+            "possession": false
+          },
+          {
+            "id": "11420",
+            "uid": "s:600~t:11420",
+            "order": 1,
+            "homeAway": "away",
+            "winner": false,
+            "team": {
+              "id": "11420",
+              "guid": "3f4b2640-8af5-9785-93d5-363cbdb5a2f6",
+              "uid": "s:600~t:11420",
+              "location": "RB Leipzig",
+              "name": "RB Leipzig",
+              "abbreviation": "RBL",
+              "displayName": "RB Leipzig",
+              "shortDisplayName": "RB Leipzig",
+              "color": "ffffff",
+              "alternateColor": "740c14",
+              "logos": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/soccer/500/11420.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2024-01-04T17:49Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/soccer/500-dark/11420.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "dark"
+                  ],
+                  "lastUpdated": "2024-01-04T17:52Z"
+                }
+              ],
+              "groups": {
+                "name": "League Phase"
+              },
+              "links": [
+                {
+                  "rel": [
+                    "clubhouse",
+                    "desktop",
+                    "team"
+                  ],
+                  "href": "https://www.espn.com/soccer/club/_/id/11420/rb-leipzig",
+                  "text": "Clubhouse"
+                }
+              ],
+              "form": "DLWWL"
+            },
+            "score": "1",
+            "linescores": [
+              {
+                "displayValue": "0"
+              },
+              {
+                "displayValue": "1"
+              }
+            ],
+            "record": [
+              {
+                "type": "total",
+                "summary": "1-0-2",
+                "displayValue": "1-0-2"
+              },
+              {
+                "type": "points",
+                "summary": "3",
+                "displayValue": "3"
+              }
+            ],
+            "possession": false
+          }
+        ],
+        "notes": [],
+        "status": {
+          "type": {
+            "id": "28",
+            "name": "STATUS_FULL_TIME",
+            "state": "post",
+            "completed": true,
+            "description": "Full Time",
+            "detail": "FT",
+            "shortDetail": "FT"
+          }
+        },
+        "broadcasts": [
+          {
+            "type": {
+              "id": "4",
+              "shortName": "STREAMING"
+            },
+            "market": {},
+            "media": {
+              "shortName": "Paramount+"
+            },
+            "lang": "en",
+            "region": "us",
+            "isNational": false
+          }
+        ],
+        "details": [
+          {
+            "clock": {
+              "value": 2580.0,
+              "displayValue": "43'"
+            },
+            "scoringPlay": true,
+            "team": {
+              "id": "86",
+              "uid": "s:600~t:86",
+              "location": "Real Madrid",
+              "name": "Real Madrid",
+              "abbreviation": "RMA",
+              "displayName": "Real Madrid"
+            },
+            "participants": [
+              {
+                "athlete": {
+                  "id": "199833",
+                  "displayName": "Bernardo Silva",
+                  "shortName": "B. Silva",
+                  "links": [
+                    {
+                      "language": "en-US",
+                      "rel": [
+                        "playercard",
+                        "desktop",
+                        "athlete"
+                      ],
+                      "href": "https://www.espn.com/soccer/player/_/id/199833/bernardo-silva",
+                      "text": "Player Card",
+                      "shortText": "Player Card"
+                    }
+                  ]
+                }
+              }
+            ],
+            "addedClock": {
+              "value": 0.0,
+              "displayValue": ""
+            },
+            "redCard": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "clock": {
+              "value": 3085.0,
+              "displayValue": "52'"
+            },
+            "scoringPlay": true,
+            "team": {
+              "id": "86",
+              "uid": "s:600~t:86",
+              "location": "Real Madrid",
+              "name": "Real Madrid",
+              "abbreviation": "RMA",
+              "displayName": "Real Madrid"
+            },
+            "participants": [
+              {
+                "athlete": {
+                  "id": "310452",
+                  "displayName": "Arda Güler",
+                  "shortName": "A. Güler",
+                  "links": [
+                    {
+                      "language": "en-US",
+                      "rel": [
+                        "playercard",
+                        "desktop",
+                        "athlete"
+                      ],
+                      "href": "https://www.espn.com/soccer/player/_/id/310452/arda-guler",
+                      "text": "Player Card",
+                      "shortText": "Player Card"
+                    }
+                  ]
+                }
+              },
+              {
+                "athlete": {
+                  "id": "231388",
+                  "displayName": "Kylian Mbappé",
+                  "shortName": "K. Mbappé",
+                  "links": [
+                    {
+                      "language": "en-US",
+                      "rel": [
+                        "playercard",
+                        "desktop",
+                        "athlete"
+                      ],
+                      "href": "https://www.espn.com/soccer/player/_/id/231388/kylian-mbappe",
+                      "text": "Player Card",
+                      "shortText": "Player Card"
+                    }
+                  ]
+                }
+              }
+            ],
+            "addedClock": {
+              "value": 0.0,
+              "displayValue": ""
+            },
+            "redCard": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "clock": {
+              "value": 4951.0,
+              "displayValue": "83'"
+            },
+            "scoringPlay": true,
+            "team": {
+              "id": "86",
+              "uid": "s:600~t:86",
+              "location": "Real Madrid",
+              "name": "Real Madrid",
+              "abbreviation": "RMA",
+              "displayName": "Real Madrid"
+            },
+            "participants": [
+              {
+                "athlete": {
+                  "id": "231388",
+                  "displayName": "Kylian Mbappé",
+                  "shortName": "K. Mbappé",
+                  "links": [
+                    {
+                      "language": "en-US",
+                      "rel": [
+                        "playercard",
+                        "desktop",
+                        "athlete"
+                      ],
+                      "href": "https://www.espn.com/soccer/player/_/id/231388/kylian-mbappe",
+                      "text": "Player Card",
+                      "shortText": "Player Card"
+                    }
+                  ]
+                }
+              },
+              {
+                "athlete": {
+                  "id": "402479",
+                  "displayName": "Yan Diomande",
+                  "shortName": "Y. Diomande",
+                  "links": [
+                    {
+                      "language": "en-US",
+                      "rel": [
+                        "playercard",
+                        "desktop",
+                        "athlete"
+                      ],
+                      "href": "https://www.espn.com/soccer/player/_/id/402479/yan-diomande",
+                      "text": "Player Card",
+                      "shortText": "Player Card"
+                    }
+                  ]
+                }
+              }
+            ],
+            "addedClock": {
+              "value": 0.0,
+              "displayValue": ""
+            },
+            "redCard": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "clock": {
+              "value": 5050.0,
+              "displayValue": "85'"
+            },
+            "scoringPlay": true,
+            "team": {
+              "id": "11420",
+              "uid": "s:600~t:11420",
+              "location": "RB Leipzig",
+              "name": "RB Leipzig",
+              "abbreviation": "RBL",
+              "displayName": "RB Leipzig"
+            },
+            "participants": [
+              {
+                "athlete": {
+                  "id": "366911",
+                  "displayName": "Tidiam Gomis",
+                  "shortName": "T. Gomis",
+                  "links": [
+                    {
+                      "language": "en-US",
+                      "rel": [
+                        "playercard",
+                        "desktop",
+                        "athlete"
+                      ],
+                      "href": "https://www.espn.com/soccer/player/_/id/366911/tidiam-gomis",
+                      "text": "Player Card",
+                      "shortText": "Player Card"
+                    }
+                  ]
+                }
+              },
+              {
+                "athlete": {
+                  "id": "274897",
+                  "displayName": "Christoph Baumgartner",
+                  "shortName": "C. Baumgartner",
+                  "links": [
+                    {
+                      "language": "en-US",
+                      "rel": [
+                        "playercard",
+                        "desktop",
+                        "athlete"
+                      ],
+                      "href": "https://www.espn.com/soccer/player/_/id/274897/christoph-baumgartner",
+                      "text": "Player Card",
+                      "shortText": "Player Card"
+                    }
+                  ]
+                }
+              }
+            ],
+            "addedClock": {
+              "value": 0.0,
+              "displayValue": ""
+            },
+            "redCard": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "clock": {
+              "value": 5188.0,
+              "displayValue": "87'"
+            },
+            "scoringPlay": true,
+            "team": {
+              "id": "86",
+              "uid": "s:600~t:86",
+              "location": "Real Madrid",
+              "name": "Real Madrid",
+              "abbreviation": "RMA",
+              "displayName": "Real Madrid"
+            },
+            "participants": [
+              {
+                "athlete": {
+                  "id": "402479",
+                  "displayName": "Yan Diomande",
+                  "shortName": "Y. Diomande",
+                  "links": [
+                    {
+                      "language": "en-US",
+                      "rel": [
+                        "playercard",
+                        "desktop",
+                        "athlete"
+                      ],
+                      "href": "https://www.espn.com/soccer/player/_/id/402479/yan-diomande",
+                      "text": "Player Card",
+                      "shortText": "Player Card"
+                    }
+                  ]
+                }
+              },
+              {
+                "athlete": {
+                  "id": "246532",
+                  "displayName": "Brahim Díaz",
+                  "shortName": "B. Díaz",
+                  "links": [
+                    {
+                      "language": "en-US",
+                      "rel": [
+                        "playercard",
+                        "desktop",
+                        "athlete"
+                      ],
+                      "href": "https://www.espn.com/soccer/player/_/id/246532/brahim-diaz",
+                      "text": "Player Card",
+                      "shortText": "Player Card"
+                    }
+                  ]
+                }
+              }
+            ],
+            "addedClock": {
+              "value": 0.0,
+              "displayValue": ""
+            },
+            "redCard": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          }
+        ],
+        "groups": {
+          "id": "1",
+          "name": "Group A",
+          "abbreviation": "A"
+        },
+        "isFinal": false,
+        "isThirdPlace": false,
+        "altGameNote": "UEFA Champions League, League Phase",
+        "boxscoreMinutes": false,
+        "shotMapAvailable": true
+      }
+    ],
+    "links": [
+      {
+        "rel": [
+          "summary",
+          "desktop",
+          "event"
+        ],
+        "href": "https://www.espn.com/soccer/match/_/gameId/401915313/rb-leipzig-real-madrid",
+        "text": "Summary",
+        "shortText": "Summary",
+        "isExternal": false,
+        "isPremium": false
+      },
+      {
+        "rel": [
+          "recap",
+          "desktop",
+          "event"
+        ],
+        "href": "https://www.espn.com/soccer/report/_/gameId/401915313",
+        "text": "Report",
+        "shortText": "Report",
+        "isExternal": false,
+        "isPremium": false
+      },
+      {
+        "rel": [
+          "commentary",
+          "desktop",
+          "event"
+        ],
+        "href": "https://www.espn.com/soccer/commentary/_/gameId/401915313",
+        "text": "Commentary",
+        "shortText": "Commentary",
+        "isExternal": false,
+        "isPremium": false
+      },
+      {
+        "rel": [
+          "videos",
+          "desktop",
+          "event"
+        ],
+        "href": "https://www.espn.com/soccer/video/_/gameId/401915313",
+        "text": "Videos",
+        "shortText": "Videos",
+        "isExternal": false,
+        "isPremium": false
+      }
+    ],
+    "league": {
+      "id": "775",
+      "uid": "s:600~l:775",
+      "name": "UEFA Champions League",
+      "abbreviation": "UEFA Champions League",
+      "shortName": "UEFA Champions League",
+      "midsizeName": "UEFA.CHAMPIONS",
+      "slug": "uefa.champions",
+      "isTournament": true,
+      "links": [
+        {
+          "rel": [
+            "index",
+            "desktop",
+            "league"
+          ],
+          "href": "https://www.espn.com/soccer/league/_/name/uefa.champions",
+          "text": "Index"
+        },
+        {
+          "rel": [
+            "index",
+            "sportscenter",
+            "app",
+            "league"
+          ],
+          "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~l:775",
+          "text": "Index"
+        },
+        {
+          "rel": [
+            "schedule",
+            "desktop",
+            "league"
+          ],
+          "href": "https://www.espn.com/soccer/schedule/_/league/uefa.champions",
+          "text": "Schedule"
+        },
+        {
+          "rel": [
+            "schedule",
+            "sportscenter",
+            "app",
+            "league"
+          ],
+          "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~l:775&section=scores",
+          "text": "Schedule"
+        },
+        {
+          "rel": [
+            "standings",
+            "desktop",
+            "league"
+          ],
+          "href": "https://www.espn.com/soccer/table/_/league/uefa.champions",
+          "text": "Standings"
+        },
+        {
+          "rel": [
+            "standings",
+            "sportscenter",
+            "app",
+            "league"
+          ],
+          "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~l:775&section=standings",
+          "text": "Standings"
+        },
+        {
+          "rel": [
+            "scores",
+            "desktop",
+            "league"
+          ],
+          "href": "https://www.espn.com/soccer/scoreboard/_/league/uefa.champions",
+          "text": "Scores"
+        },
+        {
+          "rel": [
+            "scores",
+            "sportscenter",
+            "app",
+            "league"
+          ],
+          "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~l:775&section=scores",
+          "text": "Scores"
+        },
+        {
+          "rel": [
+            "stats",
+            "desktop",
+            "league"
+          ],
+          "href": "https://www.espn.com/soccer/stats/_/league/uefa.champions",
+          "text": "Stats"
+        },
+        {
+          "rel": [
+            "stats",
+            "sportscenter",
+            "app",
+            "league"
+          ],
+          "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~l:775&section=stats",
+          "text": "Stats"
+        },
+        {
+          "rel": [
+            "teams",
+            "desktop",
+            "league"
+          ],
+          "href": "https://www.espn.com/soccer/teams/_/league/uefa.champions",
+          "text": "Teams"
+        }
+      ],
+      "logos": [
+        {
+          "href": "https://a.espncdn.com/i/leaguelogos/soccer/500/2.png",
+          "rel": [
+            "full",
+            "default"
+          ]
+        },
+        {
+          "href": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2.png",
+          "rel": [
+            "full",
+            "dark"
+          ]
+        }
+      ]
+    },
+    "linksv4": [
+      {
+        "rel": [
+          "summary",
+          "desktop",
+          "event"
+        ],
+        "href": "https://www.espn.com/soccer/match/_/gameId/401915313/rb-leipzig-real-madrid",
+        "text": "Gamecast",
+        "shortText": "Summary",
+        "isExternal": false,
+        "isPremium": false
+      },
+      {
+        "rel": [
+          "recap",
+          "desktop",
+          "event"
+        ],
+        "href": "https://www.espn.com/soccer/report/_/gameId/401915313",
+        "text": "Recap",
+        "shortText": "Recap",
+        "isExternal": false,
+        "isPremium": false
+      },
+      {
+        "rel": [
+          "teamstats",
+          "desktop",
+          "event"
+        ],
+        "href": "https://www.espn.com/soccer/team-stats/_/gameId/401915313",
+        "text": "Team Stats",
+        "shortText": "Team Stats",
+        "isExternal": false,
+        "isPremium": false
+      },
+      {
+        "rel": [
+          "playerstats",
+          "desktop",
+          "event"
+        ],
+        "href": "https://www.espn.com/soccer/player-stats/_/gameId/401915313",
+        "text": "Player Stats",
+        "shortText": "Player Stats",
+        "isExternal": false,
+        "isPremium": false
+      },
+      {
+        "rel": [
+          "commentary",
+          "desktop",
+          "event"
+        ],
+        "href": "https://www.espn.com/soccer/commentary/_/gameId/401915313",
+        "text": "Commentary",
+        "shortText": "Commentary",
+        "isExternal": false,
+        "isPremium": false
+      },
+      {
+        "rel": [
+          "videos",
+          "desktop",
+          "event"
+        ],
+        "href": "https://www.espn.com/soccer/video/_/gameId/401915313",
+        "text": "Videos",
+        "shortText": "Videos",
+        "isExternal": false,
+        "isPremium": false
+      }
+    ]
+  },
+  "boxscore": {
+    "teams": [
+      {
+        "team": {
+          "id": "86",
+          "uid": "s:600~t:86",
+          "slug": "esp.real_madrid",
+          "location": "Real Madrid",
+          "name": "Real Madrid",
+          "abbreviation": "RMA",
+          "displayName": "Real Madrid",
+          "shortDisplayName": "Real Madrid",
+          "color": "ffffff",
+          "alternateColor": "1B4D3E",
+          "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
+          "uniform": {
+            "type": "home",
+            "color": "ffffff"
+          }
+        },
+        "statistics": [
+          {
+            "name": "foulsCommitted",
+            "displayValue": "13",
+            "label": "Fouls"
+          },
+          {
+            "name": "yellowCards",
+            "displayValue": "1",
+            "label": "Yellow Cards"
+          },
+          {
+            "name": "redCards",
+            "displayValue": "0",
+            "label": "Red Cards"
+          },
+          {
+            "name": "offsides",
+            "displayValue": "3",
+            "label": "Offsides"
+          },
+          {
+            "name": "wonCorners",
+            "displayValue": "7",
+            "label": "Corner Kicks"
+          },
+          {
+            "name": "saves",
+            "displayValue": "5",
+            "label": "Saves"
+          },
+          {
+            "name": "possessionPct",
+            "displayValue": "64.4",
+            "label": "Possession"
+          },
+          {
+            "name": "totalShots",
+            "displayValue": "18",
+            "label": "SHOTS"
+          },
+          {
+            "name": "shotsOnTarget",
+            "displayValue": "11",
+            "label": "ON GOAL"
+          },
+          {
+            "name": "shotPct",
+            "displayValue": "0.6",
+            "label": "On Target %"
+          },
+          {
+            "name": "penaltyKickGoals",
+            "displayValue": "0",
+            "label": "Penalty Goals"
+          },
+          {
+            "name": "penaltyKickShots",
+            "displayValue": "0",
+            "label": "Penalty Kicks Taken"
+          },
+          {
+            "name": "accuratePasses",
+            "displayValue": "679",
+            "label": "Accurate Passes"
+          },
+          {
+            "name": "totalPasses",
+            "displayValue": "742",
+            "label": "Passes"
+          },
+          {
+            "name": "passPct",
+            "displayValue": "0.9",
+            "label": "Pass Completion %"
+          },
+          {
+            "name": "accurateCrosses",
+            "displayValue": "2",
+            "label": "Accurate Crosses"
+          },
+          {
+            "name": "totalCrosses",
+            "displayValue": "15",
+            "label": "Crosses"
+          },
+          {
+            "name": "crossPct",
+            "displayValue": "0.1",
+            "label": "Cross %"
+          },
+          {
+            "name": "totalLongBalls",
+            "displayValue": "54",
+            "label": "Long Balls"
+          },
+          {
+            "name": "accurateLongBalls",
+            "displayValue": "38",
+            "label": "Accurate Long Balls"
+          },
+          {
+            "name": "longballPct",
+            "displayValue": "0.7",
+            "label": "Long Balls %"
+          },
+          {
+            "name": "blockedShots",
+            "displayValue": "1",
+            "label": "Blocked Shots"
+          },
+          {
+            "name": "effectiveTackles",
+            "displayValue": "11",
+            "label": "Effective Tackles"
+          },
+          {
+            "name": "totalTackles",
+            "displayValue": "14",
+            "label": "Tackles"
+          },
+          {
+            "name": "tacklePct",
+            "displayValue": "0.8",
+            "label": "Tackle %"
+          },
+          {
+            "name": "interceptions",
+            "displayValue": "11",
+            "label": "Interceptions"
+          },
+          {
+            "name": "effectiveClearance",
+            "displayValue": "12",
+            "label": "Effective Clearances"
+          },
+          {
+            "name": "totalClearance",
+            "displayValue": "12",
+            "label": "Clearances"
+          }
+        ],
+        "displayOrder": 1,
+        "homeAway": "home"
+      },
+      {
+        "team": {
+          "id": "11420",
+          "uid": "s:600~t:11420",
+          "slug": "ger.rb_leipzig",
+          "location": "RB Leipzig",
+          "name": "RB Leipzig",
+          "abbreviation": "RBL",
+          "displayName": "RB Leipzig",
+          "shortDisplayName": "RB Leipzig",
+          "color": "ffffff",
+          "alternateColor": "740c14",
+          "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/11420.png",
+          "uniform": {
+            "type": "home",
+            "color": "225fa1",
+            "alternateColor": "243a6b"
+          }
+        },
+        "statistics": [
+          {
+            "name": "foulsCommitted",
+            "displayValue": "12",
+            "label": "Fouls"
+          },
+          {
+            "name": "yellowCards",
+            "displayValue": "1",
+            "label": "Yellow Cards"
+          },
+          {
+            "name": "redCards",
+            "displayValue": "0",
+            "label": "Red Cards"
+          },
+          {
+            "name": "offsides",
+            "displayValue": "2",
+            "label": "Offsides"
+          },
+          {
+            "name": "wonCorners",
+            "displayValue": "1",
+            "label": "Corner Kicks"
+          },
+          {
+            "name": "saves",
+            "displayValue": "6",
+            "label": "Saves"
+          },
+          {
+            "name": "possessionPct",
+            "displayValue": "35.6",
+            "label": "Possession"
+          },
+          {
+            "name": "totalShots",
+            "displayValue": "11",
+            "label": "SHOTS"
+          },
+          {
+            "name": "shotsOnTarget",
+            "displayValue": "6",
+            "label": "ON GOAL"
+          },
+          {
+            "name": "shotPct",
+            "displayValue": "0.5",
+            "label": "On Target %"
+          },
+          {
+            "name": "penaltyKickGoals",
+            "displayValue": "0",
+            "label": "Penalty Goals"
+          },
+          {
+            "name": "penaltyKickShots",
+            "displayValue": "0",
+            "label": "Penalty Kicks Taken"
+          },
+          {
+            "name": "accuratePasses",
+            "displayValue": "356",
+            "label": "Accurate Passes"
+          },
+          {
+            "name": "totalPasses",
+            "displayValue": "405",
+            "label": "Passes"
+          },
+          {
+            "name": "passPct",
+            "displayValue": "0.9",
+            "label": "Pass Completion %"
+          },
+          {
+            "name": "accurateCrosses",
+            "displayValue": "5",
+            "label": "Accurate Crosses"
+          },
+          {
+            "name": "totalCrosses",
+            "displayValue": "9",
+            "label": "Crosses"
+          },
+          {
+            "name": "crossPct",
+            "displayValue": "0.6",
+            "label": "Cross %"
+          },
+          {
+            "name": "totalLongBalls",
+            "displayValue": "43",
+            "label": "Long Balls"
+          },
+          {
+            "name": "accurateLongBalls",
+            "displayValue": "24",
+            "label": "Accurate Long Balls"
+          },
+          {
+            "name": "longballPct",
+            "displayValue": "0.6",
+            "label": "Long Balls %"
+          },
+          {
+            "name": "blockedShots",
+            "displayValue": "1",
+            "label": "Blocked Shots"
+          },
+          {
+            "name": "effectiveTackles",
+            "displayValue": "10",
+            "label": "Effective Tackles"
+          },
+          {
+            "name": "totalTackles",
+            "displayValue": "13",
+            "label": "Tackles"
+          },
+          {
+            "name": "tacklePct",
+            "displayValue": "0.8",
+            "label": "Tackle %"
+          },
+          {
+            "name": "interceptions",
+            "displayValue": "11",
+            "label": "Interceptions"
+          },
+          {
+            "name": "effectiveClearance",
+            "displayValue": "26",
+            "label": "Effective Clearances"
+          },
+          {
+            "name": "totalClearance",
+            "displayValue": "26",
+            "label": "Clearances"
+          }
+        ],
+        "displayOrder": 2,
+        "homeAway": "away"
+      }
+    ]
+  },
+  "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/summary?event=401915313"
+}

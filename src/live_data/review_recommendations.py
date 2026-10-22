@@ -38,7 +38,7 @@ def render_html(result):
     for parlay in result['parlays']:
         body+=f'<h3>{parlay["size"]} selecciones · {badge(parlay["status"]) if parlay["status"]!="unavailable" else "No se publicó: partidos insuficientes"}</h3>'
         if parlay['legs']:body+=table(['Partido','Selección publicada','Resultado'],[(e(x['match']),e(x['label']),badge(x['status'])) for x in parlay['legs']])
-    body+='<p>El resultado de la combinada mide cumplimiento deportivo. No se calcula beneficio: no hay importe apostado ni cuota combinada de cierre registrada.</p><h2>Las 12 fijas principales</h2>'
+    body+='<p>El resultado de la combinada mide cumplimiento deportivo. No se calcula beneficio: no hay importe apostado ni cuota combinada de cierre registrada.</p><h2>Las fijas principales</h2>'
     body+=table(['Partido','Nivel','Selección','Probabilidad previa','Resultado real (local–visita)','Balance'],[(e(x['match']),e(x['tier']),e(x['label']),f'{x["probability"]*100:.1f}%',actual(x),badge(x['status'])) for x in result['tiers']])
     body+='<h2>Balance por riesgo</h2>'+table(['Nivel','Acertadas','Falladas','Porcentaje'],[(e(k),v['won'],v['lost'],f'{v["hit_rate"]*100:.1f}%' if v['hit_rate'] is not None else '—') for k,v in result['by_tier'].items()])
     body+='<h2>Todos los mercados publicados, sin contar duplicados</h2><p>Una selección repetida en la ficha, una fija y la combinada cuenta una sola vez aquí.</p>'
@@ -47,7 +47,9 @@ def render_html(result):
     body+=table(['Partido','Marcador','Remates','A puerta','Faltas','Córners','Tarjetas*'],[(f'<a href="{e(m["source_url"])}">{e(m["home"]+" – "+m["away"])}</a>',*[e(' – '.join(map(str,m['metrics'][k]))) for k in ['goals','shots','sot','fouls','corners','cards']]) for m in result['matches']])
     body+='<p>* Tarjetas en la base = amarillas + rojas, según el criterio existente; no equivale al sistema de liquidación de tarjetas de Betano.</p><h2>Qué funcionó y qué falló</h2>'
     body+=''.join('<p>'+e(x)+'</p>' for x in result['analysis'])
-    body+='<h2>Trazabilidad</h2><p>Parma–Torino: se registra 0–3 de Sofascore, corroborado por el usuario. La API devolvía 1–3; su respuesta original y la corrección documentada se conservan. El gol de Parma del minuto 82 fue anulado.</p><p>Fuentes enlazadas en la tabla. Corte de revisión: '+e(result['reviewed_at'])+'.</p>'
+    body+='<h2>Trazabilidad</h2>'
+    if result['date']=='2026-10-19':body+='<p>Parma–Torino: 0–3 verificado en Sofascore; se conserva la respuesta original discrepante de la API y la corrección documentada.</p>'
+    body+='<p>Fuentes finales enlazadas en la tabla; capturas originales conservadas. Corte de revisión: '+e(result['reviewed_at'])+'.</p>'
     return '<!doctype html><html lang="es"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>FOOTDATA · Revisión diaria</title><style>body{font:16px system-ui;background:#f5f5ef;color:#182b25;max-width:1240px;margin:auto;padding:28px}h1{font-size:34px}h2{margin-top:40px}p{line-height:1.6}table{width:100%;border-collapse:collapse;background:white;font-size:14px}th,td{text-align:left;padding:14px;border-bottom:1px solid #dde5db;vertical-align:top}th{background:#173c30;color:white}.scroll{overflow:auto}.won{color:#216b41}.lost{color:#ae3434}.unverified{color:#886a23}.cards{display:flex;gap:18px;flex-wrap:wrap}.cards article{padding:25px;background:white;border-radius:15px;flex:1;min-width:200px}.cards strong{display:block;font-size:40px}a{color:#216b41}</style><main>'+body+'</main></html>'
 
 def main(capture_dir,date,output=None):
@@ -64,6 +66,7 @@ def main(capture_dir,date,output=None):
         selections={x['selection']['id']:x['selection'] for x in m['markets']+m['tiers'] if x.get('selection')}
         if m.get('parlay_selection'):selections[m['parlay_selection']['id']]=m['parlay_selection']
         for sid,c in selections.items():
+            if c.get('published_at') and pd.Timestamp(c['published_at'])>=pd.Timestamp(m['kickoff_utc']):raise ValueError('Selection published after kickoff')
             row={'fixture_id':fid,'selection_id':sid,'match':m['home']+' – '+m['away'],'market':c['market'],'label':c['label'],'probability':c['probability'],**settle(c,metrics)}
             all_rows.append(row);lookup[(fid,sid)]=row
         for t in m['tiers']:
@@ -83,6 +86,13 @@ def main(capture_dir,date,output=None):
       'Los remates totales se desviaron una media de 6,96 por partido, los tiros a puerta 2,88 y las faltas 4,45. Son los conteos que conviene seguir contrastando. Cuatro partidos no bastan para reajustar o validar el modelo; se añaden al seguimiento sin retocar las predicciones anteriores.'
     ]}
     if date!='2026-10-19':result['analysis']=[f"Fijas principales: {result['tier_summary']['won']}/{result['tier_summary']['settled']}. Mercados únicos: {result['unique_summary']['won']}/{result['unique_summary']['settled']}. Se conservan las probabilidades previas y se registran los resultados, sin reajustar el modelo con esta jornada."]
+    if date!='2026-10-19':
+        result['analysis'].extend(f"{level}: {counts['won']}/{counts['settled']} acertadas." for level,counts in result['by_tier'].items())
+        result['analysis'].extend(f"Falló {x['label']} en {x['match']}: resultado final {x['actual_home']}–{x['actual_away']} ({x['actual_metric']})." for x in tier_rows if x['status']=='lost')
+        no_picks=len(matches)-len({x['fixture_id'] for x in tier_rows})
+        result['analysis'].append(f'{no_picks} partidos no tenían fijas principales publicadas; no se cuentan como fallos ni aciertos.')
+        for p in parlays:
+            if p['status']!='unavailable':result['analysis'].append(f"Combinada de {p['size']}: {sum(x['status']=='won' for x in p['legs'])}/{len(p['legs'])} selecciones cumplidas.")
     for level,counts in result['by_tier'].items():
         expected={'Conservadora':4,'Normal':3,'Arriesgada':1}[level]
         if date=='2026-10-19' and counts['won']!=expected:raise ValueError('Analysis does not reconcile with settlements')

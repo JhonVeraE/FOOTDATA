@@ -1,0 +1,1057 @@
+{
+  "header": {
+    "id": "401915312",
+    "uid": "s:600~l:775~e:401915312",
+    "season": {
+      "year": 2026,
+      "current": true,
+      "type": 14534,
+      "name": "2026-27 UEFA Champions League, League Phase"
+    },
+    "timeValid": true,
+    "competitions": [
+      {
+        "id": "401915312",
+        "uid": "s:600~l:775~e:401915312~c:401915312",
+        "date": "2026-10-21T19:00Z",
+        "neutralSite": false,
+        "conferenceCompetition": false,
+        "boxscoreAvailable": true,
+        "commentaryAvailable": true,
+        "liveAvailable": false,
+        "onWatchESPN": false,
+        "recent": false,
+        "wallclockAvailable": true,
+        "boxscoreSource": "full",
+        "playByPlaySource": "full",
+        "competitors": [
+          {
+            "id": "132",
+            "uid": "s:600~t:132",
+            "order": 0,
+            "homeAway": "home",
+            "winner": false,
+            "team": {
+              "id": "132",
+              "guid": "25b5e432-d3d2-939f-f73b-6e531a6fbd91",
+              "uid": "s:600~t:132",
+              "location": "Bayern Munich",
+              "name": "Bayern Munich",
+              "abbreviation": "MUN",
+              "displayName": "Bayern Munich",
+              "shortDisplayName": "Bayern",
+              "color": "dc052d",
+              "alternateColor": "1a1a1a",
+              "logos": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2022-07-27T14:42Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/soccer/500-dark/132.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "dark"
+                  ],
+                  "lastUpdated": "2022-07-27T14:43Z"
+                }
+              ],
+              "groups": {
+                "name": "League Phase"
+              },
+              "links": [
+                {
+                  "rel": [
+                    "clubhouse",
+                    "desktop",
+                    "team"
+                  ],
+                  "href": "https://www.espn.com/soccer/club/_/id/132/bayern-munich",
+                  "text": "Clubhouse"
+                }
+              ],
+              "form": "DWDDW"
+            },
+            "score": "2",
+            "linescores": [
+              {
+                "displayValue": "1"
+              },
+              {
+                "displayValue": "1"
+              }
+            ],
+            "record": [
+              {
+                "type": "total",
+                "summary": "1-2-0",
+                "displayValue": "1-2-0"
+              },
+              {
+                "type": "points",
+                "summary": "5",
+                "displayValue": "5"
+              }
+            ],
+            "possession": false
+          },
+          {
+            "id": "359",
+            "uid": "s:600~t:359",
+            "order": 1,
+            "homeAway": "away",
+            "winner": false,
+            "team": {
+              "id": "359",
+              "guid": "feb44e87-58fa-9597-2691-b3c32768ebe4",
+              "uid": "s:600~t:359",
+              "location": "Arsenal",
+              "name": "Arsenal",
+              "nickname": "Gunners",
+              "abbreviation": "ARS",
+              "displayName": "Arsenal",
+              "shortDisplayName": "Arsenal",
+              "color": "e20520",
+              "alternateColor": "003399",
+              "logos": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2019-05-08T16:07Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/soccer/500-dark/359.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "dark"
+                  ],
+                  "lastUpdated": "2019-05-08T16:07Z"
+                }
+              ],
+              "groups": {
+                "name": "League Phase"
+              },
+              "links": [
+                {
+                  "rel": [
+                    "clubhouse",
+                    "desktop",
+                    "team"
+                  ],
+                  "href": "https://www.espn.com/soccer/club/_/id/359/arsenal",
+                  "text": "Clubhouse"
+                }
+              ],
+              "form": "DWWWL"
+            },
+            "score": "2",
+            "linescores": [
+              {
+                "displayValue": "1"
+              },
+              {
+                "displayValue": "1"
+              }
+            ],
+            "record": [
+              {
+                "type": "total",
+                "summary": "2-1-0",
+                "displayValue": "2-1-0"
+              },
+              {
+                "type": "points",
+                "summary": "7",
+                "displayValue": "7"
+              }
+            ],
+            "possession": false
+          }
+        ],
+        "notes": [],
+        "status": {
+          "type": {
+            "id": "28",
+            "name": "STATUS_FULL_TIME",
+            "state": "post",
+            "completed": true,
+            "description": "Full Time",
+            "detail": "FT",
+            "shortDetail": "FT"
+          }
+        },
+        "broadcasts": [
+          {
+            "type": {
+              "id": "4",
+              "shortName": "STREAMING"
+            },
+            "market": {},
+            "media": {
+              "shortName": "Paramount+"
+            },
+            "lang": "en",
+            "region": "us",
+            "isNational": false
+          }
+        ],
+        "details": [
+          {
+            "clock": {
+              "value": 1455.0,
+              "displayValue": "25'"
+            },
+            "scoringPlay": true,
+            "team": {
+              "id": "359",
+              "uid": "s:600~t:359",
+              "location": "Arsenal",
+              "name": "Arsenal",
+              "nickname": "Gunners",
+              "abbreviation": "ARS",
+              "displayName": "Arsenal"
+            },
+            "participants": [
+              {
+                "athlete": {
+                  "id": "251400",
+                  "displayName": "Eberechi Eze",
+                  "shortName": "E. Eze",
+                  "links": [
+                    {
+                      "language": "en-US",
+                      "rel": [
+                        "playercard",
+                        "desktop",
+                        "athlete"
+                      ],
+                      "href": "https://www.espn.com/soccer/player/_/id/251400/eberechi-eze",
+                      "text": "Player Card",
+                      "shortText": "Player Card"
+                    }
+                  ]
+                }
+              },
+              {
+                "athlete": {
+                  "id": "203669",
+                  "displayName": "Martin Ødegaard",
+                  "shortName": "M. Ødegaard",
+                  "links": [
+                    {
+                      "language": "en-US",
+                      "rel": [
+                        "playercard",
+                        "desktop",
+                        "athlete"
+                      ],
+                      "href": "https://www.espn.com/soccer/player/_/id/203669/martin-ødegaard",
+                      "text": "Player Card",
+                      "shortText": "Player Card"
+                    }
+                  ]
+                }
+              }
+            ],
+            "addedClock": {
+              "value": 0.0,
+              "displayValue": ""
+            },
+            "redCard": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "clock": {
+              "value": 2062.0,
+              "displayValue": "35'"
+            },
+            "scoringPlay": true,
+            "team": {
+              "id": "132",
+              "uid": "s:600~t:132",
+              "location": "Bayern Munich",
+              "name": "Bayern Munich",
+              "abbreviation": "MUN",
+              "displayName": "Bayern Munich"
+            },
+            "participants": [
+              {
+                "athlete": {
+                  "id": "236721",
+                  "displayName": "Alphonso Davies",
+                  "shortName": "A. Davies",
+                  "links": [
+                    {
+                      "language": "en-US",
+                      "rel": [
+                        "playercard",
+                        "desktop",
+                        "athlete"
+                      ],
+                      "href": "https://www.espn.com/soccer/player/_/id/236721/alphonso-davies",
+                      "text": "Player Card",
+                      "shortText": "Player Card"
+                    }
+                  ]
+                }
+              },
+              {
+                "athlete": {
+                  "id": "142200",
+                  "displayName": "Harry Kane",
+                  "shortName": "H. Kane",
+                  "links": [
+                    {
+                      "language": "en-US",
+                      "rel": [
+                        "playercard",
+                        "desktop",
+                        "athlete"
+                      ],
+                      "href": "https://www.espn.com/soccer/player/_/id/142200/harry-kane",
+                      "text": "Player Card",
+                      "shortText": "Player Card"
+                    }
+                  ]
+                }
+              }
+            ],
+            "addedClock": {
+              "value": 0.0,
+              "displayValue": ""
+            },
+            "redCard": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "clock": {
+              "value": 3609.0,
+              "displayValue": "61'"
+            },
+            "scoringPlay": true,
+            "team": {
+              "id": "132",
+              "uid": "s:600~t:132",
+              "location": "Bayern Munich",
+              "name": "Bayern Munich",
+              "abbreviation": "MUN",
+              "displayName": "Bayern Munich"
+            },
+            "participants": [
+              {
+                "athlete": {
+                  "id": "142200",
+                  "displayName": "Harry Kane",
+                  "shortName": "H. Kane",
+                  "links": [
+                    {
+                      "language": "en-US",
+                      "rel": [
+                        "playercard",
+                        "desktop",
+                        "athlete"
+                      ],
+                      "href": "https://www.espn.com/soccer/player/_/id/142200/harry-kane",
+                      "text": "Player Card",
+                      "shortText": "Player Card"
+                    }
+                  ]
+                }
+              }
+            ],
+            "addedClock": {
+              "value": 0.0,
+              "displayValue": ""
+            },
+            "redCard": false,
+            "penaltyKick": true,
+            "ownGoal": false
+          },
+          {
+            "clock": {
+              "value": 4874.0,
+              "displayValue": "82'"
+            },
+            "scoringPlay": true,
+            "team": {
+              "id": "359",
+              "uid": "s:600~t:359",
+              "location": "Arsenal",
+              "name": "Arsenal",
+              "nickname": "Gunners",
+              "abbreviation": "ARS",
+              "displayName": "Arsenal"
+            },
+            "participants": [
+              {
+                "athlete": {
+                  "id": "238262",
+                  "displayName": "Declan Rice",
+                  "shortName": "D. Rice",
+                  "links": [
+                    {
+                      "language": "en-US",
+                      "rel": [
+                        "playercard",
+                        "desktop",
+                        "athlete"
+                      ],
+                      "href": "https://www.espn.com/soccer/player/_/id/238262/declan-rice",
+                      "text": "Player Card",
+                      "shortText": "Player Card"
+                    }
+                  ]
+                }
+              },
+              {
+                "athlete": {
+                  "id": "258906",
+                  "displayName": "Viktor Gyökeres",
+                  "shortName": "V. Gyökeres",
+                  "links": [
+                    {
+                      "language": "en-US",
+                      "rel": [
+                        "playercard",
+                        "desktop",
+                        "athlete"
+                      ],
+                      "href": "https://www.espn.com/soccer/player/_/id/258906/viktor-gyokeres",
+                      "text": "Player Card",
+                      "shortText": "Player Card"
+                    }
+                  ]
+                }
+              }
+            ],
+            "addedClock": {
+              "value": 0.0,
+              "displayValue": ""
+            },
+            "redCard": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          }
+        ],
+        "groups": {
+          "id": "1",
+          "name": "Group A",
+          "abbreviation": "A"
+        },
+        "isFinal": false,
+        "isThirdPlace": false,
+        "altGameNote": "UEFA Champions League, League Phase",
+        "boxscoreMinutes": false,
+        "shotMapAvailable": true
+      }
+    ],
+    "links": [
+      {
+        "rel": [
+          "summary",
+          "desktop",
+          "event"
+        ],
+        "href": "https://www.espn.com/soccer/match/_/gameId/401915312/arsenal-bayern-munich",
+        "text": "Summary",
+        "shortText": "Summary",
+        "isExternal": false,
+        "isPremium": false
+      },
+      {
+        "rel": [
+          "recap",
+          "desktop",
+          "event"
+        ],
+        "href": "https://www.espn.com/soccer/report/_/gameId/401915312",
+        "text": "Report",
+        "shortText": "Report",
+        "isExternal": false,
+        "isPremium": false
+      },
+      {
+        "rel": [
+          "commentary",
+          "desktop",
+          "event"
+        ],
+        "href": "https://www.espn.com/soccer/commentary/_/gameId/401915312",
+        "text": "Commentary",
+        "shortText": "Commentary",
+        "isExternal": false,
+        "isPremium": false
+      },
+      {
+        "rel": [
+          "videos",
+          "desktop",
+          "event"
+        ],
+        "href": "https://www.espn.com/soccer/video/_/gameId/401915312",
+        "text": "Videos",
+        "shortText": "Videos",
+        "isExternal": false,
+        "isPremium": false
+      }
+    ],
+    "league": {
+      "id": "775",
+      "uid": "s:600~l:775",
+      "name": "UEFA Champions League",
+      "abbreviation": "UEFA Champions League",
+      "shortName": "UEFA Champions League",
+      "midsizeName": "UEFA.CHAMPIONS",
+      "slug": "uefa.champions",
+      "isTournament": true,
+      "links": [
+        {
+          "rel": [
+            "index",
+            "desktop",
+            "league"
+          ],
+          "href": "https://www.espn.com/soccer/league/_/name/uefa.champions",
+          "text": "Index"
+        },
+        {
+          "rel": [
+            "index",
+            "sportscenter",
+            "app",
+            "league"
+          ],
+          "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~l:775",
+          "text": "Index"
+        },
+        {
+          "rel": [
+            "schedule",
+            "desktop",
+            "league"
+          ],
+          "href": "https://www.espn.com/soccer/schedule/_/league/uefa.champions",
+          "text": "Schedule"
+        },
+        {
+          "rel": [
+            "schedule",
+            "sportscenter",
+            "app",
+            "league"
+          ],
+          "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~l:775&section=scores",
+          "text": "Schedule"
+        },
+        {
+          "rel": [
+            "standings",
+            "desktop",
+            "league"
+          ],
+          "href": "https://www.espn.com/soccer/table/_/league/uefa.champions",
+          "text": "Standings"
+        },
+        {
+          "rel": [
+            "standings",
+            "sportscenter",
+            "app",
+            "league"
+          ],
+          "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~l:775&section=standings",
+          "text": "Standings"
+        },
+        {
+          "rel": [
+            "scores",
+            "desktop",
+            "league"
+          ],
+          "href": "https://www.espn.com/soccer/scoreboard/_/league/uefa.champions",
+          "text": "Scores"
+        },
+        {
+          "rel": [
+            "scores",
+            "sportscenter",
+            "app",
+            "league"
+          ],
+          "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~l:775&section=scores",
+          "text": "Scores"
+        },
+        {
+          "rel": [
+            "stats",
+            "desktop",
+            "league"
+          ],
+          "href": "https://www.espn.com/soccer/stats/_/league/uefa.champions",
+          "text": "Stats"
+        },
+        {
+          "rel": [
+            "stats",
+            "sportscenter",
+            "app",
+            "league"
+          ],
+          "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~l:775&section=stats",
+          "text": "Stats"
+        },
+        {
+          "rel": [
+            "teams",
+            "desktop",
+            "league"
+          ],
+          "href": "https://www.espn.com/soccer/teams/_/league/uefa.champions",
+          "text": "Teams"
+        }
+      ],
+      "logos": [
+        {
+          "href": "https://a.espncdn.com/i/leaguelogos/soccer/500/2.png",
+          "rel": [
+            "full",
+            "default"
+          ]
+        },
+        {
+          "href": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2.png",
+          "rel": [
+            "full",
+            "dark"
+          ]
+        }
+      ]
+    },
+    "linksv4": [
+      {
+        "rel": [
+          "summary",
+          "desktop",
+          "event"
+        ],
+        "href": "https://www.espn.com/soccer/match/_/gameId/401915312/arsenal-bayern-munich",
+        "text": "Gamecast",
+        "shortText": "Summary",
+        "isExternal": false,
+        "isPremium": false
+      },
+      {
+        "rel": [
+          "recap",
+          "desktop",
+          "event"
+        ],
+        "href": "https://www.espn.com/soccer/report/_/gameId/401915312",
+        "text": "Recap",
+        "shortText": "Recap",
+        "isExternal": false,
+        "isPremium": false
+      },
+      {
+        "rel": [
+          "teamstats",
+          "desktop",
+          "event"
+        ],
+        "href": "https://www.espn.com/soccer/team-stats/_/gameId/401915312",
+        "text": "Team Stats",
+        "shortText": "Team Stats",
+        "isExternal": false,
+        "isPremium": false
+      },
+      {
+        "rel": [
+          "playerstats",
+          "desktop",
+          "event"
+        ],
+        "href": "https://www.espn.com/soccer/player-stats/_/gameId/401915312",
+        "text": "Player Stats",
+        "shortText": "Player Stats",
+        "isExternal": false,
+        "isPremium": false
+      },
+      {
+        "rel": [
+          "commentary",
+          "desktop",
+          "event"
+        ],
+        "href": "https://www.espn.com/soccer/commentary/_/gameId/401915312",
+        "text": "Commentary",
+        "shortText": "Commentary",
+        "isExternal": false,
+        "isPremium": false
+      },
+      {
+        "rel": [
+          "videos",
+          "desktop",
+          "event"
+        ],
+        "href": "https://www.espn.com/soccer/video/_/gameId/401915312",
+        "text": "Videos",
+        "shortText": "Videos",
+        "isExternal": false,
+        "isPremium": false
+      }
+    ]
+  },
+  "boxscore": {
+    "teams": [
+      {
+        "team": {
+          "id": "132",
+          "uid": "s:600~t:132",
+          "slug": "ger.bayern_munich",
+          "location": "Bayern Munich",
+          "name": "Bayern Munich",
+          "abbreviation": "MUN",
+          "displayName": "Bayern Munich",
+          "shortDisplayName": "Bayern",
+          "color": "dc052d",
+          "alternateColor": "1a1a1a",
+          "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
+          "uniform": {
+            "type": "home",
+            "color": "d9002a"
+          }
+        },
+        "statistics": [
+          {
+            "name": "foulsCommitted",
+            "displayValue": "15",
+            "label": "Fouls"
+          },
+          {
+            "name": "yellowCards",
+            "displayValue": "0",
+            "label": "Yellow Cards"
+          },
+          {
+            "name": "redCards",
+            "displayValue": "0",
+            "label": "Red Cards"
+          },
+          {
+            "name": "offsides",
+            "displayValue": "2",
+            "label": "Offsides"
+          },
+          {
+            "name": "wonCorners",
+            "displayValue": "3",
+            "label": "Corner Kicks"
+          },
+          {
+            "name": "saves",
+            "displayValue": "3",
+            "label": "Saves"
+          },
+          {
+            "name": "possessionPct",
+            "displayValue": "46.1",
+            "label": "Possession"
+          },
+          {
+            "name": "totalShots",
+            "displayValue": "13",
+            "label": "SHOTS"
+          },
+          {
+            "name": "shotsOnTarget",
+            "displayValue": "5",
+            "label": "ON GOAL"
+          },
+          {
+            "name": "shotPct",
+            "displayValue": "0.4",
+            "label": "On Target %"
+          },
+          {
+            "name": "penaltyKickGoals",
+            "displayValue": "0",
+            "label": "Penalty Goals"
+          },
+          {
+            "name": "penaltyKickShots",
+            "displayValue": "1",
+            "label": "Penalty Kicks Taken"
+          },
+          {
+            "name": "accuratePasses",
+            "displayValue": "373",
+            "label": "Accurate Passes"
+          },
+          {
+            "name": "totalPasses",
+            "displayValue": "435",
+            "label": "Passes"
+          },
+          {
+            "name": "passPct",
+            "displayValue": "0.9",
+            "label": "Pass Completion %"
+          },
+          {
+            "name": "accurateCrosses",
+            "displayValue": "1",
+            "label": "Accurate Crosses"
+          },
+          {
+            "name": "totalCrosses",
+            "displayValue": "6",
+            "label": "Crosses"
+          },
+          {
+            "name": "crossPct",
+            "displayValue": "0.2",
+            "label": "Cross %"
+          },
+          {
+            "name": "totalLongBalls",
+            "displayValue": "43",
+            "label": "Long Balls"
+          },
+          {
+            "name": "accurateLongBalls",
+            "displayValue": "18",
+            "label": "Accurate Long Balls"
+          },
+          {
+            "name": "longballPct",
+            "displayValue": "0.4",
+            "label": "Long Balls %"
+          },
+          {
+            "name": "blockedShots",
+            "displayValue": "5",
+            "label": "Blocked Shots"
+          },
+          {
+            "name": "effectiveTackles",
+            "displayValue": "9",
+            "label": "Effective Tackles"
+          },
+          {
+            "name": "totalTackles",
+            "displayValue": "15",
+            "label": "Tackles"
+          },
+          {
+            "name": "tacklePct",
+            "displayValue": "0.6",
+            "label": "Tackle %"
+          },
+          {
+            "name": "interceptions",
+            "displayValue": "2",
+            "label": "Interceptions"
+          },
+          {
+            "name": "effectiveClearance",
+            "displayValue": "23",
+            "label": "Effective Clearances"
+          },
+          {
+            "name": "totalClearance",
+            "displayValue": "23",
+            "label": "Clearances"
+          }
+        ],
+        "displayOrder": 1,
+        "homeAway": "home"
+      },
+      {
+        "team": {
+          "id": "359",
+          "uid": "s:600~t:359",
+          "slug": "eng.arsenal",
+          "location": "Arsenal",
+          "name": "Arsenal",
+          "abbreviation": "ARS",
+          "displayName": "Arsenal",
+          "shortDisplayName": "Arsenal",
+          "color": "e20520",
+          "alternateColor": "003399",
+          "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
+          "uniform": {
+            "type": "away",
+            "color": "3c4a6d"
+          }
+        },
+        "statistics": [
+          {
+            "name": "foulsCommitted",
+            "displayValue": "6",
+            "label": "Fouls"
+          },
+          {
+            "name": "yellowCards",
+            "displayValue": "2",
+            "label": "Yellow Cards"
+          },
+          {
+            "name": "redCards",
+            "displayValue": "0",
+            "label": "Red Cards"
+          },
+          {
+            "name": "offsides",
+            "displayValue": "1",
+            "label": "Offsides"
+          },
+          {
+            "name": "wonCorners",
+            "displayValue": "5",
+            "label": "Corner Kicks"
+          },
+          {
+            "name": "saves",
+            "displayValue": "3",
+            "label": "Saves"
+          },
+          {
+            "name": "possessionPct",
+            "displayValue": "53.9",
+            "label": "Possession"
+          },
+          {
+            "name": "totalShots",
+            "displayValue": "14",
+            "label": "SHOTS"
+          },
+          {
+            "name": "shotsOnTarget",
+            "displayValue": "5",
+            "label": "ON GOAL"
+          },
+          {
+            "name": "shotPct",
+            "displayValue": "0.4",
+            "label": "On Target %"
+          },
+          {
+            "name": "penaltyKickGoals",
+            "displayValue": "0",
+            "label": "Penalty Goals"
+          },
+          {
+            "name": "penaltyKickShots",
+            "displayValue": "0",
+            "label": "Penalty Kicks Taken"
+          },
+          {
+            "name": "accuratePasses",
+            "displayValue": "436",
+            "label": "Accurate Passes"
+          },
+          {
+            "name": "totalPasses",
+            "displayValue": "502",
+            "label": "Passes"
+          },
+          {
+            "name": "passPct",
+            "displayValue": "0.9",
+            "label": "Pass Completion %"
+          },
+          {
+            "name": "accurateCrosses",
+            "displayValue": "4",
+            "label": "Accurate Crosses"
+          },
+          {
+            "name": "totalCrosses",
+            "displayValue": "17",
+            "label": "Crosses"
+          },
+          {
+            "name": "crossPct",
+            "displayValue": "0.2",
+            "label": "Cross %"
+          },
+          {
+            "name": "totalLongBalls",
+            "displayValue": "48",
+            "label": "Long Balls"
+          },
+          {
+            "name": "accurateLongBalls",
+            "displayValue": "15",
+            "label": "Accurate Long Balls"
+          },
+          {
+            "name": "longballPct",
+            "displayValue": "0.3",
+            "label": "Long Balls %"
+          },
+          {
+            "name": "blockedShots",
+            "displayValue": "5",
+            "label": "Blocked Shots"
+          },
+          {
+            "name": "effectiveTackles",
+            "displayValue": "6",
+            "label": "Effective Tackles"
+          },
+          {
+            "name": "totalTackles",
+            "displayValue": "17",
+            "label": "Tackles"
+          },
+          {
+            "name": "tacklePct",
+            "displayValue": "0.4",
+            "label": "Tackle %"
+          },
+          {
+            "name": "interceptions",
+            "displayValue": "11",
+            "label": "Interceptions"
+          },
+          {
+            "name": "effectiveClearance",
+            "displayValue": "15",
+            "label": "Effective Clearances"
+          },
+          {
+            "name": "totalClearance",
+            "displayValue": "15",
+            "label": "Clearances"
+          }
+        ],
+        "displayOrder": 2,
+        "homeAway": "away"
+      }
+    ]
+  },
+  "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/summary?event=401915312"
+}
