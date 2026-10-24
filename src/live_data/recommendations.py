@@ -243,6 +243,7 @@ def apply_editorial_overrides(data,predictions,stats,as_of=None,overrides=None):
     reports={str(m['fixture_id']):m for m in predictions['matches']}
     applied=[]
     for override in overrides:
+        if override.get('effective_from') and utc(override['effective_from'])>clock:continue
         fid=str(override['fixture_id'])
         match=next((m for m in data['matches'] if m['fixture_id']==fid),None)
         report=reports.get(fid)

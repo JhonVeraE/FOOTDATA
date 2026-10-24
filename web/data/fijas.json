@@ -9984,22 +9984,22 @@
           "key": "conservative",
           "label": "Conservadora",
           "selection": {
-            "id": "goals:home:under:3.5:",
+            "id": "goals:home:over:1.5:",
             "fixture_id": "564723",
             "kind": "goals",
             "market": "Goles",
             "scope": "home",
-            "side": "under",
-            "line": 3.5,
-            "label": "Barcelona: menos de 3,5 goles",
-            "probability": 0.8239316723488992,
+            "side": "over",
+            "line": 1.5,
+            "label": "Barcelona: más de 1,5 goles",
+            "probability": 0.6396922270094993,
             "probability_method": "Matriz original de goles",
             "individually_calibrated": false,
-            "fair_odds": 1.2136928747370006,
-            "pricing_probability": 0.7739316723488991,
+            "fair_odds": 1.5632517604206406,
+            "pricing_probability": 0.5896922270094993,
             "stress_discount": 0.05,
-            "minimum_odds": 1.3567089156762737,
-            "price_status": "below_reference",
+            "minimum_odds": 1.7805898601120371,
+            "price_status": "unverified",
             "bookmaker": "Betano",
             "evidence": {
               "contexts": [
@@ -10008,73 +10008,33 @@
                   "venue": "local",
                   "scope": "competition_and_venue",
                   "measure": "producción propia",
-                  "hits": 3,
+                  "hits": 5,
                   "matches": 5,
-                  "current_hit_streak": 1
+                  "current_hit_streak": 5
                 },
                 {
                   "team": "Real Madrid",
                   "venue": "visitante",
                   "scope": "competition_and_venue",
                   "measure": "permitido al rival",
-                  "hits": 5,
+                  "hits": 2,
                   "matches": 5,
-                  "current_hit_streak": 5
+                  "current_hit_streak": 2
                 }
               ],
               "matches": 10,
-              "hits": 8,
-              "rate": 0.8,
+              "hits": 7,
+              "rate": 0.7,
               "window": "Hasta cinco por equipo y localía dentro de 365 días; la mezcla de competiciones se identifica en cada muestra",
               "latest_result": "2026-10-10"
             },
-            "support_gap": 0.023931672348899147,
-            "odds_audit": {
-              "fixture_id": "564723",
-              "candidate_id": "goals:home:under:3.5:",
-              "home": "Barcelona",
-              "away": "Real Madrid",
-              "kickoff_utc": "2026-10-25T20:00:00+00:00",
-              "label": "Barcelona: menos de 3,5 goles",
-              "minimum_odds": 1.3567089156762737,
-              "observed_at": "2026-10-19T06:05:32.233Z",
-              "source_url": "https://www.betano.pe/cuotas-de-partido/fc-barcelona-real-madrid/91668574/?bt=10",
-              "identity_verified": true,
-              "status": "below_reference",
-              "kind": "goals",
-              "scope": "home",
-              "side": "under",
-              "line": 3.5,
-              "extra": "",
-              "odds": 1.33,
-              "bookmaker_market": "FC Barcelona - Goles totales Más/Menos",
-              "bookmaker_selection": "Menos 3.5"
-            },
-            "observed_quote": {
-              "fixture_id": "564723",
-              "candidate_id": "goals:home:under:3.5:",
-              "home": "Barcelona",
-              "away": "Real Madrid",
-              "kickoff_utc": "2026-10-25T20:00:00+00:00",
-              "label": "Barcelona: menos de 3,5 goles",
-              "minimum_odds": 1.3567089156762737,
-              "observed_at": "2026-10-19T06:05:32.233Z",
-              "source_url": "https://www.betano.pe/cuotas-de-partido/fc-barcelona-real-madrid/91668574/?bt=10",
-              "identity_verified": true,
-              "status": "below_reference",
-              "kind": "goals",
-              "scope": "home",
-              "side": "under",
-              "line": 3.5,
-              "extra": "",
-              "odds": 1.33,
-              "bookmaker_market": "FC Barcelona - Goles totales Más/Menos",
-              "bookmaker_selection": "Menos 3.5",
-              "bookmaker": "Betano",
-              "complete_market_snapshot": false
-            }
+            "support_gap": 0.06030777299050061,
+            "editorial_override": true,
+            "published_at": "2026-10-24T23:37:10.937578+00:00",
+            "editorial_reason": "Elección editorial solicitada para el vídeo del Clásico: Barcelona marca al menos 2 goles. Se prefiere a 3+ por su mayor probabilidad del modelo; no cumple la banda conservadora automática."
           },
-          "status": "available"
+          "status": "available",
+          "selection_origin": "user_requested"
         },
         {
           "key": "normal",
@@ -63044,12 +63004,12 @@
   },
   "editorial_overrides": [
     {
-      "fixture_id": "575370",
-      "tier": "risky",
-      "candidate_id": "result_goals:total:home:2.5:over",
-      "published_at": "2026-10-21T16:34:56.202237+00:00",
-      "reason": "Propuesta solicitada por el usuario para el vídeo Real Madrid–Leipzig: gana Madrid y más de 2,5 goles."
+      "fixture_id": "564723",
+      "tier": "conservative",
+      "candidate_id": "goals:home:over:1.5:",
+      "published_at": "2026-10-24T23:37:10.937578+00:00",
+      "reason": "Elección editorial solicitada para el vídeo del Clásico: Barcelona marca al menos 2 goles. Se prefiere a 3+ por su mayor probabilidad del modelo; no cumple la banda conservadora automática."
     }
   ],
-  "revised_at": "2026-10-21T16:34:56.202237+00:00"
+  "revised_at": "2026-10-24T23:37:10.937578+00:00"
 }
