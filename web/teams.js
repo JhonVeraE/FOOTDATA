@@ -47,7 +47,7 @@ function standingsFor(data){
 function teamDataNotice(data){
  const box=E('div','team-data-notice');
  box.append(E('span',null,`Estadísticas hasta el ${teamDate(data.statistics_through)} · ${data.statistics_matches} partidos registrados.`));
- if(data.standings)box.append(E('span',null,`Clasificación: football-data.org · consultada el ${teamStamp(data.standings.updated_at)}.`));
+ if(data.standings&&!data.standings.stale)box.append(E('span',null,`Clasificación: ${data.standings.source} · consultada el ${teamStamp(data.standings.updated_at)}.`));
  else box.append(E('span',null,'Clasificación calculada con los partidos registrados; puede diferir de la oficial.'));
  return box;
 }
@@ -86,7 +86,7 @@ function teamFixtures(l,team,t){
 function teamsStandings(l,data,items){
  const {rows,official}=standingsFor(data);const positions=new Map(rows.map(r=>[r.team,r]));
  const visible=items.map(t=>positions.get(t.team)).filter(Boolean).sort((a,b)=>a.position-b.position);
- const section=panel(`Clasificación · ${teamScopeLabel()}`,official?'Posiciones publicadas por football-data.org.':'Tabla de los registros disponibles. Orden: puntos, diferencia de gol y goles a favor; no aplica desempates oficiales.');
+ const section=panel(`Clasificación · ${teamScopeLabel()}`,official?`Posiciones publicadas por ${data.standings.source}.`:'Tabla de los registros disponibles. Orden: puntos, diferencia de gol y goles a favor; no aplica desempates oficiales.');
  const table=teamTable(['Pos.','Equipo','PJ','G','E','P','GF','GC','DG','Pts'],visible.map(r=>[r.position,teamIdentity(l,r.team),r.played,r.won,r.draw,r.lost,r.goals_for,r.goals_against,`${r.goal_difference>0?'+':''}${r.goal_difference}`,r.points]),`Clasificación de ${l.display||l.name}, ${teamScopeLabel()}`);
  section.append(E('p','team-table-hint','Toca un equipo o su fila para ver sus estadísticas y partidos.'),table.wrap,E('p','team-legend','PJ: partidos · G: ganados · E: empatados · P: perdidos · GF / GC: goles a favor / en contra · DG: diferencia · Pts: puntos.'));
  if(!visible.length)section.append(E('p','explanation','No hay posiciones disponibles para esta búsqueda.'));

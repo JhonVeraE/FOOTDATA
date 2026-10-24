@@ -7,10 +7,25 @@ import pandas as pd
 
 ROOT=Path(__file__).resolve().parents[1]
 sys.path.insert(0,str(ROOT/'src/live_data'))
-from build_team_dashboard import summarize, provider_rows, team_matches, METRICS
+from build_team_dashboard import summarize, provider_rows, team_matches, standings_cover_stats, METRICS
 
 
 class TeamDashboardTests(unittest.TestCase):
+    def test_recent_table_must_cover_each_teams_verified_games(self):
+        rows=pd.DataFrame({'team':['A','A','B','B'],'is_home':[True,False,True,False]})
+        self.assertFalse(standings_cover_stats({'all':[{'team':'A','played':1},{'team':'B','played':3}]},rows))
+        self.assertTrue(standings_cover_stats({'all':[{'team':'A','played':2},{'team':'B','played':2}]},rows))
+        self.assertFalse(standings_cover_stats({'home':[{'team':'A','played':0},{'team':'B','played':1}]},rows))
+
+    def test_published_standings_do_not_lag_recorded_results(self):
+        data=json.loads((ROOT/'web/data/teams.json').read_text(encoding='utf-8'))
+        for league in data['competitions'].values():
+            tables=league.get('standings',{}).get('tables',{})
+            for scope,table in tables.items():
+                played={r['team']:r['played'] for r in table}
+                for team in league['teams']:
+                    self.assertGreaterEqual(played.get(team['team'],0),team['splits'][scope]['played'])
+
     def test_match_lists_preserve_home_scores_and_deduplicate_calendar(self):
         rows=pd.DataFrame([{'date':pd.Timestamp('2026-10-01'),'opponent':'Rival','is_home':False,'goals_for':1,'goals_against':3}])
         calendar=pd.DataFrame([

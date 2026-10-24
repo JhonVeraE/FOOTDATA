@@ -1,0 +1,28 @@
+{
+  "dates": [
+    "2026-10-22",
+    "2026-10-23",
+    "2026-10-24"
+  ],
+  "matches": 24,
+  "new_rows": 48,
+  "deferred": [
+    {
+      "fixture_id": "559655",
+      "home": "Toulouse",
+      "away": "Troyes",
+      "original_date": "2026-10-24",
+      "new_kickoff_utc": "2026-10-25T16:15Z",
+      "new_date": "2026-10-25",
+      "status": "rescheduled",
+      "reason": "Toulouse–Troyes aplazado al domingo 25 de octubre por petición de la prefectura.",
+      "source_url": "https://ligue1.com/fr/articles/l1_article_5985-"
+    }
+  ],
+  "by_date": {
+    "2026-10-22": 0,
+    "2026-10-23": 5,
+    "2026-10-24": 19
+  },
+  "dataset_matches": 370
+}

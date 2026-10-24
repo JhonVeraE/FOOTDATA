@@ -12,12 +12,28 @@ def main(capture_dir, date, output=None):
     capture = Path(capture_dir)
     archive = ARTIFACT_DIR / 'daily_reviews' / date
     paths = [archive / 'ingestion.json', archive / 'domestic' / 'ingestion.json']
-    records = [r for path in paths if path.exists()
-               for r in json.loads(path.read_text(encoding='utf-8'))['matches']]
+    ingestions = [json.loads(path.read_text(encoding='utf-8')) for path in paths if path.exists()]
+    records = [r for ingestion in ingestions for r in ingestion['matches']]
+    deferred = [r for ingestion in ingestions for r in ingestion.get('deferred', [])]
     frozen = json.loads((capture / 'predictions_before_results.json').read_text(encoding='utf-8'))
     forecasts = {str(m['fixture_id']): m for m in frozen['matches'] if m['fecha'] == date}
-    if len(records) != len({r['fixture_id'] for r in records}) or set(forecasts) != {r['fixture_id'] for r in records}:
+    record_ids = {r['fixture_id'] for r in records}
+    deferred_ids = {r['fixture_id'] for r in deferred}
+    if (len(records) != len(record_ids) or len(deferred) != len(deferred_ids)
+            or record_ids & deferred_ids or set(forecasts) != record_ids | deferred_ids):
         raise ValueError('Incomplete or duplicate verified matchday')
+    for r in deferred:
+        m = forecasts[r['fixture_id']]
+        if ((r['home'], r['away']) != (m['local'], m['visitante'])
+                or not r.get('source_url') or pd.Timestamp(r['new_date']) <= pd.Timestamp(date)):
+            raise ValueError('Invalid documented postponement')
+    if not records:
+        if forecasts:raise ValueError('No final matches available to evaluate')
+        result = {'date':date,'summary':{'matches':0},'matches':[],
+                  'reviewed_at':datetime.now(timezone.utc).isoformat(),
+                  'note':'No hubo partidos de las cinco ligas o Champions en esta fecha.'}
+        save(archive/'review.json',result);save(WEB_DIR/'data'/f'review_{date}.json',result)
+        print(json.dumps(result,ensure_ascii=False));return result
     rows = []
     for r in records:
         m = forecasts[r['fixture_id']]
@@ -54,7 +70,8 @@ def main(capture_dir, date, output=None):
         'mean_absolute_errors': {key: sum(next(s for s in r['statistics'] if s['metric'] == key)['absolute_error_total']
                                         for r in rows)/len(rows) for key in METRICS}}
     review = {'date': date, 'reviewed_at': datetime.now(timezone.utc).isoformat(), 'summary': summary,
-              'matches': rows, 'original_predictions_sha256': hashlib.sha256((capture/'predictions_before_results.json').read_bytes()).hexdigest()}
+              'matches': rows, 'deferred': deferred,
+              'original_predictions_sha256': hashlib.sha256((capture/'predictions_before_results.json').read_bytes()).hexdigest()}
     for path in [capture/'review.json', archive/'review.json', WEB_DIR/'data'/f'review_{date}.json']:
         save(path, review)
     result = review_picks(capture, date, output)

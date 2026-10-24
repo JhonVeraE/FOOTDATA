@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-22",
+  "ingested_at": "2026-10-24T23:13:22.102020+00:00",
+  "provider": "ESPN final boxscores; scores independently checked against Soccerbase and, when final, football-data.org",
+  "matches": [],
+  "deferred": [],
+  "added_rows_this_run": 0,
+  "scope": [
+    "La Liga",
+    "Premier League",
+    "Bundesliga",
+    "Serie A",
+    "Ligue 1",
+    "UEFA Champions League"
+  ],
+  "capture_directory": "data\\artifacts\\review_20261022_24\\2026-10-22"
+}

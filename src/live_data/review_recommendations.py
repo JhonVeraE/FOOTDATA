@@ -56,18 +56,22 @@ def main(capture_dir,date,output=None):
     capture=Path(capture_dir);frozen_path=capture/'fijas_before_results.json'
     frozen=json.loads(frozen_path.read_text(encoding='utf-8'));review=json.loads((capture/'review.json').read_text(encoding='utf-8'))
     actual={m['fixture_id']:m for m in review['matches']};all_rows=[];tier_rows=[];matches=[];lookup={}
+    deferred={m['fixture_id']:m for m in review.get('deferred',[])}
     if pd.Timestamp(frozen['generated_at'])>=min(pd.Timestamp(x['kickoff_utc']) for x in actual.values()):raise ValueError('Shortlist is not pre-match')
     for m in frozen['matches']:
         if m['date_lima']!=date:continue
-        fid=m['fixture_id'];a=actual[fid]
+        fid=m['fixture_id']
+        if fid not in actual and fid not in deferred:raise ValueError('Missing final data without documented postponement')
+        a=actual.get(fid)
         if pd.Timestamp(m['prediction_generated_at'])>=pd.Timestamp(m['kickoff_utc']):raise ValueError('Not a pre-match prediction')
-        metrics={s['metric']:s['actual'] for s in a['statistics']}
-        matches.append({'fixture_id':fid,'home':m['home'],'away':m['away'],'metrics':metrics,'source_url':a['source_url']})
+        metrics={s['metric']:s['actual'] for s in a['statistics']} if a else {}
+        if a:matches.append({'fixture_id':fid,'home':m['home'],'away':m['away'],'metrics':metrics,'source_url':a['source_url']})
         selections={x['selection']['id']:x['selection'] for x in m['markets']+m['tiers'] if x.get('selection')}
         if m.get('parlay_selection'):selections[m['parlay_selection']['id']]=m['parlay_selection']
         for sid,c in selections.items():
             if c.get('published_at') and pd.Timestamp(c['published_at'])>=pd.Timestamp(m['kickoff_utc']):raise ValueError('Selection published after kickoff')
-            row={'fixture_id':fid,'selection_id':sid,'match':m['home']+' – '+m['away'],'market':c['market'],'label':c['label'],'probability':c['probability'],**settle(c,metrics)}
+            settled=settle(c,metrics) if a else {'status':'unverified','reason':deferred[fid]['reason']}
+            row={'fixture_id':fid,'selection_id':sid,'match':m['home']+' – '+m['away'],'market':c['market'],'label':c['label'],'probability':c['probability'],**settled}
             all_rows.append(row);lookup[(fid,sid)]=row
         for t in m['tiers']:
             if t.get('selection'):tier_rows.append({**lookup[(fid,t['selection']['id'])],'tier':t['label']})
@@ -89,8 +93,9 @@ def main(capture_dir,date,output=None):
     if date!='2026-10-19':
         result['analysis'].extend(f"{level}: {counts['won']}/{counts['settled']} acertadas." for level,counts in result['by_tier'].items())
         result['analysis'].extend(f"Falló {x['label']} en {x['match']}: resultado final {x['actual_home']}–{x['actual_away']} ({x['actual_metric']})." for x in tier_rows if x['status']=='lost')
-        no_picks=len(matches)-len({x['fixture_id'] for x in tier_rows})
+        no_picks=len(matches)-len({x['fixture_id'] for x in tier_rows if x['fixture_id'] in actual})
         result['analysis'].append(f'{no_picks} partidos no tenían fijas principales publicadas; no se cuentan como fallos ni aciertos.')
+        result['analysis'].extend(f"Pendiente: {m['home']} – {m['away']}. {m['reason']} No se cuenta como acierto ni fallo." for m in deferred.values())
         for p in parlays:
             if p['status']!='unavailable':result['analysis'].append(f"Combinada de {p['size']}: {sum(x['status']=='won' for x in p['legs'])}/{len(p['legs'])} selecciones cumplidas.")
     for level,counts in result['by_tier'].items():

@@ -16,6 +16,55 @@ from settings import secret
 
 LEAGUES={'La Liga':'PD','Premier League':'PL','Bundesliga':'BL1','Serie A':'SA','Ligue 1':'FL1','UEFA Champions League':'CL'}
 METRICS=['goals','shots','sot','corners','cards','fouls']
+ESPN_CODES={'La Liga':'esp.1','Premier League':'eng.1','Bundesliga':'ger.1',
+            'Serie A':'ita.1','Ligue 1':'fra.1','UEFA Champions League':'uefa.champions'}
+
+
+def standings_cover_stats(tables, rows):
+    """A successful HTTP response can still omit already verified final games."""
+    for scope,table in tables.items():
+        observed=rows if scope=='all' else rows[rows.is_home==(scope=='home')]
+        played=observed.groupby('team').size().to_dict()
+        lookup={r['team']:r for r in table}
+        if any(team not in lookup or lookup[team]['played']<count for team,count in played.items()):
+            return False
+    return True
+
+
+def espn_standings(league, season, rows, roster):
+    from ingest_verified_range import ESPN_ALIASES
+    from ingest_champions_matchday import ESPN_NAMES
+    names={**ESPN_NAMES,**ESPN_ALIASES,'Brighton & Hove Albion':'Brighton',
+           'Leeds United':'Leeds','Hull City':'Hull','Newcastle United':'Newcastle',
+           'AS Monaco':'Monaco','Stade Rennais':'Rennes'}
+    url=f'https://site.api.espn.com/apis/v2/sports/soccer/{ESPN_CODES[league]}/standings?season={season[:4]}'
+    response=requests.get(url,timeout=25);response.raise_for_status();raw=response.json()
+    groups=[c['standings'] for c in raw.get('children',[]) if c.get('standings')]
+    if len(groups)!=1 or int(groups[0]['season'])!=int(season[:4]):raise ValueError('Unexpected ESPN season or groups')
+    fields={'position':'rank','played':'gamesPlayed','won':'wins','draw':'ties','lost':'losses',
+            'points':'points','goals_for':'pointsFor','goals_against':'pointsAgainst','goal_difference':'pointDifferential'}
+    table=[]
+    for entry in groups[0]['entries']:
+        name=entry['team']['displayName']
+        team=canonical_team(names.get(name,name))
+        values={s['name']:s.get('value') for s in entry['stats']}
+        table.append({'team':team,**{key:int(values[field]) for key,field in fields.items()}})
+    if len(table)!=len(roster) or {r['team'] for r in table}!=set(roster):
+        raise ValueError('ESPN standings team identities differ from roster')
+    tables={'all':sorted(table,key=lambda r:r['position'])}
+    if not standings_cover_stats(tables,rows):raise ValueError('ESPN table also omits verified games')
+    # If the full recorded schedule is covered, reconcile sporting totals too.
+    for r in table:
+        g=rows[rows.team==r['team']]
+        if len(g)==r['played']:
+            totals=summarize(g)
+            if (r['won'],r['draw'],r['lost'],r['goals_for'],r['goals_against'])!=(
+                    totals['won'],totals['draw'],totals['lost'],int(g.goals_for.sum()),int(g.goals_against.sum())):
+                raise ValueError(f'Conflicting table totals for {r["team"]}')
+    write_json(ARTIFACT_DIR/'team_standings'/'raw'/f'{ESPN_CODES[league]}_{today_local().date()}.json',raw)
+    return {'season':season,'updated_at':datetime.now(timezone.utc).isoformat(),
+            'source':'ESPN','source_url':url,'tables':tables,
+            'note':'ESPN overall order; home/away tables are calculated from recorded results.'}
 
 
 def write_json(path, payload):
@@ -147,7 +196,18 @@ def main(refresh=False,stats=None):
         cache=ARTIFACT_DIR/'team_standings'/f'{code}.json'
         snapshot=json.loads(cache.read_text(encoding='utf-8')) if cache.exists() else None
         if snapshot and snapshot.get('season')!=season:snapshot=None
-        if snapshot:roster.update(r['team'] for r in snapshot['tables']['all'])
+        if snapshot:roster.update(r['team'] for r in snapshot['tables'].get('all',[]))
+        if refresh and snapshot and not standings_cover_stats(snapshot['tables'],rows):
+            try:
+                snapshot=espn_standings(league,season,rows,roster)
+                write_json(cache,snapshot)
+                report.append({'competition':league,'status':'refreshed_from_espn',
+                    'reason':'Primary table omitted verified final matches'})
+            except (requests.RequestException,ValueError,KeyError,TypeError) as exc:
+                snapshot={**snapshot,'tables':{},'stale':True}
+                write_json(cache,snapshot)
+                report.append({'competition':league,'status':'using_recorded_table',
+                               'reason':type(exc).__name__})
         teams=[]
         for team in sorted(roster):
             g=rows[rows.team==team]

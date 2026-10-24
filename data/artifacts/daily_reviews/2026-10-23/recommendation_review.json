@@ -1,0 +1,1180 @@
+{
+  "date": "2026-10-23",
+  "reviewed_at": "2026-10-24T23:14:20.469286+00:00",
+  "frozen_shortlist_sha256": "86d54bf7e7c077666215e75b21529307ce0a8ffc414dac25116af9a171d05b06",
+  "matches": [
+    {
+      "fixture_id": "564719",
+      "home": "Alaves",
+      "away": "Malaga",
+      "metrics": {
+        "goals": [
+          1,
+          1
+        ],
+        "shots": [
+          18,
+          7
+        ],
+        "sot": [
+          4,
+          3
+        ],
+        "fouls": [
+          14,
+          12
+        ],
+        "corners": [
+          7,
+          2
+        ],
+        "cards": [
+          2,
+          1
+        ]
+      },
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401882836/malaga-alaves"
+    },
+    {
+      "fixture_id": "560620",
+      "home": "Ipswich",
+      "away": "Nott'm Forest",
+      "metrics": {
+        "goals": [
+          1,
+          1
+        ],
+        "shots": [
+          7,
+          17
+        ],
+        "sot": [
+          3,
+          5
+        ],
+        "fouls": [
+          9,
+          11
+        ],
+        "corners": [
+          0,
+          5
+        ],
+        "cards": [
+          1,
+          1
+        ]
+      },
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401879253/nottingham-forest-ipswich-town"
+    },
+    {
+      "fixture_id": "565833",
+      "home": "Stuttgart",
+      "away": "M'gladbach",
+      "metrics": {
+        "goals": [
+          2,
+          3
+        ],
+        "shots": [
+          15,
+          16
+        ],
+        "sot": [
+          5,
+          6
+        ],
+        "fouls": [
+          9,
+          14
+        ],
+        "corners": [
+          6,
+          5
+        ],
+        "cards": [
+          2,
+          4
+        ]
+      },
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401884761/borussia-monchengladbach-vfb-stuttgart"
+    },
+    {
+      "fixture_id": "558567",
+      "home": "Torino",
+      "away": "Monza",
+      "metrics": {
+        "goals": [
+          3,
+          2
+        ],
+        "shots": [
+          17,
+          7
+        ],
+        "sot": [
+          7,
+          3
+        ],
+        "fouls": [
+          8,
+          4
+        ],
+        "corners": [
+          3,
+          4
+        ],
+        "cards": [
+          1,
+          0
+        ]
+      },
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401874957/monza-torino"
+    },
+    {
+      "fixture_id": "559654",
+      "home": "Brest",
+      "away": "Nice",
+      "metrics": {
+        "goals": [
+          1,
+          2
+        ],
+        "shots": [
+          13,
+          9
+        ],
+        "sot": [
+          7,
+          2
+        ],
+        "fouls": [
+          14,
+          15
+        ],
+        "corners": [
+          3,
+          7
+        ],
+        "cards": [
+          3,
+          5
+        ]
+      },
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401876428/nice-brest"
+    }
+  ],
+  "tiers": [
+    {
+      "fixture_id": "564719",
+      "selection_id": "goals:away:under:1.5:",
+      "match": "Alaves – Malaga",
+      "market": "Goles",
+      "label": "Malaga: menos de 1,5 goles",
+      "probability": 0.8433573736562248,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 1,
+      "actual_away": 1,
+      "tier": "Conservadora"
+    },
+    {
+      "fixture_id": "564719",
+      "selection_id": "double_chance:total:12:None:",
+      "match": "Alaves – Malaga",
+      "market": "Doble oportunidad",
+      "label": "Cualquiera gana, sin empate",
+      "probability": 0.7671540501452616,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "goals",
+      "actual_home": 1,
+      "actual_away": 1,
+      "tier": "Normal"
+    },
+    {
+      "fixture_id": "564719",
+      "selection_id": "btts:total:no:None:",
+      "match": "Alaves – Malaga",
+      "market": "Ambos marcan",
+      "label": "Ambos marcan: no",
+      "probability": 0.5743445379437319,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "goals",
+      "actual_home": 1,
+      "actual_away": 1,
+      "tier": "Arriesgada"
+    },
+    {
+      "fixture_id": "560620",
+      "selection_id": "goals:total:under:4.5:",
+      "match": "Ipswich – Nott'm Forest",
+      "market": "Goles",
+      "label": "Menos de 4,5 goles",
+      "probability": 0.8233187675409916,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 1,
+      "actual_away": 1,
+      "tier": "Conservadora"
+    },
+    {
+      "fixture_id": "560620",
+      "selection_id": "handicap:total:home:1.5:",
+      "match": "Ipswich – Nott'm Forest",
+      "market": "Hándicap de goles",
+      "label": "Ipswich +1,5",
+      "probability": 0.7480437545653248,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 1,
+      "actual_away": 1,
+      "tier": "Normal"
+    },
+    {
+      "fixture_id": "560620",
+      "selection_id": "double_chance:total:1X:None:",
+      "match": "Ipswich – Nott'm Forest",
+      "market": "Doble oportunidad",
+      "label": "Ipswich o empate",
+      "probability": 0.5322986034225372,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 1,
+      "actual_away": 1,
+      "tier": "Arriesgada"
+    },
+    {
+      "fixture_id": "565833",
+      "selection_id": "double_chance:total:12:None:",
+      "match": "Stuttgart – M'gladbach",
+      "market": "Doble oportunidad",
+      "label": "Cualquiera gana, sin empate",
+      "probability": 0.8119089016311631,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 3,
+      "tier": "Conservadora"
+    },
+    {
+      "fixture_id": "565833",
+      "selection_id": "goals:home:over:1.5:",
+      "match": "Stuttgart – M'gladbach",
+      "market": "Goles",
+      "label": "Stuttgart: más de 1,5 goles",
+      "probability": 0.6965212062420024,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 3,
+      "tier": "Normal"
+    },
+    {
+      "fixture_id": "565833",
+      "selection_id": "result_goals:total:home:1.5:over",
+      "match": "Stuttgart – M'gladbach",
+      "market": "Resultado y goles",
+      "label": "Gana Stuttgart y más de 1,5 goles",
+      "probability": 0.5920877580974303,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 3,
+      "tier": "Arriesgada"
+    },
+    {
+      "fixture_id": "558567",
+      "selection_id": "fouls:total:under:29.5:",
+      "match": "Torino – Monza",
+      "market": "Faltas",
+      "label": "Menos de 29,5 faltas totales",
+      "probability": 0.8265810011683097,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "fouls",
+      "actual_home": 8,
+      "actual_away": 4,
+      "tier": "Conservadora"
+    },
+    {
+      "fixture_id": "558567",
+      "selection_id": "double_chance:total:12:None:",
+      "match": "Torino – Monza",
+      "market": "Doble oportunidad",
+      "label": "Cualquiera gana, sin empate",
+      "probability": 0.7447633453113714,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 3,
+      "actual_away": 2,
+      "tier": "Normal"
+    },
+    {
+      "fixture_id": "558567",
+      "selection_id": "result_goals:total:1X:1.5:over",
+      "match": "Torino – Monza",
+      "market": "Resultado y goles",
+      "label": "Torino o empate y más de 1,5 goles",
+      "probability": 0.5842890038740371,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 3,
+      "actual_away": 2,
+      "tier": "Arriesgada"
+    },
+    {
+      "fixture_id": "559654",
+      "selection_id": "goals:home:under:2.5:",
+      "match": "Brest – Nice",
+      "market": "Goles",
+      "label": "Brest: menos de 2,5 goles",
+      "probability": 0.8010760471131434,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 1,
+      "actual_away": 2,
+      "tier": "Conservadora"
+    },
+    {
+      "fixture_id": "559654",
+      "selection_id": "double_chance:total:1X:None:",
+      "match": "Brest – Nice",
+      "market": "Doble oportunidad",
+      "label": "Brest o empate",
+      "probability": 0.6993786241607955,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "goals",
+      "actual_home": 1,
+      "actual_away": 2,
+      "tier": "Normal"
+    },
+    {
+      "fixture_id": "559654",
+      "selection_id": "btts:total:yes:None:",
+      "match": "Brest – Nice",
+      "market": "Ambos marcan",
+      "label": "Ambos marcan: sí",
+      "probability": 0.55818831306794,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 1,
+      "actual_away": 2,
+      "tier": "Arriesgada"
+    }
+  ],
+  "unique_selections": [
+    {
+      "fixture_id": "564719",
+      "selection_id": "result:total:home:None:",
+      "match": "Alaves – Malaga",
+      "market": "Resultado 1X2",
+      "label": "Gana Alaves",
+      "probability": 0.6289551924779792,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "goals",
+      "actual_home": 1,
+      "actual_away": 1
+    },
+    {
+      "fixture_id": "564719",
+      "selection_id": "double_chance:total:12:None:",
+      "match": "Alaves – Malaga",
+      "market": "Doble oportunidad",
+      "label": "Cualquiera gana, sin empate",
+      "probability": 0.7671540501452616,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "goals",
+      "actual_home": 1,
+      "actual_away": 1
+    },
+    {
+      "fixture_id": "564719",
+      "selection_id": "handicap:total:away:2.5:",
+      "match": "Alaves – Malaga",
+      "market": "Hándicap de goles",
+      "label": "Malaga +2,5",
+      "probability": 0.8230061457674894,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 1,
+      "actual_away": 1
+    },
+    {
+      "fixture_id": "564719",
+      "selection_id": "goals:total:under:3.5:",
+      "match": "Alaves – Malaga",
+      "market": "Goles",
+      "label": "Menos de 3,5 goles",
+      "probability": 0.7560258378443753,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 1,
+      "actual_away": 1
+    },
+    {
+      "fixture_id": "564719",
+      "selection_id": "btts:total:no:None:",
+      "match": "Alaves – Malaga",
+      "market": "Ambos marcan",
+      "label": "Ambos marcan: no",
+      "probability": 0.5743445379437319,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "goals",
+      "actual_home": 1,
+      "actual_away": 1
+    },
+    {
+      "fixture_id": "564719",
+      "selection_id": "shots:total:over:20.5:",
+      "match": "Alaves – Malaga",
+      "market": "Remates",
+      "label": "Más de 20,5 remates totales",
+      "probability": 0.7423913061888272,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "shots",
+      "actual_home": 18,
+      "actual_away": 7
+    },
+    {
+      "fixture_id": "564719",
+      "selection_id": "sot:total:under:10.5:",
+      "match": "Alaves – Malaga",
+      "market": "Tiros al arco",
+      "label": "Menos de 10,5 tiros al arco totales",
+      "probability": 0.8219939223639261,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "sot",
+      "actual_home": 4,
+      "actual_away": 3
+    },
+    {
+      "fixture_id": "564719",
+      "selection_id": "fouls:away:over:9.5:",
+      "match": "Alaves – Malaga",
+      "market": "Faltas",
+      "label": "Malaga: más de 9,5 faltas",
+      "probability": 0.7827216261737171,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "fouls",
+      "actual_home": 14,
+      "actual_away": 12
+    },
+    {
+      "fixture_id": "564719",
+      "selection_id": "corners:away:under:6.5:",
+      "match": "Alaves – Malaga",
+      "market": "Córners",
+      "label": "Malaga: menos de 6,5 córners",
+      "probability": 0.7501382327120449,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "corners",
+      "actual_home": 7,
+      "actual_away": 2
+    },
+    {
+      "fixture_id": "564719",
+      "selection_id": "goals:away:under:1.5:",
+      "match": "Alaves – Malaga",
+      "market": "Goles",
+      "label": "Malaga: menos de 1,5 goles",
+      "probability": 0.8433573736562248,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 1,
+      "actual_away": 1
+    },
+    {
+      "fixture_id": "560620",
+      "selection_id": "double_chance:total:12:None:",
+      "match": "Ipswich – Nott'm Forest",
+      "market": "Doble oportunidad",
+      "label": "Cualquiera gana, sin empate",
+      "probability": 0.7506629366376176,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "goals",
+      "actual_home": 1,
+      "actual_away": 1
+    },
+    {
+      "fixture_id": "560620",
+      "selection_id": "handicap:total:home:1.5:",
+      "match": "Ipswich – Nott'm Forest",
+      "market": "Hándicap de goles",
+      "label": "Ipswich +1,5",
+      "probability": 0.7480437545653248,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 1,
+      "actual_away": 1
+    },
+    {
+      "fixture_id": "560620",
+      "selection_id": "goals:away:under:2.5:",
+      "match": "Ipswich – Nott'm Forest",
+      "market": "Goles",
+      "label": "Nott'm Forest: menos de 2,5 goles",
+      "probability": 0.7599509376900337,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 1,
+      "actual_away": 1
+    },
+    {
+      "fixture_id": "560620",
+      "selection_id": "btts:total:yes:None:",
+      "match": "Ipswich – Nott'm Forest",
+      "market": "Ambos marcan",
+      "label": "Ambos marcan: sí",
+      "probability": 0.5889577416672548,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 1,
+      "actual_away": 1
+    },
+    {
+      "fixture_id": "560620",
+      "selection_id": "shots:home:under:14.5:",
+      "match": "Ipswich – Nott'm Forest",
+      "market": "Remates",
+      "label": "Ipswich: menos de 14,5 remates",
+      "probability": 0.7364358670416873,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "shots",
+      "actual_home": 7,
+      "actual_away": 17
+    },
+    {
+      "fixture_id": "560620",
+      "selection_id": "sot:home:under:5.5:",
+      "match": "Ipswich – Nott'm Forest",
+      "market": "Tiros al arco",
+      "label": "Ipswich: menos de 5,5 tiros al arco",
+      "probability": 0.7479534043554282,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "sot",
+      "actual_home": 3,
+      "actual_away": 5
+    },
+    {
+      "fixture_id": "560620",
+      "selection_id": "fouls:total:over:18.5:",
+      "match": "Ipswich – Nott'm Forest",
+      "market": "Faltas",
+      "label": "Más de 18,5 faltas totales",
+      "probability": 0.7505899090106356,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "fouls",
+      "actual_home": 9,
+      "actual_away": 11
+    },
+    {
+      "fixture_id": "560620",
+      "selection_id": "corners:home:under:6.5:",
+      "match": "Ipswich – Nott'm Forest",
+      "market": "Córners",
+      "label": "Ipswich: menos de 6,5 córners",
+      "probability": 0.7533532817091452,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "corners",
+      "actual_home": 0,
+      "actual_away": 5
+    },
+    {
+      "fixture_id": "560620",
+      "selection_id": "goals:total:under:4.5:",
+      "match": "Ipswich – Nott'm Forest",
+      "market": "Goles",
+      "label": "Menos de 4,5 goles",
+      "probability": 0.8233187675409916,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 1,
+      "actual_away": 1
+    },
+    {
+      "fixture_id": "560620",
+      "selection_id": "double_chance:total:1X:None:",
+      "match": "Ipswich – Nott'm Forest",
+      "market": "Doble oportunidad",
+      "label": "Ipswich o empate",
+      "probability": 0.5322986034225372,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 1,
+      "actual_away": 1
+    },
+    {
+      "fixture_id": "565833",
+      "selection_id": "result:total:home:None:",
+      "match": "Stuttgart – M'gladbach",
+      "market": "Resultado 1X2",
+      "label": "Gana Stuttgart",
+      "probability": 0.65467656708274,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 3
+    },
+    {
+      "fixture_id": "565833",
+      "selection_id": "double_chance:total:12:None:",
+      "match": "Stuttgart – M'gladbach",
+      "market": "Doble oportunidad",
+      "label": "Cualquiera gana, sin empate",
+      "probability": 0.8119089016311631,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 3
+    },
+    {
+      "fixture_id": "565833",
+      "selection_id": "handicap:total:away:2.5:",
+      "match": "Stuttgart – M'gladbach",
+      "market": "Hándicap de goles",
+      "label": "M'gladbach +2,5",
+      "probability": 0.7504541755033898,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 3
+    },
+    {
+      "fixture_id": "565833",
+      "selection_id": "goals:home:over:1.5:",
+      "match": "Stuttgart – M'gladbach",
+      "market": "Goles",
+      "label": "Stuttgart: más de 1,5 goles",
+      "probability": 0.6965212062420024,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 3
+    },
+    {
+      "fixture_id": "565833",
+      "selection_id": "result_goals:total:1X:1.5:over",
+      "match": "Stuttgart – M'gladbach",
+      "market": "Resultado y goles",
+      "label": "Stuttgart o empate y más de 1,5 goles",
+      "probability": 0.7453665406793405,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 3
+    },
+    {
+      "fixture_id": "565833",
+      "selection_id": "shots:total:under:32.5:",
+      "match": "Stuttgart – M'gladbach",
+      "market": "Remates",
+      "label": "Menos de 32,5 remates totales",
+      "probability": 0.7471431857961747,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "shots",
+      "actual_home": 15,
+      "actual_away": 16
+    },
+    {
+      "fixture_id": "565833",
+      "selection_id": "sot:home:under:9.5:",
+      "match": "Stuttgart – M'gladbach",
+      "market": "Tiros al arco",
+      "label": "Stuttgart: menos de 9,5 tiros al arco",
+      "probability": 0.7317869358314139,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "sot",
+      "actual_home": 5,
+      "actual_away": 6
+    },
+    {
+      "fixture_id": "565833",
+      "selection_id": "fouls:total:over:18.5:",
+      "match": "Stuttgart – M'gladbach",
+      "market": "Faltas",
+      "label": "Más de 18,5 faltas totales",
+      "probability": 0.737780894884087,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "fouls",
+      "actual_home": 9,
+      "actual_away": 14
+    },
+    {
+      "fixture_id": "565833",
+      "selection_id": "corners:home:under:8.5:",
+      "match": "Stuttgart – M'gladbach",
+      "market": "Córners",
+      "label": "Stuttgart: menos de 8,5 córners",
+      "probability": 0.7756219073985698,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "corners",
+      "actual_home": 6,
+      "actual_away": 5
+    },
+    {
+      "fixture_id": "565833",
+      "selection_id": "result_goals:total:home:1.5:over",
+      "match": "Stuttgart – M'gladbach",
+      "market": "Resultado y goles",
+      "label": "Gana Stuttgart y más de 1,5 goles",
+      "probability": 0.5920877580974303,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 3
+    },
+    {
+      "fixture_id": "558567",
+      "selection_id": "double_chance:total:12:None:",
+      "match": "Torino – Monza",
+      "market": "Doble oportunidad",
+      "label": "Cualquiera gana, sin empate",
+      "probability": 0.7447633453113714,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 3,
+      "actual_away": 2
+    },
+    {
+      "fixture_id": "558567",
+      "selection_id": "goals:total:over:1.5:",
+      "match": "Torino – Monza",
+      "market": "Goles",
+      "label": "Más de 1,5 goles",
+      "probability": 0.7591905113184154,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 3,
+      "actual_away": 2
+    },
+    {
+      "fixture_id": "558567",
+      "selection_id": "result_goals:total:1X:1.5:over",
+      "match": "Torino – Monza",
+      "market": "Resultado y goles",
+      "label": "Torino o empate y más de 1,5 goles",
+      "probability": 0.5842890038740371,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 3,
+      "actual_away": 2
+    },
+    {
+      "fixture_id": "558567",
+      "selection_id": "shots:home:under:16.5:",
+      "match": "Torino – Monza",
+      "market": "Remates",
+      "label": "Torino: menos de 16,5 remates",
+      "probability": 0.755013851548688,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "shots",
+      "actual_home": 17,
+      "actual_away": 7
+    },
+    {
+      "fixture_id": "558567",
+      "selection_id": "sot:home:over:2.5:",
+      "match": "Torino – Monza",
+      "market": "Tiros al arco",
+      "label": "Torino: más de 2,5 tiros al arco",
+      "probability": 0.7572343026177711,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "sot",
+      "actual_home": 7,
+      "actual_away": 3
+    },
+    {
+      "fixture_id": "558567",
+      "selection_id": "fouls:away:under:14.5:",
+      "match": "Torino – Monza",
+      "market": "Faltas",
+      "label": "Monza: menos de 14,5 faltas",
+      "probability": 0.7746396912875563,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "fouls",
+      "actual_home": 8,
+      "actual_away": 4
+    },
+    {
+      "fixture_id": "558567",
+      "selection_id": "corners:home:under:6.5:",
+      "match": "Torino – Monza",
+      "market": "Córners",
+      "label": "Torino: menos de 6,5 córners",
+      "probability": 0.7321366229926651,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "corners",
+      "actual_home": 3,
+      "actual_away": 4
+    },
+    {
+      "fixture_id": "558567",
+      "selection_id": "fouls:total:under:29.5:",
+      "match": "Torino – Monza",
+      "market": "Faltas",
+      "label": "Menos de 29,5 faltas totales",
+      "probability": 0.8265810011683097,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "fouls",
+      "actual_home": 8,
+      "actual_away": 4
+    },
+    {
+      "fixture_id": "559654",
+      "selection_id": "double_chance:total:12:None:",
+      "match": "Brest – Nice",
+      "market": "Doble oportunidad",
+      "label": "Cualquiera gana, sin empate",
+      "probability": 0.7377398710072176,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 1,
+      "actual_away": 2
+    },
+    {
+      "fixture_id": "559654",
+      "selection_id": "handicap:total:away:1.5:",
+      "match": "Brest – Nice",
+      "market": "Hándicap de goles",
+      "label": "Nice +1,5",
+      "probability": 0.7782718289861078,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 1,
+      "actual_away": 2
+    },
+    {
+      "fixture_id": "559654",
+      "selection_id": "goals:total:over:1.5:",
+      "match": "Brest – Nice",
+      "market": "Goles",
+      "label": "Más de 1,5 goles",
+      "probability": 0.7660214328665067,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 1,
+      "actual_away": 2
+    },
+    {
+      "fixture_id": "559654",
+      "selection_id": "btts:total:yes:None:",
+      "match": "Brest – Nice",
+      "market": "Ambos marcan",
+      "label": "Ambos marcan: sí",
+      "probability": 0.55818831306794,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 1,
+      "actual_away": 2
+    },
+    {
+      "fixture_id": "559654",
+      "selection_id": "result_goals:total:1X:1.5:over",
+      "match": "Brest – Nice",
+      "market": "Resultado y goles",
+      "label": "Brest o empate y más de 1,5 goles",
+      "probability": 0.5392323324674323,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "goals",
+      "actual_home": 1,
+      "actual_away": 2
+    },
+    {
+      "fixture_id": "559654",
+      "selection_id": "shots:away:over:7.5:",
+      "match": "Brest – Nice",
+      "market": "Remates",
+      "label": "Nice: más de 7,5 remates",
+      "probability": 0.747863572296516,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "shots",
+      "actual_home": 13,
+      "actual_away": 9
+    },
+    {
+      "fixture_id": "559654",
+      "selection_id": "sot:home:under:6.5:",
+      "match": "Brest – Nice",
+      "market": "Tiros al arco",
+      "label": "Brest: menos de 6,5 tiros al arco",
+      "probability": 0.7483062241318346,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "sot",
+      "actual_home": 7,
+      "actual_away": 2
+    },
+    {
+      "fixture_id": "559654",
+      "selection_id": "fouls:home:under:13.5:",
+      "match": "Brest – Nice",
+      "market": "Faltas",
+      "label": "Brest: menos de 13,5 faltas",
+      "probability": 0.7425546850111282,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "fouls",
+      "actual_home": 14,
+      "actual_away": 15
+    },
+    {
+      "fixture_id": "559654",
+      "selection_id": "corners:home:over:2.5:",
+      "match": "Brest – Nice",
+      "market": "Córners",
+      "label": "Brest: más de 2,5 córners",
+      "probability": 0.7527160916870076,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "corners",
+      "actual_home": 3,
+      "actual_away": 7
+    },
+    {
+      "fixture_id": "559654",
+      "selection_id": "goals:home:under:2.5:",
+      "match": "Brest – Nice",
+      "market": "Goles",
+      "label": "Brest: menos de 2,5 goles",
+      "probability": 0.8010760471131434,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 1,
+      "actual_away": 2
+    },
+    {
+      "fixture_id": "559654",
+      "selection_id": "double_chance:total:1X:None:",
+      "match": "Brest – Nice",
+      "market": "Doble oportunidad",
+      "label": "Brest o empate",
+      "probability": 0.6993786241607955,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "goals",
+      "actual_home": 1,
+      "actual_away": 2
+    }
+  ],
+  "tier_summary": {
+    "selections": 15,
+    "settled": 15,
+    "won": 11,
+    "lost": 4,
+    "unverified": 0,
+    "hit_rate": 0.7333333333333333
+  },
+  "unique_summary": {
+    "selections": 49,
+    "settled": 49,
+    "won": 37,
+    "lost": 12,
+    "unverified": 0,
+    "hit_rate": 0.7551020408163265
+  },
+  "by_tier": {
+    "Conservadora": {
+      "selections": 5,
+      "settled": 5,
+      "won": 5,
+      "lost": 0,
+      "unverified": 0,
+      "hit_rate": 1.0
+    },
+    "Normal": {
+      "selections": 5,
+      "settled": 5,
+      "won": 3,
+      "lost": 2,
+      "unverified": 0,
+      "hit_rate": 0.6
+    },
+    "Arriesgada": {
+      "selections": 5,
+      "settled": 5,
+      "won": 3,
+      "lost": 2,
+      "unverified": 0,
+      "hit_rate": 0.6
+    }
+  },
+  "parlays": [
+    {
+      "size": 3,
+      "status": "won",
+      "probability_before_match": 0.5525362006854607,
+      "legs": [
+        {
+          "fixture_id": "560620",
+          "selection_id": "goals:total:under:4.5:",
+          "match": "Ipswich – Nott'm Forest",
+          "market": "Goles",
+          "label": "Menos de 4,5 goles",
+          "probability": 0.8233187675409916,
+          "status": "won",
+          "hit": true,
+          "actual_metric": "goals",
+          "actual_home": 1,
+          "actual_away": 1
+        },
+        {
+          "fixture_id": "565833",
+          "selection_id": "double_chance:total:12:None:",
+          "match": "Stuttgart – M'gladbach",
+          "market": "Doble oportunidad",
+          "label": "Cualquiera gana, sin empate",
+          "probability": 0.8119089016311631,
+          "status": "won",
+          "hit": true,
+          "actual_metric": "goals",
+          "actual_home": 2,
+          "actual_away": 3
+        },
+        {
+          "fixture_id": "558567",
+          "selection_id": "fouls:total:under:29.5:",
+          "match": "Torino – Monza",
+          "market": "Faltas",
+          "label": "Menos de 29,5 faltas totales",
+          "probability": 0.8265810011683097,
+          "status": "won",
+          "hit": true,
+          "actual_metric": "fouls",
+          "actual_home": 8,
+          "actual_away": 4
+        }
+      ]
+    },
+    {
+      "size": 4,
+      "status": "won",
+      "probability_before_match": 0.4426235155320234,
+      "legs": [
+        {
+          "fixture_id": "560620",
+          "selection_id": "goals:total:under:4.5:",
+          "match": "Ipswich – Nott'm Forest",
+          "market": "Goles",
+          "label": "Menos de 4,5 goles",
+          "probability": 0.8233187675409916,
+          "status": "won",
+          "hit": true,
+          "actual_metric": "goals",
+          "actual_home": 1,
+          "actual_away": 1
+        },
+        {
+          "fixture_id": "565833",
+          "selection_id": "double_chance:total:12:None:",
+          "match": "Stuttgart – M'gladbach",
+          "market": "Doble oportunidad",
+          "label": "Cualquiera gana, sin empate",
+          "probability": 0.8119089016311631,
+          "status": "won",
+          "hit": true,
+          "actual_metric": "goals",
+          "actual_home": 2,
+          "actual_away": 3
+        },
+        {
+          "fixture_id": "558567",
+          "selection_id": "fouls:total:under:29.5:",
+          "match": "Torino – Monza",
+          "market": "Faltas",
+          "label": "Menos de 29,5 faltas totales",
+          "probability": 0.8265810011683097,
+          "status": "won",
+          "hit": true,
+          "actual_metric": "fouls",
+          "actual_home": 8,
+          "actual_away": 4
+        },
+        {
+          "fixture_id": "559654",
+          "selection_id": "goals:home:under:2.5:",
+          "match": "Brest – Nice",
+          "market": "Goles",
+          "label": "Brest: menos de 2,5 goles",
+          "probability": 0.8010760471131434,
+          "status": "won",
+          "hit": true,
+          "actual_metric": "goals",
+          "actual_home": 1,
+          "actual_away": 2
+        }
+      ]
+    }
+  ],
+  "analysis": [
+    "Fijas principales: 11/15. Mercados únicos: 37/49. Se conservan las probabilidades previas y se registran los resultados, sin reajustar el modelo con esta jornada.",
+    "Conservadora: 5/5 acertadas.",
+    "Normal: 3/5 acertadas.",
+    "Arriesgada: 3/5 acertadas.",
+    "Falló Cualquiera gana, sin empate en Alaves – Malaga: resultado final 1–1 (goals).",
+    "Falló Ambos marcan: no en Alaves – Malaga: resultado final 1–1 (goals).",
+    "Falló Gana Stuttgart y más de 1,5 goles en Stuttgart – M'gladbach: resultado final 2–3 (goals).",
+    "Falló Brest o empate en Brest – Nice: resultado final 1–2 (goals).",
+    "0 partidos no tenían fijas principales publicadas; no se cuentan como fallos ni aciertos.",
+    "Combinada de 3: 3/3 selecciones cumplidas.",
+    "Combinada de 4: 4/4 selecciones cumplidas."
+  ]
+}

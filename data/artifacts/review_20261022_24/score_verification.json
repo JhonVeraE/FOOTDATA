@@ -1,0 +1,296 @@
+{
+  "checked_at": "2026-10-24",
+  "dates": [
+    "2026-10-22",
+    "2026-10-23",
+    "2026-10-24"
+  ],
+  "matches": [
+    {
+      "fixture_id": "564719",
+      "date": "2026-10-23",
+      "home": "Alaves",
+      "away": "Malaga",
+      "goals": [
+        1,
+        1
+      ],
+      "source_url": "https://www.soccerbase.com/matches/results.sd?date=2026-10-23",
+      "additional_score_source": "https://api.football-data.org/v4/matches?dateFrom=2026-10-22&dateTo=2026-10-25"
+    },
+    {
+      "fixture_id": "560620",
+      "date": "2026-10-23",
+      "home": "Ipswich",
+      "away": "Nott'm Forest",
+      "goals": [
+        1,
+        1
+      ],
+      "source_url": "https://www.soccerbase.com/matches/results.sd?date=2026-10-23",
+      "additional_score_source": "https://api.football-data.org/v4/matches?dateFrom=2026-10-22&dateTo=2026-10-25"
+    },
+    {
+      "fixture_id": "565833",
+      "date": "2026-10-23",
+      "home": "Stuttgart",
+      "away": "M'gladbach",
+      "goals": [
+        2,
+        3
+      ],
+      "source_url": "https://www.soccerbase.com/matches/results.sd?date=2026-10-23",
+      "additional_score_source": "https://api.football-data.org/v4/matches?dateFrom=2026-10-22&dateTo=2026-10-25"
+    },
+    {
+      "fixture_id": "558567",
+      "date": "2026-10-23",
+      "home": "Torino",
+      "away": "Monza",
+      "goals": [
+        3,
+        2
+      ],
+      "source_url": "https://www.soccerbase.com/matches/results.sd?date=2026-10-23",
+      "additional_score_source": "https://api.football-data.org/v4/matches?dateFrom=2026-10-22&dateTo=2026-10-25"
+    },
+    {
+      "fixture_id": "559654",
+      "date": "2026-10-23",
+      "home": "Brest",
+      "away": "Nice",
+      "goals": [
+        1,
+        2
+      ],
+      "source_url": "https://www.soccerbase.com/matches/results.sd?date=2026-10-23",
+      "additional_score_source": "https://api.football-data.org/v4/matches?dateFrom=2026-10-22&dateTo=2026-10-25"
+    },
+    {
+      "fixture_id": "564718",
+      "date": "2026-10-24",
+      "home": "Vallecano",
+      "away": "Elche",
+      "goals": [
+        0,
+        3
+      ],
+      "source_url": "https://www.soccerbase.com/matches/results.sd?date=2026-10-24"
+    },
+    {
+      "fixture_id": "564727",
+      "date": "2026-10-24",
+      "home": "Santander",
+      "away": "Espanol",
+      "goals": [
+        2,
+        1
+      ],
+      "source_url": "https://www.soccerbase.com/matches/results.sd?date=2026-10-24"
+    },
+    {
+      "fixture_id": "564722",
+      "date": "2026-10-24",
+      "home": "Valencia",
+      "away": "Villarreal",
+      "goals": [
+        1,
+        2
+      ],
+      "source_url": "https://www.soccerbase.com/matches/results.sd?date=2026-10-24"
+    },
+    {
+      "fixture_id": "564724",
+      "date": "2026-10-24",
+      "home": "Ath Madrid",
+      "away": "La Coruna",
+      "goals": [
+        1,
+        0
+      ],
+      "source_url": "https://www.soccerbase.com/matches/results.sd?date=2026-10-24"
+    },
+    {
+      "fixture_id": "560614",
+      "date": "2026-10-24",
+      "home": "Aston Villa",
+      "away": "Man City",
+      "goals": [
+        2,
+        1
+      ],
+      "source_url": "https://www.soccerbase.com/matches/results.sd?date=2026-10-24"
+    },
+    {
+      "fixture_id": "560616",
+      "date": "2026-10-24",
+      "home": "Arsenal",
+      "away": "Everton",
+      "goals": [
+        2,
+        0
+      ],
+      "source_url": "https://www.soccerbase.com/matches/results.sd?date=2026-10-24"
+    },
+    {
+      "fixture_id": "560618",
+      "date": "2026-10-24",
+      "home": "Coventry",
+      "away": "Fulham",
+      "goals": [
+        0,
+        1
+      ],
+      "source_url": "https://www.soccerbase.com/matches/results.sd?date=2026-10-24"
+    },
+    {
+      "fixture_id": "560617",
+      "date": "2026-10-24",
+      "home": "Chelsea",
+      "away": "Tottenham",
+      "goals": [
+        0,
+        2
+      ],
+      "source_url": "https://www.soccerbase.com/matches/results.sd?date=2026-10-24"
+    },
+    {
+      "fixture_id": "565830",
+      "date": "2026-10-24",
+      "home": "Mainz",
+      "away": "Werder Bremen",
+      "goals": [
+        2,
+        3
+      ],
+      "source_url": "https://www.soccerbase.com/matches/results.sd?date=2026-10-24"
+    },
+    {
+      "fixture_id": "565831",
+      "date": "2026-10-24",
+      "home": "FC Koln",
+      "away": "Schalke 04",
+      "goals": [
+        0,
+        0
+      ],
+      "source_url": "https://www.soccerbase.com/matches/results.sd?date=2026-10-24"
+    },
+    {
+      "fixture_id": "565832",
+      "date": "2026-10-24",
+      "home": "RB Leipzig",
+      "away": "Elversberg",
+      "goals": [
+        4,
+        0
+      ],
+      "source_url": "https://www.soccerbase.com/matches/results.sd?date=2026-10-24"
+    },
+    {
+      "fixture_id": "565834",
+      "date": "2026-10-24",
+      "home": "Paderborn",
+      "away": "Hamburg",
+      "goals": [
+        1,
+        0
+      ],
+      "source_url": "https://www.soccerbase.com/matches/results.sd?date=2026-10-24"
+    },
+    {
+      "fixture_id": "565838",
+      "date": "2026-10-24",
+      "home": "Augsburg",
+      "away": "Union Berlin",
+      "goals": [
+        1,
+        1
+      ],
+      "source_url": "https://www.soccerbase.com/matches/results.sd?date=2026-10-24"
+    },
+    {
+      "fixture_id": "565837",
+      "date": "2026-10-24",
+      "home": "Dortmund",
+      "away": "Frankfurt",
+      "goals": [
+        1,
+        0
+      ],
+      "source_url": "https://www.soccerbase.com/matches/results.sd?date=2026-10-24"
+    },
+    {
+      "fixture_id": "558560",
+      "date": "2026-10-24",
+      "home": "Cagliari",
+      "away": "Bologna",
+      "goals": [
+        0,
+        2
+      ],
+      "source_url": "https://www.soccerbase.com/matches/results.sd?date=2026-10-24"
+    },
+    {
+      "fixture_id": "558561",
+      "date": "2026-10-24",
+      "home": "Como",
+      "away": "Sassuolo",
+      "goals": [
+        2,
+        0
+      ],
+      "source_url": "https://www.soccerbase.com/matches/results.sd?date=2026-10-24"
+    },
+    {
+      "fixture_id": "558564",
+      "date": "2026-10-24",
+      "home": "Napoli",
+      "away": "Roma",
+      "goals": [
+        3,
+        3
+      ],
+      "source_url": "https://www.soccerbase.com/matches/results.sd?date=2026-10-24"
+    },
+    {
+      "fixture_id": "558565",
+      "date": "2026-10-24",
+      "home": "Lazio",
+      "away": "Parma",
+      "goals": [
+        2,
+        1
+      ],
+      "source_url": "https://www.soccerbase.com/matches/results.sd?date=2026-10-24"
+    },
+    {
+      "fixture_id": "559652",
+      "date": "2026-10-24",
+      "home": "Lens",
+      "away": "Paris FC",
+      "goals": [
+        2,
+        1
+      ],
+      "source_url": "https://www.soccerbase.com/matches/results.sd?date=2026-10-24"
+    }
+  ],
+  "deferred": [
+    {
+      "fixture_id": "559655",
+      "home": "Toulouse",
+      "away": "Troyes",
+      "original_date": "2026-10-24",
+      "new_kickoff_utc": "2026-10-25T16:15Z",
+      "new_date": "2026-10-25",
+      "status": "rescheduled",
+      "reason": "Toulouse–Troyes aplazado al domingo 25 de octubre por petición de la prefectura.",
+      "source_url": "https://ligue1.com/fr/articles/l1_article_5985-"
+    }
+  ],
+  "notes": [
+    "Football-data.org returned stale live/scheduled statuses for Saturday; those values were not treated as final results.",
+    "No matches in the five tracked domestic leagues or Champions League on 2026-10-22."
+  ]
+}
