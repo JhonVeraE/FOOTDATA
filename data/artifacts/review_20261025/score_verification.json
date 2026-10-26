@@ -1,0 +1,271 @@
+{
+  "dates": [
+    "2026-10-25"
+  ],
+  "matches": [
+    {
+      "fixture_id": "558563",
+      "date": "2026-10-25",
+      "home": "Inter",
+      "away": "Fiorentina",
+      "goals": [
+        2,
+        1
+      ],
+      "source_url": "https://api.football-data.org/v4/matches?dateFrom=2026-10-25&dateTo=2026-10-26"
+    },
+    {
+      "fixture_id": "564720",
+      "date": "2026-10-25",
+      "home": "Ath Bilbao",
+      "away": "Getafe",
+      "goals": [
+        4,
+        0
+      ],
+      "source_url": "https://api.football-data.org/v4/matches?dateFrom=2026-10-25&dateTo=2026-10-26"
+    },
+    {
+      "fixture_id": "560619",
+      "date": "2026-10-25",
+      "home": "Hull",
+      "away": "Brentford",
+      "goals": [
+        1,
+        1
+      ],
+      "source_url": "https://api.football-data.org/v4/matches?dateFrom=2026-10-25&dateTo=2026-10-26"
+    },
+    {
+      "fixture_id": "558568",
+      "date": "2026-10-25",
+      "home": "Genoa",
+      "away": "Venezia",
+      "goals": [
+        1,
+        0
+      ],
+      "source_url": "https://api.football-data.org/v4/matches?dateFrom=2026-10-25&dateTo=2026-10-26"
+    },
+    {
+      "fixture_id": "560613",
+      "date": "2026-10-25",
+      "home": "Crystal Palace",
+      "away": "Newcastle",
+      "goals": [
+        0,
+        2
+      ],
+      "source_url": "https://api.football-data.org/v4/matches?dateFrom=2026-10-25&dateTo=2026-10-26"
+    },
+    {
+      "fixture_id": "560615",
+      "date": "2026-10-25",
+      "home": "Man United",
+      "away": "Bournemouth",
+      "goals": [
+        0,
+        3
+      ],
+      "source_url": "https://api.football-data.org/v4/matches?dateFrom=2026-10-25&dateTo=2026-10-26"
+    },
+    {
+      "fixture_id": "560612",
+      "date": "2026-10-25",
+      "home": "Liverpool",
+      "away": "Brighton",
+      "goals": [
+        2,
+        0
+      ],
+      "source_url": "https://api.football-data.org/v4/matches?dateFrom=2026-10-25&dateTo=2026-10-26"
+    },
+    {
+      "fixture_id": "559650",
+      "date": "2026-10-25",
+      "home": "Monaco",
+      "away": "Lille",
+      "goals": [
+        1,
+        1
+      ],
+      "source_url": "https://api.football-data.org/v4/matches?dateFrom=2026-10-25&dateTo=2026-10-26"
+    },
+    {
+      "fixture_id": "558562",
+      "date": "2026-10-25",
+      "home": "Atalanta",
+      "away": "Frosinone",
+      "goals": [
+        4,
+        4
+      ],
+      "source_url": "https://api.football-data.org/v4/matches?dateFrom=2026-10-25&dateTo=2026-10-26"
+    },
+    {
+      "fixture_id": "565835",
+      "date": "2026-10-25",
+      "home": "Hoffenheim",
+      "away": "Leverkusen",
+      "goals": [
+        3,
+        0
+      ],
+      "source_url": "https://api.football-data.org/v4/matches?dateFrom=2026-10-25&dateTo=2026-10-26"
+    },
+    {
+      "fixture_id": "564725",
+      "date": "2026-10-25",
+      "home": "Celta",
+      "away": "Betis",
+      "goals": [
+        0,
+        0
+      ],
+      "source_url": "https://api.football-data.org/v4/matches?dateFrom=2026-10-25&dateTo=2026-10-26"
+    },
+    {
+      "fixture_id": "559655",
+      "date": "2026-10-25",
+      "home": "Toulouse",
+      "away": "Troyes",
+      "goals": [
+        0,
+        0
+      ],
+      "source_url": "https://api.football-data.org/v4/matches?dateFrom=2026-10-25&dateTo=2026-10-26"
+    },
+    {
+      "fixture_id": "559649",
+      "date": "2026-10-25",
+      "home": "Marseille",
+      "away": "Le Havre",
+      "goals": [
+        4,
+        3
+      ],
+      "source_url": "https://api.football-data.org/v4/matches?dateFrom=2026-10-25&dateTo=2026-10-26"
+    },
+    {
+      "fixture_id": "559651",
+      "date": "2026-10-25",
+      "home": "Rennes",
+      "away": "Strasbourg",
+      "goals": [
+        3,
+        0
+      ],
+      "source_url": "https://api.football-data.org/v4/matches?dateFrom=2026-10-25&dateTo=2026-10-26"
+    },
+    {
+      "fixture_id": "559653",
+      "date": "2026-10-25",
+      "home": "Angers",
+      "away": "Lorient",
+      "goals": [
+        0,
+        0
+      ],
+      "source_url": "https://api.football-data.org/v4/matches?dateFrom=2026-10-25&dateTo=2026-10-26"
+    },
+    {
+      "fixture_id": "559656",
+      "date": "2026-10-25",
+      "home": "Auxerre",
+      "away": "Le Mans",
+      "goals": [
+        1,
+        1
+      ],
+      "source_url": "https://api.football-data.org/v4/matches?dateFrom=2026-10-25&dateTo=2026-10-26"
+    },
+    {
+      "fixture_id": "565836",
+      "date": "2026-10-25",
+      "home": "Freiburg",
+      "away": "Bayern Munich",
+      "goals": [
+        1,
+        3
+      ],
+      "source_url": "https://api.football-data.org/v4/matches?dateFrom=2026-10-25&dateTo=2026-10-26"
+    },
+    {
+      "fixture_id": "560621",
+      "date": "2026-10-25",
+      "home": "Sunderland",
+      "away": "Leeds",
+      "goals": [
+        0,
+        0
+      ],
+      "source_url": "https://api.football-data.org/v4/matches?dateFrom=2026-10-25&dateTo=2026-10-26"
+    },
+    {
+      "fixture_id": "558566",
+      "date": "2026-10-25",
+      "home": "Lecce",
+      "away": "Juventus",
+      "goals": [
+        0,
+        2
+      ],
+      "source_url": "https://api.football-data.org/v4/matches?dateFrom=2026-10-25&dateTo=2026-10-26"
+    },
+    {
+      "fixture_id": "564726",
+      "date": "2026-10-25",
+      "home": "Sociedad",
+      "away": "Levante",
+      "goals": [
+        2,
+        1
+      ],
+      "source_url": "https://api.football-data.org/v4/matches?dateFrom=2026-10-25&dateTo=2026-10-26"
+    },
+    {
+      "fixture_id": "558559",
+      "date": "2026-10-25",
+      "home": "Udinese",
+      "away": "Milan",
+      "goals": [
+        0,
+        2
+      ],
+      "source_url": "https://api.football-data.org/v4/matches?dateFrom=2026-10-25&dateTo=2026-10-26"
+    },
+    {
+      "fixture_id": "564723",
+      "date": "2026-10-25",
+      "home": "Barcelona",
+      "away": "Real Madrid",
+      "goals": [
+        1,
+        2
+      ],
+      "source_url": "https://api.football-data.org/v4/matches?dateFrom=2026-10-25&dateTo=2026-10-26"
+    }
+  ],
+  "rescheduled": [
+    {
+      "fixture_id": "559655",
+      "original_date": "2026-10-24",
+      "original_kickoff_utc": "2026-10-24T15:15:00+00:00",
+      "new_date": "2026-10-25",
+      "new_kickoff_utc": "2026-10-25T16:15:00Z",
+      "source_url": "https://ligue1.com/fr/articles/l1_article_5985-"
+    }
+  ],
+  "deferred": [
+    {
+      "fixture_id": "559648",
+      "home": "Paris SG",
+      "away": "Lyon",
+      "original_date": "2026-10-25",
+      "new_date": "2026-10-26",
+      "new_kickoff_utc": "2026-10-26T19:30:00Z",
+      "source_url": "https://ligue1.com/fr/articles/l1_article_5994-",
+      "reason": "PSG–Lyon trasladado al lunes 26; resultado evaluado en el informe del día 26."
+    }
+  ]
+}

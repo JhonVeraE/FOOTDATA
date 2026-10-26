@@ -1,6 +1,16 @@
-# Plan Maestro · MarcadorIA
+# Plan Maestro FOOTDATA
 
-Revisión del 18 de octubre de 2026. Cobertura: La Liga, Premier League, Bundesliga, Serie A, Ligue 1 y Champions.
+Revisión del 26 de octubre de 2026. Cobertura: La Liga, Premier League, Bundesliga, Serie A, Ligue 1 y Champions.
+
+## Actualización del 26 de octubre
+
+La base reúne 9.356 partidos únicos, incluidos 394 encuentros actuales de las cinco ligas y 54 de Champions. Se completaron los 22 partidos del domingo 25 y los dos del lunes 26. El modelo se reentrena con resultados verificados hasta el 26; conserva los hiperparámetros que ya superaron la evaluación temporal. Se generan las próximas jornadas completas: 48 partidos de ligas y 18 de Champions.
+
+Las fijas incorporan revisión por familia de mercado y por selección del equipo. El historial modifica el orden de alternativas y puede bloquear repeticiones tras dos fallos recientes, pero no sustituye las probabilidades del modelo por porcentajes de rachas. Para conservadoras y combinadas se exige cumplimiento en al menos dos de los tres partidos más recientes de ambas muestras. Una elección sin respaldo queda vacía.
+
+El filtro de recencia se auditó sobre las selecciones originales del 23 al 26: conserva 43 de 48 conservadoras, con 36 aciertos, frente a 40 de 48 sin el filtro. La diferencia de porcentaje es pequeña; no demuestra una mejora sólida de precisión, no evalúa las alternativas sustitutas ni justifica aumentar las probabilidades. La memoria por mercado queda en seguimiento prospectivo. Los resultados y probabilidades anteriores se archivan sin reescritura.
+
+La web está publicada en Netlify y los videos piloto con narración y música original ya existen. Las fases siguientes describen la hoja de ruta histórica; estas actualizaciones prevalecen sobre sus estados antiguos.
 
 ## Estado comprobado
 

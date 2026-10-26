@@ -1,0 +1,23 @@
+{
+  "dates": [
+    "2026-10-25"
+  ],
+  "matches": 22,
+  "new_rows": 44,
+  "deferred": [
+    {
+      "fixture_id": "559648",
+      "home": "Paris SG",
+      "away": "Lyon",
+      "original_date": "2026-10-25",
+      "new_date": "2026-10-26",
+      "new_kickoff_utc": "2026-10-26T19:30:00Z",
+      "source_url": "https://ligue1.com/fr/articles/l1_article_5994-",
+      "reason": "PSG–Lyon trasladado al lunes 26; resultado evaluado en el informe del día 26."
+    }
+  ],
+  "by_date": {
+    "2026-10-25": 22
+  },
+  "dataset_matches": 394
+}

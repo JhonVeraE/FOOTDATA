@@ -23,6 +23,10 @@ ESPN_ALIASES = {'Ipswich Town':'Ipswich','Nottingham Forest':"Nott'm Forest",
     'Tottenham Hotspur':'Tottenham','Rayo Vallecano':'Vallecano',
     'Racing Santander':'Santander','Espanyol':'Espanol','Deportivo':'La Coruna',
     'FC Cologne':'FC Koln','SV Elversberg':'Elversberg','Hamburg SV':'Hamburg'}
+ESPN_ALIASES.update({'Newcastle United':'Newcastle','Hull City':'Hull',
+    'Brighton & Hove Albion':'Brighton','Leeds United':'Leeds','Celta Vigo':'Celta',
+    'Real Sociedad':'Sociedad','AS Monaco':'Monaco','Stade Rennais':'Rennes',
+    'TSG Hoffenheim':'Hoffenheim','Bayer Leverkusen':'Leverkusen'})
 
 def read(path):
     return json.loads(Path(path).read_text(encoding='utf-8'))
@@ -140,6 +144,12 @@ def main(capture_dir, apply=False):
         mask=calendar.match_id.astype(str).eq(fid)
         if mask.sum()!=1:raise ValueError('Missing deferred calendar event')
         kickoff=pd.Timestamp(d['new_kickoff_utc'])
+        if calendar.loc[mask,'status'].iloc[0]=='FINISHED':
+            # An earlier review must not undo a final already verified on the
+            # rescheduled date by a later review.
+            if str(calendar.loc[mask,'date'].iloc[0])!=str(kickoff.date()):
+                raise ValueError('Deferred event conflicts with recorded final date')
+            continue
         calendar.loc[mask,['date','kickoff_time_utc','status']]=[str(kickoff.date()),kickoff.strftime('%H:%M'),'TIMED']
         calendar.loc[mask,['home_score','away_score']]=float('nan')
     summary={'dates':verification['dates'],'matches':len(records),'new_rows':len(fresh),

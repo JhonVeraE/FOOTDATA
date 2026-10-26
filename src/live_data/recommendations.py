@@ -13,7 +13,7 @@ from data_store import canonical_team, load_match_stats
 from goal_model import score_distribution
 from paths import ARTIFACT_DIR, WEB_DIR, DATA_DIR
 
-VERSION='market-shortlist-v3'
+VERSION='market-shortlist-v4-feedback'
 LEVELS=[('conservative','Conservadora',.78,.88,.82),('normal','Normal',.63,.78,.70),('risky','Arriesgada',.50,.63,.59)]
 MARKETS={'result':'Resultado 1X2','double_chance':'Doble oportunidad','handicap':'Hándicap de goles','goals':'Goles','btts':'Ambos marcan','result_goals':'Resultado y goles','shots':'Remates','sot':'Tiros al arco','fouls':'Faltas','cards':'Tarjetas Betano','corners':'Córners'}
 COUNT_KINDS=['shots','sot','fouls','cards','corners']
@@ -83,7 +83,7 @@ def evidence(candidate,contexts,report):
         for value in values[::-1]:
             if not value:break
             streak+=1
-        views.append({'team':report['local' if home else 'visitante'],'venue':'general' if scope.endswith('_general') else 'local' if home else 'visitante','scope':scope,'measure':measure,'hits':int(values.sum()),'matches':len(values),'current_hit_streak':streak})
+        views.append({'team':report['local' if home else 'visitante'],'venue':'general' if scope.endswith('_general') else 'local' if home else 'visitante','scope':scope,'measure':measure,'hits':int(values.sum()),'matches':len(values),'current_hit_streak':streak,'recent_matches':min(3,len(values)),'recent_hits':int(values[-3:].sum())})
         # A recent direct encounter can appear in both venue windows. Count it
         # once when ranking support, while retaining each team's honest window.
         valid=rows
@@ -172,11 +172,15 @@ def candidates(report,contexts,dispersion_data=None,quotes=None,as_of=None):
     return out
 
 def selection_cost(item,target):
-    return abs(item['probability']-target)+.30*item['support_gap']+.015*(item['kind'] in COUNT_KINDS)-.08*(item.get('price_status')=='above_reference')
+    feedback=item.get('performance_review',{})
+    return abs(item['probability']-target)+.30*item['support_gap']+.015*(item['kind'] in COUNT_KINDS)-.08*(item.get('price_status')=='above_reference')+feedback.get('ranking_penalty',0)-feedback.get('ranking_bonus',0)
 
 def supported(item):
     ev=item['evidence']
-    return ev['matches']>=5 and all(v['matches']>=3 and v['hits']>v['matches']/2 for v in ev['contexts']) and item['support_gap']<=.30 and item['fair_odds']>=1.18 and item.get('price_status') not in ['below_reference','not_in_observed_lines']
+    return ev['matches']>=5 and all(v['matches']>=3 and v['hits']>v['matches']/2 for v in ev['contexts']) and item['support_gap']<=.30 and item['fair_odds']>=1.18 and item.get('price_status') not in ['below_reference','not_in_observed_lines'] and not item.get('performance_review',{}).get('repeat_failure_block',False)
+
+def recent_support(item):
+    return all(v.get('recent_matches',0)>=3 and v.get('recent_hits',0)>=2 for v in item['evidence']['contexts'])
 
 def preferred_selection(pool,target):
     """Market families take precedence over the count of available half-lines.
@@ -187,23 +191,25 @@ def preferred_selection(pool,target):
     primary=[c for c in pool if c['kind'] in PRIMARY_MARKETS]
     return min(primary or pool,key=lambda c:selection_cost(c,target),default=None)
 
-def make_match(report,stats,quotes=None,as_of=None):
+def make_match(report,stats,quotes=None,as_of=None,feedback_records=None):
     contexts=historical_context(stats,report)
     cut=min(pd.Timestamp(report['cutoff']),pd.Timestamp(report['fecha']))
     dispersion_data=stats[(stats.date<cut)&(stats.date>=cut-pd.Timedelta(days=365))&(stats.league==report['competition'])]
     options=candidates(report,contexts,dispersion_data,quotes,as_of);by_market=[]
+    from recommendation_feedback import annotate
+    annotate(options,report,feedback_records or [])
     for kind in MARKETS:
         pool=[c for c in options if c['kind']==kind and .50<=c['probability']<=.88 and supported(c)]
         best=min(pool,key=lambda c:selection_cost(c,.74),default=None)
         by_market.append({'kind':kind,'market':MARKETS[kind],'selection':best,'status':'available' if best else 'incompatible_settlement' if kind=='cards' else 'insufficient_support','reason':'Betano cuenta una roja como dos tarjetas y excluye la segunda amarilla. El CSV agregado no permite reconstruir esa liquidación.' if kind=='cards' else None})
     tiers=[];used=set()
     for key,label,lo,hi,target in LEVELS:
-        pool=[c for c in options if lo<=c['probability']<hi and c['kind'] not in used and supported(c)]
+        pool=[c for c in options if lo<=c['probability']<hi and c['kind'] not in used and supported(c) and (key!='conservative' or recent_support(c))]
         best=preferred_selection(pool,target)
         tiers.append({'key':key,'label':label,'selection':best,'status':'available' if best else 'insufficient_data'})
         if best:used.add(best['kind'])
     # Prefer goal/result markets; retain count alternatives only without support there.
-    eligible=[c for c in options if .78<=c['probability']<=.88 and supported(c)]
+    eligible=[c for c in options if .78<=c['probability']<=.88 and supported(c) and recent_support(c)]
     sample=report.get('quality',{}).get('effective_sample_min',0)
     unknown=any('sin historial' in warning.lower() for warning in report.get('data_warnings',[]))
     pick=preferred_selection(eligible,.82) if sample>=5 and not unknown else None
@@ -221,9 +227,9 @@ def choose_parlay(pool,size,as_of):
     if best is None:return {'size':size,'status':'insufficient_matches','legs':[],'probability':None}
     return {'size':size,'status':'available','legs':[{'fixture_id':m['fixture_id'],'selection':m['parlay_selection']} for m in best],'probability':best_p,'assumption':'Producto bajo supuesto de independencia entre partidos. No calibrado como combinada.'}
 
-def build_payload(predictions,stats,as_of=None,quotes=None):
+def build_payload(predictions,stats,as_of=None,quotes=None,feedback_records=None):
     now=utc(as_of) if as_of is not None else pd.Timestamp.now(tz='UTC')
-    matches=[make_match(m,stats,quotes,now) for m in predictions['matches'] if utc(m['kickoff_utc'])>now and m.get('calendar_status') in ['SCHEDULED','TIMED']]
+    matches=[make_match(m,stats,quotes,now,feedback_records) for m in predictions['matches'] if utc(m['kickoff_utc'])>now and m.get('calendar_status') in ['SCHEDULED','TIMED']]
     days=[]
     for day in sorted({m['date_lima'] for m in matches}):
         fixtures=[m for m in matches if m['date_lima']==day]
@@ -265,10 +271,13 @@ def apply_editorial_overrides(data,predictions,stats,as_of=None,overrides=None):
 
 def publish_recommendations(predictions,stats=None):
     if stats is None:stats=load_match_stats()
+    from recommendation_feedback import load_feedback
+    feedback_records=load_feedback()
     quote_file=ARTIFACT_DIR/'betano_odds.json'
     quote_records=json.loads(quote_file.read_text(encoding='utf-8'))['records'] if quote_file.exists() else []
     quotes={(r['fixture_id'],r['candidate_id']):r for r in quote_records}
-    data=build_payload(predictions,stats,quotes=quotes)
+    data=build_payload(predictions,stats,quotes=quotes,feedback_records=feedback_records)
+    data['policy']['feedback']='Se revisan los resultados publicados por familia de mercado y por selección del equipo. Dos fallos recientes del mismo equipo y línea bloquean su repetición si no hay dos aciertos consecutivos de respaldo actual. Conservadoras y combinadas exigen al menos 2/3 cumplimientos recientes en ambas muestras. El ajuste ordena o filtra; no infla las probabilidades.'
     apply_editorial_overrides(data,predictions,stats)
     data['policy']['priority']='Se priorizan ganador, doble oportunidad, hándicap, ambos marcan, goles y resultado con goles entre las propuestas que cumplen los mismos filtros de respaldo y precio. Remates, tiros al arco, faltas y córners son complementarios. La prioridad no modifica las probabilidades del modelo.'
     data['policy']['streaks']='Cada muestra muestra los aciertos consecutivos más recientes de la selección, hasta cinco observaciones válidas. Es un dato descriptivo para revisar la continuidad, no un multiplicador de probabilidad.'

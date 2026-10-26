@@ -10,7 +10,7 @@ from goal_model import score_distribution
 class EditorialOverrideTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
-        cls.pred=json.loads((ROOT/'web/data/predictions.json').read_text(encoding='utf-8'))
+        cls.pred=json.loads((ROOT/'data/artifacts/prediction_archive/20261019T035731826767Z.json').read_text(encoding='utf-8'))
         cls.original=json.loads((ROOT/'data/artifacts/recommendation_archive/20261019T054246228443Z.json').read_text(encoding='utf-8'))
         cls.overrides=json.loads((ROOT/'data/live/recommendation_overrides.json').read_text(encoding='utf-8'))['overrides']
         cls.stats=load_match_stats()

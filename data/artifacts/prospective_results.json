@@ -1,13 +1,14 @@
 {
   "status": "scored",
-  "scored_matches": 42,
-  "accuracy": 0.6666666666666666,
-  "log_loss": 0.8877464240733175,
+  "scored_matches": 90,
+  "accuracy": 0.5888888888888889,
+  "log_loss": 0.9362583881796402,
   "rule": "Latest archived prediction generated before kickoff; scores from canonical dated final statistics only.",
   "predictions": [
     {
       "fixture_id": "564715",
       "date": "2026-10-18",
+      "forecast_original_date": "2026-10-18",
       "model": "attack-defence-v2",
       "generated_at": "2026-10-18T05:29:48.671172+00:00",
       "probabilities": [
@@ -22,6 +23,7 @@
     {
       "fixture_id": "564712",
       "date": "2026-10-18",
+      "forecast_original_date": "2026-10-18",
       "model": "attack-defence-v2",
       "generated_at": "2026-10-18T05:29:48.831464+00:00",
       "probabilities": [
@@ -36,6 +38,7 @@
     {
       "fixture_id": "564714",
       "date": "2026-10-18",
+      "forecast_original_date": "2026-10-18",
       "model": "attack-defence-v2",
       "generated_at": "2026-10-18T05:29:49.011114+00:00",
       "probabilities": [
@@ -50,6 +53,7 @@
     {
       "fixture_id": "564709",
       "date": "2026-10-18",
+      "forecast_original_date": "2026-10-18",
       "model": "attack-defence-v2",
       "generated_at": "2026-10-18T05:29:49.177327+00:00",
       "probabilities": [
@@ -64,6 +68,7 @@
     {
       "fixture_id": "564717",
       "date": "2026-10-19",
+      "forecast_original_date": "2026-10-19",
       "model": "attack-defence-v2",
       "generated_at": "2026-10-19T03:56:50.219875+00:00",
       "probabilities": [
@@ -78,6 +83,7 @@
     {
       "fixture_id": "560604",
       "date": "2026-10-18",
+      "forecast_original_date": "2026-10-18",
       "model": "attack-defence-v2",
       "generated_at": "2026-10-18T05:29:49.526185+00:00",
       "probabilities": [
@@ -92,6 +98,7 @@
     {
       "fixture_id": "560605",
       "date": "2026-10-18",
+      "forecast_original_date": "2026-10-18",
       "model": "attack-defence-v2",
       "generated_at": "2026-10-18T05:29:49.688390+00:00",
       "probabilities": [
@@ -106,6 +113,7 @@
     {
       "fixture_id": "560609",
       "date": "2026-10-18",
+      "forecast_original_date": "2026-10-18",
       "model": "attack-defence-v2",
       "generated_at": "2026-10-18T05:29:49.850720+00:00",
       "probabilities": [
@@ -120,6 +128,7 @@
     {
       "fixture_id": "560608",
       "date": "2026-10-18",
+      "forecast_original_date": "2026-10-18",
       "model": "attack-defence-v2",
       "generated_at": "2026-10-18T05:29:50.015205+00:00",
       "probabilities": [
@@ -134,6 +143,7 @@
     {
       "fixture_id": "560606",
       "date": "2026-10-19",
+      "forecast_original_date": "2026-10-19",
       "model": "attack-defence-v2",
       "generated_at": "2026-10-19T03:56:57.002703+00:00",
       "probabilities": [
@@ -148,6 +158,7 @@
     {
       "fixture_id": "565827",
       "date": "2026-10-18",
+      "forecast_original_date": "2026-10-18",
       "model": "attack-defence-v2",
       "generated_at": "2026-10-18T05:29:50.421007+00:00",
       "probabilities": [
@@ -162,6 +173,7 @@
     {
       "fixture_id": "565826",
       "date": "2026-10-18",
+      "forecast_original_date": "2026-10-18",
       "model": "attack-defence-v2",
       "generated_at": "2026-10-18T05:29:50.607479+00:00",
       "probabilities": [
@@ -176,6 +188,7 @@
     {
       "fixture_id": "558574",
       "date": "2026-10-18",
+      "forecast_original_date": "2026-10-18",
       "model": "attack-defence-v2",
       "generated_at": "2026-10-18T05:29:50.817065+00:00",
       "probabilities": [
@@ -190,6 +203,7 @@
     {
       "fixture_id": "558577",
       "date": "2026-10-18",
+      "forecast_original_date": "2026-10-18",
       "model": "attack-defence-v2",
       "generated_at": "2026-10-18T05:29:51.007156+00:00",
       "probabilities": [
@@ -204,6 +218,7 @@
     {
       "fixture_id": "558569",
       "date": "2026-10-18",
+      "forecast_original_date": "2026-10-18",
       "model": "attack-defence-v2",
       "generated_at": "2026-10-18T05:29:51.181661+00:00",
       "probabilities": [
@@ -218,6 +233,7 @@
     {
       "fixture_id": "558570",
       "date": "2026-10-18",
+      "forecast_original_date": "2026-10-18",
       "model": "attack-defence-v2",
       "generated_at": "2026-10-18T05:29:51.398230+00:00",
       "probabilities": [
@@ -232,6 +248,7 @@
     {
       "fixture_id": "558576",
       "date": "2026-10-19",
+      "forecast_original_date": "2026-10-19",
       "model": "attack-defence-v2",
       "generated_at": "2026-10-19T03:57:09.092793+00:00",
       "probabilities": [
@@ -246,6 +263,7 @@
     {
       "fixture_id": "558578",
       "date": "2026-10-19",
+      "forecast_original_date": "2026-10-19",
       "model": "attack-defence-v2",
       "generated_at": "2026-10-19T03:57:09.659781+00:00",
       "probabilities": [
@@ -260,6 +278,7 @@
     {
       "fixture_id": "559664",
       "date": "2026-10-18",
+      "forecast_original_date": "2026-10-18",
       "model": "attack-defence-v2",
       "generated_at": "2026-10-18T05:29:51.945217+00:00",
       "probabilities": [
@@ -274,6 +293,7 @@
     {
       "fixture_id": "559657",
       "date": "2026-10-18",
+      "forecast_original_date": "2026-10-18",
       "model": "attack-defence-v2",
       "generated_at": "2026-10-18T05:29:52.111907+00:00",
       "probabilities": [
@@ -288,6 +308,7 @@
     {
       "fixture_id": "559658",
       "date": "2026-10-18",
+      "forecast_original_date": "2026-10-18",
       "model": "attack-defence-v2",
       "generated_at": "2026-10-18T05:29:52.292137+00:00",
       "probabilities": [
@@ -302,6 +323,7 @@
     {
       "fixture_id": "559663",
       "date": "2026-10-18",
+      "forecast_original_date": "2026-10-18",
       "model": "attack-defence-v2",
       "generated_at": "2026-10-18T05:29:52.464942+00:00",
       "probabilities": [
@@ -316,6 +338,7 @@
     {
       "fixture_id": "559665",
       "date": "2026-10-18",
+      "forecast_original_date": "2026-10-18",
       "model": "attack-defence-v2",
       "generated_at": "2026-10-18T05:29:52.652227+00:00",
       "probabilities": [
@@ -330,6 +353,7 @@
     {
       "fixture_id": "575359",
       "date": "2026-10-20",
+      "forecast_original_date": "2026-10-20",
       "model": "attack-defence-v2",
       "generated_at": "2026-10-19T03:57:20.993704+00:00",
       "probabilities": [
@@ -344,6 +368,7 @@
     {
       "fixture_id": "575360",
       "date": "2026-10-20",
+      "forecast_original_date": "2026-10-20",
       "model": "attack-defence-v2",
       "generated_at": "2026-10-19T03:57:21.550429+00:00",
       "probabilities": [
@@ -358,6 +383,7 @@
     {
       "fixture_id": "575366",
       "date": "2026-10-20",
+      "forecast_original_date": "2026-10-20",
       "model": "attack-defence-v2",
       "generated_at": "2026-10-19T03:57:22.288634+00:00",
       "probabilities": [
@@ -372,6 +398,7 @@
     {
       "fixture_id": "575365",
       "date": "2026-10-20",
+      "forecast_original_date": "2026-10-20",
       "model": "attack-defence-v2",
       "generated_at": "2026-10-19T03:57:22.880201+00:00",
       "probabilities": [
@@ -386,6 +413,7 @@
     {
       "fixture_id": "575364",
       "date": "2026-10-20",
+      "forecast_original_date": "2026-10-20",
       "model": "attack-defence-v2",
       "generated_at": "2026-10-19T03:57:23.424697+00:00",
       "probabilities": [
@@ -400,6 +428,7 @@
     {
       "fixture_id": "575367",
       "date": "2026-10-20",
+      "forecast_original_date": "2026-10-20",
       "model": "attack-defence-v2",
       "generated_at": "2026-10-19T03:57:24.067119+00:00",
       "probabilities": [
@@ -414,6 +443,7 @@
     {
       "fixture_id": "575362",
       "date": "2026-10-20",
+      "forecast_original_date": "2026-10-20",
       "model": "attack-defence-v2",
       "generated_at": "2026-10-19T03:57:24.673237+00:00",
       "probabilities": [
@@ -428,6 +458,7 @@
     {
       "fixture_id": "575361",
       "date": "2026-10-20",
+      "forecast_original_date": "2026-10-20",
       "model": "attack-defence-v2",
       "generated_at": "2026-10-19T03:57:25.266607+00:00",
       "probabilities": [
@@ -442,6 +473,7 @@
     {
       "fixture_id": "575363",
       "date": "2026-10-20",
+      "forecast_original_date": "2026-10-20",
       "model": "attack-defence-v2",
       "generated_at": "2026-10-19T03:57:25.900669+00:00",
       "probabilities": [
@@ -456,6 +488,7 @@
     {
       "fixture_id": "575368",
       "date": "2026-10-21",
+      "forecast_original_date": "2026-10-21",
       "model": "attack-defence-v2",
       "generated_at": "2026-10-19T03:57:26.523666+00:00",
       "probabilities": [
@@ -470,6 +503,7 @@
     {
       "fixture_id": "575369",
       "date": "2026-10-21",
+      "forecast_original_date": "2026-10-21",
       "model": "attack-defence-v2",
       "generated_at": "2026-10-19T03:57:27.139934+00:00",
       "probabilities": [
@@ -484,6 +518,7 @@
     {
       "fixture_id": "575375",
       "date": "2026-10-21",
+      "forecast_original_date": "2026-10-21",
       "model": "attack-defence-v2",
       "generated_at": "2026-10-19T03:57:29.100140+00:00",
       "probabilities": [
@@ -498,6 +533,7 @@
     {
       "fixture_id": "575370",
       "date": "2026-10-21",
+      "forecast_original_date": "2026-10-21",
       "model": "attack-defence-v2",
       "generated_at": "2026-10-19T03:57:30.342600+00:00",
       "probabilities": [
@@ -512,6 +548,7 @@
     {
       "fixture_id": "575371",
       "date": "2026-10-21",
+      "forecast_original_date": "2026-10-21",
       "model": "attack-defence-v2",
       "generated_at": "2026-10-19T03:57:27.944111+00:00",
       "probabilities": [
@@ -526,6 +563,7 @@
     {
       "fixture_id": "575372",
       "date": "2026-10-21",
+      "forecast_original_date": "2026-10-21",
       "model": "attack-defence-v2",
       "generated_at": "2026-10-19T03:57:30.998227+00:00",
       "probabilities": [
@@ -540,6 +578,7 @@
     {
       "fixture_id": "575373",
       "date": "2026-10-21",
+      "forecast_original_date": "2026-10-21",
       "model": "attack-defence-v2",
       "generated_at": "2026-10-19T03:57:31.574773+00:00",
       "probabilities": [
@@ -554,6 +593,7 @@
     {
       "fixture_id": "575374",
       "date": "2026-10-21",
+      "forecast_original_date": "2026-10-21",
       "model": "attack-defence-v2",
       "generated_at": "2026-10-19T03:57:29.717770+00:00",
       "probabilities": [
@@ -568,6 +608,7 @@
     {
       "fixture_id": "575376",
       "date": "2026-10-21",
+      "forecast_original_date": "2026-10-21",
       "model": "attack-defence-v2",
       "generated_at": "2026-10-19T03:57:28.524427+00:00",
       "probabilities": [
@@ -582,6 +623,7 @@
     {
       "fixture_id": "564685",
       "date": "2026-10-21",
+      "forecast_original_date": "2026-10-21",
       "model": "attack-defence-v2",
       "generated_at": "2026-10-19T03:56:50.790601+00:00",
       "probabilities": [
@@ -592,6 +634,726 @@
       "outcome": 0,
       "hit": true,
       "log_loss": 0.9986423818696721
+    },
+    {
+      "fixture_id": "564719",
+      "date": "2026-10-23",
+      "forecast_original_date": "2026-10-23",
+      "model": "attack-defence-v2",
+      "generated_at": "2026-10-19T03:56:51.322584+00:00",
+      "probabilities": [
+        0.6289551924779792,
+        0.23284594985473833,
+        0.13819885766728243
+      ],
+      "outcome": 1,
+      "hit": false,
+      "log_loss": 1.4573782035004366
+    },
+    {
+      "fixture_id": "564718",
+      "date": "2026-10-24",
+      "forecast_original_date": "2026-10-24",
+      "model": "attack-defence-v2",
+      "generated_at": "2026-10-19T03:56:51.919273+00:00",
+      "probabilities": [
+        0.4585797343535425,
+        0.2758474950865954,
+        0.26557277055986217
+      ],
+      "outcome": 2,
+      "hit": false,
+      "log_loss": 1.3258663871178888
+    },
+    {
+      "fixture_id": "564727",
+      "date": "2026-10-24",
+      "forecast_original_date": "2026-10-24",
+      "model": "attack-defence-v2",
+      "generated_at": "2026-10-19T03:56:52.436261+00:00",
+      "probabilities": [
+        0.363898547685503,
+        0.2303357361392502,
+        0.40576571617524687
+      ],
+      "outcome": 0,
+      "hit": false,
+      "log_loss": 1.0108801653433994
+    },
+    {
+      "fixture_id": "564722",
+      "date": "2026-10-24",
+      "forecast_original_date": "2026-10-24",
+      "model": "attack-defence-v2",
+      "generated_at": "2026-10-19T03:56:52.971387+00:00",
+      "probabilities": [
+        0.29981930861518763,
+        0.25992275575819024,
+        0.44025793562662213
+      ],
+      "outcome": 2,
+      "hit": true,
+      "log_loss": 0.8203945064948571
+    },
+    {
+      "fixture_id": "564724",
+      "date": "2026-10-24",
+      "forecast_original_date": "2026-10-24",
+      "model": "attack-defence-v2",
+      "generated_at": "2026-10-19T03:56:53.500889+00:00",
+      "probabilities": [
+        0.6580720646702936,
+        0.204020666072564,
+        0.13790726925714225
+      ],
+      "outcome": 0,
+      "hit": true,
+      "log_loss": 0.41844083287826
+    },
+    {
+      "fixture_id": "564720",
+      "date": "2026-10-25",
+      "forecast_original_date": "2026-10-25",
+      "model": "attack-defence-v2",
+      "generated_at": "2026-10-19T03:56:54.222819+00:00",
+      "probabilities": [
+        0.4723139786866323,
+        0.32869500433244186,
+        0.1989910169809259
+      ],
+      "outcome": 0,
+      "hit": true,
+      "log_loss": 0.7501113054682248
+    },
+    {
+      "fixture_id": "564725",
+      "date": "2026-10-25",
+      "forecast_original_date": "2026-10-25",
+      "model": "attack-defence-v2",
+      "generated_at": "2026-10-19T03:56:54.769039+00:00",
+      "probabilities": [
+        0.40775489759342404,
+        0.263729780986523,
+        0.32851532142005285
+      ],
+      "outcome": 1,
+      "hit": false,
+      "log_loss": 1.3328302568971084
+    },
+    {
+      "fixture_id": "564726",
+      "date": "2026-10-25",
+      "forecast_original_date": "2026-10-25",
+      "model": "attack-defence-v2",
+      "generated_at": "2026-10-19T03:56:55.322216+00:00",
+      "probabilities": [
+        0.544165804412477,
+        0.22433811948717447,
+        0.23149607610034864
+      ],
+      "outcome": 0,
+      "hit": true,
+      "log_loss": 0.6085012910415403
+    },
+    {
+      "fixture_id": "564723",
+      "date": "2026-10-25",
+      "forecast_original_date": "2026-10-25",
+      "model": "attack-defence-v2",
+      "generated_at": "2026-10-19T03:56:55.881197+00:00",
+      "probabilities": [
+        0.5525790244144637,
+        0.21321549838046672,
+        0.23420547720506954
+      ],
+      "outcome": 2,
+      "hit": false,
+      "log_loss": 1.4515564412214954
+    },
+    {
+      "fixture_id": "564721",
+      "date": "2026-10-26",
+      "forecast_original_date": "2026-10-26",
+      "model": "attack-defence-v2",
+      "generated_at": "2026-10-19T03:56:56.424871+00:00",
+      "probabilities": [
+        0.4716735129441434,
+        0.26270671752237207,
+        0.2656197695334847
+      ],
+      "outcome": 0,
+      "hit": true,
+      "log_loss": 0.751468242602329
+    },
+    {
+      "fixture_id": "560620",
+      "date": "2026-10-23",
+      "forecast_original_date": "2026-10-23",
+      "model": "attack-defence-v2",
+      "generated_at": "2026-10-19T03:56:57.529935+00:00",
+      "probabilities": [
+        0.28296154006015484,
+        0.24933706336238237,
+        0.4677013965774628
+      ],
+      "outcome": 1,
+      "hit": false,
+      "log_loss": 1.3889496297781143
+    },
+    {
+      "fixture_id": "560614",
+      "date": "2026-10-24",
+      "forecast_original_date": "2026-10-24",
+      "model": "attack-defence-v2",
+      "generated_at": "2026-10-19T03:56:58.137120+00:00",
+      "probabilities": [
+        0.26122948153696873,
+        0.2433641613071589,
+        0.4954063571558723
+      ],
+      "outcome": 0,
+      "hit": false,
+      "log_loss": 1.3423560183589214
+    },
+    {
+      "fixture_id": "560616",
+      "date": "2026-10-24",
+      "forecast_original_date": "2026-10-24",
+      "model": "attack-defence-v2",
+      "generated_at": "2026-10-19T03:56:58.718360+00:00",
+      "probabilities": [
+        0.6513155743704465,
+        0.23143865899980823,
+        0.11724576662974524
+      ],
+      "outcome": 0,
+      "hit": true,
+      "log_loss": 0.42876100097125747
+    },
+    {
+      "fixture_id": "560618",
+      "date": "2026-10-24",
+      "forecast_original_date": "2026-10-24",
+      "model": "attack-defence-v2",
+      "generated_at": "2026-10-19T03:56:59.303677+00:00",
+      "probabilities": [
+        0.33191319529786545,
+        0.28286827597902764,
+        0.3852185287231069
+      ],
+      "outcome": 2,
+      "hit": true,
+      "log_loss": 0.9539444986493116
+    },
+    {
+      "fixture_id": "560617",
+      "date": "2026-10-24",
+      "forecast_original_date": "2026-10-24",
+      "model": "attack-defence-v2",
+      "generated_at": "2026-10-19T03:57:00.165746+00:00",
+      "probabilities": [
+        0.5533959401471552,
+        0.2219483082058079,
+        0.22465575164703686
+      ],
+      "outcome": 2,
+      "hit": false,
+      "log_loss": 1.4931860410915667
+    },
+    {
+      "fixture_id": "560619",
+      "date": "2026-10-25",
+      "forecast_original_date": "2026-10-25",
+      "model": "attack-defence-v2",
+      "generated_at": "2026-10-19T03:57:00.768478+00:00",
+      "probabilities": [
+        0.3864322958693785,
+        0.286727145056746,
+        0.3268405590738756
+      ],
+      "outcome": 1,
+      "hit": false,
+      "log_loss": 1.2492242295257885
+    },
+    {
+      "fixture_id": "560615",
+      "date": "2026-10-25",
+      "forecast_original_date": "2026-10-25",
+      "model": "attack-defence-v2",
+      "generated_at": "2026-10-19T03:57:01.301398+00:00",
+      "probabilities": [
+        0.47682341335400763,
+        0.2485053422336001,
+        0.2746712444123922
+      ],
+      "outcome": 2,
+      "hit": false,
+      "log_loss": 1.2921803713296889
+    },
+    {
+      "fixture_id": "560612",
+      "date": "2026-10-25",
+      "forecast_original_date": "2026-10-25",
+      "model": "attack-defence-v2",
+      "generated_at": "2026-10-19T03:57:01.861417+00:00",
+      "probabilities": [
+        0.47592594217880363,
+        0.23669983741413728,
+        0.2873742204070592
+      ],
+      "outcome": 0,
+      "hit": true,
+      "log_loss": 0.7424930205130854
+    },
+    {
+      "fixture_id": "560613",
+      "date": "2026-10-25",
+      "forecast_original_date": "2026-10-25",
+      "model": "attack-defence-v2",
+      "generated_at": "2026-10-19T03:57:02.417880+00:00",
+      "probabilities": [
+        0.3461040488477641,
+        0.25523495014219183,
+        0.39866100101004415
+      ],
+      "outcome": 2,
+      "hit": true,
+      "log_loss": 0.9196438447539214
+    },
+    {
+      "fixture_id": "560621",
+      "date": "2026-10-25",
+      "forecast_original_date": "2026-10-25",
+      "model": "attack-defence-v2",
+      "generated_at": "2026-10-19T03:57:02.966908+00:00",
+      "probabilities": [
+        0.3528790477033607,
+        0.29175289519051467,
+        0.35536805710612457
+      ],
+      "outcome": 1,
+      "hit": false,
+      "log_loss": 1.2318480843325257
+    },
+    {
+      "fixture_id": "565833",
+      "date": "2026-10-23",
+      "forecast_original_date": "2026-10-23",
+      "model": "attack-defence-v2",
+      "generated_at": "2026-10-19T03:57:03.541254+00:00",
+      "probabilities": [
+        0.65467656708274,
+        0.18809109836883675,
+        0.1572323345484231
+      ],
+      "outcome": 2,
+      "hit": false,
+      "log_loss": 1.8500307296268264
+    },
+    {
+      "fixture_id": "565830",
+      "date": "2026-10-24",
+      "forecast_original_date": "2026-10-24",
+      "model": "attack-defence-v2",
+      "generated_at": "2026-10-19T03:57:04.069518+00:00",
+      "probabilities": [
+        0.5184492200240006,
+        0.24170810806073523,
+        0.2398426719152643
+      ],
+      "outcome": 2,
+      "hit": false,
+      "log_loss": 1.4277721042826974
+    },
+    {
+      "fixture_id": "565831",
+      "date": "2026-10-24",
+      "forecast_original_date": "2026-10-24",
+      "model": "attack-defence-v2",
+      "generated_at": "2026-10-19T03:57:04.606424+00:00",
+      "probabilities": [
+        0.4334001119803412,
+        0.2938487119718129,
+        0.272751176047846
+      ],
+      "outcome": 1,
+      "hit": false,
+      "log_loss": 1.2246902292177093
+    },
+    {
+      "fixture_id": "565832",
+      "date": "2026-10-24",
+      "forecast_original_date": "2026-10-24",
+      "model": "attack-defence-v2",
+      "generated_at": "2026-10-19T03:57:05.325192+00:00",
+      "probabilities": [
+        0.5453536569872541,
+        0.204918804974151,
+        0.24972753803859488
+      ],
+      "outcome": 0,
+      "hit": true,
+      "log_loss": 0.6063207828679651
+    },
+    {
+      "fixture_id": "565834",
+      "date": "2026-10-24",
+      "forecast_original_date": "2026-10-24",
+      "model": "attack-defence-v2",
+      "generated_at": "2026-10-19T03:57:05.912232+00:00",
+      "probabilities": [
+        0.4158510130758826,
+        0.293554794234666,
+        0.29059419268945125
+      ],
+      "outcome": 0,
+      "hit": true,
+      "log_loss": 0.877428224513422
+    },
+    {
+      "fixture_id": "565838",
+      "date": "2026-10-24",
+      "forecast_original_date": "2026-10-24",
+      "model": "attack-defence-v2",
+      "generated_at": "2026-10-19T03:57:06.525218+00:00",
+      "probabilities": [
+        0.5022060210199365,
+        0.25334154966218153,
+        0.244452429317882
+      ],
+      "outcome": 1,
+      "hit": false,
+      "log_loss": 1.373016702018772
+    },
+    {
+      "fixture_id": "565837",
+      "date": "2026-10-24",
+      "forecast_original_date": "2026-10-24",
+      "model": "attack-defence-v2",
+      "generated_at": "2026-10-19T03:57:07.154412+00:00",
+      "probabilities": [
+        0.8336119789960966,
+        0.10135424908609783,
+        0.06503377191780574
+      ],
+      "outcome": 0,
+      "hit": true,
+      "log_loss": 0.1819872378894319
+    },
+    {
+      "fixture_id": "565835",
+      "date": "2026-10-25",
+      "forecast_original_date": "2026-10-25",
+      "model": "attack-defence-v2",
+      "generated_at": "2026-10-19T03:57:07.811148+00:00",
+      "probabilities": [
+        0.288523058703254,
+        0.21654121744513188,
+        0.49493572385161416
+      ],
+      "outcome": 0,
+      "hit": false,
+      "log_loss": 1.2429802700467867
+    },
+    {
+      "fixture_id": "565836",
+      "date": "2026-10-25",
+      "forecast_original_date": "2026-10-25",
+      "model": "attack-defence-v2",
+      "generated_at": "2026-10-19T03:57:08.440351+00:00",
+      "probabilities": [
+        0.15492497057808863,
+        0.17091458752187821,
+        0.6741604419000331
+      ],
+      "outcome": 2,
+      "hit": true,
+      "log_loss": 0.3942871520358268
+    },
+    {
+      "fixture_id": "558567",
+      "date": "2026-10-23",
+      "forecast_original_date": "2026-10-23",
+      "model": "attack-defence-v2",
+      "generated_at": "2026-10-19T03:57:10.210975+00:00",
+      "probabilities": [
+        0.5024447997967518,
+        0.25523665468862866,
+        0.24231854551461962
+      ],
+      "outcome": 0,
+      "hit": true,
+      "log_loss": 0.6882694962337285
+    },
+    {
+      "fixture_id": "558560",
+      "date": "2026-10-24",
+      "forecast_original_date": "2026-10-24",
+      "model": "attack-defence-v2",
+      "generated_at": "2026-10-19T03:57:10.916336+00:00",
+      "probabilities": [
+        0.30770000494125876,
+        0.2879579556802235,
+        0.4043420393785177
+      ],
+      "outcome": 2,
+      "hit": true,
+      "log_loss": 0.9054941270867645
+    },
+    {
+      "fixture_id": "558561",
+      "date": "2026-10-24",
+      "forecast_original_date": "2026-10-24",
+      "model": "attack-defence-v2",
+      "generated_at": "2026-10-19T03:57:11.476713+00:00",
+      "probabilities": [
+        0.6259151687521187,
+        0.21166981495772608,
+        0.16241501629015503
+      ],
+      "outcome": 0,
+      "hit": true,
+      "log_loss": 0.46854043024030767
+    },
+    {
+      "fixture_id": "558564",
+      "date": "2026-10-24",
+      "forecast_original_date": "2026-10-24",
+      "model": "attack-defence-v2",
+      "generated_at": "2026-10-19T03:57:11.948931+00:00",
+      "probabilities": [
+        0.34713338533799293,
+        0.29901617566336186,
+        0.35385043899864516
+      ],
+      "outcome": 1,
+      "hit": false,
+      "log_loss": 1.2072576078461918
+    },
+    {
+      "fixture_id": "558565",
+      "date": "2026-10-24",
+      "forecast_original_date": "2026-10-24",
+      "model": "attack-defence-v2",
+      "generated_at": "2026-10-19T03:57:12.482550+00:00",
+      "probabilities": [
+        0.5504170597433362,
+        0.27544200497577864,
+        0.17414093528088526
+      ],
+      "outcome": 0,
+      "hit": true,
+      "log_loss": 0.5970789976701311
+    },
+    {
+      "fixture_id": "558563",
+      "date": "2026-10-25",
+      "forecast_original_date": "2026-10-25",
+      "model": "attack-defence-v2",
+      "generated_at": "2026-10-19T03:57:13.018213+00:00",
+      "probabilities": [
+        0.7019879082582938,
+        0.1732819232402038,
+        0.12473016850150237
+      ],
+      "outcome": 0,
+      "hit": true,
+      "log_loss": 0.35383909980795797
+    },
+    {
+      "fixture_id": "558568",
+      "date": "2026-10-25",
+      "forecast_original_date": "2026-10-25",
+      "model": "attack-defence-v2",
+      "generated_at": "2026-10-19T03:57:13.582737+00:00",
+      "probabilities": [
+        0.4839662042055353,
+        0.2788197088855879,
+        0.23721408690887677
+      ],
+      "outcome": 0,
+      "hit": true,
+      "log_loss": 0.7257402007250767
+    },
+    {
+      "fixture_id": "558562",
+      "date": "2026-10-25",
+      "forecast_original_date": "2026-10-25",
+      "model": "attack-defence-v2",
+      "generated_at": "2026-10-19T03:57:14.123430+00:00",
+      "probabilities": [
+        0.5411455653158784,
+        0.22968043550949396,
+        0.2291739991746276
+      ],
+      "outcome": 1,
+      "hit": false,
+      "log_loss": 1.4710663470134548
+    },
+    {
+      "fixture_id": "558566",
+      "date": "2026-10-25",
+      "forecast_original_date": "2026-10-25",
+      "model": "attack-defence-v2",
+      "generated_at": "2026-10-19T03:57:14.657657+00:00",
+      "probabilities": [
+        0.1655247028817223,
+        0.2704622527810988,
+        0.5640130443371789
+      ],
+      "outcome": 2,
+      "hit": true,
+      "log_loss": 0.5726778994941227
+    },
+    {
+      "fixture_id": "558559",
+      "date": "2026-10-25",
+      "forecast_original_date": "2026-10-25",
+      "model": "attack-defence-v2",
+      "generated_at": "2026-10-19T03:57:15.218304+00:00",
+      "probabilities": [
+        0.233991968984162,
+        0.25397514197400517,
+        0.5120328890418329
+      ],
+      "outcome": 2,
+      "hit": true,
+      "log_loss": 0.6693664195958693
+    },
+    {
+      "fixture_id": "559654",
+      "date": "2026-10-23",
+      "forecast_original_date": "2026-10-23",
+      "model": "attack-defence-v2",
+      "generated_at": "2026-10-19T03:57:15.847104+00:00",
+      "probabilities": [
+        0.4371184951680131,
+        0.26226012899278245,
+        0.30062137583920456
+      ],
+      "outcome": 2,
+      "hit": false,
+      "log_loss": 1.201903693615304
+    },
+    {
+      "fixture_id": "559655",
+      "date": "2026-10-25",
+      "forecast_original_date": "2026-10-24",
+      "model": "attack-defence-v2",
+      "generated_at": "2026-10-19T03:57:16.496002+00:00",
+      "probabilities": [
+        0.6794225436055399,
+        0.19453692830594593,
+        0.1260405280885141
+      ],
+      "outcome": 1,
+      "hit": false,
+      "log_loss": 1.637133271189782
+    },
+    {
+      "fixture_id": "559652",
+      "date": "2026-10-24",
+      "forecast_original_date": "2026-10-24",
+      "model": "attack-defence-v2",
+      "generated_at": "2026-10-19T03:57:17.053230+00:00",
+      "probabilities": [
+        0.4957513736307985,
+        0.2538147513852306,
+        0.2504338749839709
+      ],
+      "outcome": 0,
+      "hit": true,
+      "log_loss": 0.7016807407725585
+    },
+    {
+      "fixture_id": "559650",
+      "date": "2026-10-25",
+      "forecast_original_date": "2026-10-25",
+      "model": "attack-defence-v2",
+      "generated_at": "2026-10-19T03:57:17.587273+00:00",
+      "probabilities": [
+        0.42477856765939603,
+        0.2672402209471522,
+        0.30798121139345175
+      ],
+      "outcome": 1,
+      "hit": false,
+      "log_loss": 1.319607321150946
+    },
+    {
+      "fixture_id": "559649",
+      "date": "2026-10-25",
+      "forecast_original_date": "2026-10-25",
+      "model": "attack-defence-v2",
+      "generated_at": "2026-10-19T03:57:18.145859+00:00",
+      "probabilities": [
+        0.6558943760831055,
+        0.203989055464444,
+        0.14011656845245057
+      ],
+      "outcome": 0,
+      "hit": true,
+      "log_loss": 0.4217555150703194
+    },
+    {
+      "fixture_id": "559651",
+      "date": "2026-10-25",
+      "forecast_original_date": "2026-10-25",
+      "model": "attack-defence-v2",
+      "generated_at": "2026-10-19T03:57:18.693923+00:00",
+      "probabilities": [
+        0.4755430341112155,
+        0.22597914005666656,
+        0.29847782583211796
+      ],
+      "outcome": 0,
+      "hit": true,
+      "log_loss": 0.7432978982291255
+    },
+    {
+      "fixture_id": "559653",
+      "date": "2026-10-25",
+      "forecast_original_date": "2026-10-25",
+      "model": "attack-defence-v2",
+      "generated_at": "2026-10-19T03:57:19.273630+00:00",
+      "probabilities": [
+        0.2907119522689541,
+        0.28704422374504307,
+        0.4222438239860029
+      ],
+      "outcome": 1,
+      "hit": false,
+      "log_loss": 1.2481189853891321
+    },
+    {
+      "fixture_id": "559656",
+      "date": "2026-10-25",
+      "forecast_original_date": "2026-10-25",
+      "model": "attack-defence-v2",
+      "generated_at": "2026-10-19T03:57:19.842118+00:00",
+      "probabilities": [
+        0.4606614015764708,
+        0.2424467631972907,
+        0.2968918352262385
+      ],
+      "outcome": 1,
+      "hit": false,
+      "log_loss": 1.4169731259125897
+    },
+    {
+      "fixture_id": "559648",
+      "date": "2026-10-26",
+      "forecast_original_date": "2026-10-25",
+      "model": "attack-defence-v2",
+      "generated_at": "2026-10-19T03:57:20.389857+00:00",
+      "probabilities": [
+        0.619045722651456,
+        0.2059096460058022,
+        0.17504463134274173
+      ],
+      "outcome": 0,
+      "hit": true,
+      "log_loss": 0.479576143675765
     }
   ]
 }

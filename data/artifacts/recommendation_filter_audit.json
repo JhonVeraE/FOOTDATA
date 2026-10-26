@@ -1,0 +1,69 @@
+{
+  "protocol": "Retrospective audit of a fixed 2/3 recency gate; original probabilities and exclusive pre-publication cutoffs. No alternative-pick or profitability claim. Team-market feedback is prospective and not validated by this filter-only audit.",
+  "development_through": "2026-10-21",
+  "holdout_from": "2026-10-23",
+  "development": {
+    "baseline": {
+      "n": 8,
+      "won": 8
+    },
+    "filtered": {
+      "n": 8,
+      "won": 8
+    },
+    "excluded": []
+  },
+  "holdout": {
+    "baseline": {
+      "n": 48,
+      "won": 40
+    },
+    "filtered": {
+      "n": 43,
+      "won": 36
+    },
+    "excluded": [
+      {
+        "fixture_id": "564719",
+        "date": "2026-10-23",
+        "match": "Alaves – Malaga",
+        "selection": "Malaga: menos de 1,5 goles",
+        "won": true,
+        "accepted": false
+      },
+      {
+        "fixture_id": "564722",
+        "date": "2026-10-24",
+        "match": "Valencia – Villarreal",
+        "selection": "Villarreal: menos de 2,5 goles",
+        "won": true,
+        "accepted": false
+      },
+      {
+        "fixture_id": "565832",
+        "date": "2026-10-24",
+        "match": "RB Leipzig – Elversberg",
+        "selection": "RB Leipzig: menos de 3,5 goles",
+        "won": false,
+        "accepted": false
+      },
+      {
+        "fixture_id": "565834",
+        "date": "2026-10-24",
+        "match": "Paderborn – Hamburg",
+        "selection": "Hamburg +1,5",
+        "won": true,
+        "accepted": false
+      },
+      {
+        "fixture_id": "565836",
+        "date": "2026-10-25",
+        "match": "Freiburg – Bayern Munich",
+        "selection": "Cualquiera gana, sin empate",
+        "won": true,
+        "accepted": false
+      }
+    ]
+  },
+  "recency_gate_passed": true
+}

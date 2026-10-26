@@ -37,6 +37,7 @@ function pickView(c,level,compact=false){
  if(c.editorial_override)card.append(E('small','evidence-caption','Selección editorial · conserva la probabilidad conjunta del modelo.'));
  const ev=E('div','pick-evidence');ev.append(E('span','evidence-label','FORMA RECIENTE'),E('p',null,recentText(c)));
  if(!compact)ev.append(E('p','evidence-caption','Veces que se cumplió esta selección; hasta cinco partidos por equipo en su localía.'));
+ if(!compact&&c.evidence.contexts.every(v=>v.recent_matches))ev.append(E('p','evidence-caption','Últimos tres: '+c.evidence.contexts.map(v=>`${name(v.team)} ${v.recent_hits}/${v.recent_matches}`).join(' · ')));
  card.append(ev);
  card.append(priceBlock(c));
  return card;

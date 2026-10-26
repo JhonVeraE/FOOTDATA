@@ -44,6 +44,8 @@ Abrir http://127.0.0.1:8766. No abrir index.html directamente, porque los archiv
 
 ## Datos
 
+La versión `market-shortlist-v4-feedback` reentrena las predicciones con los resultados incorporados y usa las liquidaciones anteriores para ordenar mercados, sin alterar sus probabilidades. Conservadoras y combinadas requieren al menos dos cumplimientos en las tres observaciones más recientes de cada contexto. Dos fallos recientes de la misma selección de un equipo pueden impedir repetirla hasta recuperar respaldo. Los fallos aislados no producen una lista negra de clubes. La auditoría retrospectiva del filtro se conserva en `data/artifacts/recommendation_filter_audit.json`; el efecto prospectivo debe seguir midiéndose.
+
 - `data/predictions.json`: 1X2, marcadores, goles, estadísticas descriptivas, forma por ventanas, H2H, tendencias y procedencia. Lo actualiza `run_pipeline.py`.
 - `data/fijas.json`: propuestas por mercado, tres niveles de riesgo, frecuencias recientes y combinadas de tres/cuatro partidos. Se genera automáticamente junto a las predicciones; `python src/live_data/recommendations.py` actualiza solo esta sección sin reentrenar.
 - `data/assets.json`: relación explícita entre equipos, imágenes locales y sus URLs de origen.
