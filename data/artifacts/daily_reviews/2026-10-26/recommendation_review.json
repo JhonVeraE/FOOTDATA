@@ -1,0 +1,433 @@
+{
+  "date": "2026-10-26",
+  "reviewed_at": "2026-10-26T23:34:14.307727+00:00",
+  "frozen_shortlist_sha256": "f1cceb0d54af985c0e8d9f2dfb094789c9eadb9210b5b1dfcd42ce867e70b155",
+  "matches": [
+    {
+      "fixture_id": "564721",
+      "home": "Sevilla",
+      "away": "Osasuna",
+      "metrics": {
+        "goals": [
+          2,
+          0
+        ],
+        "shots": [
+          17,
+          10
+        ],
+        "sot": [
+          7,
+          2
+        ],
+        "fouls": [
+          11,
+          8
+        ],
+        "corners": [
+          7,
+          4
+        ],
+        "cards": [
+          1,
+          2
+        ]
+      },
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401882828/osasuna-sevilla"
+    },
+    {
+      "fixture_id": "559648",
+      "home": "Paris SG",
+      "away": "Lyon",
+      "metrics": {
+        "goals": [
+          2,
+          0
+        ],
+        "shots": [
+          17,
+          8
+        ],
+        "sot": [
+          10,
+          5
+        ],
+        "fouls": [
+          8,
+          14
+        ],
+        "corners": [
+          7,
+          4
+        ],
+        "cards": [
+          2,
+          1
+        ]
+      },
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401876422/lyon-paris-saint-germain"
+    }
+  ],
+  "tiers": [
+    {
+      "fixture_id": "564721",
+      "selection_id": "fouls:away:under:17.5:",
+      "match": "Sevilla – Osasuna",
+      "market": "Faltas",
+      "label": "Osasuna: menos de 17,5 faltas",
+      "probability": 0.8240175366744437,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "fouls",
+      "actual_home": 11,
+      "actual_away": 8,
+      "tier": "Conservadora"
+    },
+    {
+      "fixture_id": "564721",
+      "selection_id": "goals:total:over:1.5:",
+      "match": "Sevilla – Osasuna",
+      "market": "Goles",
+      "label": "Más de 1,5 goles",
+      "probability": 0.7503737148201338,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 0,
+      "tier": "Normal"
+    },
+    {
+      "fixture_id": "564721",
+      "selection_id": "btts:total:yes:None:",
+      "match": "Sevilla – Osasuna",
+      "market": "Ambos marcan",
+      "label": "Ambos marcan: sí",
+      "probability": 0.5336666491462161,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 0,
+      "tier": "Arriesgada"
+    },
+    {
+      "fixture_id": "559648",
+      "selection_id": "double_chance:total:12:None:",
+      "match": "Paris SG – Lyon",
+      "market": "Doble oportunidad",
+      "label": "Cualquiera gana, sin empate",
+      "probability": 0.7940903539941977,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 0,
+      "tier": "Conservadora"
+    },
+    {
+      "fixture_id": "559648",
+      "selection_id": "goals:away:under:1.5:",
+      "match": "Paris SG – Lyon",
+      "market": "Goles",
+      "label": "Lyon: menos de 1,5 goles",
+      "probability": 0.7059173569853325,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 0,
+      "tier": "Normal"
+    },
+    {
+      "fixture_id": "559648",
+      "selection_id": "btts:total:yes:None:",
+      "match": "Paris SG – Lyon",
+      "market": "Ambos marcan",
+      "label": "Ambos marcan: sí",
+      "probability": 0.5910096831039554,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 0,
+      "tier": "Arriesgada"
+    }
+  ],
+  "unique_selections": [
+    {
+      "fixture_id": "564721",
+      "selection_id": "double_chance:total:12:None:",
+      "match": "Sevilla – Osasuna",
+      "market": "Doble oportunidad",
+      "label": "Cualquiera gana, sin empate",
+      "probability": 0.7372932824776282,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 0
+    },
+    {
+      "fixture_id": "564721",
+      "selection_id": "goals:total:over:1.5:",
+      "match": "Sevilla – Osasuna",
+      "market": "Goles",
+      "label": "Más de 1,5 goles",
+      "probability": 0.7503737148201338,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 0
+    },
+    {
+      "fixture_id": "564721",
+      "selection_id": "btts:total:yes:None:",
+      "match": "Sevilla – Osasuna",
+      "market": "Ambos marcan",
+      "label": "Ambos marcan: sí",
+      "probability": 0.5336666491462161,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 0
+    },
+    {
+      "fixture_id": "564721",
+      "selection_id": "shots:total:over:18.5:",
+      "match": "Sevilla – Osasuna",
+      "market": "Remates",
+      "label": "Más de 18,5 remates totales",
+      "probability": 0.7397418221089207,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "shots",
+      "actual_home": 17,
+      "actual_away": 10
+    },
+    {
+      "fixture_id": "564721",
+      "selection_id": "sot:away:over:1.5:",
+      "match": "Sevilla – Osasuna",
+      "market": "Tiros al arco",
+      "label": "Osasuna: más de 1,5 tiros al arco",
+      "probability": 0.7614600600855886,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "sot",
+      "actual_home": 7,
+      "actual_away": 2
+    },
+    {
+      "fixture_id": "564721",
+      "selection_id": "fouls:total:under:30.5:",
+      "match": "Sevilla – Osasuna",
+      "market": "Faltas",
+      "label": "Menos de 30,5 faltas totales",
+      "probability": 0.7549015469780781,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "fouls",
+      "actual_home": 11,
+      "actual_away": 8
+    },
+    {
+      "fixture_id": "564721",
+      "selection_id": "corners:home:under:6.5:",
+      "match": "Sevilla – Osasuna",
+      "market": "Córners",
+      "label": "Sevilla: menos de 6,5 córners",
+      "probability": 0.7152949693635658,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "corners",
+      "actual_home": 7,
+      "actual_away": 4
+    },
+    {
+      "fixture_id": "564721",
+      "selection_id": "fouls:away:under:17.5:",
+      "match": "Sevilla – Osasuna",
+      "market": "Faltas",
+      "label": "Osasuna: menos de 17,5 faltas",
+      "probability": 0.8240175366744437,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "fouls",
+      "actual_home": 11,
+      "actual_away": 8
+    },
+    {
+      "fixture_id": "559648",
+      "selection_id": "double_chance:total:12:None:",
+      "match": "Paris SG – Lyon",
+      "market": "Doble oportunidad",
+      "label": "Cualquiera gana, sin empate",
+      "probability": 0.7940903539941977,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 0
+    },
+    {
+      "fixture_id": "559648",
+      "selection_id": "handicap:total:away:2.5:",
+      "match": "Paris SG – Lyon",
+      "market": "Hándicap de goles",
+      "label": "Lyon +2,5",
+      "probability": 0.7897174392432402,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 0
+    },
+    {
+      "fixture_id": "559648",
+      "selection_id": "goals:away:under:1.5:",
+      "match": "Paris SG – Lyon",
+      "market": "Goles",
+      "label": "Lyon: menos de 1,5 goles",
+      "probability": 0.7059173569853325,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 0
+    },
+    {
+      "fixture_id": "559648",
+      "selection_id": "btts:total:yes:None:",
+      "match": "Paris SG – Lyon",
+      "market": "Ambos marcan",
+      "label": "Ambos marcan: sí",
+      "probability": 0.5910096831039554,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 0
+    },
+    {
+      "fixture_id": "559648",
+      "selection_id": "shots:total:under:30.5:",
+      "match": "Paris SG – Lyon",
+      "market": "Remates",
+      "label": "Menos de 30,5 remates totales",
+      "probability": 0.7424210010742371,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "shots",
+      "actual_home": 17,
+      "actual_away": 8
+    },
+    {
+      "fixture_id": "559648",
+      "selection_id": "sot:home:over:4.5:",
+      "match": "Paris SG – Lyon",
+      "market": "Tiros al arco",
+      "label": "Paris SG: más de 4,5 tiros al arco",
+      "probability": 0.7722922132421326,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "sot",
+      "actual_home": 10,
+      "actual_away": 5
+    },
+    {
+      "fixture_id": "559648",
+      "selection_id": "fouls:away:over:8.5:",
+      "match": "Paris SG – Lyon",
+      "market": "Faltas",
+      "label": "Lyon: más de 8,5 faltas",
+      "probability": 0.7393515152551359,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "fouls",
+      "actual_home": 8,
+      "actual_away": 14
+    },
+    {
+      "fixture_id": "559648",
+      "selection_id": "corners:home:under:8.5:",
+      "match": "Paris SG – Lyon",
+      "market": "Córners",
+      "label": "Paris SG: menos de 8,5 córners",
+      "probability": 0.7218271730094636,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "corners",
+      "actual_home": 7,
+      "actual_away": 4
+    }
+  ],
+  "tier_summary": {
+    "selections": 6,
+    "settled": 6,
+    "won": 4,
+    "lost": 2,
+    "unverified": 0,
+    "hit_rate": 0.6666666666666666
+  },
+  "unique_summary": {
+    "selections": 16,
+    "settled": 16,
+    "won": 13,
+    "lost": 3,
+    "unverified": 0,
+    "hit_rate": 0.8125
+  },
+  "by_tier": {
+    "Conservadora": {
+      "selections": 2,
+      "settled": 2,
+      "won": 2,
+      "lost": 0,
+      "unverified": 0,
+      "hit_rate": 1.0
+    },
+    "Normal": {
+      "selections": 2,
+      "settled": 2,
+      "won": 2,
+      "lost": 0,
+      "unverified": 0,
+      "hit_rate": 1.0
+    },
+    "Arriesgada": {
+      "selections": 2,
+      "settled": 2,
+      "won": 0,
+      "lost": 2,
+      "unverified": 0,
+      "hit_rate": 0.0
+    }
+  },
+  "parlays": [
+    {
+      "size": 3,
+      "status": "unavailable",
+      "probability_before_match": null,
+      "legs": []
+    },
+    {
+      "size": 4,
+      "status": "unavailable",
+      "probability_before_match": null,
+      "legs": []
+    }
+  ],
+  "analysis": [
+    "Fijas principales: 4/6. Mercados únicos: 13/16. Se conservan las probabilidades previas y se registran los resultados, sin reajustar el modelo con esta jornada.",
+    "Conservadora: 2/2 acertadas.",
+    "Normal: 2/2 acertadas.",
+    "Arriesgada: 0/2 acertadas.",
+    "Falló Ambos marcan: sí en Sevilla – Osasuna: resultado final 2–0 (goals).",
+    "Falló Ambos marcan: sí en Paris SG – Lyon: resultado final 2–0 (goals).",
+    "0 partidos no tenían fijas principales publicadas; no se cuentan como fallos ni aciertos.",
+    "Paris SG – Lyon: trasladado del 2026-10-25 al 2026-10-26; se evalúan las selecciones publicadas para la fecha original, sin modificarlas."
+  ]
+}

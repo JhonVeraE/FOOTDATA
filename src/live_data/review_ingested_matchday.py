@@ -16,8 +16,9 @@ def main(capture_dir, date, output=None):
     records = [r for ingestion in ingestions for r in ingestion['matches']]
     deferred = [r for ingestion in ingestions for r in ingestion.get('deferred', [])]
     frozen = json.loads((capture / 'predictions_before_results.json').read_text(encoding='utf-8'))
-    forecasts = {str(m['fixture_id']): m for m in frozen['matches'] if m['fecha'] == date}
     record_ids = {r['fixture_id'] for r in records}
+    forecasts = {str(m['fixture_id']): m for m in frozen['matches']
+                 if m['fecha'] == date or str(m['fixture_id']) in record_ids}
     deferred_ids = {r['fixture_id'] for r in deferred}
     if (len(records) != len(record_ids) or len(deferred) != len(deferred_ids)
             or record_ids & deferred_ids or set(forecasts) != record_ids | deferred_ids):
@@ -55,7 +56,9 @@ def main(capture_dir, date, output=None):
                 'inside_interval': interval[0] <= total <= interval[1] if interval else None})
         rows.append({'fixture_id': r['fixture_id'], 'date': date, 'league': r['league'],
             'home': r['home'], 'away': r['away'], 'generated_at': m['generated_at'],
-            'kickoff_utc': m['kickoff_utc'], 'probabilities': p, 'actual_goals': goals,
+            'kickoff_utc': r['kickoff_utc'], 'forecast_original_date':m['fecha'],
+            'forecast_original_kickoff_utc':m['kickoff_utc'],
+            'schedule_change':r.get('schedule_change'), 'probabilities': p, 'actual_goals': goals,
             'actual_outcome': actual, 'predicted_outcome': predicted, 'hit_1x2': predicted == actual,
             'predicted_score': m['marcador_top1'][0], 'actual_score': f'{goals[0]}-{goals[1]}',
             'hit_exact': m['marcador_top1'][0] == f'{goals[0]}-{goals[1]}',

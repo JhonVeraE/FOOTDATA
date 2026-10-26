@@ -1,0 +1,40 @@
+{
+  "dates": [
+    "2026-10-26"
+  ],
+  "matches": [
+    {
+      "fixture_id": "564721",
+      "date": "2026-10-26",
+      "home": "Sevilla",
+      "away": "Osasuna",
+      "goals": [
+        2,
+        0
+      ],
+      "source_url": "https://www.soccerbase.com/matches/results.sd?date=2026-10-26"
+    },
+    {
+      "fixture_id": "559648",
+      "date": "2026-10-26",
+      "home": "Paris SG",
+      "away": "Lyon",
+      "goals": [
+        2,
+        0
+      ],
+      "source_url": "https://www.soccerbase.com/matches/results.sd?date=2026-10-26"
+    }
+  ],
+  "deferred": [],
+  "rescheduled": [
+    {
+      "fixture_id": "559648",
+      "original_date": "2026-10-25",
+      "original_kickoff_utc": "2026-10-25T19:45:00+00:00",
+      "new_date": "2026-10-26",
+      "new_kickoff_utc": "2026-10-26T19:30:00Z",
+      "source_url": "https://ligue1.com/fr/articles/l1_article_5994-"
+    }
+  ]
+}

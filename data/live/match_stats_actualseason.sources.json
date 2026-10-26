@@ -1,9 +1,9 @@
 {
   "season": "2026/27",
-  "as_of": "2026-10-24",
+  "as_of": "2026-10-26",
   "source": "Sofascore full-match ALL statistics for original rounds; ESPN final boxscores for subsequent updates, with independently checked scores.",
-  "matches": 370,
-  "rows": 740,
+  "matches": 372,
+  "rows": 744,
   "columns": [
     "match_id",
     "date",
@@ -4997,6 +4997,42 @@
       "provider": "ESPN",
       "statistics_endpoint": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/summary?event=401876427",
       "score_verification_url": "https://www.soccerbase.com/matches/results.sd?date=2026-10-24"
+    },
+    {
+      "match_id": "La Liga_2026/27_espn_401882828",
+      "fixture_id": "564721",
+      "espn_event_id": "401882828",
+      "date": "2026-10-26",
+      "league": "La Liga",
+      "round": 10,
+      "home": "Sevilla",
+      "away": "Osasuna",
+      "yellow_home": 1,
+      "yellow_away": 2,
+      "red_home": 0,
+      "red_away": 0,
+      "url": "https://www.espn.com/soccer/match/_/gameId/401882828/osasuna-sevilla",
+      "provider": "ESPN",
+      "statistics_endpoint": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/summary?event=401882828",
+      "score_verification_url": "https://www.soccerbase.com/matches/results.sd?date=2026-10-26"
+    },
+    {
+      "match_id": "Ligue 1_2026/27_espn_401876422",
+      "fixture_id": "559648",
+      "espn_event_id": "401876422",
+      "date": "2026-10-26",
+      "league": "Ligue 1",
+      "round": 8,
+      "home": "Paris SG",
+      "away": "Lyon",
+      "yellow_home": 2,
+      "yellow_away": 1,
+      "red_home": 0,
+      "red_away": 0,
+      "url": "https://www.espn.com/soccer/match/_/gameId/401876422/lyon-paris-saint-germain",
+      "provider": "ESPN",
+      "statistics_endpoint": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/summary?event=401876422",
+      "score_verification_url": "https://www.soccerbase.com/matches/results.sd?date=2026-10-26"
     }
   ],
   "leagues": [
@@ -5006,7 +5042,7 @@
     "Serie A",
     "Ligue 1"
   ],
-  "scope": "Finalised fixtures through 2026-10-24; source coverage recorded per match.",
+  "scope": "Finalised fixtures through 2026-10-26; source coverage recorded per match.",
   "coverage": [
     {
       "league": "Bundesliga",
@@ -5024,8 +5060,8 @@
     },
     {
       "league": "La Liga",
-      "matches": 94,
-      "rows": 188,
+      "matches": 95,
+      "rows": 190,
       "round_counts": {
         "1": 10,
         "2": 10,
@@ -5036,13 +5072,13 @@
         "7": 10,
         "8": 9,
         "9": 10,
-        "10": 5
+        "10": 6
       }
     },
     {
       "league": "Ligue 1",
-      "matches": 65,
-      "rows": 130,
+      "matches": 66,
+      "rows": 132,
       "round_counts": {
         "1": 9,
         "2": 9,
@@ -5051,7 +5087,7 @@
         "5": 9,
         "6": 9,
         "7": 9,
-        "8": 2
+        "8": 3
       }
     },
     {
@@ -5086,7 +5122,7 @@
     }
   ],
   "date_min": "2026-08-15",
-  "date_max": "2026-10-24",
+  "date_max": "2026-10-26",
   "team_match_counts": {
     "Alaves": 9,
     "Angers": 7,

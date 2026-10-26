@@ -59,7 +59,7 @@ def main(capture_dir,date,output=None):
     deferred={m['fixture_id']:m for m in review.get('deferred',[])}
     if pd.Timestamp(frozen['generated_at'])>=min(pd.Timestamp(x['kickoff_utc']) for x in actual.values()):raise ValueError('Shortlist is not pre-match')
     for m in frozen['matches']:
-        if m['date_lima']!=date:continue
+        if m['date_lima']!=date and m['fixture_id'] not in actual:continue
         fid=m['fixture_id']
         if fid not in actual and fid not in deferred:raise ValueError('Missing final data without documented postponement')
         a=actual.get(fid)
@@ -96,6 +96,7 @@ def main(capture_dir,date,output=None):
         no_picks=len(matches)-len({x['fixture_id'] for x in tier_rows if x['fixture_id'] in actual})
         result['analysis'].append(f'{no_picks} partidos no tenían fijas principales publicadas; no se cuentan como fallos ni aciertos.')
         result['analysis'].extend(f"Pendiente: {m['home']} – {m['away']}. {m['reason']} No se cuenta como acierto ni fallo." for m in deferred.values())
+        result['analysis'].extend(f"{m['home']} – {m['away']}: trasladado del {m['forecast_original_date']} al {date}; se evalúan las selecciones publicadas para la fecha original, sin modificarlas." for m in actual.values() if m.get('schedule_change'))
         for p in parlays:
             if p['status']!='unavailable':result['analysis'].append(f"Combinada de {p['size']}: {sum(x['status']=='won' for x in p['legs'])}/{len(p['legs'])} selecciones cumplidas.")
     for level,counts in result['by_tier'].items():

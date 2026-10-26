@@ -1,6 +1,6 @@
 {
   "season": "2026/27",
-  "updated_at": "2026-10-24T23:20:52.097863+00:00",
+  "updated_at": "2026-10-26T23:34:17.905773+00:00",
   "source": "football-data.org",
   "source_url": "https://api.football-data.org/v4/competitions/PD/standings",
   "tables": {
@@ -8,14 +8,14 @@
       {
         "team": "Barcelona",
         "position": 1,
-        "played": 9,
+        "played": 10,
         "won": 9,
         "draw": 0,
-        "lost": 0,
+        "lost": 1,
         "points": 27,
-        "goals_for": 39,
-        "goals_against": 9,
-        "goal_difference": 30
+        "goals_for": 40,
+        "goals_against": 11,
+        "goal_difference": 29
       },
       {
         "team": "Ath Madrid",
@@ -32,23 +32,23 @@
       {
         "team": "Real Madrid",
         "position": 3,
-        "played": 9,
-        "won": 7,
+        "played": 10,
+        "won": 8,
         "draw": 0,
         "lost": 2,
-        "points": 21,
-        "goals_for": 23,
-        "goals_against": 9,
-        "goal_difference": 14
+        "points": 24,
+        "goals_for": 25,
+        "goals_against": 10,
+        "goal_difference": 15
       },
       {
         "team": "Betis",
         "position": 4,
-        "played": 9,
+        "played": 10,
         "won": 6,
-        "draw": 1,
+        "draw": 2,
         "lost": 2,
-        "points": 19,
+        "points": 20,
         "goals_for": 16,
         "goals_against": 14,
         "goal_difference": 2
@@ -56,26 +56,26 @@
       {
         "team": "Sociedad",
         "position": 5,
-        "played": 9,
-        "won": 5,
+        "played": 10,
+        "won": 6,
         "draw": 1,
         "lost": 3,
-        "points": 16,
-        "goals_for": 17,
-        "goals_against": 17,
-        "goal_difference": 0
+        "points": 19,
+        "goals_for": 19,
+        "goals_against": 18,
+        "goal_difference": 1
       },
       {
         "team": "Sevilla",
         "position": 6,
-        "played": 9,
-        "won": 4,
+        "played": 10,
+        "won": 5,
         "draw": 2,
         "lost": 3,
-        "points": 14,
-        "goals_for": 14,
+        "points": 17,
+        "goals_for": 16,
         "goals_against": 16,
-        "goal_difference": -2
+        "goal_difference": 0
       },
       {
         "team": "Alaves",
@@ -90,8 +90,32 @@
         "goal_difference": 3
       },
       {
-        "team": "Villarreal",
+        "team": "Ath Bilbao",
         "position": 8,
+        "played": 9,
+        "won": 3,
+        "draw": 3,
+        "lost": 3,
+        "points": 12,
+        "goals_for": 12,
+        "goals_against": 9,
+        "goal_difference": 3
+      },
+      {
+        "team": "Celta",
+        "position": 9,
+        "played": 10,
+        "won": 2,
+        "draw": 6,
+        "lost": 2,
+        "points": 12,
+        "goals_for": 10,
+        "goals_against": 7,
+        "goal_difference": 3
+      },
+      {
+        "team": "Villarreal",
+        "position": 10,
         "played": 10,
         "won": 3,
         "draw": 3,
@@ -102,20 +126,8 @@
         "goal_difference": 1
       },
       {
-        "team": "Celta",
-        "position": 9,
-        "played": 9,
-        "won": 2,
-        "draw": 5,
-        "lost": 2,
-        "points": 11,
-        "goals_for": 10,
-        "goals_against": 7,
-        "goal_difference": 3
-      },
-      {
         "team": "La Coruna",
-        "position": 10,
+        "position": 11,
         "played": 10,
         "won": 2,
         "draw": 5,
@@ -127,19 +139,19 @@
       },
       {
         "team": "Osasuna",
-        "position": 11,
-        "played": 9,
+        "position": 12,
+        "played": 10,
         "won": 3,
         "draw": 2,
-        "lost": 4,
+        "lost": 5,
         "points": 11,
         "goals_for": 10,
-        "goals_against": 18,
-        "goal_difference": -8
+        "goals_against": 20,
+        "goal_difference": -10
       },
       {
         "team": "Santander",
-        "position": 12,
+        "position": 13,
         "played": 10,
         "won": 3,
         "draw": 2,
@@ -151,19 +163,19 @@
       },
       {
         "team": "Levante",
-        "position": 13,
-        "played": 9,
+        "position": 14,
+        "played": 10,
         "won": 2,
         "draw": 4,
-        "lost": 3,
+        "lost": 4,
         "points": 10,
-        "goals_for": 15,
-        "goals_against": 17,
-        "goal_difference": -2
+        "goals_for": 16,
+        "goals_against": 19,
+        "goal_difference": -3
       },
       {
         "team": "Elche",
-        "position": 14,
+        "position": 15,
         "played": 10,
         "won": 2,
         "draw": 4,
@@ -174,32 +186,8 @@
         "goal_difference": -3
       },
       {
-        "team": "Ath Bilbao",
-        "position": 15,
-        "played": 8,
-        "won": 2,
-        "draw": 3,
-        "lost": 3,
-        "points": 9,
-        "goals_for": 8,
-        "goals_against": 9,
-        "goal_difference": -1
-      },
-      {
-        "team": "Getafe",
-        "position": 16,
-        "played": 9,
-        "won": 2,
-        "draw": 3,
-        "lost": 4,
-        "points": 9,
-        "goals_for": 5,
-        "goals_against": 11,
-        "goal_difference": -6
-      },
-      {
         "team": "Vallecano",
-        "position": 17,
+        "position": 16,
         "played": 9,
         "won": 2,
         "draw": 3,
@@ -208,6 +196,18 @@
         "goals_for": 12,
         "goals_against": 20,
         "goal_difference": -8
+      },
+      {
+        "team": "Getafe",
+        "position": 17,
+        "played": 10,
+        "won": 2,
+        "draw": 3,
+        "lost": 5,
+        "points": 9,
+        "goals_for": 5,
+        "goals_against": 15,
+        "goal_difference": -10
       },
       {
         "team": "Espanol",
@@ -274,14 +274,14 @@
       {
         "team": "Barcelona",
         "position": 3,
-        "played": 4,
+        "played": 5,
         "won": 4,
         "draw": 0,
-        "lost": 0,
+        "lost": 1,
         "points": 12,
-        "goals_for": 17,
-        "goals_against": 4,
-        "goal_difference": 13
+        "goals_for": 18,
+        "goals_against": 6,
+        "goal_difference": 12
       },
       {
         "team": "Betis",
@@ -320,8 +320,20 @@
         "goal_difference": 5
       },
       {
-        "team": "Getafe",
+        "team": "Sociedad",
         "position": 7,
+        "played": 5,
+        "won": 3,
+        "draw": 1,
+        "lost": 1,
+        "points": 10,
+        "goals_for": 7,
+        "goals_against": 7,
+        "goal_difference": 0
+      },
+      {
+        "team": "Getafe",
+        "position": 8,
         "played": 5,
         "won": 2,
         "draw": 3,
@@ -332,8 +344,44 @@
         "goal_difference": 2
       },
       {
+        "team": "Sevilla",
+        "position": 9,
+        "played": 5,
+        "won": 3,
+        "draw": 0,
+        "lost": 2,
+        "points": 9,
+        "goals_for": 7,
+        "goals_against": 7,
+        "goal_difference": 0
+      },
+      {
+        "team": "Ath Bilbao",
+        "position": 10,
+        "played": 5,
+        "won": 2,
+        "draw": 2,
+        "lost": 1,
+        "points": 8,
+        "goals_for": 9,
+        "goals_against": 4,
+        "goal_difference": 5
+      },
+      {
+        "team": "Celta",
+        "position": 11,
+        "played": 6,
+        "won": 2,
+        "draw": 2,
+        "lost": 2,
+        "points": 8,
+        "goals_for": 9,
+        "goals_against": 6,
+        "goal_difference": 3
+      },
+      {
         "team": "Osasuna",
-        "position": 8,
+        "position": 12,
         "played": 5,
         "won": 2,
         "draw": 2,
@@ -345,7 +393,7 @@
       },
       {
         "team": "Levante",
-        "position": 9,
+        "position": 13,
         "played": 4,
         "won": 2,
         "draw": 1,
@@ -356,20 +404,8 @@
         "goal_difference": 3
       },
       {
-        "team": "Celta",
-        "position": 10,
-        "played": 5,
-        "won": 2,
-        "draw": 1,
-        "lost": 2,
-        "points": 7,
-        "goals_for": 9,
-        "goals_against": 6,
-        "goal_difference": 3
-      },
-      {
         "team": "Vallecano",
-        "position": 11,
+        "position": 14,
         "played": 4,
         "won": 2,
         "draw": 1,
@@ -380,20 +416,8 @@
         "goal_difference": -1
       },
       {
-        "team": "Sociedad",
-        "position": 12,
-        "played": 4,
-        "won": 2,
-        "draw": 1,
-        "lost": 1,
-        "points": 7,
-        "goals_for": 5,
-        "goals_against": 6,
-        "goal_difference": -1
-      },
-      {
         "team": "La Coruna",
-        "position": 13,
+        "position": 15,
         "played": 5,
         "won": 1,
         "draw": 3,
@@ -401,30 +425,6 @@
         "points": 6,
         "goals_for": 6,
         "goals_against": 5,
-        "goal_difference": 1
-      },
-      {
-        "team": "Sevilla",
-        "position": 14,
-        "played": 4,
-        "won": 2,
-        "draw": 0,
-        "lost": 2,
-        "points": 6,
-        "goals_for": 5,
-        "goals_against": 7,
-        "goal_difference": -2
-      },
-      {
-        "team": "Ath Bilbao",
-        "position": 15,
-        "played": 4,
-        "won": 1,
-        "draw": 2,
-        "lost": 1,
-        "points": 5,
-        "goals_for": 5,
-        "goals_against": 4,
         "goal_difference": 1
       },
       {
@@ -538,8 +538,20 @@
         "goal_difference": 1
       },
       {
-        "team": "Villarreal",
+        "team": "Real Madrid",
         "position": 5,
+        "played": 5,
+        "won": 3,
+        "draw": 0,
+        "lost": 2,
+        "points": 9,
+        "goals_for": 8,
+        "goals_against": 7,
+        "goal_difference": 1
+      },
+      {
+        "team": "Villarreal",
+        "position": 6,
         "played": 6,
         "won": 2,
         "draw": 2,
@@ -551,7 +563,7 @@
       },
       {
         "team": "Sevilla",
-        "position": 6,
+        "position": 7,
         "played": 5,
         "won": 2,
         "draw": 2,
@@ -563,27 +575,15 @@
       },
       {
         "team": "Betis",
-        "position": 7,
-        "played": 4,
+        "position": 8,
+        "played": 5,
         "won": 2,
-        "draw": 1,
+        "draw": 2,
         "lost": 1,
-        "points": 7,
+        "points": 8,
         "goals_for": 6,
         "goals_against": 7,
         "goal_difference": -1
-      },
-      {
-        "team": "Real Madrid",
-        "position": 8,
-        "played": 4,
-        "won": 2,
-        "draw": 0,
-        "lost": 2,
-        "points": 6,
-        "goals_for": 6,
-        "goals_against": 6,
-        "goal_difference": 0
       },
       {
         "team": "La Coruna",
@@ -648,26 +648,26 @@
       {
         "team": "Levante",
         "position": 14,
-        "played": 5,
+        "played": 6,
         "won": 0,
         "draw": 3,
-        "lost": 2,
+        "lost": 3,
         "points": 3,
-        "goals_for": 2,
-        "goals_against": 7,
-        "goal_difference": -5
+        "goals_for": 3,
+        "goals_against": 9,
+        "goal_difference": -6
       },
       {
         "team": "Osasuna",
         "position": 15,
-        "played": 4,
+        "played": 5,
         "won": 1,
         "draw": 0,
-        "lost": 3,
+        "lost": 4,
         "points": 3,
         "goals_for": 6,
-        "goals_against": 15,
-        "goal_difference": -9
+        "goals_against": 17,
+        "goal_difference": -11
       },
       {
         "team": "Alaves",
@@ -708,14 +708,14 @@
       {
         "team": "Getafe",
         "position": 19,
-        "played": 4,
+        "played": 5,
         "won": 0,
         "draw": 0,
-        "lost": 4,
+        "lost": 5,
         "points": 0,
         "goals_for": 0,
-        "goals_against": 8,
-        "goal_difference": -8
+        "goals_against": 12,
+        "goal_difference": -12
       },
       {
         "team": "Santander",

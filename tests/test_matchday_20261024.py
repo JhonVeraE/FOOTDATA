@@ -20,12 +20,12 @@ class OctoberRangeTests(unittest.TestCase):
     def test_ingestion_rerun_is_idempotent_without_changing_forecasts(self):
         names=['match_stats_actualseason.csv','match_stats_actualseason.sources.json','matches_footballdata.csv']
         before={n:(ROOT/'data/live'/n).read_bytes() for n in names}
+        forecasts={n:(ROOT/f'web/data/{n}.json').read_bytes() for n in ['predictions','fijas']}
         result=main(ROOT/'data/artifacts/review_20261022_24',apply=False)
         self.assertEqual(result['new_rows'],0)
         for n,contents in before.items():self.assertEqual((ROOT/'data/live'/n).read_bytes(),contents)
         for name in ['predictions','fijas']:
-            self.assertEqual((ROOT/f'web/data/{name}.json').read_bytes(),
-                (ROOT/f'data/artifacts/review_20261022_24/{name}_before_results.json').read_bytes())
+            self.assertEqual((ROOT/f'web/data/{name}.json').read_bytes(),forecasts[name])
     def test_postponed_fixture_has_no_fake_final(self):
         calendar=pd.read_csv(ROOT/'data/live/matches_footballdata.csv')
         row=calendar[calendar.match_id==559655].iloc[0]

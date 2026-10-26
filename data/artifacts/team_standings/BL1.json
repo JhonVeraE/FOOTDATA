@@ -1,13 +1,25 @@
 {
   "season": "2026/27",
-  "updated_at": "2026-10-24T23:20:55.519232+00:00",
+  "updated_at": "2026-10-26T23:34:20.228384+00:00",
   "source": "football-data.org",
   "source_url": "https://api.football-data.org/v4/competitions/BL1/standings",
   "tables": {
     "all": [
       {
-        "team": "Dortmund",
+        "team": "Bayern Munich",
         "position": 1,
+        "played": 7,
+        "won": 5,
+        "draw": 2,
+        "lost": 0,
+        "points": 17,
+        "goals_for": 25,
+        "goals_against": 6,
+        "goal_difference": 19
+      },
+      {
+        "team": "Dortmund",
+        "position": 2,
         "played": 7,
         "won": 5,
         "draw": 2,
@@ -18,40 +30,28 @@
         "goal_difference": 8
       },
       {
-        "team": "Bayern Munich",
-        "position": 2,
-        "played": 6,
-        "won": 4,
-        "draw": 2,
-        "lost": 0,
-        "points": 14,
-        "goals_for": 22,
-        "goals_against": 5,
-        "goal_difference": 17
-      },
-      {
         "team": "Freiburg",
         "position": 3,
-        "played": 6,
+        "played": 7,
         "won": 4,
         "draw": 1,
-        "lost": 1,
-        "points": 13,
-        "goals_for": 15,
-        "goals_against": 6,
-        "goal_difference": 9
-      },
-      {
-        "team": "Leverkusen",
-        "position": 4,
-        "played": 6,
-        "won": 4,
-        "draw": 1,
-        "lost": 1,
+        "lost": 2,
         "points": 13,
         "goals_for": 16,
         "goals_against": 9,
         "goal_difference": 7
+      },
+      {
+        "team": "Leverkusen",
+        "position": 4,
+        "played": 7,
+        "won": 4,
+        "draw": 1,
+        "lost": 2,
+        "points": 13,
+        "goals_for": 16,
+        "goals_against": 12,
+        "goal_difference": 4
       },
       {
         "team": "RB Leipzig",
@@ -114,8 +114,20 @@
         "goal_difference": 4
       },
       {
-        "team": "Hamburg",
+        "team": "Hoffenheim",
         "position": 10,
+        "played": 7,
+        "won": 3,
+        "draw": 0,
+        "lost": 4,
+        "points": 9,
+        "goals_for": 14,
+        "goals_against": 14,
+        "goal_difference": 0
+      },
+      {
+        "team": "Hamburg",
+        "position": 11,
         "played": 7,
         "won": 3,
         "draw": 0,
@@ -127,7 +139,7 @@
       },
       {
         "team": "FC Koln",
-        "position": 11,
+        "position": 12,
         "played": 7,
         "won": 2,
         "draw": 2,
@@ -139,7 +151,7 @@
       },
       {
         "team": "Paderborn",
-        "position": 12,
+        "position": 13,
         "played": 7,
         "won": 2,
         "draw": 2,
@@ -151,7 +163,7 @@
       },
       {
         "team": "Frankfurt",
-        "position": 13,
+        "position": 14,
         "played": 7,
         "won": 2,
         "draw": 2,
@@ -160,18 +172,6 @@
         "goals_for": 10,
         "goals_against": 17,
         "goal_difference": -7
-      },
-      {
-        "team": "Hoffenheim",
-        "position": 14,
-        "played": 6,
-        "won": 2,
-        "draw": 0,
-        "lost": 4,
-        "points": 6,
-        "goals_for": 11,
-        "goals_against": 14,
-        "goal_difference": -3
       },
       {
         "team": "Stuttgart",
@@ -262,14 +262,14 @@
       {
         "team": "Freiburg",
         "position": 4,
-        "played": 3,
+        "played": 4,
         "won": 3,
         "draw": 0,
-        "lost": 0,
+        "lost": 1,
         "points": 9,
-        "goals_for": 11,
-        "goals_against": 2,
-        "goal_difference": 9
+        "goals_for": 12,
+        "goals_against": 5,
+        "goal_difference": 7
       },
       {
         "team": "Leverkusen",
@@ -320,8 +320,20 @@
         "goal_difference": 3
       },
       {
-        "team": "Elversberg",
+        "team": "Hoffenheim",
         "position": 9,
+        "played": 4,
+        "won": 2,
+        "draw": 0,
+        "lost": 2,
+        "points": 6,
+        "goals_for": 9,
+        "goals_against": 7,
+        "goal_difference": 2
+      },
+      {
+        "team": "Elversberg",
+        "position": 10,
         "played": 3,
         "won": 2,
         "draw": 0,
@@ -333,7 +345,7 @@
       },
       {
         "team": "Paderborn",
-        "position": 10,
+        "position": 11,
         "played": 4,
         "won": 2,
         "draw": 0,
@@ -345,7 +357,7 @@
       },
       {
         "team": "Hamburg",
-        "position": 11,
+        "position": 12,
         "played": 3,
         "won": 2,
         "draw": 0,
@@ -357,7 +369,7 @@
       },
       {
         "team": "Union Berlin",
-        "position": 12,
+        "position": 13,
         "played": 4,
         "won": 1,
         "draw": 2,
@@ -369,7 +381,7 @@
       },
       {
         "team": "Frankfurt",
-        "position": 13,
+        "position": 14,
         "played": 3,
         "won": 1,
         "draw": 1,
@@ -381,7 +393,7 @@
       },
       {
         "team": "Stuttgart",
-        "position": 14,
+        "position": 15,
         "played": 3,
         "won": 1,
         "draw": 0,
@@ -390,18 +402,6 @@
         "goals_for": 6,
         "goals_against": 5,
         "goal_difference": 1
-      },
-      {
-        "team": "Hoffenheim",
-        "position": 15,
-        "played": 3,
-        "won": 1,
-        "draw": 0,
-        "lost": 2,
-        "points": 3,
-        "goals_for": 6,
-        "goals_against": 7,
-        "goal_difference": -1
       },
       {
         "team": "Schalke 04",
@@ -454,8 +454,20 @@
         "goal_difference": 7
       },
       {
-        "team": "Dortmund",
+        "team": "Bayern Munich",
         "position": 2,
+        "played": 4,
+        "won": 2,
+        "draw": 2,
+        "lost": 0,
+        "points": 8,
+        "goals_for": 7,
+        "goals_against": 4,
+        "goal_difference": 3
+      },
+      {
+        "team": "Dortmund",
+        "position": 3,
         "played": 3,
         "won": 2,
         "draw": 1,
@@ -464,18 +476,6 @@
         "goals_for": 4,
         "goals_against": 2,
         "goal_difference": 2
-      },
-      {
-        "team": "Bayern Munich",
-        "position": 3,
-        "played": 3,
-        "won": 1,
-        "draw": 2,
-        "lost": 0,
-        "points": 5,
-        "goals_for": 4,
-        "goals_against": 3,
-        "goal_difference": 1
       },
       {
         "team": "Werder Bremen",
@@ -490,20 +490,8 @@
         "goal_difference": -2
       },
       {
-        "team": "Leverkusen",
-        "position": 5,
-        "played": 3,
-        "won": 1,
-        "draw": 1,
-        "lost": 1,
-        "points": 4,
-        "goals_for": 8,
-        "goals_against": 8,
-        "goal_difference": 0
-      },
-      {
         "team": "Freiburg",
-        "position": 6,
+        "position": 5,
         "played": 3,
         "won": 1,
         "draw": 1,
@@ -515,7 +503,7 @@
       },
       {
         "team": "Schalke 04",
-        "position": 7,
+        "position": 6,
         "played": 4,
         "won": 1,
         "draw": 1,
@@ -524,6 +512,18 @@
         "goals_for": 4,
         "goals_against": 6,
         "goal_difference": -2
+      },
+      {
+        "team": "Leverkusen",
+        "position": 7,
+        "played": 4,
+        "won": 1,
+        "draw": 1,
+        "lost": 2,
+        "points": 4,
+        "goals_for": 8,
+        "goals_against": 11,
+        "goal_difference": -3
       },
       {
         "team": "Elversberg",

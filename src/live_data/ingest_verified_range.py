@@ -43,7 +43,17 @@ def main(capture_dir, apply=False):
               if m['fecha'] in verification['dates'] and m['competition'] in LEAGUES.values()}
     if len(expected)!=sum(m['fecha'] in verification['dates'] and m['competition'] in LEAGUES.values()
                           for m in frozen['matches']):raise ValueError('Duplicate forecasts')
-    pairs={(m['fecha'],m['competition'],m['local'],m['visitante']):fid for fid,m in expected.items()}
+    rescheduled={str(x['fixture_id']):x for x in verification.get('rescheduled',[])}
+    all_forecasts={str(m['fixture_id']):m for m in frozen['matches']}
+    for fid,change in rescheduled.items():
+        m=all_forecasts[fid]
+        if (change['new_date'] not in verification['dates'] or not change.get('source_url')
+                or change['original_date']!=m['fecha']
+                or pd.Timestamp(change['original_kickoff_utc'])!=pd.Timestamp(m['kickoff_utc'])):
+            raise ValueError('Invalid documented schedule change')
+        expected[fid]=m
+    pairs={(rescheduled[fid]['new_date'] if fid in rescheduled else m['fecha'],
+            m['competition'],m['local'],m['visitante']):fid for fid,m in expected.items()}
     deferred={str(x['fixture_id']):x for x in verification['deferred']}
     verified={str(x['fixture_id']):x for x in verification['matches']}
     if set(expected)!=set(verified)|set(deferred) or set(verified)&set(deferred):
@@ -61,7 +71,8 @@ def main(capture_dir, apply=False):
                 fid=pairs[key];m=expected[fid]
                 if fid in seen:raise ValueError('Duplicate event')
                 seen.add(fid)
-                if pd.Timestamp(rec['kickoff_utc'])!=pd.Timestamp(m['kickoff_utc']):
+                expected_kickoff=rescheduled[fid]['new_kickoff_utc'] if fid in rescheduled else m['kickoff_utc']
+                if pd.Timestamp(rec['kickoff_utc'])!=pd.Timestamp(expected_kickoff):
                     raise ValueError('Conflicting kickoff')
                 v=verified[fid]
                 if (v['home'],v['away'])!=(rec['home'],rec['away']) or not v['source_url']:
@@ -72,6 +83,7 @@ def main(capture_dir, apply=False):
                 mid=f"{league}_2026/27_espn_{rec['espn_event_id']}"
                 rec.update(match_id=mid,fixture_id=fid,date=date,round=m['jornada'],league=league,
                     score_verification=v)
+                if fid in rescheduled:rec['schedule_change']=rescheduled[fid]
                 for side in [0,1]:
                     row={'match_id':mid,'date':date,'league':league,'is_home':side==0,
                          'team':key[2+side],'opponent':key[3-side]}
@@ -122,6 +134,8 @@ def main(capture_dir, apply=False):
         mask=calendar.match_id.astype(str).eq(r['fixture_id'])
         if mask.sum()!=1:raise ValueError('Missing calendar event')
         calendar.loc[mask,['status','home_score','away_score']]=['FINISHED',*r['metrics']['goals']]
+        stamp=pd.Timestamp(r['kickoff_utc'])
+        calendar.loc[mask,['date','kickoff_time_utc']]=[str(stamp.date()),stamp.strftime('%H:%M')]
     for fid,d in deferred.items():
         mask=calendar.match_id.astype(str).eq(fid)
         if mask.sum()!=1:raise ValueError('Missing deferred calendar event')
