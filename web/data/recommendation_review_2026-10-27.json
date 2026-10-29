@@ -1,0 +1,706 @@
+{
+  "date": "2026-10-27",
+  "reviewed_at": "2026-10-29T21:35:39.440121+00:00",
+  "frozen_shortlist_sha256": "14c8575484c8d1e43a0afac8da962c6e4acbdc0b177ccbdde427309835ecd0eb",
+  "matches": [
+    {
+      "fixture_id": "558556",
+      "home": "Sassuolo",
+      "away": "Lazio",
+      "metrics": {
+        "goals": [
+          2,
+          6
+        ],
+        "shots": [
+          9,
+          16
+        ],
+        "sot": [
+          1,
+          8
+        ],
+        "fouls": [
+          7,
+          13
+        ],
+        "corners": [
+          2,
+          1
+        ],
+        "cards": [
+          2,
+          1
+        ]
+      },
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401874980/lazio-sassuolo"
+    },
+    {
+      "fixture_id": "558555",
+      "home": "Roma",
+      "away": "Cagliari",
+      "metrics": {
+        "goals": [
+          4,
+          2
+        ],
+        "shots": [
+          20,
+          19
+        ],
+        "sot": [
+          8,
+          8
+        ],
+        "fouls": [
+          8,
+          8
+        ],
+        "corners": [
+          7,
+          8
+        ],
+        "cards": [
+          0,
+          1
+        ]
+      },
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401874780/cagliari-as-roma"
+    },
+    {
+      "fixture_id": "558557",
+      "home": "Torino",
+      "away": "Como",
+      "metrics": {
+        "goals": [
+          1,
+          3
+        ],
+        "shots": [
+          11,
+          18
+        ],
+        "sot": [
+          5,
+          5
+        ],
+        "fouls": [
+          10,
+          3
+        ],
+        "corners": [
+          5,
+          6
+        ],
+        "cards": [
+          1,
+          0
+        ]
+      },
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401874786/como-torino"
+    }
+  ],
+  "tiers": [
+    {
+      "fixture_id": "558556",
+      "selection_id": "goals:away:under:2.5:",
+      "match": "Sassuolo – Lazio",
+      "market": "Goles",
+      "label": "Lazio: menos de 2,5 goles",
+      "probability": 0.7965769762582163,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 6,
+      "tier": "Conservadora"
+    },
+    {
+      "fixture_id": "558556",
+      "selection_id": "handicap:total:home:1.5:",
+      "match": "Sassuolo – Lazio",
+      "market": "Hándicap de goles",
+      "label": "Sassuolo +1,5",
+      "probability": 0.7608507244240055,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 6,
+      "tier": "Normal"
+    },
+    {
+      "fixture_id": "558556",
+      "selection_id": "shots:total:over:22.5:",
+      "match": "Sassuolo – Lazio",
+      "market": "Remates",
+      "label": "Más de 22,5 remates totales",
+      "probability": 0.5964827666404906,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "shots",
+      "actual_home": 9,
+      "actual_away": 16,
+      "tier": "Arriesgada"
+    },
+    {
+      "fixture_id": "558555",
+      "selection_id": "handicap:total:away:2.5:",
+      "match": "Roma – Cagliari",
+      "market": "Hándicap de goles",
+      "label": "Cagliari +2,5",
+      "probability": 0.8017422630561308,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 4,
+      "actual_away": 2,
+      "tier": "Conservadora"
+    },
+    {
+      "fixture_id": "558555",
+      "selection_id": "goals:home:under:2.5:",
+      "match": "Roma – Cagliari",
+      "market": "Goles",
+      "label": "Roma: menos de 2,5 goles",
+      "probability": 0.6995389350762706,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "goals",
+      "actual_home": 4,
+      "actual_away": 2,
+      "tier": "Normal"
+    },
+    {
+      "fixture_id": "558555",
+      "selection_id": "btts:total:no:None:",
+      "match": "Roma – Cagliari",
+      "market": "Ambos marcan",
+      "label": "Ambos marcan: no",
+      "probability": 0.561680690088405,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "goals",
+      "actual_home": 4,
+      "actual_away": 2,
+      "tier": "Arriesgada"
+    },
+    {
+      "fixture_id": "558557",
+      "selection_id": "fouls:away:under:14.5:",
+      "match": "Torino – Como",
+      "market": "Faltas",
+      "label": "Como: menos de 14,5 faltas",
+      "probability": 0.8144777509349509,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "fouls",
+      "actual_home": 10,
+      "actual_away": 3,
+      "tier": "Conservadora"
+    },
+    {
+      "fixture_id": "558557",
+      "selection_id": "handicap:total:home:1.5:",
+      "match": "Torino – Como",
+      "market": "Hándicap de goles",
+      "label": "Torino +1,5",
+      "probability": 0.7006837165231297,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "goals",
+      "actual_home": 1,
+      "actual_away": 3,
+      "tier": "Normal"
+    },
+    {
+      "fixture_id": "558557",
+      "selection_id": "result_goals:total:X2:1.5:over",
+      "match": "Torino – Como",
+      "market": "Resultado y goles",
+      "label": "Como o empate y más de 1,5 goles",
+      "probability": 0.5998071556657611,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 1,
+      "actual_away": 3,
+      "tier": "Arriesgada"
+    }
+  ],
+  "unique_selections": [
+    {
+      "fixture_id": "558556",
+      "selection_id": "double_chance:total:12:None:",
+      "match": "Sassuolo – Lazio",
+      "market": "Doble oportunidad",
+      "label": "Cualquiera gana, sin empate",
+      "probability": 0.735634495193771,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 6
+    },
+    {
+      "fixture_id": "558556",
+      "selection_id": "handicap:total:home:1.5:",
+      "match": "Sassuolo – Lazio",
+      "market": "Hándicap de goles",
+      "label": "Sassuolo +1,5",
+      "probability": 0.7608507244240055,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 6
+    },
+    {
+      "fixture_id": "558556",
+      "selection_id": "goals:total:under:3.5:",
+      "match": "Sassuolo – Lazio",
+      "market": "Goles",
+      "label": "Menos de 3,5 goles",
+      "probability": 0.7192669708957605,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 6
+    },
+    {
+      "fixture_id": "558556",
+      "selection_id": "shots:away:over:9.5:",
+      "match": "Sassuolo – Lazio",
+      "market": "Remates",
+      "label": "Lazio: más de 9,5 remates",
+      "probability": 0.7029900694799667,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "shots",
+      "actual_home": 9,
+      "actual_away": 16
+    },
+    {
+      "fixture_id": "558556",
+      "selection_id": "sot:total:over:6.5:",
+      "match": "Sassuolo – Lazio",
+      "market": "Tiros al arco",
+      "label": "Más de 6,5 tiros al arco totales",
+      "probability": 0.7005304045619752,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "sot",
+      "actual_home": 1,
+      "actual_away": 8
+    },
+    {
+      "fixture_id": "558556",
+      "selection_id": "fouls:away:under:13.5:",
+      "match": "Sassuolo – Lazio",
+      "market": "Faltas",
+      "label": "Lazio: menos de 13,5 faltas",
+      "probability": 0.7488336504478754,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "fouls",
+      "actual_home": 7,
+      "actual_away": 13
+    },
+    {
+      "fixture_id": "558556",
+      "selection_id": "corners:total:under:11.5:",
+      "match": "Sassuolo – Lazio",
+      "market": "Córners",
+      "label": "Menos de 11,5 córners",
+      "probability": 0.7155877024848969,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "corners",
+      "actual_home": 2,
+      "actual_away": 1
+    },
+    {
+      "fixture_id": "558556",
+      "selection_id": "goals:away:under:2.5:",
+      "match": "Sassuolo – Lazio",
+      "market": "Goles",
+      "label": "Lazio: menos de 2,5 goles",
+      "probability": 0.7965769762582163,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 6
+    },
+    {
+      "fixture_id": "558556",
+      "selection_id": "shots:total:over:22.5:",
+      "match": "Sassuolo – Lazio",
+      "market": "Remates",
+      "label": "Más de 22,5 remates totales",
+      "probability": 0.5964827666404906,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "shots",
+      "actual_home": 9,
+      "actual_away": 16
+    },
+    {
+      "fixture_id": "558555",
+      "selection_id": "double_chance:total:12:None:",
+      "match": "Roma – Cagliari",
+      "market": "Doble oportunidad",
+      "label": "Cualquiera gana, sin empate",
+      "probability": 0.7792258383429347,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 4,
+      "actual_away": 2
+    },
+    {
+      "fixture_id": "558555",
+      "selection_id": "handicap:total:away:2.5:",
+      "match": "Roma – Cagliari",
+      "market": "Hándicap de goles",
+      "label": "Cagliari +2,5",
+      "probability": 0.8017422630561308,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 4,
+      "actual_away": 2
+    },
+    {
+      "fixture_id": "558555",
+      "selection_id": "goals:total:under:3.5:",
+      "match": "Roma – Cagliari",
+      "market": "Goles",
+      "label": "Menos de 3,5 goles",
+      "probability": 0.730134111918195,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "goals",
+      "actual_home": 4,
+      "actual_away": 2
+    },
+    {
+      "fixture_id": "558555",
+      "selection_id": "btts:total:no:None:",
+      "match": "Roma – Cagliari",
+      "market": "Ambos marcan",
+      "label": "Ambos marcan: no",
+      "probability": 0.561680690088405,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "goals",
+      "actual_home": 4,
+      "actual_away": 2
+    },
+    {
+      "fixture_id": "558555",
+      "selection_id": "shots:away:over:5.5:",
+      "match": "Roma – Cagliari",
+      "market": "Remates",
+      "label": "Cagliari: más de 5,5 remates",
+      "probability": 0.7515558676437452,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "shots",
+      "actual_home": 20,
+      "actual_away": 19
+    },
+    {
+      "fixture_id": "558555",
+      "selection_id": "sot:home:over:3.5:",
+      "match": "Roma – Cagliari",
+      "market": "Tiros al arco",
+      "label": "Roma: más de 3,5 tiros al arco",
+      "probability": 0.7197150118424795,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "sot",
+      "actual_home": 8,
+      "actual_away": 8
+    },
+    {
+      "fixture_id": "558555",
+      "selection_id": "fouls:away:under:15.5:",
+      "match": "Roma – Cagliari",
+      "market": "Faltas",
+      "label": "Cagliari: menos de 15,5 faltas",
+      "probability": 0.7540636082913773,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "fouls",
+      "actual_home": 8,
+      "actual_away": 8
+    },
+    {
+      "fixture_id": "558555",
+      "selection_id": "corners:home:under:7.5:",
+      "match": "Roma – Cagliari",
+      "market": "Córners",
+      "label": "Roma: menos de 7,5 córners",
+      "probability": 0.7416451230359187,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "corners",
+      "actual_home": 7,
+      "actual_away": 8
+    },
+    {
+      "fixture_id": "558555",
+      "selection_id": "goals:home:under:2.5:",
+      "match": "Roma – Cagliari",
+      "market": "Goles",
+      "label": "Roma: menos de 2,5 goles",
+      "probability": 0.6995389350762706,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "goals",
+      "actual_home": 4,
+      "actual_away": 2
+    },
+    {
+      "fixture_id": "558557",
+      "selection_id": "double_chance:total:12:None:",
+      "match": "Torino – Como",
+      "market": "Doble oportunidad",
+      "label": "Cualquiera gana, sin empate",
+      "probability": 0.7467338055906101,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 1,
+      "actual_away": 3
+    },
+    {
+      "fixture_id": "558557",
+      "selection_id": "handicap:total:home:1.5:",
+      "match": "Torino – Como",
+      "market": "Hándicap de goles",
+      "label": "Torino +1,5",
+      "probability": 0.7006837165231297,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "goals",
+      "actual_home": 1,
+      "actual_away": 3
+    },
+    {
+      "fixture_id": "558557",
+      "selection_id": "goals:away:under:2.5:",
+      "match": "Torino – Como",
+      "market": "Goles",
+      "label": "Como: menos de 2,5 goles",
+      "probability": 0.762031448114509,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "goals",
+      "actual_home": 1,
+      "actual_away": 3
+    },
+    {
+      "fixture_id": "558557",
+      "selection_id": "btts:total:yes:None:",
+      "match": "Torino – Como",
+      "market": "Ambos marcan",
+      "label": "Ambos marcan: sí",
+      "probability": 0.5029078458893428,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 1,
+      "actual_away": 3
+    },
+    {
+      "fixture_id": "558557",
+      "selection_id": "result_goals:total:X2:1.5:over",
+      "match": "Torino – Como",
+      "market": "Resultado y goles",
+      "label": "Como o empate y más de 1,5 goles",
+      "probability": 0.5998071556657611,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 1,
+      "actual_away": 3
+    },
+    {
+      "fixture_id": "558557",
+      "selection_id": "shots:away:over:10.5:",
+      "match": "Torino – Como",
+      "market": "Remates",
+      "label": "Como: más de 10,5 remates",
+      "probability": 0.733150363317701,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "shots",
+      "actual_home": 11,
+      "actual_away": 18
+    },
+    {
+      "fixture_id": "558557",
+      "selection_id": "sot:home:under:4.5:",
+      "match": "Torino – Como",
+      "market": "Tiros al arco",
+      "label": "Torino: menos de 4,5 tiros al arco",
+      "probability": 0.7433401554353813,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "sot",
+      "actual_home": 5,
+      "actual_away": 5
+    },
+    {
+      "fixture_id": "558557",
+      "selection_id": "fouls:away:under:13.5:",
+      "match": "Torino – Como",
+      "market": "Faltas",
+      "label": "Como: menos de 13,5 faltas",
+      "probability": 0.7458935207320696,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "fouls",
+      "actual_home": 10,
+      "actual_away": 3
+    },
+    {
+      "fixture_id": "558557",
+      "selection_id": "corners:home:under:5.5:",
+      "match": "Torino – Como",
+      "market": "Córners",
+      "label": "Torino: menos de 5,5 córners",
+      "probability": 0.7262321198277573,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "corners",
+      "actual_home": 5,
+      "actual_away": 6
+    },
+    {
+      "fixture_id": "558557",
+      "selection_id": "fouls:away:under:14.5:",
+      "match": "Torino – Como",
+      "market": "Faltas",
+      "label": "Como: menos de 14,5 faltas",
+      "probability": 0.8144777509349509,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "fouls",
+      "actual_home": 10,
+      "actual_away": 3
+    }
+  ],
+  "tier_summary": {
+    "selections": 9,
+    "settled": 9,
+    "won": 4,
+    "lost": 5,
+    "unverified": 0,
+    "hit_rate": 0.4444444444444444
+  },
+  "unique_summary": {
+    "selections": 28,
+    "settled": 28,
+    "won": 19,
+    "lost": 9,
+    "unverified": 0,
+    "hit_rate": 0.6785714285714286
+  },
+  "by_tier": {
+    "Conservadora": {
+      "selections": 3,
+      "settled": 3,
+      "won": 2,
+      "lost": 1,
+      "unverified": 0,
+      "hit_rate": 0.6666666666666666
+    },
+    "Normal": {
+      "selections": 3,
+      "settled": 3,
+      "won": 0,
+      "lost": 3,
+      "unverified": 0,
+      "hit_rate": 0.0
+    },
+    "Arriesgada": {
+      "selections": 3,
+      "settled": 3,
+      "won": 2,
+      "lost": 1,
+      "unverified": 0,
+      "hit_rate": 0.6666666666666666
+    }
+  },
+  "parlays": [
+    {
+      "size": 3,
+      "status": "lost",
+      "probability_before_match": 0.5201657494631118,
+      "legs": [
+        {
+          "fixture_id": "558556",
+          "selection_id": "goals:away:under:2.5:",
+          "match": "Sassuolo – Lazio",
+          "market": "Goles",
+          "label": "Lazio: menos de 2,5 goles",
+          "probability": 0.7965769762582163,
+          "status": "lost",
+          "hit": false,
+          "actual_metric": "goals",
+          "actual_home": 2,
+          "actual_away": 6
+        },
+        {
+          "fixture_id": "558555",
+          "selection_id": "handicap:total:away:2.5:",
+          "match": "Roma – Cagliari",
+          "market": "Hándicap de goles",
+          "label": "Cagliari +2,5",
+          "probability": 0.8017422630561308,
+          "status": "won",
+          "hit": true,
+          "actual_metric": "goals",
+          "actual_home": 4,
+          "actual_away": 2
+        },
+        {
+          "fixture_id": "558557",
+          "selection_id": "fouls:away:under:14.5:",
+          "match": "Torino – Como",
+          "market": "Faltas",
+          "label": "Como: menos de 14,5 faltas",
+          "probability": 0.8144777509349509,
+          "status": "won",
+          "hit": true,
+          "actual_metric": "fouls",
+          "actual_home": 10,
+          "actual_away": 3
+        }
+      ]
+    },
+    {
+      "size": 4,
+      "status": "unavailable",
+      "probability_before_match": null,
+      "legs": []
+    }
+  ],
+  "analysis": [
+    "Fijas principales: 4/9. Mercados únicos: 19/28. Se conservan las probabilidades previas y se registran los resultados, sin reajustar el modelo con esta jornada.",
+    "Conservadora: 2/3 acertadas.",
+    "Normal: 0/3 acertadas.",
+    "Arriesgada: 2/3 acertadas.",
+    "Falló Lazio: menos de 2,5 goles en Sassuolo – Lazio: resultado final 2–6 (goals).",
+    "Falló Sassuolo +1,5 en Sassuolo – Lazio: resultado final 2–6 (goals).",
+    "Falló Roma: menos de 2,5 goles en Roma – Cagliari: resultado final 4–2 (goals).",
+    "Falló Ambos marcan: no en Roma – Cagliari: resultado final 4–2 (goals).",
+    "Falló Torino +1,5 en Torino – Como: resultado final 1–3 (goals).",
+    "0 partidos no tenían fijas principales publicadas; no se cuentan como fallos ni aciertos.",
+    "Combinada de 3: 2/3 selecciones cumplidas."
+  ]
+}

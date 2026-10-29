@@ -12,7 +12,7 @@ from pathlib import Path
 
 import pandas as pd
 from data_store import canonical_team, validate_stats
-from ingest_champions_matchday import parse_event
+from ingest_champions_matchday import parse_event, identity
 from paths import DATA_DIR, ARTIFACT_DIR, WEB_DIR
 from review_matchday import save
 
@@ -59,14 +59,35 @@ def main(capture_dir, apply=False):
     pairs={(rescheduled[fid]['new_date'] if fid in rescheduled else m['fecha'],
             m['competition'],m['local'],m['visitante']):fid for fid,m in expected.items()}
     deferred={str(x['fixture_id']):x for x in verification['deferred']}
+    pending={str(x['fixture_id']):x for x in verification.get('pending',[])}
+    pending_events={str(x['espn_event_id']):x for x in pending.values()}
     verified={str(x['fixture_id']):x for x in verification['matches']}
-    if set(expected)!=set(verified)|set(deferred) or set(verified)&set(deferred):
+    if (set(expected)!=set(verified)|set(deferred)|set(pending)
+            or len(verified)+len(deferred)+len(pending)!=len(expected)
+            or len(pending_events)!=len(pending)):
         raise ValueError('Incomplete verification coverage')
-    records=[];seen=set();rows=[];sources=[]
+    records=[];seen=set();seen_pending=set();rows=[];sources=[]
     for date in verification['dates']:
         for code,league in LEAGUES.items():
             board=read(capture/date/f'{code}_scoreboard.json')
             for event in board['events']:
+                if not event['status']['type']['completed']:
+                    p=pending_events.get(str(event['id']))
+                    if (p is None or not p.get('source_url') or p['date']!=date
+                            or p.get('provider_status') not in ['SCHEDULED','TIMED','IN_PLAY','PAUSED','POSTPONED','SUSPENDED']):
+                        raise ValueError('Unfinished fixture lacks documented pending status')
+                    m=expected[str(p['fixture_id'])]
+                    sides={v['homeAway']:v for v in event['competitions'][0]['competitors']}
+                    teams=[]
+                    for side in ['home','away']:
+                        name=identity(sides[side]['team']['displayName'])
+                        teams.append(canonical_team(ESPN_ALIASES.get(name,name)))
+                    if (teams!=[m['local'],m['visitante']] or teams!=[p['home'],p['away']]
+                            or league!=m['competition'] or pd.Timestamp(event['date'])!=pd.Timestamp(m['kickoff_utc'])):
+                        raise ValueError('Unfinished event identity mismatch')
+                    if p['fixture_id'] in seen_pending:raise ValueError('Duplicate pending event')
+                    seen_pending.add(p['fixture_id'])
+                    continue
                 rec=parse_event(event,read(capture/date/f'espn_{event["id"]}.json'),date)
                 rec['home']=canonical_team(ESPN_ALIASES.get(rec['home'],rec['home']))
                 rec['away']=canonical_team(ESPN_ALIASES.get(rec['away'],rec['away']))
@@ -102,7 +123,7 @@ def main(capture_dir, apply=False):
                     'statistics_endpoint':f'https://site.api.espn.com/apis/site/v2/sports/soccer/{code}/summary?event={rec["espn_event_id"]}',
                     'score_verification_url':v['source_url']})
                 records.append(rec)
-    if seen!=set(verified):raise ValueError('Missing final boxscore')
+    if seen!=set(verified) or seen_pending!=set(pending):raise ValueError('Missing final boxscore or pending event')
     old_path=DATA_DIR/'match_stats_actualseason.csv'
     old=pd.read_csv(old_path);fresh=[]
     for row in rows:
@@ -152,8 +173,14 @@ def main(capture_dir, apply=False):
             continue
         calendar.loc[mask,['date','kickoff_time_utc','status']]=[str(kickoff.date()),kickoff.strftime('%H:%M'),'TIMED']
         calendar.loc[mask,['home_score','away_score']]=float('nan')
+    for fid,p in pending.items():
+        mask=calendar.match_id.astype(str).eq(fid)
+        if mask.sum()!=1:raise ValueError('Missing pending calendar fixture')
+        if calendar.loc[mask,'status'].iloc[0]=='FINISHED':raise ValueError('Pending snapshot conflicts with recorded final')
+        calendar.loc[mask,'status']=p['provider_status']
+        calendar.loc[mask,['home_score','away_score']]=float('nan')
     summary={'dates':verification['dates'],'matches':len(records),'new_rows':len(fresh),
-        'deferred':list(deferred.values()),'by_date':{day:sum(x['date']==day for x in records)
+        'deferred':list(deferred.values()),'pending':list(pending.values()),'by_date':{day:sum(x['date']==day for x in records)
                    for day in verification['dates']},'dataset_matches':int(combined.match_id.nunique())}
     save(capture/'validated_ingestion_plan.json',summary)
     if not apply:
@@ -173,6 +200,7 @@ def main(capture_dir, apply=False):
             'provider':'ESPN final boxscores; scores independently checked against Soccerbase and, when final, football-data.org',
             'matches':[r for r in records if r['date']==day],
             'deferred':[d for d in deferred.values() if d['original_date']==day],
+            'pending':[p for p in pending.values() if p['date']==day],
             'added_rows_this_run':sum(r['date']==day for r in fresh),
             'scope':list(LEAGUES.values()),'capture_directory':str(capture/day)}
         save(archive/'ingestion.json',record);save(WEB_DIR/'data'/f'actuals_{day}.json',record)

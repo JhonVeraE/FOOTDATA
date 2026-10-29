@@ -1,0 +1,1131 @@
+{
+  "date": "2026-10-28",
+  "reviewed_at": "2026-10-29T21:35:46.874420+00:00",
+  "frozen_shortlist_sha256": "14c8575484c8d1e43a0afac8da962c6e4acbdc0b177ccbdde427309835ecd0eb",
+  "matches": [
+    {
+      "fixture_id": "558549",
+      "home": "Milan",
+      "away": "Bologna",
+      "metrics": {
+        "goals": [
+          2,
+          4
+        ],
+        "shots": [
+          8,
+          9
+        ],
+        "sot": [
+          3,
+          5
+        ],
+        "fouls": [
+          10,
+          16
+        ],
+        "corners": [
+          2,
+          3
+        ],
+        "cards": [
+          0,
+          2
+        ]
+      },
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401874993/bologna-ac-milan"
+    },
+    {
+      "fixture_id": "558550",
+      "home": "Venezia",
+      "away": "Inter",
+      "metrics": {
+        "goals": [
+          0,
+          2
+        ],
+        "shots": [
+          12,
+          16
+        ],
+        "sot": [
+          4,
+          2
+        ],
+        "fouls": [
+          5,
+          9
+        ],
+        "corners": [
+          3,
+          6
+        ],
+        "cards": [
+          0,
+          2
+        ]
+      },
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401874773/internazionale-venezia"
+    },
+    {
+      "fixture_id": "558553",
+      "home": "Parma",
+      "away": "Udinese",
+      "metrics": {
+        "goals": [
+          0,
+          0
+        ],
+        "shots": [
+          8,
+          20
+        ],
+        "sot": [
+          2,
+          5
+        ],
+        "fouls": [
+          12,
+          14
+        ],
+        "corners": [
+          3,
+          6
+        ],
+        "cards": [
+          1,
+          2
+        ]
+      },
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401874965/udinese-parma"
+    },
+    {
+      "fixture_id": "558552",
+      "home": "Genoa",
+      "away": "Juventus",
+      "metrics": {
+        "goals": [
+          2,
+          0
+        ],
+        "shots": [
+          14,
+          17
+        ],
+        "sot": [
+          2,
+          4
+        ],
+        "fouls": [
+          5,
+          8
+        ],
+        "corners": [
+          6,
+          9
+        ],
+        "cards": [
+          0,
+          1
+        ]
+      },
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401874988/juventus-genoa"
+    },
+    {
+      "fixture_id": "558554",
+      "home": "Monza",
+      "away": "Napoli",
+      "metrics": {
+        "goals": [
+          1,
+          4
+        ],
+        "shots": [
+          12,
+          16
+        ],
+        "sot": [
+          5,
+          7
+        ],
+        "fouls": [
+          14,
+          6
+        ],
+        "corners": [
+          2,
+          2
+        ],
+        "cards": [
+          3,
+          0
+        ]
+      },
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401874799/napoli-monza"
+    }
+  ],
+  "tiers": [
+    {
+      "fixture_id": "558549",
+      "selection_id": "shots:away:under:14.5:",
+      "match": "Milan – Bologna",
+      "market": "Remates",
+      "label": "Bologna: menos de 14,5 remates",
+      "probability": 0.8202264057389589,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "shots",
+      "actual_home": 8,
+      "actual_away": 9,
+      "tier": "Conservadora"
+    },
+    {
+      "fixture_id": "558549",
+      "selection_id": "goals:total:under:3.5:",
+      "match": "Milan – Bologna",
+      "market": "Goles",
+      "label": "Menos de 3,5 goles",
+      "probability": 0.7426573622753239,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 4,
+      "tier": "Normal"
+    },
+    {
+      "fixture_id": "558549",
+      "selection_id": "fouls:away:under:12.5:",
+      "match": "Milan – Bologna",
+      "market": "Faltas",
+      "label": "Bologna: menos de 12,5 faltas",
+      "probability": 0.5814226617653053,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "fouls",
+      "actual_home": 10,
+      "actual_away": 16,
+      "tier": "Arriesgada"
+    },
+    {
+      "fixture_id": "558550",
+      "selection_id": "result_goals:total:X2:1.5:over",
+      "match": "Venezia – Inter",
+      "market": "Resultado y goles",
+      "label": "Inter o empate y más de 1,5 goles",
+      "probability": 0.8004125516804518,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 0,
+      "actual_away": 2,
+      "tier": "Conservadora"
+    },
+    {
+      "fixture_id": "558550",
+      "selection_id": "goals:away:over:1.5:",
+      "match": "Venezia – Inter",
+      "market": "Goles",
+      "label": "Inter: más de 1,5 goles",
+      "probability": 0.7427646252601172,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 0,
+      "actual_away": 2,
+      "tier": "Normal"
+    },
+    {
+      "fixture_id": "558550",
+      "selection_id": "sot:total:over:8.5:",
+      "match": "Venezia – Inter",
+      "market": "Tiros al arco",
+      "label": "Más de 8,5 tiros al arco totales",
+      "probability": 0.6077618260259355,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "sot",
+      "actual_home": 4,
+      "actual_away": 2,
+      "tier": "Arriesgada"
+    },
+    {
+      "fixture_id": "558553",
+      "selection_id": "handicap:total:home:1.5:",
+      "match": "Parma – Udinese",
+      "market": "Hándicap de goles",
+      "label": "Parma +1,5",
+      "probability": 0.8389945298614235,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 0,
+      "actual_away": 0,
+      "tier": "Conservadora"
+    },
+    {
+      "fixture_id": "558553",
+      "selection_id": "goals:total:over:1.5:",
+      "match": "Parma – Udinese",
+      "market": "Goles",
+      "label": "Más de 1,5 goles",
+      "probability": 0.6461606362717884,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "goals",
+      "actual_home": 0,
+      "actual_away": 0,
+      "tier": "Normal"
+    },
+    {
+      "fixture_id": "558553",
+      "selection_id": "double_chance:total:1X:None:",
+      "match": "Parma – Udinese",
+      "market": "Doble oportunidad",
+      "label": "Parma o empate",
+      "probability": 0.6214007943002584,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 0,
+      "actual_away": 0,
+      "tier": "Arriesgada"
+    },
+    {
+      "fixture_id": "558552",
+      "selection_id": "goals:away:under:2.5:",
+      "match": "Genoa – Juventus",
+      "market": "Goles",
+      "label": "Juventus: menos de 2,5 goles",
+      "probability": 0.8259332656272185,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 0,
+      "tier": "Conservadora"
+    },
+    {
+      "fixture_id": "558552",
+      "selection_id": "double_chance:total:12:None:",
+      "match": "Genoa – Juventus",
+      "market": "Doble oportunidad",
+      "label": "Cualquiera gana, sin empate",
+      "probability": 0.7179143033358805,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 0,
+      "tier": "Normal"
+    },
+    {
+      "fixture_id": "558552",
+      "selection_id": "result_goals:total:X2:1.5:over",
+      "match": "Genoa – Juventus",
+      "market": "Resultado y goles",
+      "label": "Juventus o empate y más de 1,5 goles",
+      "probability": 0.5343566969500753,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 0,
+      "tier": "Arriesgada"
+    },
+    {
+      "fixture_id": "558554",
+      "selection_id": "goals:total:under:4.5:",
+      "match": "Monza – Napoli",
+      "market": "Goles",
+      "label": "Menos de 4,5 goles",
+      "probability": 0.8196627203636734,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "goals",
+      "actual_home": 1,
+      "actual_away": 4,
+      "tier": "Conservadora"
+    },
+    {
+      "fixture_id": "558554",
+      "selection_id": "double_chance:total:12:None:",
+      "match": "Monza – Napoli",
+      "market": "Doble oportunidad",
+      "label": "Cualquiera gana, sin empate",
+      "probability": 0.7793268549770893,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 1,
+      "actual_away": 4,
+      "tier": "Normal"
+    },
+    {
+      "fixture_id": "558554",
+      "selection_id": "handicap:total:home:1.5:",
+      "match": "Monza – Napoli",
+      "market": "Hándicap de goles",
+      "label": "Monza +1,5",
+      "probability": 0.6245390563036537,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "goals",
+      "actual_home": 1,
+      "actual_away": 4,
+      "tier": "Arriesgada"
+    }
+  ],
+  "unique_selections": [
+    {
+      "fixture_id": "558549",
+      "selection_id": "double_chance:total:12:None:",
+      "match": "Milan – Bologna",
+      "market": "Doble oportunidad",
+      "label": "Cualquiera gana, sin empate",
+      "probability": 0.7336966135170776,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 4
+    },
+    {
+      "fixture_id": "558549",
+      "selection_id": "handicap:total:away:1.5:",
+      "match": "Milan – Bologna",
+      "market": "Hándicap de goles",
+      "label": "Bologna +1,5",
+      "probability": 0.7445649775260652,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 4
+    },
+    {
+      "fixture_id": "558549",
+      "selection_id": "goals:total:under:3.5:",
+      "match": "Milan – Bologna",
+      "market": "Goles",
+      "label": "Menos de 3,5 goles",
+      "probability": 0.7426573622753239,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 4
+    },
+    {
+      "fixture_id": "558549",
+      "selection_id": "shots:total:under:26.5:",
+      "match": "Milan – Bologna",
+      "market": "Remates",
+      "label": "Menos de 26,5 remates totales",
+      "probability": 0.739461086340603,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "shots",
+      "actual_home": 8,
+      "actual_away": 9
+    },
+    {
+      "fixture_id": "558549",
+      "selection_id": "sot:home:under:5.5:",
+      "match": "Milan – Bologna",
+      "market": "Tiros al arco",
+      "label": "Milan: menos de 5,5 tiros al arco",
+      "probability": 0.7354797842342727,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "sot",
+      "actual_home": 3,
+      "actual_away": 5
+    },
+    {
+      "fixture_id": "558549",
+      "selection_id": "fouls:away:under:14.5:",
+      "match": "Milan – Bologna",
+      "market": "Faltas",
+      "label": "Bologna: menos de 14,5 faltas",
+      "probability": 0.7491110015142475,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "fouls",
+      "actual_home": 10,
+      "actual_away": 16
+    },
+    {
+      "fixture_id": "558549",
+      "selection_id": "corners:away:under:4.5:",
+      "match": "Milan – Bologna",
+      "market": "Córners",
+      "label": "Bologna: menos de 4,5 córners",
+      "probability": 0.7280118620299975,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "corners",
+      "actual_home": 2,
+      "actual_away": 3
+    },
+    {
+      "fixture_id": "558549",
+      "selection_id": "shots:away:under:14.5:",
+      "match": "Milan – Bologna",
+      "market": "Remates",
+      "label": "Bologna: menos de 14,5 remates",
+      "probability": 0.8202264057389589,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "shots",
+      "actual_home": 8,
+      "actual_away": 9
+    },
+    {
+      "fixture_id": "558549",
+      "selection_id": "fouls:away:under:12.5:",
+      "match": "Milan – Bologna",
+      "market": "Faltas",
+      "label": "Bologna: menos de 12,5 faltas",
+      "probability": 0.5814226617653053,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "fouls",
+      "actual_home": 10,
+      "actual_away": 16
+    },
+    {
+      "fixture_id": "558550",
+      "selection_id": "result:total:away:None:",
+      "match": "Venezia – Inter",
+      "market": "Resultado 1X2",
+      "label": "Gana Inter",
+      "probability": 0.7754174706551906,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 0,
+      "actual_away": 2
+    },
+    {
+      "fixture_id": "558550",
+      "selection_id": "handicap:total:home:2.5:",
+      "match": "Venezia – Inter",
+      "market": "Hándicap de goles",
+      "label": "Venezia +2,5",
+      "probability": 0.6448033216170916,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 0,
+      "actual_away": 2
+    },
+    {
+      "fixture_id": "558550",
+      "selection_id": "goals:away:over:1.5:",
+      "match": "Venezia – Inter",
+      "market": "Goles",
+      "label": "Inter: más de 1,5 goles",
+      "probability": 0.7427646252601172,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 0,
+      "actual_away": 2
+    },
+    {
+      "fixture_id": "558550",
+      "selection_id": "result_goals:total:X2:1.5:over",
+      "match": "Venezia – Inter",
+      "market": "Resultado y goles",
+      "label": "Inter o empate y más de 1,5 goles",
+      "probability": 0.8004125516804518,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 0,
+      "actual_away": 2
+    },
+    {
+      "fixture_id": "558550",
+      "selection_id": "shots:away:under:23.5:",
+      "match": "Venezia – Inter",
+      "market": "Remates",
+      "label": "Inter: menos de 23,5 remates",
+      "probability": 0.7491504275331983,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "shots",
+      "actual_home": 12,
+      "actual_away": 16
+    },
+    {
+      "fixture_id": "558550",
+      "selection_id": "sot:away:over:4.5:",
+      "match": "Venezia – Inter",
+      "market": "Tiros al arco",
+      "label": "Inter: más de 4,5 tiros al arco",
+      "probability": 0.740417157462791,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "sot",
+      "actual_home": 4,
+      "actual_away": 2
+    },
+    {
+      "fixture_id": "558550",
+      "selection_id": "fouls:home:under:14.5:",
+      "match": "Venezia – Inter",
+      "market": "Faltas",
+      "label": "Venezia: menos de 14,5 faltas",
+      "probability": 0.7375422243604061,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "fouls",
+      "actual_home": 5,
+      "actual_away": 9
+    },
+    {
+      "fixture_id": "558550",
+      "selection_id": "corners:away:under:8.5:",
+      "match": "Venezia – Inter",
+      "market": "Córners",
+      "label": "Inter: menos de 8,5 córners",
+      "probability": 0.7506362322194337,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "corners",
+      "actual_home": 3,
+      "actual_away": 6
+    },
+    {
+      "fixture_id": "558550",
+      "selection_id": "sot:total:over:8.5:",
+      "match": "Venezia – Inter",
+      "market": "Tiros al arco",
+      "label": "Más de 8,5 tiros al arco totales",
+      "probability": 0.6077618260259355,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "sot",
+      "actual_home": 4,
+      "actual_away": 2
+    },
+    {
+      "fixture_id": "558553",
+      "selection_id": "double_chance:total:12:None:",
+      "match": "Parma – Udinese",
+      "market": "Doble oportunidad",
+      "label": "Cualquiera gana, sin empate",
+      "probability": 0.695800907864971,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "goals",
+      "actual_home": 0,
+      "actual_away": 0
+    },
+    {
+      "fixture_id": "558553",
+      "selection_id": "handicap:total:home:1.5:",
+      "match": "Parma – Udinese",
+      "market": "Hándicap de goles",
+      "label": "Parma +1,5",
+      "probability": 0.8389945298614235,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 0,
+      "actual_away": 0
+    },
+    {
+      "fixture_id": "558553",
+      "selection_id": "goals:total:under:3.5:",
+      "match": "Parma – Udinese",
+      "market": "Goles",
+      "label": "Menos de 3,5 goles",
+      "probability": 0.8233615281179186,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 0,
+      "actual_away": 0
+    },
+    {
+      "fixture_id": "558553",
+      "selection_id": "shots:home:under:16.5:",
+      "match": "Parma – Udinese",
+      "market": "Remates",
+      "label": "Parma: menos de 16,5 remates",
+      "probability": 0.7440878321851193,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "shots",
+      "actual_home": 8,
+      "actual_away": 20
+    },
+    {
+      "fixture_id": "558553",
+      "selection_id": "sot:away:over:2.5:",
+      "match": "Parma – Udinese",
+      "market": "Tiros al arco",
+      "label": "Udinese: más de 2,5 tiros al arco",
+      "probability": 0.7335955961369488,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "sot",
+      "actual_home": 2,
+      "actual_away": 5
+    },
+    {
+      "fixture_id": "558553",
+      "selection_id": "fouls:total:under:27.5:",
+      "match": "Parma – Udinese",
+      "market": "Faltas",
+      "label": "Menos de 27,5 faltas totales",
+      "probability": 0.7463753311543169,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "fouls",
+      "actual_home": 12,
+      "actual_away": 14
+    },
+    {
+      "fixture_id": "558553",
+      "selection_id": "corners:home:under:6.5:",
+      "match": "Parma – Udinese",
+      "market": "Córners",
+      "label": "Parma: menos de 6,5 córners",
+      "probability": 0.7319398546917933,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "corners",
+      "actual_home": 3,
+      "actual_away": 6
+    },
+    {
+      "fixture_id": "558553",
+      "selection_id": "goals:total:over:1.5:",
+      "match": "Parma – Udinese",
+      "market": "Goles",
+      "label": "Más de 1,5 goles",
+      "probability": 0.6461606362717884,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "goals",
+      "actual_home": 0,
+      "actual_away": 0
+    },
+    {
+      "fixture_id": "558553",
+      "selection_id": "double_chance:total:1X:None:",
+      "match": "Parma – Udinese",
+      "market": "Doble oportunidad",
+      "label": "Parma o empate",
+      "probability": 0.6214007943002584,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 0,
+      "actual_away": 0
+    },
+    {
+      "fixture_id": "558552",
+      "selection_id": "double_chance:total:12:None:",
+      "match": "Genoa – Juventus",
+      "market": "Doble oportunidad",
+      "label": "Cualquiera gana, sin empate",
+      "probability": 0.7179143033358805,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 0
+    },
+    {
+      "fixture_id": "558552",
+      "selection_id": "handicap:total:home:1.5:",
+      "match": "Genoa – Juventus",
+      "market": "Hándicap de goles",
+      "label": "Genoa +1,5",
+      "probability": 0.7407381291890675,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 0
+    },
+    {
+      "fixture_id": "558552",
+      "selection_id": "goals:home:under:1.5:",
+      "match": "Genoa – Juventus",
+      "market": "Goles",
+      "label": "Genoa: menos de 1,5 goles",
+      "probability": 0.8079435395969622,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 0
+    },
+    {
+      "fixture_id": "558552",
+      "selection_id": "result_goals:total:X2:1.5:over",
+      "match": "Genoa – Juventus",
+      "market": "Resultado y goles",
+      "label": "Juventus o empate y más de 1,5 goles",
+      "probability": 0.5343566969500753,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 0
+    },
+    {
+      "fixture_id": "558552",
+      "selection_id": "shots:home:under:12.5:",
+      "match": "Genoa – Juventus",
+      "market": "Remates",
+      "label": "Genoa: menos de 12,5 remates",
+      "probability": 0.7300827991046174,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "shots",
+      "actual_home": 14,
+      "actual_away": 17
+    },
+    {
+      "fixture_id": "558552",
+      "selection_id": "sot:away:under:6.5:",
+      "match": "Genoa – Juventus",
+      "market": "Tiros al arco",
+      "label": "Juventus: menos de 6,5 tiros al arco",
+      "probability": 0.7398569114477498,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "sot",
+      "actual_home": 2,
+      "actual_away": 4
+    },
+    {
+      "fixture_id": "558552",
+      "selection_id": "fouls:home:over:8.5:",
+      "match": "Genoa – Juventus",
+      "market": "Faltas",
+      "label": "Genoa: más de 8,5 faltas",
+      "probability": 0.7062400958799565,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "fouls",
+      "actual_home": 5,
+      "actual_away": 8
+    },
+    {
+      "fixture_id": "558552",
+      "selection_id": "corners:home:under:5.5:",
+      "match": "Genoa – Juventus",
+      "market": "Córners",
+      "label": "Genoa: menos de 5,5 córners",
+      "probability": 0.7345216620171513,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "corners",
+      "actual_home": 6,
+      "actual_away": 9
+    },
+    {
+      "fixture_id": "558552",
+      "selection_id": "goals:away:under:2.5:",
+      "match": "Genoa – Juventus",
+      "market": "Goles",
+      "label": "Juventus: menos de 2,5 goles",
+      "probability": 0.8259332656272185,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 0
+    },
+    {
+      "fixture_id": "558554",
+      "selection_id": "double_chance:total:12:None:",
+      "match": "Monza – Napoli",
+      "market": "Doble oportunidad",
+      "label": "Cualquiera gana, sin empate",
+      "probability": 0.7793268549770893,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 1,
+      "actual_away": 4
+    },
+    {
+      "fixture_id": "558554",
+      "selection_id": "handicap:total:home:2.5:",
+      "match": "Monza – Napoli",
+      "market": "Hándicap de goles",
+      "label": "Monza +2,5",
+      "probability": 0.812576241009239,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "goals",
+      "actual_home": 1,
+      "actual_away": 4
+    },
+    {
+      "fixture_id": "558554",
+      "selection_id": "goals:total:over:1.5:",
+      "match": "Monza – Napoli",
+      "market": "Goles",
+      "label": "Más de 1,5 goles",
+      "probability": 0.8011446488052867,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 1,
+      "actual_away": 4
+    },
+    {
+      "fixture_id": "558554",
+      "selection_id": "shots:away:under:18.5:",
+      "match": "Monza – Napoli",
+      "market": "Remates",
+      "label": "Napoli: menos de 18,5 remates",
+      "probability": 0.7525160298076853,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "shots",
+      "actual_home": 12,
+      "actual_away": 16
+    },
+    {
+      "fixture_id": "558554",
+      "selection_id": "sot:away:under:6.5:",
+      "match": "Monza – Napoli",
+      "market": "Tiros al arco",
+      "label": "Napoli: menos de 6,5 tiros al arco",
+      "probability": 0.7017154849153453,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "sot",
+      "actual_home": 5,
+      "actual_away": 7
+    },
+    {
+      "fixture_id": "558554",
+      "selection_id": "fouls:home:over:9.5:",
+      "match": "Monza – Napoli",
+      "market": "Faltas",
+      "label": "Monza: más de 9,5 faltas",
+      "probability": 0.7360796470454527,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "fouls",
+      "actual_home": 14,
+      "actual_away": 6
+    },
+    {
+      "fixture_id": "558554",
+      "selection_id": "corners:away:under:6.5:",
+      "match": "Monza – Napoli",
+      "market": "Córners",
+      "label": "Napoli: menos de 6,5 córners",
+      "probability": 0.710194153474472,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "corners",
+      "actual_home": 2,
+      "actual_away": 2
+    },
+    {
+      "fixture_id": "558554",
+      "selection_id": "goals:total:under:4.5:",
+      "match": "Monza – Napoli",
+      "market": "Goles",
+      "label": "Menos de 4,5 goles",
+      "probability": 0.8196627203636734,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "goals",
+      "actual_home": 1,
+      "actual_away": 4
+    },
+    {
+      "fixture_id": "558554",
+      "selection_id": "handicap:total:home:1.5:",
+      "match": "Monza – Napoli",
+      "market": "Hándicap de goles",
+      "label": "Monza +1,5",
+      "probability": 0.6245390563036537,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "goals",
+      "actual_home": 1,
+      "actual_away": 4
+    }
+  ],
+  "tier_summary": {
+    "selections": 15,
+    "settled": 15,
+    "won": 8,
+    "lost": 7,
+    "unverified": 0,
+    "hit_rate": 0.5333333333333333
+  },
+  "unique_summary": {
+    "selections": 45,
+    "settled": 45,
+    "won": 29,
+    "lost": 16,
+    "unverified": 0,
+    "hit_rate": 0.6444444444444445
+  },
+  "by_tier": {
+    "Conservadora": {
+      "selections": 5,
+      "settled": 5,
+      "won": 4,
+      "lost": 1,
+      "unverified": 0,
+      "hit_rate": 0.8
+    },
+    "Normal": {
+      "selections": 5,
+      "settled": 5,
+      "won": 3,
+      "lost": 2,
+      "unverified": 0,
+      "hit_rate": 0.6
+    },
+    "Arriesgada": {
+      "selections": 5,
+      "settled": 5,
+      "won": 1,
+      "lost": 4,
+      "unverified": 0,
+      "hit_rate": 0.2
+    }
+  },
+  "parlays": [
+    {
+      "size": 3,
+      "status": "won",
+      "probability_before_match": 0.5683787519986869,
+      "legs": [
+        {
+          "fixture_id": "558549",
+          "selection_id": "shots:away:under:14.5:",
+          "match": "Milan – Bologna",
+          "market": "Remates",
+          "label": "Bologna: menos de 14,5 remates",
+          "probability": 0.8202264057389589,
+          "status": "won",
+          "hit": true,
+          "actual_metric": "shots",
+          "actual_home": 8,
+          "actual_away": 9
+        },
+        {
+          "fixture_id": "558553",
+          "selection_id": "handicap:total:home:1.5:",
+          "match": "Parma – Udinese",
+          "market": "Hándicap de goles",
+          "label": "Parma +1,5",
+          "probability": 0.8389945298614235,
+          "status": "won",
+          "hit": true,
+          "actual_metric": "goals",
+          "actual_home": 0,
+          "actual_away": 0
+        },
+        {
+          "fixture_id": "558552",
+          "selection_id": "goals:away:under:2.5:",
+          "match": "Genoa – Juventus",
+          "market": "Goles",
+          "label": "Juventus: menos de 2,5 goles",
+          "probability": 0.8259332656272185,
+          "status": "won",
+          "hit": true,
+          "actual_metric": "goals",
+          "actual_home": 2,
+          "actual_away": 0
+        }
+      ]
+    },
+    {
+      "size": 4,
+      "status": "lost",
+      "probability_before_match": 0.4658788740601534,
+      "legs": [
+        {
+          "fixture_id": "558549",
+          "selection_id": "shots:away:under:14.5:",
+          "match": "Milan – Bologna",
+          "market": "Remates",
+          "label": "Bologna: menos de 14,5 remates",
+          "probability": 0.8202264057389589,
+          "status": "won",
+          "hit": true,
+          "actual_metric": "shots",
+          "actual_home": 8,
+          "actual_away": 9
+        },
+        {
+          "fixture_id": "558553",
+          "selection_id": "handicap:total:home:1.5:",
+          "match": "Parma – Udinese",
+          "market": "Hándicap de goles",
+          "label": "Parma +1,5",
+          "probability": 0.8389945298614235,
+          "status": "won",
+          "hit": true,
+          "actual_metric": "goals",
+          "actual_home": 0,
+          "actual_away": 0
+        },
+        {
+          "fixture_id": "558552",
+          "selection_id": "goals:away:under:2.5:",
+          "match": "Genoa – Juventus",
+          "market": "Goles",
+          "label": "Juventus: menos de 2,5 goles",
+          "probability": 0.8259332656272185,
+          "status": "won",
+          "hit": true,
+          "actual_metric": "goals",
+          "actual_home": 2,
+          "actual_away": 0
+        },
+        {
+          "fixture_id": "558554",
+          "selection_id": "goals:total:under:4.5:",
+          "match": "Monza – Napoli",
+          "market": "Goles",
+          "label": "Menos de 4,5 goles",
+          "probability": 0.8196627203636734,
+          "status": "lost",
+          "hit": false,
+          "actual_metric": "goals",
+          "actual_home": 1,
+          "actual_away": 4
+        }
+      ]
+    }
+  ],
+  "analysis": [
+    "Fijas principales: 8/15. Mercados únicos: 29/45. Se conservan las probabilidades previas y se registran los resultados, sin reajustar el modelo con esta jornada.",
+    "Conservadora: 4/5 acertadas.",
+    "Normal: 3/5 acertadas.",
+    "Arriesgada: 1/5 acertadas.",
+    "Falló Menos de 3,5 goles en Milan – Bologna: resultado final 2–4 (goals).",
+    "Falló Bologna: menos de 12,5 faltas en Milan – Bologna: resultado final 10–16 (fouls).",
+    "Falló Más de 8,5 tiros al arco totales en Venezia – Inter: resultado final 4–2 (sot).",
+    "Falló Más de 1,5 goles en Parma – Udinese: resultado final 0–0 (goals).",
+    "Falló Juventus o empate y más de 1,5 goles en Genoa – Juventus: resultado final 2–0 (goals).",
+    "Falló Menos de 4,5 goles en Monza – Napoli: resultado final 1–4 (goals).",
+    "Falló Monza +1,5 en Monza – Napoli: resultado final 1–4 (goals).",
+    "0 partidos no tenían fijas principales publicadas; no se cuentan como fallos ni aciertos.",
+    "Combinada de 3: 3/3 selecciones cumplidas.",
+    "Combinada de 4: 3/4 selecciones cumplidas."
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "season": "2026/27",
-  "updated_at": "2026-10-26T23:34:22.610524+00:00",
+  "updated_at": "2026-10-29T21:36:33.333311+00:00",
   "source": "football-data.org",
   "source_url": "https://api.football-data.org/v4/competitions/FL1/standings",
   "tables": {
@@ -659,5 +659,5 @@
       }
     ]
   },
-  "current_matchday": 8
+  "current_matchday": 9
 }

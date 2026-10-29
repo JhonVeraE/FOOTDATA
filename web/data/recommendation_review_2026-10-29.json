@@ -1,0 +1,378 @@
+{
+  "date": "2026-10-29",
+  "reviewed_at": "2026-10-29T21:36:18.246107+00:00",
+  "frozen_shortlist_sha256": "14c8575484c8d1e43a0afac8da962c6e4acbdc0b177ccbdde427309835ecd0eb",
+  "matches": [
+    {
+      "fixture_id": "558558",
+      "home": "Frosinone",
+      "away": "Lecce",
+      "metrics": {
+        "goals": [
+          5,
+          1
+        ],
+        "shots": [
+          26,
+          15
+        ],
+        "sot": [
+          9,
+          6
+        ],
+        "fouls": [
+          10,
+          17
+        ],
+        "corners": [
+          10,
+          3
+        ],
+        "cards": [
+          0,
+          3
+        ]
+      },
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401874976/lecce-frosinone"
+    }
+  ],
+  "tiers": [
+    {
+      "fixture_id": "558558",
+      "selection_id": "handicap:total:away:2.5:",
+      "match": "Frosinone – Lecce",
+      "market": "Hándicap de goles",
+      "label": "Lecce +2,5",
+      "probability": 0.8353287266151943,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "goals",
+      "actual_home": 5,
+      "actual_away": 1,
+      "tier": "Conservadora"
+    },
+    {
+      "fixture_id": "558558",
+      "selection_id": "double_chance:total:12:None:",
+      "match": "Frosinone – Lecce",
+      "market": "Doble oportunidad",
+      "label": "Cualquiera gana, sin empate",
+      "probability": 0.7684795574155846,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 5,
+      "actual_away": 1,
+      "tier": "Normal"
+    },
+    {
+      "fixture_id": "558558",
+      "selection_id": "corners:away:over:3.5:",
+      "match": "Frosinone – Lecce",
+      "market": "Córners",
+      "label": "Lecce: más de 3,5 córners",
+      "probability": 0.5877468968045916,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "corners",
+      "actual_home": 10,
+      "actual_away": 3,
+      "tier": "Arriesgada"
+    },
+    {
+      "fixture_id": "558551",
+      "selection_id": "goals:total:under:4.5:",
+      "match": "Fiorentina – Atalanta",
+      "market": "Goles",
+      "label": "Menos de 4,5 goles",
+      "probability": 0.8409517751414034,
+      "status": "unverified",
+      "reason": "Encuentro todavía en juego al corte de la consulta; no se liquida ni se añade un marcador final.",
+      "tier": "Conservadora"
+    },
+    {
+      "fixture_id": "558551",
+      "selection_id": "double_chance:total:12:None:",
+      "match": "Fiorentina – Atalanta",
+      "market": "Doble oportunidad",
+      "label": "Cualquiera gana, sin empate",
+      "probability": 0.7434617496493272,
+      "status": "unverified",
+      "reason": "Encuentro todavía en juego al corte de la consulta; no se liquida ni se añade un marcador final.",
+      "tier": "Normal"
+    },
+    {
+      "fixture_id": "558551",
+      "selection_id": "btts:total:yes:None:",
+      "match": "Fiorentina – Atalanta",
+      "market": "Ambos marcan",
+      "label": "Ambos marcan: sí",
+      "probability": 0.5713148511441732,
+      "status": "unverified",
+      "reason": "Encuentro todavía en juego al corte de la consulta; no se liquida ni se añade un marcador final.",
+      "tier": "Arriesgada"
+    }
+  ],
+  "unique_selections": [
+    {
+      "fixture_id": "558558",
+      "selection_id": "double_chance:total:12:None:",
+      "match": "Frosinone – Lecce",
+      "market": "Doble oportunidad",
+      "label": "Cualquiera gana, sin empate",
+      "probability": 0.7684795574155846,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 5,
+      "actual_away": 1
+    },
+    {
+      "fixture_id": "558558",
+      "selection_id": "handicap:total:away:2.5:",
+      "match": "Frosinone – Lecce",
+      "market": "Hándicap de goles",
+      "label": "Lecce +2,5",
+      "probability": 0.8353287266151943,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "goals",
+      "actual_home": 5,
+      "actual_away": 1
+    },
+    {
+      "fixture_id": "558558",
+      "selection_id": "goals:total:over:1.5:",
+      "match": "Frosinone – Lecce",
+      "market": "Goles",
+      "label": "Más de 1,5 goles",
+      "probability": 0.7911781602068322,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 5,
+      "actual_away": 1
+    },
+    {
+      "fixture_id": "558558",
+      "selection_id": "shots:total:over:23.5:",
+      "match": "Frosinone – Lecce",
+      "market": "Remates",
+      "label": "Más de 23,5 remates totales",
+      "probability": 0.7349283342406308,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "shots",
+      "actual_home": 26,
+      "actual_away": 15
+    },
+    {
+      "fixture_id": "558558",
+      "selection_id": "sot:home:over:3.5:",
+      "match": "Frosinone – Lecce",
+      "market": "Tiros al arco",
+      "label": "Frosinone: más de 3,5 tiros al arco",
+      "probability": 0.7531955803987399,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "sot",
+      "actual_home": 9,
+      "actual_away": 6
+    },
+    {
+      "fixture_id": "558558",
+      "selection_id": "fouls:total:over:20.5:",
+      "match": "Frosinone – Lecce",
+      "market": "Faltas",
+      "label": "Más de 20,5 faltas totales",
+      "probability": 0.7376596722341309,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "fouls",
+      "actual_home": 10,
+      "actual_away": 17
+    },
+    {
+      "fixture_id": "558558",
+      "selection_id": "corners:away:over:2.5:",
+      "match": "Frosinone – Lecce",
+      "market": "Córners",
+      "label": "Lecce: más de 2,5 córners",
+      "probability": 0.7444920208469905,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "corners",
+      "actual_home": 10,
+      "actual_away": 3
+    },
+    {
+      "fixture_id": "558558",
+      "selection_id": "corners:away:over:3.5:",
+      "match": "Frosinone – Lecce",
+      "market": "Córners",
+      "label": "Lecce: más de 3,5 córners",
+      "probability": 0.5877468968045916,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "corners",
+      "actual_home": 10,
+      "actual_away": 3
+    },
+    {
+      "fixture_id": "558551",
+      "selection_id": "double_chance:total:12:None:",
+      "match": "Fiorentina – Atalanta",
+      "market": "Doble oportunidad",
+      "label": "Cualquiera gana, sin empate",
+      "probability": 0.7434617496493272,
+      "status": "unverified",
+      "reason": "Encuentro todavía en juego al corte de la consulta; no se liquida ni se añade un marcador final."
+    },
+    {
+      "fixture_id": "558551",
+      "selection_id": "handicap:total:home:1.5:",
+      "match": "Fiorentina – Atalanta",
+      "market": "Hándicap de goles",
+      "label": "Fiorentina +1,5",
+      "probability": 0.7595440205897565,
+      "status": "unverified",
+      "reason": "Encuentro todavía en juego al corte de la consulta; no se liquida ni se añade un marcador final."
+    },
+    {
+      "fixture_id": "558551",
+      "selection_id": "goals:total:under:3.5:",
+      "match": "Fiorentina – Atalanta",
+      "market": "Goles",
+      "label": "Menos de 3,5 goles",
+      "probability": 0.6824041905002846,
+      "status": "unverified",
+      "reason": "Encuentro todavía en juego al corte de la consulta; no se liquida ni se añade un marcador final."
+    },
+    {
+      "fixture_id": "558551",
+      "selection_id": "btts:total:yes:None:",
+      "match": "Fiorentina – Atalanta",
+      "market": "Ambos marcan",
+      "label": "Ambos marcan: sí",
+      "probability": 0.5713148511441732,
+      "status": "unverified",
+      "reason": "Encuentro todavía en juego al corte de la consulta; no se liquida ni se añade un marcador final."
+    },
+    {
+      "fixture_id": "558551",
+      "selection_id": "shots:away:under:14.5:",
+      "match": "Fiorentina – Atalanta",
+      "market": "Remates",
+      "label": "Atalanta: menos de 14,5 remates",
+      "probability": 0.7457247081431717,
+      "status": "unverified",
+      "reason": "Encuentro todavía en juego al corte de la consulta; no se liquida ni se añade un marcador final."
+    },
+    {
+      "fixture_id": "558551",
+      "selection_id": "sot:away:over:2.5:",
+      "match": "Fiorentina – Atalanta",
+      "market": "Tiros al arco",
+      "label": "Atalanta: más de 2,5 tiros al arco",
+      "probability": 0.7375117916903574,
+      "status": "unverified",
+      "reason": "Encuentro todavía en juego al corte de la consulta; no se liquida ni se añade un marcador final."
+    },
+    {
+      "fixture_id": "558551",
+      "selection_id": "fouls:away:under:16.5:",
+      "match": "Fiorentina – Atalanta",
+      "market": "Faltas",
+      "label": "Atalanta: menos de 16,5 faltas",
+      "probability": 0.7373720016805158,
+      "status": "unverified",
+      "reason": "Encuentro todavía en juego al corte de la consulta; no se liquida ni se añade un marcador final."
+    },
+    {
+      "fixture_id": "558551",
+      "selection_id": "corners:home:under:6.5:",
+      "match": "Fiorentina – Atalanta",
+      "market": "Córners",
+      "label": "Fiorentina: menos de 6,5 córners",
+      "probability": 0.7442025709249016,
+      "status": "unverified",
+      "reason": "Encuentro todavía en juego al corte de la consulta; no se liquida ni se añade un marcador final."
+    },
+    {
+      "fixture_id": "558551",
+      "selection_id": "goals:total:under:4.5:",
+      "match": "Fiorentina – Atalanta",
+      "market": "Goles",
+      "label": "Menos de 4,5 goles",
+      "probability": 0.8409517751414034,
+      "status": "unverified",
+      "reason": "Encuentro todavía en juego al corte de la consulta; no se liquida ni se añade un marcador final."
+    }
+  ],
+  "tier_summary": {
+    "selections": 6,
+    "settled": 3,
+    "won": 1,
+    "lost": 2,
+    "unverified": 3,
+    "hit_rate": 0.3333333333333333
+  },
+  "unique_summary": {
+    "selections": 17,
+    "settled": 8,
+    "won": 6,
+    "lost": 2,
+    "unverified": 9,
+    "hit_rate": 0.75
+  },
+  "by_tier": {
+    "Conservadora": {
+      "selections": 2,
+      "settled": 1,
+      "won": 0,
+      "lost": 1,
+      "unverified": 1,
+      "hit_rate": 0.0
+    },
+    "Normal": {
+      "selections": 2,
+      "settled": 1,
+      "won": 1,
+      "lost": 0,
+      "unverified": 1,
+      "hit_rate": 1.0
+    },
+    "Arriesgada": {
+      "selections": 2,
+      "settled": 1,
+      "won": 0,
+      "lost": 1,
+      "unverified": 1,
+      "hit_rate": 0.0
+    }
+  },
+  "parlays": [
+    {
+      "size": 3,
+      "status": "unavailable",
+      "probability_before_match": null,
+      "legs": []
+    },
+    {
+      "size": 4,
+      "status": "unavailable",
+      "probability_before_match": null,
+      "legs": []
+    }
+  ],
+  "analysis": [
+    "Fijas principales: 1/3. Mercados únicos: 6/8. Se conservan las probabilidades previas y se registran los resultados, sin reajustar el modelo con esta jornada.",
+    "Conservadora: 0/1 acertadas.",
+    "Normal: 1/1 acertadas.",
+    "Arriesgada: 0/1 acertadas.",
+    "Falló Lecce +2,5 en Frosinone – Lecce: resultado final 5–1 (goals).",
+    "Falló Lecce: más de 3,5 córners en Frosinone – Lecce: resultado final 10–3 (corners).",
+    "0 partidos no tenían fijas principales publicadas; no se cuentan como fallos ni aciertos.",
+    "Pendiente: Fiorentina – Atalanta. Encuentro todavía en juego al corte de la consulta; no se liquida ni se añade un marcador final. No se cuenta como acierto ni fallo."
+  ]
+}

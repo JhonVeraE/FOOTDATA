@@ -1,0 +1,484 @@
+{
+  "date": "2026-10-27",
+  "reviewed_at": "2026-10-29T21:35:39.218684+00:00",
+  "summary": {
+    "matches": 3,
+    "hits_1x2": 3,
+    "hits_exact": 0,
+    "hits_btts": 2,
+    "mean_absolute_errors": {
+      "goals": 3.356202537681156,
+      "shots": 6.217483567383013,
+      "sot": 3.5021914609370843,
+      "fouls": 7.558097331879536,
+      "corners": 5.023421547790509,
+      "cards": 2.4099424242814957
+    }
+  },
+  "matches": [
+    {
+      "fixture_id": "558556",
+      "date": "2026-10-27",
+      "league": "Serie A",
+      "home": "Sassuolo",
+      "away": "Lazio",
+      "generated_at": "2026-10-26T23:44:57.643062+00:00",
+      "kickoff_utc": "2026-10-27T17:30Z",
+      "forecast_original_date": "2026-10-27",
+      "forecast_original_kickoff_utc": "2026-10-27T17:30:00+00:00",
+      "schedule_change": null,
+      "probabilities": [
+        0.2729578172219336,
+        0.26436550480622895,
+        0.4626766779718374
+      ],
+      "actual_goals": [
+        2,
+        6
+      ],
+      "actual_outcome": 2,
+      "predicted_outcome": 2,
+      "hit_1x2": true,
+      "predicted_score": "1-1",
+      "actual_score": "2-6",
+      "hit_exact": false,
+      "btts_probability": 0.5377151435672187,
+      "hit_btts": true,
+      "brier": 0.43311144250939526,
+      "log_loss": 0.7707267885499407,
+      "goal_lines": [
+        {
+          "line": 0.5,
+          "hit": true
+        },
+        {
+          "line": 1.5,
+          "hit": true
+        },
+        {
+          "line": 2.5,
+          "hit": true
+        },
+        {
+          "line": 3.5,
+          "hit": false
+        }
+      ],
+      "statistics": [
+        {
+          "metric": "goals",
+          "forecast": [
+            1.1279942046878844,
+            1.5485023405601646
+          ],
+          "actual": [
+            2,
+            6
+          ],
+          "predicted_total": 2.6764965452480487,
+          "actual_total": 8,
+          "absolute_error_total": 5.323503454751951,
+          "interval_90": null,
+          "inside_interval": null
+        },
+        {
+          "metric": "shots",
+          "forecast": [
+            11.524574703487836,
+            12.8107442708808
+          ],
+          "actual": [
+            9,
+            16
+          ],
+          "predicted_total": 24.335318974368636,
+          "actual_total": 25,
+          "absolute_error_total": 0.6646810256313636,
+          "interval_90": null,
+          "inside_interval": null
+        },
+        {
+          "metric": "sot",
+          "forecast": [
+            3.670253134021456,
+            4.5388633918697225
+          ],
+          "actual": [
+            1,
+            8
+          ],
+          "predicted_total": 8.20911652589118,
+          "actual_total": 9,
+          "absolute_error_total": 0.7908834741088206,
+          "interval_90": null,
+          "inside_interval": null
+        },
+        {
+          "metric": "fouls",
+          "forecast": [
+            12.457175783301492,
+            11.080657968431035
+          ],
+          "actual": [
+            7,
+            13
+          ],
+          "predicted_total": 23.537833751732528,
+          "actual_total": 20,
+          "absolute_error_total": 3.537833751732528,
+          "interval_90": null,
+          "inside_interval": null
+        },
+        {
+          "metric": "corners",
+          "forecast": [
+            4.5951988285587335,
+            5.11170025866872
+          ],
+          "actual": [
+            2,
+            1
+          ],
+          "predicted_total": 9.706899087227454,
+          "actual_total": 3,
+          "absolute_error_total": 6.706899087227454,
+          "interval_90": [
+            4,
+            16
+          ],
+          "inside_interval": false
+        },
+        {
+          "metric": "cards",
+          "forecast": [
+            2.5502774188493595,
+            2.18190772509371
+          ],
+          "actual": [
+            2,
+            1
+          ],
+          "predicted_total": 4.732185143943069,
+          "actual_total": 3,
+          "absolute_error_total": 1.7321851439430693,
+          "interval_90": [
+            1,
+            9
+          ],
+          "inside_interval": true
+        }
+      ],
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401874980/lazio-sassuolo"
+    },
+    {
+      "fixture_id": "558555",
+      "date": "2026-10-27",
+      "league": "Serie A",
+      "home": "Roma",
+      "away": "Cagliari",
+      "generated_at": "2026-10-26T23:44:58.007307+00:00",
+      "kickoff_utc": "2026-10-27T19:45Z",
+      "forecast_original_date": "2026-10-27",
+      "forecast_original_kickoff_utc": "2026-10-27T19:45:00+00:00",
+      "schedule_change": null,
+      "probabilities": [
+        0.6501312524137199,
+        0.22077416165706537,
+        0.12909458592921474
+      ],
+      "actual_goals": [
+        4,
+        2
+      ],
+      "actual_outcome": 0,
+      "predicted_outcome": 0,
+      "hit_1x2": true,
+      "predicted_score": "1-0",
+      "actual_score": "4-2",
+      "hit_exact": false,
+      "btts_probability": 0.4383193099115948,
+      "hit_btts": false,
+      "brier": 0.1878147831092076,
+      "log_loss": 0.43058100968658614,
+      "goal_lines": [
+        {
+          "line": 0.5,
+          "hit": true
+        },
+        {
+          "line": 1.5,
+          "hit": true
+        },
+        {
+          "line": 2.5,
+          "hit": false
+        },
+        {
+          "line": 3.5,
+          "hit": false
+        }
+      ],
+      "statistics": [
+        {
+          "metric": "goals",
+          "forecast": [
+            1.9154824094890157,
+            0.7114314576149587
+          ],
+          "actual": [
+            4,
+            2
+          ],
+          "predicted_total": 2.6269138671039745,
+          "actual_total": 6,
+          "absolute_error_total": 3.3730861328960255,
+          "interval_90": null,
+          "inside_interval": null
+        },
+        {
+          "metric": "shots",
+          "forecast": [
+            16.426900073683253,
+            8.400093821616052
+          ],
+          "actual": [
+            20,
+            19
+          ],
+          "predicted_total": 24.826993895299303,
+          "actual_total": 39,
+          "absolute_error_total": 14.173006104700697,
+          "interval_90": null,
+          "inside_interval": null
+        },
+        {
+          "metric": "sot",
+          "forecast": [
+            5.317710821840282,
+            2.8072070326450174
+          ],
+          "actual": [
+            8,
+            8
+          ],
+          "predicted_total": 8.1249178544853,
+          "actual_total": 16,
+          "absolute_error_total": 7.8750821455147,
+          "interval_90": null,
+          "inside_interval": null
+        },
+        {
+          "metric": "fouls",
+          "forecast": [
+            11.900820691975321,
+            12.76915600616483
+          ],
+          "actual": [
+            8,
+            8
+          ],
+          "predicted_total": 24.66997669814015,
+          "actual_total": 16,
+          "absolute_error_total": 8.66997669814015,
+          "interval_90": null,
+          "inside_interval": null
+        },
+        {
+          "metric": "corners",
+          "forecast": [
+            5.735866997354423,
+            3.0188410067833336
+          ],
+          "actual": [
+            7,
+            8
+          ],
+          "predicted_total": 8.754708004137756,
+          "actual_total": 15,
+          "absolute_error_total": 6.245291995862244,
+          "interval_90": [
+            4,
+            14
+          ],
+          "inside_interval": false
+        },
+        {
+          "metric": "cards",
+          "forecast": [
+            1.596320480811363,
+            2.2552819345378823
+          ],
+          "actual": [
+            0,
+            1
+          ],
+          "predicted_total": 3.8516024153492454,
+          "actual_total": 1,
+          "absolute_error_total": 2.8516024153492454,
+          "interval_90": [
+            1,
+            7
+          ],
+          "inside_interval": true
+        }
+      ],
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401874780/cagliari-as-roma"
+    },
+    {
+      "fixture_id": "558557",
+      "date": "2026-10-27",
+      "league": "Serie A",
+      "home": "Torino",
+      "away": "Como",
+      "generated_at": "2026-10-26T23:44:58.367316+00:00",
+      "kickoff_utc": "2026-10-27T19:45Z",
+      "forecast_original_date": "2026-10-27",
+      "forecast_original_kickoff_utc": "2026-10-27T19:45:00+00:00",
+      "schedule_change": null,
+      "probabilities": [
+        0.20848914417388445,
+        0.25326619440938986,
+        0.5382446614167257
+      ],
+      "actual_goals": [
+        1,
+        3
+      ],
+      "actual_outcome": 2,
+      "predicted_outcome": 2,
+      "hit_1x2": true,
+      "predicted_score": "1-1",
+      "actual_score": "1-3",
+      "hit_exact": false,
+      "btts_probability": 0.5029078458893428,
+      "hit_btts": true,
+      "brier": 0.32082948117912796,
+      "log_loss": 0.6194420611951651,
+      "goal_lines": [
+        {
+          "line": 0.5,
+          "hit": true
+        },
+        {
+          "line": 1.5,
+          "hit": true
+        },
+        {
+          "line": 2.5,
+          "hit": false
+        },
+        {
+          "line": 3.5,
+          "hit": false
+        }
+      ],
+      "statistics": [
+        {
+          "metric": "goals",
+          "forecast": [
+            0.9462265890420021,
+            1.6817553855625067
+          ],
+          "actual": [
+            1,
+            3
+          ],
+          "predicted_total": 2.6279819746045088,
+          "actual_total": 4,
+          "absolute_error_total": 1.3720180253954912,
+          "interval_90": null,
+          "inside_interval": null
+        },
+        {
+          "metric": "shots",
+          "forecast": [
+            10.54010210095371,
+            14.64513432722931
+          ],
+          "actual": [
+            11,
+            18
+          ],
+          "predicted_total": 25.18523642818302,
+          "actual_total": 29,
+          "absolute_error_total": 3.814763571816979,
+          "interval_90": null,
+          "inside_interval": null
+        },
+        {
+          "metric": "sot",
+          "forecast": [
+            3.3291589197623126,
+            4.830232317049955
+          ],
+          "actual": [
+            5,
+            5
+          ],
+          "predicted_total": 8.159391236812267,
+          "actual_total": 10,
+          "absolute_error_total": 1.840608763187733,
+          "interval_90": null,
+          "inside_interval": null
+        },
+        {
+          "metric": "fouls",
+          "forecast": [
+            12.351729950627481,
+            11.114751595138447
+          ],
+          "actual": [
+            10,
+            3
+          ],
+          "predicted_total": 23.46648154576593,
+          "actual_total": 13,
+          "absolute_error_total": 10.46648154576593,
+          "interval_90": null,
+          "inside_interval": null
+        },
+        {
+          "metric": "corners",
+          "forecast": [
+            4.226305570963731,
+            4.65562086875444
+          ],
+          "actual": [
+            5,
+            6
+          ],
+          "predicted_total": 8.881926439718171,
+          "actual_total": 11,
+          "absolute_error_total": 2.118073560281829,
+          "interval_90": [
+            4,
+            15
+          ],
+          "inside_interval": true
+        },
+        {
+          "metric": "cards",
+          "forecast": [
+            1.8611148201450505,
+            1.7849248934071218
+          ],
+          "actual": [
+            1,
+            0
+          ],
+          "predicted_total": 3.646039713552172,
+          "actual_total": 1,
+          "absolute_error_total": 2.646039713552172,
+          "interval_90": [
+            1,
+            7
+          ],
+          "inside_interval": true
+        }
+      ],
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401874786/como-torino"
+    }
+  ],
+  "deferred": [],
+  "original_predictions_sha256": "6f35171c8fbdc85230abe1ac1a514c3b09af3b03c3ecd7f3fb7be312e4ae97f3"
+}

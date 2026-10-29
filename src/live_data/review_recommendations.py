@@ -56,7 +56,7 @@ def main(capture_dir,date,output=None):
     capture=Path(capture_dir);frozen_path=capture/'fijas_before_results.json'
     frozen=json.loads(frozen_path.read_text(encoding='utf-8'));review=json.loads((capture/'review.json').read_text(encoding='utf-8'))
     actual={m['fixture_id']:m for m in review['matches']};all_rows=[];tier_rows=[];matches=[];lookup={}
-    deferred={m['fixture_id']:m for m in review.get('deferred',[])}
+    deferred={m['fixture_id']:m for m in review.get('deferred',[])+review.get('pending',[])}
     if pd.Timestamp(frozen['generated_at'])>=min(pd.Timestamp(x['kickoff_utc']) for x in actual.values()):raise ValueError('Shortlist is not pre-match')
     for m in frozen['matches']:
         if m['date_lima']!=date and m['fixture_id'] not in actual:continue

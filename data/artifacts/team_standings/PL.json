@@ -1,6 +1,6 @@
 {
   "season": "2026/27",
-  "updated_at": "2026-10-26T23:34:19.051123+00:00",
+  "updated_at": "2026-10-29T21:36:27.441978+00:00",
   "source": "football-data.org",
   "source_url": "https://api.football-data.org/v4/competitions/PL/standings",
   "tables": {
@@ -731,5 +731,5 @@
       }
     ]
   },
-  "current_matchday": 8
+  "current_matchday": 9
 }

@@ -1,0 +1,188 @@
+{
+  "date": "2026-10-29",
+  "reviewed_at": "2026-10-29T21:36:17.927137+00:00",
+  "summary": {
+    "matches": 1,
+    "hits_1x2": 1,
+    "hits_exact": 0,
+    "hits_btts": 1,
+    "mean_absolute_errors": {
+      "goals": 3.091884906053902,
+      "shots": 13.020636041370842,
+      "sot": 5.553876967302584,
+      "fouls": 2.546381845431334,
+      "corners": 1.9063020479311703,
+      "cards": 0.6137537671194577
+    }
+  },
+  "matches": [
+    {
+      "fixture_id": "558558",
+      "date": "2026-10-29",
+      "league": "Serie A",
+      "home": "Frosinone",
+      "away": "Lecce",
+      "generated_at": "2026-10-26T23:45:00.314192+00:00",
+      "kickoff_utc": "2026-10-29T17:30Z",
+      "forecast_original_date": "2026-10-29",
+      "forecast_original_kickoff_utc": "2026-10-29T17:30:00+00:00",
+      "schedule_change": null,
+      "probabilities": [
+        0.5758452943269152,
+        0.23152044258441548,
+        0.1926342630886694
+      ],
+      "actual_goals": [
+        5,
+        1
+      ],
+      "actual_outcome": 0,
+      "predicted_outcome": 0,
+      "hit_1x2": true,
+      "predicted_score": "1-1",
+      "actual_score": "5-1",
+      "hit_exact": false,
+      "btts_probability": 0.5434819945979046,
+      "hit_btts": true,
+      "brier": 0.2706168889948195,
+      "log_loss": 0.5519162405999836,
+      "goal_lines": [
+        {
+          "line": 0.5,
+          "hit": true
+        },
+        {
+          "line": 1.5,
+          "hit": true
+        },
+        {
+          "line": 2.5,
+          "hit": true
+        },
+        {
+          "line": 3.5,
+          "hit": false
+        }
+      ],
+      "statistics": [
+        {
+          "metric": "goals",
+          "forecast": [
+            1.9050728593479684,
+            1.0030422345981296
+          ],
+          "actual": [
+            5,
+            1
+          ],
+          "predicted_total": 2.908115093946098,
+          "actual_total": 6,
+          "absolute_error_total": 3.091884906053902,
+          "interval_90": null,
+          "inside_interval": null
+        },
+        {
+          "metric": "shots",
+          "forecast": [
+            15.051677607267875,
+            12.927686351361281
+          ],
+          "actual": [
+            26,
+            15
+          ],
+          "predicted_total": 27.979363958629158,
+          "actual_total": 41,
+          "absolute_error_total": 13.020636041370842,
+          "interval_90": null,
+          "inside_interval": null
+        },
+        {
+          "metric": "sot",
+          "forecast": [
+            5.636878097101435,
+            3.809244935595982
+          ],
+          "actual": [
+            9,
+            6
+          ],
+          "predicted_total": 9.446123032697416,
+          "actual_total": 15,
+          "absolute_error_total": 5.553876967302584,
+          "interval_90": null,
+          "inside_interval": null
+        },
+        {
+          "metric": "fouls",
+          "forecast": [
+            11.297090118027,
+            13.156528036541665
+          ],
+          "actual": [
+            10,
+            17
+          ],
+          "predicted_total": 24.453618154568666,
+          "actual_total": 27,
+          "absolute_error_total": 2.546381845431334,
+          "interval_90": null,
+          "inside_interval": null
+        },
+        {
+          "metric": "corners",
+          "forecast": [
+            6.639714790332705,
+            4.453983161736125
+          ],
+          "actual": [
+            10,
+            3
+          ],
+          "predicted_total": 11.09369795206883,
+          "actual_total": 13,
+          "absolute_error_total": 1.9063020479311703,
+          "interval_90": [
+            5,
+            18
+          ],
+          "inside_interval": true
+        },
+        {
+          "metric": "cards",
+          "forecast": [
+            1.457431291341385,
+            2.156322475778073
+          ],
+          "actual": [
+            0,
+            3
+          ],
+          "predicted_total": 3.6137537671194577,
+          "actual_total": 3,
+          "absolute_error_total": 0.6137537671194577,
+          "interval_90": [
+            1,
+            7
+          ],
+          "inside_interval": true
+        }
+      ],
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401874976/lecce-frosinone"
+    }
+  ],
+  "deferred": [],
+  "pending": [
+    {
+      "fixture_id": "558551",
+      "date": "2026-10-29",
+      "home": "Fiorentina",
+      "away": "Atalanta",
+      "espn_event_id": "401874969",
+      "provider_status": "IN_PLAY",
+      "reason": "Encuentro todavía en juego al corte de la consulta; no se liquida ni se añade un marcador final.",
+      "source_url": "https://api.football-data.org/v4/matches?dateFrom=2026-10-27&dateTo=2026-10-30"
+    }
+  ],
+  "original_predictions_sha256": "6f35171c8fbdc85230abe1ac1a514c3b09af3b03c3ecd7f3fb7be312e4ae97f3"
+}
