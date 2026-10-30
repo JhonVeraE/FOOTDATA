@@ -1,0 +1,175 @@
+{
+  "captured_at": "2026-10-30T04:45:15.569477+00:00",
+  "provider": "Sofascore",
+  "sofascore_event_id": 16285057,
+  "fixture_id": "558551",
+  "espn_event_id": "401874969",
+  "url": "https://www.sofascore.com/football/match/atalanta-fiorentina/#id:16285057,tab:statistics",
+  "api_endpoints": [
+    "https://www.sofascore.com/api/v1/event/16285057",
+    "https://www.sofascore.com/api/v1/event/16285057/statistics",
+    "https://www.sofascore.com/api/v1/event/16285057/incidents",
+    "https://www.sofascore.com/api/v1/team/2693/events/last/0"
+  ],
+  "status": {
+    "code": 100,
+    "description": "Ended",
+    "type": "finished"
+  },
+  "kickoff_utc": "2026-10-29T19:45:00Z",
+  "round": 9,
+  "home": "Fiorentina",
+  "away": "Atalanta",
+  "score": {
+    "home": {
+      "current": 2,
+      "period1": 0,
+      "period2": 2
+    },
+    "away": {
+      "current": 2,
+      "period1": 1,
+      "period2": 1
+    }
+  },
+  "period": "ALL",
+  "statistics_ALL": {
+    "ballPossession": [
+      50,
+      50
+    ],
+    "expectedGoals": [
+      1.51,
+      1.01
+    ],
+    "totalShotsOnGoal": [
+      26,
+      10
+    ],
+    "shotsOnGoal": [
+      4,
+      5
+    ],
+    "shotsOffGoal": [
+      14,
+      2
+    ],
+    "blockedScoringAttempt": [
+      8,
+      3
+    ],
+    "cornerKicks": [
+      8,
+      2
+    ],
+    "fouls": [
+      10,
+      13
+    ],
+    "yellowCards": [
+      3,
+      2
+    ],
+    "redCards": "no listado por Sofascore",
+    "goalkeeperSaves": [
+      3,
+      2
+    ],
+    "offsides": [
+      0,
+      1
+    ],
+    "passes": [
+      466,
+      481
+    ],
+    "freeKicks": [
+      13,
+      10
+    ]
+  },
+  "incidents": {
+    "goals": [
+      [
+        41,
+        "A",
+        "Charles De Ketelaere"
+      ],
+      [
+        53,
+        "H",
+        "Alieu Njie"
+      ],
+      [
+        61,
+        "H",
+        "João Mário"
+      ],
+      [
+        74,
+        "A",
+        "Nicola Zalewski"
+      ]
+    ],
+    "cards": [
+      [
+        12,
+        "A",
+        "yellow",
+        "Eljif Elmas"
+      ],
+      [
+        30,
+        "H",
+        "yellow",
+        "Viery"
+      ],
+      [
+        51,
+        "H",
+        "yellow",
+        "Mateo Pellegrino"
+      ],
+      [
+        75,
+        "H",
+        "yellow",
+        "Wilfried Gnonto"
+      ],
+      [
+        83,
+        "A",
+        "yellow",
+        "Relja Obrić"
+      ]
+    ],
+    "red_cards": 0,
+    "note": "La cronología no contiene tarjetas rojas; por eso red=0. Amarillas 3-2 coinciden con la tabla de estadísticas."
+  },
+  "mapping": {
+    "shots": "totalShotsOnGoal (Total shots)",
+    "sot": "shotsOnGoal (Shots on target)",
+    "fouls": "fouls",
+    "corners": "cornerKicks",
+    "cards": "yellowCards + redCards"
+  },
+  "score_cross_checks": [
+    {
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/match/_/gameId/401874969",
+      "score": "2-2"
+    },
+    {
+      "source": "Virgilio Sport",
+      "url": "https://www.virgilio.it/sport/dirette/live/serie-a/29-10-2026/fiorentina-atalanta/2638202/",
+      "score": "2-2"
+    },
+    {
+      "source": "ViolaNews",
+      "url": "https://www.violanews.com/cronaca-live/fiorentina-atalanta-segui-la-diretta-su-violanews-com-dalle-ore-20-45/",
+      "score": "2-2"
+    }
+  ],
+  "football_data_org": "No consultado: sin acceso de red a la API desde este entorno; el calendario seguía IN_PLAY. Se actualiza con evidencia de Sofascore + contraste independiente.",
+  "discrepancy_note": "El reportaje de Sofascore News citó xG 1.64-1.14; las estadísticas finales del evento muestran 1.51-1.01. No afecta a las columnas de la base."
+}

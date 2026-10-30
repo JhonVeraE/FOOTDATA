@@ -1,6 +1,6 @@
 {
   "date": "2026-10-29",
-  "reviewed_at": "2026-10-29T21:36:18.246107+00:00",
+  "reviewed_at": "2026-10-30T04:46:22.291107+00:00",
   "frozen_shortlist_sha256": "14c8575484c8d1e43a0afac8da962c6e4acbdc0b177ccbdde427309835ecd0eb",
   "matches": [
     {
@@ -34,6 +34,38 @@
         ]
       },
       "source_url": "https://www.espn.com/soccer/match/_/gameId/401874976/lecce-frosinone"
+    },
+    {
+      "fixture_id": "558551",
+      "home": "Fiorentina",
+      "away": "Atalanta",
+      "metrics": {
+        "goals": [
+          2,
+          2
+        ],
+        "shots": [
+          26,
+          10
+        ],
+        "sot": [
+          4,
+          5
+        ],
+        "fouls": [
+          10,
+          13
+        ],
+        "corners": [
+          8,
+          2
+        ],
+        "cards": [
+          3,
+          2
+        ]
+      },
+      "source_url": "https://www.sofascore.com/football/match/atalanta-fiorentina/#id:16285057,tab:statistics"
     }
   ],
   "tiers": [
@@ -86,8 +118,11 @@
       "market": "Goles",
       "label": "Menos de 4,5 goles",
       "probability": 0.8409517751414034,
-      "status": "unverified",
-      "reason": "Encuentro todavía en juego al corte de la consulta; no se liquida ni se añade un marcador final.",
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 2,
       "tier": "Conservadora"
     },
     {
@@ -97,8 +132,11 @@
       "market": "Doble oportunidad",
       "label": "Cualquiera gana, sin empate",
       "probability": 0.7434617496493272,
-      "status": "unverified",
-      "reason": "Encuentro todavía en juego al corte de la consulta; no se liquida ni se añade un marcador final.",
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 2,
       "tier": "Normal"
     },
     {
@@ -108,8 +146,11 @@
       "market": "Ambos marcan",
       "label": "Ambos marcan: sí",
       "probability": 0.5713148511441732,
-      "status": "unverified",
-      "reason": "Encuentro todavía en juego al corte de la consulta; no se liquida ni se añade un marcador final.",
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 2,
       "tier": "Arriesgada"
     }
   ],
@@ -225,8 +266,11 @@
       "market": "Doble oportunidad",
       "label": "Cualquiera gana, sin empate",
       "probability": 0.7434617496493272,
-      "status": "unverified",
-      "reason": "Encuentro todavía en juego al corte de la consulta; no se liquida ni se añade un marcador final."
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 2
     },
     {
       "fixture_id": "558551",
@@ -235,8 +279,11 @@
       "market": "Hándicap de goles",
       "label": "Fiorentina +1,5",
       "probability": 0.7595440205897565,
-      "status": "unverified",
-      "reason": "Encuentro todavía en juego al corte de la consulta; no se liquida ni se añade un marcador final."
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 2
     },
     {
       "fixture_id": "558551",
@@ -245,8 +292,11 @@
       "market": "Goles",
       "label": "Menos de 3,5 goles",
       "probability": 0.6824041905002846,
-      "status": "unverified",
-      "reason": "Encuentro todavía en juego al corte de la consulta; no se liquida ni se añade un marcador final."
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 2
     },
     {
       "fixture_id": "558551",
@@ -255,8 +305,11 @@
       "market": "Ambos marcan",
       "label": "Ambos marcan: sí",
       "probability": 0.5713148511441732,
-      "status": "unverified",
-      "reason": "Encuentro todavía en juego al corte de la consulta; no se liquida ni se añade un marcador final."
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 2
     },
     {
       "fixture_id": "558551",
@@ -265,8 +318,11 @@
       "market": "Remates",
       "label": "Atalanta: menos de 14,5 remates",
       "probability": 0.7457247081431717,
-      "status": "unverified",
-      "reason": "Encuentro todavía en juego al corte de la consulta; no se liquida ni se añade un marcador final."
+      "status": "won",
+      "hit": true,
+      "actual_metric": "shots",
+      "actual_home": 26,
+      "actual_away": 10
     },
     {
       "fixture_id": "558551",
@@ -275,8 +331,11 @@
       "market": "Tiros al arco",
       "label": "Atalanta: más de 2,5 tiros al arco",
       "probability": 0.7375117916903574,
-      "status": "unverified",
-      "reason": "Encuentro todavía en juego al corte de la consulta; no se liquida ni se añade un marcador final."
+      "status": "won",
+      "hit": true,
+      "actual_metric": "sot",
+      "actual_home": 4,
+      "actual_away": 5
     },
     {
       "fixture_id": "558551",
@@ -285,8 +344,11 @@
       "market": "Faltas",
       "label": "Atalanta: menos de 16,5 faltas",
       "probability": 0.7373720016805158,
-      "status": "unverified",
-      "reason": "Encuentro todavía en juego al corte de la consulta; no se liquida ni se añade un marcador final."
+      "status": "won",
+      "hit": true,
+      "actual_metric": "fouls",
+      "actual_home": 10,
+      "actual_away": 13
     },
     {
       "fixture_id": "558551",
@@ -295,8 +357,11 @@
       "market": "Córners",
       "label": "Fiorentina: menos de 6,5 córners",
       "probability": 0.7442025709249016,
-      "status": "unverified",
-      "reason": "Encuentro todavía en juego al corte de la consulta; no se liquida ni se añade un marcador final."
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "corners",
+      "actual_home": 8,
+      "actual_away": 2
     },
     {
       "fixture_id": "558551",
@@ -305,50 +370,53 @@
       "market": "Goles",
       "label": "Menos de 4,5 goles",
       "probability": 0.8409517751414034,
-      "status": "unverified",
-      "reason": "Encuentro todavía en juego al corte de la consulta; no se liquida ni se añade un marcador final."
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 2
     }
   ],
   "tier_summary": {
     "selections": 6,
-    "settled": 3,
-    "won": 1,
-    "lost": 2,
-    "unverified": 3,
-    "hit_rate": 0.3333333333333333
+    "settled": 6,
+    "won": 3,
+    "lost": 3,
+    "unverified": 0,
+    "hit_rate": 0.5
   },
   "unique_summary": {
     "selections": 17,
-    "settled": 8,
-    "won": 6,
-    "lost": 2,
-    "unverified": 9,
-    "hit_rate": 0.75
+    "settled": 17,
+    "won": 12,
+    "lost": 5,
+    "unverified": 0,
+    "hit_rate": 0.7058823529411765
   },
   "by_tier": {
     "Conservadora": {
       "selections": 2,
-      "settled": 1,
-      "won": 0,
+      "settled": 2,
+      "won": 1,
       "lost": 1,
-      "unverified": 1,
-      "hit_rate": 0.0
+      "unverified": 0,
+      "hit_rate": 0.5
     },
     "Normal": {
       "selections": 2,
-      "settled": 1,
+      "settled": 2,
       "won": 1,
-      "lost": 0,
-      "unverified": 1,
-      "hit_rate": 1.0
+      "lost": 1,
+      "unverified": 0,
+      "hit_rate": 0.5
     },
     "Arriesgada": {
       "selections": 2,
-      "settled": 1,
-      "won": 0,
+      "settled": 2,
+      "won": 1,
       "lost": 1,
-      "unverified": 1,
-      "hit_rate": 0.0
+      "unverified": 0,
+      "hit_rate": 0.5
     }
   },
   "parlays": [
@@ -366,13 +434,13 @@
     }
   ],
   "analysis": [
-    "Fijas principales: 1/3. Mercados únicos: 6/8. Se conservan las probabilidades previas y se registran los resultados, sin reajustar el modelo con esta jornada.",
-    "Conservadora: 0/1 acertadas.",
-    "Normal: 1/1 acertadas.",
-    "Arriesgada: 0/1 acertadas.",
+    "Fijas principales: 3/6. Mercados únicos: 12/17. Se conservan las probabilidades previas y se registran los resultados, sin reajustar el modelo con esta jornada.",
+    "Conservadora: 1/2 acertadas.",
+    "Normal: 1/2 acertadas.",
+    "Arriesgada: 1/2 acertadas.",
     "Falló Lecce +2,5 en Frosinone – Lecce: resultado final 5–1 (goals).",
     "Falló Lecce: más de 3,5 córners en Frosinone – Lecce: resultado final 10–3 (corners).",
-    "0 partidos no tenían fijas principales publicadas; no se cuentan como fallos ni aciertos.",
-    "Pendiente: Fiorentina – Atalanta. Encuentro todavía en juego al corte de la consulta; no se liquida ni se añade un marcador final. No se cuenta como acierto ni fallo."
+    "Falló Cualquiera gana, sin empate en Fiorentina – Atalanta: resultado final 2–2 (goals).",
+    "0 partidos no tenían fijas principales publicadas; no se cuentan como fallos ni aciertos."
   ]
 }

@@ -2,8 +2,8 @@
   "season": "2026/27",
   "as_of": "2026-10-29",
   "source": "Sofascore full-match ALL statistics for original rounds; ESPN final boxscores for subsequent updates, with independently checked scores.",
-  "matches": 403,
-  "rows": 806,
+  "matches": 404,
+  "rows": 808,
   "columns": [
     "match_id",
     "date",
@@ -5591,6 +5591,24 @@
       "provider": "ESPN",
       "statistics_endpoint": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/summary?event=401874976",
       "score_verification_url": "https://api.football-data.org/v4/matches?dateFrom=2026-10-27&dateTo=2026-10-30"
+    },
+    {
+      "match_id": "Serie A_2026/27_sofascore_16285057",
+      "fixture_id": "558551",
+      "sofascore_event_id": "16285057",
+      "espn_event_id": "401874969",
+      "date": "2026-10-29",
+      "league": "Serie A",
+      "round": 9,
+      "home": "Fiorentina",
+      "away": "Atalanta",
+      "yellow_home": 3,
+      "yellow_away": 2,
+      "red_home": 0,
+      "red_away": 0,
+      "url": "https://www.sofascore.com/football/match/atalanta-fiorentina/#id:16285057,tab:statistics",
+      "provider": "Sofascore",
+      "evidence": "data/artifacts/review_20261029_fiorentina_atalanta/sofascore_16285057.json"
     }
   ],
   "leagues": [

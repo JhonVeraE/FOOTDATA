@@ -1,0 +1,807 @@
+match_id,date,league,is_home,team,opponent,goals_for,goals_against,shots_for,shots_against,sot_for,sot_against,fouls_for,fouls_against,corners_for,corners_against,cards_for,cards_against
+La Liga_2026/27_sofascore_16421047,2026-08-15,La Liga,True,Alaves,Getafe,3,0,18,6,8,2,16,13,5,3,4,4
+La Liga_2026/27_sofascore_16421047,2026-08-15,La Liga,False,Getafe,Alaves,0,3,6,18,2,8,13,16,3,5,4,4
+La Liga_2026/27_sofascore_16421052,2026-08-15,La Liga,True,Sevilla,Vallecano,2,1,13,6,4,3,18,18,1,2,5,4
+La Liga_2026/27_sofascore_16421052,2026-08-15,La Liga,False,Vallecano,Sevilla,1,2,6,13,3,4,18,18,2,1,4,5
+La Liga_2026/27_sofascore_16421053,2026-08-16,La Liga,True,Espanol,Levante,3,0,16,4,6,0,17,7,0,1,3,0
+La Liga_2026/27_sofascore_16421053,2026-08-16,La Liga,False,Levante,Espanol,0,3,4,16,0,6,7,17,1,0,0,3
+La Liga_2026/27_sofascore_16421061,2026-08-16,La Liga,True,Santander,Villarreal,2,2,17,12,3,7,14,14,6,10,2,4
+La Liga_2026/27_sofascore_16421061,2026-08-16,La Liga,False,Villarreal,Santander,2,2,12,17,7,3,14,14,10,6,4,2
+La Liga_2026/27_sofascore_16421050,2026-08-17,La Liga,True,La Coruna,Elche,1,1,8,11,3,6,17,12,2,6,2,2
+La Liga_2026/27_sofascore_16421050,2026-08-17,La Liga,False,Elche,La Coruna,1,1,11,8,6,3,12,17,6,2,2,2
+La Liga_2026/27_sofascore_16421055,2026-08-19,La Liga,True,Ath Madrid,Malaga,2,0,15,5,6,1,17,11,6,1,2,3
+La Liga_2026/27_sofascore_16421055,2026-08-19,La Liga,False,Malaga,Ath Madrid,0,2,5,15,1,6,11,17,1,6,3,2
+La Liga_2026/27_sofascore_16416292,2026-08-20,La Liga,True,Vallecano,Alaves,1,1,8,15,3,3,14,13,9,7,1,2
+La Liga_2026/27_sofascore_16416292,2026-08-20,La Liga,False,Alaves,Vallecano,1,1,15,8,3,3,13,14,7,9,2,1
+La Liga_2026/27_sofascore_16416293,2026-08-21,La Liga,True,Betis,Sociedad,1,0,18,9,7,3,9,12,4,5,3,3
+La Liga_2026/27_sofascore_16416293,2026-08-21,La Liga,False,Sociedad,Betis,0,1,9,18,3,7,12,9,5,4,3,3
+La Liga_2026/27_sofascore_16416298,2026-08-22,La Liga,True,Valencia,Celta,0,0,8,7,2,3,17,17,1,2,2,3
+La Liga_2026/27_sofascore_16416298,2026-08-22,La Liga,False,Celta,Valencia,0,0,7,8,3,2,17,17,2,1,3,2
+La Liga_2026/27_sofascore_16416301,2026-08-22,La Liga,True,Ath Bilbao,Sevilla,1,3,18,7,8,4,11,16,10,3,3,4
+La Liga_2026/27_sofascore_16416301,2026-08-22,La Liga,False,Sevilla,Ath Bilbao,3,1,7,18,4,8,16,11,3,10,4,3
+La Liga_2026/27_sofascore_16416306,2026-08-22,La Liga,True,Espanol,Real Madrid,1,2,8,21,3,8,19,7,0,8,5,1
+La Liga_2026/27_sofascore_16416306,2026-08-22,La Liga,False,Real Madrid,Espanol,2,1,21,8,8,3,7,19,8,0,1,5
+La Liga_2026/27_sofascore_16416300,2026-08-23,La Liga,True,Getafe,Santander,1,0,12,6,1,3,14,17,8,6,1,3
+La Liga_2026/27_sofascore_16416300,2026-08-23,La Liga,False,Santander,Getafe,0,1,6,12,3,1,17,14,6,8,3,1
+La Liga_2026/27_sofascore_16416302,2026-08-23,La Liga,True,Ath Madrid,Villarreal,2,2,19,13,4,6,12,13,5,3,4,2
+La Liga_2026/27_sofascore_16416302,2026-08-23,La Liga,False,Villarreal,Ath Madrid,2,2,13,19,6,4,13,12,3,5,2,4
+La Liga_2026/27_sofascore_16416311,2026-08-23,La Liga,True,Elche,Barcelona,0,5,7,11,2,7,13,12,3,1,1,0
+La Liga_2026/27_sofascore_16416311,2026-08-23,La Liga,False,Barcelona,Elche,5,0,11,7,7,2,12,13,1,3,0,1
+La Liga_2026/27_sofascore_16416296,2026-08-24,La Liga,True,Osasuna,Levante,0,0,12,11,7,1,9,12,9,4,2,1
+La Liga_2026/27_sofascore_16416296,2026-08-24,La Liga,False,Levante,Osasuna,0,0,11,12,1,7,12,9,4,9,1,2
+La Liga_2026/27_sofascore_16416307,2026-08-24,La Liga,True,Malaga,La Coruna,1,1,13,6,2,4,12,12,7,4,1,4
+La Liga_2026/27_sofascore_16416307,2026-08-24,La Liga,False,La Coruna,Malaga,1,1,6,13,4,2,12,12,4,7,4,1
+La Liga_2026/27_sofascore_16421049,2026-08-25,La Liga,True,Valencia,Betis,0,1,16,15,3,3,10,11,8,2,2,1
+La Liga_2026/27_sofascore_16421049,2026-08-25,La Liga,False,Betis,Valencia,1,0,15,16,3,3,11,10,2,8,1,2
+La Liga_2026/27_sofascore_16421051,2026-08-26,La Liga,True,Real Madrid,Sociedad,4,1,20,10,11,3,10,8,4,7,3,3
+La Liga_2026/27_sofascore_16421051,2026-08-26,La Liga,False,Sociedad,Real Madrid,1,4,10,20,3,11,8,10,7,4,3,3
+La Liga_2026/27_sofascore_16421059,2026-08-27,La Liga,True,Barcelona,Ath Bilbao,2,0,22,5,10,0,13,6,12,5,1,2
+La Liga_2026/27_sofascore_16421059,2026-08-27,La Liga,False,Ath Bilbao,Barcelona,0,2,5,22,0,10,6,13,5,12,2,1
+La Liga_2026/27_sofascore_16815992,2026-08-27,La Liga,True,Celta,Osasuna,1,2,4,13,2,5,7,16,5,3,2,1
+La Liga_2026/27_sofascore_16815992,2026-08-27,La Liga,False,Osasuna,Celta,2,1,13,4,5,2,16,7,3,5,1,2
+La Liga_2026/27_sofascore_16416290,2026-08-28,La Liga,True,Alaves,Villarreal,1,0,9,19,2,6,15,8,5,9,3,1
+La Liga_2026/27_sofascore_16416290,2026-08-28,La Liga,False,Villarreal,Alaves,0,1,19,9,6,2,8,15,9,5,1,3
+La Liga_2026/27_sofascore_16416304,2026-08-28,La Liga,True,Santander,Elche,3,2,13,18,6,7,17,19,5,10,2,1
+La Liga_2026/27_sofascore_16416304,2026-08-28,La Liga,False,Elche,Santander,2,3,18,13,7,6,19,17,10,5,1,2
+La Liga_2026/27_sofascore_16416309,2026-08-29,La Liga,True,Levante,Betis,5,2,19,20,10,6,9,7,5,8,1,1
+La Liga_2026/27_sofascore_16416309,2026-08-29,La Liga,False,Betis,Levante,2,5,20,19,6,10,7,9,8,5,1,1
+La Liga_2026/27_sofascore_16416310,2026-08-29,La Liga,True,Sociedad,Espanol,2,1,18,11,10,3,19,14,7,3,2,4
+La Liga_2026/27_sofascore_16416310,2026-08-29,La Liga,False,Espanol,Sociedad,1,2,11,18,3,10,14,19,3,7,4,2
+La Liga_2026/27_sofascore_16416316,2026-08-29,La Liga,True,Sevilla,Ath Madrid,1,3,20,12,5,5,20,16,4,2,2,2
+La Liga_2026/27_sofascore_16416316,2026-08-29,La Liga,False,Ath Madrid,Sevilla,3,1,12,20,5,5,16,20,2,4,2,2
+La Liga_2026/27_sofascore_16416291,2026-08-30,La Liga,True,La Coruna,Valencia,3,1,11,12,4,4,14,5,5,5,3,1
+La Liga_2026/27_sofascore_16416291,2026-08-30,La Liga,False,Valencia,La Coruna,1,3,12,11,4,4,5,14,5,5,1,3
+La Liga_2026/27_sofascore_16416308,2026-08-30,La Liga,True,Celta,Ath Bilbao,0,2,8,17,2,7,8,17,4,7,0,2
+La Liga_2026/27_sofascore_16416308,2026-08-30,La Liga,False,Ath Bilbao,Celta,2,0,17,8,7,2,17,8,7,4,2,0
+La Liga_2026/27_sofascore_16416312,2026-08-30,La Liga,True,Real Madrid,Malaga,4,0,19,14,8,1,6,9,9,6,0,2
+La Liga_2026/27_sofascore_16416312,2026-08-30,La Liga,False,Malaga,Real Madrid,0,4,14,19,1,8,9,6,6,9,2,0
+La Liga_2026/27_sofascore_16416295,2026-08-31,La Liga,True,Barcelona,Vallecano,5,2,26,11,9,5,4,11,9,5,0,1
+La Liga_2026/27_sofascore_16416295,2026-08-31,La Liga,False,Vallecano,Barcelona,2,5,11,26,5,9,11,4,5,9,1,0
+La Liga_2026/27_sofascore_16416314,2026-08-31,La Liga,True,Osasuna,Getafe,1,0,10,11,2,1,17,14,1,3,5,4
+La Liga_2026/27_sofascore_16416314,2026-08-31,La Liga,False,Getafe,Osasuna,0,1,11,10,1,2,14,17,3,1,4,5
+La Liga_2026/27_sofascore_16416340,2026-09-03,La Liga,True,Sociedad,Celta,0,0,16,7,5,2,15,11,11,3,2,3
+La Liga_2026/27_sofascore_16416340,2026-09-03,La Liga,False,Celta,Sociedad,0,0,7,16,2,5,11,15,3,11,3,2
+La Liga_2026/27_sofascore_16416315,2026-09-04,La Liga,True,Betis,Real Madrid,1,0,10,20,5,8,11,13,6,10,3,4
+La Liga_2026/27_sofascore_16416315,2026-09-04,La Liga,False,Real Madrid,Betis,0,1,20,10,8,5,13,11,10,6,4,3
+La Liga_2026/27_sofascore_16416317,2026-09-05,La Liga,True,Ath Bilbao,Ath Madrid,3,0,11,15,4,5,8,6,3,8,0,1
+La Liga_2026/27_sofascore_16416317,2026-09-05,La Liga,False,Ath Madrid,Ath Bilbao,0,3,15,11,5,4,6,8,8,3,1,0
+La Liga_2026/27_sofascore_16416321,2026-09-05,La Liga,True,Vallecano,Santander,3,2,16,9,10,4,15,12,9,6,5,2
+La Liga_2026/27_sofascore_16416321,2026-09-05,La Liga,False,Santander,Vallecano,2,3,9,16,4,10,12,15,6,9,2,5
+La Liga_2026/27_sofascore_16416324,2026-09-05,La Liga,True,Villarreal,La Coruna,2,3,17,8,5,3,14,14,7,1,2,2
+La Liga_2026/27_sofascore_16416324,2026-09-05,La Liga,False,La Coruna,Villarreal,3,2,8,17,3,5,14,14,1,7,2,2
+La Liga_2026/27_sofascore_16416318,2026-09-06,La Liga,True,Alaves,Osasuna,5,2,12,7,7,5,14,13,4,1,1,2
+La Liga_2026/27_sofascore_16416318,2026-09-06,La Liga,False,Osasuna,Alaves,2,5,7,12,5,7,13,14,1,4,2,1
+La Liga_2026/27_sofascore_16416320,2026-09-06,La Liga,True,Malaga,Levante,0,0,10,11,3,3,15,11,6,4,4,2
+La Liga_2026/27_sofascore_16416320,2026-09-06,La Liga,False,Levante,Malaga,0,0,11,10,3,3,11,15,4,6,2,4
+La Liga_2026/27_sofascore_16416323,2026-09-06,La Liga,True,Espanol,Sevilla,1,1,12,6,3,3,17,13,0,4,2,4
+La Liga_2026/27_sofascore_16416323,2026-09-06,La Liga,False,Sevilla,Espanol,1,1,6,12,3,3,13,17,4,0,4,2
+La Liga_2026/27_sofascore_16416325,2026-09-06,La Liga,True,Valencia,Barcelona,0,5,3,25,2,10,7,6,1,4,1,3
+La Liga_2026/27_sofascore_16416325,2026-09-06,La Liga,False,Barcelona,Valencia,5,0,25,3,10,2,6,7,4,1,3,1
+La Liga_2026/27_sofascore_16416319,2026-09-07,La Liga,True,Elche,Sociedad,2,3,20,13,10,6,9,8,6,7,4,2
+La Liga_2026/27_sofascore_16416319,2026-09-07,La Liga,False,Sociedad,Elche,3,2,13,20,6,10,8,9,7,6,2,4
+La Liga_2026/27_sofascore_16416348,2026-09-07,La Liga,True,Getafe,Celta,1,1,10,16,2,3,8,9,3,5,5,2
+La Liga_2026/27_sofascore_16416348,2026-09-07,La Liga,False,Celta,Getafe,1,1,16,10,3,2,9,8,5,3,2,5
+La Liga_2026/27_sofascore_16416330,2026-09-11,La Liga,True,Sevilla,Valencia,1,0,13,3,4,0,8,12,6,4,1,2
+La Liga_2026/27_sofascore_16416330,2026-09-11,La Liga,False,Valencia,Sevilla,0,1,3,13,0,4,12,8,4,6,2,1
+La Liga_2026/27_sofascore_16416322,2026-09-12,La Liga,True,Ath Bilbao,Elche,1,1,18,3,2,1,11,12,7,1,3,3
+La Liga_2026/27_sofascore_16416322,2026-09-12,La Liga,False,Elche,Ath Bilbao,1,1,3,18,1,2,12,11,1,7,3,3
+La Liga_2026/27_sofascore_16416327,2026-09-12,La Liga,True,Osasuna,Espanol,0,2,11,6,4,3,10,24,3,4,2,3
+La Liga_2026/27_sofascore_16416327,2026-09-12,La Liga,False,Espanol,Osasuna,2,0,6,11,3,4,24,10,4,3,3,2
+La Liga_2026/27_sofascore_16416328,2026-09-12,La Liga,True,Santander,Alaves,2,1,11,16,4,8,16,17,4,6,3,3
+La Liga_2026/27_sofascore_16416328,2026-09-12,La Liga,False,Alaves,Santander,1,2,16,11,8,4,17,16,6,4,3,3
+La Liga_2026/27_sofascore_16416331,2026-09-12,La Liga,True,Real Madrid,Vallecano,4,1,24,18,11,7,9,13,11,5,0,1
+La Liga_2026/27_sofascore_16416331,2026-09-12,La Liga,False,Vallecano,Real Madrid,1,4,18,24,7,11,13,9,5,11,1,0
+La Liga_2026/27_sofascore_16416326,2026-09-13,La Liga,True,Getafe,La Coruna,1,1,15,10,4,3,14,9,3,7,3,1
+La Liga_2026/27_sofascore_16416326,2026-09-13,La Liga,False,La Coruna,Getafe,1,1,10,15,3,4,9,14,7,3,1,3
+La Liga_2026/27_sofascore_16416329,2026-09-13,La Liga,True,Levante,Barcelona,2,4,13,12,7,6,11,11,3,5,1,1
+La Liga_2026/27_sofascore_16416329,2026-09-13,La Liga,False,Barcelona,Levante,4,2,12,13,6,7,11,11,5,3,1,1
+La Liga_2026/27_sofascore_16416332,2026-09-13,La Liga,True,Sociedad,Ath Madrid,0,3,8,13,3,5,13,9,9,3,2,1
+La Liga_2026/27_sofascore_16416332,2026-09-13,La Liga,False,Ath Madrid,Sociedad,3,0,13,8,5,3,9,13,3,9,1,2
+La Liga_2026/27_sofascore_16416347,2026-09-13,La Liga,True,Celta,Malaga,1,1,17,12,5,2,10,10,1,5,1,1
+La Liga_2026/27_sofascore_16416347,2026-09-13,La Liga,False,Malaga,Celta,1,1,12,17,2,5,10,10,5,1,1,1
+La Liga_2026/27_sofascore_16416333,2026-09-14,La Liga,True,Villarreal,Betis,1,2,14,26,8,12,7,8,7,4,1,0
+La Liga_2026/27_sofascore_16416333,2026-09-14,La Liga,False,Betis,Villarreal,2,1,26,14,12,8,8,7,4,7,0,1
+La Liga_2026/27_sofascore_16416334,2026-09-15,La Liga,True,Alaves,Valencia,0,1,15,10,3,3,7,14,2,5,1,4
+La Liga_2026/27_sofascore_16416334,2026-09-15,La Liga,False,Valencia,Alaves,1,0,10,15,3,3,14,7,5,2,4,1
+La Liga_2026/27_sofascore_16416342,2026-09-15,La Liga,True,Elche,Real Madrid,2,3,11,20,3,4,21,8,2,5,4,2
+La Liga_2026/27_sofascore_16416342,2026-09-15,La Liga,False,Real Madrid,Elche,3,2,20,11,4,3,8,21,5,2,2,4
+La Liga_2026/27_sofascore_16416345,2026-09-15,La Liga,True,Vallecano,Espanol,2,1,16,19,2,5,10,15,3,5,5,2
+La Liga_2026/27_sofascore_16416345,2026-09-15,La Liga,False,Espanol,Vallecano,1,2,19,16,5,2,15,10,5,3,2,5
+La Liga_2026/27_sofascore_16416335,2026-09-16,La Liga,True,Ath Madrid,Osasuna,4,0,26,3,11,1,8,12,8,0,1,2
+La Liga_2026/27_sofascore_16416335,2026-09-16,La Liga,False,Osasuna,Ath Madrid,0,4,3,26,1,11,12,8,0,8,2,1
+La Liga_2026/27_sofascore_16416343,2026-09-16,La Liga,True,La Coruna,Sevilla,0,1,4,11,3,6,15,16,4,4,2,4
+La Liga_2026/27_sofascore_16416343,2026-09-16,La Liga,False,Sevilla,La Coruna,1,0,11,4,6,3,16,15,4,4,4,2
+La Liga_2026/27_sofascore_16416346,2026-09-16,La Liga,True,Barcelona,Santander,7,2,30,5,9,3,10,13,18,0,3,2
+La Liga_2026/27_sofascore_16416346,2026-09-16,La Liga,False,Santander,Barcelona,2,7,5,30,3,9,13,10,0,18,2,3
+La Liga_2026/27_sofascore_16416336,2026-09-17,La Liga,True,Betis,Getafe,1,0,22,8,8,2,13,24,4,3,1,6
+La Liga_2026/27_sofascore_16416336,2026-09-17,La Liga,False,Getafe,Betis,0,1,8,22,2,8,24,13,3,4,6,1
+La Liga_2026/27_sofascore_16416338,2026-09-17,La Liga,True,Malaga,Villarreal,1,3,5,16,1,7,17,10,4,8,5,1
+La Liga_2026/27_sofascore_16416338,2026-09-17,La Liga,False,Villarreal,Malaga,3,1,16,5,7,1,10,17,8,4,1,5
+La Liga_2026/27_sofascore_16416299,2026-09-18,La Liga,True,Espanol,Elche,1,3,23,9,4,6,14,9,3,3,2,3
+La Liga_2026/27_sofascore_16416299,2026-09-18,La Liga,False,Elche,Espanol,3,1,9,23,6,4,9,14,3,3,3,2
+La Liga_2026/27_sofascore_16416305,2026-09-19,La Liga,True,Osasuna,Vallecano,1,1,10,19,3,2,21,13,4,4,3,2
+La Liga_2026/27_sofascore_16416305,2026-09-19,La Liga,False,Vallecano,Osasuna,1,1,19,10,2,3,13,21,4,4,2,3
+La Liga_2026/27_sofascore_16416337,2026-09-19,La Liga,True,Ath Bilbao,Alaves,0,0,24,2,6,0,16,13,5,1,2,0
+La Liga_2026/27_sofascore_16416337,2026-09-19,La Liga,False,Alaves,Ath Bilbao,0,0,2,24,0,6,13,16,1,5,0,2
+La Liga_2026/27_sofascore_16416344,2026-09-19,La Liga,True,Celta,Santander,5,0,13,11,9,5,13,11,3,3,2,5
+La Liga_2026/27_sofascore_16416344,2026-09-19,La Liga,False,Santander,Celta,0,5,11,13,5,9,11,13,3,3,5,2
+La Liga_2026/27_sofascore_16416349,2026-09-19,La Liga,True,Sevilla,Barcelona,1,3,7,24,3,7,10,11,1,3,1,0
+La Liga_2026/27_sofascore_16416349,2026-09-19,La Liga,False,Barcelona,Sevilla,3,1,24,7,7,3,11,10,3,1,0,1
+La Liga_2026/27_sofascore_16416294,2026-09-20,La Liga,True,Villarreal,Levante,3,1,21,6,7,1,9,10,7,1,1,1
+La Liga_2026/27_sofascore_16416294,2026-09-20,La Liga,False,Levante,Villarreal,1,3,6,21,1,7,10,9,1,7,1,1
+La Liga_2026/27_sofascore_16416297,2026-09-20,La Liga,True,Valencia,Sociedad,2,3,22,21,5,6,9,12,7,5,2,4
+La Liga_2026/27_sofascore_16416297,2026-09-20,La Liga,False,Sociedad,Valencia,3,2,21,22,6,5,12,9,5,7,4,2
+La Liga_2026/27_sofascore_16416303,2026-09-20,La Liga,True,Getafe,Malaga,1,0,20,11,7,4,16,16,5,9,4,2
+La Liga_2026/27_sofascore_16416303,2026-09-20,La Liga,False,Malaga,Getafe,0,1,11,20,4,7,16,16,9,5,2,4
+La Liga_2026/27_sofascore_16416313,2026-09-20,La Liga,True,La Coruna,Betis,1,1,24,11,7,4,6,9,11,5,1,1
+La Liga_2026/27_sofascore_16416313,2026-09-20,La Liga,False,Betis,La Coruna,1,1,11,24,4,7,9,6,5,11,1,1
+La Liga_2026/27_sofascore_16416339,2026-09-20,La Liga,True,Ath Madrid,Real Madrid,2,1,18,8,9,3,19,6,3,1,2,3
+La Liga_2026/27_sofascore_16416339,2026-09-20,La Liga,False,Real Madrid,Ath Madrid,1,2,8,18,3,9,6,19,1,3,3,2
+La Liga_2026/27_sofascore_16421062,2026-10-09,La Liga,True,Malaga,Espanol,1,1,15,9,7,4,10,15,8,2,4,5
+La Liga_2026/27_sofascore_16421062,2026-10-09,La Liga,False,Espanol,Malaga,1,1,9,15,4,7,15,10,2,8,5,4
+La Liga_2026/27_sofascore_16421056,2026-10-10,La Liga,True,Alaves,Ath Madrid,1,2,8,22,3,7,11,14,0,10,2,3
+La Liga_2026/27_sofascore_16421056,2026-10-10,La Liga,False,Ath Madrid,Alaves,2,1,22,8,7,3,14,11,10,0,3,2
+La Liga_2026/27_sofascore_16421060,2026-10-10,La Liga,True,Barcelona,Getafe,3,0,23,4,8,1,9,11,9,2,2,4
+La Liga_2026/27_sofascore_16421060,2026-10-10,La Liga,False,Getafe,Barcelona,0,3,4,23,1,8,11,9,2,9,4,2
+La Liga_2026/27_sofascore_16421066,2026-10-10,La Liga,True,Real Madrid,Villarreal,1,0,11,15,4,4,8,13,9,3,5,2
+La Liga_2026/27_sofascore_16421066,2026-10-10,La Liga,False,Villarreal,Real Madrid,0,1,15,11,4,4,13,8,3,9,2,5
+La Liga_2026/27_sofascore_16421054,2026-10-11,La Liga,True,Betis,Osasuna,5,2,20,11,7,5,11,13,8,4,2,5
+La Liga_2026/27_sofascore_16421054,2026-10-11,La Liga,False,Osasuna,Betis,2,5,11,20,5,7,13,11,4,8,5,2
+La Liga_2026/27_sofascore_16421058,2026-10-11,La Liga,True,Elche,Celta,0,0,13,7,2,0,19,21,5,2,1,3
+La Liga_2026/27_sofascore_16421058,2026-10-11,La Liga,False,Celta,Elche,0,0,7,13,0,2,21,19,2,5,3,1
+La Liga_2026/27_sofascore_16421064,2026-10-11,La Liga,True,Santander,Valencia,2,2,20,10,11,2,15,10,8,3,3,3
+La Liga_2026/27_sofascore_16421064,2026-10-11,La Liga,False,Valencia,Santander,2,2,10,20,2,11,10,15,3,8,3,3
+La Liga_2026/27_sofascore_16421067,2026-10-11,La Liga,True,Sociedad,La Coruna,3,2,12,21,4,7,14,13,7,10,2,3
+La Liga_2026/27_sofascore_16421067,2026-10-11,La Liga,False,La Coruna,Sociedad,2,3,21,12,7,4,13,14,10,7,3,2
+La Liga_2026/27_sofascore_16421063,2026-10-12,La Liga,True,Levante,Sevilla,3,3,20,18,8,5,7,17,5,2,2,7
+La Liga_2026/27_sofascore_16421063,2026-10-12,La Liga,False,Sevilla,Levante,3,3,18,20,5,8,17,7,2,5,7,2
+La Liga_2026/27_sofascore_16421070,2026-10-16,La Liga,True,La Coruna,Levante,1,1,13,11,5,4,17,12,3,5,3,2
+La Liga_2026/27_sofascore_16421070,2026-10-16,La Liga,False,Levante,La Coruna,1,1,11,13,4,5,12,17,5,3,2,3
+La Liga_2026/27_sofascore_16421068,2026-10-17,La Liga,True,Betis,Barcelona,2,5,6,18,5,10,10,11,2,5,4,2
+La Liga_2026/27_sofascore_16421068,2026-10-17,La Liga,False,Barcelona,Betis,5,2,18,6,10,5,11,10,5,2,2,4
+La Liga_2026/27_sofascore_16421071,2026-10-17,La Liga,True,Espanol,Ath Madrid,0,1,10,19,2,6,10,9,4,12,2,5
+La Liga_2026/27_sofascore_16421071,2026-10-17,La Liga,False,Ath Madrid,Espanol,1,0,19,10,6,2,9,10,12,4,5,2
+La Liga_2026/27_sofascore_16421074,2026-10-17,La Liga,True,Valencia,Ath Bilbao,0,0,16,9,3,2,14,13,2,6,3,3
+La Liga_2026/27_sofascore_16421074,2026-10-17,La Liga,False,Ath Bilbao,Valencia,0,0,9,16,2,3,13,14,6,2,3,3
+La Liga_2026/27_sofascore_16421076,2026-10-17,La Liga,True,Villarreal,Elche,0,0,20,7,7,1,12,7,10,5,2,4
+La Liga_2026/27_sofascore_16421076,2026-10-17,La Liga,False,Elche,Villarreal,0,0,7,20,1,7,7,12,5,10,4,2
+Premier League_2026/27_sofascore_16363633,2026-08-21,Premier League,True,Arsenal,Coventry,3,0,20,4,6,1,10,13,8,2,1,1
+Premier League_2026/27_sofascore_16363633,2026-08-21,Premier League,False,Coventry,Arsenal,0,3,4,20,1,6,13,10,2,8,1,1
+Premier League_2026/27_sofascore_16363238,2026-08-22,Premier League,True,Nott'm Forest,Leeds,0,1,12,11,2,3,15,14,3,2,2,1
+Premier League_2026/27_sofascore_16363238,2026-08-22,Premier League,False,Leeds,Nott'm Forest,1,0,11,12,3,2,14,15,2,3,1,2
+Premier League_2026/27_sofascore_16363242,2026-08-22,Premier League,True,Brentford,Tottenham,3,0,26,9,8,4,17,14,7,3,1,1
+Premier League_2026/27_sofascore_16363242,2026-08-22,Premier League,False,Tottenham,Brentford,0,3,9,26,4,8,14,17,3,7,1,1
+Premier League_2026/27_sofascore_16363634,2026-08-22,Premier League,True,Hull,Man United,2,0,8,21,4,5,10,9,1,6,2,1
+Premier League_2026/27_sofascore_16363634,2026-08-22,Premier League,False,Man United,Hull,0,2,21,8,5,4,9,10,6,1,1,2
+Premier League_2026/27_sofascore_16363635,2026-08-22,Premier League,True,Everton,Crystal Palace,2,0,16,11,5,4,5,15,4,0,0,1
+Premier League_2026/27_sofascore_16363635,2026-08-22,Premier League,False,Crystal Palace,Everton,0,2,11,16,4,5,15,5,0,4,1,0
+Premier League_2026/27_sofascore_16363636,2026-08-22,Premier League,True,Ipswich,Sunderland,2,1,10,11,3,4,12,14,3,5,0,3
+Premier League_2026/27_sofascore_16363636,2026-08-22,Premier League,False,Sunderland,Ipswich,1,2,11,10,4,3,14,12,5,3,3,0
+Premier League_2026/27_sofascore_16363236,2026-08-23,Premier League,True,Brighton,Aston Villa,4,0,21,6,6,0,12,11,5,2,2,4
+Premier League_2026/27_sofascore_16363236,2026-08-23,Premier League,False,Aston Villa,Brighton,0,4,6,21,0,6,11,12,2,5,4,2
+Premier League_2026/27_sofascore_16363243,2026-08-23,Premier League,True,Man City,Bournemouth,2,1,13,5,6,4,11,11,8,3,1,2
+Premier League_2026/27_sofascore_16363243,2026-08-23,Premier League,False,Bournemouth,Man City,1,2,5,13,4,6,11,11,3,8,2,1
+Premier League_2026/27_sofascore_16363246,2026-08-23,Premier League,True,Newcastle,Liverpool,2,2,13,27,4,7,16,15,2,6,5,3
+Premier League_2026/27_sofascore_16363246,2026-08-23,Premier League,False,Liverpool,Newcastle,2,2,27,13,7,4,15,16,6,2,3,5
+Premier League_2026/27_sofascore_16363244,2026-08-24,Premier League,True,Fulham,Chelsea,2,3,14,18,6,6,12,7,6,4,2,3
+Premier League_2026/27_sofascore_16363244,2026-08-24,Premier League,False,Chelsea,Fulham,3,2,18,14,6,6,7,12,4,6,3,2
+Premier League_2026/27_sofascore_16363252,2026-08-28,Premier League,True,Crystal Palace,Man City,1,4,9,18,1,9,8,11,2,6,1,2
+Premier League_2026/27_sofascore_16363252,2026-08-28,Premier League,False,Man City,Crystal Palace,4,1,18,9,9,1,11,8,6,2,2,1
+Premier League_2026/27_sofascore_16363247,2026-08-29,Premier League,True,Bournemouth,Everton,1,1,17,13,5,7,11,14,10,7,3,2
+Premier League_2026/27_sofascore_16363247,2026-08-29,Premier League,False,Everton,Bournemouth,1,1,13,17,7,5,14,11,7,10,2,3
+Premier League_2026/27_sofascore_16363250,2026-08-29,Premier League,True,Coventry,Hull,0,1,11,6,3,2,11,8,6,2,1,4
+Premier League_2026/27_sofascore_16363250,2026-08-29,Premier League,False,Hull,Coventry,1,0,6,11,2,3,8,11,2,6,4,1
+Premier League_2026/27_sofascore_16363254,2026-08-29,Premier League,True,Liverpool,Nott'm Forest,2,2,13,12,4,3,13,10,3,5,4,2
+Premier League_2026/27_sofascore_16363254,2026-08-29,Premier League,False,Nott'm Forest,Liverpool,2,2,12,13,3,4,10,13,5,3,2,4
+Premier League_2026/27_sofascore_16363256,2026-08-29,Premier League,True,Tottenham,Newcastle,0,2,17,11,6,2,15,9,9,7,1,2
+Premier League_2026/27_sofascore_16363256,2026-08-29,Premier League,False,Newcastle,Tottenham,2,0,11,17,2,6,9,15,7,9,2,1
+Premier League_2026/27_sofascore_16363249,2026-08-30,Premier League,True,Chelsea,Brighton,4,3,17,15,6,6,6,12,4,7,1,3
+Premier League_2026/27_sofascore_16363249,2026-08-30,Premier League,False,Brighton,Chelsea,3,4,15,17,6,6,12,6,7,4,3,1
+Premier League_2026/27_sofascore_16363253,2026-08-30,Premier League,True,Man United,Ipswich,5,2,33,9,11,5,7,12,8,4,1,3
+Premier League_2026/27_sofascore_16363253,2026-08-30,Premier League,False,Ipswich,Man United,2,5,9,33,5,11,12,7,4,8,3,1
+Premier League_2026/27_sofascore_16363255,2026-08-30,Premier League,True,Sunderland,Fulham,1,0,12,11,4,0,10,15,3,4,0,2
+Premier League_2026/27_sofascore_16363255,2026-08-30,Premier League,False,Fulham,Sunderland,0,1,11,12,0,4,15,10,4,3,2,0
+Premier League_2026/27_sofascore_16363266,2026-08-30,Premier League,True,Leeds,Brentford,1,1,12,22,2,5,5,13,5,6,0,4
+Premier League_2026/27_sofascore_16363266,2026-08-30,Premier League,False,Brentford,Leeds,1,1,22,12,5,2,13,5,6,5,4,0
+Premier League_2026/27_sofascore_16363245,2026-08-31,Premier League,True,Aston Villa,Arsenal,0,1,7,7,0,2,17,6,2,4,3,1
+Premier League_2026/27_sofascore_16363245,2026-08-31,Premier League,False,Arsenal,Aston Villa,1,0,7,7,2,0,6,17,4,2,1,3
+Premier League_2026/27_sofascore_16363261,2026-09-04,Premier League,True,Ipswich,Liverpool,0,2,14,10,5,7,6,13,4,3,1,3
+Premier League_2026/27_sofascore_16363261,2026-09-04,Premier League,False,Liverpool,Ipswich,2,0,10,14,7,5,13,6,3,4,3,1
+Premier League_2026/27_sofascore_16363258,2026-09-05,Premier League,True,Brighton,Leeds,1,1,20,10,5,5,13,16,7,6,3,3
+Premier League_2026/27_sofascore_16363258,2026-09-05,Premier League,False,Leeds,Brighton,1,1,10,20,5,5,16,13,6,7,3,3
+Premier League_2026/27_sofascore_16363260,2026-09-05,Premier League,True,Brentford,Sunderland,1,1,12,14,2,5,19,9,4,3,3,2
+Premier League_2026/27_sofascore_16363260,2026-09-05,Premier League,False,Sunderland,Brentford,1,1,14,12,5,2,9,19,3,4,2,3
+Premier League_2026/27_sofascore_16363262,2026-09-05,Premier League,True,Hull,Aston Villa,0,0,11,13,4,1,10,5,3,4,2,0
+Premier League_2026/27_sofascore_16363262,2026-09-05,Premier League,False,Aston Villa,Hull,0,0,13,11,1,4,5,10,4,3,0,2
+Premier League_2026/27_sofascore_16363263,2026-09-05,Premier League,True,Man City,Coventry,1,0,15,12,4,3,7,17,4,5,1,2
+Premier League_2026/27_sofascore_16363263,2026-09-05,Premier League,False,Coventry,Man City,0,1,12,15,3,4,17,7,5,4,2,1
+Premier League_2026/27_sofascore_16363269,2026-09-05,Premier League,True,Fulham,Crystal Palace,2,3,25,10,6,5,6,7,7,1,0,0
+Premier League_2026/27_sofascore_16363269,2026-09-05,Premier League,False,Crystal Palace,Fulham,3,2,10,25,5,6,7,6,1,7,0,0
+Premier League_2026/27_sofascore_16363637,2026-09-05,Premier League,True,Newcastle,Bournemouth,2,2,8,17,2,5,19,17,4,3,2,3
+Premier League_2026/27_sofascore_16363637,2026-09-05,Premier League,False,Bournemouth,Newcastle,2,2,17,8,5,2,17,19,3,4,3,2
+Premier League_2026/27_sofascore_16363638,2026-09-05,Premier League,True,Nott'm Forest,Tottenham,0,0,12,11,2,0,22,14,2,10,2,2
+Premier League_2026/27_sofascore_16363638,2026-09-05,Premier League,False,Tottenham,Nott'm Forest,0,0,11,12,0,2,14,22,10,2,2,2
+Premier League_2026/27_sofascore_16363257,2026-09-06,Premier League,True,Arsenal,Chelsea,2,1,16,13,9,5,13,16,5,3,2,4
+Premier League_2026/27_sofascore_16363257,2026-09-06,Premier League,False,Chelsea,Arsenal,1,2,13,16,5,9,16,13,3,5,4,2
+Premier League_2026/27_sofascore_16363259,2026-09-06,Premier League,True,Everton,Man United,2,2,18,14,6,3,7,11,4,3,3,3
+Premier League_2026/27_sofascore_16363259,2026-09-06,Premier League,False,Man United,Everton,2,2,14,18,3,6,11,7,3,4,3,3
+Premier League_2026/27_sofascore_16363264,2026-09-12,Premier League,True,Liverpool,Fulham,0,0,14,10,3,4,11,8,5,8,0,1
+Premier League_2026/27_sofascore_16363264,2026-09-12,Premier League,False,Fulham,Liverpool,0,0,10,14,4,3,8,11,8,5,1,0
+Premier League_2026/27_sofascore_16363639,2026-09-12,Premier League,True,Aston Villa,Nott'm Forest,1,2,7,22,5,7,11,16,6,1,2,5
+Premier League_2026/27_sofascore_16363639,2026-09-12,Premier League,False,Nott'm Forest,Aston Villa,2,1,22,7,7,5,16,11,1,6,5,2
+Premier League_2026/27_sofascore_16363640,2026-09-12,Premier League,True,Bournemouth,Brentford,2,2,20,8,10,2,10,13,2,1,5,1
+Premier League_2026/27_sofascore_16363640,2026-09-12,Premier League,False,Brentford,Bournemouth,2,2,8,20,2,10,13,10,1,2,1,5
+Premier League_2026/27_sofascore_16363641,2026-09-12,Premier League,True,Chelsea,Hull,2,2,12,14,7,5,7,12,10,4,1,5
+Premier League_2026/27_sofascore_16363641,2026-09-12,Premier League,False,Hull,Chelsea,2,2,14,12,5,7,12,7,4,10,5,1
+Premier League_2026/27_sofascore_16363643,2026-09-12,Premier League,True,Crystal Palace,Ipswich,2,3,11,12,4,6,6,16,6,3,2,4
+Premier League_2026/27_sofascore_16363643,2026-09-12,Premier League,False,Ipswich,Crystal Palace,3,2,12,11,6,4,16,6,3,6,4,2
+Premier League_2026/27_sofascore_16363646,2026-09-12,Premier League,True,Sunderland,Arsenal,0,2,12,11,3,5,18,11,4,2,7,2
+Premier League_2026/27_sofascore_16363646,2026-09-12,Premier League,False,Arsenal,Sunderland,2,0,11,12,5,3,11,18,2,4,2,7
+Premier League_2026/27_sofascore_16363647,2026-09-12,Premier League,True,Tottenham,Everton,0,0,14,12,2,3,14,8,5,6,0,2
+Premier League_2026/27_sofascore_16363647,2026-09-12,Premier League,False,Everton,Tottenham,0,0,12,14,3,2,8,14,6,5,2,0
+Premier League_2026/27_sofascore_16363642,2026-09-13,Premier League,True,Coventry,Brighton,0,5,14,22,6,7,9,15,5,3,1,0
+Premier League_2026/27_sofascore_16363642,2026-09-13,Premier League,False,Brighton,Coventry,5,0,22,14,7,6,15,9,3,5,0,1
+Premier League_2026/27_sofascore_16363645,2026-09-13,Premier League,True,Man United,Man City,0,1,16,6,3,2,17,10,6,7,1,3
+Premier League_2026/27_sofascore_16363645,2026-09-13,Premier League,False,Man City,Man United,1,0,6,16,2,3,10,17,7,6,3,1
+Premier League_2026/27_sofascore_16363644,2026-09-14,Premier League,True,Leeds,Newcastle,4,1,14,7,6,5,8,13,5,5,1,2
+Premier League_2026/27_sofascore_16363644,2026-09-14,Premier League,False,Newcastle,Leeds,1,4,7,14,5,6,13,8,5,5,2,1
+Premier League_2026/27_sofascore_16363649,2026-09-18,Premier League,True,Brentford,Chelsea,3,0,13,12,6,2,10,7,4,12,2,0
+Premier League_2026/27_sofascore_16363649,2026-09-18,Premier League,False,Chelsea,Brentford,0,3,12,13,2,6,7,10,12,4,0,2
+Premier League_2026/27_sofascore_16363650,2026-09-19,Premier League,True,Brighton,Arsenal,3,0,17,11,5,2,13,11,5,6,4,1
+Premier League_2026/27_sofascore_16363650,2026-09-19,Premier League,False,Arsenal,Brighton,0,3,11,17,2,5,11,13,6,5,1,4
+Premier League_2026/27_sofascore_16363651,2026-09-19,Premier League,True,Everton,Ipswich,1,0,21,13,2,4,6,12,4,4,2,4
+Premier League_2026/27_sofascore_16363651,2026-09-19,Premier League,False,Ipswich,Everton,0,1,13,21,4,2,12,6,4,4,4,2
+Premier League_2026/27_sofascore_16363868,2026-09-19,Premier League,True,Newcastle,Hull,2,1,12,22,5,4,4,10,4,7,1,5
+Premier League_2026/27_sofascore_16363868,2026-09-19,Premier League,False,Hull,Newcastle,1,2,22,12,4,5,10,4,7,4,5,1
+Premier League_2026/27_sofascore_16363869,2026-09-19,Premier League,True,Nott'm Forest,Coventry,0,1,24,10,3,3,12,10,6,2,2,0
+Premier League_2026/27_sofascore_16363869,2026-09-19,Premier League,False,Coventry,Nott'm Forest,1,0,10,24,3,3,10,12,2,6,0,2
+Premier League_2026/27_sofascore_16363870,2026-09-19,Premier League,True,Tottenham,Aston Villa,2,3,20,15,7,6,9,13,11,1,1,2
+Premier League_2026/27_sofascore_16363870,2026-09-19,Premier League,False,Aston Villa,Tottenham,3,2,15,20,6,7,13,9,1,11,2,1
+Premier League_2026/27_sofascore_16363648,2026-09-20,Premier League,True,Bournemouth,Liverpool,0,1,9,12,2,3,11,13,3,3,1,2
+Premier League_2026/27_sofascore_16363648,2026-09-20,Premier League,False,Liverpool,Bournemouth,1,0,12,9,3,2,13,11,3,3,2,1
+Premier League_2026/27_sofascore_16363652,2026-09-20,Premier League,True,Fulham,Man United,1,1,12,29,6,6,9,5,3,13,3,0
+Premier League_2026/27_sofascore_16363652,2026-09-20,Premier League,False,Man United,Fulham,1,1,29,12,6,6,5,9,13,3,0,3
+Premier League_2026/27_sofascore_16363866,2026-09-20,Premier League,True,Leeds,Crystal Palace,0,0,13,12,2,4,10,12,4,3,2,3
+Premier League_2026/27_sofascore_16363866,2026-09-20,Premier League,False,Crystal Palace,Leeds,0,0,12,13,4,2,12,10,3,4,3,2
+Premier League_2026/27_sofascore_16363867,2026-09-20,Premier League,True,Man City,Sunderland,5,3,16,17,6,9,14,14,6,5,0,1
+Premier League_2026/27_sofascore_16363867,2026-09-20,Premier League,False,Sunderland,Man City,3,5,17,16,9,6,14,14,5,6,1,0
+Premier League_2026/27_sofascore_16363871,2026-10-10,Premier League,True,Arsenal,Leeds,2,1,13,11,6,5,12,20,2,4,1,4
+Premier League_2026/27_sofascore_16363871,2026-10-10,Premier League,False,Leeds,Arsenal,1,2,11,13,5,6,20,12,4,2,4,1
+Premier League_2026/27_sofascore_16363872,2026-10-10,Premier League,True,Aston Villa,Brentford,2,2,20,14,7,4,7,24,2,2,2,5
+Premier League_2026/27_sofascore_16363872,2026-10-10,Premier League,False,Brentford,Aston Villa,2,2,14,20,4,7,24,7,2,2,5,2
+Premier League_2026/27_sofascore_16363873,2026-10-10,Premier League,True,Chelsea,Bournemouth,5,1,10,9,6,4,7,15,1,7,0,4
+Premier League_2026/27_sofascore_16363873,2026-10-10,Premier League,False,Bournemouth,Chelsea,1,5,9,10,4,6,15,7,7,1,4,0
+Premier League_2026/27_sofascore_16363877,2026-10-10,Premier League,True,Ipswich,Fulham,2,1,11,13,5,5,8,10,2,5,2,4
+Premier League_2026/27_sofascore_16363877,2026-10-10,Premier League,False,Fulham,Ipswich,1,2,13,11,5,5,10,8,5,2,4,2
+Premier League_2026/27_sofascore_16363879,2026-10-10,Premier League,True,Man United,Tottenham,1,1,12,12,4,3,13,16,4,4,4,4
+Premier League_2026/27_sofascore_16363879,2026-10-10,Premier League,False,Tottenham,Man United,1,1,12,12,3,4,16,13,4,4,4,4
+Premier League_2026/27_sofascore_16363880,2026-10-10,Premier League,True,Sunderland,Brighton,0,2,12,13,3,4,8,12,7,5,0,2
+Premier League_2026/27_sofascore_16363880,2026-10-10,Premier League,False,Brighton,Sunderland,2,0,13,12,4,3,12,8,5,7,2,0
+Premier League_2026/27_sofascore_16363875,2026-10-11,Premier League,True,Crystal Palace,Nott'm Forest,3,1,13,24,7,6,11,10,5,8,2,2
+Premier League_2026/27_sofascore_16363875,2026-10-11,Premier League,False,Nott'm Forest,Crystal Palace,1,3,24,13,6,7,10,11,8,5,2,2
+Premier League_2026/27_sofascore_16363876,2026-10-11,Premier League,True,Hull,Everton,2,2,9,15,5,7,15,4,7,6,2,0
+Premier League_2026/27_sofascore_16363876,2026-10-11,Premier League,False,Everton,Hull,2,2,15,9,7,5,4,15,6,7,0,2
+Premier League_2026/27_sofascore_16363878,2026-10-11,Premier League,True,Liverpool,Man City,0,3,13,15,6,4,19,14,5,6,5,2
+Premier League_2026/27_sofascore_16363878,2026-10-11,Premier League,False,Man City,Liverpool,3,0,15,13,4,6,14,19,6,5,2,5
+Premier League_2026/27_sofascore_16363874,2026-10-12,Premier League,True,Coventry,Newcastle,4,1,9,19,6,6,3,10,2,6,1,1
+Premier League_2026/27_sofascore_16363874,2026-10-12,Premier League,False,Newcastle,Coventry,1,4,19,9,6,6,10,3,6,2,1,1
+Premier League_2026/27_sofascore_16363882,2026-10-17,Premier League,True,Brentford,Liverpool,1,2,10,21,2,5,7,13,3,9,6,3
+Premier League_2026/27_sofascore_16363882,2026-10-17,Premier League,False,Liverpool,Brentford,2,1,21,10,5,2,13,7,9,3,3,6
+Premier League_2026/27_sofascore_16363884,2026-10-17,Premier League,True,Everton,Chelsea,0,2,6,18,5,7,8,15,5,7,3,4
+Premier League_2026/27_sofascore_16363884,2026-10-17,Premier League,False,Chelsea,Everton,2,0,18,6,7,5,15,8,7,5,4,3
+Premier League_2026/27_sofascore_16363885,2026-10-17,Premier League,True,Fulham,Hull,1,0,18,5,6,0,13,11,10,2,3,2
+Premier League_2026/27_sofascore_16363885,2026-10-17,Premier League,False,Hull,Fulham,0,1,5,18,0,6,11,13,2,10,2,3
+Premier League_2026/27_sofascore_16363887,2026-10-17,Premier League,True,Man City,Ipswich,3,2,19,8,6,3,8,16,2,3,1,2
+Premier League_2026/27_sofascore_16363887,2026-10-17,Premier League,False,Ipswich,Man City,2,3,8,19,3,6,16,8,3,2,2,1
+Premier League_2026/27_sofascore_16363888,2026-10-17,Premier League,True,Newcastle,Aston Villa,0,1,16,15,1,3,14,11,4,5,6,2
+Premier League_2026/27_sofascore_16363888,2026-10-17,Premier League,False,Aston Villa,Newcastle,1,0,15,16,3,1,11,14,5,4,2,6
+Bundesliga_2026/27_sofascore_16434087,2026-08-28,Bundesliga,True,Bayern Munich,Stuttgart,5,1,21,11,9,4,10,17,9,3,1,3
+Bundesliga_2026/27_sofascore_16434087,2026-08-28,Bundesliga,False,Stuttgart,Bayern Munich,1,5,11,21,4,9,17,10,3,9,3,1
+Bundesliga_2026/27_sofascore_16434020,2026-08-29,Bundesliga,True,Elversberg,Leverkusen,3,2,11,21,6,4,18,15,4,3,3,2
+Bundesliga_2026/27_sofascore_16434020,2026-08-29,Bundesliga,False,Leverkusen,Elversberg,2,3,21,11,4,6,15,18,3,4,2,3
+Bundesliga_2026/27_sofascore_16434022,2026-08-29,Bundesliga,True,FC Koln,Hoffenheim,3,2,18,15,6,4,11,14,6,7,0,2
+Bundesliga_2026/27_sofascore_16434022,2026-08-29,Bundesliga,False,Hoffenheim,FC Koln,2,3,15,18,4,6,14,11,7,6,2,0
+Bundesliga_2026/27_sofascore_16434023,2026-08-29,Bundesliga,True,RB Leipzig,M'gladbach,3,0,25,15,11,4,10,13,7,6,1,0
+Bundesliga_2026/27_sofascore_16434023,2026-08-29,Bundesliga,False,M'gladbach,RB Leipzig,0,3,15,25,4,11,13,10,6,7,0,1
+Bundesliga_2026/27_sofascore_16434025,2026-08-29,Bundesliga,True,Dortmund,Hamburg,2,0,20,8,7,3,13,19,3,1,3,1
+Bundesliga_2026/27_sofascore_16434025,2026-08-29,Bundesliga,False,Hamburg,Dortmund,0,2,8,20,3,7,19,13,1,3,1,3
+Bundesliga_2026/27_sofascore_16434026,2026-08-29,Bundesliga,True,Union Berlin,Frankfurt,3,3,19,12,10,3,11,10,5,2,2,4
+Bundesliga_2026/27_sofascore_16434026,2026-08-29,Bundesliga,False,Frankfurt,Union Berlin,3,3,12,19,3,10,10,11,2,5,4,2
+Bundesliga_2026/27_sofascore_16434044,2026-08-29,Bundesliga,True,Mainz,Paderborn,0,0,21,10,4,0,8,10,11,2,1,2
+Bundesliga_2026/27_sofascore_16434044,2026-08-29,Bundesliga,False,Paderborn,Mainz,0,0,10,21,0,4,10,8,2,11,2,1
+Bundesliga_2026/27_sofascore_16434029,2026-08-30,Bundesliga,True,Freiburg,Werder Bremen,4,1,19,9,5,3,13,16,6,5,1,1
+Bundesliga_2026/27_sofascore_16434029,2026-08-30,Bundesliga,False,Werder Bremen,Freiburg,1,4,9,19,3,5,16,13,5,6,1,1
+Bundesliga_2026/27_sofascore_16434039,2026-08-30,Bundesliga,True,Augsburg,Schalke 04,3,0,24,11,13,5,5,6,11,3,1,1
+Bundesliga_2026/27_sofascore_16434039,2026-08-30,Bundesliga,False,Schalke 04,Augsburg,0,3,11,24,5,13,6,5,3,11,1,1
+Bundesliga_2026/27_sofascore_16434036,2026-09-04,Bundesliga,True,Stuttgart,FC Koln,4,1,22,17,8,3,5,6,10,8,1,3
+Bundesliga_2026/27_sofascore_16434036,2026-09-04,Bundesliga,False,FC Koln,Stuttgart,1,4,17,22,3,8,6,5,8,10,3,1
+Bundesliga_2026/27_sofascore_16434019,2026-09-05,Bundesliga,True,Hoffenheim,Dortmund,2,3,18,11,6,4,13,7,10,3,4,2
+Bundesliga_2026/27_sofascore_16434019,2026-09-05,Bundesliga,False,Dortmund,Hoffenheim,3,2,11,18,4,6,7,13,3,10,2,4
+Bundesliga_2026/27_sofascore_16434024,2026-09-05,Bundesliga,True,Paderborn,Freiburg,0,1,14,16,3,5,16,10,5,4,3,3
+Bundesliga_2026/27_sofascore_16434024,2026-09-05,Bundesliga,False,Freiburg,Paderborn,1,0,16,14,5,3,10,16,4,5,3,3
+Bundesliga_2026/27_sofascore_16434028,2026-09-05,Bundesliga,True,M'gladbach,Elversberg,3,4,25,14,6,10,18,9,13,4,3,1
+Bundesliga_2026/27_sofascore_16434028,2026-09-05,Bundesliga,False,Elversberg,M'gladbach,4,3,14,25,10,6,9,18,4,13,1,3
+Bundesliga_2026/27_sofascore_16434032,2026-09-05,Bundesliga,True,Schalke 04,Bayern Munich,0,0,4,15,1,5,5,12,0,11,2,2
+Bundesliga_2026/27_sofascore_16434032,2026-09-05,Bundesliga,False,Bayern Munich,Schalke 04,0,0,15,4,5,1,12,5,11,0,2,2
+Bundesliga_2026/27_sofascore_16434042,2026-09-05,Bundesliga,True,Leverkusen,Union Berlin,4,0,21,5,10,0,11,12,11,1,2,2
+Bundesliga_2026/27_sofascore_16434042,2026-09-05,Bundesliga,False,Union Berlin,Leverkusen,0,4,5,21,0,10,12,11,1,11,2,2
+Bundesliga_2026/27_sofascore_16434101,2026-09-05,Bundesliga,True,Werder Bremen,RB Leipzig,3,1,12,19,7,5,13,8,2,7,1,0
+Bundesliga_2026/27_sofascore_16434101,2026-09-05,Bundesliga,False,RB Leipzig,Werder Bremen,1,3,19,12,5,7,8,13,7,2,0,1
+Bundesliga_2026/27_sofascore_16434021,2026-09-06,Bundesliga,True,Frankfurt,Augsburg,1,4,22,17,8,7,10,13,9,4,1,1
+Bundesliga_2026/27_sofascore_16434021,2026-09-06,Bundesliga,False,Augsburg,Frankfurt,4,1,17,22,7,8,13,10,4,9,1,1
+Bundesliga_2026/27_sofascore_16434030,2026-09-06,Bundesliga,True,Hamburg,Mainz,0,5,8,17,1,8,14,19,4,5,1,3
+Bundesliga_2026/27_sofascore_16434030,2026-09-06,Bundesliga,False,Mainz,Hamburg,5,0,17,8,8,1,19,14,5,4,3,1
+Bundesliga_2026/27_sofascore_16434045,2026-09-11,Bundesliga,True,Union Berlin,Schalke 04,1,3,20,19,8,10,11,10,4,5,3,1
+Bundesliga_2026/27_sofascore_16434045,2026-09-11,Bundesliga,False,Schalke 04,Union Berlin,3,1,19,20,10,8,10,11,5,4,1,3
+Bundesliga_2026/27_sofascore_16434018,2026-09-12,Bundesliga,True,Mainz,Frankfurt,1,3,18,11,5,5,11,9,4,5,0,2
+Bundesliga_2026/27_sofascore_16434018,2026-09-12,Bundesliga,False,Frankfurt,Mainz,3,1,11,18,5,5,9,11,5,4,2,0
+Bundesliga_2026/27_sofascore_16434027,2026-09-12,Bundesliga,True,FC Koln,Werder Bremen,1,1,15,14,6,5,11,12,8,5,2,1
+Bundesliga_2026/27_sofascore_16434027,2026-09-12,Bundesliga,False,Werder Bremen,FC Koln,1,1,14,15,5,6,12,11,5,8,1,2
+Bundesliga_2026/27_sofascore_16434031,2026-09-12,Bundesliga,True,Augsburg,Leverkusen,2,2,8,30,5,5,6,12,2,14,1,1
+Bundesliga_2026/27_sofascore_16434031,2026-09-12,Bundesliga,False,Leverkusen,Augsburg,2,2,30,8,5,5,12,6,14,2,1,1
+Bundesliga_2026/27_sofascore_16434035,2026-09-12,Bundesliga,True,Hoffenheim,Stuttgart,2,1,20,16,8,5,15,8,5,7,1,0
+Bundesliga_2026/27_sofascore_16434035,2026-09-12,Bundesliga,False,Stuttgart,Hoffenheim,1,2,16,20,5,8,8,15,7,5,0,1
+Bundesliga_2026/27_sofascore_16434037,2026-09-12,Bundesliga,True,Dortmund,Paderborn,3,0,14,10,8,0,11,7,7,3,1,1
+Bundesliga_2026/27_sofascore_16434037,2026-09-12,Bundesliga,False,Paderborn,Dortmund,0,3,10,14,0,8,7,11,3,7,1,1
+Bundesliga_2026/27_sofascore_16434040,2026-09-12,Bundesliga,True,Freiburg,M'gladbach,5,0,19,5,9,0,7,16,6,2,1,5
+Bundesliga_2026/27_sofascore_16434040,2026-09-12,Bundesliga,False,M'gladbach,Freiburg,0,5,5,19,0,9,16,7,2,6,5,1
+Bundesliga_2026/27_sofascore_16434041,2026-09-13,Bundesliga,True,Elversberg,Bayern Munich,1,2,5,28,1,6,9,8,3,9,2,0
+Bundesliga_2026/27_sofascore_16434041,2026-09-13,Bundesliga,False,Bayern Munich,Elversberg,2,1,28,5,6,1,8,9,9,3,0,2
+Bundesliga_2026/27_sofascore_16434043,2026-09-13,Bundesliga,True,RB Leipzig,Hamburg,5,0,19,10,6,4,11,13,7,7,1,2
+Bundesliga_2026/27_sofascore_16434043,2026-09-13,Bundesliga,False,Hamburg,RB Leipzig,0,5,10,19,4,6,13,11,7,7,2,1
+Bundesliga_2026/27_sofascore_16434038,2026-09-18,Bundesliga,True,Bayern Munich,Union Berlin,7,0,23,3,15,2,12,9,9,2,1,3
+Bundesliga_2026/27_sofascore_16434038,2026-09-18,Bundesliga,False,Union Berlin,Bayern Munich,0,7,3,23,2,15,9,12,2,9,3,1
+Bundesliga_2026/27_sofascore_16434034,2026-09-19,Bundesliga,True,Stuttgart,Dortmund,0,1,12,13,5,2,9,14,6,2,2,5
+Bundesliga_2026/27_sofascore_16434034,2026-09-19,Bundesliga,False,Dortmund,Stuttgart,1,0,13,12,2,5,14,9,2,6,5,2
+Bundesliga_2026/27_sofascore_16434046,2026-09-19,Bundesliga,True,Frankfurt,Freiburg,2,2,10,22,3,7,12,11,3,5,2,2
+Bundesliga_2026/27_sofascore_16434046,2026-09-19,Bundesliga,False,Freiburg,Frankfurt,2,2,22,10,7,3,11,12,5,3,2,2
+Bundesliga_2026/27_sofascore_16434047,2026-09-19,Bundesliga,True,M'gladbach,Mainz,3,4,21,17,7,8,12,14,6,4,6,5
+Bundesliga_2026/27_sofascore_16434047,2026-09-19,Bundesliga,False,Mainz,M'gladbach,4,3,17,21,8,7,14,12,4,6,5,6
+Bundesliga_2026/27_sofascore_16434048,2026-09-19,Bundesliga,True,Hamburg,FC Koln,2,1,12,18,7,5,12,14,3,5,2,3
+Bundesliga_2026/27_sofascore_16434048,2026-09-19,Bundesliga,False,FC Koln,Hamburg,1,2,18,12,5,7,14,12,5,3,3,2
+Bundesliga_2026/27_sofascore_16434049,2026-09-19,Bundesliga,True,Werder Bremen,Augsburg,3,2,20,7,11,4,10,11,2,2,2,2
+Bundesliga_2026/27_sofascore_16434049,2026-09-19,Bundesliga,False,Augsburg,Werder Bremen,2,3,7,20,4,11,11,10,2,2,2,2
+Bundesliga_2026/27_sofascore_16434033,2026-09-20,Bundesliga,True,Leverkusen,RB Leipzig,2,0,18,12,6,3,14,8,9,6,2,3
+Bundesliga_2026/27_sofascore_16434033,2026-09-20,Bundesliga,False,RB Leipzig,Leverkusen,0,2,12,18,3,6,8,14,6,9,3,2
+Bundesliga_2026/27_sofascore_16434051,2026-09-20,Bundesliga,True,Schalke 04,Elversberg,0,0,13,11,1,1,10,10,4,4,1,2
+Bundesliga_2026/27_sofascore_16434051,2026-09-20,Bundesliga,False,Elversberg,Schalke 04,0,0,11,13,1,1,10,10,4,4,2,1
+Bundesliga_2026/27_sofascore_16434052,2026-09-20,Bundesliga,True,Paderborn,Hoffenheim,3,1,13,23,5,2,6,14,6,5,0,1
+Bundesliga_2026/27_sofascore_16434052,2026-09-20,Bundesliga,False,Hoffenheim,Paderborn,1,3,23,13,2,5,14,6,5,6,1,0
+Bundesliga_2026/27_sofascore_16434050,2026-10-09,Bundesliga,True,Dortmund,Werder Bremen,2,2,21,11,10,4,10,10,9,3,2,1
+Bundesliga_2026/27_sofascore_16434050,2026-10-09,Bundesliga,False,Werder Bremen,Dortmund,2,2,11,21,4,10,10,10,3,9,1,2
+Bundesliga_2026/27_sofascore_16434054,2026-10-10,Bundesliga,True,Union Berlin,Elversberg,1,0,19,7,6,2,14,9,7,3,2,1
+Bundesliga_2026/27_sofascore_16434054,2026-10-10,Bundesliga,False,Elversberg,Union Berlin,0,1,7,19,2,6,9,14,3,7,1,2
+Bundesliga_2026/27_sofascore_16434055,2026-10-10,Bundesliga,True,RB Leipzig,Frankfurt,6,0,20,18,10,9,16,13,3,6,1,3
+Bundesliga_2026/27_sofascore_16434055,2026-10-10,Bundesliga,False,Frankfurt,RB Leipzig,0,6,18,20,9,10,13,16,6,3,3,1
+Bundesliga_2026/27_sofascore_16434056,2026-10-10,Bundesliga,True,Hoffenheim,Hamburg,2,3,17,15,4,4,11,16,7,3,4,0
+Bundesliga_2026/27_sofascore_16434056,2026-10-10,Bundesliga,False,Hamburg,Hoffenheim,3,2,15,17,4,4,16,11,3,7,0,4
+Bundesliga_2026/27_sofascore_16434057,2026-10-10,Bundesliga,True,Augsburg,Bayern Munich,2,2,12,30,5,10,10,6,5,9,3,0
+Bundesliga_2026/27_sofascore_16434057,2026-10-10,Bundesliga,False,Bayern Munich,Augsburg,2,2,30,12,10,5,6,10,9,5,0,3
+Bundesliga_2026/27_sofascore_16434058,2026-10-10,Bundesliga,True,Mainz,Leverkusen,3,4,23,16,5,7,11,10,4,3,3,1
+Bundesliga_2026/27_sofascore_16434058,2026-10-10,Bundesliga,False,Leverkusen,Mainz,4,3,16,23,7,5,10,11,3,4,1,3
+Bundesliga_2026/27_sofascore_16434060,2026-10-10,Bundesliga,True,Paderborn,Stuttgart,0,2,24,18,6,8,10,11,7,5,1,0
+Bundesliga_2026/27_sofascore_16434060,2026-10-10,Bundesliga,False,Stuttgart,Paderborn,2,0,18,24,8,6,11,10,5,7,0,1
+Bundesliga_2026/27_sofascore_16434053,2026-10-11,Bundesliga,True,Freiburg,Schalke 04,2,1,10,5,4,1,11,13,7,2,4,1
+Bundesliga_2026/27_sofascore_16434053,2026-10-11,Bundesliga,False,Schalke 04,Freiburg,1,2,5,10,1,4,13,11,2,7,1,4
+Bundesliga_2026/27_sofascore_16434059,2026-10-11,Bundesliga,True,FC Koln,M'gladbach,2,1,19,16,7,7,8,17,6,6,1,3
+Bundesliga_2026/27_sofascore_16434059,2026-10-11,Bundesliga,False,M'gladbach,FC Koln,1,2,16,19,7,7,17,8,6,6,3,1
+Bundesliga_2026/27_sofascore_16434063,2026-10-16,Bundesliga,True,Frankfurt,FC Koln,1,0,15,9,7,3,8,17,7,3,2,2
+Bundesliga_2026/27_sofascore_16434063,2026-10-16,Bundesliga,False,FC Koln,Frankfurt,0,1,9,15,3,7,17,8,3,7,2,2
+Bundesliga_2026/27_sofascore_16434062,2026-10-17,Bundesliga,True,Bayern Munich,RB Leipzig,6,1,29,12,17,4,15,6,11,3,1,0
+Bundesliga_2026/27_sofascore_16434062,2026-10-17,Bundesliga,False,RB Leipzig,Bayern Munich,1,6,12,29,4,17,6,15,3,11,0,1
+Bundesliga_2026/27_sofascore_16434066,2026-10-17,Bundesliga,True,Elversberg,Augsburg,4,3,19,29,8,8,16,14,4,12,4,3
+Bundesliga_2026/27_sofascore_16434066,2026-10-17,Bundesliga,False,Augsburg,Elversberg,3,4,29,19,8,8,14,16,12,4,3,4
+Bundesliga_2026/27_sofascore_16434067,2026-10-17,Bundesliga,True,Werder Bremen,Paderborn,2,2,18,11,11,4,11,14,5,3,1,1
+Bundesliga_2026/27_sofascore_16434067,2026-10-17,Bundesliga,False,Paderborn,Werder Bremen,2,2,11,18,4,11,14,11,3,5,1,1
+Bundesliga_2026/27_sofascore_16434068,2026-10-17,Bundesliga,True,Union Berlin,Dortmund,0,0,11,10,0,2,13,13,5,5,3,3
+Bundesliga_2026/27_sofascore_16434068,2026-10-17,Bundesliga,False,Dortmund,Union Berlin,0,0,10,11,2,0,13,13,5,5,3,3
+Bundesliga_2026/27_sofascore_16434071,2026-10-17,Bundesliga,True,Schalke 04,Mainz,0,1,9,10,3,6,12,20,4,1,0,2
+Bundesliga_2026/27_sofascore_16434071,2026-10-17,Bundesliga,False,Mainz,Schalke 04,1,0,10,9,6,3,20,12,1,4,2,0
+Bundesliga_2026/27_sofascore_16434072,2026-10-17,Bundesliga,True,Hamburg,Stuttgart,1,0,14,24,3,5,12,9,5,9,3,0
+Bundesliga_2026/27_sofascore_16434072,2026-10-17,Bundesliga,False,Stuttgart,Hamburg,0,1,24,14,5,3,9,12,9,5,0,3
+Ligue 1_2026/27_sofascore_16310922,2026-08-21,Ligue 1,True,Marseille,Strasbourg,4,0,14,5,8,2,6,12,3,4,1,4
+Ligue 1_2026/27_sofascore_16310922,2026-08-21,Ligue 1,False,Strasbourg,Marseille,0,4,5,14,2,8,12,6,4,3,4,1
+Ligue 1_2026/27_sofascore_16310920,2026-08-22,Ligue 1,True,Le Mans,Brest,2,2,8,26,5,7,14,12,1,10,1,1
+Ligue 1_2026/27_sofascore_16310920,2026-08-22,Ligue 1,False,Brest,Le Mans,2,2,26,8,7,5,12,14,10,1,1,1
+Ligue 1_2026/27_sofascore_16310921,2026-08-22,Ligue 1,True,Lens,Auxerre,5,2,12,10,9,4,6,21,4,7,1,2
+Ligue 1_2026/27_sofascore_16310921,2026-08-22,Ligue 1,False,Auxerre,Lens,2,5,10,12,4,9,21,6,7,4,2,1
+Ligue 1_2026/27_sofascore_16310923,2026-08-22,Ligue 1,True,Nice,Lorient,0,0,14,10,1,2,15,8,9,3,1,0
+Ligue 1_2026/27_sofascore_16310923,2026-08-22,Ligue 1,False,Lorient,Nice,0,0,10,14,2,1,8,15,3,9,0,1
+Ligue 1_2026/27_sofascore_16310926,2026-08-22,Ligue 1,True,Toulouse,Lyon,0,2,17,11,2,3,15,15,6,5,1,2
+Ligue 1_2026/27_sofascore_16310926,2026-08-22,Ligue 1,False,Lyon,Toulouse,2,0,11,17,3,2,15,15,5,6,2,1
+Ligue 1_2026/27_sofascore_16310927,2026-08-22,Ligue 1,True,Troyes,Paris FC,0,0,9,10,2,1,8,14,6,2,2,1
+Ligue 1_2026/27_sofascore_16310927,2026-08-22,Ligue 1,False,Paris FC,Troyes,0,0,10,9,1,2,14,8,2,6,1,2
+Ligue 1_2026/27_sofascore_16310918,2026-08-23,Ligue 1,True,Angers,Lille,0,2,20,11,2,8,11,13,8,3,2,2
+Ligue 1_2026/27_sofascore_16310918,2026-08-23,Ligue 1,False,Lille,Angers,2,0,11,20,8,2,13,11,3,8,2,2
+Ligue 1_2026/27_sofascore_16310919,2026-08-23,Ligue 1,True,Le Havre,Monaco,0,1,14,15,4,7,13,12,7,4,3,2
+Ligue 1_2026/27_sofascore_16310919,2026-08-23,Ligue 1,False,Monaco,Le Havre,1,0,15,14,7,4,12,13,4,7,2,3
+Ligue 1_2026/27_sofascore_16311125,2026-08-23,Ligue 1,True,Rennes,Paris SG,2,2,9,19,3,5,7,6,0,10,2,2
+Ligue 1_2026/27_sofascore_16311125,2026-08-23,Ligue 1,False,Paris SG,Rennes,2,2,19,9,5,3,6,7,10,0,2,2
+Ligue 1_2026/27_sofascore_16310930,2026-08-28,Ligue 1,True,Lille,Paris SG,2,2,9,18,4,4,11,7,0,5,2,1
+Ligue 1_2026/27_sofascore_16310930,2026-08-28,Ligue 1,False,Paris SG,Lille,2,2,18,9,4,4,7,11,5,0,1,2
+Ligue 1_2026/27_sofascore_16310928,2026-08-29,Ligue 1,True,Auxerre,Angers,1,3,20,15,7,6,16,6,7,10,3,2
+Ligue 1_2026/27_sofascore_16310928,2026-08-29,Ligue 1,False,Angers,Auxerre,3,1,15,20,6,7,6,16,10,7,2,3
+Ligue 1_2026/27_sofascore_16310929,2026-08-29,Ligue 1,True,Brest,Toulouse,2,2,27,6,7,2,19,18,7,2,2,3
+Ligue 1_2026/27_sofascore_16310929,2026-08-29,Ligue 1,False,Toulouse,Brest,2,2,6,27,2,7,18,19,2,7,3,2
+Ligue 1_2026/27_sofascore_16310931,2026-08-29,Ligue 1,True,Lorient,Troyes,1,2,15,11,6,2,9,11,2,5,0,0
+Ligue 1_2026/27_sofascore_16310931,2026-08-29,Ligue 1,False,Troyes,Lorient,2,1,11,15,2,6,11,9,5,2,0,0
+Ligue 1_2026/27_sofascore_16310932,2026-08-29,Ligue 1,True,Lyon,Le Havre,1,1,15,12,5,4,7,16,5,5,0,2
+Ligue 1_2026/27_sofascore_16310932,2026-08-29,Ligue 1,False,Le Havre,Lyon,1,1,12,15,4,5,16,7,5,5,2,0
+Ligue 1_2026/27_sofascore_16310936,2026-08-29,Ligue 1,True,Strasbourg,Lens,2,1,16,17,7,7,10,11,3,6,2,2
+Ligue 1_2026/27_sofascore_16310936,2026-08-29,Ligue 1,False,Lens,Strasbourg,1,2,17,16,7,7,11,10,6,3,2,2
+Ligue 1_2026/27_sofascore_16310933,2026-08-30,Ligue 1,True,Monaco,Marseille,2,0,11,13,5,2,9,10,5,7,4,0
+Ligue 1_2026/27_sofascore_16310933,2026-08-30,Ligue 1,False,Marseille,Monaco,0,2,13,11,2,5,10,9,7,5,0,4
+Ligue 1_2026/27_sofascore_16310934,2026-08-30,Ligue 1,True,Paris FC,Nice,3,0,15,15,4,4,7,7,2,4,0,1
+Ligue 1_2026/27_sofascore_16310934,2026-08-30,Ligue 1,False,Nice,Paris FC,0,3,15,15,4,4,7,7,4,2,1,0
+Ligue 1_2026/27_sofascore_16310935,2026-08-30,Ligue 1,True,Rennes,Le Mans,3,2,22,12,8,5,15,15,8,6,3,3
+Ligue 1_2026/27_sofascore_16310935,2026-08-30,Ligue 1,False,Le Mans,Rennes,2,3,12,22,5,8,15,15,6,8,3,3
+Ligue 1_2026/27_sofascore_16310945,2026-09-03,Ligue 1,True,Toulouse,Lille,0,1,24,10,10,6,16,9,6,2,1,0
+Ligue 1_2026/27_sofascore_16310945,2026-09-03,Ligue 1,False,Lille,Toulouse,1,0,10,24,6,10,9,16,2,6,0,1
+Ligue 1_2026/27_sofascore_16310940,2026-09-04,Ligue 1,True,Lyon,Auxerre,3,1,21,8,7,3,11,8,9,5,2,2
+Ligue 1_2026/27_sofascore_16310940,2026-09-04,Ligue 1,False,Auxerre,Lyon,1,3,8,21,3,7,8,11,5,9,2,2
+Ligue 1_2026/27_sofascore_16310944,2026-09-04,Ligue 1,True,Paris SG,Monaco,1,2,23,4,10,2,9,11,6,0,1,1
+Ligue 1_2026/27_sofascore_16310944,2026-09-04,Ligue 1,False,Monaco,Paris SG,2,1,4,23,2,10,11,9,0,6,1,1
+Ligue 1_2026/27_sofascore_16310938,2026-09-05,Ligue 1,True,Le Havre,Brest,1,2,18,19,4,9,15,18,5,5,2,1
+Ligue 1_2026/27_sofascore_16310938,2026-09-05,Ligue 1,False,Brest,Le Havre,2,1,19,18,9,4,18,15,5,5,1,2
+Ligue 1_2026/27_sofascore_16310939,2026-09-05,Ligue 1,True,Lens,Lorient,0,1,17,8,6,3,18,6,8,0,5,1
+Ligue 1_2026/27_sofascore_16310939,2026-09-05,Ligue 1,False,Lorient,Lens,1,0,8,17,3,6,6,18,0,8,1,5
+Ligue 1_2026/27_sofascore_16310943,2026-09-05,Ligue 1,True,Nice,Le Mans,1,1,8,8,2,3,4,11,5,2,2,2
+Ligue 1_2026/27_sofascore_16310943,2026-09-05,Ligue 1,False,Le Mans,Nice,1,1,8,8,3,2,11,4,2,5,2,2
+Ligue 1_2026/27_sofascore_16310937,2026-09-06,Ligue 1,True,Angers,Rennes,1,2,19,17,3,5,10,15,12,6,1,1
+Ligue 1_2026/27_sofascore_16310937,2026-09-06,Ligue 1,False,Rennes,Angers,2,1,17,19,5,3,15,10,6,12,1,1
+Ligue 1_2026/27_sofascore_16310941,2026-09-06,Ligue 1,True,Marseille,Paris FC,2,3,14,18,5,7,10,12,5,4,0,2
+Ligue 1_2026/27_sofascore_16310941,2026-09-06,Ligue 1,False,Paris FC,Marseille,3,2,18,14,7,5,12,10,4,5,2,0
+Ligue 1_2026/27_sofascore_16310946,2026-09-06,Ligue 1,True,Troyes,Strasbourg,2,6,27,19,6,12,6,16,11,0,1,1
+Ligue 1_2026/27_sofascore_16310946,2026-09-06,Ligue 1,False,Strasbourg,Troyes,6,2,19,27,12,6,16,6,0,11,1,1
+Ligue 1_2026/27_sofascore_16310954,2026-09-11,Ligue 1,True,Rennes,Marseille,1,0,20,13,7,5,15,13,3,5,1,4
+Ligue 1_2026/27_sofascore_16310954,2026-09-11,Ligue 1,False,Marseille,Rennes,0,1,13,20,5,7,13,15,5,3,4,1
+Ligue 1_2026/27_sofascore_16310947,2026-09-12,Ligue 1,True,Auxerre,Nice,1,0,11,12,7,4,9,7,3,8,1,1
+Ligue 1_2026/27_sofascore_16310947,2026-09-12,Ligue 1,False,Nice,Auxerre,0,1,12,11,4,7,7,9,8,3,1,1
+Ligue 1_2026/27_sofascore_16310949,2026-09-12,Ligue 1,True,Le Havre,Angers,0,0,15,9,6,1,15,13,4,6,1,1
+Ligue 1_2026/27_sofascore_16310949,2026-09-12,Ligue 1,False,Angers,Le Havre,0,0,9,15,1,6,13,15,6,4,1,1
+Ligue 1_2026/27_sofascore_16310952,2026-09-12,Ligue 1,True,Lorient,Toulouse,2,2,10,13,3,4,8,18,4,3,1,0
+Ligue 1_2026/27_sofascore_16310952,2026-09-12,Ligue 1,False,Toulouse,Lorient,2,2,13,10,4,3,18,8,3,4,0,1
+Ligue 1_2026/27_sofascore_16310953,2026-09-12,Ligue 1,True,Paris FC,Lyon,0,0,6,5,4,1,19,13,4,3,2,1
+Ligue 1_2026/27_sofascore_16310953,2026-09-12,Ligue 1,False,Lyon,Paris FC,0,0,5,6,1,4,13,19,3,4,1,2
+Ligue 1_2026/27_sofascore_16310955,2026-09-12,Ligue 1,True,Strasbourg,Monaco,1,1,13,12,2,3,9,10,2,7,1,1
+Ligue 1_2026/27_sofascore_16310955,2026-09-12,Ligue 1,False,Monaco,Strasbourg,1,1,12,13,3,2,10,9,7,2,1,1
+Ligue 1_2026/27_sofascore_16310948,2026-09-13,Ligue 1,True,Brest,Paris SG,0,1,16,15,4,7,13,7,3,2,1,2
+Ligue 1_2026/27_sofascore_16310948,2026-09-13,Ligue 1,False,Paris SG,Brest,1,0,15,16,7,4,7,13,2,3,2,1
+Ligue 1_2026/27_sofascore_16310950,2026-09-13,Ligue 1,True,Le Mans,Lens,2,2,12,16,4,6,17,11,3,9,2,3
+Ligue 1_2026/27_sofascore_16310950,2026-09-13,Ligue 1,False,Lens,Le Mans,2,2,16,12,6,4,11,17,9,3,3,2
+Ligue 1_2026/27_sofascore_16310951,2026-09-13,Ligue 1,True,Lille,Troyes,2,0,13,8,6,1,11,20,2,5,1,0
+Ligue 1_2026/27_sofascore_16310951,2026-09-13,Ligue 1,False,Troyes,Lille,0,2,8,13,1,6,20,11,5,2,0,1
+Ligue 1_2026/27_sofascore_16310961,2026-09-18,Ligue 1,True,Monaco,Lens,2,1,9,12,6,4,13,11,2,8,1,1
+Ligue 1_2026/27_sofascore_16310961,2026-09-18,Ligue 1,False,Lens,Monaco,1,2,12,9,4,6,11,13,8,2,1,1
+Ligue 1_2026/27_sofascore_16310956,2026-09-19,Ligue 1,True,Angers,Troyes,2,0,12,19,3,3,14,15,2,11,3,1
+Ligue 1_2026/27_sofascore_16310956,2026-09-19,Ligue 1,False,Troyes,Angers,0,2,19,12,3,3,15,14,11,2,1,3
+Ligue 1_2026/27_sofascore_16310958,2026-09-19,Ligue 1,True,Le Mans,Lorient,2,1,11,9,7,2,15,15,1,3,3,3
+Ligue 1_2026/27_sofascore_16310958,2026-09-19,Ligue 1,False,Lorient,Le Mans,1,2,9,11,2,7,15,15,3,1,3,3
+Ligue 1_2026/27_sofascore_16310959,2026-09-19,Ligue 1,True,Lyon,Rennes,4,0,15,13,9,4,13,14,3,8,3,2
+Ligue 1_2026/27_sofascore_16310959,2026-09-19,Ligue 1,False,Rennes,Lyon,0,4,13,15,4,9,14,13,8,3,2,3
+Ligue 1_2026/27_sofascore_16310964,2026-09-19,Ligue 1,True,Paris FC,Strasbourg,2,1,17,5,7,1,17,12,3,0,3,2
+Ligue 1_2026/27_sofascore_16310964,2026-09-19,Ligue 1,False,Strasbourg,Paris FC,1,2,5,17,1,7,12,17,0,3,2,3
+Ligue 1_2026/27_sofascore_16310965,2026-09-19,Ligue 1,True,Toulouse,Le Havre,3,2,14,18,5,7,17,15,6,7,3,1
+Ligue 1_2026/27_sofascore_16310965,2026-09-19,Ligue 1,False,Le Havre,Toulouse,2,3,18,14,7,5,15,17,7,6,1,3
+Ligue 1_2026/27_sofascore_16310957,2026-09-20,Ligue 1,True,Auxerre,Brest,2,1,11,8,4,2,19,13,8,3,1,1
+Ligue 1_2026/27_sofascore_16310957,2026-09-20,Ligue 1,False,Brest,Auxerre,1,2,8,11,2,4,13,19,3,8,1,1
+Ligue 1_2026/27_sofascore_16310960,2026-09-20,Ligue 1,True,Marseille,Paris SG,1,2,12,31,4,10,9,3,3,7,5,1
+Ligue 1_2026/27_sofascore_16310960,2026-09-20,Ligue 1,False,Paris SG,Marseille,2,1,31,12,10,4,3,9,7,3,1,5
+Ligue 1_2026/27_sofascore_16310962,2026-09-20,Ligue 1,True,Nice,Lille,2,1,10,21,4,8,16,9,3,7,3,1
+Ligue 1_2026/27_sofascore_16310962,2026-09-20,Ligue 1,False,Lille,Nice,1,2,21,10,8,4,9,16,7,3,1,3
+Ligue 1_2026/27_sofascore_16310967,2026-10-09,Ligue 1,True,Lens,Lyon,2,1,15,13,7,5,13,12,7,4,2,1
+Ligue 1_2026/27_sofascore_16310967,2026-10-09,Ligue 1,False,Lyon,Lens,1,2,13,15,5,7,12,13,4,7,1,2
+Ligue 1_2026/27_sofascore_16310966,2026-10-10,Ligue 1,True,Brest,Angers,5,1,19,9,9,3,5,11,4,5,1,2
+Ligue 1_2026/27_sofascore_16310966,2026-10-10,Ligue 1,False,Angers,Brest,1,5,9,19,3,9,11,5,5,4,2,1
+Ligue 1_2026/27_sofascore_16310968,2026-10-10,Ligue 1,True,Lille,Le Havre,1,0,5,17,1,2,17,12,4,5,2,3
+Ligue 1_2026/27_sofascore_16310968,2026-10-10,Ligue 1,False,Le Havre,Lille,0,1,17,5,2,1,12,17,5,4,3,2
+Ligue 1_2026/27_sofascore_16310969,2026-10-10,Ligue 1,True,Lorient,Paris FC,1,0,8,17,5,3,9,13,3,9,1,5
+Ligue 1_2026/27_sofascore_16310969,2026-10-10,Ligue 1,False,Paris FC,Lorient,0,1,17,8,3,5,13,9,9,3,5,1
+Ligue 1_2026/27_sofascore_16310970,2026-10-10,Ligue 1,True,Monaco,Toulouse,2,2,16,8,4,4,10,16,4,4,2,2
+Ligue 1_2026/27_sofascore_16310970,2026-10-10,Ligue 1,False,Toulouse,Monaco,2,2,8,16,4,4,16,10,4,4,2,2
+Ligue 1_2026/27_sofascore_16310972,2026-10-10,Ligue 1,True,Paris SG,Le Mans,3,1,22,11,8,3,3,17,4,4,0,4
+Ligue 1_2026/27_sofascore_16310972,2026-10-10,Ligue 1,False,Le Mans,Paris SG,1,3,11,22,3,8,17,3,4,4,4,0
+Ligue 1_2026/27_sofascore_16310971,2026-10-11,Ligue 1,True,Nice,Strasbourg,2,1,11,11,6,3,3,8,2,3,1,1
+Ligue 1_2026/27_sofascore_16310971,2026-10-11,Ligue 1,False,Strasbourg,Nice,1,2,11,11,3,6,8,3,3,2,1,1
+Ligue 1_2026/27_sofascore_16310973,2026-10-11,Ligue 1,True,Rennes,Auxerre,4,1,21,12,10,5,12,11,12,5,3,0
+Ligue 1_2026/27_sofascore_16310973,2026-10-11,Ligue 1,False,Auxerre,Rennes,1,4,12,21,5,10,11,12,5,12,0,3
+Ligue 1_2026/27_sofascore_16310974,2026-10-11,Ligue 1,True,Troyes,Marseille,0,2,15,5,3,2,14,15,6,3,4,1
+Ligue 1_2026/27_sofascore_16310974,2026-10-11,Ligue 1,False,Marseille,Troyes,2,0,5,15,2,3,15,14,3,6,1,4
+Ligue 1_2026/27_sofascore_16310977,2026-10-16,Ligue 1,True,Le Mans,Toulouse,0,3,11,13,1,5,15,9,2,2,2,1
+Ligue 1_2026/27_sofascore_16310977,2026-10-16,Ligue 1,False,Toulouse,Le Mans,3,0,13,11,5,1,9,15,2,2,1,2
+Ligue 1_2026/27_sofascore_16310978,2026-10-17,Ligue 1,True,Lille,Brest,1,1,17,8,5,2,12,20,5,2,1,2
+Ligue 1_2026/27_sofascore_16310978,2026-10-17,Ligue 1,False,Brest,Lille,1,1,8,17,2,5,20,12,2,5,2,1
+Ligue 1_2026/27_sofascore_16310982,2026-10-17,Ligue 1,True,Strasbourg,Paris SG,1,3,17,18,8,7,12,6,3,6,2,0
+Ligue 1_2026/27_sofascore_16310982,2026-10-17,Ligue 1,False,Paris SG,Strasbourg,3,1,18,17,7,8,6,12,6,3,0,2
+Ligue 1_2026/27_sofascore_16310983,2026-10-17,Ligue 1,True,Troyes,Lens,1,3,12,13,5,3,13,11,6,4,2,2
+Ligue 1_2026/27_sofascore_16310983,2026-10-17,Ligue 1,False,Lens,Troyes,3,1,13,12,3,5,11,13,4,6,2,2
+Serie A_2026/27_sofascore_16283040,2026-08-22,Serie A,True,Genoa,Napoli,0,2,11,13,2,4,10,8,5,5,2,1
+Serie A_2026/27_sofascore_16283040,2026-08-22,Serie A,False,Napoli,Genoa,2,0,13,11,4,2,8,10,5,5,1,2
+Serie A_2026/27_sofascore_16283043,2026-08-22,Serie A,True,Parma,Cagliari,0,1,13,14,2,5,6,20,3,2,0,2
+Serie A_2026/27_sofascore_16283043,2026-08-22,Serie A,False,Cagliari,Parma,1,0,14,13,5,2,20,6,2,3,2,0
+Serie A_2026/27_sofascore_16283044,2026-08-22,Serie A,True,Udinese,Como,1,1,17,20,3,6,13,11,1,10,3,0
+Serie A_2026/27_sofascore_16283044,2026-08-22,Serie A,False,Como,Udinese,1,1,20,17,6,3,11,13,10,1,0,3
+Serie A_2026/27_sofascore_16283050,2026-08-22,Serie A,True,Inter,Monza,4,1,13,7,5,3,5,14,3,3,2,2
+Serie A_2026/27_sofascore_16283050,2026-08-22,Serie A,False,Monza,Inter,1,4,7,13,3,5,14,5,3,3,2,2
+Serie A_2026/27_sofascore_16283041,2026-08-23,Serie A,True,Atalanta,Sassuolo,2,1,14,22,7,8,9,10,4,4,0,0
+Serie A_2026/27_sofascore_16283041,2026-08-23,Serie A,False,Sassuolo,Atalanta,1,2,22,14,8,7,10,9,4,4,0,0
+Serie A_2026/27_sofascore_16283046,2026-08-23,Serie A,True,Torino,Milan,1,2,8,19,1,4,10,9,2,4,0,1
+Serie A_2026/27_sofascore_16283046,2026-08-23,Serie A,False,Milan,Torino,2,1,19,8,4,1,9,10,4,2,1,0
+Serie A_2026/27_sofascore_16283047,2026-08-23,Serie A,True,Venezia,Lecce,0,2,19,12,7,5,8,12,5,3,1,3
+Serie A_2026/27_sofascore_16283047,2026-08-23,Serie A,False,Lecce,Venezia,2,0,12,19,5,7,12,8,3,5,3,1
+Serie A_2026/27_sofascore_16283048,2026-08-23,Serie A,True,Frosinone,Juventus,0,1,11,20,2,5,15,18,3,12,2,2
+Serie A_2026/27_sofascore_16283048,2026-08-23,Serie A,False,Juventus,Frosinone,1,0,20,11,5,2,18,15,12,3,2,2
+Serie A_2026/27_sofascore_16283045,2026-08-24,Serie A,True,Roma,Fiorentina,4,0,17,9,8,4,15,11,2,3,2,2
+Serie A_2026/27_sofascore_16283045,2026-08-24,Serie A,False,Fiorentina,Roma,0,4,9,17,4,8,11,15,3,2,2,2
+Serie A_2026/27_sofascore_16283049,2026-08-24,Serie A,True,Bologna,Lazio,0,1,14,10,5,3,18,19,8,6,4,4
+Serie A_2026/27_sofascore_16283049,2026-08-24,Serie A,False,Lazio,Bologna,1,0,10,14,3,5,19,18,6,8,4,4
+Serie A_2026/27_sofascore_16284980,2026-08-28,Serie A,True,Milan,Venezia,2,0,16,9,5,2,8,11,2,3,1,3
+Serie A_2026/27_sofascore_16284980,2026-08-28,Serie A,False,Venezia,Milan,0,2,9,16,2,5,11,8,3,2,3,1
+Serie A_2026/27_sofascore_16284973,2026-08-29,Serie A,True,Fiorentina,Frosinone,0,3,25,12,4,6,14,21,8,5,3,3
+Serie A_2026/27_sofascore_16284973,2026-08-29,Serie A,False,Frosinone,Fiorentina,3,0,12,25,6,4,21,14,5,8,3,3
+Serie A_2026/27_sofascore_16284974,2026-08-29,Serie A,True,Sassuolo,Torino,2,1,19,10,7,4,12,9,4,3,3,1
+Serie A_2026/27_sofascore_16284974,2026-08-29,Serie A,False,Torino,Sassuolo,1,2,10,19,4,7,9,12,3,4,1,3
+Serie A_2026/27_sofascore_16284975,2026-08-29,Serie A,True,Juventus,Parma,2,0,21,4,6,3,23,12,10,2,2,3
+Serie A_2026/27_sofascore_16284975,2026-08-29,Serie A,False,Parma,Juventus,0,2,4,21,3,6,12,23,2,10,3,2
+Serie A_2026/27_sofascore_16284979,2026-08-29,Serie A,True,Monza,Udinese,2,3,15,12,5,5,10,12,3,3,1,0
+Serie A_2026/27_sofascore_16284979,2026-08-29,Serie A,False,Udinese,Monza,3,2,12,15,5,5,12,10,3,3,0,1
+Serie A_2026/27_sofascore_16284971,2026-08-30,Serie A,True,Lazio,Genoa,1,0,15,8,2,1,18,6,4,2,1,2
+Serie A_2026/27_sofascore_16284971,2026-08-30,Serie A,False,Genoa,Lazio,0,1,8,15,1,2,6,18,2,4,2,1
+Serie A_2026/27_sofascore_16284972,2026-08-30,Serie A,True,Cagliari,Inter,0,1,10,31,0,7,6,5,8,6,2,1
+Serie A_2026/27_sofascore_16284972,2026-08-30,Serie A,False,Inter,Cagliari,1,0,31,10,7,0,5,6,6,8,1,2
+Serie A_2026/27_sofascore_16284977,2026-08-30,Serie A,True,Napoli,Como,1,2,13,21,2,6,9,5,2,7,1,0
+Serie A_2026/27_sofascore_16284977,2026-08-30,Serie A,False,Como,Napoli,2,1,21,13,6,2,5,9,7,2,0,1
+Serie A_2026/27_sofascore_16284970,2026-08-31,Serie A,True,Atalanta,Bologna,1,0,6,16,2,3,10,13,1,2,1,0
+Serie A_2026/27_sofascore_16284970,2026-08-31,Serie A,False,Bologna,Atalanta,0,1,16,6,3,2,13,10,2,1,0,1
+Serie A_2026/27_sofascore_16284976,2026-08-31,Serie A,True,Lecce,Roma,0,4,7,15,3,8,9,8,2,1,1,1
+Serie A_2026/27_sofascore_16284976,2026-08-31,Serie A,False,Roma,Lecce,4,0,15,7,8,3,8,9,1,2,1,1
+Serie A_2026/27_sofascore_16285001,2026-09-04,Serie A,True,Genoa,Como,1,4,11,20,2,9,8,7,5,4,2,1
+Serie A_2026/27_sofascore_16285001,2026-09-04,Serie A,False,Como,Genoa,4,1,20,11,9,2,7,8,4,5,1,2
+Serie A_2026/27_sofascore_16284999,2026-09-05,Serie A,True,Fiorentina,Torino,1,2,14,7,6,4,13,9,3,5,0,0
+Serie A_2026/27_sofascore_16284999,2026-09-05,Serie A,False,Torino,Fiorentina,2,1,7,14,4,6,9,13,5,3,0,0
+Serie A_2026/27_sofascore_16285003,2026-09-05,Serie A,True,Inter,Napoli,3,2,29,16,8,7,7,7,10,5,1,2
+Serie A_2026/27_sofascore_16285003,2026-09-05,Serie A,False,Napoli,Inter,2,3,16,29,7,8,7,7,5,10,2,1
+Serie A_2026/27_sofascore_16285005,2026-09-05,Serie A,True,Roma,Atalanta,2,1,39,6,10,2,9,10,14,1,0,2
+Serie A_2026/27_sofascore_16285005,2026-09-05,Serie A,False,Atalanta,Roma,1,2,6,39,2,10,10,9,1,14,2,0
+Serie A_2026/27_sofascore_16284978,2026-09-06,Serie A,True,Bologna,Sassuolo,2,2,21,15,5,6,14,8,10,7,2,1
+Serie A_2026/27_sofascore_16284978,2026-09-06,Serie A,False,Sassuolo,Bologna,2,2,15,21,6,5,8,14,7,10,1,2
+Serie A_2026/27_sofascore_16285000,2026-09-06,Serie A,True,Frosinone,Venezia,3,2,13,15,8,4,18,14,5,2,2,4
+Serie A_2026/27_sofascore_16285000,2026-09-06,Serie A,False,Venezia,Frosinone,2,3,15,13,4,8,14,18,2,5,4,2
+Serie A_2026/27_sofascore_16285004,2026-09-06,Serie A,True,Juventus,Milan,1,1,14,3,5,1,10,11,7,1,1,3
+Serie A_2026/27_sofascore_16285004,2026-09-06,Serie A,False,Milan,Juventus,1,1,3,14,1,5,11,10,1,7,3,1
+Serie A_2026/27_sofascore_16285008,2026-09-06,Serie A,True,Parma,Monza,1,1,7,16,3,5,16,16,6,3,2,2
+Serie A_2026/27_sofascore_16285008,2026-09-06,Serie A,False,Monza,Parma,1,1,16,7,5,3,16,16,3,6,2,2
+Serie A_2026/27_sofascore_16284997,2026-09-07,Serie A,True,Cagliari,Lecce,1,0,20,10,9,3,9,13,7,5,1,3
+Serie A_2026/27_sofascore_16284997,2026-09-07,Serie A,False,Lecce,Cagliari,0,1,10,20,3,9,13,9,5,7,3,1
+Serie A_2026/27_sofascore_16285006,2026-09-07,Serie A,True,Udinese,Lazio,1,2,10,19,6,6,13,9,2,8,5,1
+Serie A_2026/27_sofascore_16285006,2026-09-07,Serie A,False,Lazio,Udinese,2,1,19,10,6,6,9,13,8,2,1,5
+Serie A_2026/27_sofascore_16285024,2026-09-11,Serie A,True,Venezia,Fiorentina,2,4,10,19,3,10,11,6,2,4,2,1
+Serie A_2026/27_sofascore_16285024,2026-09-11,Serie A,False,Fiorentina,Venezia,4,2,19,10,10,3,6,11,4,2,1,2
+Serie A_2026/27_sofascore_16285007,2026-09-12,Serie A,True,Genoa,Frosinone,1,1,17,26,5,6,12,12,8,9,4,2
+Serie A_2026/27_sofascore_16285007,2026-09-12,Serie A,False,Frosinone,Genoa,1,1,26,17,6,5,12,12,9,8,2,4
+Serie A_2026/27_sofascore_16285010,2026-09-12,Serie A,True,Atalanta,Cagliari,1,2,22,5,4,5,9,8,3,2,0,0
+Serie A_2026/27_sofascore_16285010,2026-09-12,Serie A,False,Cagliari,Atalanta,2,1,5,22,5,4,8,9,2,3,0,0
+Serie A_2026/27_sofascore_16285012,2026-09-12,Serie A,True,Lazio,Milan,2,2,8,16,6,7,15,14,2,5,2,3
+Serie A_2026/27_sofascore_16285012,2026-09-12,Serie A,False,Milan,Lazio,2,2,16,8,7,6,14,15,5,2,3,2
+Serie A_2026/27_sofascore_16285013,2026-09-13,Serie A,True,Sassuolo,Juventus,3,2,10,19,6,8,8,13,3,10,2,2
+Serie A_2026/27_sofascore_16285013,2026-09-13,Serie A,False,Juventus,Sassuolo,2,3,19,10,8,6,13,8,10,3,2,2
+Serie A_2026/27_sofascore_16285014,2026-09-13,Serie A,True,Lecce,Monza,3,2,7,19,3,11,14,13,4,6,2,0
+Serie A_2026/27_sofascore_16285014,2026-09-13,Serie A,False,Monza,Lecce,2,3,19,7,11,3,13,14,6,4,0,2
+Serie A_2026/27_sofascore_16285015,2026-09-13,Serie A,True,Napoli,Bologna,1,0,14,5,3,2,15,10,10,0,0,1
+Serie A_2026/27_sofascore_16285015,2026-09-13,Serie A,False,Bologna,Napoli,0,1,5,14,2,3,10,15,0,10,1,0
+Serie A_2026/27_sofascore_16285009,2026-09-14,Serie A,True,Inter,Udinese,5,3,27,6,12,5,9,9,10,1,1,1
+Serie A_2026/27_sofascore_16285009,2026-09-14,Serie A,False,Udinese,Inter,3,5,6,27,5,12,9,9,1,10,1,1
+Serie A_2026/27_sofascore_16285011,2026-09-14,Serie A,True,Como,Parma,2,1,29,12,7,4,8,4,11,4,1,0
+Serie A_2026/27_sofascore_16285011,2026-09-14,Serie A,False,Parma,Como,1,2,12,29,4,7,4,8,4,11,0,1
+Serie A_2026/27_sofascore_16285016,2026-09-14,Serie A,True,Torino,Roma,0,2,8,14,3,5,7,20,1,8,0,2
+Serie A_2026/27_sofascore_16285016,2026-09-14,Serie A,False,Roma,Torino,2,0,14,8,5,3,20,7,8,1,2,0
+Serie A_2026/27_sofascore_16285020,2026-09-18,Serie A,True,Monza,Sassuolo,2,1,15,20,6,8,13,6,7,5,4,1
+Serie A_2026/27_sofascore_16285020,2026-09-18,Serie A,False,Sassuolo,Monza,1,2,20,15,8,6,6,13,5,7,1,4
+Serie A_2026/27_sofascore_16285017,2026-09-19,Serie A,True,Bologna,Torino,1,1,11,14,1,3,18,12,1,6,0,3
+Serie A_2026/27_sofascore_16285017,2026-09-19,Serie A,False,Torino,Bologna,1,1,14,11,3,1,12,18,6,1,3,0
+Serie A_2026/27_sofascore_16285021,2026-09-19,Serie A,True,Roma,Inter,2,2,18,16,4,5,13,7,4,2,3,3
+Serie A_2026/27_sofascore_16285021,2026-09-19,Serie A,False,Inter,Roma,2,2,16,18,5,4,7,13,2,4,3,3
+Serie A_2026/27_sofascore_16285027,2026-09-19,Serie A,True,Udinese,Cagliari,0,1,26,5,5,2,10,8,16,1,2,0
+Serie A_2026/27_sofascore_16285027,2026-09-19,Serie A,False,Cagliari,Udinese,1,0,5,26,2,5,8,10,1,16,0,2
+Serie A_2026/27_sofascore_16285028,2026-09-19,Serie A,True,Venezia,Lazio,0,2,17,12,6,2,14,8,7,2,6,0
+Serie A_2026/27_sofascore_16285028,2026-09-19,Serie A,False,Lazio,Venezia,2,0,12,17,2,6,8,14,2,7,0,6
+Serie A_2026/27_sofascore_16285018,2026-09-20,Serie A,True,Fiorentina,Napoli,1,1,17,13,4,5,11,9,4,5,3,0
+Serie A_2026/27_sofascore_16285018,2026-09-20,Serie A,False,Napoli,Fiorentina,1,1,13,17,5,4,9,11,5,4,0,3
+Serie A_2026/27_sofascore_16285019,2026-09-20,Serie A,True,Frosinone,Como,2,0,22,27,6,8,21,8,7,8,3,2
+Serie A_2026/27_sofascore_16285019,2026-09-20,Serie A,False,Como,Frosinone,0,2,27,22,8,6,8,21,8,7,2,3
+Serie A_2026/27_sofascore_16285022,2026-09-20,Serie A,True,Juventus,Atalanta,2,0,14,11,5,2,10,10,4,5,1,2
+Serie A_2026/27_sofascore_16285022,2026-09-20,Serie A,False,Atalanta,Juventus,0,2,11,14,2,5,10,10,5,4,2,1
+Serie A_2026/27_sofascore_16285023,2026-09-20,Serie A,True,Milan,Lecce,3,0,10,6,4,3,9,15,2,3,0,1
+Serie A_2026/27_sofascore_16285023,2026-09-20,Serie A,False,Lecce,Milan,0,3,6,10,3,4,15,9,3,2,1,0
+Serie A_2026/27_sofascore_16285025,2026-09-20,Serie A,True,Parma,Genoa,2,1,5,12,2,5,17,14,2,5,3,3
+Serie A_2026/27_sofascore_16285025,2026-09-20,Serie A,False,Genoa,Parma,1,2,12,5,5,2,14,17,5,2,3,3
+Serie A_2026/27_sofascore_16285030,2026-10-10,Serie A,True,Inter,Parma,3,0,19,9,6,2,13,9,3,1,0,0
+Serie A_2026/27_sofascore_16285030,2026-10-10,Serie A,False,Parma,Inter,0,3,9,19,2,6,9,13,1,3,0,0
+Serie A_2026/27_sofascore_16285032,2026-10-10,Serie A,True,Genoa,Fiorentina,2,1,10,13,4,3,11,10,3,4,5,3
+Serie A_2026/27_sofascore_16285032,2026-10-10,Serie A,False,Fiorentina,Genoa,1,2,13,10,3,4,10,11,4,3,3,5
+Serie A_2026/27_sofascore_16285036,2026-10-10,Serie A,True,Napoli,Frosinone,3,0,19,17,8,1,8,12,6,4,2,0
+Serie A_2026/27_sofascore_16285036,2026-10-10,Serie A,False,Frosinone,Napoli,0,3,17,19,1,8,12,8,4,6,0,2
+Serie A_2026/27_sofascore_16285029,2026-10-11,Serie A,True,Cagliari,Juventus,1,1,4,22,2,10,8,8,1,9,2,1
+Serie A_2026/27_sofascore_16285029,2026-10-11,Serie A,False,Juventus,Cagliari,1,1,22,4,10,2,8,8,9,1,1,2
+Serie A_2026/27_sofascore_16285031,2026-10-11,Serie A,True,Como,Roma,0,0,19,9,4,2,9,9,6,2,2,4
+Serie A_2026/27_sofascore_16285031,2026-10-11,Serie A,False,Roma,Como,0,0,9,19,2,4,9,9,2,6,4,2
+Serie A_2026/27_sofascore_16285033,2026-10-11,Serie A,True,Lazio,Monza,3,1,17,14,7,6,10,9,7,6,3,2
+Serie A_2026/27_sofascore_16285033,2026-10-11,Serie A,False,Monza,Lazio,1,3,14,17,6,7,9,10,6,7,2,3
+Serie A_2026/27_sofascore_16285034,2026-10-11,Serie A,True,Lecce,Bologna,1,2,19,9,5,5,17,8,10,3,3,2
+Serie A_2026/27_sofascore_16285034,2026-10-11,Serie A,False,Bologna,Lecce,2,1,9,19,5,5,8,17,3,10,2,3
+Serie A_2026/27_sofascore_16285035,2026-10-11,Serie A,True,Sassuolo,Milan,1,1,10,11,4,6,13,11,3,5,2,4
+Serie A_2026/27_sofascore_16285035,2026-10-11,Serie A,False,Milan,Sassuolo,1,1,11,10,6,4,11,13,5,3,4,2
+Serie A_2026/27_sofascore_16285026,2026-10-12,Serie A,True,Atalanta,Venezia,3,1,22,19,11,4,14,6,8,7,2,2
+Serie A_2026/27_sofascore_16285026,2026-10-12,Serie A,False,Venezia,Atalanta,1,3,19,22,4,11,6,14,7,8,2,2
+Serie A_2026/27_sofascore_16285037,2026-10-12,Serie A,True,Torino,Udinese,2,1,12,15,4,1,4,10,4,3,0,1
+Serie A_2026/27_sofascore_16285037,2026-10-12,Serie A,False,Udinese,Torino,1,2,15,12,1,4,10,4,3,4,1,0
+Serie A_2026/27_sofascore_16285041,2026-10-16,Serie A,True,Frosinone,Sassuolo,4,2,21,14,10,6,13,11,5,4,0,1
+Serie A_2026/27_sofascore_16285041,2026-10-16,Serie A,False,Sassuolo,Frosinone,2,4,14,21,6,10,11,13,4,5,1,0
+Serie A_2026/27_sofascore_16285039,2026-10-17,Serie A,True,Bologna,Inter,1,3,11,17,4,8,8,11,2,6,4,3
+Serie A_2026/27_sofascore_16285039,2026-10-17,Serie A,False,Inter,Bologna,3,1,17,11,8,4,11,8,6,2,3,4
+Serie A_2026/27_sofascore_16285043,2026-10-17,Serie A,True,Roma,Genoa,2,0,15,9,5,1,10,7,5,3,2,3
+Serie A_2026/27_sofascore_16285043,2026-10-17,Serie A,False,Genoa,Roma,0,2,9,15,1,5,7,10,3,5,3,2
+Serie A_2026/27_sofascore_16285047,2026-10-17,Serie A,True,Venezia,Napoli,1,0,9,29,4,10,7,6,0,12,2,0
+Serie A_2026/27_sofascore_16285047,2026-10-17,Serie A,False,Napoli,Venezia,0,1,29,9,10,4,6,7,12,0,0,2
+La Liga_2026/27_sofascore_16421075,2026-10-18,La Liga,True,Real Madrid,Sevilla,4,1,15,11,8,5,10,14,1,2,2,2
+La Liga_2026/27_sofascore_16421075,2026-10-18,La Liga,False,Sevilla,Real Madrid,1,4,11,15,5,8,14,10,2,1,2,2
+La Liga_2026/27_sofascore_16421078,2026-10-18,La Liga,True,Osasuna,Santander,2,0,20,9,7,1,21,9,7,4,2,3
+La Liga_2026/27_sofascore_16421078,2026-10-18,La Liga,False,Santander,Osasuna,0,2,9,20,1,7,9,21,4,7,3,2
+La Liga_2026/27_sofascore_16421069,2026-10-18,La Liga,True,Celta,Alaves,2,1,6,20,3,9,14,17,0,4,1,1
+La Liga_2026/27_sofascore_16421069,2026-10-18,La Liga,False,Alaves,Celta,1,2,20,6,9,3,17,14,4,0,1,1
+La Liga_2026/27_sofascore_16421073,2026-10-18,La Liga,True,Malaga,Sociedad,2,5,17,21,6,9,4,9,4,5,0,2
+La Liga_2026/27_sofascore_16421073,2026-10-18,La Liga,False,Sociedad,Malaga,5,2,21,17,9,6,9,4,5,4,2,0
+Premier League_2026/27_sofascore_16363881,2026-10-18,Premier League,True,Bournemouth,Sunderland,2,0,29,3,6,0,16,7,5,3,3,3
+Premier League_2026/27_sofascore_16363881,2026-10-18,Premier League,False,Sunderland,Bournemouth,0,2,3,29,0,6,7,16,3,5,3,3
+Premier League_2026/27_sofascore_16363883,2026-10-18,Premier League,True,Brighton,Crystal Palace,5,0,17,5,9,1,13,11,8,5,2,1
+Premier League_2026/27_sofascore_16363883,2026-10-18,Premier League,False,Crystal Palace,Brighton,0,5,5,17,1,9,11,13,5,8,1,2
+Premier League_2026/27_sofascore_16363886,2026-10-18,Premier League,True,Leeds,Man United,1,1,12,13,5,3,16,5,2,3,2,2
+Premier League_2026/27_sofascore_16363886,2026-10-18,Premier League,False,Man United,Leeds,1,1,13,12,3,5,5,16,3,2,2,2
+Premier League_2026/27_sofascore_16363889,2026-10-18,Premier League,True,Nott'm Forest,Arsenal,0,1,14,9,2,1,14,8,8,6,1,1
+Premier League_2026/27_sofascore_16363889,2026-10-18,Premier League,False,Arsenal,Nott'm Forest,1,0,9,14,1,2,8,14,6,8,1,1
+Bundesliga_2026/27_sofascore_16434065,2026-10-18,Bundesliga,True,Leverkusen,Freiburg,2,1,12,11,5,2,12,5,4,3,0,1
+Bundesliga_2026/27_sofascore_16434065,2026-10-18,Bundesliga,False,Freiburg,Leverkusen,1,2,11,12,2,5,5,12,3,4,1,0
+Bundesliga_2026/27_sofascore_16434061,2026-10-18,Bundesliga,True,M'gladbach,Hoffenheim,1,2,9,14,3,8,13,13,3,6,3,2
+Bundesliga_2026/27_sofascore_16434061,2026-10-18,Bundesliga,False,Hoffenheim,M'gladbach,2,1,14,9,8,3,13,13,6,3,2,3
+Serie A_2026/27_sofascore_16285049,2026-10-18,Serie A,True,Udinese,Lecce,0,3,14,17,2,11,10,11,1,4,1,0
+Serie A_2026/27_sofascore_16285049,2026-10-18,Serie A,False,Lecce,Udinese,3,0,17,14,11,2,11,10,4,1,0,1
+Serie A_2026/27_sofascore_16285038,2026-10-18,Serie A,True,Fiorentina,Como,1,3,19,16,7,8,12,12,11,5,2,3
+Serie A_2026/27_sofascore_16285038,2026-10-18,Serie A,False,Como,Fiorentina,3,1,16,19,8,7,12,12,5,11,3,2
+Serie A_2026/27_sofascore_16285040,2026-10-18,Serie A,True,Milan,Atalanta,3,2,11,12,6,4,3,10,2,2,1,2
+Serie A_2026/27_sofascore_16285040,2026-10-18,Serie A,False,Atalanta,Milan,2,3,12,11,4,6,10,3,2,2,2,1
+Serie A_2026/27_sofascore_16285044,2026-10-18,Serie A,True,Juventus,Lazio,0,3,9,9,2,3,7,7,5,7,0,2
+Serie A_2026/27_sofascore_16285044,2026-10-18,Serie A,False,Lazio,Juventus,3,0,9,9,3,2,7,7,7,5,2,0
+Ligue 1_2026/27_sofascore_16310975,2026-10-18,Ligue 1,True,Angers,Marseille,2,5,11,21,3,8,11,12,2,5,1,1
+Ligue 1_2026/27_sofascore_16310975,2026-10-18,Ligue 1,False,Marseille,Angers,5,2,21,11,8,3,12,11,5,2,1,1
+Ligue 1_2026/27_sofascore_16310976,2026-10-18,Ligue 1,True,Le Havre,Auxerre,1,3,15,13,6,6,16,22,7,4,1,2
+Ligue 1_2026/27_sofascore_16310976,2026-10-18,Ligue 1,False,Auxerre,Le Havre,3,1,13,15,6,6,22,16,4,7,2,1
+Ligue 1_2026/27_sofascore_16310979,2026-10-18,Ligue 1,True,Lorient,Monaco,1,0,9,15,3,4,10,17,3,4,2,4
+Ligue 1_2026/27_sofascore_16310979,2026-10-18,Ligue 1,False,Monaco,Lorient,0,1,15,9,4,3,17,10,4,3,4,2
+Ligue 1_2026/27_sofascore_16310981,2026-10-18,Ligue 1,True,Paris FC,Rennes,4,3,19,12,9,7,13,16,3,4,3,4
+Ligue 1_2026/27_sofascore_16310981,2026-10-18,Ligue 1,False,Rennes,Paris FC,3,4,12,19,7,9,16,13,4,3,4,3
+Ligue 1_2026/27_sofascore_16310980,2026-10-18,Ligue 1,True,Lyon,Nice,2,1,8,12,4,5,6,14,1,9,1,4
+Ligue 1_2026/27_sofascore_16310980,2026-10-18,Ligue 1,False,Nice,Lyon,1,2,12,8,5,4,14,6,9,1,4,1
+La Liga_2026/27_sofascore_16421072,2026-10-19,La Liga,True,Getafe,Vallecano,1,1,12,21,4,5,12,9,8,8,7,3
+La Liga_2026/27_sofascore_16421072,2026-10-19,La Liga,False,Vallecano,Getafe,1,1,21,12,5,4,9,12,8,8,3,7
+Serie A_2026/27_sofascore_16285045,2026-10-19,Serie A,True,Monza,Cagliari,4,0,14,16,6,5,10,14,2,7,1,2
+Serie A_2026/27_sofascore_16285045,2026-10-19,Serie A,False,Cagliari,Monza,0,4,16,14,5,6,14,10,7,2,2,1
+Serie A_2026/27_sofascore_16285042,2026-10-19,Serie A,True,Parma,Torino,0,3,25,9,8,3,7,16,6,2,3,2
+Serie A_2026/27_sofascore_16285042,2026-10-19,Serie A,False,Torino,Parma,3,0,9,25,3,8,16,7,2,6,2,3
+Premier League_2026/27_sofascore_16363890,2026-10-19,Premier League,True,Tottenham,Coventry,3,1,16,12,5,1,15,14,4,4,1,3
+Premier League_2026/27_sofascore_16363890,2026-10-19,Premier League,False,Coventry,Tottenham,1,3,12,16,1,5,14,15,4,4,3,1
+La Liga_2026/27_espn_401882870,2026-10-21,La Liga,True,Levante,Ath Bilbao,3,1,12,21,7,4,13,12,3,9,2,2
+La Liga_2026/27_espn_401882870,2026-10-21,La Liga,False,Ath Bilbao,Levante,1,3,21,12,4,7,12,13,9,3,2,2
+La Liga_2026/27_espn_401882836,2026-10-23,La Liga,True,Alaves,Malaga,1,1,18,7,4,3,14,12,7,2,2,1
+La Liga_2026/27_espn_401882836,2026-10-23,La Liga,False,Malaga,Alaves,1,1,7,18,3,4,12,14,2,7,1,2
+Premier League_2026/27_espn_401879253,2026-10-23,Premier League,True,Ipswich,Nott'm Forest,1,1,7,17,3,5,9,11,0,5,1,1
+Premier League_2026/27_espn_401879253,2026-10-23,Premier League,False,Nott'm Forest,Ipswich,1,1,17,7,5,3,11,9,5,0,1,1
+Bundesliga_2026/27_espn_401884761,2026-10-23,Bundesliga,True,Stuttgart,M'gladbach,2,3,15,16,5,6,9,14,6,5,2,4
+Bundesliga_2026/27_espn_401884761,2026-10-23,Bundesliga,False,M'gladbach,Stuttgart,3,2,16,15,6,5,14,9,5,6,4,2
+Serie A_2026/27_espn_401874957,2026-10-23,Serie A,True,Torino,Monza,3,2,17,7,7,3,8,4,3,4,1,0
+Serie A_2026/27_espn_401874957,2026-10-23,Serie A,False,Monza,Torino,2,3,7,17,3,7,4,8,4,3,0,1
+Ligue 1_2026/27_espn_401876428,2026-10-23,Ligue 1,True,Brest,Nice,1,2,13,9,7,2,14,15,3,7,3,5
+Ligue 1_2026/27_espn_401876428,2026-10-23,Ligue 1,False,Nice,Brest,2,1,9,13,2,7,15,14,7,3,5,3
+La Liga_2026/27_espn_401882830,2026-10-24,La Liga,True,Vallecano,Elche,0,3,18,16,5,9,15,11,3,3,3,3
+La Liga_2026/27_espn_401882830,2026-10-24,La Liga,False,Elche,Vallecano,3,0,16,18,9,5,11,15,3,3,3,3
+La Liga_2026/27_espn_401882831,2026-10-24,La Liga,True,Santander,Espanol,2,1,23,11,9,1,10,17,9,4,3,4
+La Liga_2026/27_espn_401882831,2026-10-24,La Liga,False,Espanol,Santander,1,2,11,23,1,9,17,10,4,9,4,3
+La Liga_2026/27_espn_401882827,2026-10-24,La Liga,True,Valencia,Villarreal,1,2,9,19,5,3,18,9,6,9,4,4
+La Liga_2026/27_espn_401882827,2026-10-24,La Liga,False,Villarreal,Valencia,2,1,19,9,3,5,9,18,9,6,4,4
+La Liga_2026/27_espn_401882834,2026-10-24,La Liga,True,Ath Madrid,La Coruna,1,0,20,15,4,5,11,6,3,4,4,2
+La Liga_2026/27_espn_401882834,2026-10-24,La Liga,False,La Coruna,Ath Madrid,0,1,15,20,5,4,6,11,4,3,2,4
+Premier League_2026/27_espn_401879256,2026-10-24,Premier League,True,Aston Villa,Man City,2,1,8,15,2,7,21,17,4,7,4,4
+Premier League_2026/27_espn_401879256,2026-10-24,Premier League,False,Man City,Aston Villa,1,2,15,8,7,2,17,21,7,4,4,4
+Premier League_2026/27_espn_401878768,2026-10-24,Premier League,True,Arsenal,Everton,2,0,20,8,4,3,11,13,12,3,1,3
+Premier League_2026/27_espn_401878768,2026-10-24,Premier League,False,Everton,Arsenal,0,2,8,20,3,4,13,11,3,12,3,1
+Premier League_2026/27_espn_401879255,2026-10-24,Premier League,True,Coventry,Fulham,0,1,13,12,2,3,9,11,4,6,0,2
+Premier League_2026/27_espn_401879255,2026-10-24,Premier League,False,Fulham,Coventry,1,0,12,13,3,2,11,9,6,4,2,0
+Premier League_2026/27_espn_401878767,2026-10-24,Premier League,True,Chelsea,Tottenham,0,2,7,15,4,4,14,14,4,6,3,3
+Premier League_2026/27_espn_401878767,2026-10-24,Premier League,False,Tottenham,Chelsea,2,0,15,7,4,4,14,14,6,4,3,3
+Bundesliga_2026/27_espn_401884758,2026-10-24,Bundesliga,True,Augsburg,Union Berlin,1,1,25,6,5,1,10,9,5,1,1,4
+Bundesliga_2026/27_espn_401884758,2026-10-24,Bundesliga,False,Union Berlin,Augsburg,1,1,6,25,1,5,9,10,1,5,4,1
+Bundesliga_2026/27_espn_401884756,2026-10-24,Bundesliga,True,FC Koln,Schalke 04,0,0,14,9,5,1,8,12,6,5,2,3
+Bundesliga_2026/27_espn_401884756,2026-10-24,Bundesliga,False,Schalke 04,FC Koln,0,0,9,14,1,5,12,8,5,6,3,2
+Bundesliga_2026/27_espn_401884757,2026-10-24,Bundesliga,True,Mainz,Werder Bremen,2,3,18,17,8,8,7,5,6,7,2,1
+Bundesliga_2026/27_espn_401884757,2026-10-24,Bundesliga,False,Werder Bremen,Mainz,3,2,17,18,8,8,5,7,7,6,1,2
+Bundesliga_2026/27_espn_401884762,2026-10-24,Bundesliga,True,RB Leipzig,Elversberg,4,0,13,5,6,1,10,18,4,6,1,1
+Bundesliga_2026/27_espn_401884762,2026-10-24,Bundesliga,False,Elversberg,RB Leipzig,0,4,5,13,1,6,18,10,6,4,1,1
+Bundesliga_2026/27_espn_401884755,2026-10-24,Bundesliga,True,Paderborn,Hamburg,1,0,16,8,6,1,12,15,6,3,1,2
+Bundesliga_2026/27_espn_401884755,2026-10-24,Bundesliga,False,Hamburg,Paderborn,0,1,8,16,1,6,15,12,3,6,2,1
+Bundesliga_2026/27_espn_401884763,2026-10-24,Bundesliga,True,Dortmund,Frankfurt,1,0,18,8,5,3,7,12,13,1,0,2
+Bundesliga_2026/27_espn_401884763,2026-10-24,Bundesliga,False,Frankfurt,Dortmund,0,1,8,18,3,5,12,7,1,13,2,0
+Serie A_2026/27_espn_401874958,2026-10-24,Serie A,True,Cagliari,Bologna,0,2,4,10,1,5,25,13,1,6,3,1
+Serie A_2026/27_espn_401874958,2026-10-24,Serie A,False,Bologna,Cagliari,2,0,10,4,5,1,13,25,6,1,1,3
+Serie A_2026/27_espn_401874961,2026-10-24,Serie A,True,Como,Sassuolo,2,0,14,7,6,0,14,10,6,4,2,2
+Serie A_2026/27_espn_401874961,2026-10-24,Serie A,False,Sassuolo,Como,0,2,7,14,0,6,10,14,4,6,2,2
+Serie A_2026/27_espn_401874948,2026-10-24,Serie A,True,Napoli,Roma,3,3,15,24,9,4,6,11,2,11,1,4
+Serie A_2026/27_espn_401874948,2026-10-24,Serie A,False,Roma,Napoli,3,3,24,15,4,9,11,6,11,2,4,1
+Serie A_2026/27_espn_401874955,2026-10-24,Serie A,True,Lazio,Parma,2,1,21,10,5,4,5,12,8,3,1,1
+Serie A_2026/27_espn_401874955,2026-10-24,Serie A,False,Parma,Lazio,1,2,10,21,4,5,12,5,3,8,1,1
+Ligue 1_2026/27_espn_401876427,2026-10-24,Ligue 1,True,Lens,Paris FC,2,1,9,4,3,1,17,17,6,1,3,3
+Ligue 1_2026/27_espn_401876427,2026-10-24,Ligue 1,False,Paris FC,Lens,1,2,4,9,1,3,17,17,1,6,3,3
+La Liga_2026/27_espn_401882828,2026-10-26,La Liga,True,Sevilla,Osasuna,2,0,17,10,7,2,11,8,7,4,1,2
+La Liga_2026/27_espn_401882828,2026-10-26,La Liga,False,Osasuna,Sevilla,0,2,10,17,2,7,8,11,4,7,2,1
+Ligue 1_2026/27_espn_401876422,2026-10-26,Ligue 1,True,Paris SG,Lyon,2,0,17,8,10,5,8,14,7,4,2,1
+Ligue 1_2026/27_espn_401876422,2026-10-26,Ligue 1,False,Lyon,Paris SG,0,2,8,17,5,10,14,8,4,7,1,2
+La Liga_2026/27_espn_401882835,2026-10-25,La Liga,True,Ath Bilbao,Getafe,4,0,11,7,4,1,11,15,2,4,1,4
+La Liga_2026/27_espn_401882835,2026-10-25,La Liga,False,Getafe,Ath Bilbao,0,4,7,11,1,4,15,11,4,2,4,1
+La Liga_2026/27_espn_401882833,2026-10-25,La Liga,True,Celta,Betis,0,0,12,15,4,2,9,12,3,4,2,1
+La Liga_2026/27_espn_401882833,2026-10-25,La Liga,False,Betis,Celta,0,0,15,12,2,4,12,9,4,3,1,2
+La Liga_2026/27_espn_401882829,2026-10-25,La Liga,True,Sociedad,Levante,2,1,17,6,3,2,14,13,2,3,1,3
+La Liga_2026/27_espn_401882829,2026-10-25,La Liga,False,Levante,Sociedad,1,2,6,17,2,3,13,14,3,2,3,1
+La Liga_2026/27_espn_401882832,2026-10-25,La Liga,True,Barcelona,Real Madrid,1,2,18,10,6,5,15,11,6,6,3,3
+La Liga_2026/27_espn_401882832,2026-10-25,La Liga,False,Real Madrid,Barcelona,2,1,10,18,5,6,11,15,6,6,3,3
+Premier League_2026/27_espn_401879254,2026-10-25,Premier League,True,Crystal Palace,Newcastle,0,2,17,10,4,2,12,10,7,4,3,3
+Premier League_2026/27_espn_401879254,2026-10-25,Premier League,False,Newcastle,Crystal Palace,2,0,10,17,2,4,10,12,4,7,3,3
+Premier League_2026/27_espn_401878766,2026-10-25,Premier League,True,Hull,Brentford,1,1,12,14,2,6,10,9,5,6,0,1
+Premier League_2026/27_espn_401878766,2026-10-25,Premier League,False,Brentford,Hull,1,1,14,12,6,2,9,10,6,5,1,0
+Premier League_2026/27_espn_401878765,2026-10-25,Premier League,True,Liverpool,Brighton,2,0,13,17,4,1,13,9,4,2,0,2
+Premier League_2026/27_espn_401878765,2026-10-25,Premier League,False,Brighton,Liverpool,0,2,17,13,1,4,9,13,2,4,2,0
+Premier League_2026/27_espn_401879252,2026-10-25,Premier League,True,Man United,Bournemouth,0,3,17,10,5,4,13,17,5,4,4,1
+Premier League_2026/27_espn_401879252,2026-10-25,Premier League,False,Bournemouth,Man United,3,0,10,17,4,5,17,13,4,5,1,4
+Premier League_2026/27_espn_401878764,2026-10-25,Premier League,True,Sunderland,Leeds,0,0,15,11,4,4,10,14,4,5,1,2
+Premier League_2026/27_espn_401878764,2026-10-25,Premier League,False,Leeds,Sunderland,0,0,11,15,4,4,14,10,5,4,2,1
+Bundesliga_2026/27_espn_401884760,2026-10-25,Bundesliga,True,Hoffenheim,Leverkusen,3,0,20,9,6,1,14,6,5,3,3,4
+Bundesliga_2026/27_espn_401884760,2026-10-25,Bundesliga,False,Leverkusen,Hoffenheim,0,3,9,20,1,6,6,14,3,5,4,3
+Bundesliga_2026/27_espn_401884759,2026-10-25,Bundesliga,True,Freiburg,Bayern Munich,1,3,16,17,4,9,9,11,5,6,3,1
+Bundesliga_2026/27_espn_401884759,2026-10-25,Bundesliga,False,Bayern Munich,Freiburg,3,1,17,16,9,4,11,9,6,5,1,3
+Serie A_2026/27_espn_401875036,2026-10-25,Serie A,True,Inter,Fiorentina,2,1,33,7,11,2,13,14,6,1,0,3
+Serie A_2026/27_espn_401875036,2026-10-25,Serie A,False,Fiorentina,Inter,1,2,7,33,2,11,14,13,1,6,3,0
+Serie A_2026/27_espn_401874972,2026-10-25,Serie A,True,Atalanta,Frosinone,4,4,22,24,9,10,7,13,8,9,1,4
+Serie A_2026/27_espn_401874972,2026-10-25,Serie A,False,Frosinone,Atalanta,4,4,24,22,10,9,13,7,9,8,4,1
+Serie A_2026/27_espn_401874952,2026-10-25,Serie A,True,Genoa,Venezia,1,0,7,19,4,5,12,11,2,10,1,0
+Serie A_2026/27_espn_401874952,2026-10-25,Serie A,False,Venezia,Genoa,0,1,19,7,5,4,11,12,10,2,0,1
+Serie A_2026/27_espn_401874772,2026-10-25,Serie A,True,Lecce,Juventus,0,2,16,8,4,2,10,12,5,3,2,0
+Serie A_2026/27_espn_401874772,2026-10-25,Serie A,False,Juventus,Lecce,2,0,8,16,2,4,12,10,3,5,0,2
+Serie A_2026/27_espn_401874779,2026-10-25,Serie A,True,Udinese,Milan,0,2,12,19,5,7,11,13,5,4,1,2
+Serie A_2026/27_espn_401874779,2026-10-25,Serie A,False,Milan,Udinese,2,0,19,12,7,5,13,11,4,5,2,1
+Ligue 1_2026/27_espn_401876425,2026-10-25,Ligue 1,True,Monaco,Lille,1,1,20,4,6,2,18,13,6,1,3,5
+Ligue 1_2026/27_espn_401876425,2026-10-25,Ligue 1,False,Lille,Monaco,1,1,4,20,2,6,13,18,1,6,5,3
+Ligue 1_2026/27_espn_401876429,2026-10-25,Ligue 1,True,Auxerre,Le Mans,1,1,13,11,5,2,15,12,7,1,1,2
+Ligue 1_2026/27_espn_401876429,2026-10-25,Ligue 1,False,Le Mans,Auxerre,1,1,11,13,2,5,12,15,1,7,2,1
+Ligue 1_2026/27_espn_401876430,2026-10-25,Ligue 1,True,Angers,Lorient,0,0,8,10,5,1,13,9,6,7,1,1
+Ligue 1_2026/27_espn_401876430,2026-10-25,Ligue 1,False,Lorient,Angers,0,0,10,8,1,5,9,13,7,6,1,1
+Ligue 1_2026/27_espn_401876426,2026-10-25,Ligue 1,True,Marseille,Le Havre,4,3,11,21,5,7,15,11,4,3,1,3
+Ligue 1_2026/27_espn_401876426,2026-10-25,Ligue 1,False,Le Havre,Marseille,3,4,21,11,7,5,11,15,3,4,3,1
+Ligue 1_2026/27_espn_401876424,2026-10-25,Ligue 1,True,Rennes,Strasbourg,3,0,15,12,5,4,10,17,2,5,1,3
+Ligue 1_2026/27_espn_401876424,2026-10-25,Ligue 1,False,Strasbourg,Rennes,0,3,12,15,4,5,17,10,5,2,3,1
+Ligue 1_2026/27_espn_401876423,2026-10-25,Ligue 1,True,Toulouse,Troyes,0,0,7,8,3,0,19,14,4,2,6,2
+Ligue 1_2026/27_espn_401876423,2026-10-25,Ligue 1,False,Troyes,Toulouse,0,0,8,7,0,3,14,19,2,4,2,6
+Serie A_2026/27_espn_401874980,2026-10-27,Serie A,True,Sassuolo,Lazio,2,6,9,16,1,8,7,13,2,1,2,1
+Serie A_2026/27_espn_401874980,2026-10-27,Serie A,False,Lazio,Sassuolo,6,2,16,9,8,1,13,7,1,2,1,2
+Serie A_2026/27_espn_401874780,2026-10-27,Serie A,True,Roma,Cagliari,4,2,20,19,8,8,8,8,7,8,0,1
+Serie A_2026/27_espn_401874780,2026-10-27,Serie A,False,Cagliari,Roma,2,4,19,20,8,8,8,8,8,7,1,0
+Serie A_2026/27_espn_401874786,2026-10-27,Serie A,True,Torino,Como,1,3,11,18,5,5,10,3,5,6,1,0
+Serie A_2026/27_espn_401874786,2026-10-27,Serie A,False,Como,Torino,3,1,18,11,5,5,3,10,6,5,0,1
+Serie A_2026/27_espn_401874993,2026-10-28,Serie A,True,Milan,Bologna,2,4,8,9,3,5,10,16,2,3,0,2
+Serie A_2026/27_espn_401874993,2026-10-28,Serie A,False,Bologna,Milan,4,2,9,8,5,3,16,10,3,2,2,0
+Serie A_2026/27_espn_401874965,2026-10-28,Serie A,True,Parma,Udinese,0,0,8,20,2,5,12,14,3,6,1,2
+Serie A_2026/27_espn_401874965,2026-10-28,Serie A,False,Udinese,Parma,0,0,20,8,5,2,14,12,6,3,2,1
+Serie A_2026/27_espn_401874773,2026-10-28,Serie A,True,Venezia,Inter,0,2,12,16,4,2,5,9,3,6,0,2
+Serie A_2026/27_espn_401874773,2026-10-28,Serie A,False,Inter,Venezia,2,0,16,12,2,4,9,5,6,3,2,0
+Serie A_2026/27_espn_401874988,2026-10-28,Serie A,True,Genoa,Juventus,2,0,14,17,2,4,5,8,6,9,0,1
+Serie A_2026/27_espn_401874988,2026-10-28,Serie A,False,Juventus,Genoa,0,2,17,14,4,2,8,5,9,6,1,0
+Serie A_2026/27_espn_401874799,2026-10-28,Serie A,True,Monza,Napoli,1,4,12,16,5,7,14,6,2,2,3,0
+Serie A_2026/27_espn_401874799,2026-10-28,Serie A,False,Napoli,Monza,4,1,16,12,7,5,6,14,2,2,0,3
+Serie A_2026/27_espn_401874976,2026-10-29,Serie A,True,Frosinone,Lecce,5,1,26,15,9,6,10,17,10,3,0,3
+Serie A_2026/27_espn_401874976,2026-10-29,Serie A,False,Lecce,Frosinone,1,5,15,26,6,9,17,10,3,10,3,0

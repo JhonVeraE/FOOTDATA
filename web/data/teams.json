@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
   "season": "2026/27",
-  "generated_at": "2026-10-29T21:36:53.417601+00:00",
-  "dataset_id": "33952c7495551d3302d22b8cb8c162a2252068d4958a0e423f4877124694a2eb",
+  "generated_at": "2026-10-30T04:47:52.068122+00:00",
+  "dataset_id": "f0f8747811f80fa840137d9458f536533548399a193bae4531b0aac55f7eb5ef",
   "competitions": {
     "La Liga": {
       "teams": [
@@ -37069,9 +37069,19 @@
       "teams": [
         {
           "team": "Atalanta",
-          "last_stats_date": "2026-10-25",
+          "last_stats_date": "2026-10-29",
           "matches": {
             "played": [
+              {
+                "date": "2026-10-29",
+                "home": "Fiorentina",
+                "away": "Atalanta",
+                "home_score": 2,
+                "away_score": 2,
+                "status": "FINISHED",
+                "fixture_id": "558551",
+                "kickoff_utc": "2026-10-29T19:45:00+00:00"
+              },
               {
                 "date": "2026-10-25",
                 "home": "Atalanta",
@@ -37154,14 +37164,6 @@
               }
             ],
             "scheduled": [
-              {
-                "date": "2026-10-29",
-                "home": "Fiorentina",
-                "away": "Atalanta",
-                "fixture_id": "558551",
-                "status": "IN_PLAY",
-                "kickoff_utc": "2026-10-29T19:45:00+00:00"
-              },
               {
                 "date": "2026-11-02",
                 "home": "Atalanta",
@@ -37398,82 +37400,82 @@
           },
           "splits": {
             "all": {
-              "played": 8,
+              "played": 9,
               "won": 3,
-              "draw": 1,
+              "draw": 2,
               "lost": 4,
-              "points": 10,
+              "points": 11,
               "metrics": {
                 "goals": {
                   "for": {
-                    "total": 14,
-                    "average": 1.75,
-                    "observations": 8
+                    "total": 16,
+                    "average": 1.7778,
+                    "observations": 9
                   },
                   "against": {
-                    "total": 15,
-                    "average": 1.875,
-                    "observations": 8
+                    "total": 17,
+                    "average": 1.8889,
+                    "observations": 9
                   }
                 },
                 "shots": {
                   "for": {
-                    "total": 115,
-                    "average": 14.375,
-                    "observations": 8
+                    "total": 125,
+                    "average": 13.8889,
+                    "observations": 9
                   },
                   "against": {
-                    "total": 150,
-                    "average": 18.75,
-                    "observations": 8
+                    "total": 176,
+                    "average": 19.5556,
+                    "observations": 9
                   }
                 },
                 "sot": {
                   "for": {
-                    "total": 41,
-                    "average": 5.125,
-                    "observations": 8
+                    "total": 46,
+                    "average": 5.1111,
+                    "observations": 9
                   },
                   "against": {
-                    "total": 51,
-                    "average": 6.375,
-                    "observations": 8
+                    "total": 55,
+                    "average": 6.1111,
+                    "observations": 9
                   }
                 },
                 "corners": {
                   "for": {
-                    "total": 32,
-                    "average": 4.0,
-                    "observations": 8
+                    "total": 34,
+                    "average": 3.7778,
+                    "observations": 9
                   },
                   "against": {
-                    "total": 44,
-                    "average": 5.5,
-                    "observations": 8
+                    "total": 52,
+                    "average": 5.7778,
+                    "observations": 9
                   }
                 },
                 "cards": {
                   "for": {
-                    "total": 10,
-                    "average": 1.25,
-                    "observations": 8
+                    "total": 12,
+                    "average": 1.3333,
+                    "observations": 9
                   },
                   "against": {
-                    "total": 8,
-                    "average": 1.0,
-                    "observations": 8
+                    "total": 11,
+                    "average": 1.2222,
+                    "observations": 9
                   }
                 },
                 "fouls": {
                   "for": {
-                    "total": 79,
-                    "average": 9.875,
-                    "observations": 8
+                    "total": 92,
+                    "average": 10.2222,
+                    "observations": 9
                   },
                   "against": {
-                    "total": 72,
-                    "average": 9.0,
-                    "observations": 8
+                    "total": 82,
+                    "average": 9.1111,
+                    "observations": 9
                   }
                 }
               }
@@ -37560,82 +37562,82 @@
               }
             },
             "away": {
-              "played": 3,
+              "played": 4,
               "won": 0,
-              "draw": 0,
+              "draw": 1,
               "lost": 3,
-              "points": 0,
+              "points": 1,
               "metrics": {
                 "goals": {
                   "for": {
-                    "total": 3,
-                    "average": 1.0,
-                    "observations": 3
+                    "total": 5,
+                    "average": 1.25,
+                    "observations": 4
                   },
                   "against": {
-                    "total": 7,
-                    "average": 2.3333,
-                    "observations": 3
+                    "total": 9,
+                    "average": 2.25,
+                    "observations": 4
                   }
                 },
                 "shots": {
                   "for": {
-                    "total": 29,
-                    "average": 9.6667,
-                    "observations": 3
+                    "total": 39,
+                    "average": 9.75,
+                    "observations": 4
                   },
                   "against": {
-                    "total": 64,
-                    "average": 21.3333,
-                    "observations": 3
+                    "total": 90,
+                    "average": 22.5,
+                    "observations": 4
                   }
                 },
                 "sot": {
                   "for": {
-                    "total": 8,
-                    "average": 2.6667,
-                    "observations": 3
+                    "total": 13,
+                    "average": 3.25,
+                    "observations": 4
                   },
                   "against": {
-                    "total": 21,
-                    "average": 7.0,
-                    "observations": 3
+                    "total": 25,
+                    "average": 6.25,
+                    "observations": 4
                   }
                 },
                 "corners": {
                   "for": {
-                    "total": 8,
-                    "average": 2.6667,
-                    "observations": 3
+                    "total": 10,
+                    "average": 2.5,
+                    "observations": 4
                   },
                   "against": {
-                    "total": 20,
-                    "average": 6.6667,
-                    "observations": 3
+                    "total": 28,
+                    "average": 7.0,
+                    "observations": 4
                   }
                 },
                 "cards": {
                   "for": {
-                    "total": 6,
+                    "total": 8,
                     "average": 2.0,
-                    "observations": 3
+                    "observations": 4
                   },
                   "against": {
-                    "total": 2,
-                    "average": 0.6667,
-                    "observations": 3
+                    "total": 5,
+                    "average": 1.25,
+                    "observations": 4
                   }
                 },
                 "fouls": {
                   "for": {
-                    "total": 30,
-                    "average": 10.0,
-                    "observations": 3
+                    "total": 43,
+                    "average": 10.75,
+                    "observations": 4
                   },
                   "against": {
-                    "total": 22,
-                    "average": 7.3333,
-                    "observations": 3
+                    "total": 32,
+                    "average": 8.0,
+                    "observations": 4
                   }
                 }
               }
@@ -39375,9 +39377,19 @@
         },
         {
           "team": "Fiorentina",
-          "last_stats_date": "2026-10-25",
+          "last_stats_date": "2026-10-29",
           "matches": {
             "played": [
+              {
+                "date": "2026-10-29",
+                "home": "Fiorentina",
+                "away": "Atalanta",
+                "home_score": 2,
+                "away_score": 2,
+                "status": "FINISHED",
+                "fixture_id": "558551",
+                "kickoff_utc": "2026-10-29T19:45:00+00:00"
+              },
               {
                 "date": "2026-10-25",
                 "home": "Inter",
@@ -39460,14 +39472,6 @@
               }
             ],
             "scheduled": [
-              {
-                "date": "2026-10-29",
-                "home": "Fiorentina",
-                "away": "Atalanta",
-                "fixture_id": "558551",
-                "status": "IN_PLAY",
-                "kickoff_utc": "2026-10-29T19:45:00+00:00"
-              },
               {
                 "date": "2026-11-02",
                 "home": "Sassuolo",
@@ -39704,163 +39708,163 @@
           },
           "splits": {
             "all": {
-              "played": 8,
+              "played": 9,
               "won": 1,
-              "draw": 1,
+              "draw": 2,
               "lost": 6,
-              "points": 4,
+              "points": 5,
               "metrics": {
                 "goals": {
                   "for": {
-                    "total": 9,
-                    "average": 1.125,
-                    "observations": 8
+                    "total": 11,
+                    "average": 1.2222,
+                    "observations": 9
                   },
                   "against": {
-                    "total": 19,
-                    "average": 2.375,
-                    "observations": 8
+                    "total": 21,
+                    "average": 2.3333,
+                    "observations": 9
                   }
                 },
                 "shots": {
                   "for": {
-                    "total": 123,
-                    "average": 15.375,
-                    "observations": 8
+                    "total": 149,
+                    "average": 16.5556,
+                    "observations": 9
                   },
                   "against": {
-                    "total": 118,
-                    "average": 14.75,
-                    "observations": 8
+                    "total": 128,
+                    "average": 14.2222,
+                    "observations": 9
                   }
                 },
                 "sot": {
                   "for": {
-                    "total": 40,
-                    "average": 5.0,
-                    "observations": 8
+                    "total": 44,
+                    "average": 4.8889,
+                    "observations": 9
                   },
                   "against": {
-                    "total": 49,
-                    "average": 6.125,
-                    "observations": 8
+                    "total": 54,
+                    "average": 6.0,
+                    "observations": 9
                   }
                 },
                 "corners": {
                   "for": {
-                    "total": 38,
-                    "average": 4.75,
-                    "observations": 8
+                    "total": 46,
+                    "average": 5.1111,
+                    "observations": 9
                   },
                   "against": {
-                    "total": 33,
-                    "average": 4.125,
-                    "observations": 8
+                    "total": 35,
+                    "average": 3.8889,
+                    "observations": 9
                   }
                 },
                 "cards": {
                   "for": {
-                    "total": 17,
-                    "average": 2.125,
-                    "observations": 8
+                    "total": 20,
+                    "average": 2.2222,
+                    "observations": 9
                   },
                   "against": {
-                    "total": 15,
-                    "average": 1.875,
-                    "observations": 8
+                    "total": 17,
+                    "average": 1.8889,
+                    "observations": 9
                   }
                 },
                 "fouls": {
                   "for": {
-                    "total": 91,
-                    "average": 11.375,
-                    "observations": 8
+                    "total": 101,
+                    "average": 11.2222,
+                    "observations": 9
                   },
                   "against": {
-                    "total": 101,
-                    "average": 12.625,
-                    "observations": 8
+                    "total": 114,
+                    "average": 12.6667,
+                    "observations": 9
                   }
                 }
               }
             },
             "home": {
-              "played": 4,
+              "played": 5,
               "won": 0,
-              "draw": 1,
+              "draw": 2,
               "lost": 3,
-              "points": 1,
+              "points": 2,
               "metrics": {
                 "goals": {
                   "for": {
-                    "total": 3,
-                    "average": 0.75,
-                    "observations": 4
+                    "total": 5,
+                    "average": 1.0,
+                    "observations": 5
                   },
                   "against": {
-                    "total": 9,
-                    "average": 2.25,
-                    "observations": 4
+                    "total": 11,
+                    "average": 2.2,
+                    "observations": 5
                   }
                 },
                 "shots": {
                   "for": {
-                    "total": 75,
-                    "average": 18.75,
-                    "observations": 4
+                    "total": 101,
+                    "average": 20.2,
+                    "observations": 5
                   },
                   "against": {
-                    "total": 48,
-                    "average": 12.0,
-                    "observations": 4
+                    "total": 58,
+                    "average": 11.6,
+                    "observations": 5
                   }
                 },
                 "sot": {
                   "for": {
-                    "total": 21,
-                    "average": 5.25,
-                    "observations": 4
+                    "total": 25,
+                    "average": 5.0,
+                    "observations": 5
                   },
                   "against": {
-                    "total": 23,
-                    "average": 5.75,
-                    "observations": 4
+                    "total": 28,
+                    "average": 5.6,
+                    "observations": 5
                   }
                 },
                 "corners": {
                   "for": {
-                    "total": 26,
-                    "average": 6.5,
-                    "observations": 4
+                    "total": 34,
+                    "average": 6.8,
+                    "observations": 5
                   },
                   "against": {
-                    "total": 20,
-                    "average": 5.0,
-                    "observations": 4
+                    "total": 22,
+                    "average": 4.4,
+                    "observations": 5
                   }
                 },
                 "cards": {
                   "for": {
-                    "total": 8,
-                    "average": 2.0,
-                    "observations": 4
+                    "total": 11,
+                    "average": 2.2,
+                    "observations": 5
                   },
                   "against": {
-                    "total": 6,
-                    "average": 1.5,
-                    "observations": 4
+                    "total": 8,
+                    "average": 1.6,
+                    "observations": 5
                   }
                 },
                 "fouls": {
                   "for": {
-                    "total": 50,
-                    "average": 12.5,
-                    "observations": 4
+                    "total": 60,
+                    "average": 12.0,
+                    "observations": 5
                   },
                   "against": {
-                    "total": 51,
-                    "average": 12.75,
-                    "observations": 4
+                    "total": 64,
+                    "average": 12.8,
+                    "observations": 5
                   }
                 }
               }
@@ -48605,7 +48609,7 @@
         }
       ],
       "statistics_through": "2026-10-29",
-      "statistics_matches": 89,
+      "statistics_matches": 90,
       "standings": {
         "season": "2026/27",
         "updated_at": "2026-10-29T21:36:31.105881+00:00",
@@ -49477,13 +49481,13 @@
           },
           {
             "team": "Atalanta",
-            "played": 8,
+            "played": 9,
             "won": 3,
-            "draw": 1,
+            "draw": 2,
             "lost": 4,
-            "points": 10,
-            "goals_for": 14,
-            "goals_against": 15,
+            "points": 11,
+            "goals_for": 16,
+            "goals_against": 17,
             "goal_difference": -1,
             "position": 12
           },
@@ -49548,6 +49552,18 @@
             "position": 17
           },
           {
+            "team": "Fiorentina",
+            "played": 9,
+            "won": 1,
+            "draw": 2,
+            "lost": 6,
+            "points": 5,
+            "goals_for": 11,
+            "goals_against": 21,
+            "goal_difference": -10,
+            "position": 18
+          },
+          {
             "team": "Parma",
             "played": 9,
             "won": 1,
@@ -49556,18 +49572,6 @@
             "points": 5,
             "goals_for": 5,
             "goals_against": 15,
-            "goal_difference": -10,
-            "position": 18
-          },
-          {
-            "team": "Fiorentina",
-            "played": 8,
-            "won": 1,
-            "draw": 1,
-            "lost": 6,
-            "points": 4,
-            "goals_for": 9,
-            "goals_against": 19,
             "goal_difference": -10,
             "position": 19
           },
@@ -49803,13 +49807,13 @@
           },
           {
             "team": "Fiorentina",
-            "played": 4,
+            "played": 5,
             "won": 0,
-            "draw": 1,
+            "draw": 2,
             "lost": 3,
-            "points": 1,
-            "goals_for": 3,
-            "goals_against": 9,
+            "points": 2,
+            "goals_for": 5,
+            "goals_against": 11,
             "goal_difference": -6,
             "position": 19
           },
@@ -49996,6 +50000,18 @@
             "position": 14
           },
           {
+            "team": "Atalanta",
+            "played": 4,
+            "won": 0,
+            "draw": 1,
+            "lost": 3,
+            "points": 1,
+            "goals_for": 5,
+            "goals_against": 9,
+            "goal_difference": -4,
+            "position": 15
+          },
+          {
             "team": "Sassuolo",
             "played": 5,
             "won": 0,
@@ -50005,7 +50021,7 @@
             "goals_for": 6,
             "goals_against": 12,
             "goal_difference": -6,
-            "position": 15
+            "position": 16
           },
           {
             "team": "Monza",
@@ -50017,18 +50033,6 @@
             "goals_for": 7,
             "goals_against": 14,
             "goal_difference": -7,
-            "position": 16
-          },
-          {
-            "team": "Atalanta",
-            "played": 3,
-            "won": 0,
-            "draw": 0,
-            "lost": 3,
-            "points": 0,
-            "goals_for": 3,
-            "goals_against": 7,
-            "goal_difference": -4,
             "position": 17
           },
           {
@@ -75491,36 +75495,5 @@
       }
     }
   },
-  "refresh_report": [
-    {
-      "competition": "La Liga",
-      "status": "refreshed",
-      "teams": 20
-    },
-    {
-      "competition": "Premier League",
-      "status": "refreshed",
-      "teams": 20
-    },
-    {
-      "competition": "Bundesliga",
-      "status": "refreshed",
-      "teams": 18
-    },
-    {
-      "competition": "Serie A",
-      "status": "refreshed",
-      "teams": 20
-    },
-    {
-      "competition": "Ligue 1",
-      "status": "refreshed",
-      "teams": 18
-    },
-    {
-      "competition": "UEFA Champions League",
-      "status": "refreshed",
-      "teams": 36
-    }
-  ]
+  "refresh_report": []
 }

@@ -1,8 +1,8 @@
 {
   "status": "scored",
-  "scored_matches": 99,
-  "accuracy": 0.5959595959595959,
-  "log_loss": 0.9248408917256923,
+  "scored_matches": 100,
+  "accuracy": 0.59,
+  "log_loss": 0.9291972578215859,
   "rule": "Latest archived prediction generated before kickoff; scores from canonical dated final statistics only.",
   "predictions": [
     {
@@ -1489,6 +1489,21 @@
       "outcome": 0,
       "hit": true,
       "log_loss": 0.5519162405999836
+    },
+    {
+      "fixture_id": "558551",
+      "date": "2026-10-29",
+      "forecast_original_date": "2026-10-29",
+      "model": "attack-defence-v2",
+      "generated_at": "2026-10-26T23:45:00.763462+00:00",
+      "probabilities": [
+        0.28623009553585166,
+        0.25653825035067285,
+        0.4572316541134756
+      ],
+      "outcome": 1,
+      "hit": false,
+      "log_loss": 1.360477501315054
     }
   ]
 }

@@ -1678,7 +1678,7 @@ match_id,date,kickoff_time_utc,status,competition,stage,matchday,home_team,away_
 558552,2026-10-28,19:45,FINISHED,Serie A,REGULAR_SEASON,9.0,Genoa CFC,Juventus FC,2.0,0.0,
 558554,2026-10-28,19:45,FINISHED,Serie A,REGULAR_SEASON,9.0,AC Monza,SSC Napoli,1.0,4.0,
 558558,2026-10-29,17:30,FINISHED,Serie A,REGULAR_SEASON,9.0,Frosinone Calcio,US Lecce,5.0,1.0,
-558551,2026-10-29,19:45,IN_PLAY,Serie A,REGULAR_SEASON,9.0,ACF Fiorentina,Atalanta BC,,,
+558551,2026-10-29,19:45,FINISHED,Serie A,REGULAR_SEASON,9.0,ACF Fiorentina,Atalanta BC,2.0,2.0,
 558539,2026-10-31,14:00,TIMED,Serie A,REGULAR_SEASON,10.0,Bologna FC 1909,AC Monza,,,
 558542,2026-10-31,17:00,TIMED,Serie A,REGULAR_SEASON,10.0,Udinese Calcio,AS Roma,,,
 558548,2026-10-31,19:45,TIMED,Serie A,REGULAR_SEASON,10.0,AC Milan,FC Internazionale Milano,,,

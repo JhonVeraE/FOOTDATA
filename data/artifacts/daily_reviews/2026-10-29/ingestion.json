@@ -345,21 +345,69 @@
         ],
         "source_url": "https://api.football-data.org/v4/matches?dateFrom=2026-10-27&dateTo=2026-10-30"
       }
+    },
+    {
+      "sofascore_event_id": "16285057",
+      "espn_event_id": "401874969",
+      "kickoff_utc": "2026-10-29T19:45Z",
+      "home": "Fiorentina",
+      "away": "Atalanta",
+      "metrics": {
+        "goals": [
+          2,
+          2
+        ],
+        "shots": [
+          26,
+          10
+        ],
+        "sot": [
+          4,
+          5
+        ],
+        "fouls": [
+          10,
+          13
+        ],
+        "corners": [
+          8,
+          2
+        ],
+        "cards": [
+          3,
+          2
+        ]
+      },
+      "yellow": [
+        3,
+        2
+      ],
+      "red": [
+        0,
+        0
+      ],
+      "source_url": "https://www.sofascore.com/football/match/atalanta-fiorentina/#id:16285057,tab:statistics",
+      "match_id": "Serie A_2026/27_sofascore_16285057",
+      "fixture_id": "558551",
+      "date": "2026-10-29",
+      "round": 9,
+      "league": "Serie A",
+      "provider": "Sofascore",
+      "score_verification": {
+        "fixture_id": "558551",
+        "date": "2026-10-29",
+        "home": "Fiorentina",
+        "away": "Atalanta",
+        "goals": [
+          2,
+          2
+        ],
+        "source_url": "https://www.espn.com/soccer/match/_/gameId/401874969"
+      }
     }
   ],
   "deferred": [],
-  "pending": [
-    {
-      "fixture_id": "558551",
-      "date": "2026-10-29",
-      "home": "Fiorentina",
-      "away": "Atalanta",
-      "espn_event_id": "401874969",
-      "provider_status": "IN_PLAY",
-      "reason": "Encuentro todavía en juego al corte de la consulta; no se liquida ni se añade un marcador final.",
-      "source_url": "https://api.football-data.org/v4/matches?dateFrom=2026-10-27&dateTo=2026-10-30"
-    }
-  ],
+  "pending": [],
   "added_rows_this_run": 2,
   "scope": [
     "La Liga",
@@ -369,5 +417,13 @@
     "Ligue 1",
     "UEFA Champions League"
   ],
-  "capture_directory": "C:\\Users\\verae\\OneDrive\\Desktop\\FOOOOOTDATA\\project\\data\\artifacts\\review_20261027_29\\2026-10-29"
+  "capture_directory": "C:\\Users\\verae\\OneDrive\\Desktop\\FOOOOOTDATA\\project\\data\\artifacts\\review_20261027_29\\2026-10-29",
+  "updates": [
+    {
+      "at": "2026-10-30T04:45:15.569477+00:00",
+      "fixture_id": "558551",
+      "action": "pending -> final 2-2 con estadísticas Sofascore ALL",
+      "evidence": "data/artifacts/review_20261029_fiorentina_atalanta/sofascore_16285057.json"
+    }
+  ]
 }

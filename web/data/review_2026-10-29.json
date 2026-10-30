@@ -1,18 +1,18 @@
 {
   "date": "2026-10-29",
-  "reviewed_at": "2026-10-29T21:36:17.927137+00:00",
+  "reviewed_at": "2026-10-30T04:46:21.884091+00:00",
   "summary": {
-    "matches": 1,
+    "matches": 2,
     "hits_1x2": 1,
     "hits_exact": 0,
-    "hits_btts": 1,
+    "hits_btts": 2,
     "mean_absolute_errors": {
-      "goals": 3.091884906053902,
-      "shots": 13.020636041370842,
-      "sot": 5.553876967302584,
-      "fouls": 2.546381845431334,
-      "corners": 1.9063020479311703,
-      "cards": 0.6137537671194577
+      "goals": 2.124548115127352,
+      "shots": 11.294091194388201,
+      "sot": 2.8193867487768722,
+      "fouls": 1.7278578824442832,
+      "corners": 1.43689071040974,
+      "cards": 0.9827324899043297
     }
   },
   "matches": [
@@ -169,20 +169,163 @@
         }
       ],
       "source_url": "https://www.espn.com/soccer/match/_/gameId/401874976/lecce-frosinone"
-    }
-  ],
-  "deferred": [],
-  "pending": [
+    },
     {
       "fixture_id": "558551",
       "date": "2026-10-29",
+      "league": "Serie A",
       "home": "Fiorentina",
       "away": "Atalanta",
-      "espn_event_id": "401874969",
-      "provider_status": "IN_PLAY",
-      "reason": "Encuentro todavía en juego al corte de la consulta; no se liquida ni se añade un marcador final.",
-      "source_url": "https://api.football-data.org/v4/matches?dateFrom=2026-10-27&dateTo=2026-10-30"
+      "generated_at": "2026-10-26T23:45:00.763462+00:00",
+      "kickoff_utc": "2026-10-29T19:45Z",
+      "forecast_original_date": "2026-10-29",
+      "forecast_original_kickoff_utc": "2026-10-29T19:45:00+00:00",
+      "schedule_change": null,
+      "probabilities": [
+        0.28623009553585166,
+        0.25653825035067285,
+        0.4572316541134756
+      ],
+      "actual_goals": [
+        2,
+        2
+      ],
+      "actual_outcome": 1,
+      "predicted_outcome": 2,
+      "hit_1x2": false,
+      "predicted_score": "1-1",
+      "actual_score": "2-2",
+      "hit_exact": false,
+      "btts_probability": 0.5713148511441732,
+      "hit_btts": true,
+      "brier": 0.8437238263054467,
+      "log_loss": 1.360477501315054,
+      "goal_lines": [
+        {
+          "line": 0.5,
+          "hit": true
+        },
+        {
+          "line": 1.5,
+          "hit": true
+        },
+        {
+          "line": 2.5,
+          "hit": true
+        },
+        {
+          "line": 3.5,
+          "hit": false
+        }
+      ],
+      "statistics": [
+        {
+          "metric": "goals",
+          "forecast": [
+            1.2269757325060786,
+            1.6158129432931194
+          ],
+          "actual": [
+            2,
+            2
+          ],
+          "predicted_total": 2.842788675799198,
+          "actual_total": 4,
+          "absolute_error_total": 1.157211324200802,
+          "interval_90": null,
+          "inside_interval": null
+        },
+        {
+          "metric": "shots",
+          "forecast": [
+            14.889920273869034,
+            11.542533378725405
+          ],
+          "actual": [
+            26,
+            10
+          ],
+          "predicted_total": 26.43245365259444,
+          "actual_total": 36,
+          "absolute_error_total": 9.56754634740556,
+          "interval_90": null,
+          "inside_interval": null
+        },
+        {
+          "metric": "sot",
+          "forecast": [
+            4.970175032323322,
+            4.11472149792784
+          ],
+          "actual": [
+            4,
+            5
+          ],
+          "predicted_total": 9.08489653025116,
+          "actual_total": 9,
+          "absolute_error_total": 0.08489653025116084,
+          "interval_90": null,
+          "inside_interval": null
+        },
+        {
+          "metric": "fouls",
+          "forecast": [
+            10.041014798615945,
+            13.868319120841287
+          ],
+          "actual": [
+            10,
+            13
+          ],
+          "predicted_total": 23.909333919457232,
+          "actual_total": 23,
+          "absolute_error_total": 0.9093339194572323,
+          "interval_90": null,
+          "inside_interval": null
+        },
+        {
+          "metric": "corners",
+          "forecast": [
+            4.902056805632546,
+            4.130463821479144
+          ],
+          "actual": [
+            8,
+            2
+          ],
+          "predicted_total": 9.03252062711169,
+          "actual_total": 10,
+          "absolute_error_total": 0.9674793728883095,
+          "interval_90": [
+            4,
+            15
+          ],
+          "inside_interval": true
+        },
+        {
+          "metric": "cards",
+          "forecast": [
+            1.5544408964012635,
+            2.093847890909535
+          ],
+          "actual": [
+            3,
+            2
+          ],
+          "predicted_total": 3.6482887873107983,
+          "actual_total": 5,
+          "absolute_error_total": 1.3517112126892017,
+          "interval_90": [
+            1,
+            7
+          ],
+          "inside_interval": true
+        }
+      ],
+      "source_url": "https://www.sofascore.com/football/match/atalanta-fiorentina/#id:16285057,tab:statistics"
     }
   ],
+  "deferred": [],
+  "pending": [],
   "original_predictions_sha256": "6f35171c8fbdc85230abe1ac1a514c3b09af3b03c3ecd7f3fb7be312e4ae97f3"
 }
