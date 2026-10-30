@@ -1,4 +1,6 @@
-import unittest
+import sys,unittest
+from pathlib import Path
+sys.path.insert(0,str(Path(__file__).resolve().parents[1]/'src'))
 from live_data.odds_audit import parse_market, market_identity, fixture_identity, candidate_key, quote_key
 
 

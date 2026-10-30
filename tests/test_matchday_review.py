@@ -33,7 +33,9 @@ class MatchdayReviewTests(unittest.TestCase):
         previous=[r for r in scored['predictions'] if r['date']=='2026-10-18']
         self.assertEqual(len(previous),19)
         self.assertEqual(sum(r['hit'] for r in previous),13)
-        self.assertEqual(hashlib.sha256((p/'original_public_predictions.json').read_bytes()).hexdigest(),review['original_predictions_sha256'])
+        raw=(p/'original_public_predictions.json').read_bytes()
+        # The recorded digest was taken on Windows (CRLF); a Linux checkout stores LF.
+        self.assertIn(review['original_predictions_sha256'],{hashlib.sha256(raw).hexdigest(),hashlib.sha256(raw.replace(b'\r\n',b'\n').replace(b'\n',b'\r\n')).hexdigest()})
 
     def test_import_is_unique_reciprocal_and_attested(self):
         rows=pd.read_csv(ROOT/'data/live/match_stats_actualseason.csv')

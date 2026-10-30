@@ -107,3 +107,27 @@ Las combinadas utilizan 3 o 4 selecciones admisibles de partidos distintos sin r
 No se garantiza un porcentaje futuro de aciertos. Falta un historial prospectivo suficiente y validación independiente de córners, tarjetas, BTTS y goleadores. Lesiones, minutos, árbitros y alineaciones requieren fuentes propias y verificables. Las mejoras con remates, Elo u otras variables deben competir contra esta versión en una nueva validación temporal antes de publicarse.
 
 La web es una consulta local de datos reales, sin cobros ni protección premium simulada. La web está publicada en https://footdataa.netlify.app y conectada a la rama main de GitHub mediante Netlify. Los cambios de la web se publican al subirlos al repositorio. Las nuevas predicciones y estadísticas requieren ejecutar el pipeline y subir los JSON generados; el hosting no ejecuta el modelo automáticamente.
+
+
+## Automatización
+
+El proyecto se actualiza solo en dos lugares, que se coordinan entre sí:
+
+- **GitHub Actions** (`.github/workflows/`): `footdata-daily.yml` corre cada día a las 05:00 de Lima y `footdata-weekly.yml` los jueves a las 10:00 de Lima. Necesita el secret `FOOTBALL_DATA_KEY` en el repositorio (Settings → Secrets and variables → Actions). Solo publica en `main` si pasan todas las pruebas; Netlify redespliega con ese push.
+- **PC con Windows** (`scripts/windows/`): `instalar_tareas.cmd` registra una vez las tareas *FOOTDATA\Diario* (06:30) y *FOOTDATA\Semanal* (jueves 10:30). Si GitHub Actions ya publicó ese día, la PC no repite el trabajo; si falló, la PC lo hace. Registros en `%LOCALAPPDATA%\FOOTDATA\logs`.
+
+Comandos equivalentes:
+
+    python run_pipeline.py --daily     # resultados y estadísticas finales, liquidación de fijas, web
+    python run_pipeline.py --weekly    # calendario + diario + cuotas públicas + nuevos pronósticos y fijas
+
+Reglas de la actualización diaria (`src/live_data/daily_update.py`):
+
+1. Congela una sola vez, por fecha de Lima, la última publicación de pronósticos y fijas anterior al primer partido del día (desde `prediction_archive/` y `recommendation_archive/`).
+2. Descarga de ESPN los scoreboards y boxscores de las seis competiciones de los últimos 3 días y guarda las respuestas en `data/artifacts/auto/raw/<fecha>/`.
+3. Solo importa partidos en `STATUS_FULL_TIME` con remates, tiros a puerta, faltas, córners, amarillas y rojas. El marcador debe coincidir con football-data.org; sin clave o sin red se marca `espn_only`.
+4. Todo lo dudoso (en juego, aplazado, estadística ausente, equipo sin alias, marcador discrepante o sin partido en el calendario) queda pendiente con su motivo y se reintenta al día siguiente. Nunca se inventa un dato ni un cero.
+5. Es idempotente: un partido ya registrado (mismo ID, o mismos equipos y liga con un día de margen) no se vuelve a añadir. Si la base tiene otro valor (por ejemplo, de Sofascore) se conserva y la diferencia queda en el informe.
+6. Liquida las fijas con las instantáneas congeladas y actualiza el seguimiento prospectivo, las tablas y la web. El informe de cada ejecución queda en `data/artifacts/auto/<fecha>/run_report.json`.
+
+Sofascore no admite clientes automáticos. Sirve como contraste manual: `src/live_data/sofascore_capture.py` convierte una captura (evento, estadísticas e incidencias) a las mismas métricas y `--sofascore-dir` compara con ESPN.
