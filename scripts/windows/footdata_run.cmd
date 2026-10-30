@@ -16,6 +16,8 @@ cd /d "%~dp0..\.."
 call "%~dp0footdata_env.cmd"
 rem Siempre la cuenta duena del repositorio (Git Credential Manager elige esa sesion).
 git config credential.https://github.com.username JhonVeraE
+rem Si GitHub pide volver a iniciar sesion, usar codigo de dispositivo (github.com/login/device en Chrome), no el navegador predeterminado.
+git config credential.gitHubAuthModes device
 set "PY=python"
 where python >nul 2>&1 || set "PY=py -3"
 
