@@ -4,7 +4,7 @@ import numpy as np
 import pandas as pd
 from scipy.stats import poisson,nbinom
 from data_store import before,canonical_team,results_from_stats,today_local,season_for
-from goal_model import AttackDefenceModel,ModelConfig
+from goal_model import AttackDefenceModel,ModelConfig,model_version
 from match_analysis import build_full_profiles,head_to_head_ponderado
 from team_profile import detectar_tendencia,DEFAULT_LAMBDA
 from paths import ARTIFACT_DIR
@@ -58,7 +58,7 @@ def build_full_match_report(match_stats,home,away,competition='',fecha='',lam=DE
     hc=hp['local'] or hp['general'];ac=ap['visitante'] or ap['general']
     dh=hc['decay_weighted'];da=ac['decay_weighted']
     hh=head_to_head_ponderado(past,home,away);reverse=head_to_head_ponderado(past,away,home)
-    cross={'goals':{'home':pred['lam_home'],'away':pred['lam_away'],'method':'attack-defence-v2'}}
+    cross={'goals':{'home':pred['lam_home'],'away':pred['lam_away'],'method':model_version(model.config)}}
     from count_model import refined_count_means
     refined=refined_count_means(past,home,away,competition,cut,cache=(batch_context or {}).get('counts',{}).get(competition))
     markets={};cc={}

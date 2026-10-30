@@ -1,9 +1,10 @@
 {
-  "model_version": "attack-defence-v2",
+  "model_version": "attack-defence-v3-shots",
   "config": {
     "half_life_days": 365,
     "regularization": 3,
-    "dixon_coles": true
+    "dixon_coles": true,
+    "shot_weight": 0.7
   },
   "temperature": 1.0170313276970937,
   "calibration_until": "2025-07-01",
@@ -11,5 +12,21 @@
   "calibrated_on": "2025-03-01 to 2025-07-01",
   "promoted": true,
   "selection_metric": "log_loss",
-  "dataset_id": "642af377b7ade1f57fcc8107472f7646ebc97ed427b1a0d6a6cb372f40447570"
+  "dataset_id": "642af377b7ade1f57fcc8107472f7646ebc97ed427b1a0d6a6cb372f40447570",
+  "shot_weight_selection": {
+    "artifact": "data/artifacts/goal_shots_selection.json",
+    "selected_on": "2024-08-01 to 2025-03-01 (1X2 log-loss, grid 1.0/0.7/0.5/0.3)",
+    "holdout": "2025-08-01 to 2026-07-01 domestic: 1X2 log-loss 0.9938->0.9923, BTTS 0.6893->0.6868, over2.5 0.6868->0.6826 (BTTS and over2.5 paired 95% CI below zero)",
+    "current": "2026-08-01 to 2026-10-27: same direction",
+    "temperature_note": "Domestic temperature kept from v2 calibration; not re-tuned.",
+    "activated_on": "2026-10-30"
+  },
+  "previous_model": {
+    "model_version": "attack-defence-v2",
+    "config": {
+      "half_life_days": 365,
+      "regularization": 3,
+      "dixon_coles": true
+    }
+  }
 }
