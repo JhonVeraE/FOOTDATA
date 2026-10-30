@@ -5,8 +5,9 @@
   "matches": 2,
   "new_rows": 0,
   "deferred": [],
+  "pending": [],
   "by_date": {
     "2026-10-26": 2
   },
-  "dataset_matches": 372
+  "dataset_matches": 403
 }
