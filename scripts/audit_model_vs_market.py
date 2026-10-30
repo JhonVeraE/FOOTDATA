@@ -1,3 +1,5 @@
+# Audit script used on 2026-10-30. Inputs: per-fixture walk-forward predictions (evaluate_shot_model.py with per_fixture kept)
+# and Matches.csv from github.com/xgabora/Club-Football-Match-Data-2000-2025. Paths below were local to that session.
 """Model vs market (football-data.co.uk average pre-match odds via xgabora mirror).
 
 Fixtures: model walk-forward predictions (monthly frozen fits) for 2025/26 and 2026/27.
