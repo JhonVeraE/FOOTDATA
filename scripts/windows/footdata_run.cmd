@@ -14,14 +14,18 @@ if /i not "%~2"=="__logged" (
 echo ===== %DATE% %TIME% FOOTDATA %MODE% =====
 cd /d "%~dp0..\.."
 call "%~dp0footdata_env.cmd"
+rem Siempre la cuenta duena del repositorio (Git Credential Manager elige esa sesion).
+git config credential.https://github.com.username JhonVeraE
 set "PY=python"
 where python >nul 2>&1 || set "PY=py -3"
 
 git fetch origin main || exit /b 1
 rem Si GitHub Actions ya publico hoy, la PC no repite el trabajo.
 for /f %%h in ('git log origin/main --since^="%TODAY% 00:00" --grep^="FOOTDATA auto %MODE% %TODAY%" --format^=%%h') do (
-  echo Ya publicado hoy por GitHub Actions ^(%%h^). Nada que hacer.
-  exit /b 0
+  echo Ya publicado hoy por GitHub Actions ^(%%h^). Solo se suben commits locales pendientes.
+  git pull --rebase --autostash origin main || exit /b 1
+  git push origin HEAD:main
+  exit /b %ERRORLEVEL%
 )
 git pull --rebase --autostash origin main || exit /b 1
 
