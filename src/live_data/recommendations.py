@@ -13,11 +13,12 @@ from data_store import canonical_team, load_match_stats
 from goal_model import score_distribution
 from paths import ARTIFACT_DIR, WEB_DIR, DATA_DIR
 
-VERSION='market-shortlist-v4-feedback'
+VERSION='market-shortlist-v5-market-check'
 LEVELS=[('conservative','Conservadora',.78,.88,.82),('normal','Normal',.63,.78,.70),('risky','Arriesgada',.50,.63,.59)]
 MARKETS={'result':'Resultado 1X2','double_chance':'Doble oportunidad','handicap':'Hándicap de goles','goals':'Goles','btts':'Ambos marcan','result_goals':'Resultado y goles','shots':'Remates','sot':'Tiros al arco','fouls':'Faltas','cards':'Tarjetas Betano','corners':'Córners'}
 COUNT_KINDS=['shots','sot','fouls','cards','corners']
 PRIMARY_MARKETS={'result','double_chance','handicap','goals','btts','result_goals'}
+from market_odds import implied,lookup,market_probability,load_market
 BETANO_RULES='https://support.betano.pe/hc/es-pe/articles/36520716638877-Definiciones-de-mercados-de-f%C3%BAtbol'
 
 def utc(value):
@@ -97,7 +98,7 @@ def evidence(candidate,contexts,report):
 
 def fmt(line):return f'{line:g}'.replace('.',',')
 
-def candidates(report,contexts,dispersion_data=None,quotes=None,as_of=None):
+def candidates(report,contexts,dispersion_data=None,quotes=None,as_of=None,market=None):
     matrix=score_distribution(report['lam_home'],report['lam_away'],report['model']['rho'])
     h,a=np.indices(matrix.shape);total=h+a;out=[]
     clock=utc(as_of) if as_of is not None else pd.Timestamp.now(tz='UTC')
@@ -110,6 +111,9 @@ def candidates(report,contexts,dispersion_data=None,quotes=None,as_of=None):
         item={'id':f'{kind}:{scope}:{side}:{line}:{extra.get("direction", "")}','fixture_id':str(report['fixture_id']),'kind':kind,'market':MARKETS[kind],'scope':scope,'side':side,'line':line,'label':label,'probability':float(p),'probability_method':method,'individually_calibrated':False,
               'fair_odds':1/max(float(p),1e-9),'pricing_probability':pricing_p,'stress_discount':stress,'minimum_odds':1.05/pricing_p,'price_status':'unverified','bookmaker':'Betano',**extra}
         item['evidence']=evidence(item,contexts,report)
+        mp=market_probability(item,market)
+        item['market_probability']=mp
+        item['market_check']='not_available' if mp is None else 'agrees' if mp>=.5 else 'disagrees'
         # This is a selection score, not an alternative probability estimate.
         item['support_gap']=abs(item['evidence']['rate']-p) if item['evidence']['rate'] is not None else .25
         quote=(quotes or {}).get((str(report['fixture_id']),item['id']))
@@ -191,29 +195,37 @@ def preferred_selection(pool,target):
     primary=[c for c in pool if c['kind'] in PRIMARY_MARKETS]
     return min(primary or pool,key=lambda c:selection_cost(c,target),default=None)
 
-def make_match(report,stats,quotes=None,as_of=None,feedback_records=None):
+def market_ok(item,floor):
+    """Market agreement: a de-margined market price below the tier floor removes the pick.
+    Retrospective 2025/26: such disagreements hit at roughly the market's rate, not the model's."""
+    mp=item.get('market_probability')
+    return mp is None or mp>=floor
+
+def make_match(report,stats,quotes=None,as_of=None,feedback_records=None,market_index=None):
     contexts=historical_context(stats,report)
+    record=lookup(market_index,report) if market_index else None
+    market=implied(record) if record else None
     cut=min(pd.Timestamp(report['cutoff']),pd.Timestamp(report['fecha']))
     dispersion_data=stats[(stats.date<cut)&(stats.date>=cut-pd.Timedelta(days=365))&(stats.league==report['competition'])]
-    options=candidates(report,contexts,dispersion_data,quotes,as_of);by_market=[]
+    options=candidates(report,contexts,dispersion_data,quotes,as_of,market);by_market=[]
     from recommendation_feedback import annotate
     annotate(options,report,feedback_records or [])
     for kind in MARKETS:
-        pool=[c for c in options if c['kind']==kind and .50<=c['probability']<=.88 and supported(c)]
+        pool=[c for c in options if c['kind']==kind and .50<=c['probability']<=.88 and supported(c) and market_ok(c,.50)]
         best=min(pool,key=lambda c:selection_cost(c,.74),default=None)
         by_market.append({'kind':kind,'market':MARKETS[kind],'selection':best,'status':'available' if best else 'incompatible_settlement' if kind=='cards' else 'insufficient_support','reason':'Betano cuenta una roja como dos tarjetas y excluye la segunda amarilla. El CSV agregado no permite reconstruir esa liquidación.' if kind=='cards' else None})
     tiers=[];used=set()
     for key,label,lo,hi,target in LEVELS:
-        pool=[c for c in options if lo<=c['probability']<hi and c['kind'] not in used and supported(c) and (key!='conservative' or recent_support(c))]
+        pool=[c for c in options if lo<=c['probability']<hi and c['kind'] not in used and supported(c) and market_ok(c,lo) and (key!='conservative' or recent_support(c))]
         best=preferred_selection(pool,target)
         tiers.append({'key':key,'label':label,'selection':best,'status':'available' if best else 'insufficient_data'})
         if best:used.add(best['kind'])
     # Prefer goal/result markets; retain count alternatives only without support there.
-    eligible=[c for c in options if .78<=c['probability']<=.88 and supported(c) and recent_support(c)]
+    eligible=[c for c in options if .78<=c['probability']<=.88 and supported(c) and recent_support(c) and market_ok(c,.78)]
     sample=report.get('quality',{}).get('effective_sample_min',0)
     unknown=any('sin historial' in warning.lower() for warning in report.get('data_warnings',[]))
     pick=preferred_selection(eligible,.82) if sample>=5 and not unknown else None
-    return {'fixture_id':str(report['fixture_id']),'competition':report['competition'],'home':report['local'],'away':report['visitante'],'kickoff_utc':report['kickoff_utc'],'date_lima':utc(report['kickoff_utc']).tz_convert('America/Lima').date().isoformat(),'prediction_generated_at':report['generated_at'],'cutoff':report['cutoff'],'tiers':tiers,'markets':by_market,'parlay_selection':pick,'market_priority':'goals_and_results_first','limited_european_sample':report['competition']=='UEFA Champions League'}
+    return {'fixture_id':str(report['fixture_id']),'competition':report['competition'],'home':report['local'],'away':report['visitante'],'kickoff_utc':report['kickoff_utc'],'date_lima':utc(report['kickoff_utc']).tz_convert('America/Lima').date().isoformat(),'prediction_generated_at':report['generated_at'],'cutoff':report['cutoff'],'tiers':tiers,'markets':by_market,'parlay_selection':pick,'market_priority':'goals_and_results_first','market_reference':None if record is None else {k:record[k] for k in ['price_set','home','draw','away','over25','under25','retrieved_at','source']},'limited_european_sample':report['competition']=='UEFA Champions League'}
 
 def choose_parlay(pool,size,as_of):
     """No same-game multiplication or repeated team across legs. Never pad."""
@@ -227,14 +239,14 @@ def choose_parlay(pool,size,as_of):
     if best is None:return {'size':size,'status':'insufficient_matches','legs':[],'probability':None}
     return {'size':size,'status':'available','legs':[{'fixture_id':m['fixture_id'],'selection':m['parlay_selection']} for m in best],'probability':best_p,'assumption':'Producto bajo supuesto de independencia entre partidos. No calibrado como combinada.'}
 
-def build_payload(predictions,stats,as_of=None,quotes=None,feedback_records=None):
+def build_payload(predictions,stats,as_of=None,quotes=None,feedback_records=None,market_index=None):
     now=utc(as_of) if as_of is not None else pd.Timestamp.now(tz='UTC')
-    matches=[make_match(m,stats,quotes,now,feedback_records) for m in predictions['matches'] if utc(m['kickoff_utc'])>now and m.get('calendar_status') in ['SCHEDULED','TIMED']]
+    matches=[make_match(m,stats,quotes,now,feedback_records,market_index) for m in predictions['matches'] if utc(m['kickoff_utc'])>now and m.get('calendar_status') in ['SCHEDULED','TIMED']]
     days=[]
     for day in sorted({m['date_lima'] for m in matches}):
         fixtures=[m for m in matches if m['date_lima']==day]
         days.append({'date_lima':day,'matches':len(fixtures),'parlays':[choose_parlay(fixtures,size,now) for size in [3,4]]})
-    return {'schema_version':2,'version':VERSION,'generated_at':now.isoformat(),'dataset_id':predictions['run']['dataset_id'],'prediction_run_generated_at':predictions['run']['generated_at'],'matches':matches,'days':days,'bookmaker':{'name':'Betano','live_odds_available':False,'rules_url':BETANO_RULES},'policy':{'levels':'Conservadora 78–88%, normal 63–78%, arriesgada 50–63%. Además se exige cuota teórica ≥1,18. Son bandas relativas de selección.','selection':'Mayoría estricta en ambas muestras recientes, al menos tres observaciones válidas por equipo y cinco encuentros únicos. Se descartan candidatos con discrepancia modelo/frecuencia superior a 30 puntos. La frecuencia no sustituye a una probabilidad calibrada.','scope':'Hasta cinco partidos por equipo y localía, anteriores al corte. Champions puede usar forma doméstica/europea combinada, identificada expresamente. No se recomienda con muestra insuficiente.','settlement':'90 minutos y añadido; hándicap asiático con medias unidades. Tarjetas excluidas: el CSV agregado no reproduce las reglas Betano de roja = 2, segunda amarilla excluida.','parlay':'Una selección por partido sin repetir equipos. Producto bajo independencia; los mercados combinados de un mismo partido se calculan en la matriz conjunta, nunca multiplicándolos.','odds':'Cuota teórica = 1/p. Umbral orientativo = 1,05/(p − descuento): 5 puntos para goles/resultado y 10 para conteos. Son hipótesis de sensibilidad elegidas, no un intervalo de confianza ni calibración adicional. Introduce la cuota Betano del mismo mercado para comparar. No se han obtenido cuotas en vivo ni confirmado disponibilidad de las líneas.','validation':'Estas reglas de selección y probabilidades de mercados ampliados necesitan evaluación prospectiva propia. Mayor cumplimiento reciente no demuestra rentabilidad futura.'}}
+    return {'schema_version':2,'version':VERSION,'generated_at':now.isoformat(),'dataset_id':predictions['run']['dataset_id'],'prediction_run_generated_at':predictions['run']['generated_at'],'matches':matches,'days':days,'bookmaker':{'name':'Betano','live_odds_available':False,'rules_url':BETANO_RULES},'policy':{'levels':'Conservadora 78–88%, normal 63–78%, arriesgada 50–63%. Además se exige cuota teórica ≥1,18. Son bandas relativas de selección.','selection':'Mayoría estricta en ambas muestras recientes, al menos tres observaciones válidas por equipo y cinco encuentros únicos. Se descartan candidatos con discrepancia modelo/frecuencia superior a 30 puntos. La frecuencia no sustituye a una probabilidad calibrada.','scope':'Hasta cinco partidos por equipo y localía, anteriores al corte. Champions puede usar forma doméstica/europea combinada, identificada expresamente. No se recomienda con muestra insuficiente.','settlement':'90 minutos y añadido; hándicap asiático con medias unidades. Tarjetas excluidas: el CSV agregado no reproduce las reglas Betano de roja = 2, segunda amarilla excluida.','parlay':'Una selección por partido sin repetir equipos. Producto bajo independencia; los mercados combinados de un mismo partido se calculan en la matriz conjunta, nunca multiplicándolos.','odds':'Cuota teórica = 1/p. Umbral orientativo = 1,05/(p − descuento): 5 puntos para goles/resultado y 10 para conteos. Son hipótesis de sensibilidad elegidas, no un intervalo de confianza ni calibración adicional. Introduce la cuota Betano del mismo mercado para comparar. No se han obtenido cuotas en vivo ni confirmado disponibilidad de las líneas.','market_check':'Contraste con el mercado: cuando hay cuotas medias públicas (football-data.co.uk, ligas domésticas) se calcula la probabilidad del mercado sin margen para 1X2, doble oportunidad y más/menos 2,5 goles. Si queda por debajo del piso del nivel, la selección se descarta. No cambia la probabilidad del modelo. Champions y mercados sin precio público quedan sin contraste.','validation':'Estas reglas de selección y probabilidades de mercados ampliados necesitan evaluación prospectiva propia. Mayor cumplimiento reciente no demuestra rentabilidad futura.'}}
 
 def apply_editorial_overrides(data,predictions,stats,as_of=None,overrides=None):
     """Explicit editorial slots retain the model's joint probability and cutoff.
@@ -276,7 +288,9 @@ def publish_recommendations(predictions,stats=None):
     quote_file=ARTIFACT_DIR/'betano_odds.json'
     quote_records=json.loads(quote_file.read_text(encoding='utf-8'))['records'] if quote_file.exists() else []
     quotes={(r['fixture_id'],r['candidate_id']):r for r in quote_records}
-    data=build_payload(predictions,stats,quotes=quotes,feedback_records=feedback_records)
+    market_index=load_market()
+    data=build_payload(predictions,stats,quotes=quotes,feedback_records=feedback_records,market_index=market_index)
+    data['bookmaker']['market_reference_fixtures']=sum(m.get('market_reference') is not None for m in data['matches'])
     data['policy']['feedback']='Se revisan los resultados publicados por familia de mercado y por selección del equipo. Dos fallos recientes del mismo equipo y línea bloquean su repetición si no hay dos aciertos consecutivos de respaldo actual. Conservadoras y combinadas exigen al menos 2/3 cumplimientos recientes en ambas muestras. El ajuste ordena o filtra; no infla las probabilidades.'
     apply_editorial_overrides(data,predictions,stats)
     data['policy']['priority']='Se priorizan ganador, doble oportunidad, hándicap, ambos marcan, goles y resultado con goles entre las propuestas que cumplen los mismos filtros de respaldo y precio. Remates, tiros al arco, faltas y córners son complementarios. La prioridad no modifica las probabilidades del modelo.'

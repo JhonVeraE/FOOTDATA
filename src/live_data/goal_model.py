@@ -12,12 +12,31 @@ from scipy.stats import poisson
 from data_store import before
 
 MODEL_VERSION='attack-defence-v2'
+SHOTS_MODEL_VERSION='attack-defence-v3-shots'
+
+def model_version(config):
+    return SHOTS_MODEL_VERSION if config.shot_weight<1 else MODEL_VERSION
+
+def shot_conversion(df,min_matches=50):
+    """Per-competition goals per shot on target / off target, from training rows only."""
+    out={}
+    cols=['shots_for','shots_against','sot_for','sot_against']
+    if not set(cols)<=set(df.columns):return out
+    for comp,g in df.dropna(subset=cols).groupby('tournament'):
+        if len(g)<min_matches:continue
+        X=np.c_[np.r_[g.sot_for,g.sot_against],np.r_[g.shots_for-g.sot_for,g.shots_against-g.sot_against]].astype(float)
+        y=np.r_[g.home_score,g.away_score].astype(float)
+        coef,*_=np.linalg.lstsq(X,y,rcond=None)
+        out[comp]=np.clip(coef,0,None)
+    return out
 
 @dataclass(frozen=True)
 class ModelConfig:
     half_life_days: float=365.
     regularization: float=10.
     dixon_coles: bool=True
+    # 1.0 = goals only (v2). <1 blends goals with a shot-based goal proxy (v3).
+    shot_weight: float=1.
 
 def score_distribution(lam_h,lam_a,rho=0.):
     if not np.isfinite([lam_h,lam_a,rho]).all() or min(lam_h,lam_a)<=0:
@@ -57,6 +76,20 @@ class AttackDefenceModel:
         n=len(self.teams);k=len(self.competitions)
         h=df.home_team.map(self.teams).to_numpy();a=df.away_team.map(self.teams).to_numpy();c=df.tournament.map(self.competitions).to_numpy()
         yh=df.home_score.to_numpy(float);ya=df.away_score.to_numpy(float)
+        goals_h,goals_a=yh.copy(),ya.copy()
+        w=self.config.shot_weight;self.shot_coverage=0.
+        if w<1:
+            # Strength targets blend real goals with goals expected from shots (training-only rates).
+            # Rows without shots keep real goals; Dixon-Coles below always uses real goals.
+            self.conversion=shot_conversion(df)
+            coef=np.array([self.conversion.get(t,[np.nan,np.nan]) for t in df.tournament],float)
+            sh=df.get('shots_for');sa=df.get('shots_against');th=df.get('sot_for');ta=df.get('sot_against')
+            if sh is not None:
+                ph=coef[:,0]*th.to_numpy(float)+coef[:,1]*(sh-th).to_numpy(float)
+                pa=coef[:,0]*ta.to_numpy(float)+coef[:,1]*(sa-ta).to_numpy(float)
+                ok=np.isfinite(ph)&np.isfinite(pa)
+                yh=np.where(ok,w*yh+(1-w)*ph,yh);ya=np.where(ok,w*ya+(1-w)*pa,ya)
+                self.shot_coverage=float(ok.mean())
         neutral=df.get('neutral',pd.Series(False,index=df.index)).to_numpy(bool);home_flag=(~neutral).astype(float)
         weights=np.exp(-np.log(2)*(self.cutoff-df.date).dt.days.to_numpy()/self.config.half_life_days)
         reg=self.config.regularization
@@ -84,10 +117,11 @@ class AttackDefenceModel:
             lo=max(-.25,float(np.max(np.r_[-1/lh,-1/la]))+1e-8)
             hi=min(.25,float(np.min(1/(lh*la)))-1e-8)
             def correction_loss(rho):
-                tau=np.ones(len(df));tau[(yh==0)&(ya==0)]=1-(lh*la*rho)[(yh==0)&(ya==0)]
-                tau[(yh==0)&(ya==1)]=1+(lh*rho)[(yh==0)&(ya==1)]
-                tau[(yh==1)&(ya==0)]=1+(la*rho)[(yh==1)&(ya==0)]
-                tau[(yh==1)&(ya==1)]=1-rho
+                gh,ga=goals_h,goals_a
+                tau=np.ones(len(df));tau[(gh==0)&(ga==0)]=1-(lh*la*rho)[(gh==0)&(ga==0)]
+                tau[(gh==0)&(ga==1)]=1+(lh*rho)[(gh==0)&(ga==1)]
+                tau[(gh==1)&(ga==0)]=1+(la*rho)[(gh==1)&(ga==0)]
+                tau[(gh==1)&(ga==1)]=1-rho
                 return -float(np.dot(weights,np.log(tau)))+25*rho*rho
             if lo<hi:self.rho=float(minimize_scalar(correction_loss,bounds=(lo,hi),method='bounded').x)
         self.team_match_counts=pd.concat([df.home_team,df.away_team]).value_counts().to_dict()
@@ -116,4 +150,4 @@ class AttackDefenceModel:
         return out
 
     def metadata(self):
-        return {'version':MODEL_VERSION,'config':asdict(self.config),'training_cutoff':str(self.cutoff.date()),'latest_training_result':str(self.latest.date()),'training_matches':self.n_matches,'rho':self.rho,'optimizer_iterations':self.optimizer_iterations}
+        return {'version':model_version(self.config),'shot_coverage':getattr(self,'shot_coverage',0.),'config':asdict(self.config),'training_cutoff':str(self.cutoff.date()),'latest_training_result':str(self.latest.date()),'training_matches':self.n_matches,'rho':self.rho,'optimizer_iterations':self.optimizer_iterations}

@@ -1,0 +1,168 @@
+{
+ "protocol": "Retrospective. Model v3 walk-forward (monthly frozen fits) 2025-08..2026-08 vs football-data.co.uk average pre-match odds (via github.com/xgabora/Club-Football-Match-Data-2000-2025). Candidate picks: double chance and over/under 2.5 within tier bands. Disagreement = de-margined market probability below the tier floor. No parameters were fitted for the rule; prospective monitoring required.",
+ "fixtures": 1850,
+ "tiers": {
+  "Conservadora": {
+   "agree": {
+    "n": 709,
+    "hit_rate": 0.8702397743300423
+   },
+   "disagree": {
+    "n": 119,
+    "hit_rate": 0.773109243697479
+   }
+  },
+  "Normal": {
+   "agree": {
+    "n": 2869,
+    "hit_rate": 0.7253398396653886
+   },
+   "disagree": {
+    "n": 319,
+    "hit_rate": 0.5893416927899686
+   }
+  },
+  "Arriesgada": {
+   "agree": {
+    "n": 2008,
+    "hit_rate": 0.5742031872509961
+   },
+   "disagree": {
+    "n": 466,
+    "hit_rate": 0.5171673819742489
+   }
+  }
+ },
+ "model_vs_market_1x2_test_jan2026_on": {
+  "n_test": 1048,
+  "test_logloss": {
+   "model": 0.9991280548265843,
+   "market": 0.9884096944023161,
+   "blend": 0.9884096974220231
+  },
+  "test_accuracy": {
+   "model": 0.5104961832061069,
+   "market": 0.5314885496183206
+  },
+  "alpha_market_weight": 0.9999940391390134,
+  "blend_minus_market_test": {
+   "mean": 3.019707311624868e-09,
+   "ci95": [
+    -4.955152734043557e-08,
+    5.573961521346478e-08
+   ]
+  }
+ },
+ "over25_logloss": {
+  "n": 1850,
+  "model": 0.6807720617122811,
+  "market": 0.675332226083012
+ },
+ "value_betting_note": "Betting where model EV vs average odds > threshold lost 2-9% (95% CI includes 0). No profitability claim.",
+ "value_bets_1x2_test": {
+  "model_ev>1.0_avgodds": {
+   "bets": 874,
+   "roi": -0.055789473684210535,
+   "ci95": [
+    -0.1683555491990847,
+    0.06436670480549195
+   ]
+  },
+  "model_ev>1.0_maxodds": {
+   "bets": 874,
+   "roi": -0.023901601830663616,
+   "ci95": [
+    -0.14045823798627002,
+    0.10390532036613272
+   ]
+  },
+  "blend_ev>1.0_avgodds": {
+   "bets": 0,
+   "roi": null,
+   "ci95": null
+  },
+  "blend_ev>1.0_maxodds": {
+   "bets": 0,
+   "roi": null,
+   "ci95": null
+  },
+  "model_ev>1.05_avgodds": {
+   "bets": 629,
+   "roi": -0.0891891891891892,
+   "ci95": [
+    -0.22642368839427665,
+    0.061027821939586606
+   ]
+  },
+  "model_ev>1.05_maxodds": {
+   "bets": 629,
+   "roi": -0.053545310015898226,
+   "ci95": [
+    -0.1953716216216216,
+    0.10613751987281397
+   ]
+  },
+  "blend_ev>1.05_avgodds": {
+   "bets": 0,
+   "roi": null,
+   "ci95": null
+  },
+  "blend_ev>1.05_maxodds": {
+   "bets": 0,
+   "roi": null,
+   "ci95": null
+  },
+  "model_ev>1.1_avgodds": {
+   "bets": 460,
+   "roi": -0.057369565217391304,
+   "ci95": [
+    -0.23151250000000004,
+    0.12760760869565213
+   ]
+  },
+  "model_ev>1.1_maxodds": {
+   "bets": 460,
+   "roi": -0.01939130434782609,
+   "ci95": [
+    -0.20324945652173912,
+    0.17471032608695647
+   ]
+  },
+  "blend_ev>1.1_avgodds": {
+   "bets": 0,
+   "roi": null,
+   "ci95": null
+  },
+  "blend_ev>1.1_maxodds": {
+   "bets": 0,
+   "roi": null,
+   "ci95": null
+  },
+  "model_ev>1.2_avgodds": {
+   "bets": 254,
+   "roi": -0.050905511811023624,
+   "ci95": [
+    -0.31643799212598434,
+    0.2189901574803149
+   ]
+  },
+  "model_ev>1.2_maxodds": {
+   "bets": 254,
+   "roi": -0.006811023622047232,
+   "ci95": [
+    -0.2876122047244094,
+    0.2788769685039369
+   ]
+  },
+  "blend_ev>1.2_avgodds": {
+   "bets": 0,
+   "roi": null,
+   "ci95": null
+  },
+  "blend_ev>1.2_maxodds": {
+   "bets": 0,
+   "roi": null,
+   "ci95": null
+  }
+ }
+}
