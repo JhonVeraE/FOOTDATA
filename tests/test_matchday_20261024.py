@@ -27,7 +27,8 @@ class OctoberRangeTests(unittest.TestCase):
         for name in ['predictions','fijas']:
             self.assertEqual((ROOT/f'web/data/{name}.json').read_bytes(),forecasts[name])
     def test_postponed_fixture_has_no_fake_final(self):
-        calendar=pd.read_csv(ROOT/'data/live/matches_footballdata.csv')
+        # State recorded right after the 22-24 review (the fixture was later played).
+        calendar=pd.read_csv(ROOT/'data/artifacts/review_20261025/before_update/matches_footballdata.csv')
         row=calendar[calendar.match_id==559655].iloc[0]
         self.assertEqual(row.date,'2026-10-25')
         self.assertEqual(row.kickoff_time_utc,'16:15')

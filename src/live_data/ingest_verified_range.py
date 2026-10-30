@@ -182,9 +182,10 @@ def main(capture_dir, apply=False):
     summary={'dates':verification['dates'],'matches':len(records),'new_rows':len(fresh),
         'deferred':list(deferred.values()),'pending':list(pending.values()),'by_date':{day:sum(x['date']==day for x in records)
                    for day in verification['dates']},'dataset_matches':int(combined.match_id.nunique())}
-    save(capture/'validated_ingestion_plan.json',summary)
     if not apply:
+        # Dry runs (and tests) validate only; they never rewrite archived plans.
         print(json.dumps(summary,ensure_ascii=False,indent=2));return summary
+    save(capture/'validated_ingestion_plan.json',summary)
     backup=capture/'before_update';backup.mkdir(exist_ok=True)
     for path in [old_path,manifest_path,calendar_path]:
         if not (backup/path.name).exists():shutil.copy2(path,backup/path.name)
