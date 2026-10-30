@@ -1,0 +1,1090 @@
+{
+  "date": "2026-10-30",
+  "reviewed_at": "2026-10-30T22:59:28.770435+00:00",
+  "frozen_shortlist_sha256": "14c8575484c8d1e43a0afac8da962c6e4acbdc0b177ccbdde427309835ecd0eb",
+  "matches": [
+    {
+      "fixture_id": "564737",
+      "home": "Villarreal",
+      "away": "Espanol",
+      "metrics": {
+        "goals": [
+          0,
+          1
+        ],
+        "shots": [
+          14,
+          5
+        ],
+        "sot": [
+          4,
+          3
+        ],
+        "fouls": [
+          15,
+          13
+        ],
+        "corners": [
+          7,
+          3
+        ],
+        "cards": [
+          3,
+          3
+        ]
+      },
+      "source_url": "https://www.sofascore.com/football/match/villarreal-espanyol/ogbsugb#id:16421099,tab:statistics"
+    },
+    {
+      "fixture_id": "565846",
+      "home": "Elversberg",
+      "away": "Mainz",
+      "metrics": {
+        "goals": [
+          4,
+          1
+        ],
+        "shots": [
+          13,
+          10
+        ],
+        "sot": [
+          6,
+          2
+        ],
+        "fouls": [
+          8,
+          22
+        ],
+        "corners": [
+          5,
+          11
+        ],
+        "cards": [
+          0,
+          6
+        ]
+      },
+      "source_url": "https://www.sofascore.com/football/match/sv-07-elversberg-1-fsv-mainz-05/gbbsYbb#id:16434085,tab:statistics"
+    },
+    {
+      "fixture_id": "559644",
+      "home": "Le Havre",
+      "away": "Paris SG",
+      "metrics": {
+        "goals": [
+          1,
+          5
+        ],
+        "shots": [
+          14,
+          15
+        ],
+        "sot": [
+          5,
+          10
+        ],
+        "fouls": [
+          14,
+          11
+        ],
+        "corners": [
+          5,
+          3
+        ],
+        "cards": [
+          0,
+          0
+        ]
+      },
+      "source_url": "https://www.sofascore.com/football/match/le-havre-paris-saint-germain/UHsmI#id:16310993,tab:statistics"
+    },
+    {
+      "fixture_id": "559639",
+      "home": "Lille",
+      "away": "Lens",
+      "metrics": {
+        "goals": [
+          1,
+          0
+        ],
+        "shots": [
+          16,
+          5
+        ],
+        "sot": [
+          7,
+          3
+        ],
+        "fouls": [
+          7,
+          14
+        ],
+        "corners": [
+          10,
+          2
+        ],
+        "cards": [
+          0,
+          1
+        ]
+      },
+      "source_url": "https://www.sofascore.com/football/match/rc-lens-lille/THsYH#id:16310994,tab:statistics"
+    },
+    {
+      "fixture_id": "559646",
+      "home": "Nice",
+      "away": "Rennes",
+      "metrics": {
+        "goals": [
+          5,
+          2
+        ],
+        "shots": [
+          17,
+          18
+        ],
+        "sot": [
+          8,
+          9
+        ],
+        "fouls": [
+          8,
+          10
+        ],
+        "corners": [
+          4,
+          7
+        ],
+        "cards": [
+          4,
+          3
+        ]
+      },
+      "source_url": "https://www.sofascore.com/football/match/nice-stade-rennais/iIslI#id:16310998,tab:statistics"
+    }
+  ],
+  "tiers": [
+    {
+      "fixture_id": "564737",
+      "selection_id": "goals:total:over:1.5:",
+      "match": "Villarreal – Espanol",
+      "market": "Goles",
+      "label": "Más de 1,5 goles",
+      "probability": 0.8210357952690897,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "goals",
+      "actual_home": 0,
+      "actual_away": 1,
+      "tier": "Conservadora"
+    },
+    {
+      "fixture_id": "564737",
+      "selection_id": "shots:total:over:24.5:",
+      "match": "Villarreal – Espanol",
+      "market": "Remates",
+      "label": "Más de 24,5 remates totales",
+      "probability": 0.6970205575981728,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "shots",
+      "actual_home": 14,
+      "actual_away": 5,
+      "tier": "Normal"
+    },
+    {
+      "fixture_id": "564737",
+      "selection_id": "handicap:total:away:1.5:",
+      "match": "Villarreal – Espanol",
+      "market": "Hándicap de goles",
+      "label": "Espanol +1,5",
+      "probability": 0.5855451802014837,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 0,
+      "actual_away": 1,
+      "tier": "Arriesgada"
+    },
+    {
+      "fixture_id": "565846",
+      "selection_id": "handicap:total:home:1.5:",
+      "match": "Elversberg – Mainz",
+      "market": "Hándicap de goles",
+      "label": "Elversberg +1,5",
+      "probability": 0.8335588539997348,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 4,
+      "actual_away": 1,
+      "tier": "Conservadora"
+    },
+    {
+      "fixture_id": "565846",
+      "selection_id": "goals:total:over:2.5:",
+      "match": "Elversberg – Mainz",
+      "market": "Goles",
+      "label": "Más de 2,5 goles",
+      "probability": 0.6900051676239742,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 4,
+      "actual_away": 1,
+      "tier": "Normal"
+    },
+    {
+      "fixture_id": "565846",
+      "selection_id": "shots:home:under:14.5:",
+      "match": "Elversberg – Mainz",
+      "market": "Remates",
+      "label": "Elversberg: menos de 14,5 remates",
+      "probability": 0.6038768087966263,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "shots",
+      "actual_home": 13,
+      "actual_away": 10,
+      "tier": "Arriesgada"
+    },
+    {
+      "fixture_id": "559644",
+      "selection_id": "goals:home:under:1.5:",
+      "match": "Le Havre – Paris SG",
+      "market": "Goles",
+      "label": "Le Havre: menos de 1,5 goles",
+      "probability": 0.8060004004398194,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 1,
+      "actual_away": 5,
+      "tier": "Conservadora"
+    },
+    {
+      "fixture_id": "559644",
+      "selection_id": "result:total:away:None:",
+      "match": "Le Havre – Paris SG",
+      "market": "Resultado 1X2",
+      "label": "Gana Paris SG",
+      "probability": 0.6959089028057608,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 1,
+      "actual_away": 5,
+      "tier": "Normal"
+    },
+    {
+      "fixture_id": "559644",
+      "selection_id": "handicap:total:home:1.5:",
+      "match": "Le Havre – Paris SG",
+      "market": "Hándicap de goles",
+      "label": "Le Havre +1,5",
+      "probability": 0.5295247146460218,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "goals",
+      "actual_home": 1,
+      "actual_away": 5,
+      "tier": "Arriesgada"
+    },
+    {
+      "fixture_id": "559639",
+      "selection_id": "handicap:total:away:1.5:",
+      "match": "Lille – Lens",
+      "market": "Hándicap de goles",
+      "label": "Lens +1,5",
+      "probability": 0.819597072166272,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 1,
+      "actual_away": 0,
+      "tier": "Conservadora"
+    },
+    {
+      "fixture_id": "559639",
+      "selection_id": "double_chance:total:12:None:",
+      "match": "Lille – Lens",
+      "market": "Doble oportunidad",
+      "label": "Cualquiera gana, sin empate",
+      "probability": 0.7165916294882602,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 1,
+      "actual_away": 0,
+      "tier": "Normal"
+    },
+    {
+      "fixture_id": "559639",
+      "selection_id": "shots:home:under:12.5:",
+      "match": "Lille – Lens",
+      "market": "Remates",
+      "label": "Lille: menos de 12,5 remates",
+      "probability": 0.5778195516172852,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "shots",
+      "actual_home": 16,
+      "actual_away": 5,
+      "tier": "Arriesgada"
+    },
+    {
+      "fixture_id": "559646",
+      "selection_id": "goals:total:under:4.5:",
+      "match": "Nice – Rennes",
+      "market": "Goles",
+      "label": "Menos de 4,5 goles",
+      "probability": 0.815957726788971,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "goals",
+      "actual_home": 5,
+      "actual_away": 2,
+      "tier": "Conservadora"
+    },
+    {
+      "fixture_id": "559646",
+      "selection_id": "corners:away:under:6.5:",
+      "match": "Nice – Rennes",
+      "market": "Córners",
+      "label": "Rennes: menos de 6,5 córners",
+      "probability": 0.7220311774096674,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "corners",
+      "actual_home": 4,
+      "actual_away": 7,
+      "tier": "Normal"
+    },
+    {
+      "fixture_id": "559646",
+      "selection_id": "btts:total:yes:None:",
+      "match": "Nice – Rennes",
+      "market": "Ambos marcan",
+      "label": "Ambos marcan: sí",
+      "probability": 0.6070135279140567,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 5,
+      "actual_away": 2,
+      "tier": "Arriesgada"
+    }
+  ],
+  "unique_selections": [
+    {
+      "fixture_id": "564737",
+      "selection_id": "double_chance:total:12:None:",
+      "match": "Villarreal – Espanol",
+      "market": "Doble oportunidad",
+      "label": "Cualquiera gana, sin empate",
+      "probability": 0.7944600515459153,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 0,
+      "actual_away": 1
+    },
+    {
+      "fixture_id": "564737",
+      "selection_id": "handicap:total:away:2.5:",
+      "match": "Villarreal – Espanol",
+      "market": "Hándicap de goles",
+      "label": "Espanol +2,5",
+      "probability": 0.7815961439471183,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 0,
+      "actual_away": 1
+    },
+    {
+      "fixture_id": "564737",
+      "selection_id": "goals:away:under:1.5:",
+      "match": "Villarreal – Espanol",
+      "market": "Goles",
+      "label": "Espanol: menos de 1,5 goles",
+      "probability": 0.7533096459817041,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 0,
+      "actual_away": 1
+    },
+    {
+      "fixture_id": "564737",
+      "selection_id": "btts:total:yes:None:",
+      "match": "Villarreal – Espanol",
+      "market": "Ambos marcan",
+      "label": "Ambos marcan: sí",
+      "probability": 0.5472921978415933,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "goals",
+      "actual_home": 0,
+      "actual_away": 1
+    },
+    {
+      "fixture_id": "564737",
+      "selection_id": "shots:away:over:7.5:",
+      "match": "Villarreal – Espanol",
+      "market": "Remates",
+      "label": "Espanol: más de 7,5 remates",
+      "probability": 0.7416963892679358,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "shots",
+      "actual_home": 14,
+      "actual_away": 5
+    },
+    {
+      "fixture_id": "564737",
+      "selection_id": "sot:home:under:8.5:",
+      "match": "Villarreal – Espanol",
+      "market": "Tiros al arco",
+      "label": "Villarreal: menos de 8,5 tiros al arco",
+      "probability": 0.7425387265091179,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "sot",
+      "actual_home": 4,
+      "actual_away": 3
+    },
+    {
+      "fixture_id": "564737",
+      "selection_id": "fouls:home:under:13.5:",
+      "match": "Villarreal – Espanol",
+      "market": "Faltas",
+      "label": "Villarreal: menos de 13,5 faltas",
+      "probability": 0.7394186067296994,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "fouls",
+      "actual_home": 15,
+      "actual_away": 13
+    },
+    {
+      "fixture_id": "564737",
+      "selection_id": "corners:away:over:2.5:",
+      "match": "Villarreal – Espanol",
+      "market": "Córners",
+      "label": "Espanol: más de 2,5 córners",
+      "probability": 0.7120941998085378,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "corners",
+      "actual_home": 7,
+      "actual_away": 3
+    },
+    {
+      "fixture_id": "564737",
+      "selection_id": "goals:total:over:1.5:",
+      "match": "Villarreal – Espanol",
+      "market": "Goles",
+      "label": "Más de 1,5 goles",
+      "probability": 0.8210357952690897,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "goals",
+      "actual_home": 0,
+      "actual_away": 1
+    },
+    {
+      "fixture_id": "564737",
+      "selection_id": "shots:total:over:24.5:",
+      "match": "Villarreal – Espanol",
+      "market": "Remates",
+      "label": "Más de 24,5 remates totales",
+      "probability": 0.6970205575981728,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "shots",
+      "actual_home": 14,
+      "actual_away": 5
+    },
+    {
+      "fixture_id": "564737",
+      "selection_id": "handicap:total:away:1.5:",
+      "match": "Villarreal – Espanol",
+      "market": "Hándicap de goles",
+      "label": "Espanol +1,5",
+      "probability": 0.5855451802014837,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 0,
+      "actual_away": 1
+    },
+    {
+      "fixture_id": "565846",
+      "selection_id": "double_chance:total:12:None:",
+      "match": "Elversberg – Mainz",
+      "market": "Doble oportunidad",
+      "label": "Cualquiera gana, sin empate",
+      "probability": 0.7716988548969222,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 4,
+      "actual_away": 1
+    },
+    {
+      "fixture_id": "565846",
+      "selection_id": "handicap:total:away:1.5:",
+      "match": "Elversberg – Mainz",
+      "market": "Hándicap de goles",
+      "label": "Mainz +1,5",
+      "probability": 0.7559545074737171,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "goals",
+      "actual_home": 4,
+      "actual_away": 1
+    },
+    {
+      "fixture_id": "565846",
+      "selection_id": "goals:total:over:2.5:",
+      "match": "Elversberg – Mainz",
+      "market": "Goles",
+      "label": "Más de 2,5 goles",
+      "probability": 0.6900051676239742,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 4,
+      "actual_away": 1
+    },
+    {
+      "fixture_id": "565846",
+      "selection_id": "shots:home:under:16.5:",
+      "match": "Elversberg – Mainz",
+      "market": "Remates",
+      "label": "Elversberg: menos de 16,5 remates",
+      "probability": 0.7392657223885253,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "shots",
+      "actual_home": 13,
+      "actual_away": 10
+    },
+    {
+      "fixture_id": "565846",
+      "selection_id": "sot:home:under:6.5:",
+      "match": "Elversberg – Mainz",
+      "market": "Tiros al arco",
+      "label": "Elversberg: menos de 6,5 tiros al arco",
+      "probability": 0.7104102617862096,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "sot",
+      "actual_home": 6,
+      "actual_away": 2
+    },
+    {
+      "fixture_id": "565846",
+      "selection_id": "fouls:total:over:18.5:",
+      "match": "Elversberg – Mainz",
+      "market": "Faltas",
+      "label": "Más de 18,5 faltas totales",
+      "probability": 0.7718149237619503,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "fouls",
+      "actual_home": 8,
+      "actual_away": 22
+    },
+    {
+      "fixture_id": "565846",
+      "selection_id": "corners:total:over:7.5:",
+      "match": "Elversberg – Mainz",
+      "market": "Córners",
+      "label": "Más de 7,5 córners",
+      "probability": 0.7355894955132457,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "corners",
+      "actual_home": 5,
+      "actual_away": 11
+    },
+    {
+      "fixture_id": "565846",
+      "selection_id": "handicap:total:home:1.5:",
+      "match": "Elversberg – Mainz",
+      "market": "Hándicap de goles",
+      "label": "Elversberg +1,5",
+      "probability": 0.8335588539997348,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 4,
+      "actual_away": 1
+    },
+    {
+      "fixture_id": "565846",
+      "selection_id": "shots:home:under:14.5:",
+      "match": "Elversberg – Mainz",
+      "market": "Remates",
+      "label": "Elversberg: menos de 14,5 remates",
+      "probability": 0.6038768087966263,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "shots",
+      "actual_home": 13,
+      "actual_away": 10
+    },
+    {
+      "fixture_id": "559644",
+      "selection_id": "result:total:away:None:",
+      "match": "Le Havre – Paris SG",
+      "market": "Resultado 1X2",
+      "label": "Gana Paris SG",
+      "probability": 0.6959089028057608,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 1,
+      "actual_away": 5
+    },
+    {
+      "fixture_id": "559644",
+      "selection_id": "double_chance:total:12:None:",
+      "match": "Le Havre – Paris SG",
+      "market": "Doble oportunidad",
+      "label": "Cualquiera gana, sin empate",
+      "probability": 0.8123137769405682,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 1,
+      "actual_away": 5
+    },
+    {
+      "fixture_id": "559644",
+      "selection_id": "handicap:total:home:2.5:",
+      "match": "Le Havre – Paris SG",
+      "market": "Hándicap de goles",
+      "label": "Le Havre +2,5",
+      "probability": 0.7396582330344026,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "goals",
+      "actual_home": 1,
+      "actual_away": 5
+    },
+    {
+      "fixture_id": "559644",
+      "selection_id": "goals:home:under:1.5:",
+      "match": "Le Havre – Paris SG",
+      "market": "Goles",
+      "label": "Le Havre: menos de 1,5 goles",
+      "probability": 0.8060004004398194,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 1,
+      "actual_away": 5
+    },
+    {
+      "fixture_id": "559644",
+      "selection_id": "shots:total:under:31.5:",
+      "match": "Le Havre – Paris SG",
+      "market": "Remates",
+      "label": "Menos de 31,5 remates totales",
+      "probability": 0.7312522181068093,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "shots",
+      "actual_home": 14,
+      "actual_away": 15
+    },
+    {
+      "fixture_id": "559644",
+      "selection_id": "sot:away:over:4.5:",
+      "match": "Le Havre – Paris SG",
+      "market": "Tiros al arco",
+      "label": "Paris SG: más de 4,5 tiros al arco",
+      "probability": 0.7431525549704484,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "sot",
+      "actual_home": 5,
+      "actual_away": 10
+    },
+    {
+      "fixture_id": "559644",
+      "selection_id": "fouls:total:over:17.5:",
+      "match": "Le Havre – Paris SG",
+      "market": "Faltas",
+      "label": "Más de 17,5 faltas totales",
+      "probability": 0.7809554512344907,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "fouls",
+      "actual_home": 14,
+      "actual_away": 11
+    },
+    {
+      "fixture_id": "559644",
+      "selection_id": "corners:total:over:6.5:",
+      "match": "Le Havre – Paris SG",
+      "market": "Córners",
+      "label": "Más de 6,5 córners",
+      "probability": 0.7480827634042971,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "corners",
+      "actual_home": 5,
+      "actual_away": 3
+    },
+    {
+      "fixture_id": "559644",
+      "selection_id": "handicap:total:home:1.5:",
+      "match": "Le Havre – Paris SG",
+      "market": "Hándicap de goles",
+      "label": "Le Havre +1,5",
+      "probability": 0.5295247146460218,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "goals",
+      "actual_home": 1,
+      "actual_away": 5
+    },
+    {
+      "fixture_id": "559639",
+      "selection_id": "double_chance:total:12:None:",
+      "match": "Lille – Lens",
+      "market": "Doble oportunidad",
+      "label": "Cualquiera gana, sin empate",
+      "probability": 0.7165916294882602,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 1,
+      "actual_away": 0
+    },
+    {
+      "fixture_id": "559639",
+      "selection_id": "handicap:total:away:1.5:",
+      "match": "Lille – Lens",
+      "market": "Hándicap de goles",
+      "label": "Lens +1,5",
+      "probability": 0.819597072166272,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 1,
+      "actual_away": 0
+    },
+    {
+      "fixture_id": "559639",
+      "selection_id": "goals:total:over:1.5:",
+      "match": "Lille – Lens",
+      "market": "Goles",
+      "label": "Más de 1,5 goles",
+      "probability": 0.7104794876190785,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "goals",
+      "actual_home": 1,
+      "actual_away": 0
+    },
+    {
+      "fixture_id": "559639",
+      "selection_id": "shots:home:under:14.5:",
+      "match": "Lille – Lens",
+      "market": "Remates",
+      "label": "Lille: menos de 14,5 remates",
+      "probability": 0.7219455987539534,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "shots",
+      "actual_home": 16,
+      "actual_away": 5
+    },
+    {
+      "fixture_id": "559639",
+      "selection_id": "sot:away:under:4.5:",
+      "match": "Lille – Lens",
+      "market": "Tiros al arco",
+      "label": "Lens: menos de 4,5 tiros al arco",
+      "probability": 0.7161930384113259,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "sot",
+      "actual_home": 7,
+      "actual_away": 3
+    },
+    {
+      "fixture_id": "559639",
+      "selection_id": "fouls:home:under:13.5:",
+      "match": "Lille – Lens",
+      "market": "Faltas",
+      "label": "Lille: menos de 13,5 faltas",
+      "probability": 0.7380493208935472,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "fouls",
+      "actual_home": 7,
+      "actual_away": 14
+    },
+    {
+      "fixture_id": "559639",
+      "selection_id": "corners:total:under:11.5:",
+      "match": "Lille – Lens",
+      "market": "Córners",
+      "label": "Menos de 11,5 córners",
+      "probability": 0.7636044568996562,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "corners",
+      "actual_home": 10,
+      "actual_away": 2
+    },
+    {
+      "fixture_id": "559639",
+      "selection_id": "shots:home:under:12.5:",
+      "match": "Lille – Lens",
+      "market": "Remates",
+      "label": "Lille: menos de 12,5 remates",
+      "probability": 0.5778195516172852,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "shots",
+      "actual_home": 16,
+      "actual_away": 5
+    },
+    {
+      "fixture_id": "559646",
+      "selection_id": "double_chance:total:1X:None:",
+      "match": "Nice – Rennes",
+      "market": "Doble oportunidad",
+      "label": "Nice o empate",
+      "probability": 0.6043795977979124,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 5,
+      "actual_away": 2
+    },
+    {
+      "fixture_id": "559646",
+      "selection_id": "handicap:total:home:1.5:",
+      "match": "Nice – Rennes",
+      "market": "Hándicap de goles",
+      "label": "Nice +1,5",
+      "probability": 0.8020644291697132,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 5,
+      "actual_away": 2
+    },
+    {
+      "fixture_id": "559646",
+      "selection_id": "goals:total:over:1.5:",
+      "match": "Nice – Rennes",
+      "market": "Goles",
+      "label": "Más de 1,5 goles",
+      "probability": 0.8050429815282869,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 5,
+      "actual_away": 2
+    },
+    {
+      "fixture_id": "559646",
+      "selection_id": "btts:total:yes:None:",
+      "match": "Nice – Rennes",
+      "market": "Ambos marcan",
+      "label": "Ambos marcan: sí",
+      "probability": 0.6070135279140567,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 5,
+      "actual_away": 2
+    },
+    {
+      "fixture_id": "559646",
+      "selection_id": "shots:away:over:9.5:",
+      "match": "Nice – Rennes",
+      "market": "Remates",
+      "label": "Rennes: más de 9,5 remates",
+      "probability": 0.7362776346978834,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "shots",
+      "actual_home": 17,
+      "actual_away": 18
+    },
+    {
+      "fixture_id": "559646",
+      "selection_id": "sot:away:under:6.5:",
+      "match": "Nice – Rennes",
+      "market": "Tiros al arco",
+      "label": "Rennes: menos de 6,5 tiros al arco",
+      "probability": 0.7478044585158157,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "sot",
+      "actual_home": 8,
+      "actual_away": 9
+    },
+    {
+      "fixture_id": "559646",
+      "selection_id": "fouls:home:under:13.5:",
+      "match": "Nice – Rennes",
+      "market": "Faltas",
+      "label": "Nice: menos de 13,5 faltas",
+      "probability": 0.7292904899265631,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "fouls",
+      "actual_home": 8,
+      "actual_away": 10
+    },
+    {
+      "fixture_id": "559646",
+      "selection_id": "corners:away:under:6.5:",
+      "match": "Nice – Rennes",
+      "market": "Córners",
+      "label": "Rennes: menos de 6,5 córners",
+      "probability": 0.7220311774096674,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "corners",
+      "actual_home": 4,
+      "actual_away": 7
+    },
+    {
+      "fixture_id": "559646",
+      "selection_id": "goals:total:under:4.5:",
+      "match": "Nice – Rennes",
+      "market": "Goles",
+      "label": "Menos de 4,5 goles",
+      "probability": 0.815957726788971,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "goals",
+      "actual_home": 5,
+      "actual_away": 2
+    }
+  ],
+  "tier_summary": {
+    "selections": 15,
+    "settled": 15,
+    "won": 9,
+    "lost": 6,
+    "unverified": 0,
+    "hit_rate": 0.6
+  },
+  "unique_summary": {
+    "selections": 46,
+    "settled": 46,
+    "won": 31,
+    "lost": 15,
+    "unverified": 0,
+    "hit_rate": 0.6739130434782609
+  },
+  "by_tier": {
+    "Conservadora": {
+      "selections": 5,
+      "settled": 5,
+      "won": 3,
+      "lost": 2,
+      "unverified": 0,
+      "hit_rate": 0.6
+    },
+    "Normal": {
+      "selections": 5,
+      "settled": 5,
+      "won": 3,
+      "lost": 2,
+      "unverified": 0,
+      "hit_rate": 0.6
+    },
+    "Arriesgada": {
+      "selections": 5,
+      "settled": 5,
+      "won": 3,
+      "lost": 2,
+      "unverified": 0,
+      "hit_rate": 0.6
+    }
+  },
+  "parlays": [
+    {
+      "size": 3,
+      "status": "lost",
+      "probability_before_match": 0.5423726078240557,
+      "legs": [
+        {
+          "fixture_id": "564737",
+          "selection_id": "goals:total:over:1.5:",
+          "match": "Villarreal – Espanol",
+          "market": "Goles",
+          "label": "Más de 1,5 goles",
+          "probability": 0.8210357952690897,
+          "status": "lost",
+          "hit": false,
+          "actual_metric": "goals",
+          "actual_home": 0,
+          "actual_away": 1
+        },
+        {
+          "fixture_id": "559644",
+          "selection_id": "goals:home:under:1.5:",
+          "match": "Le Havre – Paris SG",
+          "market": "Goles",
+          "label": "Le Havre: menos de 1,5 goles",
+          "probability": 0.8060004004398194,
+          "status": "won",
+          "hit": true,
+          "actual_metric": "goals",
+          "actual_home": 1,
+          "actual_away": 5
+        },
+        {
+          "fixture_id": "559639",
+          "selection_id": "handicap:total:away:1.5:",
+          "match": "Lille – Lens",
+          "market": "Hándicap de goles",
+          "label": "Lens +1,5",
+          "probability": 0.819597072166272,
+          "status": "won",
+          "hit": true,
+          "actual_metric": "goals",
+          "actual_home": 1,
+          "actual_away": 0
+        }
+      ]
+    },
+    {
+      "size": 4,
+      "status": "unavailable",
+      "probability_before_match": null,
+      "legs": []
+    }
+  ],
+  "analysis": [
+    "Fijas principales: 9/15. Mercados únicos: 31/46. Se conservan las probabilidades previas y se registran los resultados, sin reajustar el modelo con esta jornada.",
+    "Conservadora: 3/5 acertadas.",
+    "Normal: 3/5 acertadas.",
+    "Arriesgada: 3/5 acertadas.",
+    "Falló Más de 1,5 goles en Villarreal – Espanol: resultado final 0–1 (goals).",
+    "Falló Más de 24,5 remates totales en Villarreal – Espanol: resultado final 14–5 (shots).",
+    "Falló Le Havre +1,5 en Le Havre – Paris SG: resultado final 1–5 (goals).",
+    "Falló Lille: menos de 12,5 remates en Lille – Lens: resultado final 16–5 (shots).",
+    "Falló Menos de 4,5 goles en Nice – Rennes: resultado final 5–2 (goals).",
+    "Falló Rennes: menos de 6,5 córners en Nice – Rennes: resultado final 4–7 (corners).",
+    "0 partidos no tenían fijas principales publicadas; no se cuentan como fallos ni aciertos.",
+    "Nice – Rennes: trasladado del 2026-10-31 al 2026-10-30; se evalúan las selecciones publicadas para la fecha original, sin modificarlas.",
+    "Combinada de 3: 2/3 selecciones cumplidas."
+  ]
+}

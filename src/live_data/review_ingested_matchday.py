@@ -16,21 +16,30 @@ def main(capture_dir, date, output=None):
     records = [r for ingestion in ingestions for r in ingestion['matches']]
     deferred = [r for ingestion in ingestions for r in ingestion.get('deferred', [])]
     pending = [r for ingestion in ingestions for r in ingestion.get('pending', [])]
+    # Brought forward: played and settled on an earlier Lima date; excluded here, never re-settled.
+    advanced = [r for ingestion in ingestions for r in ingestion.get('advanced', [])]
     frozen = json.loads((capture / 'predictions_before_results.json').read_text(encoding='utf-8'))
     record_ids = {r['fixture_id'] for r in records}
     forecasts = {str(m['fixture_id']): m for m in frozen['matches']
                  if m['fecha'] == date or str(m['fixture_id']) in record_ids}
     deferred_ids = {r['fixture_id'] for r in deferred}
     pending_ids = {r['fixture_id'] for r in pending}
+    advanced_ids = {r['fixture_id'] for r in advanced}
     if (len(records) != len(record_ids) or len(deferred) != len(deferred_ids)
             or len(pending)!=len(pending_ids) or record_ids & deferred_ids
             or (record_ids|deferred_ids)&pending_ids
-            or set(forecasts) != record_ids | deferred_ids | pending_ids):
+            or advanced_ids & (record_ids | deferred_ids | pending_ids)
+            or set(forecasts) != record_ids | deferred_ids | pending_ids | advanced_ids):
         raise ValueError('Incomplete or duplicate verified matchday')
     for r in pending:
         m=forecasts[r['fixture_id']]
         if ((r['home'],r['away'])!=(m['local'],m['visitante']) or r['date']!=date or not r.get('source_url')):
             raise ValueError('Invalid pending fixture')
+    for r in advanced:
+        m = forecasts[r['fixture_id']]
+        if ((r['home'], r['away']) != (m['local'], m['visitante']) or not r.get('source_url')
+                or pd.Timestamp(r['settled_on']) >= pd.Timestamp(date)):
+            raise ValueError('Invalid brought-forward fixture')
     for r in deferred:
         m = forecasts[r['fixture_id']]
         if ((r['home'], r['away']) != (m['local'], m['visitante'])
@@ -81,7 +90,7 @@ def main(capture_dir, date, output=None):
         'mean_absolute_errors': {key: sum(next(s for s in r['statistics'] if s['metric'] == key)['absolute_error_total']
                                         for r in rows)/len(rows) for key in METRICS}}
     review = {'date': date, 'reviewed_at': datetime.now(timezone.utc).isoformat(), 'summary': summary,
-              'matches': rows, 'deferred': deferred, 'pending':pending,
+              'matches': rows, 'deferred': deferred, 'pending':pending, 'advanced':advanced,
               'original_predictions_sha256': hashlib.sha256((capture/'predictions_before_results.json').read_bytes()).hexdigest()}
     for path in [capture/'review.json', archive/'review.json', WEB_DIR/'data'/f'review_{date}.json']:
         save(path, review)

@@ -1,0 +1,337 @@
+{
+  "date": "2026-10-30",
+  "ingested_at": "2026-10-30T22:59:26.445473+00:00",
+  "provider": "Sofascore full-match statistics (ALL); scores independently checked with ESPN",
+  "matches": [
+    {
+      "sofascore_event_id": "16421099",
+      "espn_event_id": "401882817",
+      "kickoff_utc": "2026-10-30T20:00:00Z",
+      "home": "Villarreal",
+      "away": "Espanol",
+      "metrics": {
+        "goals": [
+          0,
+          1
+        ],
+        "shots": [
+          14,
+          5
+        ],
+        "sot": [
+          4,
+          3
+        ],
+        "fouls": [
+          15,
+          13
+        ],
+        "corners": [
+          7,
+          3
+        ],
+        "cards": [
+          3,
+          3
+        ]
+      },
+      "yellow": [
+        3,
+        3
+      ],
+      "red": [
+        0,
+        0
+      ],
+      "source_url": "https://www.sofascore.com/football/match/villarreal-espanyol/ogbsugb#id:16421099,tab:statistics",
+      "match_id": "La Liga_2026/27_sofascore_16421099",
+      "fixture_id": "564737",
+      "date": "2026-10-30",
+      "round": 11,
+      "league": "La Liga",
+      "provider": "Sofascore",
+      "notes": null,
+      "score_verification": {
+        "fixture_id": "564737",
+        "date": "2026-10-30",
+        "home": "Villarreal",
+        "away": "Espanol",
+        "goals": [
+          0,
+          1
+        ],
+        "status": "verified",
+        "source": "ESPN",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261030"
+      }
+    },
+    {
+      "sofascore_event_id": "16434085",
+      "espn_event_id": "401884746",
+      "kickoff_utc": "2026-10-30T19:30:00Z",
+      "home": "Elversberg",
+      "away": "Mainz",
+      "metrics": {
+        "goals": [
+          4,
+          1
+        ],
+        "shots": [
+          13,
+          10
+        ],
+        "sot": [
+          6,
+          2
+        ],
+        "fouls": [
+          8,
+          22
+        ],
+        "corners": [
+          5,
+          11
+        ],
+        "cards": [
+          0,
+          6
+        ]
+      },
+      "yellow": [
+        0,
+        5
+      ],
+      "red": [
+        0,
+        1
+      ],
+      "source_url": "https://www.sofascore.com/football/match/sv-07-elversberg-1-fsv-mainz-05/gbbsYbb#id:16434085,tab:statistics",
+      "match_id": "Bundesliga_2026/27_sofascore_16434085",
+      "fixture_id": "565846",
+      "date": "2026-10-30",
+      "round": 8,
+      "league": "Bundesliga",
+      "provider": "Sofascore",
+      "notes": "Mainz: Posch expulsado por doble amarilla (85, 90). Tabla 5 amarillas + 1 roja = 6 según la definición de la base.",
+      "score_verification": {
+        "fixture_id": "565846",
+        "date": "2026-10-30",
+        "home": "Elversberg",
+        "away": "Mainz",
+        "goals": [
+          4,
+          1
+        ],
+        "status": "verified",
+        "source": "ESPN",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261030"
+      }
+    },
+    {
+      "sofascore_event_id": "16310993",
+      "espn_event_id": "401876421",
+      "kickoff_utc": "2026-10-30T18:00:00Z",
+      "home": "Le Havre",
+      "away": "Paris SG",
+      "metrics": {
+        "goals": [
+          1,
+          5
+        ],
+        "shots": [
+          14,
+          15
+        ],
+        "sot": [
+          5,
+          10
+        ],
+        "fouls": [
+          14,
+          11
+        ],
+        "corners": [
+          5,
+          3
+        ],
+        "cards": [
+          0,
+          0
+        ]
+      },
+      "yellow": [
+        0,
+        0
+      ],
+      "red": [
+        0,
+        0
+      ],
+      "source_url": "https://www.sofascore.com/football/match/le-havre-paris-saint-germain/UHsmI#id:16310993,tab:statistics",
+      "match_id": "Ligue 1_2026/27_sofascore_16310993",
+      "fixture_id": "559644",
+      "date": "2026-10-30",
+      "round": 9,
+      "league": "Ligue 1",
+      "provider": "Sofascore",
+      "notes": "Sin tarjetas: la tabla no lista amarillas/rojas y la cronología no tiene tarjetas.",
+      "score_verification": {
+        "fixture_id": "559644",
+        "date": "2026-10-30",
+        "home": "Le Havre",
+        "away": "Paris SG",
+        "goals": [
+          1,
+          5
+        ],
+        "status": "verified",
+        "source": "ESPN",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261030"
+      }
+    },
+    {
+      "sofascore_event_id": "16310994",
+      "espn_event_id": "401876420",
+      "kickoff_utc": "2026-10-30T20:05:00Z",
+      "home": "Lille",
+      "away": "Lens",
+      "metrics": {
+        "goals": [
+          1,
+          0
+        ],
+        "shots": [
+          16,
+          5
+        ],
+        "sot": [
+          7,
+          3
+        ],
+        "fouls": [
+          7,
+          14
+        ],
+        "corners": [
+          10,
+          2
+        ],
+        "cards": [
+          0,
+          1
+        ]
+      },
+      "yellow": [
+        0,
+        1
+      ],
+      "red": [
+        0,
+        0
+      ],
+      "source_url": "https://www.sofascore.com/football/match/rc-lens-lille/THsYH#id:16310994,tab:statistics",
+      "match_id": "Ligue 1_2026/27_sofascore_16310994",
+      "fixture_id": "559639",
+      "date": "2026-10-30",
+      "round": 9,
+      "league": "Ligue 1",
+      "provider": "Sofascore",
+      "notes": "La amarilla de Lille fue al entrenador (Davide Ancelotti); la tabla de jugadores da 0, valor que se conserva.",
+      "score_verification": {
+        "fixture_id": "559639",
+        "date": "2026-10-30",
+        "home": "Lille",
+        "away": "Lens",
+        "goals": [
+          1,
+          0
+        ],
+        "status": "verified",
+        "source": "ESPN",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261030"
+      }
+    },
+    {
+      "sofascore_event_id": "16310998",
+      "espn_event_id": "401876416",
+      "kickoff_utc": "2026-10-30T18:00:00Z",
+      "home": "Nice",
+      "away": "Rennes",
+      "metrics": {
+        "goals": [
+          5,
+          2
+        ],
+        "shots": [
+          17,
+          18
+        ],
+        "sot": [
+          8,
+          9
+        ],
+        "fouls": [
+          8,
+          10
+        ],
+        "corners": [
+          4,
+          7
+        ],
+        "cards": [
+          4,
+          3
+        ]
+      },
+      "yellow": [
+        4,
+        3
+      ],
+      "red": [
+        0,
+        0
+      ],
+      "source_url": "https://www.sofascore.com/football/match/nice-stade-rennais/iIslI#id:16310998,tab:statistics",
+      "match_id": "Ligue 1_2026/27_sofascore_16310998",
+      "fixture_id": "559646",
+      "date": "2026-10-30",
+      "round": 9,
+      "league": "Ligue 1",
+      "provider": "Sofascore",
+      "notes": "Adelantado: el calendario de football-data lo tenía el 31/10 16:15 UTC; Sofascore y ESPN lo dan jugado el 30/10 18:00 UTC.",
+      "score_verification": {
+        "fixture_id": "559646",
+        "date": "2026-10-30",
+        "home": "Nice",
+        "away": "Rennes",
+        "goals": [
+          5,
+          2
+        ],
+        "status": "verified",
+        "source": "ESPN",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261030"
+      },
+      "schedule_change": {
+        "from_date": "2026-10-31",
+        "from_kickoff_utc": "2026-10-31T16:15:00+00:00",
+        "to_date": "2026-10-30",
+        "to_kickoff_utc": "2026-10-30T18:00:00Z",
+        "direction": "adelantado"
+      }
+    }
+  ],
+  "deferred": [],
+  "pending": [],
+  "advanced": [],
+  "added_rows_this_run": 10,
+  "scope": [
+    "La Liga",
+    "Premier League",
+    "Bundesliga",
+    "Serie A",
+    "Ligue 1",
+    "UEFA Champions League"
+  ],
+  "automation": "daily_update"
+}

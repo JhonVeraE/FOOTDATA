@@ -339,7 +339,7 @@ def update_calendar(finals, pendings, data_dir=DATA_DIR):
 # ---------------------------------------------------------------- settlement
 def comparable(record):
     """Ingestion content without volatile timestamps, used to avoid churn."""
-    return json.dumps({k: record.get(k) for k in ['matches', 'deferred', 'pending']}, sort_keys=True, ensure_ascii=False)
+    return json.dumps({k: record.get(k) for k in ['matches', 'deferred', 'pending', 'advanced']}, sort_keys=True, ensure_ascii=False)
 
 
 def build_ingestion(day, finals_by_fixture, pendings_by_fixture, calendar, artifact_dir=ARTIFACT_DIR):
@@ -354,9 +354,20 @@ def build_ingestion(day, finals_by_fixture, pendings_by_fixture, calendar, artif
     kept = {r['fixture_id']: r for r in (previous or {}).get('matches', [])}
     old_pending = {r['fixture_id']: r for r in (previous or {}).get('pending', [])}
     old_deferred = {r['fixture_id']: r for r in (previous or {}).get('deferred', [])}
-    matches, deferred, pending = [], [], []
+    matches, deferred, pending, advanced = [], [], [], []
+    settled_before = {}
+    for other in sorted((artifact_dir/'daily_reviews').glob('*/ingestion.json')):
+        if other.parent.name >= day:continue
+        for r in read(other).get('matches', []):settled_before[r['fixture_id']] = (other.parent.name, r)
     for fid, m in forecasts.items():
         if fid in kept:matches.append(kept[fid]);continue
+        if fid in settled_before:
+            on, prior = settled_before[fid]
+            advanced.append({'fixture_id': fid, 'home': m['local'], 'away': m['visitante'], 'original_date': day,
+                             'original_kickoff_utc': m['kickoff_utc'], 'settled_on': on, 'kickoff_utc': prior.get('kickoff_utc'),
+                             'reason': f'Adelantado y jugado el {on}; se liquidó en esa fecha con las selecciones originales.',
+                             'source_url': prior.get('source_url')})
+            continue
         rec = finals_by_fixture.get(fid)
         cal = calendar[calendar.match_id.astype(str) == fid]
         if rec is not None:
@@ -367,7 +378,10 @@ def build_ingestion(day, finals_by_fixture, pendings_by_fixture, calendar, artif
                                  'original_kickoff_utc': m['kickoff_utc'], 'new_date': rec['date'], 'new_kickoff_utc': rec['kickoff_utc'],
                                  'reason': f'Trasladado al {rec["date"]}; se evalúa en esa fecha.', 'source_url': rec['source_url']})
                 continue
-            return None, f'{m["local"]}–{m["visitante"]} se jugó antes de su fecha pronosticada; revisión manual'
+            advanced.append({'fixture_id': fid, 'home': m['local'], 'away': m['visitante'], 'original_date': day,
+                             'original_kickoff_utc': m['kickoff_utc'], 'settled_on': rec['date'], 'kickoff_utc': rec['kickoff_utc'],
+                             'reason': f'Adelantado y jugado el {rec["date"]}; se liquida en esa fecha.', 'source_url': rec['source_url']})
+            continue
         if len(cal) == 1 and str(cal.iloc[0].date) > day and cal.iloc[0].status in ('SCHEDULED', 'TIMED'):
             deferred.append({'fixture_id': fid, 'home': m['local'], 'away': m['visitante'], 'original_date': day,
                              'original_kickoff_utc': m['kickoff_utc'], 'new_date': str(cal.iloc[0].date),
@@ -383,9 +397,18 @@ def build_ingestion(day, finals_by_fixture, pendings_by_fixture, calendar, artif
                         'provider_status': p.get('provider_status') or (cal.iloc[0].status if len(cal) == 1 else 'UNKNOWN'),
                         'reason': p.get('reason', 'Sin boxscore final verificado al corte de la consulta; no se liquida.'),
                         'source_url': p.get('source_url') or f'https://api.football-data.org/v4/matches/{fid}'})
+    # Brought forward from a later forecast date: settle here with the original pre-match pick.
+    listed = {r['fixture_id'] for r in matches}
+    for fid, rec in finals_by_fixture.items():
+        m = next((x for x in frozen['matches'] if str(x['fixture_id']) == fid), None)
+        if (m is None or fid in forecasts or fid in listed or rec['date'] != day
+                or pd.Timestamp(m['generated_at']) >= pd.Timestamp(rec['kickoff_utc'])):continue
+        matches.append({**{k: v for k, v in rec.items() if k != 'additional_statistics'},
+                        'schedule_change': {'from_date': m['fecha'], 'from_kickoff_utc': m['kickoff_utc'],
+                                            'to_date': day, 'to_kickoff_utc': rec['kickoff_utc'], 'direction': 'adelantado'}})
     record = {'date': day, 'ingested_at': datetime.now(timezone.utc).isoformat(),
               'provider': 'ESPN final boxscores (automatic daily update); scores cross-checked with football-data.org when reachable',
-              'matches': matches, 'deferred': deferred, 'pending': pending,
+              'matches': matches, 'deferred': deferred, 'pending': pending, 'advanced': advanced,
               'added_rows_this_run': 0, 'scope': list(LEAGUES.values()), 'automation': 'daily_update'}
     if previous is not None and comparable(previous) == comparable(record):return None, 'sin cambios'
     if previous is not None:

@@ -1,0 +1,226 @@
+{
+ "captured_at": "2026-10-30T22:55:00Z",
+ "provider": "Sofascore API vía navegador (event, statistics period ALL, incidents)",
+ "independent_check": "ESPN scoreboard 2026-10-30",
+ "matches": [
+  {
+   "fixture_id": "559644",
+   "sofascore_event_id": 16310993,
+   "slug": "le-havre-paris-saint-germain",
+   "custom_id": "UHsmI",
+   "kickoff_utc": "2026-10-30T18:00:00Z",
+   "status": "finished",
+   "score": [
+    1,
+    5
+   ],
+   "statistics": {
+    "shots": [
+     14,
+     15
+    ],
+    "sot": [
+     5,
+     10
+    ],
+    "fouls": [
+     14,
+     11
+    ],
+    "corners": [
+     5,
+     3
+    ],
+    "yellow": null,
+    "red": null
+   },
+   "incident_cards_players": 0,
+   "incident_red_cards": 0,
+   "independent_score": [
+    1,
+    5
+   ],
+   "espn_event_id": "401876421",
+   "independent_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261030",
+   "notes": "Sin tarjetas: la tabla no lista amarillas/rojas y la cronología no tiene tarjetas."
+  },
+  {
+   "fixture_id": "565846",
+   "sofascore_event_id": 16434085,
+   "slug": "sv-07-elversberg-1-fsv-mainz-05",
+   "custom_id": "gbbsYbb",
+   "kickoff_utc": "2026-10-30T19:30:00Z",
+   "status": "finished",
+   "score": [
+    4,
+    1
+   ],
+   "statistics": {
+    "shots": [
+     13,
+     10
+    ],
+    "sot": [
+     6,
+     2
+    ],
+    "fouls": [
+     8,
+     22
+    ],
+    "corners": [
+     5,
+     11
+    ],
+    "yellow": [
+     0,
+     5
+    ],
+    "red": [
+     0,
+     1
+    ]
+   },
+   "incident_cards_players": 5,
+   "incident_red_cards": 1,
+   "independent_score": [
+    4,
+    1
+   ],
+   "espn_event_id": "401884746",
+   "independent_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261030",
+   "notes": "Mainz: Posch expulsado por doble amarilla (85, 90). Tabla 5 amarillas + 1 roja = 6 según la definición de la base."
+  },
+  {
+   "fixture_id": "564737",
+   "sofascore_event_id": 16421099,
+   "slug": "villarreal-espanyol",
+   "custom_id": "ogbsugb",
+   "kickoff_utc": "2026-10-30T20:00:00Z",
+   "status": "finished",
+   "score": [
+    0,
+    1
+   ],
+   "statistics": {
+    "shots": [
+     14,
+     5
+    ],
+    "sot": [
+     4,
+     3
+    ],
+    "fouls": [
+     15,
+     13
+    ],
+    "corners": [
+     7,
+     3
+    ],
+    "yellow": [
+     3,
+     3
+    ],
+    "red": null
+   },
+   "incident_cards_players": 6,
+   "incident_red_cards": 0,
+   "independent_score": [
+    0,
+    1
+   ],
+   "espn_event_id": "401882817",
+   "independent_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261030"
+  },
+  {
+   "fixture_id": "559639",
+   "sofascore_event_id": 16310994,
+   "slug": "rc-lens-lille",
+   "custom_id": "THsYH",
+   "kickoff_utc": "2026-10-30T20:05:00Z",
+   "status": "finished",
+   "score": [
+    1,
+    0
+   ],
+   "statistics": {
+    "shots": [
+     16,
+     5
+    ],
+    "sot": [
+     7,
+     3
+    ],
+    "fouls": [
+     7,
+     14
+    ],
+    "corners": [
+     10,
+     2
+    ],
+    "yellow": [
+     0,
+     1
+    ],
+    "red": null
+   },
+   "incident_cards_players": 1,
+   "incident_red_cards": 0,
+   "independent_score": [
+    1,
+    0
+   ],
+   "espn_event_id": "401876420",
+   "independent_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261030",
+   "notes": "La amarilla de Lille fue al entrenador (Davide Ancelotti); la tabla de jugadores da 0, valor que se conserva."
+  },
+  {
+   "fixture_id": "559646",
+   "sofascore_event_id": 16310998,
+   "slug": "nice-stade-rennais",
+   "custom_id": "iIslI",
+   "kickoff_utc": "2026-10-30T18:00:00Z",
+   "status": "finished",
+   "score": [
+    5,
+    2
+   ],
+   "statistics": {
+    "shots": [
+     17,
+     18
+    ],
+    "sot": [
+     8,
+     9
+    ],
+    "fouls": [
+     8,
+     10
+    ],
+    "corners": [
+     4,
+     7
+    ],
+    "yellow": [
+     4,
+     3
+    ],
+    "red": null
+   },
+   "incident_cards_players": 7,
+   "incident_red_cards": 0,
+   "independent_score": [
+    5,
+    2
+   ],
+   "espn_event_id": "401876416",
+   "independent_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261030",
+   "notes": "Adelantado: el calendario de football-data lo tenía el 31/10 16:15 UTC; Sofascore y ESPN lo dan jugado el 30/10 18:00 UTC."
+  }
+ ]
+}
