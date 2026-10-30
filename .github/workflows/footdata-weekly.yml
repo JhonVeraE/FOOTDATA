@@ -1,0 +1,51 @@
+name: FOOTDATA semanal
+
+on:
+  schedule:
+    - cron: '0 15 * * 4'   # jueves 10:00 Lima
+  workflow_dispatch:
+    inputs:
+      days:
+        description: 'Fechas de Lima hacia atrás que se revisan'
+        default: '3'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: footdata-data
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Calendario, resultados y nuevos pronósticos
+        env:
+          FOOTBALL_DATA_KEY: ${{ secrets.FOOTBALL_DATA_KEY }}
+        run: python run_pipeline.py --weekly --days "${{ github.event.inputs.days || '3' }}"
+      - name: Pruebas (bloquean la publicación si fallan)
+        run: PYTHONPATH=src python -m unittest discover -s tests
+      - name: Publicar en main
+        run: |
+          git config user.name "footdata-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A data web
+          if git diff --cached --quiet; then echo "Sin cambios"; exit 0; fi
+          git commit -m "FOOTDATA auto weekly $(TZ=America/Lima date +%F)"
+          for i in 1 2 3; do git pull --rebase origin main && git push origin HEAD:main && exit 0; sleep 15; done
+          exit 1
+      - name: Guardar informe de la ejecución
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: footdata-weekly-report
+          path: data/artifacts/auto/
+          if-no-files-found: ignore
