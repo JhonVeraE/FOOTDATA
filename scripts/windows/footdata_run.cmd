@@ -13,6 +13,7 @@ if /i not "%~2"=="__logged" (
 )
 echo ===== %DATE% %TIME% FOOTDATA %MODE% =====
 cd /d "%~dp0..\.."
+call "%~dp0footdata_env.cmd"
 set "PY=python"
 where python >nul 2>&1 || set "PY=py -3"
 
