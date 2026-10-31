@@ -56,19 +56,51 @@ function track(m){const node=E('div','prob-track');node.setAttribute('aria-hidde
 function scoreParts(m){const pair=m.marcador_top1||m.marcadores_top5?.[0]||['—',null];return [String(pair[0]).replace('-',' – '),pair[1]];}
 function panel(title,description,number){const box=E('section','panel');const head=E('div','panel-head');const text=append(E('div'),E('h2',null,title),description?E('p',null,description):null);append(head,text,number?E('span','section-num',number):null);box.append(head);return box;}
 function sectionIntro(title,description){const row=E('div','section-intro');append(row,append(E('div'),E('h2',null,title),E('p',null,description)));return row;}
+function miniMatch(m){
+ const l=leagueFor(m.competition);const a=link(matchHref(m),null,'mini-match');a.style.setProperty('--league',l?.accent||'#c6f432');
+ const top=append(E('div','mini-top'),E('span','mini-league',l?.display||l?.name||m.competition),E('time',null,`${dateFmt.format(kickoff(m))} · ${timeFmt.format(kickoff(m))}`));
+ const teams=E('div','mini-teams');
+ for(const [team,p] of [[m.local,m.p_home],[m.visitante,m.p_away]])teams.append(append(E('div','mini-team'),crest(team,'mini-crest'),E('span',null,name(team)),E('strong',null,pct(p,0))));
+ const bar=track(m);append(a,top,teams,bar,append(E('div','mini-foot'),E('span',null,`Empate ${pct(m.p_draw,0)}`),E('span',null,'Análisis ↗')));return a;
+}
 function home(){
- document.title='FOOTDATA · Elige tu competición';const page=E('section','home-screen page-enter');
- const heading=E('div','home-heading');const title=E('div');title.append(eyebrow('Tu próxima lectura del partido'));
- const h=E('h1','home-title','FOOT');h.append(E('span',null,'DATA.'));title.append(h);
- append(heading,title,E('p','home-caption','Elige una competición. El análisis empieza aquí.'));page.append(heading);
+ document.title='FOOTDATA · El partido, en datos';const page=E('section','home-screen page-enter');
+ const upcoming=futureMatches().sort((a,b)=>kickoff(a)-kickoff(b));
+ const favs=new Set(window.FDAuth?.favorites?.()||[]);const logged=Boolean(window.FDAuth?.session?.());
+ const hero=E('div','hero');const copy=E('div','hero-copy');
+ copy.append(eyebrow(`Temporada 2026/27 · ${upcoming.length} partidos por analizar`));
+ const h=E('h1','hero-title','El fútbol,');h.append(E('br'),E('span',null,'leído con datos.'));
+ const ctas=append(E('div','hero-ctas'),link('#/fijas','Ver fijas de hoy','btn-primary'),logged?link('#/cuenta','Mi cuenta','btn-ghost'):link('#/registro','Crear cuenta gratis','btn-ghost'));
+ const facts=E('dl','hero-facts');
+ for(const [v,l] of [[String(LEAGUES.length),'competiciones'],[String(upcoming.length),'próximos partidos'],['3','fijas por partido']])facts.append(append(E('div'),E('dt',null,v),E('dd',null,l)));
+ append(copy,h,E('p','hero-lead','Pronósticos de las cinco grandes ligas y la Champions con un modelo estadístico, y tres fijas por partido según el riesgo que quieras asumir.'),ctas,facts);
+ const featured=upcoming.find(m=>favs.has(m.local)||favs.has(m.visitante))||upcoming[0];
+ const visual=E('div','hero-visual');
+ if(featured){
+  const l=leagueFor(featured.competition);const card=link(matchHref(featured),null,'feature-card');
+  const [score,p]=scoreParts(featured);
+  append(card,append(E('div','feature-top'),E('span','live-dot',favs.has(featured.local)||favs.has(featured.visitante)?'Tu equipo juega':'Próximo partido'),E('span',null,`${l?.display||l?.name||''}`)),
+   append(E('div','feature-teams'),append(E('div'),crest(featured.local,'feature-crest'),E('strong',null,name(featured.local))),append(E('div','feature-mid'),E('span',null,weekdayFmt.format(kickoff(featured))),E('b',null,`${timeFmt.format(kickoff(featured))}`),E('small',null,'Hora de Lima')),append(E('div'),crest(featured.visitante,'feature-crest'),E('strong',null,name(featured.visitante)))),
+   probabilities(featured),track(featured),append(E('div','feature-foot'),E('span',null,`Marcador más probable: ${score}`),E('span',null,'Ver análisis ↗')));
+  visual.append(card);
+ }
+ append(hero,copy,visual);page.append(hero);
+ if(favs.size){const mine=upcoming.filter(m=>favs.has(m.local)||favs.has(m.visitante)).slice(0,6);const sec=E('section','home-section');sec.append(append(E('div','home-section-head'),E('h2',null,'Tus equipos'),link('#/cuenta?tab=equipos','Editar ↗','text-link')));
+  const row=E('div','mini-row');row.append(...(mine.length?mine.map(miniMatch):[E('p','muted-line','Tus equipos no tienen partidos analizados en esta ventana.')]));sec.append(row);page.append(sec);}
+ const next=E('section','home-section');next.append(append(E('div','home-section-head'),E('h2',null,'Próximos partidos'),E('span','muted-line','Horarios de Lima')));
+ const row=E('div','mini-row');row.append(...upcoming.slice(0,10).map(miniMatch));next.append(row);page.append(next);
+ const comp=E('section','home-section');comp.append(append(E('div','home-section-head'),E('h2',null,'Competiciones'),E('span','muted-line','Elige una liga')));
  const grid=E('div','competitions-grid');
  for(const l of LEAGUES){
-  const matches=futureMatches().filter(m=>m.competition===l.name);const a=link(leagueHref(l),null,`competition-card${l.featured?' featured':''}`);a.style.setProperty('--league',l.accent);
+  const matches=upcoming.filter(m=>m.competition===l.name);const a=link(leagueHref(l),null,`competition-card${l.featured?' featured':''}`);a.style.setProperty('--league',l.accent);
   const top=append(E('div','competition-top'),competitionLogo(l,'competition-logo'),E('span','country-label',l.country));
   const nextCount=matches.filter(m=>m.forecast_scope==='next_complete_round').length;const pendingCount=matches.filter(m=>m.forecast_scope==='pending_previous_round').length;
   const caption=nextCount?`${nextCount} próxima jornada${pendingCount?` · ${pendingCount} ${pendingCount===1?'pendiente':'pendientes'}`:''}`:matches.length?`${matches.length} próximos partidos`:'Ver competición';
   append(a,top,E('h2',null,l.display||l.name),E('p',null,caption),E('span','round-arrow','↗'));grid.append(a);
- }page.append(grid);const fijas=link('#/fijas',null,'home-fijas-link');fijas.append(E('strong',null,'Fijas y combinadas del día ↗'),E('small',null,'Tres niveles de riesgo y selecciones por partido'));page.append(fijas);main.replaceChildren(page);
+ }comp.append(grid);page.append(comp);
+ const fijas=link('#/fijas',null,'home-fijas-link');fijas.append(append(E('div'),E('strong',null,'Fijas y combinadas del día'),E('small',null,'Conservadora, normal y arriesgada: tres niveles de riesgo con su respaldo en datos.')),E('span','btn-primary','Ver fijas ↗'));page.append(fijas);
+ if(!logged&&window.FDAuth){const join=E('section','join-band');append(join,append(E('div'),E('h2',null,'Sigue a tus equipos y guarda tus fijas'),E('p',null,'Crea tu cuenta gratis: tus equipos primero en el inicio y tus selecciones guardadas en un solo lugar.')),link('#/registro','Crear cuenta gratis','btn-primary'));page.append(join);}
+ main.replaceChildren(page);
 }
 function matchCard(m){
  const card=E('article','match-card');
@@ -202,6 +234,7 @@ function route(){
  if(parts.length===0)home();
  else if(parts[0]==='fijas'){if(changed)state.fijasDate='';fijasPage();}
  else if(parts[0]==='liga'&&LEAGUES.some(l=>l.slug===parts[1])){const l=LEAGUES.find(l=>l.slug===parts[1]);if(!handleTeamsRoute(parts,l))leaguePage(l);}
+ else if(window.FDAuth?.route(parts)){}
  else if(parts[0]==='partido'){
   let id;try{id=decodeURIComponent(parts[1]||'');}catch{id='';}
   const m=state.payload.matches.find(m=>String(m.fixture_id)===id);
@@ -214,7 +247,7 @@ async function start(){
   const [response,assetResponse,teamResponse,fijasResponse]=await Promise.all([fetch('data/predictions.json',{cache:'no-store'}),fetch('data/assets.json'),fetch('data/teams.json',{cache:'no-store'}).catch(()=>null),fetch('data/fijas.json',{cache:'no-store'}).catch(()=>null)]);
   if(!response.ok)throw Error('No se han podido cargar las predicciones.');
   state.payload=await response.json();if(!Array.isArray(state.payload.matches))throw Error('El archivo de predicciones no tiene el formato esperado.');
-  if(assetResponse.ok)state.assets=await assetResponse.json();if(teamResponse?.ok){try{state.teamData=await teamResponse.json();}catch{state.teamData=null;}}if(fijasResponse?.ok){try{state.fijas=await fijasResponse.json();}catch{state.fijas=null;}}window.addEventListener('hashchange',route);route();
+  if(assetResponse.ok)state.assets=await assetResponse.json();if(teamResponse?.ok){try{state.teamData=await teamResponse.json();}catch{state.teamData=null;}}if(fijasResponse?.ok){try{state.fijas=await fijasResponse.json();}catch{state.fijas=null;}}window.addEventListener('hashchange',route);route();document.addEventListener('footdata:auth',()=>{if(!location.hash||location.hash==='#/'){state.lastRoute='';route();}});
   let futureIds=futureMatches().map(m=>m.fixture_id).join(',');
   window.setInterval(()=>{const ids=futureMatches().map(m=>m.fixture_id).join(',');if(ids!==futureIds){futureIds=ids;route();}},30000);
  }catch(error){main.replaceChildren(empty('No podemos cargar los partidos',error.message),E('p','explanation','Abre esta web desde su servidor local, no como un archivo HTML suelto.'));}

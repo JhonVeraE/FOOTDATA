@@ -2,25 +2,53 @@
 <html lang="es">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#142a23">
-  <meta name="description" content="Análisis de fútbol europeo. Explora las ligas, consulta los próximos partidos y entiende las probabilidades del modelo.">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#0b0f0d">
+  <meta name="color-scheme" content="dark">
+  <meta name="description" content="FOOTDATA: pronósticos de fútbol europeo con datos. Probabilidades del modelo, fijas por nivel de riesgo y análisis de cada partido de las cinco grandes ligas y la Champions.">
+  <meta property="og:title" content="FOOTDATA · El fútbol, leído con datos">
+  <meta property="og:description" content="Pronósticos y fijas de las cinco grandes ligas y la Champions, con datos.">
+  <meta property="og:type" content="website">
   <title>FOOTDATA · El partido, en datos</title>
   <link rel="icon" href="assets/brand.svg" type="image/svg+xml">
+  <link rel="preload" href="fonts/inter.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/anton.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="teams.css">
   <link rel="stylesheet" href="fijas.css">
+  <link rel="stylesheet" href="theme.css">
+  <script src="vendor/supabase.js" defer></script>
+  <script src="config.js" defer></script>
   <script src="teams.js" defer></script>
   <script src="fijas.js" defer></script>
+  <script src="auth.js" defer></script>
   <script src="app.js" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#main">Saltar al contenido</a>
   <header class="site-header">
     <a class="brand" href="#/" aria-label="FOOTDATA, inicio"><span class="brand-symbol" aria-hidden="true">f<span></span></span><span>FOOT<span class="brand-ia">DATA</span></span></a>
-    <nav aria-label="Navegación principal"><a href="#/" class="home-link">Competiciones <span aria-hidden="true">↗</span></a><a href="#/fijas" class="fijas-nav">Fijas</a><span class="season-label">TEMPORADA 26/27</span></nav>
+    <nav class="main-nav" aria-label="Navegación principal">
+      <a href="#/" class="home-link" data-nav="home">Inicio</a>
+      <a href="#/fijas" class="fijas-nav" data-nav="fijas">Fijas</a>
+      <a href="revision_ultima_jornada.html" data-nav="revision">Resultados</a>
+      <span class="season-label">TEMPORADA 26/27</span>
+    </nav>
+    <div id="account-slot" class="account-slot"></div>
   </header>
   <main id="main" tabindex="-1"><div class="loading-state"><span class="loading-ball"></span><p>Cargando los partidos…</p></div></main>
-  <footer class="site-footer"><a class="footer-brand" href="#/">FOOTDATA</a><p>El partido, en datos. Las probabilidades son estimaciones, no garantías.</p><span>Fútbol europeo · 2026/27</span></footer>
+  <footer class="site-footer">
+    <div class="footer-top"><a class="footer-brand" href="#/">FOOT<span>DATA</span></a><p>El fútbol, leído con datos. Las probabilidades son estimaciones, no garantías. Juega con responsabilidad · +18.</p></div>
+    <div class="footer-links"><a href="#/fijas">Fijas</a><a href="revision_ultima_jornada.html">Resultados</a><a href="#/cuenta">Mi cuenta</a><span>Fútbol europeo · 2026/27</span></div>
+  </footer>
+  <nav class="tabbar" aria-label="Navegación móvil">
+    <a href="#/" data-nav="home"><span aria-hidden="true">⌂</span>Inicio</a>
+    <a href="#/fijas" data-nav="fijas"><span aria-hidden="true">★</span>Fijas</a>
+    <a href="revision_ultima_jornada.html" data-nav="revision"><span aria-hidden="true">✓</span>Resultados</a>
+    <a href="#/cuenta" data-nav="cuenta"><span aria-hidden="true">●</span>Cuenta</a>
+  </nav>
+  <script>
+    (function(){function mark(){var r=(location.hash.replace(/^#\/?/,'').split(/[/?]/)[0])||'home';var key=r==='ingresar'||r==='registro'||r==='admin'?'cuenta':r;document.querySelectorAll('[data-nav]').forEach(function(a){a.classList.toggle('active',a.getAttribute('data-nav')===key);});}window.addEventListener('hashchange',mark);mark();})();
+  </script>
 </body>
 </html>
