@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "version": "market-shortlist-v6-betano-coherence",
-  "generated_at": "2026-10-31T00:08:36.044548+00:00",
+  "generated_at": "2026-10-31T04:03:01.116452+00:00",
   "dataset_id": "13730ae3b376463d62e05cdc51d8f5ea21b2034485678b603da97e69819d2cf7",
   "prediction_run_generated_at": "2026-10-31T00:08:33.232532+00:00",
   "matches": [
@@ -2671,89 +2671,21 @@
           "key": "normal",
           "label": "Normal",
           "selection": {
-            "id": "fouls:home:over:9.5:",
+            "id": "result:total:home:None:",
             "fixture_id": "564732",
-            "kind": "fouls",
-            "market": "Faltas",
-            "scope": "home",
-            "side": "over",
-            "line": 9.5,
-            "label": "Barcelona: más de 9,5 faltas",
-            "probability": 0.7101257981518212,
-            "probability_method": "Media ajustada por rival y dispersión histórica por localía; probabilidad sin calibración específica",
-            "individually_calibrated": false,
-            "fair_odds": 1.4082011984392169,
-            "pricing_probability": 0.6101257981518212,
-            "stress_discount": 0.1,
-            "minimum_odds": 1.7209565685972228,
-            "price_status": "unverified",
-            "bookmaker": "Betano",
-            "evidence": {
-              "contexts": [
-                {
-                  "team": "Barcelona",
-                  "venue": "local",
-                  "scope": "competition_and_venue",
-                  "measure": "producción propia",
-                  "hits": 3,
-                  "matches": 5,
-                  "current_hit_streak": 1,
-                  "recent_matches": 3,
-                  "recent_hits": 2
-                },
-                {
-                  "team": "Alaves",
-                  "venue": "visitante",
-                  "scope": "competition_and_venue",
-                  "measure": "permitido al rival",
-                  "hits": 5,
-                  "matches": 5,
-                  "current_hit_streak": 5,
-                  "recent_matches": 3,
-                  "recent_hits": 3
-                }
-              ],
-              "matches": 10,
-              "hits": 8,
-              "rate": 0.8,
-              "window": "Hasta cinco por equipo y localía dentro de 365 días; la mezcla de competiciones se identifica en cada muestra",
-              "latest_result": "2026-10-25"
-            },
-            "market_source": null,
-            "market_probability": null,
-            "market_check": "not_available",
-            "support_gap": 0.08987420184817885,
-            "performance_review": {
-              "family_observations": 90,
-              "family_won": 75,
-              "ranking_penalty": 0.0,
-              "ranking_bonus": 0.00858646469244107,
-              "same_team_market_recent_results": [],
-              "repeat_failure_block": false,
-              "note": "Historial publicado anterior al corte; ajusta selección, no la probabilidad del modelo."
-            }
-          },
-          "status": "available"
-        },
-        {
-          "key": "risky",
-          "label": "Arriesgada",
-          "selection": {
-            "id": "btts:total:yes:None:",
-            "fixture_id": "564732",
-            "kind": "btts",
-            "market": "Ambos marcan",
+            "kind": "result",
+            "market": "Resultado 1X2",
             "scope": "total",
-            "side": "yes",
+            "side": "home",
             "line": null,
-            "label": "Ambos marcan: sí",
-            "probability": 0.5245617235944704,
-            "probability_method": "Matriz original de goles",
+            "label": "Gana Barcelona",
+            "probability": 0.7740522610770914,
+            "probability_method": "Probabilidad 1X2 publicada",
             "individually_calibrated": false,
-            "fair_odds": 1.906353351799421,
-            "pricing_probability": 0.4745617235944704,
+            "fair_odds": 1.291902433833735,
+            "pricing_probability": 0.7240522610770913,
             "stress_discount": 0.05,
-            "minimum_odds": 2.2125678237321598,
+            "minimum_odds": 1.4501715641879673,
             "price_status": "unverified",
             "bookmaker": "Betano",
             "evidence": {
@@ -2763,9 +2695,9 @@
                   "venue": "local",
                   "scope": "competition_and_venue",
                   "measure": "partido",
-                  "hits": 3,
+                  "hits": 4,
                   "matches": 5,
-                  "current_hit_streak": 1,
+                  "current_hit_streak": 0,
                   "recent_matches": 3,
                   "recent_hits": 2
                 },
@@ -2774,7 +2706,7 @@
                   "venue": "visitante",
                   "scope": "competition_and_venue",
                   "measure": "partido",
-                  "hits": 3,
+                  "hits": 2,
                   "matches": 5,
                   "current_hit_streak": 1,
                   "recent_matches": 3,
@@ -2787,23 +2719,79 @@
               "window": "Hasta cinco por equipo y localía dentro de 365 días; la mezcla de competiciones se identifica en cada muestra",
               "latest_result": "2026-10-25"
             },
-            "market_source": "Betano Perú",
-            "betano_market": "Ambos equipos anotan",
-            "betano_odds": 1.85,
-            "market_probability": 0.5040214477211796,
-            "market_check": "agrees",
-            "support_gap": 0.07543827640552958,
-            "performance_review": {
-              "family_observations": 27,
-              "family_won": 15,
-              "ranking_penalty": 0.0053960117797227,
-              "ranking_bonus": 0.0,
-              "same_team_market_recent_results": [],
-              "repeat_failure_block": false,
-              "note": "Historial publicado anterior al corte; ajusta selección, no la probabilidad del modelo."
-            }
+            "market_source": null,
+            "market_probability": null,
+            "market_check": "not_available",
+            "support_gap": 0.17405226107709137,
+            "editorial_override": true,
+            "published_at": "2026-10-31T04:03:53.912075+00:00",
+            "editorial_reason": "Elección editorial solicitada para el vídeo Barcelona–Alavés: gana Barcelona (en lugar de Barcelona más de 9,5 faltas). Dentro de la banda normal."
           },
-          "status": "available"
+          "status": "available",
+          "selection_origin": "user_requested"
+        },
+        {
+          "key": "risky",
+          "label": "Arriesgada",
+          "selection": {
+            "id": "goals:home:over:2.5:",
+            "fixture_id": "564732",
+            "kind": "goals",
+            "market": "Goles",
+            "scope": "home",
+            "side": "over",
+            "line": 2.5,
+            "label": "Barcelona: más de 2,5 goles",
+            "probability": 0.5252564468687504,
+            "probability_method": "Matriz original de goles",
+            "individually_calibrated": false,
+            "fair_odds": 1.9038319395437657,
+            "pricing_probability": 0.4752564468687504,
+            "stress_discount": 0.05,
+            "minimum_odds": 2.2093335228127358,
+            "price_status": "unverified",
+            "bookmaker": "Betano",
+            "evidence": {
+              "contexts": [
+                {
+                  "team": "Barcelona",
+                  "venue": "local",
+                  "scope": "competition_and_venue",
+                  "measure": "producción propia",
+                  "hits": 3,
+                  "matches": 5,
+                  "current_hit_streak": 0,
+                  "recent_matches": 3,
+                  "recent_hits": 2
+                },
+                {
+                  "team": "Alaves",
+                  "venue": "visitante",
+                  "scope": "competition_and_venue",
+                  "measure": "permitido al rival",
+                  "hits": 0,
+                  "matches": 5,
+                  "current_hit_streak": 0,
+                  "recent_matches": 3,
+                  "recent_hits": 0
+                }
+              ],
+              "matches": 10,
+              "hits": 3,
+              "rate": 0.3,
+              "window": "Hasta cinco por equipo y localía dentro de 365 días; la mezcla de competiciones se identifica en cada muestra",
+              "latest_result": "2026-10-25"
+            },
+            "market_source": null,
+            "market_probability": null,
+            "market_check": "not_available",
+            "support_gap": 0.2252564468687504,
+            "editorial_override": true,
+            "published_at": "2026-10-31T04:03:53.912075+00:00",
+            "editorial_reason": "Elección editorial solicitada para el vídeo Barcelona–Alavés: Barcelona marca 3 o más goles (en lugar de ambos marcan). Dentro de la banda arriesgada; respaldo histórico bajo del rival (0/5)."
+          },
+          "status": "available",
+          "selection_origin": "user_requested"
         }
       ],
       "markets": [
@@ -75717,7 +75705,25 @@
     "market_check": "Contraste con el mercado: cuando hay cuotas medias públicas (football-data.co.uk, ligas domésticas) se calcula la probabilidad del mercado sin margen para 1X2, doble oportunidad y más/menos 2,5 goles. Si queda por debajo del piso del nivel, la selección se descarta. No cambia la probabilidad del modelo. Champions y mercados sin precio público quedan sin contraste.",
     "validation": "Estas reglas de selección y probabilidades de mercados ampliados necesitan evaluación prospectiva propia. Mayor cumplimiento reciente no demuestra rentabilidad futura.",
     "feedback": "Se revisan los resultados publicados por familia de mercado y por selección del equipo. Dos fallos recientes del mismo equipo y línea bloquean su repetición si no hay dos aciertos consecutivos de respaldo actual. Conservadoras y combinadas exigen al menos 2/3 cumplimientos recientes en ambas muestras. El ajuste ordena o filtra; no infla las probabilidades.",
+    "editorial": "Las selecciones editoriales solicitadas se identifican en su ficha. El nivel es una etiqueta editorial y puede quedar fuera de las bandas automáticas; la probabilidad del modelo se conserva.",
     "priority": "Se priorizan ganador, doble oportunidad, hándicap, ambos marcan, goles y resultado con goles entre las propuestas que cumplen los mismos filtros de respaldo y precio. Remates, tiros al arco, faltas y córners son complementarios. La prioridad no modifica las probabilidades del modelo.",
     "streaks": "Cada muestra muestra los aciertos consecutivos más recientes de la selección, hasta cinco observaciones válidas. Es un dato descriptivo para revisar la continuidad, no un multiplicador de probabilidad."
-  }
+  },
+  "editorial_overrides": [
+    {
+      "fixture_id": "564732",
+      "tier": "normal",
+      "candidate_id": "result:total:home:None:",
+      "published_at": "2026-10-31T04:03:53.912075+00:00",
+      "reason": "Elección editorial solicitada para el vídeo Barcelona–Alavés: gana Barcelona (en lugar de Barcelona más de 9,5 faltas). Dentro de la banda normal."
+    },
+    {
+      "fixture_id": "564732",
+      "tier": "risky",
+      "candidate_id": "goals:home:over:2.5:",
+      "published_at": "2026-10-31T04:03:53.912075+00:00",
+      "reason": "Elección editorial solicitada para el vídeo Barcelona–Alavés: Barcelona marca 3 o más goles (en lugar de ambos marcan). Dentro de la banda arriesgada; respaldo histórico bajo del rival (0/5)."
+    }
+  ],
+  "revised_at": "2026-10-31T04:03:53.912075+00:00"
 }
