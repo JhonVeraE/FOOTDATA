@@ -4,7 +4,8 @@ rem Uso: footdata_run.cmd daily | weekly
 setlocal EnableExtensions
 set "MODE=%~1"
 if /i not "%MODE%"=="daily" if /i not "%MODE%"=="weekly" (echo Uso: %~nx0 daily^|weekly & exit /b 2)
-set "LOGDIR=%LOCALAPPDATA%\FOOTDATA\logs"
+rem Registro dentro del proyecto (carpeta logs, ignorada por git) para poder revisarlo.
+set "LOGDIR=%~dp0..\..\logs"
 if not exist "%LOGDIR%" mkdir "%LOGDIR%"
 for /f %%d in ('powershell -NoProfile -Command "(Get-Date).ToString('yyyy-MM-dd')"') do set "TODAY=%%d"
 if /i not "%~2"=="__logged" (

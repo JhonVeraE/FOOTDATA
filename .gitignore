@@ -5,3 +5,6 @@ __pycache__/
 data/live/_cache/
 data/artifacts/excel_partidos/
 .pytest_cache/
+_voz/
+ACTIVAR_FOOTDATA.cmd
+logs/
