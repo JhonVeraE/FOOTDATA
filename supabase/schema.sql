@@ -29,6 +29,9 @@ language sql stable security definer set search_path = public as $$
   select exists(select 1 from public.profiles where id = auth.uid() and role = 'admin');
 $$;
 
+grant usage on schema public to anon, authenticated;
+grant execute on function public.is_admin() to anon, authenticated;
+
 -- Crea el perfil al registrarse; asigna admin si el correo está en admin_emails.
 create or replace function public.handle_new_user() returns trigger
 language plpgsql security definer set search_path = public as $$
