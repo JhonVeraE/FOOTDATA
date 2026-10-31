@@ -74,7 +74,13 @@ class DailyUpdateTests(unittest.TestCase):
 
     def test_freeze_uses_latest_pre_kickoff_publication_once(self):
         status = freeze_forecasts('2026-10-31', self.art)
-        self.assertTrue(status.startswith('frozen_from:20261026T234507'))
+        # Expected: the newest archived publication generated before that day's first kickoff.
+        best = None
+        for path in sorted((self.art/'prediction_archive').glob('*.json')):
+            run = json.loads(path.read_text(encoding='utf-8'))
+            games = [m for m in run['matches'] if m['fecha'] == '2026-10-31']
+            if games and run['run']['generated_at'] < min(m['kickoff_utc'] for m in games):best = path.name
+        self.assertEqual(status, f'frozen_from:{best}')
         pred = json.loads((self.art/'daily_reviews/2026-10-31/predictions_before_results.json').read_text(encoding='utf-8'))
         fijas = json.loads((self.art/'daily_reviews/2026-10-31/fijas_before_results.json').read_text(encoding='utf-8'))
         self.assertEqual(pred['run']['dataset_id'], fijas['dataset_id'])

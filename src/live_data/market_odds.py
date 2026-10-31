@@ -117,3 +117,117 @@ def lookup(market_index, report):
         if key in market_index:
             return market_index[key]
     return None
+
+
+# ------------------------------------------------------------------ Betano Perú
+# Visible pre-match prices captured from betano.pe (data/artifacts/betano_visible/<date>/betano_compact.json).
+# Compact row: [league, betano_id, home, away, start_utc, [1,X,2], [o1.5,u1.5,o2.5,u2.5,o3.5,u3.5,o4.5,u4.5],
+#               [btts_yes,btts_no], [home o0.5,u0.5,o1.5,u1.5], [away o0.5,u0.5,o1.5,u1.5],
+#               European handicap rows for home handicap k in (-2,-1,+1,+2): [home, draw, away] or null]
+BETANO_LEAGUES = {'PL': 'Premier League', 'PD': 'La Liga', 'BL': 'Bundesliga', 'SA': 'Serie A', 'FL': 'Ligue 1',
+                  'CL': 'UEFA Champions League'}
+# Explicit, reviewed name map (no fuzzy matching). Unknown names are skipped and reported.
+BETANO_NAMES = {
+    'Chelsea FC': 'Chelsea', 'Manchester United': 'Man United', 'AFC Bournemouth': 'Bournemouth', 'Leeds United': 'Leeds',
+    'Brentford FC': 'Brentford', 'Nottingham Forest': "Nott'm Forest", 'Coventry City': 'Coventry', 'Sunderland': 'Sunderland',
+    'Hull City': 'Hull', 'Ipswich Town': 'Ipswich', 'Manchester City': 'Man City', 'Brighton & Hove Albion': 'Brighton',
+    'Tottenham Hotspur': 'Tottenham', 'Crystal Palace FC': 'Crystal Palace', 'Aston Villa': 'Aston Villa', 'Fulham': 'Fulham',
+    'Liverpool FC': 'Liverpool', 'Arsenal FC': 'Arsenal', 'Newcastle United': 'Newcastle', 'Everton FC': 'Everton',
+    'Levante UD': 'Levante', 'Atlético Madrid': 'Ath Madrid', 'Rayo Vallecano': 'Vallecano', 'RC Celta de Vigo': 'Celta',
+    'Real Betis Balompié': 'Betis', 'Málaga CF': 'Malaga', 'FC Barcelona': 'Barcelona', 'Deportivo Alavés': 'Alaves',
+    'Getafe CF': 'Getafe', 'Sevilla FC': 'Sevilla', 'Racing Santander': 'Santander', 'Real Madrid': 'Real Madrid',
+    'Elche CF': 'Elche', 'Valencia CF': 'Valencia', 'Athletic Bilbao': 'Ath Bilbao', 'Real Sociedad': 'Sociedad',
+    'Deportivo de A Coruña': 'La Coruna', 'CA Osasuna': 'Osasuna', 'Villarreal CF': 'Villarreal', 'RCD Espanyol': 'Espanol',
+    'Bologna FC': 'Bologna', 'AC Monza': 'Monza', 'Udinese Calcio': 'Udinese', 'AS Roma': 'Roma', 'AC Milan': 'Milan',
+    'Inter de Milán': 'Inter', 'Como 1907': 'Como', 'Venezia FC': 'Venezia', 'Frosinone': 'Frosinone', 'Torino FC': 'Torino',
+    'SS Lazio': 'Lazio', 'Cagliari Calcio': 'Cagliari', 'US Lecce': 'Lecce', 'Genoa CFC': 'Genoa', 'Juventus FC': 'Juventus',
+    'SSC Napoli': 'Napoli', 'US Sassuolo Calcio': 'Sassuolo', 'AC Fiorentina': 'Fiorentina', 'Atalanta': 'Atalanta',
+    'Parma Calcio 1913': 'Parma',
+    'Bayer 04 Leverkusen': 'Leverkusen', 'VfB Stuttgart': 'Stuttgart', 'Borussia Monchengladbach': "M'gladbach",
+    'SC Paderborn 07': 'Paderborn', 'FC Augsburg': 'Augsburg', 'SC Friburgo': 'Freiburg', 'FC Schalke 04': 'Schalke 04',
+    'RB Leipzig': 'RB Leipzig', 'Werder Bremen': 'Werder Bremen', 'TSG 1899 Hoffenheim': 'Hoffenheim',
+    'FC Bayern Munchen': 'Bayern Munich', 'Borussia Dortmund': 'Dortmund', '1. FC Union Berlin': 'Union Berlin',
+    '1. FC Köln': 'FC Koln', 'Eintracht Frankfurt': 'Frankfurt', 'Hamburger SV': 'Hamburg',
+    'ES Troyes AC': 'Troyes', 'Le Mans UC 72': 'Le Mans', 'RC Strasbourg': 'Strasbourg', 'AJ Auxerre': 'Auxerre',
+    'Olympique Lyonnais': 'Lyon', 'Angers SCO': 'Angers', 'Paris FC': 'Paris FC', 'AS Mónaco': 'Monaco',
+    'Olympique Marseille': 'Marseille', 'Toulouse FC': 'Toulouse', 'FC Lorient': 'Lorient', 'Stade Brestois 29': 'Brest',
+    'FC Shakhtar Donetsk': 'Shakhtar Donetsk', 'Sporting CP': 'Sporting CP', 'Galatasaray SK': 'Galatasaray',
+    'Lille OSC': 'Lille', 'FK Bodo/Glimt': 'Bodo/Glimt', 'Feyenoord Rotterdam': 'Feyenoord', 'Linzer ASK': 'LASK',
+    'SK Slovan Bratislava': 'Slovan Bratislava', 'Paris Saint-Germain': 'Paris SG', 'AEK Atenas': 'AEK Athens',
+    'Fenerbahce SK': 'Fenerbahçe', 'PSV Eindhoven': 'PSV', 'Club Brugge KV': 'Club Brugge KV', 'RC Lens': 'Lens',
+    'SK Slavia Praha': 'Slavia Praha', 'Viking FK': 'Viking FK', 'FC Sabah': 'Sabah FK', 'FC Porto': 'FC Porto',
+}
+BETANO_MAX_AGE = pd.Timedelta(days=3)
+
+
+def _pairs(values):
+    return [values[i:i + 2] for i in range(0, len(values or []), 2)]
+
+
+def load_betano(as_of=None, root=None):
+    """Latest Betano capture observed before ``as_of`` (and not older than 3 days)."""
+    root = root or ARTIFACT_DIR / 'betano_visible'
+    clock = pd.Timestamp(as_of) if as_of is not None else pd.Timestamp.now(tz='UTC')
+    if clock.tzinfo is None:clock = clock.tz_localize('UTC')
+    best = None
+    for path in sorted(root.glob('*/betano_compact.json')):
+        data = json.loads(path.read_text(encoding='utf-8'))
+        seen = pd.Timestamp(data['observed_at'])
+        if seen <= clock and clock - seen <= BETANO_MAX_AGE and (best is None or seen > best[0]):best = (seen, path, data)
+    if best is None:return {}, {'status': 'no_capture'}
+    seen, path, data = best
+    index, unknown = {}, []
+    for r in data['rows']:
+        league = BETANO_LEAGUES.get(r[0]);home = BETANO_NAMES.get(r[2]);away = BETANO_NAMES.get(r[3])
+        if not (league and home and away):unknown.append(r[2:4]);continue
+        index[(league, canonical_team(home), canonical_team(away))] = {
+            'source': 'Betano Perú', 'betano_id': r[1], 'kickoff_utc': r[4] + ':00Z', 'observed_at': data['observed_at'],
+            'result': r[5], 'goals': dict(zip(['1.5', '2.5', '3.5', '4.5'], _pairs(r[6]))), 'btts': r[7],
+            'home_goals': dict(zip(['0.5', '1.5'], _pairs(r[8]))), 'away_goals': dict(zip(['0.5', '1.5'], _pairs(r[9]))),
+            'euro_handicap': dict(zip([-2, -1, 1, 2], r[10])), 'capture': str(path.relative_to(ARTIFACT_DIR))}
+    return index, {'status': 'loaded', 'observed_at': data['observed_at'], 'fixtures': len(index), 'unmapped': unknown,
+                   'capture': str(path.relative_to(ARTIFACT_DIR))}
+
+
+def _norm(prices):
+    if not prices or any(p is None or p <= 1 for p in prices):return None
+    q = [1 / p for p in prices];s = sum(q)
+    return [x / s for x in q]
+
+
+def betano_quote(item, rec):
+    """(de-margined probability, raw Betano price, Betano market description) for the same bet, or None."""
+    if not rec:return None
+    kind, side, line, scope = item['kind'], item['side'], item['line'], item['scope']
+    if kind in ('result', 'double_chance'):
+        p = _norm(rec['result'])
+        if p is None:return None
+        idx = {'home': 0, 'draw': 1, 'away': 2}
+        if kind == 'result':
+            return p[idx[side]], rec['result'][idx[side]], 'Resultado del partido'
+        dc = {'1X': p[0] + p[1], 'X2': p[1] + p[2], '12': p[0] + p[2]}[side]
+        return dc, None, 'Doble oportunidad (probabilidad derivada del 1X2)'
+    if kind == 'goals':
+        table = rec['goals'] if scope == 'total' else rec['home_goals'] if scope == 'home' else rec['away_goals']
+        pair = table.get(f'{line:g}') if line is not None else None
+        p = _norm(pair)
+        if p is None:return None
+        i = 0 if side == 'over' else 1
+        market = 'Goles totales Más/Menos' if scope == 'total' else 'Goles del equipo Más/Menos'
+        return p[i], pair[i], market
+    if kind == 'btts':
+        p = _norm(rec['btts'])
+        if p is None:return None
+        i = 0 if side == 'yes' else 1
+        return p[i], rec['btts'][i], 'Ambos equipos anotan'
+    if kind == 'handicap' and line is not None:
+        # Asian half line == one outcome of a European 3-way row (home handicap k):
+        # home line h -> row k=h+0.5, 'home'; away line h -> row k=-(h+0.5), 'away'.
+        k = int(line + .5) if side == 'home' else int(-(line + .5))
+        row = rec['euro_handicap'].get(k)
+        p = _norm(row)
+        if p is None:return None
+        i = 0 if side == 'home' else 2
+        sign = f'{k:+d}'
+        return p[i], row[i], f'Hándicap Resultado del Partido (europeo), línea local {sign}, opción {"local" if i == 0 else "visitante"}'
+    return None

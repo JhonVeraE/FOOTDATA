@@ -1,0 +1,32 @@
+{
+ "checked_at": "2026-10-31T00:20:00Z",
+ "reason": "Reprogramados: football-data.org los tenía el 31/10 19:45 UTC (sin red para refrescar).",
+ "evidence": [
+  "Betano Perú (betano.pe) cuotas capturadas 2026-10-30T23:59Z",
+  "ESPN scoreboard fra.1 2026-10-31..2026-11-02: Angers at Lyon 2026-11-01T16:15Z; Brest at Lorient 2026-11-02T19:45Z"
+ ],
+ "changes": [
+  {
+   "fixture_id": "559640",
+   "from": [
+    "2026-10-31",
+    "19:45"
+   ],
+   "to": [
+    "2026-11-01",
+    "16:15"
+   ]
+  },
+  {
+   "fixture_id": "559641",
+   "from": [
+    "2026-10-31",
+    "19:45"
+   ],
+   "to": [
+    "2026-11-02",
+    "19:45"
+   ]
+  }
+ ]
+}
