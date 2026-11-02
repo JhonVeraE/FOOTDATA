@@ -1,6 +1,6 @@
 {
   "date": "2026-10-29",
-  "reviewed_at": "2026-10-30T04:46:21.884091+00:00",
+  "reviewed_at": "2026-10-31T11:31:29.558782+00:00",
   "summary": {
     "matches": 2,
     "hits_1x2": 1,
@@ -327,5 +327,6 @@
   ],
   "deferred": [],
   "pending": [],
+  "advanced": [],
   "original_predictions_sha256": "6f35171c8fbdc85230abe1ac1a514c3b09af3b03c3ecd7f3fb7be312e4ae97f3"
 }

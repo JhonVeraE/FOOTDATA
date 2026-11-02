@@ -8,7 +8,7 @@ from pathlib import Path
 from datetime import datetime, timezone
 import pandas as pd
 from data_store import canonical_team,validate_stats
-from paths import DATA_DIR,ARTIFACT_DIR,WEB_DIR
+from paths import DATA_DIR,ARTIFACT_DIR,WEB_DIR, PRIVATE_DIR
 from review_matchday import save
 from safe_io import safe_replace
 
@@ -127,7 +127,7 @@ def main(capture_dir,date,league=LEAGUE):
     record={'date':date,'ingested_at':datetime.now(timezone.utc).isoformat(),'provider':'ESPN final boxscores, final scores cross-checked with football-data.org',
       'matches':records,'added_rows':len(combined)-len(pd.read_csv(backup/csv_path.name)),
       'added_rows_this_run':len(fresh),'dataset_matches':int(combined.match_id.nunique()),'dataset_rows':len(combined),'columns':list(combined.columns)}
-    save(archive/'ingestion.json',record);save(WEB_DIR/'data'/f"actuals_{date}{'_domestic' if domestic else ''}.json",record)
+    save(archive/'ingestion.json',record);save(PRIVATE_DIR/f"actuals_{date}{'_domestic' if domestic else ''}.json",record)
     for src in capture.glob('*.json'):
         if not (archive/src.name).exists():shutil.copy2(src,archive/src.name)
     for name,digest in hashes.items():

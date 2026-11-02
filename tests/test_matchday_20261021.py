@@ -26,7 +26,7 @@ class CompletedMatchdayTests(unittest.TestCase):
         self.assertEqual(total, 10)
 
     def test_review_reconciles_with_saved_selections(self):
-        d = json.loads((ROOT/'web/data/recommendation_review_2026-10-21.json').read_text(encoding='utf-8'))
+        d = json.loads((ROOT/'data/artifacts/resultados_privados/recommendation_review_2026-10-21.json').read_text(encoding='utf-8'))
         self.assertEqual(len(d['matches']), 10)
         self.assertEqual((d['tier_summary']['won'], d['tier_summary']['lost']), (11, 1))
         self.assertEqual((d['unique_summary']['won'], d['unique_summary']['settled']), (30, 36))

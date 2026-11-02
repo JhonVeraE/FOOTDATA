@@ -14,7 +14,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 import pandas as pd
 from data_store import validate_stats, season_for
-from paths import ARTIFACT_DIR, DATA_DIR, WEB_DIR
+from paths import ARTIFACT_DIR, DATA_DIR, WEB_DIR, PRIVATE_DIR
 from daily_update import (freeze_forecasts, update_calendar, build_ingestion, rows_for, existing_rows,
                           dump, read, CHAMPIONS)
 from safe_io import safe_replace
@@ -103,7 +103,7 @@ def main(captures_path, day, post=True):
     if record is not None:
         record['provider'] = 'Sofascore full-match statistics (ALL); scores independently checked with ESPN'
         record['added_rows_this_run'] = 2 * len(added)
-        dump(ARTIFACT_DIR/'daily_reviews'/day/'ingestion.json', record);dump(WEB_DIR/'data'/f'actuals_{day}.json', record)
+        dump(ARTIFACT_DIR/'daily_reviews'/day/'ingestion.json', record);dump(PRIVATE_DIR/f'actuals_{day}.json', record)
     if post:
         from review_ingested_matchday import main as review
         out = review(ARTIFACT_DIR/'daily_reviews'/day, day)

@@ -4,7 +4,7 @@ from pathlib import Path
 from datetime import datetime, timezone
 import pandas as pd
 from recommendations import event_values
-from paths import ARTIFACT_DIR, WEB_DIR
+from paths import ARTIFACT_DIR, WEB_DIR, PRIVATE_DIR
 from review_matchday import save
 
 def settle(selection, metrics):
@@ -102,10 +102,10 @@ def main(capture_dir,date,output=None):
     for level,counts in result['by_tier'].items():
         expected={'Conservadora':4,'Normal':3,'Arriesgada':1}[level]
         if date=='2026-10-19' and counts['won']!=expected:raise ValueError('Analysis does not reconcile with settlements')
-    save(capture/'recommendation_review.json',result);save(ARTIFACT_DIR/'daily_reviews'/date/'recommendation_review.json',result);save(WEB_DIR/'data'/f'recommendation_review_{date}.json',result)
+    save(capture/'recommendation_review.json',result);save(ARTIFACT_DIR/'daily_reviews'/date/'recommendation_review.json',result);save(PRIVATE_DIR/f'recommendation_review_{date}.json',result)
     report=render_html(result)
-    latest=max([date]+[p.stem.removeprefix('recommendation_review_') for p in (WEB_DIR/'data').glob('recommendation_review_*.json')])
-    for path in [WEB_DIR/f'revision_{date}.html']+([WEB_DIR/'revision_ultima_jornada.html'] if date==latest else []):
+    latest=max([date]+[p.stem.removeprefix('recommendation_review_') for p in PRIVATE_DIR.glob('recommendation_review_*.json')])
+    for path in [PRIVATE_DIR/f'revision_{date}.html']+([PRIVATE_DIR/'revision_ultima_jornada.html'] if date==latest else []):
         path.write_text(report,encoding='utf-8',newline='\n')
     if output:
         out=Path(output);out.mkdir(parents=True,exist_ok=True);(out/f'FOOTDATA_resultados_{date}.html').write_text(report,encoding='utf-8')

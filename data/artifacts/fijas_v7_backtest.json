@@ -1,0 +1,168 @@
+{
+  "protocol": "Walk-forward: modelo y datos descriptivos congelados el día 1 de cada mes; solo resultados anteriores. Diseño 2025-09..2026-05 (1.626 partidos); comprobación 2026-08..2026-10 (409 partidos), no usada para elegir la regla. Cuotas = cuota justa del modelo (1/p); no son cuotas de casas de apuestas.",
+  "rules": {
+    "v6_actual": {
+      "diseno": {
+        "Conservadora": {
+          "n": 1611,
+          "acierto": 0.837,
+          "p_modelo": 0.818,
+          "cuota_media": 1.22,
+          "yield_margin": -0.038
+        },
+        "Normal": {
+          "n": 1611,
+          "acierto": 0.721,
+          "p_modelo": 0.713,
+          "cuota_media": 1.41,
+          "yield_margin": -0.048
+        },
+        "Arriesgada": {
+          "n": 1595,
+          "acierto": 0.603,
+          "p_modelo": 0.586,
+          "cuota_media": 1.71,
+          "yield_margin": -0.033
+        },
+        "partidos_con_fijas": 1611
+      },
+      "comprobacion": {
+        "Conservadora": {
+          "n": 348,
+          "acierto": 0.819,
+          "p_modelo": 0.817,
+          "cuota_media": 1.23,
+          "yield_margin": -0.057
+        },
+        "Normal": {
+          "n": 348,
+          "acierto": 0.741,
+          "p_modelo": 0.714,
+          "cuota_media": 1.4,
+          "yield_margin": -0.026
+        },
+        "Arriesgada": {
+          "n": 344,
+          "acierto": 0.622,
+          "p_modelo": 0.584,
+          "cuota_media": 1.72,
+          "yield_margin": 0.001
+        },
+        "partidos_con_fijas": 348
+      }
+    },
+    "v7_sin_ajuste": {
+      "diseno": {
+        "Conservadora": {
+          "n": 1551,
+          "acierto": 0.76,
+          "p_modelo": 0.733,
+          "cuota_media": 1.37,
+          "yield_margin": -0.025
+        },
+        "Normal": {
+          "n": 1550,
+          "acierto": 0.594,
+          "p_modelo": 0.564,
+          "cuota_media": 1.78,
+          "yield_margin": -0.012
+        },
+        "Arriesgada": {
+          "n": 1370,
+          "acierto": 0.491,
+          "p_modelo": 0.45,
+          "cuota_media": 2.25,
+          "yield_margin": 0.024
+        },
+        "partidos_con_fijas": 1551
+      },
+      "comprobacion": {
+        "Conservadora": {
+          "n": 319,
+          "acierto": 0.784,
+          "p_modelo": 0.733,
+          "cuota_media": 1.37,
+          "yield_margin": 0.006
+        },
+        "Normal": {
+          "n": 319,
+          "acierto": 0.614,
+          "p_modelo": 0.566,
+          "cuota_media": 1.77,
+          "yield_margin": 0.022
+        },
+        "Arriesgada": {
+          "n": 276,
+          "acierto": 0.428,
+          "p_modelo": 0.448,
+          "cuota_media": 2.26,
+          "yield_margin": -0.097
+        },
+        "partidos_con_fijas": 319
+      }
+    },
+    "v7_con_ajuste_temporada": {
+      "diseno": {
+        "Conservadora": {
+          "n": 1551,
+          "acierto": 0.761,
+          "p_modelo": 0.733,
+          "cuota_media": 1.37,
+          "yield_margin": -0.023
+        },
+        "Normal": {
+          "n": 1551,
+          "acierto": 0.591,
+          "p_modelo": 0.564,
+          "cuota_media": 1.78,
+          "yield_margin": -0.017
+        },
+        "Arriesgada": {
+          "n": 1369,
+          "acierto": 0.489,
+          "p_modelo": 0.449,
+          "cuota_media": 2.26,
+          "yield_margin": 0.026
+        },
+        "partidos_con_fijas": 1551
+      },
+      "comprobacion": {
+        "Conservadora": {
+          "n": 318,
+          "acierto": 0.767,
+          "p_modelo": 0.733,
+          "cuota_media": 1.37,
+          "yield_margin": -0.016
+        },
+        "Normal": {
+          "n": 319,
+          "acierto": 0.621,
+          "p_modelo": 0.567,
+          "cuota_media": 1.77,
+          "yield_margin": 0.029
+        },
+        "Arriesgada": {
+          "n": 285,
+          "acierto": 0.432,
+          "p_modelo": 0.447,
+          "cuota_media": 2.27,
+          "yield_margin": -0.088
+        },
+        "partidos_con_fijas": 319
+      }
+    }
+  },
+  "v6_lineas_triviales": {
+    "total": 5857,
+    "triviales": 935,
+    "proporcion": 0.16
+  },
+  "season_adjustment": {
+    "adoptado": "remates, tiros al arco, faltas y córners",
+    "descartado": "goles (mejora de log-loss 1X2 0,0007 en comprobación y empeora O/U 2,5 en diseño)",
+    "sesgo_remates_octubre_2026": {
+      "sin_ajuste": 0.083,
+      "con_ajuste": 0.031
+    }
+  }
+}

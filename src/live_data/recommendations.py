@@ -13,8 +13,14 @@ from data_store import canonical_team, load_match_stats
 from goal_model import score_distribution
 from paths import ARTIFACT_DIR, WEB_DIR, DATA_DIR
 
-VERSION='market-shortlist-v6-betano-coherence'
-LEVELS=[('conservative','Conservadora',.78,.88,.82),('normal','Normal',.63,.78,.70),('risky','Arriesgada',.50,.63,.59)]
+VERSION='market-shortlist-v7-odds-patterns'
+LEVELS=[('conservative','Conservadora',.78,.88,.82),('normal','Normal',.63,.78,.70),('risky','Arriesgada',.50,.63,.59)]  # v6, kept for audits
+# v7: tiers by price band (Betano when captured, otherwise the model's fair odds) and by how completely
+# the pattern held in each team's last five venue-specific matches.  Walk-forward backtest 2025/26
+# (design) and 2026/27 (holdout): see data/artifacts/fijas_v7_backtest.json.
+TIERS_V7=[('conservative','Conservadora',[(1.30,1.60,1.0,True),(1.25,1.45,.8,False)]),
+          ('normal','Normal',[(1.60,2.00,.6,False)]),
+          ('risky','Arriesgada',[(1.90,3.00,.6,False)])]
 MARKETS={'result':'Resultado 1X2','double_chance':'Doble oportunidad','handicap':'Hándicap de goles','goals':'Goles','btts':'Ambos marcan','result_goals':'Resultado y goles','shots':'Remates','sot':'Tiros al arco','fouls':'Faltas','cards':'Tarjetas Betano','corners':'Córners'}
 COUNT_KINDS=['shots','sot','fouls','cards','corners']
 PRIMARY_MARKETS={'result','double_chance','handicap','goals','btts','result_goals'}
@@ -98,8 +104,30 @@ def evidence(candidate,contexts,report):
 
 def fmt(line):return f'{line:g}'.replace('.',',')
 
-def candidates(report,contexts,dispersion_data=None,quotes=None,as_of=None,market=None,betano=None):
-    matrix=score_distribution(report['lam_home'],report['lam_away'],report['model']['rho'])
+
+SEASON_SHRINK=120  # team-rows of the current season needed for half weight
+
+def season_factor(league_data,metric,season,shrink=SEASON_SHRINK):
+    """Level shift of the current season against the rest of the preceding 365 days.
+
+    Uses only pre-cutoff rows of the same league.  Shrunk towards 1 while the
+    season sample is small, so early-season noise cannot swing the means."""
+    if league_data is None or season is None or f'{metric}_for' not in league_data:return 1.0
+    from data_store import season_for
+    seasons=league_data['season'] if 'season' in league_data else league_data['date'].map(season_for)
+    col=league_data[f'{metric}_for']
+    cur=col[seasons==season].dropna();ref=col[seasons!=season].dropna()
+    if len(cur)<20 or len(ref)<100 or ref.mean()<=0:return 1.0
+    w=len(cur)/(len(cur)+shrink)
+    return float(1+w*(cur.mean()/ref.mean()-1))
+
+def candidates(report,contexts,dispersion_data=None,quotes=None,as_of=None,market=None,betano=None,season_adjust=None):
+    import os
+    from data_store import season_for
+    if season_adjust is None:season_adjust=os.environ.get('FD_SEASON_ADJUST','counts')
+    season=season_for(pd.Timestamp(report['fecha'])) if report.get('fecha') else None
+    gf=season_factor(dispersion_data,'goals',season) if 'goals' in season_adjust else 1.0
+    matrix=score_distribution(report['lam_home']*gf,report['lam_away']*gf,report['model']['rho'])
     h,a=np.indices(matrix.shape);total=h+a;out=[]
     clock=utc(as_of) if as_of is not None else pd.Timestamp.now(tz='UTC')
     covered=set()
@@ -129,7 +157,8 @@ def candidates(report,contexts,dispersion_data=None,quotes=None,as_of=None,marke
                 item['observed_quote']=quote
                 item['price_status']='above_reference' if quote['odds']>=item['minimum_odds'] else 'below_reference'
         out.append(item)
-    ph,pd_,pa=[report[k]/100 for k in ['p_home','p_draw','p_away']]
+    if gf!=1.0:ph,pd_,pa=float(matrix[h>a].sum()),float(matrix[h==a].sum()),float(matrix[h<a].sum())
+    else:ph,pd_,pa=[report[k]/100 for k in ['p_home','p_draw','p_away']]
     for side,label,p in [('home',f"Gana {report['local']}",ph),('draw','Empate',pd_),('away',f"Gana {report['visitante']}",pa)]:add('result',side,None,label,p,'Probabilidad 1X2 publicada')
     for side,label,p in [('1X',f"{report['local']} o empate",ph+pd_),('X2',f"{report['visitante']} o empate",pa+pd_),('12','Cualquiera gana, sin empate',ph+pa)]:
         add('double_chance',side,None,label,p,'Suma de probabilidades 1X2 publicadas')
@@ -150,6 +179,7 @@ def candidates(report,contexts,dispersion_data=None,quotes=None,as_of=None,marke
     for kind,lines in [('corners',[5.5,6.5,7.5,8.5,9.5,10.5,11.5,12.5,13.5])]:
         market=report.get('count_markets',{}).get(kind,{})
         mean=market.get('mean');alpha=market.get('dispersion')
+        if mean is not None and 'counts' in season_adjust:mean=mean*season_factor(dispersion_data,kind,season)
         if market.get('status')!='estimate' or mean is None or alpha is None:continue
         dist=nbinom(1/alpha,1/(1+alpha*mean)) if alpha>1e-6 else poisson(mean)
         for line in lines:
@@ -165,6 +195,7 @@ def candidates(report,contexts,dispersion_data=None,quotes=None,as_of=None,marke
             if scope=='total' and kind=='corners':continue
             if scope=='total' and (cross.get('home') is None or cross.get('away') is None):continue
             mean=cross['home']+cross['away'] if scope=='total' else cross.get(scope)
+            if mean is not None and 'counts' in season_adjust:mean=mean*season_factor(league_data,kind,season)
             if mean is None or mean<=0:continue
             sample=league_data[league_data.is_home] if scope=='total' else league_data[league_data.is_home==(scope=='home')]
             observations=(sample[kind+'_for']+sample[kind+'_against']) if scope=='total' else sample[kind+'_for']
@@ -179,6 +210,40 @@ def candidates(report,contexts,dispersion_data=None,quotes=None,as_of=None,marke
                     text=f'{team}: {label} {fmt(line)} {MARKETS[kind].lower()}' if team else f'{label.capitalize()} {fmt(line)} {MARKETS[kind].lower()} totales'
                     add(kind,side,line,text,p,'Media ajustada por rival y dispersión histórica por localía; probabilidad sin calibración específica',scope)
     return out
+
+
+def trivial(item):
+    """Lines that only pay bookmaker-minimum prices (about 1.05) are never offered as fijas."""
+    k,sc,sd,l=item['kind'],item.get('scope','total'),item['side'],item.get('line')
+    if k=='goals' and sc in ('home','away') and sd=='under' and l is not None and l>=2.5:return True
+    if k=='goals' and sc=='total' and sd=='under' and l is not None and l>=4.5:return True
+    if k=='handicap' and l is not None and l>=2.5:return True
+    return False
+
+def pattern_rate(item):
+    """Lowest share, over both teams, of recent venue-specific matches where the selection held."""
+    ctx=item['evidence']['contexts']
+    return min((v['hits']/v['matches']) if v['matches'] else 0 for v in ctx) if ctx else 0
+
+def full_pattern(item):
+    return all(v['matches']>=5 and v['hits']==v['matches'] for v in item['evidence']['contexts'])
+
+def price(item):
+    """Real Betano price when captured for this exact line; otherwise the model's fair odds."""
+    return item.get('betano_odds') or item['fair_odds']
+
+def eligible_v7(item,omin,omax,min_pattern,require_full):
+    ev=item['evidence']
+    return (omin<=price(item)<omax and item['kind']!='cards' and not trivial(item) and ev['matches']>=5
+            and all(v['matches']>=4 for v in ev['contexts']) and pattern_rate(item)>=min_pattern
+            and (not require_full or full_pattern(item))
+            and item.get('price_status') not in ['below_reference','not_in_observed_lines']
+            and not item.get('performance_review',{}).get('repeat_failure_block',False)
+            and market_ok(item,1/omax))
+
+def rank_v7(item):
+    rate=item['evidence']['rate'] or 0
+    return (-int(full_pattern(item)),-pattern_rate(item),-(rate-item['probability']),item['probability'])
 
 def selection_cost(item,target):
     feedback=item.get('performance_review',{})
@@ -266,22 +331,25 @@ def make_match(report,stats,quotes=None,as_of=None,feedback_records=None,market_
     from recommendation_feedback import annotate
     annotate(options,report,feedback_records or [])
     for kind in MARKETS:
-        pool=[c for c in options if c['kind']==kind and .50<=c['probability']<=.88 and supported(c) and market_ok(c,.50)]
-        best=min(pool,key=lambda c:selection_cost(c,.74),default=None)
+        pool=[c for c in options if c['kind']==kind and eligible_v7(c,1.25,3.00,.6,False)]
+        best=min(pool,key=rank_v7,default=None)
         by_market.append({'kind':kind,'market':MARKETS[kind],'selection':best,'status':'available' if best else 'incompatible_settlement' if kind=='cards' else 'insufficient_support','reason':'Betano cuenta una roja como dos tarjetas y excluye la segunda amarilla. El CSV agregado no permite reconstruir esa liquidación.' if kind=='cards' else None})
     tiers=[];used=set();chosen=[]
-    for key,label,lo,hi,target in LEVELS:
-        pool=[c for c in options if lo<=c['probability']<hi and c['kind'] not in used and supported(c) and market_ok(c,lo) and (key!='conservative' or recent_support(c)) and coherent(c,chosen,matrix)]
-        best=preferred_selection(pool,target)
-        if best:chosen.append(best)
+    for key,label,bands in TIERS_V7:
+        best=None
+        for omin,omax,min_pattern,require_full in bands:
+            pool=[c for c in options if c['kind'] not in used and eligible_v7(c,omin,omax,min_pattern,require_full) and coherent(c,chosen,matrix)]
+            primary=[c for c in pool if c['kind'] in PRIMARY_MARKETS]
+            best=min(primary or pool,key=rank_v7,default=None)
+            if best:break
+        if best:chosen.append(best);used.add(best['kind'])
         tiers.append({'key':key,'label':label,'selection':best,'status':'available' if best else 'insufficient_data'})
-        if best:used.add(best['kind'])
-    # Prefer goal/result markets; retain count alternatives only without support there.
-    eligible=[c for c in options if .78<=c['probability']<=.88 and supported(c) and recent_support(c) and market_ok(c,.78)]
+    # Combinadas: only conservadoras whose pattern held in every recent match of both teams.
     sample=report.get('quality',{}).get('effective_sample_min',0)
     unknown=any('sin historial' in warning.lower() for warning in report.get('data_warnings',[]))
-    pick=preferred_selection(eligible,.82) if sample>=5 and not unknown else None
-    return {'fixture_id':str(report['fixture_id']),'competition':report['competition'],'home':report['local'],'away':report['visitante'],'kickoff_utc':report['kickoff_utc'],'date_lima':utc(report['kickoff_utc']).tz_convert('America/Lima').date().isoformat(),'prediction_generated_at':report['generated_at'],'cutoff':report['cutoff'],'tiers':tiers,'markets':by_market,'parlay_selection':pick,'market_priority':'goals_and_results_first','market_reference':None if record is None else {k:record[k] for k in ['price_set','home','draw','away','over25','under25','retrieved_at','source']},'betano_reference':None if betano is None else {'betano_id':betano['betano_id'],'kickoff_utc_betano':betano['kickoff_utc'],'kickoff_matches':utc(betano['kickoff_utc'])==utc(report['kickoff_utc']),'observed_at':betano['observed_at'],'result_odds':betano['result'],'capture':betano['capture']},'coherence':'Las tres selecciones del partido no se contradicen: ninguna apuesta en sentido opuesto a otra sobre el margen del partido o el total de goles.','limited_european_sample':report['competition']=='UEFA Champions League'}
+    cons=tiers[0]['selection']
+    pick=cons if cons and full_pattern(cons) and sample>=5 and not unknown else None
+    return {'fixture_id':str(report['fixture_id']),'competition':report['competition'],'home':report['local'],'away':report['visitante'],'kickoff_utc':report['kickoff_utc'],'date_lima':utc(report['kickoff_utc']).tz_convert('America/Lima').date().isoformat(),'prediction_generated_at':report['generated_at'],'cutoff':report['cutoff'],'tiers':tiers,'markets':by_market,'parlay_selection':pick,'market_priority':'goals_and_results_first','market_reference':None if record is None else {k:record[k] for k in ['price_set','home','draw','away','over25','under25','retrieved_at','source']},'betano_reference':None if betano is None else {'betano_id':betano['betano_id'],'kickoff_utc_betano':betano['kickoff_utc'],'kickoff_matches':utc(betano['kickoff_utc'])==utc(report['kickoff_utc']),'observed_at':betano['observed_at'],'result_odds':betano['result'],'capture':betano['capture']},'coherence':'Las tres selecciones del partido no se contradicen: ninguna apuesta en sentido opuesto a otra sobre el margen del partido o el total de goles.','selection_rule':'v7: cuota mínima por nivel (Conservadora ≥1,30, Normal ≥1,60, Arriesgada ≥1,90), sin líneas triviales y priorizando patrones cumplidos en todos los partidos recientes de ambos equipos.','limited_european_sample':report['competition']=='UEFA Champions League'}
 
 def choose_parlay(pool,size,as_of):
     """No same-game multiplication or repeated team across legs. Never pad."""
@@ -352,6 +420,7 @@ def publish_recommendations(predictions,stats=None):
     data['bookmaker']['market_reference_fixtures']=sum(m.get('market_reference') is not None for m in data['matches'])
     data['policy']['feedback']='Se revisan los resultados publicados por familia de mercado y por selección del equipo. Dos fallos recientes del mismo equipo y línea bloquean su repetición si no hay dos aciertos consecutivos de respaldo actual. Conservadoras y combinadas exigen al menos 2/3 cumplimientos recientes en ambas muestras. El ajuste ordena o filtra; no infla las probabilidades.'
     apply_editorial_overrides(data,predictions,stats)
+    data['policy']['selection_v7']='Desde el 2/11/2026: Conservadora con cuota ≥1,30, Normal ≥1,60 y Arriesgada ≥1,90 (cuota Betano si está capturada; si no, cuota justa del modelo). Se excluyen líneas que pagan el mínimo (un equipo con menos de 2,5 goles o más, menos de 4,5 goles en el partido, hándicap +2,5). Se prioriza el patrón que se cumplió en todos los últimos partidos de ambos equipos en su localía. Remates, tiros al arco, faltas y córners se ajustan al nivel de la temporada actual. Prueba histórica: data/artifacts/fijas_v7_backtest.json.'
     data['policy']['priority']='Se priorizan ganador, doble oportunidad, hándicap, ambos marcan, goles y resultado con goles entre las propuestas que cumplen los mismos filtros de respaldo y precio. Remates, tiros al arco, faltas y córners son complementarios. La prioridad no modifica las probabilidades del modelo.'
     data['policy']['streaks']='Cada muestra muestra los aciertos consecutivos más recientes de la selección, hasta cinco observaciones válidas. Es un dato descriptivo para revisar la continuidad, no un multiplicador de probabilidad.'
     data['bookmaker'].update(observed_odds_records=len(quote_records),observed_fixtures=len({r['fixture_id'] for r in quote_records}),latest_quote_observation=max((r['observed_at'] for r in quote_records),default=None),live_odds_available=False)

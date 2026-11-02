@@ -1,6 +1,6 @@
 {
   "date": "2026-10-28",
-  "reviewed_at": "2026-10-29T21:35:46.623893+00:00",
+  "reviewed_at": "2026-10-31T11:31:28.623723+00:00",
   "summary": {
     "matches": 5,
     "hits_1x2": 2,
@@ -171,160 +171,6 @@
       "source_url": "https://www.espn.com/soccer/match/_/gameId/401874993/bologna-ac-milan"
     },
     {
-      "fixture_id": "558553",
-      "date": "2026-10-28",
-      "league": "Serie A",
-      "home": "Parma",
-      "away": "Udinese",
-      "generated_at": "2026-10-26T23:44:59.331580+00:00",
-      "kickoff_utc": "2026-10-28T17:30Z",
-      "forecast_original_date": "2026-10-28",
-      "forecast_original_kickoff_utc": "2026-10-28T17:30:00+00:00",
-      "schedule_change": null,
-      "probabilities": [
-        0.3172017021652293,
-        0.3041990921350291,
-        0.37859920569974165
-      ],
-      "actual_goals": [
-        0,
-        0
-      ],
-      "actual_outcome": 1,
-      "predicted_outcome": 2,
-      "hit_1x2": false,
-      "predicted_score": "1-1",
-      "actual_score": "0-0",
-      "hit_exact": false,
-      "btts_probability": 0.44496475274398184,
-      "hit_btts": true,
-      "brier": 0.728093181798712,
-      "log_loss": 1.190072883595885,
-      "goal_lines": [
-        {
-          "line": 0.5,
-          "hit": false
-        },
-        {
-          "line": 1.5,
-          "hit": false
-        },
-        {
-          "line": 2.5,
-          "hit": true
-        },
-        {
-          "line": 3.5,
-          "hit": true
-        }
-      ],
-      "statistics": [
-        {
-          "metric": "goals",
-          "forecast": [
-            1.0279069642470169,
-            1.1516280019847838
-          ],
-          "actual": [
-            0,
-            0
-          ],
-          "predicted_total": 2.1795349662318007,
-          "actual_total": 0,
-          "absolute_error_total": 2.1795349662318007,
-          "interval_90": null,
-          "inside_interval": null
-        },
-        {
-          "metric": "shots",
-          "forecast": [
-            13.257377445164206,
-            12.033535630230771
-          ],
-          "actual": [
-            8,
-            20
-          ],
-          "predicted_total": 25.290913075394975,
-          "actual_total": 28,
-          "absolute_error_total": 2.7090869246050246,
-          "interval_90": null,
-          "inside_interval": null
-        },
-        {
-          "metric": "sot",
-          "forecast": [
-            3.7113862281556838,
-            4.084633987280498
-          ],
-          "actual": [
-            2,
-            5
-          ],
-          "predicted_total": 7.796020215436182,
-          "actual_total": 7,
-          "absolute_error_total": 0.7960202154361822,
-          "interval_90": null,
-          "inside_interval": null
-        },
-        {
-          "metric": "fouls",
-          "forecast": [
-            9.9588206603997,
-            13.858027930485463
-          ],
-          "actual": [
-            12,
-            14
-          ],
-          "predicted_total": 23.816848590885165,
-          "actual_total": 26,
-          "absolute_error_total": 2.183151409114835,
-          "interval_90": null,
-          "inside_interval": null
-        },
-        {
-          "metric": "corners",
-          "forecast": [
-            5.0031775562453635,
-            4.091636057724894
-          ],
-          "actual": [
-            3,
-            6
-          ],
-          "predicted_total": 9.094813613970256,
-          "actual_total": 9,
-          "absolute_error_total": 0.09481361397025623,
-          "interval_90": [
-            4,
-            15
-          ],
-          "inside_interval": true
-        },
-        {
-          "metric": "cards",
-          "forecast": [
-            1.6662315245681434,
-            2.057127698396327
-          ],
-          "actual": [
-            1,
-            2
-          ],
-          "predicted_total": 3.7233592229644703,
-          "actual_total": 3,
-          "absolute_error_total": 0.7233592229644703,
-          "interval_90": [
-            1,
-            7
-          ],
-          "inside_interval": true
-        }
-      ],
-      "source_url": "https://www.espn.com/soccer/match/_/gameId/401874965/udinese-parma"
-    },
-    {
       "fixture_id": "558550",
       "date": "2026-10-28",
       "league": "Serie A",
@@ -477,6 +323,160 @@
         }
       ],
       "source_url": "https://www.espn.com/soccer/match/_/gameId/401874773/internazionale-venezia"
+    },
+    {
+      "fixture_id": "558553",
+      "date": "2026-10-28",
+      "league": "Serie A",
+      "home": "Parma",
+      "away": "Udinese",
+      "generated_at": "2026-10-26T23:44:59.331580+00:00",
+      "kickoff_utc": "2026-10-28T17:30Z",
+      "forecast_original_date": "2026-10-28",
+      "forecast_original_kickoff_utc": "2026-10-28T17:30:00+00:00",
+      "schedule_change": null,
+      "probabilities": [
+        0.3172017021652293,
+        0.3041990921350291,
+        0.37859920569974165
+      ],
+      "actual_goals": [
+        0,
+        0
+      ],
+      "actual_outcome": 1,
+      "predicted_outcome": 2,
+      "hit_1x2": false,
+      "predicted_score": "1-1",
+      "actual_score": "0-0",
+      "hit_exact": false,
+      "btts_probability": 0.44496475274398184,
+      "hit_btts": true,
+      "brier": 0.728093181798712,
+      "log_loss": 1.190072883595885,
+      "goal_lines": [
+        {
+          "line": 0.5,
+          "hit": false
+        },
+        {
+          "line": 1.5,
+          "hit": false
+        },
+        {
+          "line": 2.5,
+          "hit": true
+        },
+        {
+          "line": 3.5,
+          "hit": true
+        }
+      ],
+      "statistics": [
+        {
+          "metric": "goals",
+          "forecast": [
+            1.0279069642470169,
+            1.1516280019847838
+          ],
+          "actual": [
+            0,
+            0
+          ],
+          "predicted_total": 2.1795349662318007,
+          "actual_total": 0,
+          "absolute_error_total": 2.1795349662318007,
+          "interval_90": null,
+          "inside_interval": null
+        },
+        {
+          "metric": "shots",
+          "forecast": [
+            13.257377445164206,
+            12.033535630230771
+          ],
+          "actual": [
+            8,
+            20
+          ],
+          "predicted_total": 25.290913075394975,
+          "actual_total": 28,
+          "absolute_error_total": 2.7090869246050246,
+          "interval_90": null,
+          "inside_interval": null
+        },
+        {
+          "metric": "sot",
+          "forecast": [
+            3.7113862281556838,
+            4.084633987280498
+          ],
+          "actual": [
+            2,
+            5
+          ],
+          "predicted_total": 7.796020215436182,
+          "actual_total": 7,
+          "absolute_error_total": 0.7960202154361822,
+          "interval_90": null,
+          "inside_interval": null
+        },
+        {
+          "metric": "fouls",
+          "forecast": [
+            9.9588206603997,
+            13.858027930485463
+          ],
+          "actual": [
+            12,
+            14
+          ],
+          "predicted_total": 23.816848590885165,
+          "actual_total": 26,
+          "absolute_error_total": 2.183151409114835,
+          "interval_90": null,
+          "inside_interval": null
+        },
+        {
+          "metric": "corners",
+          "forecast": [
+            5.0031775562453635,
+            4.091636057724894
+          ],
+          "actual": [
+            3,
+            6
+          ],
+          "predicted_total": 9.094813613970256,
+          "actual_total": 9,
+          "absolute_error_total": 0.09481361397025623,
+          "interval_90": [
+            4,
+            15
+          ],
+          "inside_interval": true
+        },
+        {
+          "metric": "cards",
+          "forecast": [
+            1.6662315245681434,
+            2.057127698396327
+          ],
+          "actual": [
+            1,
+            2
+          ],
+          "predicted_total": 3.7233592229644703,
+          "actual_total": 3,
+          "absolute_error_total": 0.7233592229644703,
+          "interval_90": [
+            1,
+            7
+          ],
+          "inside_interval": true
+        }
+      ],
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401874965/udinese-parma"
     },
     {
       "fixture_id": "558552",
@@ -788,5 +788,7 @@
     }
   ],
   "deferred": [],
+  "pending": [],
+  "advanced": [],
   "original_predictions_sha256": "6f35171c8fbdc85230abe1ac1a514c3b09af3b03c3ecd7f3fb7be312e4ae97f3"
 }

@@ -27,7 +27,7 @@ import pandas as pd
 from data_store import canonical_team, season_for, today_local, validate_stats
 from ingest_champions_matchday import parse_event, ESPN_NAMES
 from ingest_verified_range import ESPN_ALIASES, LEAGUES
-from paths import DATA_DIR, ARTIFACT_DIR, WEB_DIR
+from paths import DATA_DIR, ARTIFACT_DIR, WEB_DIR, PRIVATE_DIR
 from settings import secret
 from safe_io import safe_replace
 
@@ -476,7 +476,7 @@ def main(days=3, end=None, source_dir=None, apply=True, post=True, data_dir=DATA
             reviews[day] = {'ingestion': 'sin finales todavía'};continue
         record['added_rows_this_run'] = 2 * sum(r['date'] == day for r in added)
         archive = artifact_dir/'daily_reviews'/day
-        dump(archive/'ingestion.json', record);dump(web_dir/'data'/f'actuals_{day}.json', record)
+        dump(archive/'ingestion.json', record);dump(artifact_dir/'resultados_privados'/f'actuals_{day}.json', record)
         if not post or not record['matches']:continue
         try:
             from review_ingested_matchday import main as review

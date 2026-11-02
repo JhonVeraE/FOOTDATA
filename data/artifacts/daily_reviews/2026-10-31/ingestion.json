@@ -1,0 +1,1340 @@
+{
+  "date": "2026-10-31",
+  "ingested_at": "2026-11-02T16:57:11.647918+00:00",
+  "provider": "ESPN final boxscores (automatic daily update); scores cross-checked with football-data.org when reachable",
+  "matches": [
+    {
+      "espn_event_id": "401882820",
+      "kickoff_utc": "2026-10-31T13:00Z",
+      "home": "Levante",
+      "away": "Ath Madrid",
+      "metrics": {
+        "goals": [
+          0,
+          2
+        ],
+        "shots": [
+          20,
+          11
+        ],
+        "sot": [
+          4,
+          5
+        ],
+        "fouls": [
+          7,
+          7
+        ],
+        "corners": [
+          5,
+          3
+        ],
+        "cards": [
+          0,
+          0
+        ]
+      },
+      "yellow": [
+        0,
+        0
+      ],
+      "red": [
+        0,
+        0
+      ],
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401882820/atletico-madrid-levante",
+      "match_id": "La Liga_2026/27_espn_401882820",
+      "fixture_id": "564730",
+      "date": "2026-10-31",
+      "league": "La Liga",
+      "round": 11,
+      "provider": "ESPN",
+      "score_verification": {
+        "fixture_id": "564730",
+        "date": "2026-10-31",
+        "home": "Levante",
+        "away": "Ath Madrid",
+        "goals": [
+          0,
+          2
+        ],
+        "status": "verified",
+        "source": "football-data.org",
+        "source_url": "https://api.football-data.org/v4/matches/564730"
+      }
+    },
+    {
+      "espn_event_id": "401882818",
+      "kickoff_utc": "2026-10-31T15:15Z",
+      "home": "Vallecano",
+      "away": "Celta",
+      "metrics": {
+        "goals": [
+          3,
+          0
+        ],
+        "shots": [
+          14,
+          11
+        ],
+        "sot": [
+          8,
+          0
+        ],
+        "fouls": [
+          11,
+          16
+        ],
+        "corners": [
+          4,
+          3
+        ],
+        "cards": [
+          2,
+          1
+        ]
+      },
+      "yellow": [
+        2,
+        1
+      ],
+      "red": [
+        0,
+        0
+      ],
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401882818/celta-vigo-rayo-vallecano",
+      "match_id": "La Liga_2026/27_espn_401882818",
+      "fixture_id": "564735",
+      "date": "2026-10-31",
+      "league": "La Liga",
+      "round": 11,
+      "provider": "ESPN",
+      "score_verification": {
+        "fixture_id": "564735",
+        "date": "2026-10-31",
+        "home": "Vallecano",
+        "away": "Celta",
+        "goals": [
+          3,
+          0
+        ],
+        "status": "verified",
+        "source": "football-data.org",
+        "source_url": "https://api.football-data.org/v4/matches/564735"
+      }
+    },
+    {
+      "espn_event_id": "401882825",
+      "kickoff_utc": "2026-10-31T17:30Z",
+      "home": "Betis",
+      "away": "Malaga",
+      "metrics": {
+        "goals": [
+          2,
+          1
+        ],
+        "shots": [
+          23,
+          10
+        ],
+        "sot": [
+          6,
+          4
+        ],
+        "fouls": [
+          10,
+          15
+        ],
+        "corners": [
+          10,
+          3
+        ],
+        "cards": [
+          2,
+          2
+        ]
+      },
+      "yellow": [
+        2,
+        2
+      ],
+      "red": [
+        0,
+        0
+      ],
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401882825/malaga-real-betis",
+      "match_id": "La Liga_2026/27_espn_401882825",
+      "fixture_id": "564736",
+      "date": "2026-10-31",
+      "league": "La Liga",
+      "round": 11,
+      "provider": "ESPN",
+      "score_verification": {
+        "fixture_id": "564736",
+        "date": "2026-10-31",
+        "home": "Betis",
+        "away": "Malaga",
+        "goals": [
+          2,
+          1
+        ],
+        "status": "verified",
+        "source": "football-data.org",
+        "source_url": "https://api.football-data.org/v4/matches/564736"
+      }
+    },
+    {
+      "espn_event_id": "401882822",
+      "kickoff_utc": "2026-10-31T20:00Z",
+      "home": "Barcelona",
+      "away": "Alaves",
+      "metrics": {
+        "goals": [
+          6,
+          1
+        ],
+        "shots": [
+          13,
+          7
+        ],
+        "sot": [
+          7,
+          3
+        ],
+        "fouls": [
+          14,
+          11
+        ],
+        "corners": [
+          4,
+          3
+        ],
+        "cards": [
+          2,
+          3
+        ]
+      },
+      "yellow": [
+        2,
+        3
+      ],
+      "red": [
+        0,
+        0
+      ],
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401882822/alaves-barcelona",
+      "match_id": "La Liga_2026/27_espn_401882822",
+      "fixture_id": "564732",
+      "date": "2026-10-31",
+      "league": "La Liga",
+      "round": 11,
+      "provider": "ESPN",
+      "score_verification": {
+        "fixture_id": "564732",
+        "date": "2026-10-31",
+        "home": "Barcelona",
+        "away": "Alaves",
+        "goals": [
+          6,
+          1
+        ],
+        "status": "verified",
+        "source": "football-data.org",
+        "source_url": "https://api.football-data.org/v4/matches/564732"
+      }
+    },
+    {
+      "espn_event_id": "401879248",
+      "kickoff_utc": "2026-10-31T12:30Z",
+      "home": "Chelsea",
+      "away": "Man United",
+      "metrics": {
+        "goals": [
+          2,
+          0
+        ],
+        "shots": [
+          18,
+          12
+        ],
+        "sot": [
+          9,
+          5
+        ],
+        "fouls": [
+          8,
+          20
+        ],
+        "corners": [
+          8,
+          7
+        ],
+        "cards": [
+          1,
+          5
+        ]
+      },
+      "yellow": [
+        1,
+        4
+      ],
+      "red": [
+        0,
+        1
+      ],
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401879248/manchester-united-chelsea",
+      "match_id": "Premier League_2026/27_espn_401879248",
+      "fixture_id": "560626",
+      "date": "2026-10-31",
+      "league": "Premier League",
+      "round": 9,
+      "provider": "ESPN",
+      "score_verification": {
+        "fixture_id": "560626",
+        "date": "2026-10-31",
+        "home": "Chelsea",
+        "away": "Man United",
+        "goals": [
+          2,
+          0
+        ],
+        "status": "verified",
+        "source": "football-data.org",
+        "source_url": "https://api.football-data.org/v4/matches/560626"
+      }
+    },
+    {
+      "espn_event_id": "401879245",
+      "kickoff_utc": "2026-10-31T15:00Z",
+      "home": "Man City",
+      "away": "Brighton",
+      "metrics": {
+        "goals": [
+          0,
+          1
+        ],
+        "shots": [
+          21,
+          7
+        ],
+        "sot": [
+          6,
+          3
+        ],
+        "fouls": [
+          9,
+          13
+        ],
+        "corners": [
+          8,
+          2
+        ],
+        "cards": [
+          0,
+          3
+        ]
+      },
+      "yellow": [
+        0,
+        3
+      ],
+      "red": [
+        0,
+        0
+      ],
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401879245/brighton-hove-albion-manchester-city",
+      "match_id": "Premier League_2026/27_espn_401879245",
+      "fixture_id": "560623",
+      "date": "2026-10-31",
+      "league": "Premier League",
+      "round": 9,
+      "provider": "ESPN",
+      "score_verification": {
+        "fixture_id": "560623",
+        "date": "2026-10-31",
+        "home": "Man City",
+        "away": "Brighton",
+        "goals": [
+          0,
+          1
+        ],
+        "status": "verified",
+        "source": "football-data.org",
+        "source_url": "https://api.football-data.org/v4/matches/560623"
+      }
+    },
+    {
+      "espn_event_id": "401879251",
+      "kickoff_utc": "2026-10-31T15:00Z",
+      "home": "Bournemouth",
+      "away": "Leeds",
+      "metrics": {
+        "goals": [
+          2,
+          0
+        ],
+        "shots": [
+          11,
+          10
+        ],
+        "sot": [
+          5,
+          1
+        ],
+        "fouls": [
+          12,
+          15
+        ],
+        "corners": [
+          4,
+          4
+        ],
+        "cards": [
+          2,
+          2
+        ]
+      },
+      "yellow": [
+        2,
+        2
+      ],
+      "red": [
+        0,
+        0
+      ],
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401879251/leeds-united-afc-bournemouth",
+      "match_id": "Premier League_2026/27_espn_401879251",
+      "fixture_id": "560624",
+      "date": "2026-10-31",
+      "league": "Premier League",
+      "round": 9,
+      "provider": "ESPN",
+      "score_verification": {
+        "fixture_id": "560624",
+        "date": "2026-10-31",
+        "home": "Bournemouth",
+        "away": "Leeds",
+        "goals": [
+          2,
+          0
+        ],
+        "status": "verified",
+        "source": "football-data.org",
+        "source_url": "https://api.football-data.org/v4/matches/560624"
+      }
+    },
+    {
+      "espn_event_id": "401879247",
+      "kickoff_utc": "2026-10-31T15:00Z",
+      "home": "Coventry",
+      "away": "Sunderland",
+      "metrics": {
+        "goals": [
+          3,
+          1
+        ],
+        "shots": [
+          12,
+          17
+        ],
+        "sot": [
+          4,
+          2
+        ],
+        "fouls": [
+          16,
+          9
+        ],
+        "corners": [
+          4,
+          4
+        ],
+        "cards": [
+          2,
+          1
+        ]
+      },
+      "yellow": [
+        2,
+        0
+      ],
+      "red": [
+        0,
+        1
+      ],
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401879247/sunderland-coventry-city",
+      "match_id": "Premier League_2026/27_espn_401879247",
+      "fixture_id": "560625",
+      "date": "2026-10-31",
+      "league": "Premier League",
+      "round": 9,
+      "provider": "ESPN",
+      "score_verification": {
+        "fixture_id": "560625",
+        "date": "2026-10-31",
+        "home": "Coventry",
+        "away": "Sunderland",
+        "goals": [
+          3,
+          1
+        ],
+        "status": "verified",
+        "source": "football-data.org",
+        "source_url": "https://api.football-data.org/v4/matches/560625"
+      }
+    },
+    {
+      "espn_event_id": "401878763",
+      "kickoff_utc": "2026-10-31T15:00Z",
+      "home": "Hull",
+      "away": "Ipswich",
+      "metrics": {
+        "goals": [
+          2,
+          2
+        ],
+        "shots": [
+          9,
+          15
+        ],
+        "sot": [
+          3,
+          3
+        ],
+        "fouls": [
+          13,
+          12
+        ],
+        "corners": [
+          6,
+          3
+        ],
+        "cards": [
+          3,
+          3
+        ]
+      },
+      "yellow": [
+        3,
+        3
+      ],
+      "red": [
+        0,
+        0
+      ],
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401878763/ipswich-town-hull-city",
+      "match_id": "Premier League_2026/27_espn_401878763",
+      "fixture_id": "560629",
+      "date": "2026-10-31",
+      "league": "Premier League",
+      "round": 9,
+      "provider": "ESPN",
+      "score_verification": {
+        "fixture_id": "560629",
+        "date": "2026-10-31",
+        "home": "Hull",
+        "away": "Ipswich",
+        "goals": [
+          2,
+          2
+        ],
+        "status": "verified",
+        "source": "football-data.org",
+        "source_url": "https://api.football-data.org/v4/matches/560629"
+      }
+    },
+    {
+      "espn_event_id": "401879249",
+      "kickoff_utc": "2026-10-31T15:00Z",
+      "home": "Brentford",
+      "away": "Nott'm Forest",
+      "metrics": {
+        "goals": [
+          2,
+          0
+        ],
+        "shots": [
+          7,
+          15
+        ],
+        "sot": [
+          1,
+          1
+        ],
+        "fouls": [
+          6,
+          17
+        ],
+        "corners": [
+          3,
+          4
+        ],
+        "cards": [
+          1,
+          3
+        ]
+      },
+      "yellow": [
+        1,
+        3
+      ],
+      "red": [
+        0,
+        0
+      ],
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401879249/nottingham-forest-brentford",
+      "match_id": "Premier League_2026/27_espn_401879249",
+      "fixture_id": "560630",
+      "date": "2026-10-31",
+      "league": "Premier League",
+      "round": 9,
+      "provider": "ESPN",
+      "score_verification": {
+        "fixture_id": "560630",
+        "date": "2026-10-31",
+        "home": "Brentford",
+        "away": "Nott'm Forest",
+        "goals": [
+          2,
+          0
+        ],
+        "status": "verified",
+        "source": "football-data.org",
+        "source_url": "https://api.football-data.org/v4/matches/560630"
+      }
+    },
+    {
+      "espn_event_id": "401878761",
+      "kickoff_utc": "2026-10-31T17:30Z",
+      "home": "Tottenham",
+      "away": "Crystal Palace",
+      "metrics": {
+        "goals": [
+          2,
+          0
+        ],
+        "shots": [
+          34,
+          2
+        ],
+        "sot": [
+          9,
+          1
+        ],
+        "fouls": [
+          8,
+          10
+        ],
+        "corners": [
+          19,
+          0
+        ],
+        "cards": [
+          1,
+          2
+        ]
+      },
+      "yellow": [
+        1,
+        1
+      ],
+      "red": [
+        0,
+        1
+      ],
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401878761/crystal-palace-tottenham-hotspur",
+      "match_id": "Premier League_2026/27_espn_401878761",
+      "fixture_id": "560627",
+      "date": "2026-10-31",
+      "league": "Premier League",
+      "round": 9,
+      "provider": "ESPN",
+      "score_verification": {
+        "fixture_id": "560627",
+        "date": "2026-10-31",
+        "home": "Tottenham",
+        "away": "Crystal Palace",
+        "goals": [
+          2,
+          0
+        ],
+        "status": "verified",
+        "source": "football-data.org",
+        "source_url": "https://api.football-data.org/v4/matches/560627"
+      }
+    },
+    {
+      "espn_event_id": "401879250",
+      "kickoff_utc": "2026-10-31T20:00Z",
+      "home": "Aston Villa",
+      "away": "Fulham",
+      "metrics": {
+        "goals": [
+          1,
+          1
+        ],
+        "shots": [
+          16,
+          14
+        ],
+        "sot": [
+          3,
+          5
+        ],
+        "fouls": [
+          7,
+          12
+        ],
+        "corners": [
+          7,
+          7
+        ],
+        "cards": [
+          1,
+          3
+        ]
+      },
+      "yellow": [
+        1,
+        3
+      ],
+      "red": [
+        0,
+        0
+      ],
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401879250/fulham-aston-villa",
+      "match_id": "Premier League_2026/27_espn_401879250",
+      "fixture_id": "560628",
+      "date": "2026-10-31",
+      "league": "Premier League",
+      "round": 9,
+      "provider": "ESPN",
+      "score_verification": {
+        "fixture_id": "560628",
+        "date": "2026-10-31",
+        "home": "Aston Villa",
+        "away": "Fulham",
+        "goals": [
+          1,
+          1
+        ],
+        "status": "verified",
+        "source": "football-data.org",
+        "source_url": "https://api.football-data.org/v4/matches/560628"
+      }
+    },
+    {
+      "espn_event_id": "401884753",
+      "kickoff_utc": "2026-10-31T14:30Z",
+      "home": "Leverkusen",
+      "away": "Stuttgart",
+      "metrics": {
+        "goals": [
+          2,
+          4
+        ],
+        "shots": [
+          24,
+          15
+        ],
+        "sot": [
+          8,
+          7
+        ],
+        "fouls": [
+          9,
+          13
+        ],
+        "corners": [
+          12,
+          3
+        ],
+        "cards": [
+          4,
+          4
+        ]
+      },
+      "yellow": [
+        4,
+        4
+      ],
+      "red": [
+        0,
+        0
+      ],
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401884753/vfb-stuttgart-bayer-leverkusen",
+      "match_id": "Bundesliga_2026/27_espn_401884753",
+      "fixture_id": "565847",
+      "date": "2026-10-31",
+      "league": "Bundesliga",
+      "round": 8,
+      "provider": "ESPN",
+      "score_verification": {
+        "fixture_id": "565847",
+        "date": "2026-10-31",
+        "home": "Leverkusen",
+        "away": "Stuttgart",
+        "goals": [
+          2,
+          4
+        ],
+        "status": "verified",
+        "source": "football-data.org",
+        "source_url": "https://api.football-data.org/v4/matches/565847"
+      }
+    },
+    {
+      "espn_event_id": "401884748",
+      "kickoff_utc": "2026-10-31T14:30Z",
+      "home": "Werder Bremen",
+      "away": "Hoffenheim",
+      "metrics": {
+        "goals": [
+          2,
+          0
+        ],
+        "shots": [
+          18,
+          16
+        ],
+        "sot": [
+          4,
+          2
+        ],
+        "fouls": [
+          11,
+          11
+        ],
+        "corners": [
+          8,
+          4
+        ],
+        "cards": [
+          3,
+          0
+        ]
+      },
+      "yellow": [
+        3,
+        0
+      ],
+      "red": [
+        0,
+        0
+      ],
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401884748/tsg-hoffenheim-werder-bremen",
+      "match_id": "Bundesliga_2026/27_espn_401884748",
+      "fixture_id": "565843",
+      "date": "2026-10-31",
+      "league": "Bundesliga",
+      "round": 8,
+      "provider": "ESPN",
+      "score_verification": {
+        "fixture_id": "565843",
+        "date": "2026-10-31",
+        "home": "Werder Bremen",
+        "away": "Hoffenheim",
+        "goals": [
+          2,
+          0
+        ],
+        "status": "verified",
+        "source": "football-data.org",
+        "source_url": "https://api.football-data.org/v4/matches/565843"
+      }
+    },
+    {
+      "espn_event_id": "401884751",
+      "kickoff_utc": "2026-10-31T14:30Z",
+      "home": "Augsburg",
+      "away": "Freiburg",
+      "metrics": {
+        "goals": [
+          1,
+          2
+        ],
+        "shots": [
+          15,
+          10
+        ],
+        "sot": [
+          5,
+          2
+        ],
+        "fouls": [
+          7,
+          11
+        ],
+        "corners": [
+          1,
+          2
+        ],
+        "cards": [
+          0,
+          3
+        ]
+      },
+      "yellow": [
+        0,
+        3
+      ],
+      "red": [
+        0,
+        0
+      ],
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401884751/sc-freiburg-fc-augsburg",
+      "match_id": "Bundesliga_2026/27_espn_401884751",
+      "fixture_id": "565842",
+      "date": "2026-10-31",
+      "league": "Bundesliga",
+      "round": 8,
+      "provider": "ESPN",
+      "score_verification": {
+        "fixture_id": "565842",
+        "date": "2026-10-31",
+        "home": "Augsburg",
+        "away": "Freiburg",
+        "goals": [
+          1,
+          2
+        ],
+        "status": "verified",
+        "source": "football-data.org",
+        "source_url": "https://api.football-data.org/v4/matches/565842"
+      }
+    },
+    {
+      "espn_event_id": "401884747",
+      "kickoff_utc": "2026-10-31T14:30Z",
+      "home": "Schalke 04",
+      "away": "RB Leipzig",
+      "metrics": {
+        "goals": [
+          0,
+          2
+        ],
+        "shots": [
+          6,
+          18
+        ],
+        "sot": [
+          1,
+          10
+        ],
+        "fouls": [
+          16,
+          16
+        ],
+        "corners": [
+          3,
+          7
+        ],
+        "cards": [
+          2,
+          0
+        ]
+      },
+      "yellow": [
+        2,
+        0
+      ],
+      "red": [
+        0,
+        0
+      ],
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401884747/rb-leipzig-schalke-04",
+      "match_id": "Bundesliga_2026/27_espn_401884747",
+      "fixture_id": "565840",
+      "date": "2026-10-31",
+      "league": "Bundesliga",
+      "round": 8,
+      "provider": "ESPN",
+      "score_verification": {
+        "fixture_id": "565840",
+        "date": "2026-10-31",
+        "home": "Schalke 04",
+        "away": "RB Leipzig",
+        "goals": [
+          0,
+          2
+        ],
+        "status": "verified",
+        "source": "football-data.org",
+        "source_url": "https://api.football-data.org/v4/matches/565840"
+      }
+    },
+    {
+      "espn_event_id": "401884749",
+      "kickoff_utc": "2026-10-31T14:30Z",
+      "home": "M'gladbach",
+      "away": "Paderborn",
+      "metrics": {
+        "goals": [
+          0,
+          0
+        ],
+        "shots": [
+          12,
+          13
+        ],
+        "sot": [
+          4,
+          4
+        ],
+        "fouls": [
+          10,
+          9
+        ],
+        "corners": [
+          4,
+          7
+        ],
+        "cards": [
+          2,
+          3
+        ]
+      },
+      "yellow": [
+        2,
+        3
+      ],
+      "red": [
+        0,
+        0
+      ],
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401884749/sc-paderborn-07-borussia-monchengladbach",
+      "match_id": "Bundesliga_2026/27_espn_401884749",
+      "fixture_id": "565839",
+      "date": "2026-10-31",
+      "league": "Bundesliga",
+      "round": 8,
+      "provider": "ESPN",
+      "score_verification": {
+        "fixture_id": "565839",
+        "date": "2026-10-31",
+        "home": "M'gladbach",
+        "away": "Paderborn",
+        "goals": [
+          0,
+          0
+        ],
+        "status": "verified",
+        "source": "football-data.org",
+        "source_url": "https://api.football-data.org/v4/matches/565839"
+      }
+    },
+    {
+      "espn_event_id": "401884754",
+      "kickoff_utc": "2026-10-31T17:30Z",
+      "home": "Bayern Munich",
+      "away": "Dortmund",
+      "metrics": {
+        "goals": [
+          2,
+          2
+        ],
+        "shots": [
+          23,
+          12
+        ],
+        "sot": [
+          5,
+          6
+        ],
+        "fouls": [
+          11,
+          6
+        ],
+        "corners": [
+          5,
+          2
+        ],
+        "cards": [
+          2,
+          1
+        ]
+      },
+      "yellow": [
+        2,
+        1
+      ],
+      "red": [
+        0,
+        0
+      ],
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401884754/borussia-dortmund-bayern-munich",
+      "match_id": "Bundesliga_2026/27_espn_401884754",
+      "fixture_id": "565845",
+      "date": "2026-10-31",
+      "league": "Bundesliga",
+      "round": 8,
+      "provider": "ESPN",
+      "score_verification": {
+        "fixture_id": "565845",
+        "date": "2026-10-31",
+        "home": "Bayern Munich",
+        "away": "Dortmund",
+        "goals": [
+          2,
+          2
+        ],
+        "status": "verified",
+        "source": "football-data.org",
+        "source_url": "https://api.football-data.org/v4/matches/565845"
+      }
+    },
+    {
+      "espn_event_id": "401874798",
+      "kickoff_utc": "2026-10-31T14:00Z",
+      "home": "Bologna",
+      "away": "Monza",
+      "metrics": {
+        "goals": [
+          2,
+          1
+        ],
+        "shots": [
+          10,
+          6
+        ],
+        "sot": [
+          5,
+          4
+        ],
+        "fouls": [
+          13,
+          19
+        ],
+        "corners": [
+          5,
+          2
+        ],
+        "cards": [
+          4,
+          3
+        ]
+      },
+      "yellow": [
+        4,
+        3
+      ],
+      "red": [
+        0,
+        0
+      ],
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401874798/monza-bologna",
+      "match_id": "Serie A_2026/27_espn_401874798",
+      "fixture_id": "558539",
+      "date": "2026-10-31",
+      "league": "Serie A",
+      "round": 10,
+      "provider": "ESPN",
+      "score_verification": {
+        "fixture_id": "558539",
+        "date": "2026-10-31",
+        "home": "Bologna",
+        "away": "Monza",
+        "goals": [
+          2,
+          1
+        ],
+        "status": "verified",
+        "source": "football-data.org",
+        "source_url": "https://api.football-data.org/v4/matches/558539"
+      }
+    },
+    {
+      "espn_event_id": "401874990",
+      "kickoff_utc": "2026-10-31T17:00Z",
+      "home": "Udinese",
+      "away": "Roma",
+      "metrics": {
+        "goals": [
+          2,
+          5
+        ],
+        "shots": [
+          15,
+          14
+        ],
+        "sot": [
+          7,
+          9
+        ],
+        "fouls": [
+          11,
+          9
+        ],
+        "corners": [
+          7,
+          4
+        ],
+        "cards": [
+          1,
+          1
+        ]
+      },
+      "yellow": [
+        1,
+        1
+      ],
+      "red": [
+        0,
+        0
+      ],
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401874990/as-roma-udinese",
+      "match_id": "Serie A_2026/27_espn_401874990",
+      "fixture_id": "558542",
+      "date": "2026-10-31",
+      "league": "Serie A",
+      "round": 10,
+      "provider": "ESPN",
+      "score_verification": {
+        "fixture_id": "558542",
+        "date": "2026-10-31",
+        "home": "Udinese",
+        "away": "Roma",
+        "goals": [
+          2,
+          5
+        ],
+        "status": "verified",
+        "source": "football-data.org",
+        "source_url": "https://api.football-data.org/v4/matches/558542"
+      }
+    },
+    {
+      "espn_event_id": "401874795",
+      "kickoff_utc": "2026-10-31T19:45Z",
+      "home": "Milan",
+      "away": "Inter",
+      "metrics": {
+        "goals": [
+          3,
+          1
+        ],
+        "shots": [
+          7,
+          19
+        ],
+        "sot": [
+          4,
+          8
+        ],
+        "fouls": [
+          8,
+          14
+        ],
+        "corners": [
+          3,
+          11
+        ],
+        "cards": [
+          2,
+          1
+        ]
+      },
+      "yellow": [
+        2,
+        1
+      ],
+      "red": [
+        0,
+        0
+      ],
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401874795/internazionale-ac-milan",
+      "match_id": "Serie A_2026/27_espn_401874795",
+      "fixture_id": "558548",
+      "date": "2026-10-31",
+      "league": "Serie A",
+      "round": 10,
+      "provider": "ESPN",
+      "score_verification": {
+        "fixture_id": "558548",
+        "date": "2026-10-31",
+        "home": "Milan",
+        "away": "Inter",
+        "goals": [
+          3,
+          1
+        ],
+        "status": "verified",
+        "source": "football-data.org",
+        "source_url": "https://api.football-data.org/v4/matches/558548"
+      }
+    },
+    {
+      "espn_event_id": "401876413",
+      "kickoff_utc": "2026-10-31T19:45Z",
+      "home": "Troyes",
+      "away": "Le Mans",
+      "metrics": {
+        "goals": [
+          2,
+          0
+        ],
+        "shots": [
+          14,
+          3
+        ],
+        "sot": [
+          8,
+          1
+        ],
+        "fouls": [
+          15,
+          16
+        ],
+        "corners": [
+          4,
+          2
+        ],
+        "cards": [
+          3,
+          4
+        ]
+      },
+      "yellow": [
+        3,
+        4
+      ],
+      "red": [
+        0,
+        0
+      ],
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401876413/le-mans-troyes",
+      "match_id": "Ligue 1_2026/27_espn_401876413",
+      "fixture_id": "559643",
+      "date": "2026-10-31",
+      "league": "Ligue 1",
+      "round": 9,
+      "provider": "ESPN",
+      "score_verification": {
+        "fixture_id": "559643",
+        "date": "2026-10-31",
+        "home": "Troyes",
+        "away": "Le Mans",
+        "goals": [
+          2,
+          0
+        ],
+        "status": "verified",
+        "source": "football-data.org",
+        "source_url": "https://api.football-data.org/v4/matches/559643"
+      }
+    }
+  ],
+  "deferred": [],
+  "pending": [],
+  "advanced": [],
+  "added_rows_this_run": 44,
+  "scope": [
+    "La Liga",
+    "Premier League",
+    "Bundesliga",
+    "Serie A",
+    "Ligue 1",
+    "UEFA Champions League"
+  ],
+  "automation": "daily_update"
+}

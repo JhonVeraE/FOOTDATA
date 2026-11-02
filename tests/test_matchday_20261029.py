@@ -26,7 +26,7 @@ class October29ReviewTests(unittest.TestCase):
         self.assertEqual(len(late),2 if final else 0)
         if final:self.assertEqual(sorted(late.goals_for),[2,2])
     def test_pending_is_never_scored_and_final_is_settled(self):
-        r=json.loads((ROOT/'web/data/recommendation_review_2026-10-29.json').read_text(encoding='utf-8'))
+        r=json.loads((ROOT/'data/artifacts/resultados_privados/recommendation_review_2026-10-29.json').read_text(encoding='utf-8'))
         picks=[x for x in r['tiers'] if x['fixture_id']==FIORENTINA];final,p=fiorentina_final()
         self.assertEqual(len(picks),3)
         if final:

@@ -11,7 +11,16 @@ def daily(days=3):
     from daily_update import main as update
     report=update(days=days)
     if not report.get('healthy',True):sys.exit('ESPN inaccesible: actualización diaria abortada sin cambios.')
+    sync_private()
     return report
+
+def sync_private():
+    """Results and statistics go to the admin-only Supabase tables; never blocks the update."""
+    try:
+        from sync_supabase import main as sync
+        sync(since=None)
+    except Exception as exc:
+        print(f'Sincronización con Supabase no realizada ({type(exc).__name__}: {exc}); se continúa.')
 
 def weekly(excel=False,days=3):
     from settings import secret

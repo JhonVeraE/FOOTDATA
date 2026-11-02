@@ -9,7 +9,7 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 from data_store import canonical_team, validate_stats
-from paths import DATA_DIR, ARTIFACT_DIR, WEB_DIR
+from paths import DATA_DIR, ARTIFACT_DIR, WEB_DIR, PRIVATE_DIR
 from safe_io import safe_replace
 
 METRICS=['goals','shots','sot','fouls','corners','cards']
@@ -163,7 +163,7 @@ def main(capture_dir,date):
              'result_resolutions':list(resolutions.values()),
              'original_predictions_sha256':original_hash,'added_rows':len(combined)-len(pd.read_csv(backup/csv_path.name)),
              'added_rows_this_run':len(fresh),'dataset_rows':len(combined),'dataset_matches':int(combined.match_id.nunique())}
-    save(archive/'review.json',payload);save(WEB_DIR/'data'/f'review_{date}.json',payload);save(capture/'review.json',payload)
+    save(archive/'review.json',payload);save(PRIVATE_DIR/f'review_{date}.json',payload);save(capture/'review.json',payload)
     for name in ['sofascore_visible.json','targets.json','football_data_matches_range.json','predictions_before_results.json']:
         dest=archive/name
         if not dest.exists():shutil.copy2(capture/name,dest)

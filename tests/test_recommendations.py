@@ -7,7 +7,7 @@ import pandas as pd
 
 ROOT=Path(__file__).resolve().parents[1]
 sys.path.insert(0,str(ROOT/'src/live_data'))
-from recommendations import historical_context,candidates,make_match,choose_parlay,build_payload,event_values,evidence,supported,LEVELS,preferred_selection
+from recommendations import historical_context,candidates,make_match,choose_parlay,build_payload,event_values,evidence,supported,LEVELS,preferred_selection,TIERS_V7,eligible_v7,trivial,price
 from goal_model import market_summary,score_distribution
 
 
@@ -80,8 +80,11 @@ class RecommendationTests(unittest.TestCase):
         available=[c for c in selections if c]
         self.assertTrue(available);self.assertEqual(len({c['kind'] for c in available}),len(available))
         self.assertEqual([c['probability'] for c in available],sorted([c['probability'] for c in available],reverse=True))
-        for selection,level in zip(selections,LEVELS):
-            if selection:self.assertTrue(supported(selection));self.assertTrue(level[2]<=selection['probability']<level[3])
+        for selection,(_,_,bands) in zip(selections,TIERS_V7):
+            if selection:
+                # v7: every pick sits in one of its tier's price bands, passes the pattern gate and is never a trivial line.
+                self.assertTrue(any(eligible_v7(selection,*band) for band in bands))
+                self.assertFalse(trivial(selection));self.assertGreaterEqual(price(selection),1.25)
         empty=make_match(r,stats().iloc[:0]);self.assertTrue(all(t['selection'] is None for t in empty['tiers']))
         self.assertIsNone(empty['parlay_selection'])
 
@@ -147,3 +150,14 @@ class RecommendationTests(unittest.TestCase):
 
 
 if __name__=='__main__':unittest.main()
+
+
+class TrivialLineTests(unittest.TestCase):
+    def test_minimum_price_lines_are_never_fijas(self):
+        base={'evidence':{'contexts':[]}}
+        self.assertTrue(trivial({**base,'kind':'goals','scope':'away','side':'under','line':3.5}))
+        self.assertTrue(trivial({**base,'kind':'goals','scope':'home','side':'under','line':2.5}))
+        self.assertTrue(trivial({**base,'kind':'goals','scope':'total','side':'under','line':4.5}))
+        self.assertTrue(trivial({**base,'kind':'handicap','scope':'total','side':'home','line':2.5}))
+        self.assertFalse(trivial({**base,'kind':'goals','scope':'total','side':'under','line':2.5}))
+        self.assertFalse(trivial({**base,'kind':'goals','scope':'home','side':'under','line':1.5}))

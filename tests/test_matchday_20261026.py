@@ -24,12 +24,12 @@ class MondayReviewTests(unittest.TestCase):
         for p,value in before.items():self.assertEqual(p.read_bytes(),value)
 
     def test_psg_forecast_keeps_original_date_after_rescheduling(self):
-        review=json.loads((ROOT/'web/data/review_2026-10-26.json').read_text(encoding='utf-8'))
+        review=json.loads((ROOT/'data/artifacts/resultados_privados/review_2026-10-26.json').read_text(encoding='utf-8'))
         psg=next(m for m in review['matches'] if m['fixture_id']=='559648')
         self.assertEqual(psg['forecast_original_date'],'2026-10-25')
         self.assertEqual(psg['date'],'2026-10-26')
         self.assertTrue(psg['schedule_change']['source_url'])
-        picks=json.loads((ROOT/'web/data/recommendation_review_2026-10-26.json').read_text(encoding='utf-8'))
+        picks=json.loads((ROOT/'data/artifacts/resultados_privados/recommendation_review_2026-10-26.json').read_text(encoding='utf-8'))
         self.assertEqual(len([x for x in picks['tiers'] if x['fixture_id']=='559648']),3)
         self.assertEqual(len(picks['matches']),2)
         # Sunday's combined bet must not be relabelled as a Monday bet.

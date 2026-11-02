@@ -31,7 +31,7 @@
     <nav class="main-nav" aria-label="Navegación principal">
       <a href="#/" class="home-link" data-nav="home">Inicio</a>
       <a href="#/fijas" class="fijas-nav" data-nav="fijas">Fijas</a>
-      <a href="revision_ultima_jornada.html" data-nav="revision">Resultados</a>
+      <a href="#/admin?tab=resultados" data-nav="resultados" data-admin-only hidden>Resultados</a>
       <span class="season-label">TEMPORADA 26/27</span>
     </nav>
     <div id="account-slot" class="account-slot"></div>
@@ -39,16 +39,16 @@
   <main id="main" tabindex="-1"><div class="loading-state"><span class="loading-ball"></span><p>Cargando los partidos…</p></div></main>
   <footer class="site-footer">
     <div class="footer-top"><a class="footer-brand" href="#/">FOOT<span>DATA</span></a><p>El fútbol, leído con datos. Las probabilidades son estimaciones, no garantías. Juega con responsabilidad · +18.</p></div>
-    <div class="footer-links"><a href="#/fijas">Fijas</a><a href="revision_ultima_jornada.html">Resultados</a><a href="#/cuenta">Mi cuenta</a><span>Fútbol europeo · 2026/27</span></div>
+    <div class="footer-links"><a href="#/fijas">Fijas</a><a href="#/cuenta">Mi cuenta</a><span>Fútbol europeo · 2026/27</span></div>
   </footer>
   <nav class="tabbar" aria-label="Navegación móvil">
     <a href="#/" data-nav="home"><span aria-hidden="true">⌂</span>Inicio</a>
     <a href="#/fijas" data-nav="fijas"><span aria-hidden="true">★</span>Fijas</a>
-    <a href="revision_ultima_jornada.html" data-nav="revision"><span aria-hidden="true">✓</span>Resultados</a>
+    <a href="#/admin?tab=resultados" data-nav="resultados" data-admin-only hidden><span aria-hidden="true">✓</span>Resultados</a>
     <a href="#/cuenta" data-nav="cuenta"><span aria-hidden="true">●</span>Cuenta</a>
   </nav>
   <script>
-    (function(){function mark(){var r=(location.hash.replace(/^#\/?/,'').split(/[/?]/)[0])||'home';var key=r==='ingresar'||r==='registro'||r==='admin'?'cuenta':r;document.querySelectorAll('[data-nav]').forEach(function(a){a.classList.toggle('active',a.getAttribute('data-nav')===key);});}window.addEventListener('hashchange',mark);mark();})();
+    (function(){function mark(){var r=(location.hash.replace(/^#\/?/,'').split(/[/?]/)[0])||'home';var key=r==='admin'&&/tab=resultados/.test(location.hash)?'resultados':(r==='ingresar'||r==='registro'||r==='admin'?'cuenta':r);document.querySelectorAll('[data-nav]').forEach(function(a){a.classList.toggle('active',a.getAttribute('data-nav')===key);});}window.addEventListener('hashchange',mark);mark();})();
   </script>
 </body>
 </html>

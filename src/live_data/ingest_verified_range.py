@@ -13,7 +13,7 @@ from pathlib import Path
 import pandas as pd
 from data_store import canonical_team, validate_stats
 from ingest_champions_matchday import parse_event, identity
-from paths import DATA_DIR, ARTIFACT_DIR, WEB_DIR
+from paths import DATA_DIR, ARTIFACT_DIR, WEB_DIR, PRIVATE_DIR
 from review_matchday import save
 from safe_io import safe_replace
 
@@ -205,7 +205,7 @@ def main(capture_dir, apply=False):
             'pending':[p for p in pending.values() if p['date']==day],
             'added_rows_this_run':sum(r['date']==day for r in fresh),
             'scope':list(LEAGUES.values()),'capture_directory':str(capture/day)}
-        save(archive/'ingestion.json',record);save(WEB_DIR/'data'/f'actuals_{day}.json',record)
+        save(archive/'ingestion.json',record);save(PRIVATE_DIR/f'actuals_{day}.json',record)
     save(capture/'ingestion_summary.json',summary)
     for name,digest in original_hashes.items():
         if hashlib.sha256((WEB_DIR/'data'/name).read_bytes()).hexdigest()!=digest:

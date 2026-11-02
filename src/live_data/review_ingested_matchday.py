@@ -3,7 +3,7 @@ import argparse, hashlib, json, math
 from pathlib import Path
 from datetime import datetime, timezone
 import pandas as pd
-from paths import ARTIFACT_DIR, WEB_DIR
+from paths import ARTIFACT_DIR, WEB_DIR, PRIVATE_DIR
 from review_matchday import METRICS, save, outcome
 from review_recommendations import main as review_picks
 
@@ -50,7 +50,7 @@ def main(capture_dir, date, output=None):
         result = {'date':date,'summary':{'matches':0},'matches':[],
                   'reviewed_at':datetime.now(timezone.utc).isoformat(),
                   'note':'No hubo partidos de las cinco ligas o Champions en esta fecha.'}
-        save(archive/'review.json',result);save(WEB_DIR/'data'/f'review_{date}.json',result)
+        save(archive/'review.json',result);save(PRIVATE_DIR/f'review_{date}.json',result)
         print(json.dumps(result,ensure_ascii=False));return result
     rows = []
     for r in records:
@@ -92,7 +92,7 @@ def main(capture_dir, date, output=None):
     review = {'date': date, 'reviewed_at': datetime.now(timezone.utc).isoformat(), 'summary': summary,
               'matches': rows, 'deferred': deferred, 'pending':pending, 'advanced':advanced,
               'original_predictions_sha256': hashlib.sha256((capture/'predictions_before_results.json').read_bytes()).hexdigest()}
-    for path in [capture/'review.json', archive/'review.json', WEB_DIR/'data'/f'review_{date}.json']:
+    for path in [capture/'review.json', archive/'review.json', PRIVATE_DIR/f'review_{date}.json']:
         save(path, review)
     result = review_picks(capture, date, output)
     print(json.dumps({'forecast_summary': summary, 'parlays': result['parlays']}, ensure_ascii=False, indent=2))

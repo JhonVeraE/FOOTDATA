@@ -1,6 +1,6 @@
 {
   "date": "2026-10-30",
-  "reviewed_at": "2026-10-30T22:59:27.949358+00:00",
+  "reviewed_at": "2026-10-31T11:31:30.148749+00:00",
   "summary": {
     "matches": 5,
     "hits_1x2": 3,
@@ -44,7 +44,7 @@
       "hit_exact": false,
       "btts_probability": 0.5472921978415933,
       "hit_btts": false,
-      "brier": 1.16939801896911,
+      "brier": 1.1693980189691098,
       "log_loss": 1.8735277467241787,
       "goal_lines": [
         {
@@ -639,14 +639,14 @@
       "home": "Nice",
       "away": "Rennes",
       "generated_at": "2026-10-26T23:45:01.600219+00:00",
-      "kickoff_utc": "2026-10-30T18:00:00Z",
+      "kickoff_utc": "2026-10-30T18:00Z",
       "forecast_original_date": "2026-10-31",
       "forecast_original_kickoff_utc": "2026-10-31T16:15:00+00:00",
       "schedule_change": {
         "from_date": "2026-10-31",
         "from_kickoff_utc": "2026-10-31T16:15:00+00:00",
         "to_date": "2026-10-30",
-        "to_kickoff_utc": "2026-10-30T18:00:00Z",
+        "to_kickoff_utc": "2026-10-30T18:00Z",
         "direction": "adelantado"
       },
       "probabilities": [
@@ -790,7 +790,7 @@
           "inside_interval": true
         }
       ],
-      "source_url": "https://www.sofascore.com/football/match/nice-stade-rennais/iIslI#id:16310998,tab:statistics"
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401876416/stade-rennais-nice"
     }
   ],
   "deferred": [],

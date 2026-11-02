@@ -66,6 +66,7 @@ async function init(){
 // ───────────────────────────── Cabecera ──────────────────────────────
 function initials(text){return String(text||'?').trim().split(/[\s@._-]+/).filter(Boolean).map(t=>t[0]).slice(0,2).join('').toUpperCase()||'?';}
 function renderAccountSlot(){
+ document.querySelectorAll('[data-admin-only]').forEach(n=>{n.hidden=!isAdmin();});
  const slot=document.querySelector('#account-slot');if(!slot)return;slot.replaceChildren();
  if(!S.session){add(slot,a('#/ingresar','Ingresar','acc-login-link'),a('#/registro','Crear cuenta','acc-cta'));return;}
  const who=S.profile?.display_name||S.session.user.email;
@@ -73,7 +74,7 @@ function renderAccountSlot(){
  trigger.append(h('span',null,initials(who)));if(isAdmin())trigger.append(h('i','acc-badge-dot'));
  const menu=h('div','acc-dropdown');menu.hidden=true;menu.setAttribute('role','menu');
  const head=h('div','acc-dropdown-head');add(head,h('strong',null,who),h('small',null,isAdmin()?'Administrador':isPremium()?'Premium':'Plan gratis'));
- add(menu,head,a('#/cuenta','Mi cuenta'),a('#/cuenta?tab=fijas',`Mis fijas guardadas (${S.saved.size})`),isAdmin()?a('#/admin','Panel de administración'):null,btn('Cerrar sesión','acc-signout',async()=>{await sb.auth.signOut();go('#/');}));
+ add(menu,head,a('#/cuenta','Mi cuenta'),a('#/cuenta?tab=fijas',`Mis fijas guardadas (${S.saved.size})`),isAdmin()?a('#/admin','Panel de administración'):null,isAdmin()?a('#/admin?tab=resultados','Resultados'):null,btn('Cerrar sesión','acc-signout',async()=>{await sb.auth.signOut();go('#/');}));
  const close=()=>{menu.hidden=true;trigger.setAttribute('aria-expanded','false');};
  trigger.addEventListener('click',e=>{e.stopPropagation();menu.hidden=!menu.hidden;trigger.setAttribute('aria-expanded',String(!menu.hidden));});
  menu.addEventListener('click',e=>{if(e.target.closest('a'))close();});
@@ -214,7 +215,11 @@ async function adminPage(){
  if(!S.ready||!S.profile){shell('Administración','Cargando…');return true;}
  if(!isAdmin()){const page=shell('Administración','Acceso restringido','Esta sección es solo para administradores.');page.append(a('#/','Volver al inicio','acc-button'));return true;}
  document.title='Panel admin · FOOTDATA';
- const page=shell('Panel de administración','FOOTDATA · Control','Usuarios, planes y avisos de la web.');
+ const params=new URLSearchParams(location.hash.split('?')[1]||'');const tab=['resultados','datos'].includes(params.get('tab'))?params.get('tab'):'usuarios';
+ const page=shell('Panel de administración','FOOTDATA · Control',{usuarios:'Usuarios, planes y avisos de la web.',resultados:'Cómo terminaron las fijas y los partidos. Solo visible para administradores.',datos:'Base de datos de partidos con estadísticas.'}[tab]);
+ const nav=h('nav','acc-subnav');for(const [k,l] of [['usuarios','Usuarios y avisos'],['resultados','Resultados'],['datos','Estadísticas']])nav.append(a(`#/admin?tab=${k}`,l,k===tab?'active':''));page.append(nav);
+ if(tab==='resultados'){await resultsTab(page);return true;}
+ if(tab==='datos'){await dataTab(page);return true;}
  const stats=h('div','acc-stats');const users=h('div','acc-card');const ann=h('div','acc-card');add(page,stats,add(h('div','acc-admin-grid'),users,ann));
  // Estadísticas
  sb.rpc('admin_stats').then(({data,error})=>{
@@ -253,6 +258,63 @@ async function adminPage(){
   const {error}=await sb.from('announcements').insert({body:text,link_url:link||null});if(error){msg(abox,errorText(error));return;}body.value='';url.value='';msg(abox,'Aviso publicado en la web.','ok');loadAnn();loadAnnouncement();});
  add(ann,h('h2',null,'Aviso en la web'),h('p','acc-muted','Se muestra arriba de todas las páginas. El más reciente visible es el que se ve.'),form,list);loadAnn();
  return true;
+}
+
+
+// ───────────────────────── Resultados (solo admin) ───────────────────
+const TIERS=['Conservadora','Normal','Arriesgada'];
+const STAT_LABELS=[['shots','Remates'],['sot','Al arco'],['corners','Córners'],['fouls','Faltas'],['cards','Tarjetas']];
+const METRIC_ES={goals:'goles',shots:'remates',sot:'tiros al arco',corners:'córners',fouls:'faltas',cards:'tarjetas'};
+function pctText(w,n){return n?`${Math.round(w/n*100)}%`:'—';}
+function tierCard(name,won,settled,sub){const c=h('div','res-tier '+name.toLowerCase());add(c,h('span',null,name),h('strong',null,settled?`${won}/${settled}`:'—'),h('small',null,sub||pctText(won,settled)+' acierto'));return c;}
+async function resultsTab(page){
+ const box=h('div','res-wrap');page.append(box);box.append(h('p','acc-muted','Cargando resultados…'));
+ const [all,days]=await Promise.all([sb.from('pick_results').select('date,tier,status').limit(5000),sb.from('daily_reviews').select('date,summary').order('date',{ascending:false}).limit(60)]);
+ if(all.error||days.error){box.replaceChildren(h('p','acc-msg error',errorText(all.error||days.error)));return;}
+ box.replaceChildren();
+ if(!days.data.length){box.append(h('div','acc-card',null),h('p','acc-muted','Aún no hay resultados sincronizados. Se cargan solos con la actualización diaria.'));return;}
+ const totals=h('section','res-totals');totals.append(h('h2',null,'Acumulado'));const grid=h('div','res-tier-grid');
+ for(const t of TIERS){const rows=all.data.filter(r=>r.tier===t&&(r.status==='won'||r.status==='lost'));grid.append(tierCard(t,rows.filter(r=>r.status==='won').length,rows.length));}
+ const last7=days.data.slice(0,7).map(d=>d.date);const r7=all.data.filter(r=>last7.includes(r.date)&&(r.status==='won'||r.status==='lost'));
+ grid.append(tierCard('Últimos 7 días',r7.filter(r=>r.status==='won').length,r7.length,'todas las fijas'));totals.append(grid);box.append(totals);
+ const chips=h('div','res-dates');const detail=h('div','res-detail');add(box,add(h('section','res-day'),h('h2',null,'Por jornada'),chips,detail));
+ const show=async date=>{
+  chips.querySelectorAll('button').forEach(b=>b.classList.toggle('active',b.dataset.date===date));detail.replaceChildren(h('p','acc-muted','Cargando…'));
+  const picks=await sb.from('pick_results').select('*').eq('date',date);const ids=[...new Set((picks.data||[]).map(p=>p.fixture_id))];
+  const games=ids.length?await sb.from('match_results').select('*').in('fixture_id',ids):{data:[]};
+  if(picks.error){detail.replaceChildren(h('p','acc-msg error',errorText(picks.error)));return;}
+  const day=days.data.find(d=>d.date===date);const sum=h('div','res-tier-grid');
+  for(const t of TIERS){const rows=picks.data.filter(r=>r.tier===t&&(r.status==='won'||r.status==='lost'));sum.append(tierCard(t,rows.filter(r=>r.status==='won').length,rows.length));}
+  detail.replaceChildren(sum);
+  const byFixture=new Map();for(const p of picks.data){if(!byFixture.has(p.fixture_id))byFixture.set(p.fixture_id,[]);byFixture.get(p.fixture_id).push(p);}
+  const gameBy=new Map((games.data||[]).map(g=>[g.fixture_id,g]));const list=h('div','res-matches');
+  for(const [fid,ps] of byFixture){
+   const g=gameBy.get(fid);const card=h('article','res-match');const label=ps[0].match_label||(g?`${g.home} – ${g.away}`:fid);
+   const head=h('div','res-match-head');add(head,h('strong',null,label),h('span','res-score',g&&g.home_score!=null?`${g.home_score} – ${g.away_score}`:'sin dato'));card.append(head);
+   if(g?.forecast){const f=g.forecast;card.append(h('p','res-forecast',`Modelo: ${f.predicted_score||'—'} · 1X2 ${f.hit_1x2?'acertado':'fallado'} · ambos marcan ${f.hit_btts?'acertado':'fallado'}`));}
+   const pl=h('ul','res-picks');ps.sort((x,y)=>TIERS.indexOf(x.tier)-TIERS.indexOf(y.tier));
+   for(const p of ps){const li=h('li',p.status);add(li,h('i',null,p.status==='won'?'✓':p.status==='lost'?'✗':'·'),h('span','res-tierlabel',p.tier),h('span',null,p.label),h('small',null,p.metric&&p.actual_home!=null?`${METRIC_ES[p.metric]||p.metric}: ${p.actual_home}–${p.actual_away}`:p.status==='unverified'?'sin verificar':''));pl.append(li);}
+   card.append(pl);
+   if(g?.stats){const t=h('table','res-stats');const tb=h('tbody');for(const [k,l] of STAT_LABELS){const v=g.stats[k];if(!v||v[0]==null)continue;const tr=h('tr');add(tr,h('td',null,v[0]),h('th',null,l),h('td',null,v[1]));tb.append(tr);}if(tb.childElementCount){t.append(tb);card.append(t);}}
+   list.append(card);
+  }
+  detail.append(list);
+  if(day?.summary?.analysis?.length){const an=h('details','res-analysis');an.append(h('summary',null,'Análisis automático de la jornada'));const ul=h('ul');for(const x of day.summary.analysis)ul.append(h('li',null,x));an.append(ul);detail.append(an);}
+ };
+ for(const d of days.data){const b=btn(dateText(d.date+'T12:00:00Z'),'filter-chip',()=>show(d.date));b.dataset.date=d.date;chips.append(b);}
+ show(days.data[0].date);
+}
+async function dataTab(page){
+ const card=h('div','acc-card');const q=input('search','q',{placeholder:'Equipo (ej. Barcelona, Arsenal)…'});const out=h('div','res-matches');const info=h('p','acc-muted');
+ add(card,add(h('div','acc-card-head'),h('h2',null,'Partidos con estadísticas'),q),info,out);page.append(card);
+ const count=await sb.from('match_results').select('match_id',{count:'exact',head:true});info.textContent=count.error?errorText(count.error):`${count.count||0} partidos en la base de datos. Busca un equipo para ver sus últimos 20.`;
+ let timer;const run=async()=>{const v=q.value.trim();if(v.length<3){out.replaceChildren();return;}
+  const like=`%${v.replace(/[%_,()]/g,'')}%`;const {data,error}=await sb.from('match_results').select('*').or(`home.ilike.${like},away.ilike.${like}`).order('date',{ascending:false}).limit(20);
+  if(error){out.replaceChildren(h('p','acc-msg error',errorText(error)));return;}
+  out.replaceChildren(...data.map(g=>{const c=h('article','res-match');add(c,add(h('div','res-match-head'),h('strong',null,`${g.home} – ${g.away}`),h('span','res-score',`${g.home_score??'–'} – ${g.away_score??'–'}`)),h('p','res-forecast',`${dateText(g.date+'T12:00:00Z')} · ${g.league}`));
+   const t=h('table','res-stats');const tb=h('tbody');for(const [k,l] of STAT_LABELS){const v=g.stats?.[k];if(!v||v[0]==null)continue;const tr=h('tr');add(tr,h('td',null,v[0]),h('th',null,l),h('td',null,v[1]));tb.append(tr);}if(tb.childElementCount){t.append(tb);c.append(t);}return c;}));
+  if(!data.length)out.append(h('p','acc-muted','Sin partidos para esa búsqueda.'));};
+ q.addEventListener('input',()=>{clearTimeout(timer);timer=setTimeout(run,300);});
 }
 
 // ───────────────────────── Guardar fijas (botón) ─────────────────────

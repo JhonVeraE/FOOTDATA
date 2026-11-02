@@ -34,7 +34,7 @@ class OctoberRangeTests(unittest.TestCase):
         self.assertEqual(row.kickoff_time_utc,'16:15')
         self.assertEqual(row.status,'TIMED')
         self.assertTrue(pd.isna(row.home_score) and pd.isna(row.away_score))
-        review=json.loads((ROOT/'web/data/recommendation_review_2026-10-24.json').read_text(encoding='utf-8'))
+        review=json.loads((ROOT/'data/artifacts/resultados_privados/recommendation_review_2026-10-24.json').read_text(encoding='utf-8'))
         self.assertEqual(len(review['matches']),19)
         rows=[r for r in review['unique_selections'] if r['fixture_id']=='559655']
         self.assertTrue(rows)

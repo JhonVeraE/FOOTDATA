@@ -1,0 +1,4451 @@
+{
+  "date": "2026-10-31",
+  "reviewed_at": "2026-11-02T16:57:39.837783+00:00",
+  "frozen_shortlist_sha256": "fb1793c2ed7f1324fca26243a8f134886db08c8ec1de14268f1a93a5ac2d67b5",
+  "matches": [
+    {
+      "fixture_id": "564730",
+      "home": "Levante",
+      "away": "Ath Madrid",
+      "metrics": {
+        "goals": [
+          0,
+          2
+        ],
+        "shots": [
+          20,
+          11
+        ],
+        "sot": [
+          4,
+          5
+        ],
+        "fouls": [
+          7,
+          7
+        ],
+        "corners": [
+          5,
+          3
+        ],
+        "cards": [
+          0,
+          0
+        ]
+      },
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401882820/atletico-madrid-levante"
+    },
+    {
+      "fixture_id": "564735",
+      "home": "Vallecano",
+      "away": "Celta",
+      "metrics": {
+        "goals": [
+          3,
+          0
+        ],
+        "shots": [
+          14,
+          11
+        ],
+        "sot": [
+          8,
+          0
+        ],
+        "fouls": [
+          11,
+          16
+        ],
+        "corners": [
+          4,
+          3
+        ],
+        "cards": [
+          2,
+          1
+        ]
+      },
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401882818/celta-vigo-rayo-vallecano"
+    },
+    {
+      "fixture_id": "564736",
+      "home": "Betis",
+      "away": "Malaga",
+      "metrics": {
+        "goals": [
+          2,
+          1
+        ],
+        "shots": [
+          23,
+          10
+        ],
+        "sot": [
+          6,
+          4
+        ],
+        "fouls": [
+          10,
+          15
+        ],
+        "corners": [
+          10,
+          3
+        ],
+        "cards": [
+          2,
+          2
+        ]
+      },
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401882825/malaga-real-betis"
+    },
+    {
+      "fixture_id": "564732",
+      "home": "Barcelona",
+      "away": "Alaves",
+      "metrics": {
+        "goals": [
+          6,
+          1
+        ],
+        "shots": [
+          13,
+          7
+        ],
+        "sot": [
+          7,
+          3
+        ],
+        "fouls": [
+          14,
+          11
+        ],
+        "corners": [
+          4,
+          3
+        ],
+        "cards": [
+          2,
+          3
+        ]
+      },
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401882822/alaves-barcelona"
+    },
+    {
+      "fixture_id": "560626",
+      "home": "Chelsea",
+      "away": "Man United",
+      "metrics": {
+        "goals": [
+          2,
+          0
+        ],
+        "shots": [
+          18,
+          12
+        ],
+        "sot": [
+          9,
+          5
+        ],
+        "fouls": [
+          8,
+          20
+        ],
+        "corners": [
+          8,
+          7
+        ],
+        "cards": [
+          1,
+          5
+        ]
+      },
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401879248/manchester-united-chelsea"
+    },
+    {
+      "fixture_id": "560623",
+      "home": "Man City",
+      "away": "Brighton",
+      "metrics": {
+        "goals": [
+          0,
+          1
+        ],
+        "shots": [
+          21,
+          7
+        ],
+        "sot": [
+          6,
+          3
+        ],
+        "fouls": [
+          9,
+          13
+        ],
+        "corners": [
+          8,
+          2
+        ],
+        "cards": [
+          0,
+          3
+        ]
+      },
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401879245/brighton-hove-albion-manchester-city"
+    },
+    {
+      "fixture_id": "560624",
+      "home": "Bournemouth",
+      "away": "Leeds",
+      "metrics": {
+        "goals": [
+          2,
+          0
+        ],
+        "shots": [
+          11,
+          10
+        ],
+        "sot": [
+          5,
+          1
+        ],
+        "fouls": [
+          12,
+          15
+        ],
+        "corners": [
+          4,
+          4
+        ],
+        "cards": [
+          2,
+          2
+        ]
+      },
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401879251/leeds-united-afc-bournemouth"
+    },
+    {
+      "fixture_id": "560625",
+      "home": "Coventry",
+      "away": "Sunderland",
+      "metrics": {
+        "goals": [
+          3,
+          1
+        ],
+        "shots": [
+          12,
+          17
+        ],
+        "sot": [
+          4,
+          2
+        ],
+        "fouls": [
+          16,
+          9
+        ],
+        "corners": [
+          4,
+          4
+        ],
+        "cards": [
+          2,
+          1
+        ]
+      },
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401879247/sunderland-coventry-city"
+    },
+    {
+      "fixture_id": "560629",
+      "home": "Hull",
+      "away": "Ipswich",
+      "metrics": {
+        "goals": [
+          2,
+          2
+        ],
+        "shots": [
+          9,
+          15
+        ],
+        "sot": [
+          3,
+          3
+        ],
+        "fouls": [
+          13,
+          12
+        ],
+        "corners": [
+          6,
+          3
+        ],
+        "cards": [
+          3,
+          3
+        ]
+      },
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401878763/ipswich-town-hull-city"
+    },
+    {
+      "fixture_id": "560630",
+      "home": "Brentford",
+      "away": "Nott'm Forest",
+      "metrics": {
+        "goals": [
+          2,
+          0
+        ],
+        "shots": [
+          7,
+          15
+        ],
+        "sot": [
+          1,
+          1
+        ],
+        "fouls": [
+          6,
+          17
+        ],
+        "corners": [
+          3,
+          4
+        ],
+        "cards": [
+          1,
+          3
+        ]
+      },
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401879249/nottingham-forest-brentford"
+    },
+    {
+      "fixture_id": "560627",
+      "home": "Tottenham",
+      "away": "Crystal Palace",
+      "metrics": {
+        "goals": [
+          2,
+          0
+        ],
+        "shots": [
+          34,
+          2
+        ],
+        "sot": [
+          9,
+          1
+        ],
+        "fouls": [
+          8,
+          10
+        ],
+        "corners": [
+          19,
+          0
+        ],
+        "cards": [
+          1,
+          2
+        ]
+      },
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401878761/crystal-palace-tottenham-hotspur"
+    },
+    {
+      "fixture_id": "560628",
+      "home": "Aston Villa",
+      "away": "Fulham",
+      "metrics": {
+        "goals": [
+          1,
+          1
+        ],
+        "shots": [
+          16,
+          14
+        ],
+        "sot": [
+          3,
+          5
+        ],
+        "fouls": [
+          7,
+          12
+        ],
+        "corners": [
+          7,
+          7
+        ],
+        "cards": [
+          1,
+          3
+        ]
+      },
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401879250/fulham-aston-villa"
+    },
+    {
+      "fixture_id": "565847",
+      "home": "Leverkusen",
+      "away": "Stuttgart",
+      "metrics": {
+        "goals": [
+          2,
+          4
+        ],
+        "shots": [
+          24,
+          15
+        ],
+        "sot": [
+          8,
+          7
+        ],
+        "fouls": [
+          9,
+          13
+        ],
+        "corners": [
+          12,
+          3
+        ],
+        "cards": [
+          4,
+          4
+        ]
+      },
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401884753/vfb-stuttgart-bayer-leverkusen"
+    },
+    {
+      "fixture_id": "565843",
+      "home": "Werder Bremen",
+      "away": "Hoffenheim",
+      "metrics": {
+        "goals": [
+          2,
+          0
+        ],
+        "shots": [
+          18,
+          16
+        ],
+        "sot": [
+          4,
+          2
+        ],
+        "fouls": [
+          11,
+          11
+        ],
+        "corners": [
+          8,
+          4
+        ],
+        "cards": [
+          3,
+          0
+        ]
+      },
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401884748/tsg-hoffenheim-werder-bremen"
+    },
+    {
+      "fixture_id": "565842",
+      "home": "Augsburg",
+      "away": "Freiburg",
+      "metrics": {
+        "goals": [
+          1,
+          2
+        ],
+        "shots": [
+          15,
+          10
+        ],
+        "sot": [
+          5,
+          2
+        ],
+        "fouls": [
+          7,
+          11
+        ],
+        "corners": [
+          1,
+          2
+        ],
+        "cards": [
+          0,
+          3
+        ]
+      },
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401884751/sc-freiburg-fc-augsburg"
+    },
+    {
+      "fixture_id": "565840",
+      "home": "Schalke 04",
+      "away": "RB Leipzig",
+      "metrics": {
+        "goals": [
+          0,
+          2
+        ],
+        "shots": [
+          6,
+          18
+        ],
+        "sot": [
+          1,
+          10
+        ],
+        "fouls": [
+          16,
+          16
+        ],
+        "corners": [
+          3,
+          7
+        ],
+        "cards": [
+          2,
+          0
+        ]
+      },
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401884747/rb-leipzig-schalke-04"
+    },
+    {
+      "fixture_id": "565839",
+      "home": "M'gladbach",
+      "away": "Paderborn",
+      "metrics": {
+        "goals": [
+          0,
+          0
+        ],
+        "shots": [
+          12,
+          13
+        ],
+        "sot": [
+          4,
+          4
+        ],
+        "fouls": [
+          10,
+          9
+        ],
+        "corners": [
+          4,
+          7
+        ],
+        "cards": [
+          2,
+          3
+        ]
+      },
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401884749/sc-paderborn-07-borussia-monchengladbach"
+    },
+    {
+      "fixture_id": "565845",
+      "home": "Bayern Munich",
+      "away": "Dortmund",
+      "metrics": {
+        "goals": [
+          2,
+          2
+        ],
+        "shots": [
+          23,
+          12
+        ],
+        "sot": [
+          5,
+          6
+        ],
+        "fouls": [
+          11,
+          6
+        ],
+        "corners": [
+          5,
+          2
+        ],
+        "cards": [
+          2,
+          1
+        ]
+      },
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401884754/borussia-dortmund-bayern-munich"
+    },
+    {
+      "fixture_id": "558539",
+      "home": "Bologna",
+      "away": "Monza",
+      "metrics": {
+        "goals": [
+          2,
+          1
+        ],
+        "shots": [
+          10,
+          6
+        ],
+        "sot": [
+          5,
+          4
+        ],
+        "fouls": [
+          13,
+          19
+        ],
+        "corners": [
+          5,
+          2
+        ],
+        "cards": [
+          4,
+          3
+        ]
+      },
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401874798/monza-bologna"
+    },
+    {
+      "fixture_id": "558542",
+      "home": "Udinese",
+      "away": "Roma",
+      "metrics": {
+        "goals": [
+          2,
+          5
+        ],
+        "shots": [
+          15,
+          14
+        ],
+        "sot": [
+          7,
+          9
+        ],
+        "fouls": [
+          11,
+          9
+        ],
+        "corners": [
+          7,
+          4
+        ],
+        "cards": [
+          1,
+          1
+        ]
+      },
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401874990/as-roma-udinese"
+    },
+    {
+      "fixture_id": "558548",
+      "home": "Milan",
+      "away": "Inter",
+      "metrics": {
+        "goals": [
+          3,
+          1
+        ],
+        "shots": [
+          7,
+          19
+        ],
+        "sot": [
+          4,
+          8
+        ],
+        "fouls": [
+          8,
+          14
+        ],
+        "corners": [
+          3,
+          11
+        ],
+        "cards": [
+          2,
+          1
+        ]
+      },
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401874795/internazionale-ac-milan"
+    },
+    {
+      "fixture_id": "559643",
+      "home": "Troyes",
+      "away": "Le Mans",
+      "metrics": {
+        "goals": [
+          2,
+          0
+        ],
+        "shots": [
+          14,
+          3
+        ],
+        "sot": [
+          8,
+          1
+        ],
+        "fouls": [
+          15,
+          16
+        ],
+        "corners": [
+          4,
+          2
+        ],
+        "cards": [
+          3,
+          4
+        ]
+      },
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401876413/le-mans-troyes"
+    }
+  ],
+  "tiers": [
+    {
+      "fixture_id": "564730",
+      "selection_id": "goals:total:over:1.5:",
+      "match": "Levante – Ath Madrid",
+      "market": "Goles",
+      "label": "Más de 1,5 goles",
+      "probability": 0.7972274444771292,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 0,
+      "actual_away": 2,
+      "tier": "Conservadora"
+    },
+    {
+      "fixture_id": "564730",
+      "selection_id": "double_chance:total:12:None:",
+      "match": "Levante – Ath Madrid",
+      "market": "Doble oportunidad",
+      "label": "Cualquiera gana, sin empate",
+      "probability": 0.7537029101827533,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 0,
+      "actual_away": 2,
+      "tier": "Normal"
+    },
+    {
+      "fixture_id": "564730",
+      "selection_id": "fouls:total:under:24.5:",
+      "match": "Levante – Ath Madrid",
+      "market": "Faltas",
+      "label": "Menos de 24,5 faltas totales",
+      "probability": 0.575869944495814,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "fouls",
+      "actual_home": 7,
+      "actual_away": 7,
+      "tier": "Arriesgada"
+    },
+    {
+      "fixture_id": "564735",
+      "selection_id": "handicap:total:away:1.5:",
+      "match": "Vallecano – Celta",
+      "market": "Hándicap de goles",
+      "label": "Celta +1,5",
+      "probability": 0.8138806085784323,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "goals",
+      "actual_home": 3,
+      "actual_away": 0,
+      "tier": "Conservadora"
+    },
+    {
+      "fixture_id": "564735",
+      "selection_id": "goals:total:under:3.5:",
+      "match": "Vallecano – Celta",
+      "market": "Goles",
+      "label": "Menos de 3,5 goles",
+      "probability": 0.7696045276319835,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 3,
+      "actual_away": 0,
+      "tier": "Normal"
+    },
+    {
+      "fixture_id": "564735",
+      "selection_id": "result_goals:total:1X:3.5:under",
+      "match": "Vallecano – Celta",
+      "market": "Resultado y goles",
+      "label": "Vallecano o empate y menos de 3,5 goles",
+      "probability": 0.5278560328425859,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 3,
+      "actual_away": 0,
+      "tier": "Arriesgada"
+    },
+    {
+      "fixture_id": "564736",
+      "selection_id": "goals:home:under:3.5:",
+      "match": "Betis – Malaga",
+      "market": "Goles",
+      "label": "Betis: menos de 3,5 goles",
+      "probability": 0.7956936432518302,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 1,
+      "tier": "Conservadora"
+    },
+    {
+      "fixture_id": "564736",
+      "selection_id": "handicap:total:away:2.5:",
+      "match": "Betis – Malaga",
+      "market": "Hándicap de goles",
+      "label": "Malaga +2,5",
+      "probability": 0.7249056130117346,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 1,
+      "tier": "Normal"
+    },
+    {
+      "fixture_id": "564736",
+      "selection_id": "result_goals:total:1X:3.5:under",
+      "match": "Betis – Malaga",
+      "market": "Resultado y goles",
+      "label": "Betis o empate y menos de 3,5 goles",
+      "probability": 0.5474210805917293,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 1,
+      "tier": "Arriesgada"
+    },
+    {
+      "fixture_id": "564732",
+      "selection_id": "result_goals:total:1X:1.5:over",
+      "match": "Barcelona – Alaves",
+      "market": "Resultado y goles",
+      "label": "Barcelona o empate y más de 1,5 goles",
+      "probability": 0.8155808543047903,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 6,
+      "actual_away": 1,
+      "tier": "Conservadora"
+    },
+    {
+      "fixture_id": "564732",
+      "selection_id": "result:total:home:None:",
+      "match": "Barcelona – Alaves",
+      "market": "Resultado 1X2",
+      "label": "Gana Barcelona",
+      "probability": 0.7740522610770914,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 6,
+      "actual_away": 1,
+      "tier": "Normal"
+    },
+    {
+      "fixture_id": "564732",
+      "selection_id": "goals:home:over:2.5:",
+      "match": "Barcelona – Alaves",
+      "market": "Goles",
+      "label": "Barcelona: más de 2,5 goles",
+      "probability": 0.5252564468687504,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 6,
+      "actual_away": 1,
+      "tier": "Arriesgada"
+    },
+    {
+      "fixture_id": "560626",
+      "selection_id": "goals:away:under:2.5:",
+      "match": "Chelsea – Man United",
+      "market": "Goles",
+      "label": "Man United: menos de 2,5 goles",
+      "probability": 0.8180900530564651,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 0,
+      "tier": "Conservadora"
+    },
+    {
+      "fixture_id": "560626",
+      "selection_id": "double_chance:total:1X:None:",
+      "match": "Chelsea – Man United",
+      "market": "Doble oportunidad",
+      "label": "Chelsea o empate",
+      "probability": 0.6813540050703426,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 0,
+      "tier": "Normal"
+    },
+    {
+      "fixture_id": "560626",
+      "selection_id": "result_goals:total:1X:1.5:over",
+      "match": "Chelsea – Man United",
+      "market": "Resultado y goles",
+      "label": "Chelsea o empate y más de 1,5 goles",
+      "probability": 0.5715704178443294,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 0,
+      "tier": "Arriesgada"
+    },
+    {
+      "fixture_id": "560623",
+      "selection_id": "goals:total:over:1.5:",
+      "match": "Man City – Brighton",
+      "market": "Goles",
+      "label": "Más de 1,5 goles",
+      "probability": 0.8305978827821647,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "goals",
+      "actual_home": 0,
+      "actual_away": 1,
+      "tier": "Conservadora"
+    },
+    {
+      "fixture_id": "560623",
+      "selection_id": "double_chance:total:12:None:",
+      "match": "Man City – Brighton",
+      "market": "Doble oportunidad",
+      "label": "Cualquiera gana, sin empate",
+      "probability": 0.7768042404774069,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 0,
+      "actual_away": 1,
+      "tier": "Normal"
+    },
+    {
+      "fixture_id": "560623",
+      "selection_id": "result:total:home:None:",
+      "match": "Man City – Brighton",
+      "market": "Resultado 1X2",
+      "label": "Gana Man City",
+      "probability": 0.562439117388796,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "goals",
+      "actual_home": 0,
+      "actual_away": 1,
+      "tier": "Arriesgada"
+    },
+    {
+      "fixture_id": "560624",
+      "selection_id": "goals:total:under:4.5:",
+      "match": "Bournemouth – Leeds",
+      "market": "Goles",
+      "label": "Menos de 4,5 goles",
+      "probability": 0.8467178044931937,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 0,
+      "tier": "Conservadora"
+    },
+    {
+      "fixture_id": "560624",
+      "selection_id": "double_chance:total:1X:None:",
+      "match": "Bournemouth – Leeds",
+      "market": "Doble oportunidad",
+      "label": "Bournemouth o empate",
+      "probability": 0.7214431115620554,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 0,
+      "tier": "Normal"
+    },
+    {
+      "fixture_id": "560624",
+      "selection_id": "fouls:home:under:12.5:",
+      "match": "Bournemouth – Leeds",
+      "market": "Faltas",
+      "label": "Bournemouth: menos de 12,5 faltas",
+      "probability": 0.6144890742988405,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "fouls",
+      "actual_home": 12,
+      "actual_away": 15,
+      "tier": "Arriesgada"
+    },
+    {
+      "fixture_id": "560625",
+      "selection_id": "fouls:total:over:17.5:",
+      "match": "Coventry – Sunderland",
+      "market": "Faltas",
+      "label": "Más de 17,5 faltas totales",
+      "probability": 0.8233504511960554,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "fouls",
+      "actual_home": 16,
+      "actual_away": 9,
+      "tier": "Conservadora"
+    },
+    {
+      "fixture_id": "560625",
+      "selection_id": "double_chance:total:12:None:",
+      "match": "Coventry – Sunderland",
+      "market": "Doble oportunidad",
+      "label": "Cualquiera gana, sin empate",
+      "probability": 0.7020768498048995,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 3,
+      "actual_away": 1,
+      "tier": "Normal"
+    },
+    {
+      "fixture_id": "560625",
+      "selection_id": "shots:total:over:24.5:",
+      "match": "Coventry – Sunderland",
+      "market": "Remates",
+      "label": "Más de 24,5 remates totales",
+      "probability": 0.5879171444414066,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "shots",
+      "actual_home": 12,
+      "actual_away": 17,
+      "tier": "Arriesgada"
+    },
+    {
+      "fixture_id": "560629",
+      "selection_id": "fouls:total:over:16.5:",
+      "match": "Hull – Ipswich",
+      "market": "Faltas",
+      "label": "Más de 16,5 faltas totales",
+      "probability": 0.817782024546913,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "fouls",
+      "actual_home": 13,
+      "actual_away": 12,
+      "tier": "Conservadora"
+    },
+    {
+      "fixture_id": "560629",
+      "selection_id": "handicap:total:away:1.5:",
+      "match": "Hull – Ipswich",
+      "market": "Hándicap de goles",
+      "label": "Ipswich +1,5",
+      "probability": 0.7052802102739241,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 2,
+      "tier": "Normal"
+    },
+    {
+      "fixture_id": "560629",
+      "selection_id": "corners:home:under:6.5:",
+      "match": "Hull – Ipswich",
+      "market": "Córners",
+      "label": "Hull: menos de 6,5 córners",
+      "probability": 0.6244808133922305,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "corners",
+      "actual_home": 6,
+      "actual_away": 3,
+      "tier": "Arriesgada"
+    },
+    {
+      "fixture_id": "560630",
+      "selection_id": "goals:home:under:2.5:",
+      "match": "Brentford – Nott'm Forest",
+      "market": "Goles",
+      "label": "Brentford: menos de 2,5 goles",
+      "probability": 0.7890891551450564,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 0,
+      "tier": "Conservadora"
+    },
+    {
+      "fixture_id": "560630",
+      "selection_id": "handicap:total:away:1.5:",
+      "match": "Brentford – Nott'm Forest",
+      "market": "Hándicap de goles",
+      "label": "Nott'm Forest +1,5",
+      "probability": 0.7640873511315113,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 0,
+      "tier": "Normal"
+    },
+    {
+      "fixture_id": "560630",
+      "selection_id": "double_chance:total:X2:None:",
+      "match": "Brentford – Nott'm Forest",
+      "market": "Doble oportunidad",
+      "label": "Nott'm Forest o empate",
+      "probability": 0.5452907206193285,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 0,
+      "tier": "Arriesgada"
+    },
+    {
+      "fixture_id": "560627",
+      "selection_id": "goals:total:over:1.5:",
+      "match": "Tottenham – Crystal Palace",
+      "market": "Goles",
+      "label": "Más de 1,5 goles",
+      "probability": 0.7818364477041825,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 0,
+      "tier": "Conservadora"
+    },
+    {
+      "fixture_id": "560627",
+      "selection_id": "double_chance:total:1X:None:",
+      "match": "Tottenham – Crystal Palace",
+      "market": "Doble oportunidad",
+      "label": "Tottenham o empate",
+      "probability": 0.7171109241180351,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 0,
+      "tier": "Normal"
+    },
+    {
+      "fixture_id": "560627",
+      "selection_id": "corners:away:under:4.5:",
+      "match": "Tottenham – Crystal Palace",
+      "market": "Córners",
+      "label": "Crystal Palace: menos de 4,5 córners",
+      "probability": 0.5841138660631582,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "corners",
+      "actual_home": 19,
+      "actual_away": 0,
+      "tier": "Arriesgada"
+    },
+    {
+      "fixture_id": "560628",
+      "selection_id": "shots:total:under:29.5:",
+      "match": "Aston Villa – Fulham",
+      "market": "Remates",
+      "label": "Menos de 29,5 remates totales",
+      "probability": 0.8130159140738755,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "shots",
+      "actual_home": 16,
+      "actual_away": 14,
+      "tier": "Conservadora"
+    },
+    {
+      "fixture_id": "560628",
+      "selection_id": "goals:total:under:3.5:",
+      "match": "Aston Villa – Fulham",
+      "market": "Goles",
+      "label": "Menos de 3,5 goles",
+      "probability": 0.6965665922236173,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 1,
+      "actual_away": 1,
+      "tier": "Normal"
+    },
+    {
+      "fixture_id": "560628",
+      "selection_id": "double_chance:total:X2:None:",
+      "match": "Aston Villa – Fulham",
+      "market": "Doble oportunidad",
+      "label": "Fulham o empate",
+      "probability": 0.5152489477765313,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 1,
+      "actual_away": 1,
+      "tier": "Arriesgada"
+    },
+    {
+      "fixture_id": "565847",
+      "selection_id": "goals:away:under:2.5:",
+      "match": "Leverkusen – Stuttgart",
+      "market": "Goles",
+      "label": "Stuttgart: menos de 2,5 goles",
+      "probability": 0.812415941075583,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 4,
+      "tier": "Conservadora"
+    },
+    {
+      "fixture_id": "565847",
+      "selection_id": "double_chance:total:1X:None:",
+      "match": "Leverkusen – Stuttgart",
+      "market": "Doble oportunidad",
+      "label": "Leverkusen o empate",
+      "probability": 0.7273062912001267,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 4,
+      "tier": "Normal"
+    },
+    {
+      "fixture_id": "565847",
+      "selection_id": "result:total:home:None:",
+      "match": "Leverkusen – Stuttgart",
+      "market": "Resultado 1X2",
+      "label": "Gana Leverkusen",
+      "probability": 0.5073454544235143,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 4,
+      "tier": "Arriesgada"
+    },
+    {
+      "fixture_id": "565843",
+      "selection_id": "fouls:total:over:17.5:",
+      "match": "Werder Bremen – Hoffenheim",
+      "market": "Faltas",
+      "label": "Más de 17,5 faltas totales",
+      "probability": 0.8292402762659907,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "fouls",
+      "actual_home": 11,
+      "actual_away": 11,
+      "tier": "Conservadora"
+    },
+    {
+      "fixture_id": "565843",
+      "selection_id": "btts:total:yes:None:",
+      "match": "Werder Bremen – Hoffenheim",
+      "market": "Ambos marcan",
+      "label": "Ambos marcan: sí",
+      "probability": 0.6836129616245615,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 0,
+      "tier": "Normal"
+    },
+    {
+      "fixture_id": "565843",
+      "selection_id": "result_goals:total:1X:1.5:over",
+      "match": "Werder Bremen – Hoffenheim",
+      "market": "Resultado y goles",
+      "label": "Werder Bremen o empate y más de 1,5 goles",
+      "probability": 0.5555571832406682,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 0,
+      "tier": "Arriesgada"
+    },
+    {
+      "fixture_id": "565842",
+      "selection_id": "goals:total:over:1.5:",
+      "match": "Augsburg – Freiburg",
+      "market": "Goles",
+      "label": "Más de 1,5 goles",
+      "probability": 0.8165538363440508,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 1,
+      "actual_away": 2,
+      "tier": "Conservadora"
+    },
+    {
+      "fixture_id": "565842",
+      "selection_id": "shots:away:over:9.5:",
+      "match": "Augsburg – Freiburg",
+      "market": "Remates",
+      "label": "Freiburg: más de 9,5 remates",
+      "probability": 0.7071542194859444,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "shots",
+      "actual_home": 15,
+      "actual_away": 10,
+      "tier": "Normal"
+    },
+    {
+      "fixture_id": "565842",
+      "selection_id": "btts:total:yes:None:",
+      "match": "Augsburg – Freiburg",
+      "market": "Ambos marcan",
+      "label": "Ambos marcan: sí",
+      "probability": 0.620330512723891,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 1,
+      "actual_away": 2,
+      "tier": "Arriesgada"
+    },
+    {
+      "fixture_id": "565840",
+      "selection_id": "goals:away:under:2.5:",
+      "match": "Schalke 04 – RB Leipzig",
+      "market": "Goles",
+      "label": "RB Leipzig: menos de 2,5 goles",
+      "probability": 0.7840185829568893,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 0,
+      "actual_away": 2,
+      "tier": "Conservadora"
+    },
+    {
+      "fixture_id": "565840",
+      "selection_id": "handicap:total:home:1.5:",
+      "match": "Schalke 04 – RB Leipzig",
+      "market": "Hándicap de goles",
+      "label": "Schalke 04 +1,5",
+      "probability": 0.7333286235764552,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "goals",
+      "actual_home": 0,
+      "actual_away": 2,
+      "tier": "Normal"
+    },
+    {
+      "fixture_id": "565840",
+      "selection_id": "corners:away:under:5.5:",
+      "match": "Schalke 04 – RB Leipzig",
+      "market": "Córners",
+      "label": "RB Leipzig: menos de 5,5 córners",
+      "probability": 0.5993254754123358,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "corners",
+      "actual_home": 3,
+      "actual_away": 7,
+      "tier": "Arriesgada"
+    },
+    {
+      "fixture_id": "565839",
+      "selection_id": "shots:away:over:8.5:",
+      "match": "M'gladbach – Paderborn",
+      "market": "Remates",
+      "label": "Paderborn: más de 8,5 remates",
+      "probability": 0.8173656308423393,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "shots",
+      "actual_home": 12,
+      "actual_away": 13,
+      "tier": "Conservadora"
+    },
+    {
+      "fixture_id": "565839",
+      "selection_id": "handicap:total:away:1.5:",
+      "match": "M'gladbach – Paderborn",
+      "market": "Hándicap de goles",
+      "label": "Paderborn +1,5",
+      "probability": 0.7486626185353863,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 0,
+      "actual_away": 0,
+      "tier": "Normal"
+    },
+    {
+      "fixture_id": "565839",
+      "selection_id": "double_chance:total:X2:None:",
+      "match": "M'gladbach – Paderborn",
+      "market": "Doble oportunidad",
+      "label": "Paderborn o empate",
+      "probability": 0.525868627905991,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 0,
+      "actual_away": 0,
+      "tier": "Arriesgada"
+    },
+    {
+      "fixture_id": "565845",
+      "selection_id": "double_chance:total:12:None:",
+      "match": "Bayern Munich – Dortmund",
+      "market": "Doble oportunidad",
+      "label": "Cualquiera gana, sin empate",
+      "probability": 0.8208090071957388,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 2,
+      "tier": "Conservadora"
+    },
+    {
+      "fixture_id": "565845",
+      "selection_id": "goals:away:under:1.5:",
+      "match": "Bayern Munich – Dortmund",
+      "market": "Goles",
+      "label": "Dortmund: menos de 1,5 goles",
+      "probability": 0.6625319001848766,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 2,
+      "tier": "Normal"
+    },
+    {
+      "fixture_id": "565845",
+      "selection_id": "corners:away:under:3.5:",
+      "match": "Bayern Munich – Dortmund",
+      "market": "Córners",
+      "label": "Dortmund: menos de 3,5 córners",
+      "probability": 0.6143420549190579,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "corners",
+      "actual_home": 5,
+      "actual_away": 2,
+      "tier": "Arriesgada"
+    },
+    {
+      "fixture_id": "558539",
+      "selection_id": "double_chance:total:1X:None:",
+      "match": "Bologna – Monza",
+      "market": "Doble oportunidad",
+      "label": "Bologna o empate",
+      "probability": 0.8083739173557261,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 1,
+      "tier": "Conservadora"
+    },
+    {
+      "fixture_id": "558539",
+      "selection_id": "result_goals:total:1X:1.5:over",
+      "match": "Bologna – Monza",
+      "market": "Resultado y goles",
+      "label": "Bologna o empate y más de 1,5 goles",
+      "probability": 0.6573774095818038,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 1,
+      "tier": "Normal"
+    },
+    {
+      "fixture_id": "558539",
+      "selection_id": "goals:total:over:2.5:",
+      "match": "Bologna – Monza",
+      "market": "Goles",
+      "label": "Más de 2,5 goles",
+      "probability": 0.5663788235788106,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 1,
+      "tier": "Arriesgada"
+    },
+    {
+      "fixture_id": "558542",
+      "selection_id": "double_chance:total:X2:None:",
+      "match": "Udinese – Roma",
+      "market": "Doble oportunidad",
+      "label": "Roma o empate",
+      "probability": 0.7811644074930435,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 5,
+      "tier": "Conservadora"
+    },
+    {
+      "fixture_id": "558542",
+      "selection_id": "goals:total:over:1.5:",
+      "match": "Udinese – Roma",
+      "market": "Goles",
+      "label": "Más de 1,5 goles",
+      "probability": 0.7496156061637771,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 5,
+      "tier": "Normal"
+    },
+    {
+      "fixture_id": "558542",
+      "selection_id": "result_goals:total:X2:1.5:over",
+      "match": "Udinese – Roma",
+      "market": "Resultado y goles",
+      "label": "Roma o empate y más de 1,5 goles",
+      "probability": 0.5967578602048781,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 5,
+      "tier": "Arriesgada"
+    },
+    {
+      "fixture_id": "558548",
+      "selection_id": "goals:total:over:1.5:",
+      "match": "Milan – Inter",
+      "market": "Goles",
+      "label": "Más de 1,5 goles",
+      "probability": 0.8083099760044935,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 3,
+      "actual_away": 1,
+      "tier": "Conservadora"
+    },
+    {
+      "fixture_id": "558548",
+      "selection_id": "double_chance:total:12:None:",
+      "match": "Milan – Inter",
+      "market": "Doble oportunidad",
+      "label": "Cualquiera gana, sin empate",
+      "probability": 0.7545713601034117,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 3,
+      "actual_away": 1,
+      "tier": "Normal"
+    },
+    {
+      "fixture_id": "558548",
+      "selection_id": "sot:total:over:7.5:",
+      "match": "Milan – Inter",
+      "market": "Tiros al arco",
+      "label": "Más de 7,5 tiros al arco totales",
+      "probability": 0.5977088409172155,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "sot",
+      "actual_home": 4,
+      "actual_away": 8,
+      "tier": "Arriesgada"
+    },
+    {
+      "fixture_id": "559643",
+      "selection_id": "goals:total:under:4.5:",
+      "match": "Troyes – Le Mans",
+      "market": "Goles",
+      "label": "Menos de 4,5 goles",
+      "probability": 0.8425811797164441,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 0,
+      "tier": "Conservadora"
+    },
+    {
+      "fixture_id": "559643",
+      "selection_id": "shots:away:over:9.5:",
+      "match": "Troyes – Le Mans",
+      "market": "Remates",
+      "label": "Le Mans: más de 9,5 remates",
+      "probability": 0.7138757865391543,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "shots",
+      "actual_home": 14,
+      "actual_away": 3,
+      "tier": "Normal"
+    },
+    {
+      "fixture_id": "559643",
+      "selection_id": "corners:total:under:10.5:",
+      "match": "Troyes – Le Mans",
+      "market": "Córners",
+      "label": "Menos de 10,5 córners",
+      "probability": 0.5839905328625429,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "corners",
+      "actual_home": 4,
+      "actual_away": 2,
+      "tier": "Arriesgada"
+    }
+  ],
+  "unique_selections": [
+    {
+      "fixture_id": "564730",
+      "selection_id": "double_chance:total:12:None:",
+      "match": "Levante – Ath Madrid",
+      "market": "Doble oportunidad",
+      "label": "Cualquiera gana, sin empate",
+      "probability": 0.7537029101827533,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 0,
+      "actual_away": 2
+    },
+    {
+      "fixture_id": "564730",
+      "selection_id": "handicap:total:home:1.5:",
+      "match": "Levante – Ath Madrid",
+      "market": "Hándicap de goles",
+      "label": "Levante +1,5",
+      "probability": 0.7298846944449446,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "goals",
+      "actual_home": 0,
+      "actual_away": 2
+    },
+    {
+      "fixture_id": "564730",
+      "selection_id": "goals:away:under:2.5:",
+      "match": "Levante – Ath Madrid",
+      "market": "Goles",
+      "label": "Ath Madrid: menos de 2,5 goles",
+      "probability": 0.7474290866431454,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 0,
+      "actual_away": 2
+    },
+    {
+      "fixture_id": "564730",
+      "selection_id": "shots:home:over:9.5:",
+      "match": "Levante – Ath Madrid",
+      "market": "Remates",
+      "label": "Levante: más de 9,5 remates",
+      "probability": 0.7512588553211788,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "shots",
+      "actual_home": 20,
+      "actual_away": 11
+    },
+    {
+      "fixture_id": "564730",
+      "selection_id": "sot:away:under:6.5:",
+      "match": "Levante – Ath Madrid",
+      "market": "Tiros al arco",
+      "label": "Ath Madrid: menos de 6,5 tiros al arco",
+      "probability": 0.7359636185179005,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "sot",
+      "actual_home": 4,
+      "actual_away": 5
+    },
+    {
+      "fixture_id": "564730",
+      "selection_id": "fouls:away:under:14.5:",
+      "match": "Levante – Ath Madrid",
+      "market": "Faltas",
+      "label": "Ath Madrid: menos de 14,5 faltas",
+      "probability": 0.7174132288970436,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "fouls",
+      "actual_home": 7,
+      "actual_away": 7
+    },
+    {
+      "fixture_id": "564730",
+      "selection_id": "corners:total:over:7.5:",
+      "match": "Levante – Ath Madrid",
+      "market": "Córners",
+      "label": "Más de 7,5 córners",
+      "probability": 0.7551608680546985,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "corners",
+      "actual_home": 5,
+      "actual_away": 3
+    },
+    {
+      "fixture_id": "564730",
+      "selection_id": "goals:total:over:1.5:",
+      "match": "Levante – Ath Madrid",
+      "market": "Goles",
+      "label": "Más de 1,5 goles",
+      "probability": 0.7972274444771292,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 0,
+      "actual_away": 2
+    },
+    {
+      "fixture_id": "564730",
+      "selection_id": "fouls:total:under:24.5:",
+      "match": "Levante – Ath Madrid",
+      "market": "Faltas",
+      "label": "Menos de 24,5 faltas totales",
+      "probability": 0.575869944495814,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "fouls",
+      "actual_home": 7,
+      "actual_away": 7
+    },
+    {
+      "fixture_id": "564735",
+      "selection_id": "double_chance:total:1X:None:",
+      "match": "Vallecano – Celta",
+      "market": "Doble oportunidad",
+      "label": "Vallecano o empate",
+      "probability": 0.6857318177765268,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 3,
+      "actual_away": 0
+    },
+    {
+      "fixture_id": "564735",
+      "selection_id": "handicap:total:away:1.5:",
+      "match": "Vallecano – Celta",
+      "market": "Hándicap de goles",
+      "label": "Celta +1,5",
+      "probability": 0.8138806085784323,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "goals",
+      "actual_home": 3,
+      "actual_away": 0
+    },
+    {
+      "fixture_id": "564735",
+      "selection_id": "goals:total:under:3.5:",
+      "match": "Vallecano – Celta",
+      "market": "Goles",
+      "label": "Menos de 3,5 goles",
+      "probability": 0.7696045276319835,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 3,
+      "actual_away": 0
+    },
+    {
+      "fixture_id": "564735",
+      "selection_id": "result_goals:total:1X:3.5:under",
+      "match": "Vallecano – Celta",
+      "market": "Resultado y goles",
+      "label": "Vallecano o empate y menos de 3,5 goles",
+      "probability": 0.5278560328425859,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 3,
+      "actual_away": 0
+    },
+    {
+      "fixture_id": "564735",
+      "selection_id": "shots:total:over:20.5:",
+      "match": "Vallecano – Celta",
+      "market": "Remates",
+      "label": "Más de 20,5 remates totales",
+      "probability": 0.7379122215966498,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "shots",
+      "actual_home": 14,
+      "actual_away": 11
+    },
+    {
+      "fixture_id": "564735",
+      "selection_id": "sot:total:under:10.5:",
+      "match": "Vallecano – Celta",
+      "market": "Tiros al arco",
+      "label": "Menos de 10,5 tiros al arco totales",
+      "probability": 0.7546682109231713,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "sot",
+      "actual_home": 8,
+      "actual_away": 0
+    },
+    {
+      "fixture_id": "564735",
+      "selection_id": "fouls:total:under:28.5:",
+      "match": "Vallecano – Celta",
+      "market": "Faltas",
+      "label": "Menos de 28,5 faltas totales",
+      "probability": 0.7258859598894059,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "fouls",
+      "actual_home": 11,
+      "actual_away": 16
+    },
+    {
+      "fixture_id": "564735",
+      "selection_id": "corners:total:under:11.5:",
+      "match": "Vallecano – Celta",
+      "market": "Córners",
+      "label": "Menos de 11,5 córners",
+      "probability": 0.736975418397813,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "corners",
+      "actual_home": 4,
+      "actual_away": 3
+    },
+    {
+      "fixture_id": "564736",
+      "selection_id": "result:total:home:None:",
+      "match": "Betis – Malaga",
+      "market": "Resultado 1X2",
+      "label": "Gana Betis",
+      "probability": 0.712893431366181,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 1
+    },
+    {
+      "fixture_id": "564736",
+      "selection_id": "double_chance:total:12:None:",
+      "match": "Betis – Malaga",
+      "market": "Doble oportunidad",
+      "label": "Cualquiera gana, sin empate",
+      "probability": 0.8195546986174735,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 1
+    },
+    {
+      "fixture_id": "564736",
+      "selection_id": "handicap:total:away:2.5:",
+      "match": "Betis – Malaga",
+      "market": "Hándicap de goles",
+      "label": "Malaga +2,5",
+      "probability": 0.7249056130117346,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 1
+    },
+    {
+      "fixture_id": "564736",
+      "selection_id": "goals:home:under:3.5:",
+      "match": "Betis – Malaga",
+      "market": "Goles",
+      "label": "Betis: menos de 3,5 goles",
+      "probability": 0.7956936432518302,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 1
+    },
+    {
+      "fixture_id": "564736",
+      "selection_id": "result_goals:total:1X:3.5:under",
+      "match": "Betis – Malaga",
+      "market": "Resultado y goles",
+      "label": "Betis o empate y menos de 3,5 goles",
+      "probability": 0.5474210805917293,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 1
+    },
+    {
+      "fixture_id": "564736",
+      "selection_id": "shots:away:under:13.5:",
+      "match": "Betis – Malaga",
+      "market": "Remates",
+      "label": "Malaga: menos de 13,5 remates",
+      "probability": 0.7570293586201078,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "shots",
+      "actual_home": 23,
+      "actual_away": 10
+    },
+    {
+      "fixture_id": "564736",
+      "selection_id": "sot:home:under:7.5:",
+      "match": "Betis – Malaga",
+      "market": "Tiros al arco",
+      "label": "Betis: menos de 7,5 tiros al arco",
+      "probability": 0.750091564320929,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "sot",
+      "actual_home": 6,
+      "actual_away": 4
+    },
+    {
+      "fixture_id": "564736",
+      "selection_id": "fouls:total:under:27.5:",
+      "match": "Betis – Malaga",
+      "market": "Faltas",
+      "label": "Menos de 27,5 faltas totales",
+      "probability": 0.728470714264319,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "fouls",
+      "actual_home": 10,
+      "actual_away": 15
+    },
+    {
+      "fixture_id": "564736",
+      "selection_id": "corners:home:under:6.5:",
+      "match": "Betis – Malaga",
+      "market": "Córners",
+      "label": "Betis: menos de 6,5 córners",
+      "probability": 0.7200812225720293,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "corners",
+      "actual_home": 10,
+      "actual_away": 3
+    },
+    {
+      "fixture_id": "564732",
+      "selection_id": "goals:total:under:4.5:",
+      "match": "Barcelona – Alaves",
+      "market": "Goles",
+      "label": "Menos de 4,5 goles",
+      "probability": 0.7080555601624425,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "goals",
+      "actual_home": 6,
+      "actual_away": 1
+    },
+    {
+      "fixture_id": "564732",
+      "selection_id": "btts:total:yes:None:",
+      "match": "Barcelona – Alaves",
+      "market": "Ambos marcan",
+      "label": "Ambos marcan: sí",
+      "probability": 0.5245617235944704,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 6,
+      "actual_away": 1
+    },
+    {
+      "fixture_id": "564732",
+      "selection_id": "result_goals:total:1X:1.5:over",
+      "match": "Barcelona – Alaves",
+      "market": "Resultado y goles",
+      "label": "Barcelona o empate y más de 1,5 goles",
+      "probability": 0.8155808543047903,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 6,
+      "actual_away": 1
+    },
+    {
+      "fixture_id": "564732",
+      "selection_id": "shots:total:under:29.5:",
+      "match": "Barcelona – Alaves",
+      "market": "Remates",
+      "label": "Menos de 29,5 remates totales",
+      "probability": 0.7514536719553678,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "shots",
+      "actual_home": 13,
+      "actual_away": 7
+    },
+    {
+      "fixture_id": "564732",
+      "selection_id": "sot:away:over:1.5:",
+      "match": "Barcelona – Alaves",
+      "market": "Tiros al arco",
+      "label": "Alaves: más de 1,5 tiros al arco",
+      "probability": 0.7200355074255548,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "sot",
+      "actual_home": 7,
+      "actual_away": 3
+    },
+    {
+      "fixture_id": "564732",
+      "selection_id": "fouls:away:over:10.5:",
+      "match": "Barcelona – Alaves",
+      "market": "Faltas",
+      "label": "Alaves: más de 10,5 faltas",
+      "probability": 0.7361777495449361,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "fouls",
+      "actual_home": 14,
+      "actual_away": 11
+    },
+    {
+      "fixture_id": "564732",
+      "selection_id": "corners:home:under:9.5:",
+      "match": "Barcelona – Alaves",
+      "market": "Córners",
+      "label": "Barcelona: menos de 9,5 córners",
+      "probability": 0.7497210186064227,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "corners",
+      "actual_home": 4,
+      "actual_away": 3
+    },
+    {
+      "fixture_id": "564732",
+      "selection_id": "result:total:home:None:",
+      "match": "Barcelona – Alaves",
+      "market": "Resultado 1X2",
+      "label": "Gana Barcelona",
+      "probability": 0.7740522610770914,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 6,
+      "actual_away": 1
+    },
+    {
+      "fixture_id": "564732",
+      "selection_id": "goals:home:over:2.5:",
+      "match": "Barcelona – Alaves",
+      "market": "Goles",
+      "label": "Barcelona: más de 2,5 goles",
+      "probability": 0.5252564468687504,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 6,
+      "actual_away": 1
+    },
+    {
+      "fixture_id": "560626",
+      "selection_id": "double_chance:total:1X:None:",
+      "match": "Chelsea – Man United",
+      "market": "Doble oportunidad",
+      "label": "Chelsea o empate",
+      "probability": 0.6813540050703426,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 0
+    },
+    {
+      "fixture_id": "560626",
+      "selection_id": "handicap:total:away:1.5:",
+      "match": "Chelsea – Man United",
+      "market": "Hándicap de goles",
+      "label": "Man United +1,5",
+      "probability": 0.7616226975832054,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 0
+    },
+    {
+      "fixture_id": "560626",
+      "selection_id": "goals:home:under:2.5:",
+      "match": "Chelsea – Man United",
+      "market": "Goles",
+      "label": "Chelsea: menos de 2,5 goles",
+      "probability": 0.7422339782457148,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 0
+    },
+    {
+      "fixture_id": "560626",
+      "selection_id": "btts:total:yes:None:",
+      "match": "Chelsea – Man United",
+      "market": "Ambos marcan",
+      "label": "Ambos marcan: sí",
+      "probability": 0.6397504212890684,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 0
+    },
+    {
+      "fixture_id": "560626",
+      "selection_id": "result_goals:total:1X:1.5:over",
+      "match": "Chelsea – Man United",
+      "market": "Resultado y goles",
+      "label": "Chelsea o empate y más de 1,5 goles",
+      "probability": 0.5715704178443294,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 0
+    },
+    {
+      "fixture_id": "560626",
+      "selection_id": "shots:away:over:9.5:",
+      "match": "Chelsea – Man United",
+      "market": "Remates",
+      "label": "Man United: más de 9,5 remates",
+      "probability": 0.7297852262102646,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "shots",
+      "actual_home": 18,
+      "actual_away": 12
+    },
+    {
+      "fixture_id": "560626",
+      "selection_id": "sot:total:under:11.5:",
+      "match": "Chelsea – Man United",
+      "market": "Tiros al arco",
+      "label": "Menos de 11,5 tiros al arco totales",
+      "probability": 0.7489192721613719,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "sot",
+      "actual_home": 9,
+      "actual_away": 5
+    },
+    {
+      "fixture_id": "560626",
+      "selection_id": "fouls:home:under:12.5:",
+      "match": "Chelsea – Man United",
+      "market": "Faltas",
+      "label": "Chelsea: menos de 12,5 faltas",
+      "probability": 0.7410269224487231,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "fouls",
+      "actual_home": 8,
+      "actual_away": 20
+    },
+    {
+      "fixture_id": "560626",
+      "selection_id": "corners:total:under:12.5:",
+      "match": "Chelsea – Man United",
+      "market": "Córners",
+      "label": "Menos de 12,5 córners",
+      "probability": 0.718961059504986,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "corners",
+      "actual_home": 8,
+      "actual_away": 7
+    },
+    {
+      "fixture_id": "560626",
+      "selection_id": "goals:away:under:2.5:",
+      "match": "Chelsea – Man United",
+      "market": "Goles",
+      "label": "Man United: menos de 2,5 goles",
+      "probability": 0.8180900530564651,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 0
+    },
+    {
+      "fixture_id": "560623",
+      "selection_id": "result:total:home:None:",
+      "match": "Man City – Brighton",
+      "market": "Resultado 1X2",
+      "label": "Gana Man City",
+      "probability": 0.562439117388796,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "goals",
+      "actual_home": 0,
+      "actual_away": 1
+    },
+    {
+      "fixture_id": "560623",
+      "selection_id": "double_chance:total:1X:None:",
+      "match": "Man City – Brighton",
+      "market": "Doble oportunidad",
+      "label": "Man City o empate",
+      "probability": 0.785634876911389,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "goals",
+      "actual_home": 0,
+      "actual_away": 1
+    },
+    {
+      "fixture_id": "560623",
+      "selection_id": "handicap:total:away:1.5:",
+      "match": "Man City – Brighton",
+      "market": "Hándicap de goles",
+      "label": "Brighton +1,5",
+      "probability": 0.6587643745396373,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 0,
+      "actual_away": 1
+    },
+    {
+      "fixture_id": "560623",
+      "selection_id": "goals:home:under:2.5:",
+      "match": "Man City – Brighton",
+      "market": "Goles",
+      "label": "Man City: menos de 2,5 goles",
+      "probability": 0.6720166819275473,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 0,
+      "actual_away": 1
+    },
+    {
+      "fixture_id": "560623",
+      "selection_id": "shots:home:under:18.5:",
+      "match": "Man City – Brighton",
+      "market": "Remates",
+      "label": "Man City: menos de 18,5 remates",
+      "probability": 0.7450130208002061,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "shots",
+      "actual_home": 21,
+      "actual_away": 7
+    },
+    {
+      "fixture_id": "560623",
+      "selection_id": "sot:total:over:7.5:",
+      "match": "Man City – Brighton",
+      "market": "Tiros al arco",
+      "label": "Más de 7,5 tiros al arco totales",
+      "probability": 0.7119087949978501,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "sot",
+      "actual_home": 6,
+      "actual_away": 3
+    },
+    {
+      "fixture_id": "560623",
+      "selection_id": "fouls:away:over:9.5:",
+      "match": "Man City – Brighton",
+      "market": "Faltas",
+      "label": "Brighton: más de 9,5 faltas",
+      "probability": 0.7537169654246639,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "fouls",
+      "actual_home": 9,
+      "actual_away": 13
+    },
+    {
+      "fixture_id": "560623",
+      "selection_id": "corners:total:over:7.5:",
+      "match": "Man City – Brighton",
+      "market": "Córners",
+      "label": "Más de 7,5 córners",
+      "probability": 0.765653618842815,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "corners",
+      "actual_home": 8,
+      "actual_away": 2
+    },
+    {
+      "fixture_id": "560623",
+      "selection_id": "goals:total:over:1.5:",
+      "match": "Man City – Brighton",
+      "market": "Goles",
+      "label": "Más de 1,5 goles",
+      "probability": 0.8305978827821647,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "goals",
+      "actual_home": 0,
+      "actual_away": 1
+    },
+    {
+      "fixture_id": "560623",
+      "selection_id": "double_chance:total:12:None:",
+      "match": "Man City – Brighton",
+      "market": "Doble oportunidad",
+      "label": "Cualquiera gana, sin empate",
+      "probability": 0.7768042404774069,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 0,
+      "actual_away": 1
+    },
+    {
+      "fixture_id": "560624",
+      "selection_id": "double_chance:total:1X:None:",
+      "match": "Bournemouth – Leeds",
+      "market": "Doble oportunidad",
+      "label": "Bournemouth o empate",
+      "probability": 0.7214431115620554,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 0
+    },
+    {
+      "fixture_id": "560624",
+      "selection_id": "handicap:total:away:1.5:",
+      "match": "Bournemouth – Leeds",
+      "market": "Hándicap de goles",
+      "label": "Leeds +1,5",
+      "probability": 0.7550104544634251,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 0
+    },
+    {
+      "fixture_id": "560624",
+      "selection_id": "goals:total:over:1.5:",
+      "match": "Bournemouth – Leeds",
+      "market": "Goles",
+      "label": "Más de 1,5 goles",
+      "probability": 0.7744629264422146,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 0
+    },
+    {
+      "fixture_id": "560624",
+      "selection_id": "result_goals:total:1X:1.5:over",
+      "match": "Bournemouth – Leeds",
+      "market": "Resultado y goles",
+      "label": "Bournemouth o empate y más de 1,5 goles",
+      "probability": 0.5644897426720019,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 0
+    },
+    {
+      "fixture_id": "560624",
+      "selection_id": "shots:away:under:12.5:",
+      "match": "Bournemouth – Leeds",
+      "market": "Remates",
+      "label": "Leeds: menos de 12,5 remates",
+      "probability": 0.7328833045482058,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "shots",
+      "actual_home": 11,
+      "actual_away": 10
+    },
+    {
+      "fixture_id": "560624",
+      "selection_id": "sot:home:under:7.5:",
+      "match": "Bournemouth – Leeds",
+      "market": "Tiros al arco",
+      "label": "Bournemouth: menos de 7,5 tiros al arco",
+      "probability": 0.7759108757439414,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "sot",
+      "actual_home": 5,
+      "actual_away": 1
+    },
+    {
+      "fixture_id": "560624",
+      "selection_id": "fouls:home:under:13.5:",
+      "match": "Bournemouth – Leeds",
+      "market": "Faltas",
+      "label": "Bournemouth: menos de 13,5 faltas",
+      "probability": 0.7122806851026753,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "fouls",
+      "actual_home": 12,
+      "actual_away": 15
+    },
+    {
+      "fixture_id": "560624",
+      "selection_id": "corners:away:under:5.5:",
+      "match": "Bournemouth – Leeds",
+      "market": "Córners",
+      "label": "Leeds: menos de 5,5 córners",
+      "probability": 0.7715426858002946,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "corners",
+      "actual_home": 4,
+      "actual_away": 4
+    },
+    {
+      "fixture_id": "560624",
+      "selection_id": "goals:total:under:4.5:",
+      "match": "Bournemouth – Leeds",
+      "market": "Goles",
+      "label": "Menos de 4,5 goles",
+      "probability": 0.8467178044931937,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 0
+    },
+    {
+      "fixture_id": "560624",
+      "selection_id": "fouls:home:under:12.5:",
+      "match": "Bournemouth – Leeds",
+      "market": "Faltas",
+      "label": "Bournemouth: menos de 12,5 faltas",
+      "probability": 0.6144890742988405,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "fouls",
+      "actual_home": 12,
+      "actual_away": 15
+    },
+    {
+      "fixture_id": "560625",
+      "selection_id": "double_chance:total:12:None:",
+      "match": "Coventry – Sunderland",
+      "market": "Doble oportunidad",
+      "label": "Cualquiera gana, sin empate",
+      "probability": 0.7020768498048995,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 3,
+      "actual_away": 1
+    },
+    {
+      "fixture_id": "560625",
+      "selection_id": "handicap:total:home:1.5:",
+      "match": "Coventry – Sunderland",
+      "market": "Hándicap de goles",
+      "label": "Coventry +1,5",
+      "probability": 0.8406519940537365,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 3,
+      "actual_away": 1
+    },
+    {
+      "fixture_id": "560625",
+      "selection_id": "goals:away:under:1.5:",
+      "match": "Coventry – Sunderland",
+      "market": "Goles",
+      "label": "Sunderland: menos de 1,5 goles",
+      "probability": 0.6735433263491355,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 3,
+      "actual_away": 1
+    },
+    {
+      "fixture_id": "560625",
+      "selection_id": "shots:total:under:29.5:",
+      "match": "Coventry – Sunderland",
+      "market": "Remates",
+      "label": "Menos de 29,5 remates totales",
+      "probability": 0.7438638464902751,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "shots",
+      "actual_home": 12,
+      "actual_away": 17
+    },
+    {
+      "fixture_id": "560625",
+      "selection_id": "sot:away:over:2.5:",
+      "match": "Coventry – Sunderland",
+      "market": "Tiros al arco",
+      "label": "Sunderland: más de 2,5 tiros al arco",
+      "probability": 0.7211242484463957,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "sot",
+      "actual_home": 4,
+      "actual_away": 2
+    },
+    {
+      "fixture_id": "560625",
+      "selection_id": "fouls:away:under:13.5:",
+      "match": "Coventry – Sunderland",
+      "market": "Faltas",
+      "label": "Sunderland: menos de 13,5 faltas",
+      "probability": 0.7486480714551644,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "fouls",
+      "actual_home": 16,
+      "actual_away": 9
+    },
+    {
+      "fixture_id": "560625",
+      "selection_id": "corners:home:over:3.5:",
+      "match": "Coventry – Sunderland",
+      "market": "Córners",
+      "label": "Coventry: más de 3,5 córners",
+      "probability": 0.7079121093356908,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "corners",
+      "actual_home": 4,
+      "actual_away": 4
+    },
+    {
+      "fixture_id": "560625",
+      "selection_id": "fouls:total:over:17.5:",
+      "match": "Coventry – Sunderland",
+      "market": "Faltas",
+      "label": "Más de 17,5 faltas totales",
+      "probability": 0.8233504511960554,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "fouls",
+      "actual_home": 16,
+      "actual_away": 9
+    },
+    {
+      "fixture_id": "560625",
+      "selection_id": "shots:total:over:24.5:",
+      "match": "Coventry – Sunderland",
+      "market": "Remates",
+      "label": "Más de 24,5 remates totales",
+      "probability": 0.5879171444414066,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "shots",
+      "actual_home": 12,
+      "actual_away": 17
+    },
+    {
+      "fixture_id": "560629",
+      "selection_id": "double_chance:total:1X:None:",
+      "match": "Hull – Ipswich",
+      "market": "Doble oportunidad",
+      "label": "Hull o empate",
+      "probability": 0.7761378961134288,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 2
+    },
+    {
+      "fixture_id": "560629",
+      "selection_id": "handicap:total:away:1.5:",
+      "match": "Hull – Ipswich",
+      "market": "Hándicap de goles",
+      "label": "Ipswich +1,5",
+      "probability": 0.7052802102739241,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 2
+    },
+    {
+      "fixture_id": "560629",
+      "selection_id": "goals:total:over:1.5:",
+      "match": "Hull – Ipswich",
+      "market": "Goles",
+      "label": "Más de 1,5 goles",
+      "probability": 0.7652541649278548,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 2
+    },
+    {
+      "fixture_id": "560629",
+      "selection_id": "shots:away:over:8.5:",
+      "match": "Hull – Ipswich",
+      "market": "Remates",
+      "label": "Ipswich: más de 8,5 remates",
+      "probability": 0.7176439078368619,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "shots",
+      "actual_home": 9,
+      "actual_away": 15
+    },
+    {
+      "fixture_id": "560629",
+      "selection_id": "sot:home:over:3.5:",
+      "match": "Hull – Ipswich",
+      "market": "Tiros al arco",
+      "label": "Hull: más de 3,5 tiros al arco",
+      "probability": 0.7224157873603774,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "sot",
+      "actual_home": 3,
+      "actual_away": 3
+    },
+    {
+      "fixture_id": "560629",
+      "selection_id": "fouls:total:over:17.5:",
+      "match": "Hull – Ipswich",
+      "market": "Faltas",
+      "label": "Más de 17,5 faltas totales",
+      "probability": 0.7552924879343317,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "fouls",
+      "actual_home": 13,
+      "actual_away": 12
+    },
+    {
+      "fixture_id": "560629",
+      "selection_id": "corners:home:under:7.5:",
+      "match": "Hull – Ipswich",
+      "market": "Córners",
+      "label": "Hull: menos de 7,5 córners",
+      "probability": 0.7393024395880143,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "corners",
+      "actual_home": 6,
+      "actual_away": 3
+    },
+    {
+      "fixture_id": "560629",
+      "selection_id": "fouls:total:over:16.5:",
+      "match": "Hull – Ipswich",
+      "market": "Faltas",
+      "label": "Más de 16,5 faltas totales",
+      "probability": 0.817782024546913,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "fouls",
+      "actual_home": 13,
+      "actual_away": 12
+    },
+    {
+      "fixture_id": "560629",
+      "selection_id": "corners:home:under:6.5:",
+      "match": "Hull – Ipswich",
+      "market": "Córners",
+      "label": "Hull: menos de 6,5 córners",
+      "probability": 0.6244808133922305,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "corners",
+      "actual_home": 6,
+      "actual_away": 3
+    },
+    {
+      "fixture_id": "560630",
+      "selection_id": "double_chance:total:12:None:",
+      "match": "Brentford – Nott'm Forest",
+      "market": "Doble oportunidad",
+      "label": "Cualquiera gana, sin empate",
+      "probability": 0.7407626143313266,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 0
+    },
+    {
+      "fixture_id": "560630",
+      "selection_id": "handicap:total:away:1.5:",
+      "match": "Brentford – Nott'm Forest",
+      "market": "Hándicap de goles",
+      "label": "Nott'm Forest +1,5",
+      "probability": 0.7640873511315113,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 0
+    },
+    {
+      "fixture_id": "560630",
+      "selection_id": "goals:total:over:1.5:",
+      "match": "Brentford – Nott'm Forest",
+      "market": "Goles",
+      "label": "Más de 1,5 goles",
+      "probability": 0.7693780466720996,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 0
+    },
+    {
+      "fixture_id": "560630",
+      "selection_id": "btts:total:yes:None:",
+      "match": "Brentford – Nott'm Forest",
+      "market": "Ambos marcan",
+      "label": "Ambos marcan: sí",
+      "probability": 0.5587075587682049,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 0
+    },
+    {
+      "fixture_id": "560630",
+      "selection_id": "result_goals:total:1X:1.5:over",
+      "match": "Brentford – Nott'm Forest",
+      "market": "Resultado y goles",
+      "label": "Brentford o empate y más de 1,5 goles",
+      "probability": 0.5543082155505725,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 0
+    },
+    {
+      "fixture_id": "560630",
+      "selection_id": "shots:home:over:9.5:",
+      "match": "Brentford – Nott'm Forest",
+      "market": "Remates",
+      "label": "Brentford: más de 9,5 remates",
+      "probability": 0.772171604202103,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "shots",
+      "actual_home": 7,
+      "actual_away": 15
+    },
+    {
+      "fixture_id": "560630",
+      "selection_id": "sot:total:over:7.5:",
+      "match": "Brentford – Nott'm Forest",
+      "market": "Tiros al arco",
+      "label": "Más de 7,5 tiros al arco totales",
+      "probability": 0.7289461886961568,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "sot",
+      "actual_home": 1,
+      "actual_away": 1
+    },
+    {
+      "fixture_id": "560630",
+      "selection_id": "fouls:away:under:12.5:",
+      "match": "Brentford – Nott'm Forest",
+      "market": "Faltas",
+      "label": "Nott'm Forest: menos de 12,5 faltas",
+      "probability": 0.7390268327414693,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "fouls",
+      "actual_home": 6,
+      "actual_away": 17
+    },
+    {
+      "fixture_id": "560630",
+      "selection_id": "corners:home:over:3.5:",
+      "match": "Brentford – Nott'm Forest",
+      "market": "Córners",
+      "label": "Brentford: más de 3,5 córners",
+      "probability": 0.7268089124503221,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "corners",
+      "actual_home": 3,
+      "actual_away": 4
+    },
+    {
+      "fixture_id": "560630",
+      "selection_id": "goals:home:under:2.5:",
+      "match": "Brentford – Nott'm Forest",
+      "market": "Goles",
+      "label": "Brentford: menos de 2,5 goles",
+      "probability": 0.7890891551450564,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 0
+    },
+    {
+      "fixture_id": "560630",
+      "selection_id": "double_chance:total:X2:None:",
+      "match": "Brentford – Nott'm Forest",
+      "market": "Doble oportunidad",
+      "label": "Nott'm Forest o empate",
+      "probability": 0.5452907206193285,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 0
+    },
+    {
+      "fixture_id": "560627",
+      "selection_id": "double_chance:total:12:None:",
+      "match": "Tottenham – Crystal Palace",
+      "market": "Doble oportunidad",
+      "label": "Cualquiera gana, sin empate",
+      "probability": 0.7453817273115606,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 0
+    },
+    {
+      "fixture_id": "560627",
+      "selection_id": "handicap:total:away:1.5:",
+      "match": "Tottenham – Crystal Palace",
+      "market": "Hándicap de goles",
+      "label": "Crystal Palace +1,5",
+      "probability": 0.7555088089742628,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 0
+    },
+    {
+      "fixture_id": "560627",
+      "selection_id": "goals:home:under:2.5:",
+      "match": "Tottenham – Crystal Palace",
+      "market": "Goles",
+      "label": "Tottenham: menos de 2,5 goles",
+      "probability": 0.7756182240918814,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 0
+    },
+    {
+      "fixture_id": "560627",
+      "selection_id": "shots:away:under:13.5:",
+      "match": "Tottenham – Crystal Palace",
+      "market": "Remates",
+      "label": "Crystal Palace: menos de 13,5 remates",
+      "probability": 0.7278330477108786,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "shots",
+      "actual_home": 34,
+      "actual_away": 2
+    },
+    {
+      "fixture_id": "560627",
+      "selection_id": "sot:away:over:2.5:",
+      "match": "Tottenham – Crystal Palace",
+      "market": "Tiros al arco",
+      "label": "Crystal Palace: más de 2,5 tiros al arco",
+      "probability": 0.7540981394888007,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "sot",
+      "actual_home": 9,
+      "actual_away": 1
+    },
+    {
+      "fixture_id": "560627",
+      "selection_id": "fouls:total:over:18.5:",
+      "match": "Tottenham – Crystal Palace",
+      "market": "Faltas",
+      "label": "Más de 18,5 faltas totales",
+      "probability": 0.7415208746049966,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "fouls",
+      "actual_home": 8,
+      "actual_away": 10
+    },
+    {
+      "fixture_id": "560627",
+      "selection_id": "corners:home:under:8.5:",
+      "match": "Tottenham – Crystal Palace",
+      "market": "Córners",
+      "label": "Tottenham: menos de 8,5 córners",
+      "probability": 0.7280571350146582,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "corners",
+      "actual_home": 19,
+      "actual_away": 0
+    },
+    {
+      "fixture_id": "560627",
+      "selection_id": "goals:total:over:1.5:",
+      "match": "Tottenham – Crystal Palace",
+      "market": "Goles",
+      "label": "Más de 1,5 goles",
+      "probability": 0.7818364477041825,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 0
+    },
+    {
+      "fixture_id": "560627",
+      "selection_id": "double_chance:total:1X:None:",
+      "match": "Tottenham – Crystal Palace",
+      "market": "Doble oportunidad",
+      "label": "Tottenham o empate",
+      "probability": 0.7171109241180351,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 0
+    },
+    {
+      "fixture_id": "560627",
+      "selection_id": "corners:away:under:4.5:",
+      "match": "Tottenham – Crystal Palace",
+      "market": "Córners",
+      "label": "Crystal Palace: menos de 4,5 córners",
+      "probability": 0.5841138660631582,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "corners",
+      "actual_home": 19,
+      "actual_away": 0
+    },
+    {
+      "fixture_id": "560628",
+      "selection_id": "double_chance:total:1X:None:",
+      "match": "Aston Villa – Fulham",
+      "market": "Doble oportunidad",
+      "label": "Aston Villa o empate",
+      "probability": 0.7397808584504377,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 1,
+      "actual_away": 1
+    },
+    {
+      "fixture_id": "560628",
+      "selection_id": "handicap:total:away:1.5:",
+      "match": "Aston Villa – Fulham",
+      "market": "Hándicap de goles",
+      "label": "Fulham +1,5",
+      "probability": 0.7400315303233007,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 1,
+      "actual_away": 1
+    },
+    {
+      "fixture_id": "560628",
+      "selection_id": "goals:home:under:2.5:",
+      "match": "Aston Villa – Fulham",
+      "market": "Goles",
+      "label": "Aston Villa: menos de 2,5 goles",
+      "probability": 0.7720954926764994,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 1,
+      "actual_away": 1
+    },
+    {
+      "fixture_id": "560628",
+      "selection_id": "shots:away:under:15.5:",
+      "match": "Aston Villa – Fulham",
+      "market": "Remates",
+      "label": "Fulham: menos de 15,5 remates",
+      "probability": 0.7826221414170942,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "shots",
+      "actual_home": 16,
+      "actual_away": 14
+    },
+    {
+      "fixture_id": "560628",
+      "selection_id": "sot:total:over:6.5:",
+      "match": "Aston Villa – Fulham",
+      "market": "Tiros al arco",
+      "label": "Más de 6,5 tiros al arco totales",
+      "probability": 0.7605598092846015,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "sot",
+      "actual_home": 3,
+      "actual_away": 5
+    },
+    {
+      "fixture_id": "560628",
+      "selection_id": "fouls:total:over:19.5:",
+      "match": "Aston Villa – Fulham",
+      "market": "Faltas",
+      "label": "Más de 19,5 faltas totales",
+      "probability": 0.7062976984785088,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "fouls",
+      "actual_home": 7,
+      "actual_away": 12
+    },
+    {
+      "fixture_id": "560628",
+      "selection_id": "corners:away:over:2.5:",
+      "match": "Aston Villa – Fulham",
+      "market": "Córners",
+      "label": "Fulham: más de 2,5 córners",
+      "probability": 0.7799886303912781,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "corners",
+      "actual_home": 7,
+      "actual_away": 7
+    },
+    {
+      "fixture_id": "560628",
+      "selection_id": "shots:total:under:29.5:",
+      "match": "Aston Villa – Fulham",
+      "market": "Remates",
+      "label": "Menos de 29,5 remates totales",
+      "probability": 0.8130159140738755,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "shots",
+      "actual_home": 16,
+      "actual_away": 14
+    },
+    {
+      "fixture_id": "560628",
+      "selection_id": "goals:total:under:3.5:",
+      "match": "Aston Villa – Fulham",
+      "market": "Goles",
+      "label": "Menos de 3,5 goles",
+      "probability": 0.6965665922236173,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 1,
+      "actual_away": 1
+    },
+    {
+      "fixture_id": "560628",
+      "selection_id": "double_chance:total:X2:None:",
+      "match": "Aston Villa – Fulham",
+      "market": "Doble oportunidad",
+      "label": "Fulham o empate",
+      "probability": 0.5152489477765313,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 1,
+      "actual_away": 1
+    },
+    {
+      "fixture_id": "565847",
+      "selection_id": "result:total:home:None:",
+      "match": "Leverkusen – Stuttgart",
+      "market": "Resultado 1X2",
+      "label": "Gana Leverkusen",
+      "probability": 0.5073454544235143,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 4
+    },
+    {
+      "fixture_id": "565847",
+      "selection_id": "double_chance:total:12:None:",
+      "match": "Leverkusen – Stuttgart",
+      "market": "Doble oportunidad",
+      "label": "Cualquiera gana, sin empate",
+      "probability": 0.7800391632233874,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 4
+    },
+    {
+      "fixture_id": "565847",
+      "selection_id": "goals:total:under:4.5:",
+      "match": "Leverkusen – Stuttgart",
+      "market": "Goles",
+      "label": "Menos de 4,5 goles",
+      "probability": 0.7128752888106834,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 4
+    },
+    {
+      "fixture_id": "565847",
+      "selection_id": "btts:total:yes:None:",
+      "match": "Leverkusen – Stuttgart",
+      "market": "Ambos marcan",
+      "label": "Ambos marcan: sí",
+      "probability": 0.6804415386717231,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 4
+    },
+    {
+      "fixture_id": "565847",
+      "selection_id": "result_goals:total:1X:1.5:over",
+      "match": "Leverkusen – Stuttgart",
+      "market": "Resultado y goles",
+      "label": "Leverkusen o empate y más de 1,5 goles",
+      "probability": 0.6414934123661811,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 4
+    },
+    {
+      "fixture_id": "565847",
+      "selection_id": "shots:total:over:23.5:",
+      "match": "Leverkusen – Stuttgart",
+      "market": "Remates",
+      "label": "Más de 23,5 remates totales",
+      "probability": 0.7422400146947901,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "shots",
+      "actual_home": 24,
+      "actual_away": 15
+    },
+    {
+      "fixture_id": "565847",
+      "selection_id": "sot:away:over:2.5:",
+      "match": "Leverkusen – Stuttgart",
+      "market": "Tiros al arco",
+      "label": "Stuttgart: más de 2,5 tiros al arco",
+      "probability": 0.7665227700243638,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "sot",
+      "actual_home": 8,
+      "actual_away": 7
+    },
+    {
+      "fixture_id": "565847",
+      "selection_id": "fouls:home:under:12.5:",
+      "match": "Leverkusen – Stuttgart",
+      "market": "Faltas",
+      "label": "Leverkusen: menos de 12,5 faltas",
+      "probability": 0.7170460156144035,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "fouls",
+      "actual_home": 9,
+      "actual_away": 13
+    },
+    {
+      "fixture_id": "565847",
+      "selection_id": "corners:total:under:12.5:",
+      "match": "Leverkusen – Stuttgart",
+      "market": "Córners",
+      "label": "Menos de 12,5 córners",
+      "probability": 0.7825622256220082,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "corners",
+      "actual_home": 12,
+      "actual_away": 3
+    },
+    {
+      "fixture_id": "565847",
+      "selection_id": "goals:away:under:2.5:",
+      "match": "Leverkusen – Stuttgart",
+      "market": "Goles",
+      "label": "Stuttgart: menos de 2,5 goles",
+      "probability": 0.812415941075583,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 4
+    },
+    {
+      "fixture_id": "565847",
+      "selection_id": "double_chance:total:1X:None:",
+      "match": "Leverkusen – Stuttgart",
+      "market": "Doble oportunidad",
+      "label": "Leverkusen o empate",
+      "probability": 0.7273062912001267,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 4
+    },
+    {
+      "fixture_id": "565843",
+      "selection_id": "double_chance:total:12:None:",
+      "match": "Werder Bremen – Hoffenheim",
+      "market": "Doble oportunidad",
+      "label": "Cualquiera gana, sin empate",
+      "probability": 0.7684539839820805,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 0
+    },
+    {
+      "fixture_id": "565843",
+      "selection_id": "handicap:total:away:1.5:",
+      "match": "Werder Bremen – Hoffenheim",
+      "market": "Hándicap de goles",
+      "label": "Hoffenheim +1,5",
+      "probability": 0.7792335984037636,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 0
+    },
+    {
+      "fixture_id": "565843",
+      "selection_id": "goals:total:under:4.5:",
+      "match": "Werder Bremen – Hoffenheim",
+      "market": "Goles",
+      "label": "Menos de 4,5 goles",
+      "probability": 0.7279361311494146,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 0
+    },
+    {
+      "fixture_id": "565843",
+      "selection_id": "btts:total:yes:None:",
+      "match": "Werder Bremen – Hoffenheim",
+      "market": "Ambos marcan",
+      "label": "Ambos marcan: sí",
+      "probability": 0.6836129616245615,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 0
+    },
+    {
+      "fixture_id": "565843",
+      "selection_id": "result_goals:total:1X:1.5:over",
+      "match": "Werder Bremen – Hoffenheim",
+      "market": "Resultado y goles",
+      "label": "Werder Bremen o empate y más de 1,5 goles",
+      "probability": 0.5555571832406682,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 0
+    },
+    {
+      "fixture_id": "565843",
+      "selection_id": "shots:home:over:10.5:",
+      "match": "Werder Bremen – Hoffenheim",
+      "market": "Remates",
+      "label": "Werder Bremen: más de 10,5 remates",
+      "probability": 0.73115994573528,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "shots",
+      "actual_home": 18,
+      "actual_away": 16
+    },
+    {
+      "fixture_id": "565843",
+      "selection_id": "sot:away:over:2.5:",
+      "match": "Werder Bremen – Hoffenheim",
+      "market": "Tiros al arco",
+      "label": "Hoffenheim: más de 2,5 tiros al arco",
+      "probability": 0.7553806355233649,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "sot",
+      "actual_home": 4,
+      "actual_away": 2
+    },
+    {
+      "fixture_id": "565843",
+      "selection_id": "fouls:total:over:18.5:",
+      "match": "Werder Bremen – Hoffenheim",
+      "market": "Faltas",
+      "label": "Más de 18,5 faltas totales",
+      "probability": 0.7725196335869153,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "fouls",
+      "actual_home": 11,
+      "actual_away": 11
+    },
+    {
+      "fixture_id": "565843",
+      "selection_id": "corners:away:over:2.5:",
+      "match": "Werder Bremen – Hoffenheim",
+      "market": "Córners",
+      "label": "Hoffenheim: más de 2,5 córners",
+      "probability": 0.7666766911108709,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "corners",
+      "actual_home": 8,
+      "actual_away": 4
+    },
+    {
+      "fixture_id": "565843",
+      "selection_id": "fouls:total:over:17.5:",
+      "match": "Werder Bremen – Hoffenheim",
+      "market": "Faltas",
+      "label": "Más de 17,5 faltas totales",
+      "probability": 0.8292402762659907,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "fouls",
+      "actual_home": 11,
+      "actual_away": 11
+    },
+    {
+      "fixture_id": "565842",
+      "selection_id": "double_chance:total:1X:None:",
+      "match": "Augsburg – Freiburg",
+      "market": "Doble oportunidad",
+      "label": "Augsburg o empate",
+      "probability": 0.6520495819356907,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "goals",
+      "actual_home": 1,
+      "actual_away": 2
+    },
+    {
+      "fixture_id": "565842",
+      "selection_id": "handicap:total:away:1.5:",
+      "match": "Augsburg – Freiburg",
+      "market": "Hándicap de goles",
+      "label": "Freiburg +1,5",
+      "probability": 0.7944211499909557,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 1,
+      "actual_away": 2
+    },
+    {
+      "fixture_id": "565842",
+      "selection_id": "goals:total:under:4.5:",
+      "match": "Augsburg – Freiburg",
+      "market": "Goles",
+      "label": "Menos de 4,5 goles",
+      "probability": 0.8018182688147529,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 1,
+      "actual_away": 2
+    },
+    {
+      "fixture_id": "565842",
+      "selection_id": "btts:total:yes:None:",
+      "match": "Augsburg – Freiburg",
+      "market": "Ambos marcan",
+      "label": "Ambos marcan: sí",
+      "probability": 0.620330512723891,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 1,
+      "actual_away": 2
+    },
+    {
+      "fixture_id": "565842",
+      "selection_id": "shots:home:under:16.5:",
+      "match": "Augsburg – Freiburg",
+      "market": "Remates",
+      "label": "Augsburg: menos de 16,5 remates",
+      "probability": 0.7485707567522109,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "shots",
+      "actual_home": 15,
+      "actual_away": 10
+    },
+    {
+      "fixture_id": "565842",
+      "selection_id": "sot:away:under:5.5:",
+      "match": "Augsburg – Freiburg",
+      "market": "Tiros al arco",
+      "label": "Freiburg: menos de 5,5 tiros al arco",
+      "probability": 0.7421648609948566,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "sot",
+      "actual_home": 5,
+      "actual_away": 2
+    },
+    {
+      "fixture_id": "565842",
+      "selection_id": "fouls:away:over:7.5:",
+      "match": "Augsburg – Freiburg",
+      "market": "Faltas",
+      "label": "Freiburg: más de 7,5 faltas",
+      "probability": 0.752290011338208,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "fouls",
+      "actual_home": 7,
+      "actual_away": 11
+    },
+    {
+      "fixture_id": "565842",
+      "selection_id": "corners:away:over:2.5:",
+      "match": "Augsburg – Freiburg",
+      "market": "Córners",
+      "label": "Freiburg: más de 2,5 córners",
+      "probability": 0.7688810586414546,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "corners",
+      "actual_home": 1,
+      "actual_away": 2
+    },
+    {
+      "fixture_id": "565842",
+      "selection_id": "goals:total:over:1.5:",
+      "match": "Augsburg – Freiburg",
+      "market": "Goles",
+      "label": "Más de 1,5 goles",
+      "probability": 0.8165538363440508,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 1,
+      "actual_away": 2
+    },
+    {
+      "fixture_id": "565842",
+      "selection_id": "shots:away:over:9.5:",
+      "match": "Augsburg – Freiburg",
+      "market": "Remates",
+      "label": "Freiburg: más de 9,5 remates",
+      "probability": 0.7071542194859444,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "shots",
+      "actual_home": 15,
+      "actual_away": 10
+    },
+    {
+      "fixture_id": "565840",
+      "selection_id": "handicap:total:home:1.5:",
+      "match": "Schalke 04 – RB Leipzig",
+      "market": "Hándicap de goles",
+      "label": "Schalke 04 +1,5",
+      "probability": 0.7333286235764552,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "goals",
+      "actual_home": 0,
+      "actual_away": 2
+    },
+    {
+      "fixture_id": "565840",
+      "selection_id": "goals:away:under:2.5:",
+      "match": "Schalke 04 – RB Leipzig",
+      "market": "Goles",
+      "label": "RB Leipzig: menos de 2,5 goles",
+      "probability": 0.7840185829568893,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 0,
+      "actual_away": 2
+    },
+    {
+      "fixture_id": "565840",
+      "selection_id": "shots:away:over:10.5:",
+      "match": "Schalke 04 – RB Leipzig",
+      "market": "Remates",
+      "label": "RB Leipzig: más de 10,5 remates",
+      "probability": 0.7349449216071745,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "shots",
+      "actual_home": 6,
+      "actual_away": 18
+    },
+    {
+      "fixture_id": "565840",
+      "selection_id": "sot:away:over:3.5:",
+      "match": "Schalke 04 – RB Leipzig",
+      "market": "Tiros al arco",
+      "label": "RB Leipzig: más de 3,5 tiros al arco",
+      "probability": 0.7229888162235371,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "sot",
+      "actual_home": 1,
+      "actual_away": 10
+    },
+    {
+      "fixture_id": "565840",
+      "selection_id": "fouls:total:over:19.5:",
+      "match": "Schalke 04 – RB Leipzig",
+      "market": "Faltas",
+      "label": "Más de 19,5 faltas totales",
+      "probability": 0.7353122223509059,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "fouls",
+      "actual_home": 16,
+      "actual_away": 16
+    },
+    {
+      "fixture_id": "565840",
+      "selection_id": "corners:away:under:6.5:",
+      "match": "Schalke 04 – RB Leipzig",
+      "market": "Córners",
+      "label": "RB Leipzig: menos de 6,5 córners",
+      "probability": 0.7209574674618884,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "corners",
+      "actual_home": 3,
+      "actual_away": 7
+    },
+    {
+      "fixture_id": "565840",
+      "selection_id": "corners:away:under:5.5:",
+      "match": "Schalke 04 – RB Leipzig",
+      "market": "Córners",
+      "label": "RB Leipzig: menos de 5,5 córners",
+      "probability": 0.5993254754123358,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "corners",
+      "actual_home": 3,
+      "actual_away": 7
+    },
+    {
+      "fixture_id": "565839",
+      "selection_id": "double_chance:total:X2:None:",
+      "match": "M'gladbach – Paderborn",
+      "market": "Doble oportunidad",
+      "label": "Paderborn o empate",
+      "probability": 0.525868627905991,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 0,
+      "actual_away": 0
+    },
+    {
+      "fixture_id": "565839",
+      "selection_id": "handicap:total:away:1.5:",
+      "match": "M'gladbach – Paderborn",
+      "market": "Hándicap de goles",
+      "label": "Paderborn +1,5",
+      "probability": 0.7486626185353863,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 0,
+      "actual_away": 0
+    },
+    {
+      "fixture_id": "565839",
+      "selection_id": "goals:total:over:1.5:",
+      "match": "M'gladbach – Paderborn",
+      "market": "Goles",
+      "label": "Más de 1,5 goles",
+      "probability": 0.7695735654258542,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "goals",
+      "actual_home": 0,
+      "actual_away": 0
+    },
+    {
+      "fixture_id": "565839",
+      "selection_id": "shots:total:under:31.5:",
+      "match": "M'gladbach – Paderborn",
+      "market": "Remates",
+      "label": "Menos de 31,5 remates totales",
+      "probability": 0.7379773937086913,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "shots",
+      "actual_home": 12,
+      "actual_away": 13
+    },
+    {
+      "fixture_id": "565839",
+      "selection_id": "sot:total:under:11.5:",
+      "match": "M'gladbach – Paderborn",
+      "market": "Tiros al arco",
+      "label": "Menos de 11,5 tiros al arco totales",
+      "probability": 0.7414610781354292,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "sot",
+      "actual_home": 4,
+      "actual_away": 4
+    },
+    {
+      "fixture_id": "565839",
+      "selection_id": "fouls:home:over:8.5:",
+      "match": "M'gladbach – Paderborn",
+      "market": "Faltas",
+      "label": "M'gladbach: más de 8,5 faltas",
+      "probability": 0.7205370667158079,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "fouls",
+      "actual_home": 10,
+      "actual_away": 9
+    },
+    {
+      "fixture_id": "565839",
+      "selection_id": "corners:away:over:2.5:",
+      "match": "M'gladbach – Paderborn",
+      "market": "Córners",
+      "label": "Paderborn: más de 2,5 córners",
+      "probability": 0.7400334171821416,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "corners",
+      "actual_home": 4,
+      "actual_away": 7
+    },
+    {
+      "fixture_id": "565839",
+      "selection_id": "shots:away:over:8.5:",
+      "match": "M'gladbach – Paderborn",
+      "market": "Remates",
+      "label": "Paderborn: más de 8,5 remates",
+      "probability": 0.8173656308423393,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "shots",
+      "actual_home": 12,
+      "actual_away": 13
+    },
+    {
+      "fixture_id": "565845",
+      "selection_id": "double_chance:total:12:None:",
+      "match": "Bayern Munich – Dortmund",
+      "market": "Doble oportunidad",
+      "label": "Cualquiera gana, sin empate",
+      "probability": 0.8208090071957388,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 2
+    },
+    {
+      "fixture_id": "565845",
+      "selection_id": "goals:away:under:1.5:",
+      "match": "Bayern Munich – Dortmund",
+      "market": "Goles",
+      "label": "Dortmund: menos de 1,5 goles",
+      "probability": 0.6625319001848766,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 2
+    },
+    {
+      "fixture_id": "565845",
+      "selection_id": "shots:total:over:22.5:",
+      "match": "Bayern Munich – Dortmund",
+      "market": "Remates",
+      "label": "Más de 22,5 remates totales",
+      "probability": 0.7669183060498245,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "shots",
+      "actual_home": 23,
+      "actual_away": 12
+    },
+    {
+      "fixture_id": "565845",
+      "selection_id": "sot:away:under:4.5:",
+      "match": "Bayern Munich – Dortmund",
+      "market": "Tiros al arco",
+      "label": "Dortmund: menos de 4,5 tiros al arco",
+      "probability": 0.7593716832462665,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "sot",
+      "actual_home": 5,
+      "actual_away": 6
+    },
+    {
+      "fixture_id": "565845",
+      "selection_id": "fouls:total:over:16.5:",
+      "match": "Bayern Munich – Dortmund",
+      "market": "Faltas",
+      "label": "Más de 16,5 faltas totales",
+      "probability": 0.7236761820214113,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "fouls",
+      "actual_home": 11,
+      "actual_away": 6
+    },
+    {
+      "fixture_id": "565845",
+      "selection_id": "corners:home:over:4.5:",
+      "match": "Bayern Munich – Dortmund",
+      "market": "Córners",
+      "label": "Bayern Munich: más de 4,5 córners",
+      "probability": 0.7332960861309689,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "corners",
+      "actual_home": 5,
+      "actual_away": 2
+    },
+    {
+      "fixture_id": "565845",
+      "selection_id": "corners:away:under:3.5:",
+      "match": "Bayern Munich – Dortmund",
+      "market": "Córners",
+      "label": "Dortmund: menos de 3,5 córners",
+      "probability": 0.6143420549190579,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "corners",
+      "actual_home": 5,
+      "actual_away": 2
+    },
+    {
+      "fixture_id": "558539",
+      "selection_id": "double_chance:total:1X:None:",
+      "match": "Bologna – Monza",
+      "market": "Doble oportunidad",
+      "label": "Bologna o empate",
+      "probability": 0.8083739173557261,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 1
+    },
+    {
+      "fixture_id": "558539",
+      "selection_id": "handicap:total:away:2.5:",
+      "match": "Bologna – Monza",
+      "market": "Hándicap de goles",
+      "label": "Monza +2,5",
+      "probability": 0.8305361316946884,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 1
+    },
+    {
+      "fixture_id": "558539",
+      "selection_id": "goals:total:over:1.5:",
+      "match": "Bologna – Monza",
+      "market": "Goles",
+      "label": "Más de 1,5 goles",
+      "probability": 0.7978117902296035,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 1
+    },
+    {
+      "fixture_id": "558539",
+      "selection_id": "result_goals:total:1X:1.5:over",
+      "match": "Bologna – Monza",
+      "market": "Resultado y goles",
+      "label": "Bologna o empate y más de 1,5 goles",
+      "probability": 0.6573774095818038,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 1
+    },
+    {
+      "fixture_id": "558539",
+      "selection_id": "shots:total:under:26.5:",
+      "match": "Bologna – Monza",
+      "market": "Remates",
+      "label": "Menos de 26,5 remates totales",
+      "probability": 0.7126454358883374,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "shots",
+      "actual_home": 10,
+      "actual_away": 6
+    },
+    {
+      "fixture_id": "558539",
+      "selection_id": "sot:home:under:6.5:",
+      "match": "Bologna – Monza",
+      "market": "Tiros al arco",
+      "label": "Bologna: menos de 6,5 tiros al arco",
+      "probability": 0.7795172308008268,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "sot",
+      "actual_home": 5,
+      "actual_away": 4
+    },
+    {
+      "fixture_id": "558539",
+      "selection_id": "fouls:away:over:10.5:",
+      "match": "Bologna – Monza",
+      "market": "Faltas",
+      "label": "Monza: más de 10,5 faltas",
+      "probability": 0.7412705898376528,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "fouls",
+      "actual_home": 13,
+      "actual_away": 19
+    },
+    {
+      "fixture_id": "558539",
+      "selection_id": "corners:total:under:11.5:",
+      "match": "Bologna – Monza",
+      "market": "Córners",
+      "label": "Menos de 11,5 córners",
+      "probability": 0.739958237518026,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "corners",
+      "actual_home": 5,
+      "actual_away": 2
+    },
+    {
+      "fixture_id": "558539",
+      "selection_id": "goals:total:over:2.5:",
+      "match": "Bologna – Monza",
+      "market": "Goles",
+      "label": "Más de 2,5 goles",
+      "probability": 0.5663788235788106,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 1
+    },
+    {
+      "fixture_id": "558542",
+      "selection_id": "result:total:away:None:",
+      "match": "Udinese – Roma",
+      "market": "Resultado 1X2",
+      "label": "Gana Roma",
+      "probability": 0.5285511198471493,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 5
+    },
+    {
+      "fixture_id": "558542",
+      "selection_id": "double_chance:total:12:None:",
+      "match": "Udinese – Roma",
+      "market": "Doble oportunidad",
+      "label": "Cualquiera gana, sin empate",
+      "probability": 0.7473867123541059,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 5
+    },
+    {
+      "fixture_id": "558542",
+      "selection_id": "goals:total:over:1.5:",
+      "match": "Udinese – Roma",
+      "market": "Goles",
+      "label": "Más de 1,5 goles",
+      "probability": 0.7496156061637771,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 5
+    },
+    {
+      "fixture_id": "558542",
+      "selection_id": "result_goals:total:X2:1.5:over",
+      "match": "Udinese – Roma",
+      "market": "Resultado y goles",
+      "label": "Roma o empate y más de 1,5 goles",
+      "probability": 0.5967578602048781,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 5
+    },
+    {
+      "fixture_id": "558542",
+      "selection_id": "shots:home:under:14.5:",
+      "match": "Udinese – Roma",
+      "market": "Remates",
+      "label": "Udinese: menos de 14,5 remates",
+      "probability": 0.7213069487861202,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "shots",
+      "actual_home": 15,
+      "actual_away": 14
+    },
+    {
+      "fixture_id": "558542",
+      "selection_id": "sot:home:under:5.5:",
+      "match": "Udinese – Roma",
+      "market": "Tiros al arco",
+      "label": "Udinese: menos de 5,5 tiros al arco",
+      "probability": 0.7698374153192649,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "sot",
+      "actual_home": 7,
+      "actual_away": 9
+    },
+    {
+      "fixture_id": "558542",
+      "selection_id": "fouls:away:over:9.5:",
+      "match": "Udinese – Roma",
+      "market": "Faltas",
+      "label": "Roma: más de 9,5 faltas",
+      "probability": 0.7523493744066215,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "fouls",
+      "actual_home": 11,
+      "actual_away": 9
+    },
+    {
+      "fixture_id": "558542",
+      "selection_id": "corners:total:under:11.5:",
+      "match": "Udinese – Roma",
+      "market": "Córners",
+      "label": "Menos de 11,5 córners",
+      "probability": 0.7342358872420864,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "corners",
+      "actual_home": 7,
+      "actual_away": 4
+    },
+    {
+      "fixture_id": "558542",
+      "selection_id": "double_chance:total:X2:None:",
+      "match": "Udinese – Roma",
+      "market": "Doble oportunidad",
+      "label": "Roma o empate",
+      "probability": 0.7811644074930435,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 5
+    },
+    {
+      "fixture_id": "558548",
+      "selection_id": "double_chance:total:12:None:",
+      "match": "Milan – Inter",
+      "market": "Doble oportunidad",
+      "label": "Cualquiera gana, sin empate",
+      "probability": 0.7545713601034117,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 3,
+      "actual_away": 1
+    },
+    {
+      "fixture_id": "558548",
+      "selection_id": "handicap:total:home:1.5:",
+      "match": "Milan – Inter",
+      "market": "Hándicap de goles",
+      "label": "Milan +1,5",
+      "probability": 0.7417712878385249,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 3,
+      "actual_away": 1
+    },
+    {
+      "fixture_id": "558548",
+      "selection_id": "goals:away:under:2.5:",
+      "match": "Milan – Inter",
+      "market": "Goles",
+      "label": "Inter: menos de 2,5 goles",
+      "probability": 0.7480869092777025,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 3,
+      "actual_away": 1
+    },
+    {
+      "fixture_id": "558548",
+      "selection_id": "btts:total:yes:None:",
+      "match": "Milan – Inter",
+      "market": "Ambos marcan",
+      "label": "Ambos marcan: sí",
+      "probability": 0.6004455637906044,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 3,
+      "actual_away": 1
+    },
+    {
+      "fixture_id": "558548",
+      "selection_id": "shots:away:under:17.5:",
+      "match": "Milan – Inter",
+      "market": "Remates",
+      "label": "Inter: menos de 17,5 remates",
+      "probability": 0.7529917303929271,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "shots",
+      "actual_home": 7,
+      "actual_away": 19
+    },
+    {
+      "fixture_id": "558548",
+      "selection_id": "sot:total:under:10.5:",
+      "match": "Milan – Inter",
+      "market": "Tiros al arco",
+      "label": "Menos de 10,5 tiros al arco totales",
+      "probability": 0.7645239216809324,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "sot",
+      "actual_home": 4,
+      "actual_away": 8
+    },
+    {
+      "fixture_id": "558548",
+      "selection_id": "fouls:home:over:7.5:",
+      "match": "Milan – Inter",
+      "market": "Faltas",
+      "label": "Milan: más de 7,5 faltas",
+      "probability": 0.726471461457453,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "fouls",
+      "actual_home": 8,
+      "actual_away": 14
+    },
+    {
+      "fixture_id": "558548",
+      "selection_id": "corners:away:over:2.5:",
+      "match": "Milan – Inter",
+      "market": "Córners",
+      "label": "Inter: más de 2,5 córners",
+      "probability": 0.746290336196472,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "corners",
+      "actual_home": 3,
+      "actual_away": 11
+    },
+    {
+      "fixture_id": "558548",
+      "selection_id": "goals:total:over:1.5:",
+      "match": "Milan – Inter",
+      "market": "Goles",
+      "label": "Más de 1,5 goles",
+      "probability": 0.8083099760044935,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 3,
+      "actual_away": 1
+    },
+    {
+      "fixture_id": "558548",
+      "selection_id": "sot:total:over:7.5:",
+      "match": "Milan – Inter",
+      "market": "Tiros al arco",
+      "label": "Más de 7,5 tiros al arco totales",
+      "probability": 0.5977088409172155,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "sot",
+      "actual_home": 4,
+      "actual_away": 8
+    },
+    {
+      "fixture_id": "559643",
+      "selection_id": "goals:total:over:1.5:",
+      "match": "Troyes – Le Mans",
+      "market": "Goles",
+      "label": "Más de 1,5 goles",
+      "probability": 0.7789069210590229,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 0
+    },
+    {
+      "fixture_id": "559643",
+      "selection_id": "shots:home:over:9.5:",
+      "match": "Troyes – Le Mans",
+      "market": "Remates",
+      "label": "Troyes: más de 9,5 remates",
+      "probability": 0.7252081664048371,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "shots",
+      "actual_home": 14,
+      "actual_away": 3
+    },
+    {
+      "fixture_id": "559643",
+      "selection_id": "sot:home:over:2.5:",
+      "match": "Troyes – Le Mans",
+      "market": "Tiros al arco",
+      "label": "Troyes: más de 2,5 tiros al arco",
+      "probability": 0.7446057219461691,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "sot",
+      "actual_home": 8,
+      "actual_away": 1
+    },
+    {
+      "fixture_id": "559643",
+      "selection_id": "fouls:away:under:15.5:",
+      "match": "Troyes – Le Mans",
+      "market": "Faltas",
+      "label": "Le Mans: menos de 15,5 faltas",
+      "probability": 0.7675673322166787,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "fouls",
+      "actual_home": 15,
+      "actual_away": 16
+    },
+    {
+      "fixture_id": "559643",
+      "selection_id": "corners:total:over:7.5:",
+      "match": "Troyes – Le Mans",
+      "market": "Córners",
+      "label": "Más de 7,5 córners",
+      "probability": 0.7590324606381293,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "corners",
+      "actual_home": 4,
+      "actual_away": 2
+    },
+    {
+      "fixture_id": "559643",
+      "selection_id": "goals:total:under:4.5:",
+      "match": "Troyes – Le Mans",
+      "market": "Goles",
+      "label": "Menos de 4,5 goles",
+      "probability": 0.8425811797164441,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 0
+    },
+    {
+      "fixture_id": "559643",
+      "selection_id": "shots:away:over:9.5:",
+      "match": "Troyes – Le Mans",
+      "market": "Remates",
+      "label": "Le Mans: más de 9,5 remates",
+      "probability": 0.7138757865391543,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "shots",
+      "actual_home": 14,
+      "actual_away": 3
+    },
+    {
+      "fixture_id": "559643",
+      "selection_id": "corners:total:under:10.5:",
+      "match": "Troyes – Le Mans",
+      "market": "Córners",
+      "label": "Menos de 10,5 córners",
+      "probability": 0.5839905328625429,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "corners",
+      "actual_home": 4,
+      "actual_away": 2
+    }
+  ],
+  "tier_summary": {
+    "selections": 66,
+    "settled": 66,
+    "won": 51,
+    "lost": 15,
+    "unverified": 0,
+    "hit_rate": 0.7727272727272727
+  },
+  "unique_summary": {
+    "selections": 203,
+    "settled": 203,
+    "won": 149,
+    "lost": 54,
+    "unverified": 0,
+    "hit_rate": 0.7339901477832512
+  },
+  "by_tier": {
+    "Conservadora": {
+      "selections": 22,
+      "settled": 22,
+      "won": 17,
+      "lost": 5,
+      "unverified": 0,
+      "hit_rate": 0.7727272727272727
+    },
+    "Normal": {
+      "selections": 22,
+      "settled": 22,
+      "won": 16,
+      "lost": 6,
+      "unverified": 0,
+      "hit_rate": 0.7272727272727273
+    },
+    "Arriesgada": {
+      "selections": 22,
+      "settled": 22,
+      "won": 18,
+      "lost": 4,
+      "unverified": 0,
+      "hit_rate": 0.8181818181818182
+    }
+  },
+  "parlays": [
+    {
+      "size": 3,
+      "status": "lost",
+      "probability_before_match": 0.583189773013539,
+      "legs": [
+        {
+          "fixture_id": "560623",
+          "selection_id": "goals:total:over:1.5:",
+          "match": "Man City – Brighton",
+          "market": "Goles",
+          "label": "Más de 1,5 goles",
+          "probability": 0.8305978827821647,
+          "status": "lost",
+          "hit": false,
+          "actual_metric": "goals",
+          "actual_home": 0,
+          "actual_away": 1
+        },
+        {
+          "fixture_id": "560624",
+          "selection_id": "goals:total:under:4.5:",
+          "match": "Bournemouth – Leeds",
+          "market": "Goles",
+          "label": "Menos de 4,5 goles",
+          "probability": 0.8467178044931937,
+          "status": "won",
+          "hit": true,
+          "actual_metric": "goals",
+          "actual_home": 2,
+          "actual_away": 0
+        },
+        {
+          "fixture_id": "565843",
+          "selection_id": "fouls:total:over:17.5:",
+          "match": "Werder Bremen – Hoffenheim",
+          "market": "Faltas",
+          "label": "Más de 17,5 faltas totales",
+          "probability": 0.8292402762659907,
+          "status": "won",
+          "hit": true,
+          "actual_metric": "fouls",
+          "actual_home": 11,
+          "actual_away": 11
+        }
+      ]
+    },
+    {
+      "size": 4,
+      "status": "lost",
+      "probability_before_match": 0.47868741859395125,
+      "legs": [
+        {
+          "fixture_id": "560623",
+          "selection_id": "goals:total:over:1.5:",
+          "match": "Man City – Brighton",
+          "market": "Goles",
+          "label": "Más de 1,5 goles",
+          "probability": 0.8305978827821647,
+          "status": "lost",
+          "hit": false,
+          "actual_metric": "goals",
+          "actual_home": 0,
+          "actual_away": 1
+        },
+        {
+          "fixture_id": "560624",
+          "selection_id": "goals:total:under:4.5:",
+          "match": "Bournemouth – Leeds",
+          "market": "Goles",
+          "label": "Menos de 4,5 goles",
+          "probability": 0.8467178044931937,
+          "status": "won",
+          "hit": true,
+          "actual_metric": "goals",
+          "actual_home": 2,
+          "actual_away": 0
+        },
+        {
+          "fixture_id": "565843",
+          "selection_id": "fouls:total:over:17.5:",
+          "match": "Werder Bremen – Hoffenheim",
+          "market": "Faltas",
+          "label": "Más de 17,5 faltas totales",
+          "probability": 0.8292402762659907,
+          "status": "won",
+          "hit": true,
+          "actual_metric": "fouls",
+          "actual_home": 11,
+          "actual_away": 11
+        },
+        {
+          "fixture_id": "565845",
+          "selection_id": "double_chance:total:12:None:",
+          "match": "Bayern Munich – Dortmund",
+          "market": "Doble oportunidad",
+          "label": "Cualquiera gana, sin empate",
+          "probability": 0.8208090071957388,
+          "status": "lost",
+          "hit": false,
+          "actual_metric": "goals",
+          "actual_home": 2,
+          "actual_away": 2
+        }
+      ]
+    }
+  ],
+  "analysis": [
+    "Fijas principales: 51/66. Mercados únicos: 149/203. Se conservan las probabilidades previas y se registran los resultados, sin reajustar el modelo con esta jornada.",
+    "Conservadora: 17/22 acertadas.",
+    "Normal: 16/22 acertadas.",
+    "Arriesgada: 18/22 acertadas.",
+    "Falló Celta +1,5 en Vallecano – Celta: resultado final 3–0 (goals).",
+    "Falló Más de 1,5 goles en Man City – Brighton: resultado final 0–1 (goals).",
+    "Falló Gana Man City en Man City – Brighton: resultado final 0–1 (goals).",
+    "Falló Nott'm Forest +1,5 en Brentford – Nott'm Forest: resultado final 2–0 (goals).",
+    "Falló Nott'm Forest o empate en Brentford – Nott'm Forest: resultado final 2–0 (goals).",
+    "Falló Menos de 29,5 remates totales en Aston Villa – Fulham: resultado final 16–14 (shots).",
+    "Falló Stuttgart: menos de 2,5 goles en Leverkusen – Stuttgart: resultado final 2–4 (goals).",
+    "Falló Leverkusen o empate en Leverkusen – Stuttgart: resultado final 2–4 (goals).",
+    "Falló Gana Leverkusen en Leverkusen – Stuttgart: resultado final 2–4 (goals).",
+    "Falló Ambos marcan: sí en Werder Bremen – Hoffenheim: resultado final 2–0 (goals).",
+    "Falló Schalke 04 +1,5 en Schalke 04 – RB Leipzig: resultado final 0–2 (goals).",
+    "Falló RB Leipzig: menos de 5,5 córners en Schalke 04 – RB Leipzig: resultado final 3–7 (corners).",
+    "Falló Cualquiera gana, sin empate en Bayern Munich – Dortmund: resultado final 2–2 (goals).",
+    "Falló Dortmund: menos de 1,5 goles en Bayern Munich – Dortmund: resultado final 2–2 (goals).",
+    "Falló Le Mans: más de 9,5 remates en Troyes – Le Mans: resultado final 14–3 (shots).",
+    "0 partidos no tenían fijas principales publicadas; no se cuentan como fallos ni aciertos.",
+    "Combinada de 3: 2/3 selecciones cumplidas.",
+    "Combinada de 4: 2/4 selecciones cumplidas."
+  ]
+}
