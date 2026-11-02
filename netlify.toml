@@ -1,3 +1,10 @@
 [build]
   base = "web"
   publish = "."
+
+# La web se mudó a Cloudflare Pages (nov 2026): todo visitante de Netlify va a la dirección nueva.
+[[redirects]]
+  from = "/*"
+  to = "https://footdata.pages.dev/:splat"
+  status = 301
+  force = true

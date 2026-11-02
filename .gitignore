@@ -15,3 +15,5 @@ SINCRONIZAR_DATOS.cmd
 GRABAR_*.cmd
 log_liverpool.txt
 push_log.txt
+ABRIR_CLAVES.cmd
+MUDAR_A_CLOUDFLARE.cmd
