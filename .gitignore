@@ -11,3 +11,7 @@ logs/
 SUBIR_WEB.cmd
 PUBLICAR_HOY.cmd
 data/artifacts/backtest/
+SINCRONIZAR_DATOS.cmd
+GRABAR_*.cmd
+log_liverpool.txt
+push_log.txt

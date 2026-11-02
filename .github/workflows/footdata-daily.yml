@@ -38,6 +38,7 @@ jobs:
       - name: Actualizar resultados y liquidar
         env:
           FOOTBALL_DATA_KEY: ${{ secrets.FOOTBALL_DATA_KEY }}
+          SUPABASE_SECRET_KEY: ${{ secrets.SUPABASE_SECRET_KEY }}
         run: python run_pipeline.py --daily --days "${{ github.event.inputs.days || '3' }}"
       - name: Pruebas (bloquean la publicación si fallan)
         run: PYTHONPATH=src python -m unittest discover -s tests
