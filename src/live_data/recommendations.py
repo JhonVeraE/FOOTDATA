@@ -18,9 +18,9 @@ LEVELS=[('conservative','Conservadora',.78,.88,.82),('normal','Normal',.63,.78,.
 # v7: tiers by price band (Betano when captured, otherwise the model's fair odds) and by how completely
 # the pattern held in each team's last five venue-specific matches.  Walk-forward backtest 2025/26
 # (design) and 2026/27 (holdout): see data/artifacts/fijas_v7_backtest.json.
-TIERS_V7=[('conservative','Conservadora',[(1.15,1.32,.8,4),(1.12,1.15,.8,4),(1.15,1.32,.6,4),(1.15,1.32,.6,3),(1.12,1.40,.6,3),(1.12,1.40,0,2)]),
-          ('normal','Normal',[(1.30,1.50,.8,4),(1.25,1.30,.8,4),(1.30,1.50,.6,4),(1.30,1.50,.6,3),(1.25,1.60,.6,3),(1.25,1.60,0,2)]),
-          ('risky','Arriesgada',[(1.50,1.85,.8,4),(1.42,1.50,.8,4),(1.50,1.85,.6,4),(1.50,1.85,.6,3),(1.40,1.90,.6,3),(1.40,1.90,0,2)])]
+TIERS_V7=[('conservative','Conservadora',[(1.15,1.32,.8,4),(1.12,1.15,.8,4),(1.15,1.32,.6,4),(1.15,1.32,.6,3),(1.12,1.40,.6,3),(1.10,1.50,.6,3),(1.12,1.40,0,2)]),
+          ('normal','Normal',[(1.30,1.50,.8,4),(1.25,1.30,.8,4),(1.30,1.50,.6,4),(1.30,1.50,.6,3),(1.25,1.60,.6,3),(1.20,1.80,.6,3),(1.25,1.60,0,2)]),
+          ('risky','Arriesgada',[(1.50,1.85,.8,4),(1.42,1.50,.8,4),(1.50,1.85,.6,4),(1.50,1.85,.6,3),(1.40,1.90,.6,3),(1.35,2.20,.6,3),(1.40,1.90,0,2)])]
 # Each tier tries its bands in order: (min odds, max odds, min share of recent matches where the pattern held
 # for BOTH teams, min venue-specific matches per team).  The last band keeps a pick for every match with
 # at least two recent matches per team; without history no pick is invented.
