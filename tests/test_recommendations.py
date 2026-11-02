@@ -84,7 +84,7 @@ class RecommendationTests(unittest.TestCase):
             if selection:
                 # v7: every pick sits in one of its tier's price bands, passes the pattern gate and is never a trivial line.
                 self.assertTrue(any(eligible_v7(selection,*band) for band in bands))
-                self.assertFalse(trivial(selection));self.assertGreaterEqual(price(selection),1.25)
+                self.assertFalse(trivial(selection));self.assertGreaterEqual(price(selection),1.12);self.assertLess(price(selection),1.90)
         empty=make_match(r,stats().iloc[:0]);self.assertTrue(all(t['selection'] is None for t in empty['tiers']))
         self.assertIsNone(empty['parlay_selection'])
 
