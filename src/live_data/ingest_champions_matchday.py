@@ -10,6 +10,7 @@ import pandas as pd
 from data_store import canonical_team,validate_stats
 from paths import DATA_DIR,ARTIFACT_DIR,WEB_DIR
 from review_matchday import save
+from safe_io import safe_replace
 
 LEAGUE='UEFA Champions League'
 ESPN_NAMES={'Fenerbahce':'Fenerbahçe','Slavia Prague':'Slavia Praha',
@@ -121,7 +122,7 @@ def main(capture_dir,date,league=LEAGUE):
         if not (backup/path.name).exists():shutil.copy2(path,backup/path.name)
     # All parsing, identity, count and coverage checks finish before mutation.
     for target,frame in [(csv_path,combined),(cal_path,calendar)]:
-        tmp=target.with_suffix(target.suffix+'.tmp');frame.to_csv(tmp,index=False);tmp.replace(target)
+        tmp=target.with_suffix(target.suffix+'.tmp');frame.to_csv(tmp,index=False);safe_replace(tmp, target)
     save(manifest_path,manifest)
     record={'date':date,'ingested_at':datetime.now(timezone.utc).isoformat(),'provider':'ESPN final boxscores, final scores cross-checked with football-data.org',
       'matches':records,'added_rows':len(combined)-len(pd.read_csv(backup/csv_path.name)),

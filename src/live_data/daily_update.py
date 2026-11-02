@@ -29,6 +29,7 @@ from ingest_champions_matchday import parse_event, ESPN_NAMES
 from ingest_verified_range import ESPN_ALIASES, LEAGUES
 from paths import DATA_DIR, ARTIFACT_DIR, WEB_DIR
 from settings import secret
+from safe_io import safe_replace
 
 LIMA = ZoneInfo('America/Lima')
 FD_CODES = {'La Liga':'PD','Premier League':'PL','Bundesliga':'BL1','Serie A':'SA',
@@ -47,7 +48,7 @@ def dump(path, value):
     path.parent.mkdir(parents=True, exist_ok=True)
     tmp = path.with_suffix(path.suffix + '.tmp')
     tmp.write_text(json.dumps(value, ensure_ascii=False, indent=2, allow_nan=False), encoding='utf-8')
-    tmp.replace(path)
+    safe_replace(tmp, path)
 
 
 def dump_raw(path, value):
@@ -55,7 +56,7 @@ def dump_raw(path, value):
     data = json.dumps(value, ensure_ascii=False, separators=(',', ':'), sort_keys=True)
     if path.exists() and path.read_text(encoding='utf-8') == data:return
     path.parent.mkdir(parents=True, exist_ok=True)
-    tmp = path.with_suffix(path.suffix + '.tmp');tmp.write_text(data, encoding='utf-8');tmp.replace(path)
+    tmp = path.with_suffix(path.suffix + '.tmp');tmp.write_text(data, encoding='utf-8');safe_replace(tmp, path)
 
 
 def read(path):
@@ -308,7 +309,7 @@ def import_finals(finals, data_dir=DATA_DIR, apply=True):
                 'round_counts': {str(k): sum(s.get('league') == name and s.get('round') == k for s in manifest['sources'])
                                  for k in sorted({s['round'] for s in manifest['sources'] if s.get('league') == name and s.get('round') is not None})}}
                 for name, g in combined.groupby('league')]
-        tmp = csv_path.with_suffix('.csv.tmp');combined.to_csv(tmp, index=False);tmp.replace(csv_path)
+        tmp = csv_path.with_suffix('.csv.tmp');combined.to_csv(tmp, index=False);safe_replace(tmp, csv_path)
         dump(manifest_path, manifest)
     return added, present, conflicts
 
@@ -332,7 +333,7 @@ def update_calendar(finals, pendings, data_dir=DATA_DIR):
         if mask.sum() == 1 and cal.loc[mask, 'status'].iloc[0] in ('SCHEDULED', 'TIMED'):
             cal.loc[mask, 'status'] = p['provider_status'];changed = True
     if changed:
-        tmp = path.with_suffix('.csv.tmp');cal.to_csv(tmp, index=False);tmp.replace(path)
+        tmp = path.with_suffix('.csv.tmp');cal.to_csv(tmp, index=False);safe_replace(tmp, path)
     return changed, issues
 
 

@@ -15,6 +15,7 @@ from data_store import canonical_team, validate_stats
 from ingest_champions_matchday import parse_event, identity
 from paths import DATA_DIR, ARTIFACT_DIR, WEB_DIR
 from review_matchday import save
+from safe_io import safe_replace
 
 LEAGUES = {'esp.1':'La Liga','eng.1':'Premier League','ger.1':'Bundesliga',
            'ita.1':'Serie A','fra.1':'Ligue 1','uefa.champions':'UEFA Champions League'}
@@ -190,7 +191,7 @@ def main(capture_dir, apply=False):
     for path in [old_path,manifest_path,calendar_path]:
         if not (backup/path.name).exists():shutil.copy2(path,backup/path.name)
     for target,frame in [(old_path,combined),(calendar_path,calendar)]:
-        tmp=target.with_suffix(target.suffix+'.tmp');frame.to_csv(tmp,index=False);tmp.replace(target)
+        tmp=target.with_suffix(target.suffix+'.tmp');frame.to_csv(tmp,index=False);safe_replace(tmp, target)
     save(manifest_path,manifest)
     for day in verification['dates']:
         archive=ARTIFACT_DIR/'daily_reviews'/day;archive.mkdir(parents=True,exist_ok=True)

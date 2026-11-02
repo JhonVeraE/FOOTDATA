@@ -10,6 +10,7 @@ import numpy as np
 import pandas as pd
 from data_store import canonical_team, validate_stats
 from paths import DATA_DIR, ARTIFACT_DIR, WEB_DIR
+from safe_io import safe_replace
 
 METRICS=['goals','shots','sot','fouls','corners','cards']
 LABELS={'shots':'Total shots','sot':'Shots on target','fouls':'Fouls','corners':'Corner kicks'}
@@ -22,7 +23,7 @@ ALIASES={'Real Racing Club':'Santander','Celta Vigo':'Celta','Real Sociedad':'So
 def save(path,data):
     path.parent.mkdir(parents=True,exist_ok=True)
     temp=path.with_suffix(path.suffix+'.tmp')
-    temp.write_text(json.dumps(data,ensure_ascii=False,indent=2,allow_nan=False),encoding='utf-8');temp.replace(path)
+    temp.write_text(json.dumps(data,ensure_ascii=False,indent=2,allow_nan=False),encoding='utf-8');safe_replace(temp, path)
 
 def pairs(text,label,optional=False):
     lines=[s.strip() for s in text.splitlines() if s.strip()]
@@ -149,7 +150,7 @@ def main(capture_dir,date):
     # Validate all three outputs in memory before replacing any live data file.
     temporary=csv_path.with_suffix('.csv.tmp');combined.to_csv(temporary,index=False);temporary.replace(csv_path)
     save(manifest_path,manifest)
-    tmp=cal_path.with_suffix('.csv.tmp');calendar.to_csv(tmp,index=False);tmp.replace(cal_path)
+    tmp=cal_path.with_suffix('.csv.tmp');calendar.to_csv(tmp,index=False);safe_replace(tmp, cal_path)
     comparisons.sort(key=lambda m:(m['kickoff_utc'],m['fixture_id']))
     total=len(comparisons)
     summary={'matches':total,'hits_1x2':sum(m['hit_1x2'] for m in comparisons),'hits_exact':sum(m['hit_exact'] for m in comparisons),

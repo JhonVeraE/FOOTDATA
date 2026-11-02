@@ -4,6 +4,7 @@ import pandas as pd
 from fetch_footballdata import fetch_matches,COMPETITIONS
 from data_store import today_local
 from paths import DATA_DIR,ARTIFACT_DIR
+from safe_io import safe_replace
 
 def main():
     target=DATA_DIR/'matches_footballdata.csv'
@@ -27,7 +28,7 @@ def main():
             report.append({'competition':name,'status':'retained_prior_calendar','reason':str(e)[:180]})
     if kept:
         result=pd.concat(kept,ignore_index=True)
-        pending=target.with_suffix('.csv.tmp');result.to_csv(pending,index=False);pending.replace(target)
+        pending=target.with_suffix('.csv.tmp');result.to_csv(pending,index=False);safe_replace(pending, target)
     ARTIFACT_DIR.mkdir(parents=True,exist_ok=True)
     (ARTIFACT_DIR/'calendar_refresh.json').write_text(json.dumps({'as_of':str(now.date()),'competitions':report},indent=2),encoding='utf-8')
     print(json.dumps(report,indent=2))

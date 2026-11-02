@@ -17,6 +17,7 @@ from data_store import validate_stats, season_for
 from paths import ARTIFACT_DIR, DATA_DIR, WEB_DIR
 from daily_update import (freeze_forecasts, update_calendar, build_ingestion, rows_for, existing_rows,
                           dump, read, CHAMPIONS)
+from safe_io import safe_replace
 
 METRICS = ['goals', 'shots', 'sot', 'fouls', 'corners', 'cards']
 
@@ -80,7 +81,7 @@ def import_rows(recs, data_dir=DATA_DIR):
                 **({'notes': rec['notes']} if rec.get('notes') else {})})
         manifest.update(as_of=max(str(combined.date.max()), str(manifest.get('as_of', ''))),
                         matches=int(combined.match_id.nunique()), rows=len(combined))
-        tmp = csv_path.with_suffix('.csv.tmp');combined.to_csv(tmp, index=False, lineterminator='\r\n');tmp.replace(csv_path)
+        tmp = csv_path.with_suffix('.csv.tmp');combined.to_csv(tmp, index=False, lineterminator='\r\n');safe_replace(tmp, csv_path)
         dump(manifest_path, manifest)
     return added
 

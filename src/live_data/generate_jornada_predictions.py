@@ -5,6 +5,7 @@ from data_store import load_match_stats,load_calendar,results_from_stats,today_l
 from full_report import build_full_match_report,model_settings
 from goal_model import AttackDefenceModel,ModelConfig
 from paths import DATA_DIR,ARTIFACT_DIR,WEB_DIR
+from safe_io import safe_replace
 
 SUPPORTED=['La Liga','Premier League','Bundesliga','Serie A','Ligue 1','UEFA Champions League']
 
@@ -23,7 +24,7 @@ def proxima_jornada(calendar,competition,forced=None,as_of=None):
 def atomic_json(path,value):
     path.parent.mkdir(parents=True,exist_ok=True)
     tmp=path.with_suffix(path.suffix+'.tmp')
-    tmp.write_text(json.dumps(value,ensure_ascii=False,indent=2,allow_nan=False),encoding='utf-8');tmp.replace(path)
+    tmp.write_text(json.dumps(value,ensure_ascii=False,indent=2,allow_nan=False),encoding='utf-8');safe_replace(tmp, path)
 
 def next_complete_round(calendar,competition,as_of=None,forced=None):
     """Return the next unstarted round plus nearby pending older fixtures.

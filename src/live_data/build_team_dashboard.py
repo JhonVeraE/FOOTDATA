@@ -13,6 +13,7 @@ import requests
 from data_store import load_match_stats, load_calendar, canonical_team, season_for, today_local
 from paths import DATA_DIR, ARTIFACT_DIR, WEB_DIR
 from settings import secret
+from safe_io import safe_replace
 
 LEAGUES={'La Liga':'PD','Premier League':'PL','Bundesliga':'BL1','Serie A':'SA','Ligue 1':'FL1','UEFA Champions League':'CL'}
 METRICS=['goals','shots','sot','corners','cards','fouls']
@@ -71,7 +72,7 @@ def write_json(path, payload):
     path.parent.mkdir(parents=True,exist_ok=True)
     tmp=path.with_suffix('.json.tmp')
     tmp.write_text(json.dumps(payload,ensure_ascii=False,indent=2,allow_nan=False),encoding='utf-8',newline='\n')
-    tmp.replace(path)
+    safe_replace(tmp, path)
 
 
 def summarize(rows):

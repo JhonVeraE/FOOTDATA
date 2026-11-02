@@ -21,6 +21,7 @@ import pandas as pd
 
 from config import DATA_DIR
 from api_client import get
+from safe_io import safe_replace
 
 
 def fetch_stats_for_fixture(fixture_id: int) -> list[dict]:
@@ -78,7 +79,7 @@ def main(max_nuevos=None):
         # Commit each successful fixture; later quota/network errors cannot lose it.
         previous=existentes[existentes.fixture_id!=fid] if not existentes.empty else existentes
         existentes=pd.concat([previous,pd.DataFrame(rows)],ignore_index=True)
-        pending=stats_path+'.tmp';existentes.to_csv(pending,index=False);os.replace(pending,stats_path)
+        pending=stats_path+'.tmp';existentes.to_csv(pending,index=False);safe_replace(pending,stats_path)
     print(f"\nOK -> {stats_path} ({len(existentes)} filas equipo-partido en total)")
 
 
