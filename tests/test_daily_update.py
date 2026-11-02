@@ -7,6 +7,13 @@ sys.path.insert(0, str(ROOT/'src/live_data'))
 from daily_update import main, freeze_forecasts
 from sofascore_capture import parse_capture, compare
 
+def _force_remove(func, path, _exc):
+    """Windows: copied artifacts can keep the read-only bit; clear it and retry."""
+    import os, stat
+    try:
+        os.chmod(path, stat.S_IWRITE);func(path)
+    except OSError:pass
+
 CAPTURE = ROOT/'data/artifacts/review_20261027_29'
 LIVE = ['match_stats_actualseason.csv', 'match_stats_actualseason.sources.json',
         'match_stats_champions_actualseason.csv', 'match_stats_champions_actualseason.sources.json',
@@ -24,7 +31,7 @@ class DailyUpdateTests(unittest.TestCase):
         for day in ['2026-10-27', '2026-10-28', '2026-10-29']:
             shutil.copytree(ROOT/'data/artifacts/daily_reviews'/day, self.art/'daily_reviews'/day)
 
-    def tearDown(self):shutil.rmtree(self.tmp)
+    def tearDown(self):shutil.rmtree(self.tmp, onexc=_force_remove) if sys.version_info >= (3, 12) else shutil.rmtree(self.tmp, ignore_errors=True)
 
     def run_offline(self, source=CAPTURE, **kw):
         return main(days=2, end='2026-10-29', source_dir=source, post=False, data_dir=self.data,
