@@ -157,7 +157,46 @@ BETANO_NAMES = {
     'Fenerbahce SK': 'Fenerbahçe', 'PSV Eindhoven': 'PSV', 'Club Brugge KV': 'Club Brugge KV', 'RC Lens': 'Lens',
     'SK Slavia Praha': 'Slavia Praha', 'Viking FK': 'Viking FK', 'FC Sabah': 'Sabah FK', 'FC Porto': 'FC Porto',
 }
+BETANO_NAMES.update({'FSV Mainz 05': 'Mainz', 'Le Havre AC': 'Le Havre', 'OGC Niza': 'Nice', 'Stade Rennais FC': 'Rennes',
+                     'SV Elversberg': 'Elversberg'})
 BETANO_MAX_AGE = pd.Timedelta(days=3)
+# Full capture (betano_full.json): every line Betano shows for result, goals and the count markets.
+BETANO_COUNT_TITLES = {'Más/Menos Córners': 'corners', 'Remates totales': 'shots', 'Tiros al Arco': 'sot',
+                       'Total de Faltas Cometidas': 'fouls', 'Tarjetas Totales Más/Menos': 'cards'}
+BETANO_SCOPE = {'T': 'total', 'H': 'home', 'A': 'away'}
+
+
+def _ou(rows):
+    table = {}
+    for name, line, price in rows or []:
+        if line is None:continue
+        pair = table.setdefault(f'{float(line):g}', [None, None])
+        pair[0 if name.startswith('Más') else 1] = price
+    return table
+
+
+def _full_record(e, path, observed_at):
+    m = e['m']
+    res = {r[0]: r[2] for r in m.get('T|Resultado del partido', [])}
+    result = [res.get('1'), res.get('X'), res.get('2')] if res else None
+    names = {'1X': '1X', 'X1': '1X', '12': '12', '21': '12', 'X2': 'X2', '2X': 'X2',
+             f"{e['home']} o Empate": '1X', f"{e['home']} o {e['away']}": '12', f"{e['away']} o Empate": 'X2'}
+    dc = {names[r[0]]: r[2] for r in m.get('T|Doble oportunidad', []) if r[0] in names}
+    bt = {r[0]: r[2] for r in m.get('T|Ambos equipos anotan', [])}
+    counts = {}
+    for key, rows in m.items():
+        sc, title = key.split('|', 1)
+        if title in BETANO_COUNT_TITLES:counts[(BETANO_COUNT_TITLES[title], BETANO_SCOPE[sc])] = _ou(rows)
+    rg = {}
+    for key, rows in m.items():
+        for prefix, kind in [('T|Resultado del partido con Más/Menos (', 'r'), ('T|Doble Oportunidad con Más/Menos (', 'dc')]:
+            if key.startswith(prefix):
+                line = key[len(prefix):-1]
+                for name, _, price in rows:rg[(kind, line, name)] = price
+    return {'source': 'Betano Perú', 'betano_id': e['id'], 'kickoff_utc': e['t'][:19] + 'Z', 'observed_at': observed_at,
+            'result': result if result and None not in result else None, 'goals': _ou(m.get('T|Goles totales Más/Menos')),
+            'btts': [bt.get('Sí'), bt.get('No')] if bt else None, 'home_goals': {}, 'away_goals': {}, 'euro_handicap': {},
+            'double_chance': dc, 'counts': counts, 'result_goals': rg, 'capture': str(path.relative_to(ARTIFACT_DIR))}
 
 
 def _pairs(values):
@@ -170,6 +209,20 @@ def load_betano(as_of=None, root=None):
     clock = pd.Timestamp(as_of) if as_of is not None else pd.Timestamp.now(tz='UTC')
     if clock.tzinfo is None:clock = clock.tz_localize('UTC')
     best = None
+    for path in sorted(root.glob('*/betano_full.json')):
+        data = json.loads(path.read_text(encoding='utf-8'))
+        seen = pd.Timestamp(data['observed_at'])
+        if seen <= clock and clock - seen <= BETANO_MAX_AGE and (best is None or seen > best[0]):best = (seen, path, data)
+    if best is not None:
+        seen, path, data = best
+        index, unknown = {}, []
+        for e in data['events']:
+            league = BETANO_LEAGUES.get({'BL1': 'BL', 'FL1': 'FL'}.get(e['lg'], e['lg']))
+            home = BETANO_NAMES.get(e['home']);away = BETANO_NAMES.get(e['away'])
+            if not (league and home and away):unknown.append([e['home'], e['away']]);continue
+            index[(league, canonical_team(home), canonical_team(away))] = _full_record(e, path, data['observed_at'])
+        return index, {'status': 'loaded', 'format': 'full', 'observed_at': data['observed_at'], 'fixtures': len(index),
+                       'unmapped': unknown, 'capture': str(path.relative_to(ARTIFACT_DIR))}
     for path in sorted(root.glob('*/betano_compact.json')):
         data = json.loads(path.read_text(encoding='utf-8'))
         seen = pd.Timestamp(data['observed_at'])
@@ -206,7 +259,25 @@ def betano_quote(item, rec):
         if kind == 'result':
             return p[idx[side]], rec['result'][idx[side]], 'Resultado del partido'
         dc = {'1X': p[0] + p[1], 'X2': p[1] + p[2], '12': p[0] + p[2]}[side]
-        return dc, None, 'Doble oportunidad (probabilidad derivada del 1X2)'
+        real = (rec.get('double_chance') or {}).get(side)
+        return dc, real, 'Doble oportunidad' if real else 'Doble oportunidad (probabilidad derivada del 1X2)'
+    if kind in BETANO_COUNT_TITLES.values():
+        table = (rec.get('counts') or {}).get((kind, scope))
+        if table is None:return None
+        pair = table.get(f'{line:g}') if line is not None else None
+        i = 0 if side == 'over' else 1
+        if not pair or pair[i] is None:return (None, None, 'NO_LINE')
+        p = _norm(pair)
+        title = [t for t, k in BETANO_COUNT_TITLES.items() if k == kind][0]
+        return (None if p is None else p[i]), pair[i], title
+    if kind == 'result_goals' and rec.get('result_goals'):
+        direction = item.get('direction')
+        name = {'home': '1', 'draw': 'X', 'away': '2', '1X': '1X', 'X2': 'X2'}[side]
+        table = 'r' if side in ('home', 'draw', 'away') else 'dc'
+        lab = ('Más de ' if direction == 'over' else 'Menos de ')
+        cands = [v for (t, l, n), v in rec['result_goals'].items() if t == table and l == f'{line:g}' and n.replace('2X', 'X2').startswith(name) and (('Más' in n) == (direction == 'over'))]
+        if cands:return None, cands[0], 'Resultado/Doble oportunidad con Más/Menos'
+        return None
     if kind == 'goals':
         table = rec['goals'] if scope == 'total' else rec['home_goals'] if scope == 'home' else rec['away_goals']
         pair = table.get(f'{line:g}') if line is not None else None

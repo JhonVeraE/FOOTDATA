@@ -25,6 +25,7 @@ TIERS_V7=[('conservative','Conservadora',[(1.15,1.32,.8,4),(1.12,1.15,.8,4),(1.1
 # for BOTH teams, min venue-specific matches per team).  The last band keeps a pick for every match with
 # at least two recent matches per team; without history no pick is invented.
 MARKETS={'result':'Resultado 1X2','double_chance':'Doble oportunidad','handicap':'Hándicap de goles','goals':'Goles','btts':'Ambos marcan','result_goals':'Resultado y goles','shots':'Remates','sot':'Tiros al arco','fouls':'Faltas','cards':'Tarjetas Betano','corners':'Córners'}
+BOOK_MARGIN=1.07
 COUNT_KINDS=['shots','sot','fouls','cards','corners']
 PRIMARY_MARKETS={'result','double_chance','handicap','goals','btts','result_goals'}
 from market_odds import implied,lookup,market_probability,load_market,load_betano,betano_quote
@@ -143,7 +144,10 @@ def candidates(report,contexts,dispersion_data=None,quotes=None,as_of=None,marke
               'fair_odds':1/max(float(p),1e-9),'pricing_probability':pricing_p,'stress_discount':stress,'minimum_odds':1.05/pricing_p,'price_status':'unverified','bookmaker':'Betano',**extra}
         item['evidence']=evidence(item,contexts,report)
         bq=betano_quote(item,betano)
-        if bq is not None:
+        if bq is not None and bq[2]=='NO_LINE':
+            # Betano offers this market but not this line: it cannot be bet as published.
+            mp=None;item['market_source']=None;item['price_status']='not_in_observed_lines'
+        elif bq is not None:
             mp=bq[0];item['market_source']='Betano Perú';item['betano_market']=bq[2]
             if bq[1] is not None:item['betano_odds']=bq[1]
         else:
@@ -232,8 +236,9 @@ def full_pattern(item):
     return all(v['matches']>=5 and v['hits']==v['matches'] for v in item['evidence']['contexts'])
 
 def price(item):
-    """Real Betano price when captured for this exact line; otherwise the model's fair odds."""
-    return item.get('betano_odds') or item['fair_odds']
+    """Real Betano price when captured for this exact line; otherwise the model's fair odds minus a typical
+    bookmaker margin, so unpriced lines are not mistaken for better-paying ones."""
+    return item.get('betano_odds') or item['fair_odds']/BOOK_MARGIN
 
 def eligible_v7(item,omin,omax,min_pattern,min_ctx):
     ev=item['evidence']
