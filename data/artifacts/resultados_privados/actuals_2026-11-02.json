@@ -1,0 +1,320 @@
+{
+  "date": "2026-11-02",
+  "ingested_at": "2026-11-03T03:20:00.468220+00:00",
+  "provider": "ESPN final boxscores (automatic daily update); scores cross-checked with football-data.org when reachable",
+  "matches": [
+    {
+      "espn_event_id": "401882824",
+      "kickoff_utc": "2026-11-02T20:00Z",
+      "home": "La Coruna",
+      "away": "Osasuna",
+      "metrics": {
+        "goals": [
+          2,
+          1
+        ],
+        "shots": [
+          18,
+          11
+        ],
+        "sot": [
+          7,
+          2
+        ],
+        "fouls": [
+          5,
+          13
+        ],
+        "corners": [
+          8,
+          2
+        ],
+        "cards": [
+          0,
+          4
+        ]
+      },
+      "yellow": [
+        0,
+        4
+      ],
+      "red": [
+        0,
+        0
+      ],
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401882824/osasuna-deportivo",
+      "match_id": "La Liga_2026/27_espn_401882824",
+      "fixture_id": "564731",
+      "date": "2026-11-02",
+      "league": "La Liga",
+      "round": 11,
+      "provider": "ESPN",
+      "score_verification": {
+        "fixture_id": "564731",
+        "date": "2026-11-02",
+        "home": "La Coruna",
+        "away": "Osasuna",
+        "goals": [
+          2,
+          1
+        ],
+        "status": "verified",
+        "source": "football-data.org",
+        "source_url": "https://api.football-data.org/v4/matches/564731"
+      }
+    },
+    {
+      "espn_event_id": "401878762",
+      "kickoff_utc": "2026-11-02T20:00Z",
+      "home": "Newcastle",
+      "away": "Everton",
+      "metrics": {
+        "goals": [
+          0,
+          1
+        ],
+        "shots": [
+          17,
+          16
+        ],
+        "sot": [
+          2,
+          5
+        ],
+        "fouls": [
+          13,
+          9
+        ],
+        "corners": [
+          4,
+          5
+        ],
+        "cards": [
+          3,
+          2
+        ]
+      },
+      "yellow": [
+        2,
+        2
+      ],
+      "red": [
+        1,
+        0
+      ],
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401878762/everton-newcastle-united",
+      "match_id": "Premier League_2026/27_espn_401878762",
+      "fixture_id": "560622",
+      "date": "2026-11-02",
+      "league": "Premier League",
+      "round": 9,
+      "provider": "ESPN",
+      "score_verification": {
+        "fixture_id": "560622",
+        "date": "2026-11-02",
+        "home": "Newcastle",
+        "away": "Everton",
+        "goals": [
+          0,
+          1
+        ],
+        "status": "verified",
+        "source": "football-data.org",
+        "source_url": "https://api.football-data.org/v4/matches/560622"
+      }
+    },
+    {
+      "espn_event_id": "401874963",
+      "kickoff_utc": "2026-11-02T17:30Z",
+      "home": "Sassuolo",
+      "away": "Fiorentina",
+      "metrics": {
+        "goals": [
+          2,
+          4
+        ],
+        "shots": [
+          7,
+          15
+        ],
+        "sot": [
+          2,
+          6
+        ],
+        "fouls": [
+          12,
+          15
+        ],
+        "corners": [
+          5,
+          3
+        ],
+        "cards": [
+          2,
+          3
+        ]
+      },
+      "yellow": [
+        2,
+        3
+      ],
+      "red": [
+        0,
+        0
+      ],
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401874963/fiorentina-sassuolo",
+      "match_id": "Serie A_2026/27_espn_401874963",
+      "fixture_id": "558541",
+      "date": "2026-11-02",
+      "league": "Serie A",
+      "round": 10,
+      "provider": "ESPN",
+      "score_verification": {
+        "fixture_id": "558541",
+        "date": "2026-11-02",
+        "home": "Sassuolo",
+        "away": "Fiorentina",
+        "goals": [
+          2,
+          4
+        ],
+        "status": "verified",
+        "source": "football-data.org",
+        "source_url": "https://api.football-data.org/v4/matches/558541"
+      }
+    },
+    {
+      "espn_event_id": "401874971",
+      "kickoff_utc": "2026-11-02T19:45Z",
+      "home": "Atalanta",
+      "away": "Parma",
+      "metrics": {
+        "goals": [
+          0,
+          3
+        ],
+        "shots": [
+          20,
+          6
+        ],
+        "sot": [
+          6,
+          3
+        ],
+        "fouls": [
+          8,
+          10
+        ],
+        "corners": [
+          8,
+          5
+        ],
+        "cards": [
+          0,
+          0
+        ]
+      },
+      "yellow": [
+        0,
+        0
+      ],
+      "red": [
+        0,
+        0
+      ],
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401874971/parma-atalanta",
+      "match_id": "Serie A_2026/27_espn_401874971",
+      "fixture_id": "558545",
+      "date": "2026-11-02",
+      "league": "Serie A",
+      "round": 10,
+      "provider": "ESPN",
+      "score_verification": {
+        "fixture_id": "558545",
+        "date": "2026-11-02",
+        "home": "Atalanta",
+        "away": "Parma",
+        "goals": [
+          0,
+          3
+        ],
+        "status": "verified",
+        "source": "football-data.org",
+        "source_url": "https://api.football-data.org/v4/matches/558545"
+      }
+    },
+    {
+      "espn_event_id": "401876419",
+      "kickoff_utc": "2026-11-02T19:45Z",
+      "home": "Lorient",
+      "away": "Brest",
+      "metrics": {
+        "goals": [
+          0,
+          2
+        ],
+        "shots": [
+          15,
+          12
+        ],
+        "sot": [
+          0,
+          4
+        ],
+        "fouls": [
+          11,
+          16
+        ],
+        "corners": [
+          8,
+          2
+        ],
+        "cards": [
+          1,
+          1
+        ]
+      },
+      "yellow": [
+        1,
+        1
+      ],
+      "red": [
+        0,
+        0
+      ],
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401876419/brest-lorient",
+      "match_id": "Ligue 1_2026/27_espn_401876419",
+      "fixture_id": "559641",
+      "date": "2026-11-02",
+      "league": "Ligue 1",
+      "round": 9,
+      "provider": "ESPN",
+      "score_verification": {
+        "fixture_id": "559641",
+        "date": "2026-11-02",
+        "home": "Lorient",
+        "away": "Brest",
+        "goals": [
+          0,
+          2
+        ],
+        "status": "verified",
+        "source": "football-data.org",
+        "source_url": "https://api.football-data.org/v4/matches/559641"
+      }
+    }
+  ],
+  "deferred": [],
+  "pending": [],
+  "advanced": [],
+  "added_rows_this_run": 10,
+  "scope": [
+    "La Liga",
+    "Premier League",
+    "Bundesliga",
+    "Serie A",
+    "Ligue 1",
+    "UEFA Champions League"
+  ],
+  "automation": "daily_update"
+}

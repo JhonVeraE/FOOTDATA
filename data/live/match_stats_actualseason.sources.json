@@ -1,9 +1,9 @@
 {
   "season": "2026/27",
-  "as_of": "2026-11-01",
+  "as_of": "2026-11-02",
   "source": "Sofascore full-match ALL statistics for original rounds; ESPN final boxscores for subsequent updates, with independently checked scores.",
-  "matches": 447,
-  "rows": 894,
+  "matches": 452,
+  "rows": 904,
   "columns": [
     "match_id",
     "date",
@@ -6430,6 +6430,101 @@
       "statistics_endpoint": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/summary?event=401875002",
       "score_verification": "verified",
       "imported_by": "daily_update"
+    },
+    {
+      "match_id": "La Liga_2026/27_espn_401882824",
+      "fixture_id": "564731",
+      "espn_event_id": "401882824",
+      "date": "2026-11-02",
+      "league": "La Liga",
+      "round": 11,
+      "home": "La Coruna",
+      "away": "Osasuna",
+      "yellow_home": 0,
+      "yellow_away": 4,
+      "red_home": 0,
+      "red_away": 0,
+      "url": "https://www.espn.com/soccer/match/_/gameId/401882824/osasuna-deportivo",
+      "provider": "ESPN",
+      "statistics_endpoint": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/summary?event=401882824",
+      "score_verification": "verified",
+      "imported_by": "daily_update"
+    },
+    {
+      "match_id": "Ligue 1_2026/27_espn_401876419",
+      "fixture_id": "559641",
+      "espn_event_id": "401876419",
+      "date": "2026-11-02",
+      "league": "Ligue 1",
+      "round": 9,
+      "home": "Lorient",
+      "away": "Brest",
+      "yellow_home": 1,
+      "yellow_away": 1,
+      "red_home": 0,
+      "red_away": 0,
+      "url": "https://www.espn.com/soccer/match/_/gameId/401876419/brest-lorient",
+      "provider": "ESPN",
+      "statistics_endpoint": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/summary?event=401876419",
+      "score_verification": "verified",
+      "imported_by": "daily_update"
+    },
+    {
+      "match_id": "Premier League_2026/27_espn_401878762",
+      "fixture_id": "560622",
+      "espn_event_id": "401878762",
+      "date": "2026-11-02",
+      "league": "Premier League",
+      "round": 9,
+      "home": "Newcastle",
+      "away": "Everton",
+      "yellow_home": 2,
+      "yellow_away": 2,
+      "red_home": 1,
+      "red_away": 0,
+      "url": "https://www.espn.com/soccer/match/_/gameId/401878762/everton-newcastle-united",
+      "provider": "ESPN",
+      "statistics_endpoint": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/summary?event=401878762",
+      "score_verification": "verified",
+      "imported_by": "daily_update"
+    },
+    {
+      "match_id": "Serie A_2026/27_espn_401874963",
+      "fixture_id": "558541",
+      "espn_event_id": "401874963",
+      "date": "2026-11-02",
+      "league": "Serie A",
+      "round": 10,
+      "home": "Sassuolo",
+      "away": "Fiorentina",
+      "yellow_home": 2,
+      "yellow_away": 3,
+      "red_home": 0,
+      "red_away": 0,
+      "url": "https://www.espn.com/soccer/match/_/gameId/401874963/fiorentina-sassuolo",
+      "provider": "ESPN",
+      "statistics_endpoint": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/summary?event=401874963",
+      "score_verification": "verified",
+      "imported_by": "daily_update"
+    },
+    {
+      "match_id": "Serie A_2026/27_espn_401874971",
+      "fixture_id": "558545",
+      "espn_event_id": "401874971",
+      "date": "2026-11-02",
+      "league": "Serie A",
+      "round": 10,
+      "home": "Atalanta",
+      "away": "Parma",
+      "yellow_home": 0,
+      "yellow_away": 0,
+      "red_home": 0,
+      "red_away": 0,
+      "url": "https://www.espn.com/soccer/match/_/gameId/401874971/parma-atalanta",
+      "provider": "ESPN",
+      "statistics_endpoint": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/summary?event=401874971",
+      "score_verification": "verified",
+      "imported_by": "daily_update"
     }
   ],
   "leagues": [
@@ -6458,8 +6553,8 @@
     },
     {
       "league": "La Liga",
-      "matches": 108,
-      "rows": 216,
+      "matches": 109,
+      "rows": 218,
       "round_counts": {
         "1": 10,
         "2": 10,
@@ -6471,13 +6566,13 @@
         "8": 9,
         "9": 10,
         "10": 10,
-        "11": 9
+        "11": 10
       }
     },
     {
       "league": "Ligue 1",
-      "matches": 80,
-      "rows": 160,
+      "matches": 81,
+      "rows": 162,
       "round_counts": {
         "1": 9,
         "2": 9,
@@ -6487,13 +6582,13 @@
         "6": 9,
         "7": 9,
         "8": 9,
-        "9": 8
+        "9": 9
       }
     },
     {
       "league": "Premier League",
-      "matches": 89,
-      "rows": 178,
+      "matches": 90,
+      "rows": 180,
       "round_counts": {
         "1": 10,
         "2": 10,
@@ -6503,13 +6598,13 @@
         "6": 10,
         "7": 10,
         "8": 10,
-        "9": 9
+        "9": 10
       }
     },
     {
       "league": "Serie A",
-      "matches": 98,
-      "rows": 196,
+      "matches": 100,
+      "rows": 200,
       "round_counts": {
         "1": 10,
         "2": 10,
@@ -6520,12 +6615,12 @@
         "7": 10,
         "8": 10,
         "9": 10,
-        "10": 8
+        "10": 10
       }
     }
   ],
   "date_min": "2026-08-15",
-  "date_max": "2026-11-01",
+  "date_max": "2026-11-02",
   "team_match_counts": {
     "Alaves": 9,
     "Angers": 7,

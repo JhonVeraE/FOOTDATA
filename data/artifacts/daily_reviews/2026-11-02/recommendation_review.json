@@ -1,0 +1,1167 @@
+{
+  "date": "2026-11-02",
+  "reviewed_at": "2026-11-03T03:20:15.821026+00:00",
+  "frozen_shortlist_sha256": "fb1793c2ed7f1324fca26243a8f134886db08c8ec1de14268f1a93a5ac2d67b5",
+  "matches": [
+    {
+      "fixture_id": "564731",
+      "home": "La Coruna",
+      "away": "Osasuna",
+      "metrics": {
+        "goals": [
+          2,
+          1
+        ],
+        "shots": [
+          18,
+          11
+        ],
+        "sot": [
+          7,
+          2
+        ],
+        "fouls": [
+          5,
+          13
+        ],
+        "corners": [
+          8,
+          2
+        ],
+        "cards": [
+          0,
+          4
+        ]
+      },
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401882824/osasuna-deportivo"
+    },
+    {
+      "fixture_id": "560622",
+      "home": "Newcastle",
+      "away": "Everton",
+      "metrics": {
+        "goals": [
+          0,
+          1
+        ],
+        "shots": [
+          17,
+          16
+        ],
+        "sot": [
+          2,
+          5
+        ],
+        "fouls": [
+          13,
+          9
+        ],
+        "corners": [
+          4,
+          5
+        ],
+        "cards": [
+          3,
+          2
+        ]
+      },
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401878762/everton-newcastle-united"
+    },
+    {
+      "fixture_id": "558541",
+      "home": "Sassuolo",
+      "away": "Fiorentina",
+      "metrics": {
+        "goals": [
+          2,
+          4
+        ],
+        "shots": [
+          7,
+          15
+        ],
+        "sot": [
+          2,
+          6
+        ],
+        "fouls": [
+          12,
+          15
+        ],
+        "corners": [
+          5,
+          3
+        ],
+        "cards": [
+          2,
+          3
+        ]
+      },
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401874963/fiorentina-sassuolo"
+    },
+    {
+      "fixture_id": "558545",
+      "home": "Atalanta",
+      "away": "Parma",
+      "metrics": {
+        "goals": [
+          0,
+          3
+        ],
+        "shots": [
+          20,
+          6
+        ],
+        "sot": [
+          6,
+          3
+        ],
+        "fouls": [
+          8,
+          10
+        ],
+        "corners": [
+          8,
+          5
+        ],
+        "cards": [
+          0,
+          0
+        ]
+      },
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401874971/parma-atalanta"
+    },
+    {
+      "fixture_id": "559641",
+      "home": "Lorient",
+      "away": "Brest",
+      "metrics": {
+        "goals": [
+          0,
+          2
+        ],
+        "shots": [
+          15,
+          12
+        ],
+        "sot": [
+          0,
+          4
+        ],
+        "fouls": [
+          11,
+          16
+        ],
+        "corners": [
+          8,
+          2
+        ],
+        "cards": [
+          1,
+          1
+        ]
+      },
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401876419/brest-lorient"
+    }
+  ],
+  "tiers": [
+    {
+      "fixture_id": "564731",
+      "selection_id": "fouls:home:under:15.5:",
+      "match": "La Coruna – Osasuna",
+      "market": "Faltas",
+      "label": "La Coruna: menos de 15,5 faltas",
+      "probability": 0.8238715707114497,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "fouls",
+      "actual_home": 5,
+      "actual_away": 13,
+      "tier": "Conservadora"
+    },
+    {
+      "fixture_id": "564731",
+      "selection_id": "double_chance:total:1X:None:",
+      "match": "La Coruna – Osasuna",
+      "market": "Doble oportunidad",
+      "label": "La Coruna o empate",
+      "probability": 0.7503334655878211,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 1,
+      "tier": "Normal"
+    },
+    {
+      "fixture_id": "564731",
+      "selection_id": "result_goals:total:1X:1.5:over",
+      "match": "La Coruna – Osasuna",
+      "market": "Resultado y goles",
+      "label": "La Coruna o empate y más de 1,5 goles",
+      "probability": 0.5612097001300347,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 1,
+      "tier": "Arriesgada"
+    },
+    {
+      "fixture_id": "560622",
+      "selection_id": "shots:home:over:11.5:",
+      "match": "Newcastle – Everton",
+      "market": "Remates",
+      "label": "Newcastle: más de 11,5 remates",
+      "probability": 0.817279934085696,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "shots",
+      "actual_home": 17,
+      "actual_away": 16,
+      "tier": "Conservadora"
+    },
+    {
+      "fixture_id": "560622",
+      "selection_id": "double_chance:total:1X:None:",
+      "match": "Newcastle – Everton",
+      "market": "Doble oportunidad",
+      "label": "Newcastle o empate",
+      "probability": 0.7301553430438106,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "goals",
+      "actual_home": 0,
+      "actual_away": 1,
+      "tier": "Normal"
+    },
+    {
+      "fixture_id": "560622",
+      "selection_id": "result_goals:total:1X:1.5:over",
+      "match": "Newcastle – Everton",
+      "market": "Resultado y goles",
+      "label": "Newcastle o empate y más de 1,5 goles",
+      "probability": 0.5676639112524087,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "goals",
+      "actual_home": 0,
+      "actual_away": 1,
+      "tier": "Arriesgada"
+    },
+    {
+      "fixture_id": "558541",
+      "selection_id": "goals:home:under:2.5:",
+      "match": "Sassuolo – Fiorentina",
+      "market": "Goles",
+      "label": "Sassuolo: menos de 2,5 goles",
+      "probability": 0.8181185991667995,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 4,
+      "tier": "Conservadora"
+    },
+    {
+      "fixture_id": "558541",
+      "selection_id": "fouls:home:under:14.5:",
+      "match": "Sassuolo – Fiorentina",
+      "market": "Faltas",
+      "label": "Sassuolo: menos de 14,5 faltas",
+      "probability": 0.7067877623229717,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "fouls",
+      "actual_home": 12,
+      "actual_away": 15,
+      "tier": "Normal"
+    },
+    {
+      "fixture_id": "558541",
+      "selection_id": "sot:away:over:3.5:",
+      "match": "Sassuolo – Fiorentina",
+      "market": "Tiros al arco",
+      "label": "Fiorentina: más de 3,5 tiros al arco",
+      "probability": 0.5935799715736906,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "sot",
+      "actual_home": 2,
+      "actual_away": 6,
+      "tier": "Arriesgada"
+    },
+    {
+      "fixture_id": "558545",
+      "selection_id": "double_chance:total:1X:None:",
+      "match": "Atalanta – Parma",
+      "market": "Doble oportunidad",
+      "label": "Atalanta o empate",
+      "probability": 0.8344406371638956,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "goals",
+      "actual_home": 0,
+      "actual_away": 3,
+      "tier": "Conservadora"
+    },
+    {
+      "fixture_id": "558545",
+      "selection_id": "goals:total:over:1.5:",
+      "match": "Atalanta – Parma",
+      "market": "Goles",
+      "label": "Más de 1,5 goles",
+      "probability": 0.7300534318235553,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 0,
+      "actual_away": 3,
+      "tier": "Normal"
+    },
+    {
+      "fixture_id": "558545",
+      "selection_id": "result:total:home:None:",
+      "match": "Atalanta – Parma",
+      "market": "Resultado 1X2",
+      "label": "Gana Atalanta",
+      "probability": 0.5931838374657602,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "goals",
+      "actual_home": 0,
+      "actual_away": 3,
+      "tier": "Arriesgada"
+    },
+    {
+      "fixture_id": "559641",
+      "selection_id": "goals:home:under:2.5:",
+      "match": "Lorient – Brest",
+      "market": "Goles",
+      "label": "Lorient: menos de 2,5 goles",
+      "probability": 0.815258787809848,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 0,
+      "actual_away": 2,
+      "tier": "Conservadora"
+    },
+    {
+      "fixture_id": "559641",
+      "selection_id": "fouls:total:over:21.5:",
+      "match": "Lorient – Brest",
+      "market": "Faltas",
+      "label": "Más de 21,5 faltas totales",
+      "probability": 0.6953664318633245,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "fouls",
+      "actual_home": 11,
+      "actual_away": 16,
+      "tier": "Normal"
+    },
+    {
+      "fixture_id": "559641",
+      "selection_id": "double_chance:total:X2:None:",
+      "match": "Lorient – Brest",
+      "market": "Doble oportunidad",
+      "label": "Brest o empate",
+      "probability": 0.5851637611291765,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 0,
+      "actual_away": 2,
+      "tier": "Arriesgada"
+    }
+  ],
+  "unique_selections": [
+    {
+      "fixture_id": "564731",
+      "selection_id": "double_chance:total:1X:None:",
+      "match": "La Coruna – Osasuna",
+      "market": "Doble oportunidad",
+      "label": "La Coruna o empate",
+      "probability": 0.7503334655878211,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 1
+    },
+    {
+      "fixture_id": "564731",
+      "selection_id": "goals:total:over:1.5:",
+      "match": "La Coruna – Osasuna",
+      "market": "Goles",
+      "label": "Más de 1,5 goles",
+      "probability": 0.7367042849945611,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 1
+    },
+    {
+      "fixture_id": "564731",
+      "selection_id": "result_goals:total:1X:1.5:over",
+      "match": "La Coruna – Osasuna",
+      "market": "Resultado y goles",
+      "label": "La Coruna o empate y más de 1,5 goles",
+      "probability": 0.5612097001300347,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 1
+    },
+    {
+      "fixture_id": "564731",
+      "selection_id": "shots:total:over:18.5:",
+      "match": "La Coruna – Osasuna",
+      "market": "Remates",
+      "label": "Más de 18,5 remates totales",
+      "probability": 0.7702635947819956,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "shots",
+      "actual_home": 18,
+      "actual_away": 11
+    },
+    {
+      "fixture_id": "564731",
+      "selection_id": "sot:home:over:3.5:",
+      "match": "La Coruna – Osasuna",
+      "market": "Tiros al arco",
+      "label": "La Coruna: más de 3,5 tiros al arco",
+      "probability": 0.6904187972863338,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "sot",
+      "actual_home": 7,
+      "actual_away": 2
+    },
+    {
+      "fixture_id": "564731",
+      "selection_id": "fouls:home:over:9.5:",
+      "match": "La Coruna – Osasuna",
+      "market": "Faltas",
+      "label": "La Coruna: más de 9,5 faltas",
+      "probability": 0.7449378220583303,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "fouls",
+      "actual_home": 5,
+      "actual_away": 13
+    },
+    {
+      "fixture_id": "564731",
+      "selection_id": "corners:home:under:7.5:",
+      "match": "La Coruna – Osasuna",
+      "market": "Córners",
+      "label": "La Coruna: menos de 7,5 córners",
+      "probability": 0.7453358095951957,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "corners",
+      "actual_home": 8,
+      "actual_away": 2
+    },
+    {
+      "fixture_id": "564731",
+      "selection_id": "fouls:home:under:15.5:",
+      "match": "La Coruna – Osasuna",
+      "market": "Faltas",
+      "label": "La Coruna: menos de 15,5 faltas",
+      "probability": 0.8238715707114497,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "fouls",
+      "actual_home": 5,
+      "actual_away": 13
+    },
+    {
+      "fixture_id": "560622",
+      "selection_id": "double_chance:total:1X:None:",
+      "match": "Newcastle – Everton",
+      "market": "Doble oportunidad",
+      "label": "Newcastle o empate",
+      "probability": 0.7301553430438106,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "goals",
+      "actual_home": 0,
+      "actual_away": 1
+    },
+    {
+      "fixture_id": "560622",
+      "selection_id": "handicap:total:away:1.5:",
+      "match": "Newcastle – Everton",
+      "market": "Hándicap de goles",
+      "label": "Everton +1,5",
+      "probability": 0.7497885528407374,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 0,
+      "actual_away": 1
+    },
+    {
+      "fixture_id": "560622",
+      "selection_id": "goals:total:over:1.5:",
+      "match": "Newcastle – Everton",
+      "market": "Goles",
+      "label": "Más de 1,5 goles",
+      "probability": 0.7684633545929446,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "goals",
+      "actual_home": 0,
+      "actual_away": 1
+    },
+    {
+      "fixture_id": "560622",
+      "selection_id": "result_goals:total:1X:1.5:over",
+      "match": "Newcastle – Everton",
+      "market": "Resultado y goles",
+      "label": "Newcastle o empate y más de 1,5 goles",
+      "probability": 0.5676639112524087,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "goals",
+      "actual_home": 0,
+      "actual_away": 1
+    },
+    {
+      "fixture_id": "560622",
+      "selection_id": "shots:away:over:8.5:",
+      "match": "Newcastle – Everton",
+      "market": "Remates",
+      "label": "Everton: más de 8,5 remates",
+      "probability": 0.7453932062907225,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "shots",
+      "actual_home": 17,
+      "actual_away": 16
+    },
+    {
+      "fixture_id": "560622",
+      "selection_id": "sot:home:over:3.5:",
+      "match": "Newcastle – Everton",
+      "market": "Tiros al arco",
+      "label": "Newcastle: más de 3,5 tiros al arco",
+      "probability": 0.7611597667919361,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "sot",
+      "actual_home": 2,
+      "actual_away": 5
+    },
+    {
+      "fixture_id": "560622",
+      "selection_id": "fouls:total:under:26.5:",
+      "match": "Newcastle – Everton",
+      "market": "Faltas",
+      "label": "Menos de 26,5 faltas totales",
+      "probability": 0.735152858919077,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "fouls",
+      "actual_home": 13,
+      "actual_away": 9
+    },
+    {
+      "fixture_id": "560622",
+      "selection_id": "corners:total:under:13.5:",
+      "match": "Newcastle – Everton",
+      "market": "Córners",
+      "label": "Menos de 13,5 córners",
+      "probability": 0.7395313433178559,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "corners",
+      "actual_home": 4,
+      "actual_away": 5
+    },
+    {
+      "fixture_id": "560622",
+      "selection_id": "shots:home:over:11.5:",
+      "match": "Newcastle – Everton",
+      "market": "Remates",
+      "label": "Newcastle: más de 11,5 remates",
+      "probability": 0.817279934085696,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "shots",
+      "actual_home": 17,
+      "actual_away": 16
+    },
+    {
+      "fixture_id": "558541",
+      "selection_id": "double_chance:total:12:None:",
+      "match": "Sassuolo – Fiorentina",
+      "market": "Doble oportunidad",
+      "label": "Cualquiera gana, sin empate",
+      "probability": 0.7474888969938911,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 4
+    },
+    {
+      "fixture_id": "558541",
+      "selection_id": "handicap:total:away:1.5:",
+      "match": "Sassuolo – Fiorentina",
+      "market": "Hándicap de goles",
+      "label": "Fiorentina +1,5",
+      "probability": 0.8300523132228702,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 4
+    },
+    {
+      "fixture_id": "558541",
+      "selection_id": "goals:home:under:2.5:",
+      "match": "Sassuolo – Fiorentina",
+      "market": "Goles",
+      "label": "Sassuolo: menos de 2,5 goles",
+      "probability": 0.8181185991667995,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 4
+    },
+    {
+      "fixture_id": "558541",
+      "selection_id": "btts:total:yes:None:",
+      "match": "Sassuolo – Fiorentina",
+      "market": "Ambos marcan",
+      "label": "Ambos marcan: sí",
+      "probability": 0.6082370692391352,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 4
+    },
+    {
+      "fixture_id": "558541",
+      "selection_id": "shots:away:under:15.5:",
+      "match": "Sassuolo – Fiorentina",
+      "market": "Remates",
+      "label": "Fiorentina: menos de 15,5 remates",
+      "probability": 0.7359375641421373,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "shots",
+      "actual_home": 7,
+      "actual_away": 15
+    },
+    {
+      "fixture_id": "558541",
+      "selection_id": "sot:away:over:2.5:",
+      "match": "Sassuolo – Fiorentina",
+      "market": "Tiros al arco",
+      "label": "Fiorentina: más de 2,5 tiros al arco",
+      "probability": 0.7639138117807543,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "sot",
+      "actual_home": 2,
+      "actual_away": 6
+    },
+    {
+      "fixture_id": "558541",
+      "selection_id": "fouls:total:over:20.5:",
+      "match": "Sassuolo – Fiorentina",
+      "market": "Faltas",
+      "label": "Más de 20,5 faltas totales",
+      "probability": 0.7404299585405465,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "fouls",
+      "actual_home": 12,
+      "actual_away": 15
+    },
+    {
+      "fixture_id": "558541",
+      "selection_id": "corners:away:over:2.5:",
+      "match": "Sassuolo – Fiorentina",
+      "market": "Córners",
+      "label": "Fiorentina: más de 2,5 córners",
+      "probability": 0.741242351539408,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "corners",
+      "actual_home": 5,
+      "actual_away": 3
+    },
+    {
+      "fixture_id": "558541",
+      "selection_id": "fouls:home:under:14.5:",
+      "match": "Sassuolo – Fiorentina",
+      "market": "Faltas",
+      "label": "Sassuolo: menos de 14,5 faltas",
+      "probability": 0.7067877623229717,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "fouls",
+      "actual_home": 12,
+      "actual_away": 15
+    },
+    {
+      "fixture_id": "558541",
+      "selection_id": "sot:away:over:3.5:",
+      "match": "Sassuolo – Fiorentina",
+      "market": "Tiros al arco",
+      "label": "Fiorentina: más de 3,5 tiros al arco",
+      "probability": 0.5935799715736906,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "sot",
+      "actual_home": 2,
+      "actual_away": 6
+    },
+    {
+      "fixture_id": "558545",
+      "selection_id": "result:total:home:None:",
+      "match": "Atalanta – Parma",
+      "market": "Resultado 1X2",
+      "label": "Gana Atalanta",
+      "probability": 0.5931838374657602,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "goals",
+      "actual_home": 0,
+      "actual_away": 3
+    },
+    {
+      "fixture_id": "558545",
+      "selection_id": "double_chance:total:12:None:",
+      "match": "Atalanta – Parma",
+      "market": "Doble oportunidad",
+      "label": "Cualquiera gana, sin empate",
+      "probability": 0.7587432003018645,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 0,
+      "actual_away": 3
+    },
+    {
+      "fixture_id": "558545",
+      "selection_id": "handicap:total:away:1.5:",
+      "match": "Atalanta – Parma",
+      "market": "Hándicap de goles",
+      "label": "Parma +1,5",
+      "probability": 0.6551445228369965,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 0,
+      "actual_away": 3
+    },
+    {
+      "fixture_id": "558545",
+      "selection_id": "goals:home:under:2.5:",
+      "match": "Atalanta – Parma",
+      "market": "Goles",
+      "label": "Atalanta: menos de 2,5 goles",
+      "probability": 0.7408224510842996,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 0,
+      "actual_away": 3
+    },
+    {
+      "fixture_id": "558545",
+      "selection_id": "result_goals:total:1X:1.5:over",
+      "match": "Atalanta – Parma",
+      "market": "Resultado y goles",
+      "label": "Atalanta o empate y más de 1,5 goles",
+      "probability": 0.6244495712497903,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "goals",
+      "actual_home": 0,
+      "actual_away": 3
+    },
+    {
+      "fixture_id": "558545",
+      "selection_id": "shots:away:over:6.5:",
+      "match": "Atalanta – Parma",
+      "market": "Remates",
+      "label": "Parma: más de 6,5 remates",
+      "probability": 0.702928171718636,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "shots",
+      "actual_home": 20,
+      "actual_away": 6
+    },
+    {
+      "fixture_id": "558545",
+      "selection_id": "sot:home:under:7.5:",
+      "match": "Atalanta – Parma",
+      "market": "Tiros al arco",
+      "label": "Atalanta: menos de 7,5 tiros al arco",
+      "probability": 0.7791710553667275,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "sot",
+      "actual_home": 6,
+      "actual_away": 3
+    },
+    {
+      "fixture_id": "558545",
+      "selection_id": "fouls:away:over:7.5:",
+      "match": "Atalanta – Parma",
+      "market": "Faltas",
+      "label": "Parma: más de 7,5 faltas",
+      "probability": 0.750467297545722,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "fouls",
+      "actual_home": 8,
+      "actual_away": 10
+    },
+    {
+      "fixture_id": "558545",
+      "selection_id": "corners:away:under:4.5:",
+      "match": "Atalanta – Parma",
+      "market": "Córners",
+      "label": "Parma: menos de 4,5 córners",
+      "probability": 0.7129780957345422,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "corners",
+      "actual_home": 8,
+      "actual_away": 5
+    },
+    {
+      "fixture_id": "558545",
+      "selection_id": "double_chance:total:1X:None:",
+      "match": "Atalanta – Parma",
+      "market": "Doble oportunidad",
+      "label": "Atalanta o empate",
+      "probability": 0.8344406371638956,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "goals",
+      "actual_home": 0,
+      "actual_away": 3
+    },
+    {
+      "fixture_id": "558545",
+      "selection_id": "goals:total:over:1.5:",
+      "match": "Atalanta – Parma",
+      "market": "Goles",
+      "label": "Más de 1,5 goles",
+      "probability": 0.7300534318235553,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 0,
+      "actual_away": 3
+    },
+    {
+      "fixture_id": "559641",
+      "selection_id": "double_chance:total:12:None:",
+      "match": "Lorient – Brest",
+      "market": "Doble oportunidad",
+      "label": "Cualquiera gana, sin empate",
+      "probability": 0.7351026510863337,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 0,
+      "actual_away": 2
+    },
+    {
+      "fixture_id": "559641",
+      "selection_id": "handicap:total:away:1.5:",
+      "match": "Lorient – Brest",
+      "market": "Hándicap de goles",
+      "label": "Brest +1,5",
+      "probability": 0.7956209469511291,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 0,
+      "actual_away": 2
+    },
+    {
+      "fixture_id": "559641",
+      "selection_id": "goals:total:over:1.5:",
+      "match": "Lorient – Brest",
+      "market": "Goles",
+      "label": "Más de 1,5 goles",
+      "probability": 0.7628224615251213,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 0,
+      "actual_away": 2
+    },
+    {
+      "fixture_id": "559641",
+      "selection_id": "shots:total:under:27.5:",
+      "match": "Lorient – Brest",
+      "market": "Remates",
+      "label": "Menos de 27,5 remates totales",
+      "probability": 0.7420408043704805,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "shots",
+      "actual_home": 15,
+      "actual_away": 12
+    },
+    {
+      "fixture_id": "559641",
+      "selection_id": "sot:total:under:10.5:",
+      "match": "Lorient – Brest",
+      "market": "Tiros al arco",
+      "label": "Menos de 10,5 tiros al arco totales",
+      "probability": 0.7506567382393746,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "sot",
+      "actual_home": 0,
+      "actual_away": 4
+    },
+    {
+      "fixture_id": "559641",
+      "selection_id": "fouls:home:over:8.5:",
+      "match": "Lorient – Brest",
+      "market": "Faltas",
+      "label": "Lorient: más de 8,5 faltas",
+      "probability": 0.7452856943485204,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "fouls",
+      "actual_home": 11,
+      "actual_away": 16
+    },
+    {
+      "fixture_id": "559641",
+      "selection_id": "corners:total:under:11.5:",
+      "match": "Lorient – Brest",
+      "market": "Córners",
+      "label": "Menos de 11,5 córners",
+      "probability": 0.7557732201941976,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "corners",
+      "actual_home": 8,
+      "actual_away": 2
+    },
+    {
+      "fixture_id": "559641",
+      "selection_id": "goals:home:under:2.5:",
+      "match": "Lorient – Brest",
+      "market": "Goles",
+      "label": "Lorient: menos de 2,5 goles",
+      "probability": 0.815258787809848,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 0,
+      "actual_away": 2
+    },
+    {
+      "fixture_id": "559641",
+      "selection_id": "fouls:total:over:21.5:",
+      "match": "Lorient – Brest",
+      "market": "Faltas",
+      "label": "Más de 21,5 faltas totales",
+      "probability": 0.6953664318633245,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "fouls",
+      "actual_home": 11,
+      "actual_away": 16
+    },
+    {
+      "fixture_id": "559641",
+      "selection_id": "double_chance:total:X2:None:",
+      "match": "Lorient – Brest",
+      "market": "Doble oportunidad",
+      "label": "Brest o empate",
+      "probability": 0.5851637611291765,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 0,
+      "actual_away": 2
+    }
+  ],
+  "tier_summary": {
+    "selections": 15,
+    "settled": 15,
+    "won": 11,
+    "lost": 4,
+    "unverified": 0,
+    "hit_rate": 0.7333333333333333
+  },
+  "unique_summary": {
+    "selections": 48,
+    "settled": 48,
+    "won": 37,
+    "lost": 11,
+    "unverified": 0,
+    "hit_rate": 0.7708333333333334
+  },
+  "by_tier": {
+    "Conservadora": {
+      "selections": 5,
+      "settled": 5,
+      "won": 4,
+      "lost": 1,
+      "unverified": 0,
+      "hit_rate": 0.8
+    },
+    "Normal": {
+      "selections": 5,
+      "settled": 5,
+      "won": 4,
+      "lost": 1,
+      "unverified": 0,
+      "hit_rate": 0.8
+    },
+    "Arriesgada": {
+      "selections": 5,
+      "settled": 5,
+      "won": 3,
+      "lost": 2,
+      "unverified": 0,
+      "hit_rate": 0.6
+    }
+  },
+  "parlays": [
+    {
+      "size": 3,
+      "status": "lost",
+      "probability_before_match": 0.5579336410149323,
+      "legs": [
+        {
+          "fixture_id": "560622",
+          "selection_id": "shots:home:over:11.5:",
+          "match": "Newcastle – Everton",
+          "market": "Remates",
+          "label": "Newcastle: más de 11,5 remates",
+          "probability": 0.817279934085696,
+          "status": "won",
+          "hit": true,
+          "actual_metric": "shots",
+          "actual_home": 17,
+          "actual_away": 16
+        },
+        {
+          "fixture_id": "558541",
+          "selection_id": "goals:home:under:2.5:",
+          "match": "Sassuolo – Fiorentina",
+          "market": "Goles",
+          "label": "Sassuolo: menos de 2,5 goles",
+          "probability": 0.8181185991667995,
+          "status": "won",
+          "hit": true,
+          "actual_metric": "goals",
+          "actual_home": 2,
+          "actual_away": 4
+        },
+        {
+          "fixture_id": "558545",
+          "selection_id": "double_chance:total:1X:None:",
+          "match": "Atalanta – Parma",
+          "market": "Doble oportunidad",
+          "label": "Atalanta o empate",
+          "probability": 0.8344406371638956,
+          "status": "lost",
+          "hit": false,
+          "actual_metric": "goals",
+          "actual_home": 0,
+          "actual_away": 3
+        }
+      ]
+    },
+    {
+      "size": 4,
+      "status": "lost",
+      "probability_before_match": 0.4548603038521685,
+      "legs": [
+        {
+          "fixture_id": "560622",
+          "selection_id": "shots:home:over:11.5:",
+          "match": "Newcastle – Everton",
+          "market": "Remates",
+          "label": "Newcastle: más de 11,5 remates",
+          "probability": 0.817279934085696,
+          "status": "won",
+          "hit": true,
+          "actual_metric": "shots",
+          "actual_home": 17,
+          "actual_away": 16
+        },
+        {
+          "fixture_id": "558541",
+          "selection_id": "goals:home:under:2.5:",
+          "match": "Sassuolo – Fiorentina",
+          "market": "Goles",
+          "label": "Sassuolo: menos de 2,5 goles",
+          "probability": 0.8181185991667995,
+          "status": "won",
+          "hit": true,
+          "actual_metric": "goals",
+          "actual_home": 2,
+          "actual_away": 4
+        },
+        {
+          "fixture_id": "558545",
+          "selection_id": "double_chance:total:1X:None:",
+          "match": "Atalanta – Parma",
+          "market": "Doble oportunidad",
+          "label": "Atalanta o empate",
+          "probability": 0.8344406371638956,
+          "status": "lost",
+          "hit": false,
+          "actual_metric": "goals",
+          "actual_home": 0,
+          "actual_away": 3
+        },
+        {
+          "fixture_id": "559641",
+          "selection_id": "goals:home:under:2.5:",
+          "match": "Lorient – Brest",
+          "market": "Goles",
+          "label": "Lorient: menos de 2,5 goles",
+          "probability": 0.815258787809848,
+          "status": "won",
+          "hit": true,
+          "actual_metric": "goals",
+          "actual_home": 0,
+          "actual_away": 2
+        }
+      ]
+    }
+  ],
+  "analysis": [
+    "Fijas principales: 11/15. Mercados únicos: 37/48. Se conservan las probabilidades previas y se registran los resultados, sin reajustar el modelo con esta jornada.",
+    "Conservadora: 4/5 acertadas.",
+    "Normal: 4/5 acertadas.",
+    "Arriesgada: 3/5 acertadas.",
+    "Falló Newcastle o empate en Newcastle – Everton: resultado final 0–1 (goals).",
+    "Falló Newcastle o empate y más de 1,5 goles en Newcastle – Everton: resultado final 0–1 (goals).",
+    "Falló Atalanta o empate en Atalanta – Parma: resultado final 0–3 (goals).",
+    "Falló Gana Atalanta en Atalanta – Parma: resultado final 0–3 (goals).",
+    "0 partidos no tenían fijas principales publicadas; no se cuentan como fallos ni aciertos.",
+    "Combinada de 3: 2/3 selecciones cumplidas.",
+    "Combinada de 4: 3/4 selecciones cumplidas."
+  ]
+}

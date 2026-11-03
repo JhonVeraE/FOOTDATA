@@ -1,6 +1,6 @@
 {
   "season": "2026/27",
-  "updated_at": "2026-11-02T16:57:59.933900+00:00",
+  "updated_at": "2026-11-03T03:20:25.620986+00:00",
   "source": "football-data.org",
   "source_url": "https://api.football-data.org/v4/competitions/FL1/standings",
   "tables": {
@@ -114,20 +114,32 @@
         "goal_difference": 3
       },
       {
-        "team": "Lorient",
+        "team": "Brest",
         "position": 10,
-        "played": 8,
+        "played": 9,
         "won": 3,
         "draw": 3,
-        "lost": 2,
+        "lost": 3,
+        "points": 12,
+        "goals_for": 16,
+        "goals_against": 12,
+        "goal_difference": 4
+      },
+      {
+        "team": "Lorient",
+        "position": 11,
+        "played": 9,
+        "won": 3,
+        "draw": 3,
+        "lost": 3,
         "points": 12,
         "goals_for": 7,
-        "goals_against": 6,
-        "goal_difference": 1
+        "goals_against": 8,
+        "goal_difference": -1
       },
       {
         "team": "Toulouse",
-        "position": 11,
+        "position": 12,
         "played": 9,
         "won": 2,
         "draw": 4,
@@ -139,7 +151,7 @@
       },
       {
         "team": "Strasbourg",
-        "position": 12,
+        "position": 13,
         "played": 9,
         "won": 3,
         "draw": 1,
@@ -151,7 +163,7 @@
       },
       {
         "team": "Auxerre",
-        "position": 13,
+        "position": 14,
         "played": 9,
         "won": 3,
         "draw": 1,
@@ -160,18 +172,6 @@
         "goals_for": 13,
         "goals_against": 23,
         "goal_difference": -10
-      },
-      {
-        "team": "Brest",
-        "position": 14,
-        "played": 8,
-        "won": 2,
-        "draw": 3,
-        "lost": 3,
-        "points": 9,
-        "goals_for": 14,
-        "goals_against": 12,
-        "goal_difference": 2
       },
       {
         "team": "Angers",
@@ -332,20 +332,8 @@
         "goal_difference": 3
       },
       {
-        "team": "Lorient",
-        "position": 10,
-        "played": 4,
-        "won": 2,
-        "draw": 1,
-        "lost": 1,
-        "points": 7,
-        "goals_for": 5,
-        "goals_against": 4,
-        "goal_difference": 1
-      },
-      {
         "team": "Auxerre",
-        "position": 11,
+        "position": 10,
         "played": 4,
         "won": 2,
         "draw": 1,
@@ -354,6 +342,18 @@
         "goals_for": 5,
         "goals_against": 5,
         "goal_difference": 0
+      },
+      {
+        "team": "Lorient",
+        "position": 11,
+        "played": 5,
+        "won": 2,
+        "draw": 1,
+        "lost": 2,
+        "points": 7,
+        "goals_for": 5,
+        "goals_against": 6,
+        "goal_difference": -1
       },
       {
         "team": "Paris SG",
@@ -454,8 +454,20 @@
         "goal_difference": 8
       },
       {
-        "team": "Lille",
+        "team": "Brest",
         "position": 2,
+        "played": 5,
+        "won": 2,
+        "draw": 2,
+        "lost": 1,
+        "points": 8,
+        "goals_for": 8,
+        "goals_against": 6,
+        "goal_difference": 2
+      },
+      {
+        "team": "Lille",
+        "position": 3,
         "played": 4,
         "won": 2,
         "draw": 1,
@@ -467,7 +479,7 @@
       },
       {
         "team": "Monaco",
-        "position": 3,
+        "position": 4,
         "played": 5,
         "won": 2,
         "draw": 1,
@@ -479,7 +491,7 @@
       },
       {
         "team": "Marseille",
-        "position": 4,
+        "position": 5,
         "played": 4,
         "won": 2,
         "draw": 0,
@@ -491,7 +503,7 @@
       },
       {
         "team": "Toulouse",
-        "position": 5,
+        "position": 6,
         "played": 5,
         "won": 1,
         "draw": 3,
@@ -500,18 +512,6 @@
         "goals_for": 9,
         "goals_against": 8,
         "goal_difference": 1
-      },
-      {
-        "team": "Brest",
-        "position": 6,
-        "played": 4,
-        "won": 1,
-        "draw": 2,
-        "lost": 1,
-        "points": 5,
-        "goals_for": 6,
-        "goals_against": 6,
-        "goal_difference": 0
       },
       {
         "team": "Lorient",
