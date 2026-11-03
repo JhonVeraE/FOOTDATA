@@ -1,5 +1,5 @@
 {
-  "run_at": "2026-11-03T03:19:09.205613+00:00",
+  "run_at": "2026-11-03T03:25:43.330780+00:00",
   "dates": [
     "2026-10-30",
     "2026-10-31",
@@ -18,14 +18,8 @@
   "healthy": true,
   "events": 48,
   "finals": 48,
-  "added_matches": [
-    "La Liga_2026/27_espn_401882824",
-    "Ligue 1_2026/27_espn_401876419",
-    "Premier League_2026/27_espn_401878762",
-    "Serie A_2026/27_espn_401874963",
-    "Serie A_2026/27_espn_401874971"
-  ],
-  "added_rows": 10,
+  "added_matches": [],
+  "added_rows": 0,
   "already_present": [
     {
       "match_id": "La Liga_2026/27_sofascore_16421099",
@@ -194,6 +188,26 @@
     {
       "match_id": "Serie A_2026/27_espn_401875002",
       "fixture_id": "558543"
+    },
+    {
+      "match_id": "La Liga_2026/27_espn_401882824",
+      "fixture_id": "564731"
+    },
+    {
+      "match_id": "Ligue 1_2026/27_espn_401876419",
+      "fixture_id": "559641"
+    },
+    {
+      "match_id": "Premier League_2026/27_espn_401878762",
+      "fixture_id": "560622"
+    },
+    {
+      "match_id": "Serie A_2026/27_espn_401874963",
+      "fixture_id": "558541"
+    },
+    {
+      "match_id": "Serie A_2026/27_espn_401874971",
+      "fixture_id": "558545"
     }
   ],
   "source_differences": [
@@ -218,7 +232,7 @@
   "pending": [],
   "source_errors": [],
   "espn_only": [],
-  "calendar_changed": true,
+  "calendar_changed": false,
   "calendar_issues": [],
   "reviews": {
     "2026-10-30": {
@@ -231,25 +245,7 @@
       "ingestion": "sin cambios"
     },
     "2026-11-02": {
-      "ingestion": "actualizado",
-      "review": {
-        "tier_summary": {
-          "selections": 15,
-          "settled": 15,
-          "won": 11,
-          "lost": 4,
-          "unverified": 0,
-          "hit_rate": 0.7333333333333333
-        },
-        "unique_summary": {
-          "selections": 48,
-          "settled": 48,
-          "won": 37,
-          "lost": 11,
-          "unverified": 0,
-          "hit_rate": 0.7708333333333334
-        }
-      }
+      "ingestion": "sin cambios"
     }
   },
   "prospective": {
