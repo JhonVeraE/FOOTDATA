@@ -6,3 +6,10 @@
 .odds-audit-summary{margin:1.5rem 0;padding:1.25rem 1.5rem;border:1px solid var(--border,#31404b);border-radius:16px;background:rgba(20,184,166,.06)}
 .odds-audit-summary p{margin:.5rem 0;line-height:1.6}.odds-audit-summary small{color:#526a60}.audited-price{font-size:.85rem;line-height:1.5}.audited-price.above_reference{color:#246548}.audited-price.below_reference{color:#895515}.audited-price.exact_quote_not_found,.audited-price.fixture_mismatch{color:#596b61}
 
+
+.pick-odds{display:inline-flex;align-items:baseline;gap:.55rem;padding:.45rem .9rem;border-radius:999px;background:var(--accent,#d4ff3a);color:#0b0d0a;margin:.2rem 0 .35rem}
+.pick-odds .pick-odds-label{font-size:.68rem;font-weight:800;letter-spacing:.12em}
+.pick-odds .pick-odds-value{font-size:1.35rem;font-weight:800;line-height:1}
+.pick-odds.estimated{background:transparent;color:inherit;border:1px solid currentColor;opacity:.85}
+
+.pick-card .pick-price .quote-status{display:block;margin-bottom:.9rem}

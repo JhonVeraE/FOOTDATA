@@ -14,32 +14,24 @@ function selectionMeaning(c){
 function recentText(c){return c.evidence.contexts.map(v=>`${name(v.team)} ${v.hits}/${v.matches}${v.measure&&v.measure!=='partido'?` (${v.measure})`:''} ${v.venue==='general'?'en historial general':`como ${v.venue}`}${v.scope?.startsWith('combined_')?' [varias competiciones]':''}${v.current_hit_streak!==undefined?` · racha actual: ${v.current_hit_streak}`:''}`).join(' · ');}
 function oddsComparison(c,quote){if(!Number.isFinite(quote)||quote<=1)return null;return {above:quote>=c.minimum_odds,theoreticalBreakEven:quote>=c.fair_odds};}
 function auditedPrice(c){const a=c.odds_audit;if(!a)return null;return a.status==='above_reference'?`Cuota consultada ${num(a.odds)} · Supera el umbral orientativo.`:a.status==='below_reference'?`Cuota consultada ${num(a.odds)} · No pasa el filtro de precio del modelo.`:a.status==='fixture_mismatch'?'Cuota sin validar: el horario o el encuentro no coincide.':'No se encontró una cuota exacta en la oferta consultada.';}
+function pickOdds(c){if(c.betano_odds>1)return {value:c.betano_odds,real:true};if(c.fair_odds>1)return {value:c.fair_odds/1.07,real:false};return null;}
 function priceBlock(c){
- const box=E('div','pick-price');box.append(E('p',null,`Cuota teórica ${num(c.fair_odds)} · Umbral orientativo ${num(c.minimum_odds)}`));
- const auditText=auditedPrice(c);if(auditText)box.append(E('p',`audited-price ${c.odds_audit.status}`,auditText));
- const label=E('label','quote-label');label.append(E('span',null,'Comparar otra cuota Betano'));const input=E('input','quote-input');input.type='text';input.inputMode='decimal';input.placeholder='Ej. 1.95';input.setAttribute('aria-label',`Cuota Betano para ${c.label}`);input.autocomplete='off';
- const key=`footdata-price:${state.fijas.prediction_run_generated_at}:${c.fixture_id}:${c.id}`;try{input.value=localStorage.getItem(key)||'';}catch{}
- const observed=c.observed_quote;const fresh=observed&&Date.now()-Date.parse(observed.observed_at)>=0&&Date.now()-Date.parse(observed.observed_at)<=15*60000;
- if(!input.value&&fresh)input.value=String(observed.odds);
- const status=E('small','quote-status');status.setAttribute('aria-live','polite');
- const update=()=>{const value=Number(input.value.trim().replace(',','.'));const result=oddsComparison(c,value);status.textContent=!input.value?(auditText?'Puedes comparar aquí un precio más reciente.':'Precio y disponibilidad sin verificar.'):!result?'Introduce una cuota decimal mayor que 1.':result.above?'La cuota introducida supera el umbral orientativo.':'La cuota introducida queda por debajo del umbral orientativo.';};
- input.addEventListener('input',()=>{try{if(input.value)localStorage.setItem(key,input.value);else localStorage.removeItem(key);}catch{}update();});label.append(input);box.append(label,status);
- if(observed&&observed.source_url.startsWith('https://www.betano.pe/'))box.append(link(observed.source_url,`Betano: ${num(observed.odds)} · capturada ${dateFmt.format(new Date(observed.observed_at))} ${timeFmt.format(new Date(observed.observed_at))} Lima. No es una cuota en vivo.`,'observed-quote'));
- else if(c.odds_audit?.source_url?.startsWith('https://www.betano.pe/'))box.append(link(c.odds_audit.source_url,`Oferta revisada: ${dateFmt.format(new Date(c.odds_audit.observed_at))} ${timeFmt.format(new Date(c.odds_audit.observed_at))} Lima.`,'observed-quote'));
- update();return box;
+ const box=E('div','pick-price');const o=pickOdds(c);
+ if(o){const badge=E('div',`pick-odds${o.real?'':' estimated'}`);badge.append(E('span','pick-odds-label',o.real?'CUOTA':'CUOTA APROX.'),E('strong','pick-odds-value',num(o.value)));box.append(badge);
+  box.append(E('small','quote-status',o.real?`Consultada ${state.fijas.bookmaker?.betano_capture?.observed_at?dateFmt.format(new Date(state.fijas.bookmaker.betano_capture.observed_at))+' '+timeFmt.format(new Date(state.fijas.bookmaker.betano_capture.observed_at))+' Lima':'antes de publicar'}. Puede variar hasta el partido.`:'Estimada por el modelo: la línea aún no tiene cuota publicada.'));}
+ return box;
 }
 function pickView(c,level,compact=false){
  const card=E('article',`pick-card ${level?.key||'market'}${compact?' compact':''}`);
  if(level)card.append(E('p','pick-level',level.label));
  if(!c){card.append(E('h3',null,'Sin propuesta con respaldo'),E('p','pick-reason',level?.reason||'Ninguna línea reúne mayoría reciente en ambas muestras, probabilidad de este nivel y precio suficiente cuando hay cuota contrastada.'));return card;}
  if(!compact)card.append(E('span','pick-market',c.market));
- card.append(E('h3','pick-title',pickLabel(c)),E('p','pick-meaning',selectionMeaning(c)),E('p','pick-probability',`Prob. del modelo: ${pct(c.probability*100)}`));
+ card.append(E('h3','pick-title',pickLabel(c)),priceBlock(c),E('p','pick-meaning',selectionMeaning(c)),E('p','pick-probability',`Prob. del modelo: ${pct(c.probability*100)}`));
  if(c.editorial_override)card.append(E('small','evidence-caption','Selección editorial · conserva la probabilidad conjunta del modelo.'));
  const ev=E('div','pick-evidence');ev.append(E('span','evidence-label','FORMA RECIENTE'),E('p',null,recentText(c)));
  if(!compact)ev.append(E('p','evidence-caption','Veces que se cumplió esta selección; hasta cinco partidos por equipo en su localía.'));
  if(!compact&&c.evidence.contexts.every(v=>v.recent_matches))ev.append(E('p','evidence-caption','Últimos tres: '+c.evidence.contexts.map(v=>`${name(v.team)} ${v.recent_hits}/${v.recent_matches}`).join(' · ')));
  card.append(ev);
- card.append(priceBlock(c));
  return card;
 }
 function matchFijas(m){
@@ -69,8 +61,7 @@ function parlayPanel(pool,size){
  const list=E('ol','parlay-legs');parlay.legs.forEach((m,i)=>{const r=state.payload.matches.find(r=>String(r.fixture_id)===m.fixture_id);const row=E('li');const c=m.parlay_selection;row.append(E('span','leg-index',String(i+1).padStart(2,'0')),append(E('div','leg-body'),link(matchHref(r),`${name(m.home)} — ${name(m.away)}`,'leg-fixture'),E('strong',null,pickLabel(c)),E('small',null,`${timeFmt.format(new Date(m.kickoff_utc))} Lima · ${c.market}`),E('small','leg-price',auditedPrice(c)||'Cuota pendiente de consulta')),E('small','leg-probability',pct(c.probability*100)));list.append(row);});
  box.append(list,E('p','parlay-probability',`Probabilidad conjunta orientativa: ${pct(parlay.probability*100)}. Producto bajo supuesto de independencia entre partidos.`),E('p','parlay-note','Deben acertarse todas las selecciones. Respaldo reciente y cuota disponible son criterios distintos.'));
  const pricing=parlay.legs.reduce((p,m)=>p*m.parlay_selection.pricing_probability,1);
- const quotes=parlay.legs.map(m=>m.parlay_selection.odds_audit);if(quotes.every(q=>q?.odds>1))box.append(E('p','parlay-note',`Producto de cuotas individuales consultadas: ${num(quotes.reduce((p,q)=>p*q.odds,1))}. Es una referencia; la cuota de la combinada en Betano no se ha verificado.`));else box.append(E('p','parlay-note','Cuota de la combinada pendiente: faltan precios exactos de una o más selecciones.'));
- box.append(priceBlock({id:parlay.legs.map(m=>m.parlay_selection.id).join('|'),fixture_id:parlay.legs.map(m=>m.fixture_id).sort().join('-'),label:`combinada de ${size} partidos`,fair_odds:1/parlay.probability,minimum_odds:1.05/pricing}));
+ const legOdds=parlay.legs.map(m=>pickOdds(m.parlay_selection));if(legOdds.every(Boolean))box.append(E('p','parlay-note',`Cuota combinada aproximada: ${num(legOdds.reduce((p,o)=>p*o.value,1))} (producto de las cuotas de cada selección).`));
  return box;
 }
 function fijasPage(){
@@ -78,7 +69,7 @@ function fijasPage(){
  const banner=E('section','fijas-banner');banner.append(eyebrow('UNA LECTURA PARA CADA RIESGO'),E('h1',null,'Las fijas, con fundamento.'),E('p',null,'Ganador, doble oportunidad, hándicap, ambos marcan y goles primero. Rachas y modelo; estadísticas como alternativas.'));page.append(banner);
  
  if(!fijasReady()){page.append(empty('Selecciones pendientes de actualización','Las predicciones están disponibles; esta sección necesita una versión coincidente de las selecciones.'));main.replaceChildren(page);return;}
- const audit=state.fijas.odds_audit;if(audit){const counts=audit.counts;const summary=E('aside','odds-audit-summary');summary.append(E('strong',null,`Revisión Betano · ${audit.fixtures} partidos · ${audit.selections} sugerencias`),E('p',null,`${(counts.above_reference||0)+(counts.below_reference||0)} cuotas exactas encontradas: ${counts.above_reference||0} superan el umbral del modelo y ${counts.below_reference||0} quedan por debajo. ${audit.selections-(counts.above_reference||0)-(counts.below_reference||0)} sin cuota exacta validada.`),E('small',null,`Consulta del ${dateFmt.format(new Date(audit.first_observed_at))}, ${timeFmt.format(new Date(audit.first_observed_at))}–${timeFmt.format(new Date(audit.last_observed_at))} Lima. Precios capturados, sin actualización en vivo.`),link('revision_cuotas_betano.html','Ver las 532 sugerencias y filtrar por precio ↗','fijas-day-link'));page.append(summary);}
+ const audit=state.fijas.odds_audit;if(audit){const counts=audit.counts;const summary=E('aside','odds-audit-summary');summary.append(E('strong',null,`Revisión de cuotas · ${audit.fixtures} partidos · ${audit.selections} sugerencias`),E('p',null,`${(counts.above_reference||0)+(counts.below_reference||0)} cuotas exactas encontradas: ${counts.above_reference||0} superan el umbral del modelo y ${counts.below_reference||0} quedan por debajo. ${audit.selections-(counts.above_reference||0)-(counts.below_reference||0)} sin cuota exacta validada.`),E('small',null,`Consulta del ${dateFmt.format(new Date(audit.first_observed_at))}, ${timeFmt.format(new Date(audit.first_observed_at))}–${timeFmt.format(new Date(audit.last_observed_at))} Lima. Precios capturados, sin actualización en vivo.`),link('revision_cuotas_betano.html','Ver las 532 sugerencias y filtrar por precio ↗','fijas-day-link'));page.append(summary);}
  const matches=futureMatches().map(m=>fijasMatch(m)).filter(Boolean);const days=[...new Set(matches.map(m=>m.date_lima))].sort();
  if(!days.length){page.append(empty('No hay selecciones futuras','Se actualizarán al generar los próximos partidos.'));main.replaceChildren(page);return;}
  const query=new URLSearchParams((location.hash.split('?')[1]||''));const requested=query.get('fecha');
@@ -95,5 +86,5 @@ function fijasPage(){
  };
  days.forEach(day=>{const b=E('button','filter-chip',dateFmt.format(new Date(day+'T12:00:00Z')));b.type='button';b.dataset.day=day;b.addEventListener('click',()=>{state.fijasDate=day;update();});dates.append(b);});
  [3,4].forEach(size=>{const b=E('button','filter-chip',`${size} selecciones`);b.type='button';b.dataset.size=size;b.addEventListener('click',()=>{state.parlaySize=size;update();});sizePicker.append(b);});tools.append(dates,sizePicker);page.append(tools,content);
- const method=E('details','market-details fijas-method');method.append(E('summary',null,'Cómo elegimos las propuestas'));const notes=E('div','fijas-method-copy');for(const text of Object.values(state.fijas.policy))notes.append(E('p',null,text));notes.append(link(state.fijas.bookmaker.rules_url,'Definiciones oficiales de mercados de Betano ↗'));method.append(notes);page.append(method);main.replaceChildren(page);update();
+ const method=E('details','market-details fijas-method');method.append(E('summary',null,'Cómo elegimos las propuestas'));const notes=E('div','fijas-method-copy');for(const text of Object.values(state.fijas.policy))notes.append(E('p',null,String(text).replace(/Betano Perú|Betano/g,'la casa de apuestas')));notes.append(link(state.fijas.bookmaker.rules_url,'Definiciones oficiales de mercados de Betano ↗'));method.append(notes);page.append(method);main.replaceChildren(page);update();
 }

@@ -152,6 +152,9 @@ def candidates(report,contexts,dispersion_data=None,quotes=None,as_of=None,marke
             if bq[1] is not None:item['betano_odds']=bq[1]
         else:
             mp=market_probability(item,market);item['market_source']='football-data.co.uk (media)' if mp is not None else None
+        # Matches close to the capture (markets fully open): only lines with a real price can be published.
+        if betano and not item.get('betano_odds') and utc(report['kickoff_utc'])-utc(betano['observed_at'])<=pd.Timedelta(hours=40):
+            item['price_status']='not_in_observed_lines'
         item['market_probability']=mp
         item['market_check']='not_available' if mp is None else 'agrees' if mp>=.5 else 'disagrees'
         # This is a selection score, not an alternative probability estimate.
@@ -168,7 +171,7 @@ def candidates(report,contexts,dispersion_data=None,quotes=None,as_of=None,marke
     else:ph,pd_,pa=[report[k]/100 for k in ['p_home','p_draw','p_away']]
     for side,label,p in [('home',f"Gana {report['local']}",ph),('draw','Empate',pd_),('away',f"Gana {report['visitante']}",pa)]:add('result',side,None,label,p,'Probabilidad 1X2 publicada')
     for side,label,p in [('1X',f"{report['local']} o empate",ph+pd_),('X2',f"{report['visitante']} o empate",pa+pd_),('12','Cualquiera gana, sin empate',ph+pa)]:
-        add('double_chance',side,None,label,p,'Suma de probabilidades 1X2 publicadas')
+        add('double_chance',side,None,label,p,'Suma de probabilidades 1X2 publicadas',favorite_p=max(ph,pa))
     for side,team,margin in [('home',report['local'],h-a),('away',report['visitante'],a-h)]:
         for line in [-2.5,-1.5,1.5,2.5]:
             add('handicap',side,line,f'{team} {line:+g}'.replace('.',','),matrix[margin+line>0].sum(),'Matriz original de goles, sin calibración específica de hándicap')
@@ -242,6 +245,8 @@ def price(item):
 
 def eligible_v7(item,omin,omax,min_pattern,min_ctx):
     ev=item['evidence']
+    # «Cualquiera gana» with a clear favourite is just the favourite's win with an expensive cover.
+    if item['kind']=='double_chance' and item['side']=='12' and item.get('favorite_p',0)>=.55:return False
     return (omin<=price(item)<omax and item['kind']!='cards' and not trivial(item)
             and all(v['matches']>=min_ctx for v in ev['contexts']) and pattern_rate(item)>=min_pattern
             and item.get('price_status') not in ['below_reference','not_in_observed_lines']

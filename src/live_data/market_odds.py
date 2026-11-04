@@ -196,7 +196,7 @@ def _full_record(e, path, observed_at):
     return {'source': 'Betano Perú', 'betano_id': e['id'], 'kickoff_utc': e['t'][:19] + 'Z', 'observed_at': observed_at,
             'result': result if result and None not in result else None, 'goals': _ou(m.get('T|Goles totales Más/Menos')),
             'btts': [bt.get('Sí'), bt.get('No')] if bt else None, 'home_goals': {}, 'away_goals': {}, 'euro_handicap': {},
-            'double_chance': dc, 'counts': counts, 'result_goals': rg, 'capture': str(path.relative_to(ARTIFACT_DIR))}
+            'double_chance': dc, 'counts': counts, 'result_goals': rg, 'home_name': e['home'], 'away_name': e['away'], 'capture': str(path.relative_to(ARTIFACT_DIR))}
 
 
 def _pairs(values):
@@ -272,11 +272,13 @@ def betano_quote(item, rec):
         return (None if p is None else p[i]), pair[i], title
     if kind == 'result_goals' and rec.get('result_goals'):
         direction = item.get('direction')
-        name = {'home': '1', 'draw': 'X', 'away': '2', '1X': '1X', 'X2': 'X2'}[side]
-        table = 'r' if side in ('home', 'draw', 'away') else 'dc'
-        lab = ('Más de ' if direction == 'over' else 'Menos de ')
-        cands = [v for (t, l, n), v in rec['result_goals'].items() if t == table and l == f'{line:g}' and n.replace('2X', 'X2').startswith(name) and (('Más' in n) == (direction == 'over'))]
-        if cands:return None, cands[0], 'Resultado/Doble oportunidad con Más/Menos'
+        word = 'Más' if direction == 'over' else 'Menos'
+        h, a = rec.get('home_name'), rec.get('away_name')
+        want = {'home': ('r', f'{h} y {word} {line:g}'), 'away': ('r', f'{a} y {word} {line:g}'), 'draw': ('r', f'Empate y {word} {line:g}'),
+                '1X': ('dc', f'{h} o Empate y {word} {line:g}'), 'X2': ('dc', f'{a} o Empate y {word} {line:g}')}.get(side)
+        if want is None:return None
+        price_ = rec['result_goals'].get((want[0], f'{line:g}', want[1]))
+        if price_:return None, price_, 'Resultado/Doble oportunidad con Más/Menos'
         return None
     if kind == 'goals':
         table = rec['goals'] if scope == 'total' else rec['home_goals'] if scope == 'home' else rec['away_goals']
