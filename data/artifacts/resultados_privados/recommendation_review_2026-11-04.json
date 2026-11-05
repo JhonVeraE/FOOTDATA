@@ -1,0 +1,1528 @@
+{
+  "date": "2026-11-04",
+  "reviewed_at": "2026-11-05T02:27:23.823847+00:00",
+  "frozen_shortlist_sha256": "b903c32c9749618b5d5d80b745ff6c3b088095e1e5899dfc05938e4ea0de4192",
+  "matches": [
+    {
+      "fixture_id": "575387",
+      "home": "Fenerbahçe",
+      "away": "Liverpool",
+      "metrics": {
+        "goals": [
+          3,
+          2
+        ],
+        "shots": [
+          17,
+          22
+        ],
+        "sot": [
+          6,
+          6
+        ],
+        "fouls": [
+          13,
+          12
+        ],
+        "corners": [
+          4,
+          12
+        ],
+        "cards": [
+          1,
+          1
+        ]
+      },
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401915382/liverpool-fenerbahce"
+    },
+    {
+      "fixture_id": "575386",
+      "home": "AEK Athens",
+      "away": "Real Madrid",
+      "metrics": {
+        "goals": [
+          2,
+          3
+        ],
+        "shots": [
+          9,
+          24
+        ],
+        "sot": [
+          5,
+          8
+        ],
+        "fouls": [
+          9,
+          16
+        ],
+        "corners": [
+          0,
+          7
+        ],
+        "cards": [
+          2,
+          1
+        ]
+      },
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401915383/real-madrid-aek-athens"
+    },
+    {
+      "fixture_id": "575394",
+      "home": "Viking FK",
+      "away": "Sabah FK",
+      "metrics": {
+        "goals": [
+          4,
+          1
+        ],
+        "shots": [
+          21,
+          16
+        ],
+        "sot": [
+          8,
+          4
+        ],
+        "fouls": [
+          5,
+          9
+        ],
+        "corners": [
+          10,
+          6
+        ],
+        "cards": [
+          2,
+          3
+        ]
+      },
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401915302/sabah-fk-viking-fk"
+    },
+    {
+      "fixture_id": "575392",
+      "home": "FC Porto",
+      "away": "Napoli",
+      "metrics": {
+        "goals": [
+          4,
+          1
+        ],
+        "shots": [
+          19,
+          11
+        ],
+        "sot": [
+          8,
+          6
+        ],
+        "fouls": [
+          8,
+          11
+        ],
+        "corners": [
+          6,
+          5
+        ],
+        "cards": [
+          1,
+          5
+        ]
+      },
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401915301/napoli-fc-porto"
+    },
+    {
+      "fixture_id": "575391",
+      "home": "Dortmund",
+      "away": "Betis",
+      "metrics": {
+        "goals": [
+          2,
+          1
+        ],
+        "shots": [
+          15,
+          11
+        ],
+        "sot": [
+          6,
+          4
+        ],
+        "fouls": [
+          15,
+          13
+        ],
+        "corners": [
+          2,
+          5
+        ],
+        "cards": [
+          4,
+          4
+        ]
+      },
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401915304/real-betis-borussia-dortmund"
+    },
+    {
+      "fixture_id": "575390",
+      "home": "PSV",
+      "away": "Club Brugge KV",
+      "metrics": {
+        "goals": [
+          1,
+          2
+        ],
+        "shots": [
+          27,
+          10
+        ],
+        "sot": [
+          9,
+          3
+        ],
+        "fouls": [
+          8,
+          10
+        ],
+        "corners": [
+          8,
+          5
+        ],
+        "cards": [
+          0,
+          3
+        ]
+      },
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401915303/club-brugge-psv-eindhoven"
+    },
+    {
+      "fixture_id": "575389",
+      "home": "Slavia Praha",
+      "away": "Arsenal",
+      "metrics": {
+        "goals": [
+          1,
+          2
+        ],
+        "shots": [
+          18,
+          12
+        ],
+        "sot": [
+          6,
+          5
+        ],
+        "fouls": [
+          15,
+          10
+        ],
+        "corners": [
+          4,
+          2
+        ],
+        "cards": [
+          1,
+          2
+        ]
+      },
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401915381/arsenal-slavia-prague"
+    },
+    {
+      "fixture_id": "575388",
+      "home": "RB Leipzig",
+      "away": "Man City",
+      "metrics": {
+        "goals": [
+          2,
+          3
+        ],
+        "shots": [
+          14,
+          12
+        ],
+        "sot": [
+          6,
+          5
+        ],
+        "fouls": [
+          20,
+          7
+        ],
+        "corners": [
+          5,
+          3
+        ],
+        "cards": [
+          4,
+          2
+        ]
+      },
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401915306/manchester-city-rb-leipzig"
+    },
+    {
+      "fixture_id": "575393",
+      "home": "Lens",
+      "away": "Como",
+      "metrics": {
+        "goals": [
+          1,
+          9
+        ],
+        "shots": [
+          11,
+          18
+        ],
+        "sot": [
+          3,
+          12
+        ],
+        "fouls": [
+          12,
+          11
+        ],
+        "corners": [
+          5,
+          5
+        ],
+        "cards": [
+          2,
+          0
+        ]
+      },
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401915305/como-lens"
+    }
+  ],
+  "tiers": [
+    {
+      "fixture_id": "575387",
+      "selection_id": "double_chance:total:X2:None:",
+      "match": "Fenerbahçe – Liverpool",
+      "market": "Doble oportunidad",
+      "label": "Liverpool o empate",
+      "probability": 0.8615913028558451,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "goals",
+      "actual_home": 3,
+      "actual_away": 2,
+      "tier": "Conservadora"
+    },
+    {
+      "fixture_id": "575387",
+      "selection_id": "result_goals:total:X2:1.5:over",
+      "match": "Fenerbahçe – Liverpool",
+      "market": "Resultado y goles",
+      "label": "Liverpool o empate y más de 1,5 goles",
+      "probability": 0.807031958516977,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "goals",
+      "actual_home": 3,
+      "actual_away": 2,
+      "tier": "Normal"
+    },
+    {
+      "fixture_id": "575387",
+      "selection_id": "btts:total:yes:None:",
+      "match": "Fenerbahçe – Liverpool",
+      "market": "Ambos marcan",
+      "label": "Ambos marcan: sí",
+      "probability": 0.6961804937141669,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 3,
+      "actual_away": 2,
+      "tier": "Arriesgada"
+    },
+    {
+      "fixture_id": "575386",
+      "selection_id": "result_goals:total:away:1.5:over",
+      "match": "AEK Athens – Real Madrid",
+      "market": "Resultado y goles",
+      "label": "Gana Real Madrid y más de 1,5 goles",
+      "probability": 0.6332429124471018,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 3,
+      "tier": "Conservadora"
+    },
+    {
+      "fixture_id": "575386",
+      "selection_id": "goals:total:over:2.5:",
+      "match": "AEK Athens – Real Madrid",
+      "market": "Goles",
+      "label": "Más de 2,5 goles",
+      "probability": 0.7534270692938168,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 3,
+      "tier": "Normal"
+    },
+    {
+      "fixture_id": "575386",
+      "selection_id": "btts:total:yes:None:",
+      "match": "AEK Athens – Real Madrid",
+      "market": "Ambos marcan",
+      "label": "Ambos marcan: sí",
+      "probability": 0.6638489760429239,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 3,
+      "tier": "Arriesgada"
+    },
+    {
+      "fixture_id": "575394",
+      "selection_id": "shots:total:over:24.5:",
+      "match": "Viking FK – Sabah FK",
+      "market": "Remates",
+      "label": "Más de 24,5 remates totales",
+      "probability": 0.7735984490858767,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "shots",
+      "actual_home": 21,
+      "actual_away": 16,
+      "tier": "Conservadora"
+    },
+    {
+      "fixture_id": "575394",
+      "selection_id": "goals:total:over:2.5:",
+      "match": "Viking FK – Sabah FK",
+      "market": "Goles",
+      "label": "Más de 2,5 goles",
+      "probability": 0.7295163087925955,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 4,
+      "actual_away": 1,
+      "tier": "Normal"
+    },
+    {
+      "fixture_id": "575394",
+      "selection_id": "corners:home:over:5.5:",
+      "match": "Viking FK – Sabah FK",
+      "market": "Córners",
+      "label": "Viking FK: más de 5,5 córners",
+      "probability": 0.3926733827218742,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "corners",
+      "actual_home": 10,
+      "actual_away": 6,
+      "tier": "Arriesgada"
+    },
+    {
+      "fixture_id": "575392",
+      "selection_id": "goals:total:over:1.5:",
+      "match": "FC Porto – Napoli",
+      "market": "Goles",
+      "label": "Más de 1,5 goles",
+      "probability": 0.8379769772709966,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 4,
+      "actual_away": 1,
+      "tier": "Conservadora"
+    },
+    {
+      "fixture_id": "575392",
+      "selection_id": "shots:total:over:24.5:",
+      "match": "FC Porto – Napoli",
+      "market": "Remates",
+      "label": "Más de 24,5 remates totales",
+      "probability": 0.7377289173072357,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "shots",
+      "actual_home": 19,
+      "actual_away": 11,
+      "tier": "Normal"
+    },
+    {
+      "fixture_id": "575392",
+      "selection_id": "sot:home:under:5.5:",
+      "match": "FC Porto – Napoli",
+      "market": "Tiros al arco",
+      "label": "FC Porto: menos de 5,5 tiros al arco",
+      "probability": 0.6325525168267463,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "sot",
+      "actual_home": 8,
+      "actual_away": 6,
+      "tier": "Arriesgada"
+    },
+    {
+      "fixture_id": "575391",
+      "selection_id": "goals:total:over:1.5:",
+      "match": "Dortmund – Betis",
+      "market": "Goles",
+      "label": "Más de 1,5 goles",
+      "probability": 0.8944653302710422,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 1,
+      "tier": "Conservadora"
+    },
+    {
+      "fixture_id": "575391",
+      "selection_id": "corners:home:over:4.5:",
+      "match": "Dortmund – Betis",
+      "market": "Córners",
+      "label": "Dortmund: más de 4,5 córners",
+      "probability": 0.5413109767864334,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "corners",
+      "actual_home": 2,
+      "actual_away": 5,
+      "tier": "Normal"
+    },
+    {
+      "fixture_id": "575391",
+      "selection_id": "shots:total:over:26.5:",
+      "match": "Dortmund – Betis",
+      "market": "Remates",
+      "label": "Más de 26,5 remates totales",
+      "probability": 0.6319253552204223,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "shots",
+      "actual_home": 15,
+      "actual_away": 11,
+      "tier": "Arriesgada"
+    },
+    {
+      "fixture_id": "575390",
+      "selection_id": "double_chance:total:12:None:",
+      "match": "PSV – Club Brugge KV",
+      "market": "Doble oportunidad",
+      "label": "Cualquiera gana, sin empate",
+      "probability": 0.762381235212948,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 1,
+      "actual_away": 2,
+      "tier": "Conservadora"
+    },
+    {
+      "fixture_id": "575390",
+      "selection_id": "shots:total:over:26.5:",
+      "match": "PSV – Club Brugge KV",
+      "market": "Remates",
+      "label": "Más de 26,5 remates totales",
+      "probability": 0.6723029828922946,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "shots",
+      "actual_home": 27,
+      "actual_away": 10,
+      "tier": "Normal"
+    },
+    {
+      "fixture_id": "575390",
+      "selection_id": "corners:away:under:5.5:",
+      "match": "PSV – Club Brugge KV",
+      "market": "Córners",
+      "label": "Club Brugge KV: menos de 5,5 córners",
+      "probability": 0.6881089573928093,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "corners",
+      "actual_home": 8,
+      "actual_away": 5,
+      "tier": "Arriesgada"
+    },
+    {
+      "fixture_id": "575389",
+      "selection_id": "goals:total:over:1.5:",
+      "match": "Slavia Praha – Arsenal",
+      "market": "Goles",
+      "label": "Más de 1,5 goles",
+      "probability": 0.8923725910245146,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 1,
+      "actual_away": 2,
+      "tier": "Conservadora"
+    },
+    {
+      "fixture_id": "575389",
+      "selection_id": "corners:total:over:7.5:",
+      "match": "Slavia Praha – Arsenal",
+      "market": "Córners",
+      "label": "Más de 7,5 córners",
+      "probability": 0.6860052862461121,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "corners",
+      "actual_home": 4,
+      "actual_away": 2,
+      "tier": "Normal"
+    },
+    {
+      "fixture_id": "575389",
+      "selection_id": "shots:total:over:25.5:",
+      "match": "Slavia Praha – Arsenal",
+      "market": "Remates",
+      "label": "Más de 25,5 remates totales",
+      "probability": 0.7485811173664909,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "shots",
+      "actual_home": 18,
+      "actual_away": 12,
+      "tier": "Arriesgada"
+    },
+    {
+      "fixture_id": "575388",
+      "selection_id": "double_chance:total:12:None:",
+      "match": "RB Leipzig – Man City",
+      "market": "Doble oportunidad",
+      "label": "Cualquiera gana, sin empate",
+      "probability": 0.7924554240330403,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 3,
+      "tier": "Conservadora"
+    },
+    {
+      "fixture_id": "575388",
+      "selection_id": "corners:away:over:4.5:",
+      "match": "RB Leipzig – Man City",
+      "market": "Córners",
+      "label": "Man City: más de 4,5 córners",
+      "probability": 0.5412627387565192,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "corners",
+      "actual_home": 5,
+      "actual_away": 3,
+      "tier": "Normal"
+    },
+    {
+      "fixture_id": "575388",
+      "selection_id": "sot:total:over:9.5:",
+      "match": "RB Leipzig – Man City",
+      "market": "Tiros al arco",
+      "label": "Más de 9,5 tiros al arco totales",
+      "probability": 0.6498017374625358,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "sot",
+      "actual_home": 6,
+      "actual_away": 5,
+      "tier": "Arriesgada"
+    },
+    {
+      "fixture_id": "575393",
+      "selection_id": "goals:total:over:1.5:",
+      "match": "Lens – Como",
+      "market": "Goles",
+      "label": "Más de 1,5 goles",
+      "probability": 0.8948853875794255,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 1,
+      "actual_away": 9,
+      "tier": "Conservadora"
+    },
+    {
+      "fixture_id": "575393",
+      "selection_id": "corners:home:over:3.5:",
+      "match": "Lens – Como",
+      "market": "Córners",
+      "label": "Lens: más de 3,5 córners",
+      "probability": 0.6537755057910941,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "corners",
+      "actual_home": 5,
+      "actual_away": 5,
+      "tier": "Normal"
+    },
+    {
+      "fixture_id": "575393",
+      "selection_id": "sot:home:over:4.5:",
+      "match": "Lens – Como",
+      "market": "Tiros al arco",
+      "label": "Lens: más de 4,5 tiros al arco",
+      "probability": 0.5938158517236222,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "sot",
+      "actual_home": 3,
+      "actual_away": 12,
+      "tier": "Arriesgada"
+    }
+  ],
+  "unique_selections": [
+    {
+      "fixture_id": "575387",
+      "selection_id": "double_chance:total:X2:None:",
+      "match": "Fenerbahçe – Liverpool",
+      "market": "Doble oportunidad",
+      "label": "Liverpool o empate",
+      "probability": 0.8615913028558451,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "goals",
+      "actual_home": 3,
+      "actual_away": 2
+    },
+    {
+      "fixture_id": "575387",
+      "selection_id": "goals:total:over:1.5:",
+      "match": "Fenerbahçe – Liverpool",
+      "market": "Goles",
+      "label": "Más de 1,5 goles",
+      "probability": 0.9293027473758664,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 3,
+      "actual_away": 2
+    },
+    {
+      "fixture_id": "575387",
+      "selection_id": "btts:total:yes:None:",
+      "match": "Fenerbahçe – Liverpool",
+      "market": "Ambos marcan",
+      "label": "Ambos marcan: sí",
+      "probability": 0.6961804937141669,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 3,
+      "actual_away": 2
+    },
+    {
+      "fixture_id": "575387",
+      "selection_id": "result_goals:total:X2:1.5:over",
+      "match": "Fenerbahçe – Liverpool",
+      "market": "Resultado y goles",
+      "label": "Liverpool o empate y más de 1,5 goles",
+      "probability": 0.807031958516977,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "goals",
+      "actual_home": 3,
+      "actual_away": 2
+    },
+    {
+      "fixture_id": "575387",
+      "selection_id": "shots:home:over:8.5:",
+      "match": "Fenerbahçe – Liverpool",
+      "market": "Remates",
+      "label": "Fenerbahçe: más de 8,5 remates",
+      "probability": 0.8411381301431278,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "shots",
+      "actual_home": 17,
+      "actual_away": 22
+    },
+    {
+      "fixture_id": "575387",
+      "selection_id": "sot:home:under:5.5:",
+      "match": "Fenerbahçe – Liverpool",
+      "market": "Tiros al arco",
+      "label": "Fenerbahçe: menos de 5,5 tiros al arco",
+      "probability": 0.5851593896228212,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "sot",
+      "actual_home": 6,
+      "actual_away": 6
+    },
+    {
+      "fixture_id": "575387",
+      "selection_id": "corners:home:under:4.5:",
+      "match": "Fenerbahçe – Liverpool",
+      "market": "Córners",
+      "label": "Fenerbahçe: menos de 4,5 córners",
+      "probability": 0.6013985849955102,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "corners",
+      "actual_home": 4,
+      "actual_away": 12
+    },
+    {
+      "fixture_id": "575386",
+      "selection_id": "result:total:away:None:",
+      "match": "AEK Athens – Real Madrid",
+      "market": "Resultado 1X2",
+      "label": "Gana Real Madrid",
+      "probability": 0.6834493126190305,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 3
+    },
+    {
+      "fixture_id": "575386",
+      "selection_id": "goals:total:over:2.5:",
+      "match": "AEK Athens – Real Madrid",
+      "market": "Goles",
+      "label": "Más de 2,5 goles",
+      "probability": 0.7534270692938168,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 3
+    },
+    {
+      "fixture_id": "575386",
+      "selection_id": "btts:total:yes:None:",
+      "match": "AEK Athens – Real Madrid",
+      "market": "Ambos marcan",
+      "label": "Ambos marcan: sí",
+      "probability": 0.6638489760429239,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 3
+    },
+    {
+      "fixture_id": "575386",
+      "selection_id": "result_goals:total:away:2.5:over",
+      "match": "AEK Athens – Real Madrid",
+      "market": "Resultado y goles",
+      "label": "Gana Real Madrid y más de 2,5 goles",
+      "probability": 0.5620607386290764,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 3
+    },
+    {
+      "fixture_id": "575386",
+      "selection_id": "shots:total:under:32.5:",
+      "match": "AEK Athens – Real Madrid",
+      "market": "Remates",
+      "label": "Menos de 32,5 remates totales",
+      "probability": 0.7028898072161746,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "shots",
+      "actual_home": 9,
+      "actual_away": 24
+    },
+    {
+      "fixture_id": "575386",
+      "selection_id": "sot:away:under:8.5:",
+      "match": "AEK Athens – Real Madrid",
+      "market": "Tiros al arco",
+      "label": "Real Madrid: menos de 8,5 tiros al arco",
+      "probability": 0.8482324041208195,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "sot",
+      "actual_home": 5,
+      "actual_away": 8
+    },
+    {
+      "fixture_id": "575386",
+      "selection_id": "corners:total:under:12.5:",
+      "match": "AEK Athens – Real Madrid",
+      "market": "Córners",
+      "label": "Menos de 12,5 córners",
+      "probability": 0.7764252357169106,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "corners",
+      "actual_home": 0,
+      "actual_away": 7
+    },
+    {
+      "fixture_id": "575386",
+      "selection_id": "result_goals:total:away:1.5:over",
+      "match": "AEK Athens – Real Madrid",
+      "market": "Resultado y goles",
+      "label": "Gana Real Madrid y más de 1,5 goles",
+      "probability": 0.6332429124471018,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 3
+    },
+    {
+      "fixture_id": "575394",
+      "selection_id": "goals:total:over:1.5:",
+      "match": "Viking FK – Sabah FK",
+      "market": "Goles",
+      "label": "Más de 1,5 goles",
+      "probability": 0.8943563295758732,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 4,
+      "actual_away": 1
+    },
+    {
+      "fixture_id": "575394",
+      "selection_id": "shots:total:over:25.5:",
+      "match": "Viking FK – Sabah FK",
+      "market": "Remates",
+      "label": "Más de 25,5 remates totales",
+      "probability": 0.7227873249045338,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "shots",
+      "actual_home": 21,
+      "actual_away": 16
+    },
+    {
+      "fixture_id": "575394",
+      "selection_id": "sot:total:over:9.5:",
+      "match": "Viking FK – Sabah FK",
+      "market": "Tiros al arco",
+      "label": "Más de 9,5 tiros al arco totales",
+      "probability": 0.6583861403811366,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "sot",
+      "actual_home": 8,
+      "actual_away": 4
+    },
+    {
+      "fixture_id": "575394",
+      "selection_id": "corners:home:over:4.5:",
+      "match": "Viking FK – Sabah FK",
+      "market": "Córners",
+      "label": "Viking FK: más de 4,5 córners",
+      "probability": 0.5413109767864334,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "corners",
+      "actual_home": 10,
+      "actual_away": 6
+    },
+    {
+      "fixture_id": "575394",
+      "selection_id": "shots:total:over:24.5:",
+      "match": "Viking FK – Sabah FK",
+      "market": "Remates",
+      "label": "Más de 24,5 remates totales",
+      "probability": 0.7735984490858767,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "shots",
+      "actual_home": 21,
+      "actual_away": 16
+    },
+    {
+      "fixture_id": "575394",
+      "selection_id": "goals:total:over:2.5:",
+      "match": "Viking FK – Sabah FK",
+      "market": "Goles",
+      "label": "Más de 2,5 goles",
+      "probability": 0.7295163087925955,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 4,
+      "actual_away": 1
+    },
+    {
+      "fixture_id": "575394",
+      "selection_id": "corners:home:over:5.5:",
+      "match": "Viking FK – Sabah FK",
+      "market": "Córners",
+      "label": "Viking FK: más de 5,5 córners",
+      "probability": 0.3926733827218742,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "corners",
+      "actual_home": 10,
+      "actual_away": 6
+    },
+    {
+      "fixture_id": "575392",
+      "selection_id": "double_chance:total:12:None:",
+      "match": "FC Porto – Napoli",
+      "market": "Doble oportunidad",
+      "label": "Cualquiera gana, sin empate",
+      "probability": 0.7766979220931844,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 4,
+      "actual_away": 1
+    },
+    {
+      "fixture_id": "575392",
+      "selection_id": "goals:total:over:1.5:",
+      "match": "FC Porto – Napoli",
+      "market": "Goles",
+      "label": "Más de 1,5 goles",
+      "probability": 0.8379769772709966,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 4,
+      "actual_away": 1
+    },
+    {
+      "fixture_id": "575392",
+      "selection_id": "shots:total:over:24.5:",
+      "match": "FC Porto – Napoli",
+      "market": "Remates",
+      "label": "Más de 24,5 remates totales",
+      "probability": 0.7377289173072357,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "shots",
+      "actual_home": 19,
+      "actual_away": 11
+    },
+    {
+      "fixture_id": "575392",
+      "selection_id": "sot:home:under:5.5:",
+      "match": "FC Porto – Napoli",
+      "market": "Tiros al arco",
+      "label": "FC Porto: menos de 5,5 tiros al arco",
+      "probability": 0.6325525168267463,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "sot",
+      "actual_home": 8,
+      "actual_away": 6
+    },
+    {
+      "fixture_id": "575392",
+      "selection_id": "corners:away:under:5.5:",
+      "match": "FC Porto – Napoli",
+      "market": "Córners",
+      "label": "Napoli: menos de 5,5 córners",
+      "probability": 0.6838526519807072,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "corners",
+      "actual_home": 6,
+      "actual_away": 5
+    },
+    {
+      "fixture_id": "575391",
+      "selection_id": "double_chance:total:1X:None:",
+      "match": "Dortmund – Betis",
+      "market": "Doble oportunidad",
+      "label": "Dortmund o empate",
+      "probability": 0.7940464448320385,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 1
+    },
+    {
+      "fixture_id": "575391",
+      "selection_id": "goals:total:over:1.5:",
+      "match": "Dortmund – Betis",
+      "market": "Goles",
+      "label": "Más de 1,5 goles",
+      "probability": 0.8944653302710422,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 1
+    },
+    {
+      "fixture_id": "575391",
+      "selection_id": "shots:total:over:23.5:",
+      "match": "Dortmund – Betis",
+      "market": "Remates",
+      "label": "Más de 23,5 remates totales",
+      "probability": 0.7934225681755418,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "shots",
+      "actual_home": 15,
+      "actual_away": 11
+    },
+    {
+      "fixture_id": "575391",
+      "selection_id": "sot:home:over:3.5:",
+      "match": "Dortmund – Betis",
+      "market": "Tiros al arco",
+      "label": "Dortmund: más de 3,5 tiros al arco",
+      "probability": 0.7086042614092303,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "sot",
+      "actual_home": 6,
+      "actual_away": 4
+    },
+    {
+      "fixture_id": "575391",
+      "selection_id": "corners:home:over:4.5:",
+      "match": "Dortmund – Betis",
+      "market": "Córners",
+      "label": "Dortmund: más de 4,5 córners",
+      "probability": 0.5413109767864334,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "corners",
+      "actual_home": 2,
+      "actual_away": 5
+    },
+    {
+      "fixture_id": "575391",
+      "selection_id": "shots:total:over:26.5:",
+      "match": "Dortmund – Betis",
+      "market": "Remates",
+      "label": "Más de 26,5 remates totales",
+      "probability": 0.6319253552204223,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "shots",
+      "actual_home": 15,
+      "actual_away": 11
+    },
+    {
+      "fixture_id": "575390",
+      "selection_id": "double_chance:total:12:None:",
+      "match": "PSV – Club Brugge KV",
+      "market": "Doble oportunidad",
+      "label": "Cualquiera gana, sin empate",
+      "probability": 0.762381235212948,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 1,
+      "actual_away": 2
+    },
+    {
+      "fixture_id": "575390",
+      "selection_id": "shots:total:over:28.5:",
+      "match": "PSV – Club Brugge KV",
+      "market": "Remates",
+      "label": "Más de 28,5 remates totales",
+      "probability": 0.5558111918664455,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "shots",
+      "actual_home": 27,
+      "actual_away": 10
+    },
+    {
+      "fixture_id": "575390",
+      "selection_id": "sot:away:over:3.5:",
+      "match": "PSV – Club Brugge KV",
+      "market": "Tiros al arco",
+      "label": "Club Brugge KV: más de 3,5 tiros al arco",
+      "probability": 0.7224924542776734,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "sot",
+      "actual_home": 9,
+      "actual_away": 3
+    },
+    {
+      "fixture_id": "575390",
+      "selection_id": "fouls:away:over:10.5:",
+      "match": "PSV – Club Brugge KV",
+      "market": "Faltas",
+      "label": "Club Brugge KV: más de 10,5 faltas",
+      "probability": 0.5833861647533056,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "fouls",
+      "actual_home": 8,
+      "actual_away": 10
+    },
+    {
+      "fixture_id": "575390",
+      "selection_id": "corners:away:under:6.5:",
+      "match": "PSV – Club Brugge KV",
+      "market": "Córners",
+      "label": "Club Brugge KV: menos de 6,5 córners",
+      "probability": 0.7850394166192028,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "corners",
+      "actual_home": 8,
+      "actual_away": 5
+    },
+    {
+      "fixture_id": "575390",
+      "selection_id": "shots:total:over:26.5:",
+      "match": "PSV – Club Brugge KV",
+      "market": "Remates",
+      "label": "Más de 26,5 remates totales",
+      "probability": 0.6723029828922946,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "shots",
+      "actual_home": 27,
+      "actual_away": 10
+    },
+    {
+      "fixture_id": "575390",
+      "selection_id": "corners:away:under:5.5:",
+      "match": "PSV – Club Brugge KV",
+      "market": "Córners",
+      "label": "Club Brugge KV: menos de 5,5 córners",
+      "probability": 0.6881089573928093,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "corners",
+      "actual_home": 8,
+      "actual_away": 5
+    },
+    {
+      "fixture_id": "575389",
+      "selection_id": "result:total:away:None:",
+      "match": "Slavia Praha – Arsenal",
+      "market": "Resultado 1X2",
+      "label": "Gana Arsenal",
+      "probability": 0.7435873917905989,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 1,
+      "actual_away": 2
+    },
+    {
+      "fixture_id": "575389",
+      "selection_id": "goals:total:over:1.5:",
+      "match": "Slavia Praha – Arsenal",
+      "market": "Goles",
+      "label": "Más de 1,5 goles",
+      "probability": 0.8923725910245146,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 1,
+      "actual_away": 2
+    },
+    {
+      "fixture_id": "575389",
+      "selection_id": "shots:total:under:31.5:",
+      "match": "Slavia Praha – Arsenal",
+      "market": "Remates",
+      "label": "Menos de 31,5 remates totales",
+      "probability": 0.5913159595473741,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "shots",
+      "actual_home": 18,
+      "actual_away": 12
+    },
+    {
+      "fixture_id": "575389",
+      "selection_id": "sot:away:under:8.5:",
+      "match": "Slavia Praha – Arsenal",
+      "market": "Tiros al arco",
+      "label": "Arsenal: menos de 8,5 tiros al arco",
+      "probability": 0.8174438024333898,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "sot",
+      "actual_home": 6,
+      "actual_away": 5
+    },
+    {
+      "fixture_id": "575389",
+      "selection_id": "corners:home:over:2.5:",
+      "match": "Slavia Praha – Arsenal",
+      "market": "Córners",
+      "label": "Slavia Praha: más de 2,5 córners",
+      "probability": 0.7658450188569202,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "corners",
+      "actual_home": 4,
+      "actual_away": 2
+    },
+    {
+      "fixture_id": "575389",
+      "selection_id": "corners:total:over:7.5:",
+      "match": "Slavia Praha – Arsenal",
+      "market": "Córners",
+      "label": "Más de 7,5 córners",
+      "probability": 0.6860052862461121,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "corners",
+      "actual_home": 4,
+      "actual_away": 2
+    },
+    {
+      "fixture_id": "575389",
+      "selection_id": "shots:total:over:25.5:",
+      "match": "Slavia Praha – Arsenal",
+      "market": "Remates",
+      "label": "Más de 25,5 remates totales",
+      "probability": 0.7485811173664909,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "shots",
+      "actual_home": 18,
+      "actual_away": 12
+    },
+    {
+      "fixture_id": "575388",
+      "selection_id": "double_chance:total:12:None:",
+      "match": "RB Leipzig – Man City",
+      "market": "Doble oportunidad",
+      "label": "Cualquiera gana, sin empate",
+      "probability": 0.7924554240330403,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 3
+    },
+    {
+      "fixture_id": "575388",
+      "selection_id": "goals:total:over:2.5:",
+      "match": "RB Leipzig – Man City",
+      "market": "Goles",
+      "label": "Más de 2,5 goles",
+      "probability": 0.7704450065518139,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 3
+    },
+    {
+      "fixture_id": "575388",
+      "selection_id": "shots:away:under:18.5:",
+      "match": "RB Leipzig – Man City",
+      "market": "Remates",
+      "label": "Man City: menos de 18,5 remates",
+      "probability": 0.7534363491846607,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "shots",
+      "actual_home": 14,
+      "actual_away": 12
+    },
+    {
+      "fixture_id": "575388",
+      "selection_id": "sot:total:over:8.5:",
+      "match": "RB Leipzig – Man City",
+      "market": "Tiros al arco",
+      "label": "Más de 8,5 tiros al arco totales",
+      "probability": 0.7554578504913035,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "sot",
+      "actual_home": 6,
+      "actual_away": 5
+    },
+    {
+      "fixture_id": "575388",
+      "selection_id": "fouls:home:over:10.5:",
+      "match": "RB Leipzig – Man City",
+      "market": "Faltas",
+      "label": "RB Leipzig: más de 10,5 faltas",
+      "probability": 0.5586066654197976,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "fouls",
+      "actual_home": 20,
+      "actual_away": 7
+    },
+    {
+      "fixture_id": "575388",
+      "selection_id": "corners:away:over:4.5:",
+      "match": "RB Leipzig – Man City",
+      "market": "Córners",
+      "label": "Man City: más de 4,5 córners",
+      "probability": 0.5412627387565192,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "corners",
+      "actual_home": 5,
+      "actual_away": 3
+    },
+    {
+      "fixture_id": "575388",
+      "selection_id": "sot:total:over:9.5:",
+      "match": "RB Leipzig – Man City",
+      "market": "Tiros al arco",
+      "label": "Más de 9,5 tiros al arco totales",
+      "probability": 0.6498017374625358,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "sot",
+      "actual_home": 6,
+      "actual_away": 5
+    },
+    {
+      "fixture_id": "575393",
+      "selection_id": "double_chance:total:12:None:",
+      "match": "Lens – Como",
+      "market": "Doble oportunidad",
+      "label": "Cualquiera gana, sin empate",
+      "probability": 0.7825254620149678,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 1,
+      "actual_away": 9
+    },
+    {
+      "fixture_id": "575393",
+      "selection_id": "goals:total:over:1.5:",
+      "match": "Lens – Como",
+      "market": "Goles",
+      "label": "Más de 1,5 goles",
+      "probability": 0.8948853875794255,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 1,
+      "actual_away": 9
+    },
+    {
+      "fixture_id": "575393",
+      "selection_id": "btts:total:yes:None:",
+      "match": "Lens – Como",
+      "market": "Ambos marcan",
+      "label": "Ambos marcan: sí",
+      "probability": 0.7228785738879391,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 1,
+      "actual_away": 9
+    },
+    {
+      "fixture_id": "575393",
+      "selection_id": "shots:total:under:32.5:",
+      "match": "Lens – Como",
+      "market": "Remates",
+      "label": "Menos de 32,5 remates totales",
+      "probability": 0.7160900599028124,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "shots",
+      "actual_home": 11,
+      "actual_away": 18
+    },
+    {
+      "fixture_id": "575393",
+      "selection_id": "sot:home:over:4.5:",
+      "match": "Lens – Como",
+      "market": "Tiros al arco",
+      "label": "Lens: más de 4,5 tiros al arco",
+      "probability": 0.5938158517236222,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "sot",
+      "actual_home": 3,
+      "actual_away": 12
+    },
+    {
+      "fixture_id": "575393",
+      "selection_id": "corners:home:over:3.5:",
+      "match": "Lens – Como",
+      "market": "Córners",
+      "label": "Lens: más de 3,5 córners",
+      "probability": 0.6537755057910941,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "corners",
+      "actual_home": 5,
+      "actual_away": 5
+    }
+  ],
+  "tier_summary": {
+    "selections": 27,
+    "settled": 27,
+    "won": 19,
+    "lost": 8,
+    "unverified": 0,
+    "hit_rate": 0.7037037037037037
+  },
+  "unique_summary": {
+    "selections": 60,
+    "settled": 60,
+    "won": 48,
+    "lost": 12,
+    "unverified": 0,
+    "hit_rate": 0.8
+  },
+  "by_tier": {
+    "Conservadora": {
+      "selections": 9,
+      "settled": 9,
+      "won": 8,
+      "lost": 1,
+      "unverified": 0,
+      "hit_rate": 0.8888888888888888
+    },
+    "Normal": {
+      "selections": 9,
+      "settled": 9,
+      "won": 5,
+      "lost": 4,
+      "unverified": 0,
+      "hit_rate": 0.5555555555555556
+    },
+    "Arriesgada": {
+      "selections": 9,
+      "settled": 9,
+      "won": 6,
+      "lost": 3,
+      "unverified": 0,
+      "hit_rate": 0.6666666666666666
+    }
+  },
+  "parlays": [
+    {
+      "size": 3,
+      "status": "unavailable",
+      "probability_before_match": null,
+      "legs": []
+    },
+    {
+      "size": 4,
+      "status": "unavailable",
+      "probability_before_match": null,
+      "legs": []
+    }
+  ],
+  "analysis": [
+    "Fijas principales: 19/27. Mercados únicos: 48/60. Se conservan las probabilidades previas y se registran los resultados, sin reajustar el modelo con esta jornada.",
+    "Conservadora: 8/9 acertadas.",
+    "Normal: 5/9 acertadas.",
+    "Arriesgada: 6/9 acertadas.",
+    "Falló Liverpool o empate en Fenerbahçe – Liverpool: resultado final 3–2 (goals).",
+    "Falló Liverpool o empate y más de 1,5 goles en Fenerbahçe – Liverpool: resultado final 3–2 (goals).",
+    "Falló FC Porto: menos de 5,5 tiros al arco en FC Porto – Napoli: resultado final 8–6 (sot).",
+    "Falló Dortmund: más de 4,5 córners en Dortmund – Betis: resultado final 2–5 (corners).",
+    "Falló Más de 26,5 remates totales en Dortmund – Betis: resultado final 15–11 (shots).",
+    "Falló Más de 7,5 córners en Slavia Praha – Arsenal: resultado final 4–2 (corners).",
+    "Falló Man City: más de 4,5 córners en RB Leipzig – Man City: resultado final 5–3 (corners).",
+    "Falló Lens: más de 4,5 tiros al arco en Lens – Como: resultado final 3–12 (sot).",
+    "0 partidos no tenían fijas principales publicadas; no se cuentan como fallos ni aciertos."
+  ]
+}
