@@ -1,6 +1,6 @@
 {
   "season": "2026/27",
-  "updated_at": "2026-11-06T17:13:31.961604+00:00",
+  "updated_at": "2026-11-06T22:41:07.398366+00:00",
   "source": "football-data.org",
   "source_url": "https://api.football-data.org/v4/competitions/BL1/standings",
   "tables": {
@@ -90,8 +90,20 @@
         "goal_difference": 0
       },
       {
-        "team": "Frankfurt",
+        "team": "Hamburg",
         "position": 8,
+        "played": 9,
+        "won": 4,
+        "draw": 0,
+        "lost": 5,
+        "points": 12,
+        "goals_for": 10,
+        "goals_against": 20,
+        "goal_difference": -10
+      },
+      {
+        "team": "Frankfurt",
+        "position": 9,
         "played": 8,
         "won": 3,
         "draw": 2,
@@ -103,7 +115,7 @@
       },
       {
         "team": "Mainz",
-        "position": 9,
+        "position": 10,
         "played": 8,
         "won": 3,
         "draw": 1,
@@ -115,7 +127,7 @@
       },
       {
         "team": "Augsburg",
-        "position": 10,
+        "position": 11,
         "played": 8,
         "won": 2,
         "draw": 3,
@@ -127,7 +139,7 @@
       },
       {
         "team": "Stuttgart",
-        "position": 11,
+        "position": 12,
         "played": 8,
         "won": 3,
         "draw": 0,
@@ -139,7 +151,7 @@
       },
       {
         "team": "Hoffenheim",
-        "position": 12,
+        "position": 13,
         "played": 8,
         "won": 3,
         "draw": 0,
@@ -151,7 +163,7 @@
       },
       {
         "team": "FC Koln",
-        "position": 13,
+        "position": 14,
         "played": 8,
         "won": 2,
         "draw": 3,
@@ -163,7 +175,7 @@
       },
       {
         "team": "Paderborn",
-        "position": 14,
+        "position": 15,
         "played": 8,
         "won": 2,
         "draw": 3,
@@ -172,18 +184,6 @@
         "goals_for": 6,
         "goals_against": 9,
         "goal_difference": -3
-      },
-      {
-        "team": "Hamburg",
-        "position": 15,
-        "played": 8,
-        "won": 3,
-        "draw": 0,
-        "lost": 5,
-        "points": 9,
-        "goals_for": 7,
-        "goals_against": 19,
-        "goal_difference": -12
       },
       {
         "team": "Union Berlin",
@@ -212,14 +212,14 @@
       {
         "team": "M'gladbach",
         "position": 18,
-        "played": 8,
+        "played": 9,
         "won": 1,
         "draw": 1,
-        "lost": 6,
+        "lost": 7,
         "points": 4,
-        "goals_for": 11,
-        "goals_against": 22,
-        "goal_difference": -11
+        "goals_for": 12,
+        "goals_against": 25,
+        "goal_difference": -13
       }
     ],
     "home": [
@@ -308,8 +308,20 @@
         "goal_difference": 4
       },
       {
-        "team": "FC Koln",
+        "team": "Hamburg",
         "position": 8,
+        "played": 4,
+        "won": 3,
+        "draw": 0,
+        "lost": 1,
+        "points": 9,
+        "goals_for": 6,
+        "goals_against": 7,
+        "goal_difference": -1
+      },
+      {
+        "team": "FC Koln",
+        "position": 9,
         "played": 4,
         "won": 2,
         "draw": 2,
@@ -321,7 +333,7 @@
       },
       {
         "team": "Frankfurt",
-        "position": 9,
+        "position": 10,
         "played": 4,
         "won": 2,
         "draw": 1,
@@ -333,7 +345,7 @@
       },
       {
         "team": "Hoffenheim",
-        "position": 10,
+        "position": 11,
         "played": 4,
         "won": 2,
         "draw": 0,
@@ -345,7 +357,7 @@
       },
       {
         "team": "Augsburg",
-        "position": 11,
+        "position": 12,
         "played": 5,
         "won": 1,
         "draw": 3,
@@ -357,7 +369,7 @@
       },
       {
         "team": "Paderborn",
-        "position": 12,
+        "position": 13,
         "played": 4,
         "won": 2,
         "draw": 0,
@@ -369,7 +381,7 @@
       },
       {
         "team": "Union Berlin",
-        "position": 13,
+        "position": 14,
         "played": 5,
         "won": 1,
         "draw": 3,
@@ -378,18 +390,6 @@
         "goals_for": 6,
         "goals_against": 7,
         "goal_difference": -1
-      },
-      {
-        "team": "Hamburg",
-        "position": 14,
-        "played": 3,
-        "won": 2,
-        "draw": 0,
-        "lost": 1,
-        "points": 6,
-        "goals_for": 3,
-        "goals_against": 6,
-        "goal_difference": -3
       },
       {
         "team": "Stuttgart",
@@ -610,20 +610,8 @@
         "goal_difference": -7
       },
       {
-        "team": "M'gladbach",
-        "position": 15,
-        "played": 4,
-        "won": 1,
-        "draw": 0,
-        "lost": 3,
-        "points": 3,
-        "goals_for": 4,
-        "goals_against": 12,
-        "goal_difference": -8
-      },
-      {
         "team": "Hamburg",
-        "position": 16,
+        "position": 15,
         "played": 5,
         "won": 1,
         "draw": 0,
@@ -632,6 +620,18 @@
         "goals_for": 4,
         "goals_against": 13,
         "goal_difference": -9
+      },
+      {
+        "team": "M'gladbach",
+        "position": 16,
+        "played": 5,
+        "won": 1,
+        "draw": 0,
+        "lost": 4,
+        "points": 3,
+        "goals_for": 5,
+        "goals_against": 15,
+        "goal_difference": -10
       },
       {
         "team": "FC Koln",

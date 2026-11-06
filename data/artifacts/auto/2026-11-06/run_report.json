@@ -1,5 +1,5 @@
 {
-  "run_at": "2026-11-06T17:12:53.828520+00:00",
+  "run_at": "2026-11-06T22:40:15.810211+00:00",
   "dates": [
     "2026-11-03",
     "2026-11-04",
@@ -101,65 +101,65 @@
       "date": "2026-11-06",
       "league": "Bundesliga",
       "kickoff_utc": "2026-11-06T19:30Z",
-      "espn_status": "STATUS_SCHEDULED",
+      "espn_status": "STATUS_FULL_TIME",
       "source_url": "https://www.espn.com/soccer/match/_/gameId/401884739/borussia-monchengladbach-hamburg-sv",
       "home": "Hamburg",
       "away": "M'gladbach",
       "fixture_id": "565852",
-      "provider_status": "SCHEDULED",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+      "provider_status": "TIMED",
+      "reason": "La segunda fuente aún no confirma el final; se reintenta en la próxima ejecución."
     },
     {
       "espn_event_id": "401882809",
       "date": "2026-11-06",
       "league": "La Liga",
       "kickoff_utc": "2026-11-06T20:00Z",
-      "espn_status": "STATUS_SCHEDULED",
+      "espn_status": "STATUS_FULL_TIME",
       "source_url": "https://www.espn.com/soccer/match/_/gameId/401882809/alaves-sevilla",
       "home": "Sevilla",
       "away": "Alaves",
       "fixture_id": "564740",
-      "provider_status": "SCHEDULED",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+      "provider_status": "TIMED",
+      "reason": "La segunda fuente aún no confirma el final; se reintenta en la próxima ejecución."
     },
     {
       "espn_event_id": "401876405",
       "date": "2026-11-06",
       "league": "Ligue 1",
       "kickoff_utc": "2026-11-06T19:45Z",
-      "espn_status": "STATUS_SCHEDULED",
+      "espn_status": "STATUS_FULL_TIME",
       "source_url": "https://www.espn.com/soccer/match/_/gameId/401876405/strasbourg-toulouse",
       "home": "Toulouse",
       "away": "Strasbourg",
       "fixture_id": "559638",
-      "provider_status": "SCHEDULED",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+      "provider_status": "TIMED",
+      "reason": "La segunda fuente aún no confirma el final; se reintenta en la próxima ejecución."
     },
     {
       "espn_event_id": "401879242",
       "date": "2026-11-06",
       "league": "Premier League",
       "kickoff_utc": "2026-11-06T20:00Z",
-      "espn_status": "STATUS_SCHEDULED",
+      "espn_status": "STATUS_FULL_TIME",
       "source_url": "https://www.espn.com/soccer/match/_/gameId/401879242/coventry-city-everton",
       "home": "Everton",
       "away": "Coventry",
       "fixture_id": "560634",
-      "provider_status": "SCHEDULED",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+      "provider_status": "TIMED",
+      "reason": "La segunda fuente aún no confirma el final; se reintenta en la próxima ejecución."
     },
     {
       "espn_event_id": "401874815",
       "date": "2026-11-06",
       "league": "Serie A",
       "kickoff_utc": "2026-11-06T19:45Z",
-      "espn_status": "STATUS_SCHEDULED",
+      "espn_status": "STATUS_FULL_TIME",
       "source_url": "https://www.espn.com/soccer/match/_/gameId/401874815/udinese-venezia",
       "home": "Venezia",
       "away": "Udinese",
       "fixture_id": "558537",
-      "provider_status": "SCHEDULED",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+      "provider_status": "TIMED",
+      "reason": "La segunda fuente aún no confirma el final; se reintenta en la próxima ejecución."
     }
   ],
   "source_errors": [],

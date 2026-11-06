@@ -1,6 +1,6 @@
 {
   "season": "2026/27",
-  "updated_at": "2026-11-06T17:13:33.133084+00:00",
+  "updated_at": "2026-11-06T22:41:08.573238+00:00",
   "source": "football-data.org",
   "source_url": "https://api.football-data.org/v4/competitions/SA/standings",
   "tables": {
@@ -222,28 +222,28 @@
         "goal_difference": -7
       },
       {
-        "team": "Udinese",
-        "position": 19,
-        "played": 10,
-        "won": 1,
-        "draw": 2,
-        "lost": 7,
-        "points": 5,
-        "goals_for": 11,
-        "goals_against": 23,
-        "goal_difference": -12
-      },
-      {
         "team": "Venezia",
-        "position": 20,
-        "played": 10,
-        "won": 1,
+        "position": 19,
+        "played": 11,
+        "won": 2,
         "draw": 0,
         "lost": 9,
-        "points": 3,
-        "goals_for": 6,
-        "goals_against": 20,
-        "goal_difference": -14
+        "points": 6,
+        "goals_for": 8,
+        "goals_against": 21,
+        "goal_difference": -13
+      },
+      {
+        "team": "Udinese",
+        "position": 20,
+        "played": 11,
+        "won": 1,
+        "draw": 2,
+        "lost": 8,
+        "points": 5,
+        "goals_for": 12,
+        "goals_against": 25,
+        "goal_difference": -13
       }
     ],
     "home": [
@@ -404,8 +404,20 @@
         "goal_difference": -3
       },
       {
-        "team": "Bologna",
+        "team": "Venezia",
         "position": 14,
+        "played": 6,
+        "won": 2,
+        "draw": 0,
+        "lost": 4,
+        "points": 6,
+        "goals_for": 5,
+        "goals_against": 11,
+        "goal_difference": -6
+      },
+      {
+        "team": "Bologna",
+        "position": 15,
         "played": 5,
         "won": 1,
         "draw": 2,
@@ -417,7 +429,7 @@
       },
       {
         "team": "Parma",
-        "position": 15,
+        "position": 16,
         "played": 5,
         "won": 1,
         "draw": 2,
@@ -429,7 +441,7 @@
       },
       {
         "team": "Cagliari",
-        "position": 16,
+        "position": 17,
         "played": 4,
         "won": 1,
         "draw": 1,
@@ -441,7 +453,7 @@
       },
       {
         "team": "Lecce",
-        "position": 17,
+        "position": 18,
         "played": 5,
         "won": 1,
         "draw": 0,
@@ -449,18 +461,6 @@
         "points": 3,
         "goals_for": 5,
         "goals_against": 12,
-        "goal_difference": -7
-      },
-      {
-        "team": "Venezia",
-        "position": 18,
-        "played": 5,
-        "won": 1,
-        "draw": 0,
-        "lost": 4,
-        "points": 3,
-        "goals_for": 3,
-        "goals_against": 10,
         "goal_difference": -7
       },
       {
@@ -648,14 +648,14 @@
       {
         "team": "Udinese",
         "position": 14,
-        "played": 4,
+        "played": 5,
         "won": 1,
         "draw": 1,
-        "lost": 2,
+        "lost": 3,
         "points": 4,
-        "goals_for": 7,
-        "goals_against": 9,
-        "goal_difference": -2
+        "goals_for": 8,
+        "goals_against": 11,
+        "goal_difference": -3
       },
       {
         "team": "Genoa",

@@ -1,6 +1,6 @@
 {
   "season": "2026/27",
-  "updated_at": "2026-11-06T17:13:30.856346+00:00",
+  "updated_at": "2026-11-06T22:41:06.116222+00:00",
   "source": "football-data.org",
   "source_url": "https://api.football-data.org/v4/competitions/PL/standings",
   "tables": {
@@ -54,8 +54,20 @@
         "goal_difference": 4
       },
       {
-        "team": "Liverpool",
+        "team": "Everton",
         "position": 5,
+        "played": 10,
+        "won": 4,
+        "draw": 4,
+        "lost": 2,
+        "points": 16,
+        "goals_for": 12,
+        "goals_against": 10,
+        "goal_difference": 2
+      },
+      {
+        "team": "Liverpool",
+        "position": 6,
         "played": 9,
         "won": 4,
         "draw": 3,
@@ -67,7 +79,7 @@
       },
       {
         "team": "Brentford",
-        "position": 6,
+        "position": 7,
         "played": 9,
         "won": 3,
         "draw": 5,
@@ -76,18 +88,6 @@
         "goals_for": 16,
         "goals_against": 9,
         "goal_difference": 7
-      },
-      {
-        "team": "Everton",
-        "position": 7,
-        "played": 9,
-        "won": 3,
-        "draw": 4,
-        "lost": 2,
-        "points": 13,
-        "goals_for": 9,
-        "goals_against": 9,
-        "goal_difference": 0
       },
       {
         "team": "Bournemouth",
@@ -188,14 +188,14 @@
       {
         "team": "Coventry",
         "position": 16,
-        "played": 9,
+        "played": 10,
         "won": 3,
         "draw": 0,
-        "lost": 6,
+        "lost": 7,
         "points": 9,
-        "goals_for": 9,
-        "goals_against": 16,
-        "goal_difference": -7
+        "goals_for": 10,
+        "goals_against": 19,
+        "goal_difference": -9
       },
       {
         "team": "Man United",
@@ -308,8 +308,20 @@
         "goal_difference": 5
       },
       {
-        "team": "Bournemouth",
+        "team": "Everton",
         "position": 6,
+        "played": 5,
+        "won": 3,
+        "draw": 1,
+        "lost": 1,
+        "points": 10,
+        "goals_for": 8,
+        "goals_against": 5,
+        "goal_difference": 3
+      },
+      {
+        "team": "Bournemouth",
+        "position": 7,
         "played": 5,
         "won": 2,
         "draw": 2,
@@ -321,7 +333,7 @@
       },
       {
         "team": "Hull",
-        "position": 7,
+        "position": 8,
         "played": 5,
         "won": 1,
         "draw": 4,
@@ -333,7 +345,7 @@
       },
       {
         "team": "Tottenham",
-        "position": 8,
+        "position": 9,
         "played": 5,
         "won": 2,
         "draw": 1,
@@ -341,18 +353,6 @@
         "points": 7,
         "goals_for": 7,
         "goals_against": 6,
-        "goal_difference": 1
-      },
-      {
-        "team": "Everton",
-        "position": 9,
-        "played": 4,
-        "won": 2,
-        "draw": 1,
-        "lost": 1,
-        "points": 7,
-        "goals_for": 5,
-        "goals_against": 4,
         "goal_difference": 1
       },
       {
@@ -708,14 +708,14 @@
       {
         "team": "Coventry",
         "position": 19,
-        "played": 4,
+        "played": 5,
         "won": 1,
         "draw": 0,
-        "lost": 3,
+        "lost": 4,
         "points": 3,
-        "goals_for": 2,
-        "goals_against": 7,
-        "goal_difference": -5
+        "goals_for": 3,
+        "goals_against": 10,
+        "goal_difference": -7
       },
       {
         "team": "Sunderland",

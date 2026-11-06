@@ -1,6 +1,6 @@
 {
   "season": "2026/27",
-  "updated_at": "2026-11-06T17:13:29.719350+00:00",
+  "updated_at": "2026-11-06T22:41:04.786982+00:00",
   "source": "football-data.org",
   "source_url": "https://api.football-data.org/v4/competitions/PD/standings",
   "tables": {
@@ -68,11 +68,11 @@
       {
         "team": "Sevilla",
         "position": 6,
-        "played": 11,
+        "played": 12,
         "won": 5,
-        "draw": 2,
+        "draw": 3,
         "lost": 4,
-        "points": 17,
+        "points": 18,
         "goals_for": 17,
         "goals_against": 19,
         "goal_difference": -2
@@ -102,8 +102,20 @@
         "goal_difference": 1
       },
       {
-        "team": "Villarreal",
+        "team": "Alaves",
         "position": 9,
+        "played": 12,
+        "won": 3,
+        "draw": 4,
+        "lost": 5,
+        "points": 13,
+        "goals_for": 15,
+        "goals_against": 17,
+        "goal_difference": -2
+      },
+      {
+        "team": "Villarreal",
+        "position": 10,
         "played": 11,
         "won": 3,
         "draw": 3,
@@ -115,7 +127,7 @@
       },
       {
         "team": "Celta",
-        "position": 10,
+        "position": 11,
         "played": 11,
         "won": 2,
         "draw": 6,
@@ -124,18 +136,6 @@
         "goals_for": 10,
         "goals_against": 10,
         "goal_difference": 0
-      },
-      {
-        "team": "Alaves",
-        "position": 11,
-        "played": 11,
-        "won": 3,
-        "draw": 3,
-        "lost": 5,
-        "points": 12,
-        "goals_for": 15,
-        "goals_against": 17,
-        "goal_difference": -2
       },
       {
         "team": "Vallecano",
@@ -356,8 +356,20 @@
         "goal_difference": 2
       },
       {
-        "team": "Sociedad",
+        "team": "Sevilla",
         "position": 10,
+        "played": 6,
+        "won": 3,
+        "draw": 1,
+        "lost": 2,
+        "points": 10,
+        "goals_for": 7,
+        "goals_against": 7,
+        "goal_difference": 0
+      },
+      {
+        "team": "Sociedad",
+        "position": 11,
         "played": 5,
         "won": 3,
         "draw": 1,
@@ -369,7 +381,7 @@
       },
       {
         "team": "La Coruna",
-        "position": 11,
+        "position": 12,
         "played": 6,
         "won": 2,
         "draw": 3,
@@ -378,18 +390,6 @@
         "goals_for": 8,
         "goals_against": 6,
         "goal_difference": 2
-      },
-      {
-        "team": "Sevilla",
-        "position": 12,
-        "played": 5,
-        "won": 3,
-        "draw": 0,
-        "lost": 2,
-        "points": 9,
-        "goals_for": 7,
-        "goals_against": 7,
-        "goal_difference": 0
       },
       {
         "team": "Celta",
@@ -658,8 +658,20 @@
         "goal_difference": -6
       },
       {
-        "team": "Osasuna",
+        "team": "Alaves",
         "position": 15,
+        "played": 6,
+        "won": 0,
+        "draw": 3,
+        "lost": 3,
+        "points": 3,
+        "goals_for": 4,
+        "goals_against": 11,
+        "goal_difference": -7
+      },
+      {
+        "team": "Osasuna",
+        "position": 16,
         "played": 6,
         "won": 1,
         "draw": 0,
@@ -671,7 +683,7 @@
       },
       {
         "team": "Vallecano",
-        "position": 16,
+        "position": 17,
         "played": 5,
         "won": 0,
         "draw": 2,
@@ -679,18 +691,6 @@
         "points": 2,
         "goals_for": 6,
         "goals_against": 13,
-        "goal_difference": -7
-      },
-      {
-        "team": "Alaves",
-        "position": 17,
-        "played": 5,
-        "won": 0,
-        "draw": 2,
-        "lost": 3,
-        "points": 2,
-        "goals_for": 4,
-        "goals_against": 11,
         "goal_difference": -7
       },
       {
