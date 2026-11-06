@@ -49,7 +49,7 @@ function matchFijas(m){
 }
 function liveParlay(pool,size){
  // Re-select from the frozen per-match pool when any kickoff has passed.
- const items=pool.map(m=>m.parlay_selection?m:{...m,parlay_selection:m.tiers?.[0]?.selection||null}).filter(m=>m.parlay_selection&&new Date(m.kickoff_utc)>new Date());let best=null,bestP=-1;
+ const items=pool.filter(m=>m.parlay_selection&&new Date(m.kickoff_utc)>new Date());let best=null,bestP=-1;
  function visit(start,group,teams,p){if(group.length===size){if(p>bestP){best=group.slice();bestP=p;}return;}
   for(let i=start;i<items.length;i++){const m=items[i];if(teams.has(m.home)||teams.has(m.away))continue;visit(i+1,[...group,m],new Set([...teams,m.home,m.away]),p*m.parlay_selection.probability);}}
  visit(0,[],new Set(),1);return best?{legs:best,probability:bestP}:null;
