@@ -246,7 +246,8 @@ def price(item):
 def eligible_v7(item,omin,omax,min_pattern,min_ctx):
     ev=item['evidence']
     # «Cualquiera gana» with a clear favourite is just the favourite's win with an expensive cover.
-    if item['kind']=='double_chance' and item['side']=='12' and item.get('favorite_p',0)>=.55:return False
+    # «Cualquiera gana, sin empate» is never published: with a favourite it only adds an expensive cover.
+    if item['kind']=='double_chance' and item['side']=='12':return False
     return (omin<=price(item)<omax and item['kind']!='cards' and not trivial(item)
             and all(v['matches']>=min_ctx for v in ev['contexts']) and pattern_rate(item)>=min_pattern
             and item.get('price_status') not in ['below_reference','not_in_observed_lines']
