@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "season": "2026/27",
-  "generated_at": "2026-11-05T02:27:45.572959+00:00",
+  "generated_at": "2026-11-06T17:13:45.083417+00:00",
   "dataset_id": "90cc18f5a9aa85e96c3be7f06ad30e2a8633b3e9179a216fbe998c21a3ac4192",
   "competitions": {
     "La Liga": {
@@ -11611,7 +11611,7 @@
       "statistics_matches": 109,
       "standings": {
         "season": "2026/27",
-        "updated_at": "2026-11-05T02:27:28.962718+00:00",
+        "updated_at": "2026-11-06T17:13:29.719350+00:00",
         "source": "football-data.org",
         "source_url": "https://api.football-data.org/v4/competitions/PD/standings",
         "tables": {
@@ -12342,7 +12342,7 @@
             }
           ]
         },
-        "current_matchday": 11
+        "current_matchday": 12
       },
       "recorded_tables": {
         "all": [
@@ -17837,12 +17837,12 @@
                 "kickoff_utc": "2026-12-13T14:00:00+00:00"
               },
               {
-                "date": "2026-12-19",
+                "date": "2026-12-20",
                 "home": "Nott'm Forest",
                 "away": "Everton",
                 "fixture_id": "560694",
                 "status": "TIMED",
-                "kickoff_utc": "2026-12-19T15:00:00+00:00"
+                "kickoff_utc": "2026-12-20T14:00:00+00:00"
               },
               {
                 "date": "2026-12-26",
@@ -23030,12 +23030,12 @@
                 "kickoff_utc": "2026-12-13T14:00:00+00:00"
               },
               {
-                "date": "2026-12-19",
+                "date": "2026-12-20",
                 "home": "Nott'm Forest",
                 "away": "Everton",
                 "fixture_id": "560694",
                 "status": "TIMED",
-                "kickoff_utc": "2026-12-19T15:00:00+00:00"
+                "kickoff_utc": "2026-12-20T14:00:00+00:00"
               },
               {
                 "date": "2026-12-27",
@@ -24620,7 +24620,7 @@
       "statistics_matches": 90,
       "standings": {
         "season": "2026/27",
-        "updated_at": "2026-11-05T02:27:30.415935+00:00",
+        "updated_at": "2026-11-06T17:13:30.856346+00:00",
         "source": "football-data.org",
         "source_url": "https://api.football-data.org/v4/competitions/PL/standings",
         "tables": {
@@ -25351,7 +25351,7 @@
             }
           ]
         },
-        "current_matchday": 9
+        "current_matchday": 10
       },
       "recorded_tables": {
         "all": [
@@ -26200,56 +26200,56 @@
                 "home": "Augsburg",
                 "away": "FC Koln",
                 "fixture_id": "565883",
-                "status": "SCHEDULED",
-                "kickoff_utc": null
+                "status": "TIMED",
+                "kickoff_utc": "2026-12-05T14:30:00+00:00"
               },
               {
                 "date": "2026-12-12",
                 "home": "Dortmund",
                 "away": "Augsburg",
                 "fixture_id": "565887",
-                "status": "SCHEDULED",
-                "kickoff_utc": null
+                "status": "TIMED",
+                "kickoff_utc": "2026-12-12T14:30:00+00:00"
               },
               {
                 "date": "2026-12-19",
                 "home": "Augsburg",
                 "away": "Paderborn",
                 "fixture_id": "565901",
-                "status": "SCHEDULED",
-                "kickoff_utc": null
+                "status": "TIMED",
+                "kickoff_utc": "2026-12-19T14:30:00+00:00"
               },
               {
                 "date": "2027-01-09",
                 "home": "Stuttgart",
                 "away": "Augsburg",
                 "fixture_id": "565902",
-                "status": "SCHEDULED",
-                "kickoff_utc": null
+                "status": "TIMED",
+                "kickoff_utc": "2027-01-09T14:30:00+00:00"
               },
               {
-                "date": "2027-01-13",
+                "date": "2027-01-12",
                 "home": "Augsburg",
                 "away": "M'gladbach",
                 "fixture_id": "565917",
-                "status": "SCHEDULED",
-                "kickoff_utc": null
+                "status": "TIMED",
+                "kickoff_utc": "2027-01-12T19:30:00+00:00"
               },
               {
                 "date": "2027-01-16",
                 "home": "Hamburg",
                 "away": "Augsburg",
                 "fixture_id": "565926",
-                "status": "SCHEDULED",
-                "kickoff_utc": null
+                "status": "TIMED",
+                "kickoff_utc": "2027-01-16T14:30:00+00:00"
               },
               {
                 "date": "2027-01-23",
                 "home": "Schalke 04",
                 "away": "Augsburg",
                 "fixture_id": "565932",
-                "status": "SCHEDULED",
-                "kickoff_utc": null
+                "status": "TIMED",
+                "kickoff_utc": "2027-01-23T14:30:00+00:00"
               },
               {
                 "date": "2027-01-30",
@@ -26739,60 +26739,60 @@
                 "kickoff_utc": "2026-11-28T14:30:00+00:00"
               },
               {
-                "date": "2026-12-05",
+                "date": "2026-12-04",
                 "home": "Bayern Munich",
                 "away": "Paderborn",
                 "fixture_id": "565882",
-                "status": "SCHEDULED",
-                "kickoff_utc": null
+                "status": "TIMED",
+                "kickoff_utc": "2026-12-04T19:30:00+00:00"
               },
               {
-                "date": "2026-12-12",
+                "date": "2026-12-13",
                 "home": "Hoffenheim",
                 "away": "Bayern Munich",
                 "fixture_id": "565891",
-                "status": "SCHEDULED",
-                "kickoff_utc": null
+                "status": "TIMED",
+                "kickoff_utc": "2026-12-13T16:30:00+00:00"
               },
               {
-                "date": "2026-12-19",
+                "date": "2026-12-18",
                 "home": "Bayern Munich",
                 "away": "Werder Bremen",
                 "fixture_id": "565894",
-                "status": "SCHEDULED",
-                "kickoff_utc": null
+                "status": "TIMED",
+                "kickoff_utc": "2026-12-18T19:30:00+00:00"
               },
               {
                 "date": "2027-01-09",
                 "home": "M'gladbach",
                 "away": "Bayern Munich",
                 "fixture_id": "565907",
-                "status": "SCHEDULED",
-                "kickoff_utc": null
+                "status": "TIMED",
+                "kickoff_utc": "2027-01-09T17:30:00+00:00"
               },
               {
                 "date": "2027-01-13",
                 "home": "Bayern Munich",
                 "away": "Leverkusen",
                 "fixture_id": "565916",
-                "status": "SCHEDULED",
-                "kickoff_utc": null
+                "status": "TIMED",
+                "kickoff_utc": "2027-01-13T19:30:00+00:00"
               },
               {
                 "date": "2027-01-16",
                 "home": "Frankfurt",
                 "away": "Bayern Munich",
                 "fixture_id": "565921",
-                "status": "SCHEDULED",
-                "kickoff_utc": null
+                "status": "TIMED",
+                "kickoff_utc": "2027-01-16T17:30:00+00:00"
               },
               {
                 "date": "2027-01-23",
                 "home": "Stuttgart",
                 "away": "Bayern Munich",
                 "fixture_id": "565934",
-                "status": "SCHEDULED",
-                "kickoff_utc": null
+                "status": "TIMED",
+                "kickoff_utc": "2027-01-23T14:30:00+00:00"
               },
               {
                 "date": "2027-01-30",
@@ -27282,60 +27282,60 @@
                 "kickoff_utc": "2026-11-29T18:30:00+00:00"
               },
               {
-                "date": "2026-12-05",
+                "date": "2026-12-06",
                 "home": "Schalke 04",
                 "away": "Dortmund",
                 "fixture_id": "565876",
-                "status": "SCHEDULED",
-                "kickoff_utc": null
+                "status": "TIMED",
+                "kickoff_utc": "2026-12-06T14:30:00+00:00"
               },
               {
                 "date": "2026-12-12",
                 "home": "Dortmund",
                 "away": "Augsburg",
                 "fixture_id": "565887",
-                "status": "SCHEDULED",
-                "kickoff_utc": null
+                "status": "TIMED",
+                "kickoff_utc": "2026-12-12T14:30:00+00:00"
               },
               {
                 "date": "2026-12-19",
                 "home": "RB Leipzig",
                 "away": "Dortmund",
                 "fixture_id": "565898",
-                "status": "SCHEDULED",
-                "kickoff_utc": null
+                "status": "TIMED",
+                "kickoff_utc": "2026-12-19T17:30:00+00:00"
               },
               {
-                "date": "2027-01-09",
+                "date": "2027-01-08",
                 "home": "Dortmund",
                 "away": "Mainz",
                 "fixture_id": "565908",
-                "status": "SCHEDULED",
-                "kickoff_utc": null
+                "status": "TIMED",
+                "kickoff_utc": "2027-01-08T19:30:00+00:00"
               },
               {
-                "date": "2027-01-13",
+                "date": "2027-01-12",
                 "home": "FC Koln",
                 "away": "Dortmund",
                 "fixture_id": "565919",
-                "status": "SCHEDULED",
-                "kickoff_utc": null
+                "status": "TIMED",
+                "kickoff_utc": "2027-01-12T19:30:00+00:00"
               },
               {
                 "date": "2027-01-16",
                 "home": "Dortmund",
                 "away": "Freiburg",
                 "fixture_id": "565928",
-                "status": "SCHEDULED",
-                "kickoff_utc": null
+                "status": "TIMED",
+                "kickoff_utc": "2027-01-16T14:30:00+00:00"
               },
               {
                 "date": "2027-01-23",
                 "home": "Hamburg",
                 "away": "Dortmund",
                 "fixture_id": "565930",
-                "status": "SCHEDULED",
-                "kickoff_utc": null
+                "status": "TIMED",
+                "kickoff_utc": "2027-01-23T17:30:00+00:00"
               },
               {
                 "date": "2027-01-30",
@@ -27825,60 +27825,60 @@
                 "kickoff_utc": "2026-11-28T14:30:00+00:00"
               },
               {
-                "date": "2026-12-05",
+                "date": "2026-12-06",
                 "home": "Elversberg",
                 "away": "Stuttgart",
                 "fixture_id": "565880",
-                "status": "SCHEDULED",
-                "kickoff_utc": null
+                "status": "TIMED",
+                "kickoff_utc": "2026-12-06T16:30:00+00:00"
               },
               {
                 "date": "2026-12-12",
                 "home": "Paderborn",
                 "away": "Elversberg",
                 "fixture_id": "565884",
-                "status": "SCHEDULED",
-                "kickoff_utc": null
+                "status": "TIMED",
+                "kickoff_utc": "2026-12-12T14:30:00+00:00"
               },
               {
                 "date": "2026-12-19",
                 "home": "Elversberg",
                 "away": "Hamburg",
                 "fixture_id": "565895",
-                "status": "SCHEDULED",
-                "kickoff_utc": null
+                "status": "TIMED",
+                "kickoff_utc": "2026-12-19T14:30:00+00:00"
               },
               {
                 "date": "2027-01-09",
                 "home": "Hoffenheim",
                 "away": "Elversberg",
                 "fixture_id": "565906",
-                "status": "SCHEDULED",
-                "kickoff_utc": null
+                "status": "TIMED",
+                "kickoff_utc": "2027-01-09T14:30:00+00:00"
               },
               {
                 "date": "2027-01-13",
                 "home": "Elversberg",
                 "away": "Frankfurt",
                 "fixture_id": "565918",
-                "status": "SCHEDULED",
-                "kickoff_utc": null
+                "status": "TIMED",
+                "kickoff_utc": "2027-01-13T17:30:00+00:00"
               },
               {
-                "date": "2027-01-16",
+                "date": "2027-01-17",
                 "home": "Werder Bremen",
                 "away": "Elversberg",
                 "fixture_id": "565920",
-                "status": "SCHEDULED",
-                "kickoff_utc": null
+                "status": "TIMED",
+                "kickoff_utc": "2027-01-17T14:30:00+00:00"
               },
               {
-                "date": "2027-01-23",
+                "date": "2027-01-24",
                 "home": "Leverkusen",
                 "away": "Elversberg",
                 "fixture_id": "565937",
-                "status": "SCHEDULED",
-                "kickoff_utc": null
+                "status": "TIMED",
+                "kickoff_utc": "2027-01-24T16:30:00+00:00"
               },
               {
                 "date": "2027-01-30",
@@ -28372,56 +28372,56 @@
                 "home": "Augsburg",
                 "away": "FC Koln",
                 "fixture_id": "565883",
-                "status": "SCHEDULED",
-                "kickoff_utc": null
+                "status": "TIMED",
+                "kickoff_utc": "2026-12-05T14:30:00+00:00"
               },
               {
                 "date": "2026-12-12",
                 "home": "FC Koln",
                 "away": "RB Leipzig",
                 "fixture_id": "565890",
-                "status": "SCHEDULED",
-                "kickoff_utc": null
+                "status": "TIMED",
+                "kickoff_utc": "2026-12-12T14:30:00+00:00"
               },
               {
                 "date": "2026-12-19",
                 "home": "Mainz",
                 "away": "FC Koln",
                 "fixture_id": "565899",
-                "status": "SCHEDULED",
-                "kickoff_utc": null
+                "status": "TIMED",
+                "kickoff_utc": "2026-12-19T14:30:00+00:00"
               },
               {
                 "date": "2027-01-09",
                 "home": "FC Koln",
                 "away": "Freiburg",
                 "fixture_id": "565904",
-                "status": "SCHEDULED",
-                "kickoff_utc": null
+                "status": "TIMED",
+                "kickoff_utc": "2027-01-09T14:30:00+00:00"
               },
               {
-                "date": "2027-01-13",
+                "date": "2027-01-12",
                 "home": "FC Koln",
                 "away": "Dortmund",
                 "fixture_id": "565919",
-                "status": "SCHEDULED",
-                "kickoff_utc": null
+                "status": "TIMED",
+                "kickoff_utc": "2027-01-12T19:30:00+00:00"
               },
               {
                 "date": "2027-01-16",
                 "home": "Paderborn",
                 "away": "FC Koln",
                 "fixture_id": "565922",
-                "status": "SCHEDULED",
-                "kickoff_utc": null
+                "status": "TIMED",
+                "kickoff_utc": "2027-01-16T14:30:00+00:00"
               },
               {
-                "date": "2027-01-23",
+                "date": "2027-01-24",
                 "home": "Hoffenheim",
                 "away": "FC Koln",
                 "fixture_id": "565933",
-                "status": "SCHEDULED",
-                "kickoff_utc": null
+                "status": "TIMED",
+                "kickoff_utc": "2027-01-24T18:30:00+00:00"
               },
               {
                 "date": "2027-01-30",
@@ -28915,56 +28915,56 @@
                 "home": "Frankfurt",
                 "away": "Werder Bremen",
                 "fixture_id": "565878",
-                "status": "SCHEDULED",
-                "kickoff_utc": null
+                "status": "TIMED",
+                "kickoff_utc": "2026-12-05T17:30:00+00:00"
               },
               {
                 "date": "2026-12-12",
                 "home": "M'gladbach",
                 "away": "Frankfurt",
                 "fixture_id": "565892",
-                "status": "SCHEDULED",
-                "kickoff_utc": null
+                "status": "TIMED",
+                "kickoff_utc": "2026-12-12T17:30:00+00:00"
               },
               {
                 "date": "2026-12-19",
                 "home": "Leverkusen",
                 "away": "Frankfurt",
                 "fixture_id": "565896",
-                "status": "SCHEDULED",
-                "kickoff_utc": null
+                "status": "TIMED",
+                "kickoff_utc": "2026-12-19T14:30:00+00:00"
               },
               {
                 "date": "2027-01-09",
                 "home": "Frankfurt",
                 "away": "Schalke 04",
                 "fixture_id": "565905",
-                "status": "SCHEDULED",
-                "kickoff_utc": null
+                "status": "TIMED",
+                "kickoff_utc": "2027-01-09T14:30:00+00:00"
               },
               {
                 "date": "2027-01-13",
                 "home": "Elversberg",
                 "away": "Frankfurt",
                 "fixture_id": "565918",
-                "status": "SCHEDULED",
-                "kickoff_utc": null
+                "status": "TIMED",
+                "kickoff_utc": "2027-01-13T17:30:00+00:00"
               },
               {
                 "date": "2027-01-16",
                 "home": "Frankfurt",
                 "away": "Bayern Munich",
                 "fixture_id": "565921",
-                "status": "SCHEDULED",
-                "kickoff_utc": null
+                "status": "TIMED",
+                "kickoff_utc": "2027-01-16T17:30:00+00:00"
               },
               {
-                "date": "2027-01-23",
+                "date": "2027-01-24",
                 "home": "Frankfurt",
                 "away": "Union Berlin",
                 "fixture_id": "565936",
-                "status": "SCHEDULED",
-                "kickoff_utc": null
+                "status": "TIMED",
+                "kickoff_utc": "2027-01-24T14:30:00+00:00"
               },
               {
                 "date": "2027-01-30",
@@ -29458,56 +29458,56 @@
                 "home": "Freiburg",
                 "away": "Hoffenheim",
                 "fixture_id": "565881",
-                "status": "SCHEDULED",
-                "kickoff_utc": null
+                "status": "TIMED",
+                "kickoff_utc": "2026-12-05T14:30:00+00:00"
               },
               {
-                "date": "2026-12-12",
+                "date": "2026-12-13",
                 "home": "Mainz",
                 "away": "Freiburg",
                 "fixture_id": "565889",
-                "status": "SCHEDULED",
-                "kickoff_utc": null
+                "status": "TIMED",
+                "kickoff_utc": "2026-12-13T14:30:00+00:00"
               },
               {
-                "date": "2026-12-19",
+                "date": "2026-12-20",
                 "home": "Freiburg",
                 "away": "Stuttgart",
                 "fixture_id": "565897",
-                "status": "SCHEDULED",
-                "kickoff_utc": null
+                "status": "TIMED",
+                "kickoff_utc": "2026-12-20T14:30:00+00:00"
               },
               {
                 "date": "2027-01-09",
                 "home": "FC Koln",
                 "away": "Freiburg",
                 "fixture_id": "565904",
-                "status": "SCHEDULED",
-                "kickoff_utc": null
+                "status": "TIMED",
+                "kickoff_utc": "2027-01-09T14:30:00+00:00"
               },
               {
                 "date": "2027-01-13",
                 "home": "Freiburg",
                 "away": "Hamburg",
                 "fixture_id": "565912",
-                "status": "SCHEDULED",
-                "kickoff_utc": null
+                "status": "TIMED",
+                "kickoff_utc": "2027-01-13T19:30:00+00:00"
               },
               {
                 "date": "2027-01-16",
                 "home": "Dortmund",
                 "away": "Freiburg",
                 "fixture_id": "565928",
-                "status": "SCHEDULED",
-                "kickoff_utc": null
+                "status": "TIMED",
+                "kickoff_utc": "2027-01-16T14:30:00+00:00"
               },
               {
-                "date": "2027-01-23",
+                "date": "2027-01-22",
                 "home": "Werder Bremen",
                 "away": "Freiburg",
                 "fixture_id": "565929",
-                "status": "SCHEDULED",
-                "kickoff_utc": null
+                "status": "TIMED",
+                "kickoff_utc": "2027-01-22T19:30:00+00:00"
               },
               {
                 "date": "2027-01-30",
@@ -30001,56 +30001,56 @@
                 "home": "Union Berlin",
                 "away": "Hamburg",
                 "fixture_id": "565875",
-                "status": "SCHEDULED",
-                "kickoff_utc": null
+                "status": "TIMED",
+                "kickoff_utc": "2026-12-05T14:30:00+00:00"
               },
               {
-                "date": "2026-12-12",
+                "date": "2026-12-11",
                 "home": "Hamburg",
                 "away": "Schalke 04",
                 "fixture_id": "565888",
-                "status": "SCHEDULED",
-                "kickoff_utc": null
+                "status": "TIMED",
+                "kickoff_utc": "2026-12-11T19:30:00+00:00"
               },
               {
                 "date": "2026-12-19",
                 "home": "Elversberg",
                 "away": "Hamburg",
                 "fixture_id": "565895",
-                "status": "SCHEDULED",
-                "kickoff_utc": null
+                "status": "TIMED",
+                "kickoff_utc": "2026-12-19T14:30:00+00:00"
               },
               {
-                "date": "2027-01-09",
+                "date": "2027-01-10",
                 "home": "Hamburg",
                 "away": "Leverkusen",
                 "fixture_id": "565903",
-                "status": "SCHEDULED",
-                "kickoff_utc": null
+                "status": "TIMED",
+                "kickoff_utc": "2027-01-10T16:30:00+00:00"
               },
               {
                 "date": "2027-01-13",
                 "home": "Freiburg",
                 "away": "Hamburg",
                 "fixture_id": "565912",
-                "status": "SCHEDULED",
-                "kickoff_utc": null
+                "status": "TIMED",
+                "kickoff_utc": "2027-01-13T19:30:00+00:00"
               },
               {
                 "date": "2027-01-16",
                 "home": "Hamburg",
                 "away": "Augsburg",
                 "fixture_id": "565926",
-                "status": "SCHEDULED",
-                "kickoff_utc": null
+                "status": "TIMED",
+                "kickoff_utc": "2027-01-16T14:30:00+00:00"
               },
               {
                 "date": "2027-01-23",
                 "home": "Hamburg",
                 "away": "Dortmund",
                 "fixture_id": "565930",
-                "status": "SCHEDULED",
-                "kickoff_utc": null
+                "status": "TIMED",
+                "kickoff_utc": "2027-01-23T17:30:00+00:00"
               },
               {
                 "date": "2027-01-30",
@@ -30544,56 +30544,56 @@
                 "home": "Freiburg",
                 "away": "Hoffenheim",
                 "fixture_id": "565881",
-                "status": "SCHEDULED",
-                "kickoff_utc": null
+                "status": "TIMED",
+                "kickoff_utc": "2026-12-05T14:30:00+00:00"
               },
               {
-                "date": "2026-12-12",
+                "date": "2026-12-13",
                 "home": "Hoffenheim",
                 "away": "Bayern Munich",
                 "fixture_id": "565891",
-                "status": "SCHEDULED",
-                "kickoff_utc": null
+                "status": "TIMED",
+                "kickoff_utc": "2026-12-13T16:30:00+00:00"
               },
               {
-                "date": "2026-12-19",
+                "date": "2026-12-20",
                 "home": "Union Berlin",
                 "away": "Hoffenheim",
                 "fixture_id": "565900",
-                "status": "SCHEDULED",
-                "kickoff_utc": null
+                "status": "TIMED",
+                "kickoff_utc": "2026-12-20T16:30:00+00:00"
               },
               {
                 "date": "2027-01-09",
                 "home": "Hoffenheim",
                 "away": "Elversberg",
                 "fixture_id": "565906",
-                "status": "SCHEDULED",
-                "kickoff_utc": null
+                "status": "TIMED",
+                "kickoff_utc": "2027-01-09T14:30:00+00:00"
               },
               {
-                "date": "2027-01-13",
+                "date": "2027-01-12",
                 "home": "Mainz",
                 "away": "Hoffenheim",
                 "fixture_id": "565911",
-                "status": "SCHEDULED",
-                "kickoff_utc": null
+                "status": "TIMED",
+                "kickoff_utc": "2027-01-12T19:30:00+00:00"
               },
               {
                 "date": "2027-01-16",
                 "home": "Hoffenheim",
                 "away": "RB Leipzig",
                 "fixture_id": "565923",
-                "status": "SCHEDULED",
-                "kickoff_utc": null
+                "status": "TIMED",
+                "kickoff_utc": "2027-01-16T14:30:00+00:00"
               },
               {
-                "date": "2027-01-23",
+                "date": "2027-01-24",
                 "home": "Hoffenheim",
                 "away": "FC Koln",
                 "fixture_id": "565933",
-                "status": "SCHEDULED",
-                "kickoff_utc": null
+                "status": "TIMED",
+                "kickoff_utc": "2027-01-24T18:30:00+00:00"
               },
               {
                 "date": "2027-01-30",
@@ -31087,56 +31087,56 @@
                 "home": "Leverkusen",
                 "away": "M'gladbach",
                 "fixture_id": "565877",
-                "status": "SCHEDULED",
-                "kickoff_utc": null
+                "status": "TIMED",
+                "kickoff_utc": "2026-12-05T14:30:00+00:00"
               },
               {
-                "date": "2026-12-12",
+                "date": "2026-12-13",
                 "home": "Werder Bremen",
                 "away": "Leverkusen",
                 "fixture_id": "565885",
-                "status": "SCHEDULED",
-                "kickoff_utc": null
+                "status": "TIMED",
+                "kickoff_utc": "2026-12-13T18:30:00+00:00"
               },
               {
                 "date": "2026-12-19",
                 "home": "Leverkusen",
                 "away": "Frankfurt",
                 "fixture_id": "565896",
-                "status": "SCHEDULED",
-                "kickoff_utc": null
+                "status": "TIMED",
+                "kickoff_utc": "2026-12-19T14:30:00+00:00"
               },
               {
-                "date": "2027-01-09",
+                "date": "2027-01-10",
                 "home": "Hamburg",
                 "away": "Leverkusen",
                 "fixture_id": "565903",
-                "status": "SCHEDULED",
-                "kickoff_utc": null
+                "status": "TIMED",
+                "kickoff_utc": "2027-01-10T16:30:00+00:00"
               },
               {
                 "date": "2027-01-13",
                 "home": "Bayern Munich",
                 "away": "Leverkusen",
                 "fixture_id": "565916",
-                "status": "SCHEDULED",
-                "kickoff_utc": null
+                "status": "TIMED",
+                "kickoff_utc": "2027-01-13T19:30:00+00:00"
               },
               {
-                "date": "2027-01-16",
+                "date": "2027-01-17",
                 "home": "Leverkusen",
                 "away": "Schalke 04",
                 "fixture_id": "565924",
-                "status": "SCHEDULED",
-                "kickoff_utc": null
+                "status": "TIMED",
+                "kickoff_utc": "2027-01-17T16:30:00+00:00"
               },
               {
-                "date": "2027-01-23",
+                "date": "2027-01-24",
                 "home": "Leverkusen",
                 "away": "Elversberg",
                 "fixture_id": "565937",
-                "status": "SCHEDULED",
-                "kickoff_utc": null
+                "status": "TIMED",
+                "kickoff_utc": "2027-01-24T16:30:00+00:00"
               },
               {
                 "date": "2027-01-30",
@@ -31630,56 +31630,56 @@
                 "home": "Leverkusen",
                 "away": "M'gladbach",
                 "fixture_id": "565877",
-                "status": "SCHEDULED",
-                "kickoff_utc": null
+                "status": "TIMED",
+                "kickoff_utc": "2026-12-05T14:30:00+00:00"
               },
               {
                 "date": "2026-12-12",
                 "home": "M'gladbach",
                 "away": "Frankfurt",
                 "fixture_id": "565892",
-                "status": "SCHEDULED",
-                "kickoff_utc": null
+                "status": "TIMED",
+                "kickoff_utc": "2026-12-12T17:30:00+00:00"
               },
               {
-                "date": "2026-12-19",
+                "date": "2026-12-20",
                 "home": "Schalke 04",
                 "away": "M'gladbach",
                 "fixture_id": "565893",
-                "status": "SCHEDULED",
-                "kickoff_utc": null
+                "status": "TIMED",
+                "kickoff_utc": "2026-12-20T18:30:00+00:00"
               },
               {
                 "date": "2027-01-09",
                 "home": "M'gladbach",
                 "away": "Bayern Munich",
                 "fixture_id": "565907",
-                "status": "SCHEDULED",
-                "kickoff_utc": null
+                "status": "TIMED",
+                "kickoff_utc": "2027-01-09T17:30:00+00:00"
               },
               {
-                "date": "2027-01-13",
+                "date": "2027-01-12",
                 "home": "Augsburg",
                 "away": "M'gladbach",
                 "fixture_id": "565917",
-                "status": "SCHEDULED",
-                "kickoff_utc": null
+                "status": "TIMED",
+                "kickoff_utc": "2027-01-12T19:30:00+00:00"
               },
               {
                 "date": "2027-01-16",
                 "home": "M'gladbach",
                 "away": "Union Berlin",
                 "fixture_id": "565927",
-                "status": "SCHEDULED",
-                "kickoff_utc": null
+                "status": "TIMED",
+                "kickoff_utc": "2027-01-16T14:30:00+00:00"
               },
               {
                 "date": "2027-01-23",
                 "home": "M'gladbach",
                 "away": "RB Leipzig",
                 "fixture_id": "565935",
-                "status": "SCHEDULED",
-                "kickoff_utc": null
+                "status": "TIMED",
+                "kickoff_utc": "2027-01-23T14:30:00+00:00"
               },
               {
                 "date": "2027-01-30",
@@ -32173,56 +32173,56 @@
                 "home": "RB Leipzig",
                 "away": "Mainz",
                 "fixture_id": "565879",
-                "status": "SCHEDULED",
-                "kickoff_utc": null
+                "status": "TIMED",
+                "kickoff_utc": "2026-12-05T14:30:00+00:00"
               },
               {
-                "date": "2026-12-12",
+                "date": "2026-12-13",
                 "home": "Mainz",
                 "away": "Freiburg",
                 "fixture_id": "565889",
-                "status": "SCHEDULED",
-                "kickoff_utc": null
+                "status": "TIMED",
+                "kickoff_utc": "2026-12-13T14:30:00+00:00"
               },
               {
                 "date": "2026-12-19",
                 "home": "Mainz",
                 "away": "FC Koln",
                 "fixture_id": "565899",
-                "status": "SCHEDULED",
-                "kickoff_utc": null
+                "status": "TIMED",
+                "kickoff_utc": "2026-12-19T14:30:00+00:00"
               },
               {
-                "date": "2027-01-09",
+                "date": "2027-01-08",
                 "home": "Dortmund",
                 "away": "Mainz",
                 "fixture_id": "565908",
-                "status": "SCHEDULED",
-                "kickoff_utc": null
+                "status": "TIMED",
+                "kickoff_utc": "2027-01-08T19:30:00+00:00"
               },
               {
-                "date": "2027-01-13",
+                "date": "2027-01-12",
                 "home": "Mainz",
                 "away": "Hoffenheim",
                 "fixture_id": "565911",
-                "status": "SCHEDULED",
-                "kickoff_utc": null
+                "status": "TIMED",
+                "kickoff_utc": "2027-01-12T19:30:00+00:00"
               },
               {
-                "date": "2027-01-16",
+                "date": "2027-01-15",
                 "home": "Stuttgart",
                 "away": "Mainz",
                 "fixture_id": "565925",
-                "status": "SCHEDULED",
-                "kickoff_utc": null
+                "status": "TIMED",
+                "kickoff_utc": "2027-01-15T19:30:00+00:00"
               },
               {
                 "date": "2027-01-23",
                 "home": "Paderborn",
                 "away": "Mainz",
                 "fixture_id": "565931",
-                "status": "SCHEDULED",
-                "kickoff_utc": null
+                "status": "TIMED",
+                "kickoff_utc": "2027-01-23T14:30:00+00:00"
               },
               {
                 "date": "2027-01-30",
@@ -32712,60 +32712,60 @@
                 "kickoff_utc": "2026-11-28T14:30:00+00:00"
               },
               {
-                "date": "2026-12-05",
+                "date": "2026-12-04",
                 "home": "Bayern Munich",
                 "away": "Paderborn",
                 "fixture_id": "565882",
-                "status": "SCHEDULED",
-                "kickoff_utc": null
+                "status": "TIMED",
+                "kickoff_utc": "2026-12-04T19:30:00+00:00"
               },
               {
                 "date": "2026-12-12",
                 "home": "Paderborn",
                 "away": "Elversberg",
                 "fixture_id": "565884",
-                "status": "SCHEDULED",
-                "kickoff_utc": null
+                "status": "TIMED",
+                "kickoff_utc": "2026-12-12T14:30:00+00:00"
               },
               {
                 "date": "2026-12-19",
                 "home": "Augsburg",
                 "away": "Paderborn",
                 "fixture_id": "565901",
-                "status": "SCHEDULED",
-                "kickoff_utc": null
+                "status": "TIMED",
+                "kickoff_utc": "2026-12-19T14:30:00+00:00"
               },
               {
                 "date": "2027-01-09",
                 "home": "Paderborn",
                 "away": "RB Leipzig",
                 "fixture_id": "565910",
-                "status": "SCHEDULED",
-                "kickoff_utc": null
+                "status": "TIMED",
+                "kickoff_utc": "2027-01-09T14:30:00+00:00"
               },
               {
                 "date": "2027-01-13",
                 "home": "Union Berlin",
                 "away": "Paderborn",
                 "fixture_id": "565915",
-                "status": "SCHEDULED",
-                "kickoff_utc": null
+                "status": "TIMED",
+                "kickoff_utc": "2027-01-13T19:30:00+00:00"
               },
               {
                 "date": "2027-01-16",
                 "home": "Paderborn",
                 "away": "FC Koln",
                 "fixture_id": "565922",
-                "status": "SCHEDULED",
-                "kickoff_utc": null
+                "status": "TIMED",
+                "kickoff_utc": "2027-01-16T14:30:00+00:00"
               },
               {
                 "date": "2027-01-23",
                 "home": "Paderborn",
                 "away": "Mainz",
                 "fixture_id": "565931",
-                "status": "SCHEDULED",
-                "kickoff_utc": null
+                "status": "TIMED",
+                "kickoff_utc": "2027-01-23T14:30:00+00:00"
               },
               {
                 "date": "2027-01-30",
@@ -33259,56 +33259,56 @@
                 "home": "RB Leipzig",
                 "away": "Mainz",
                 "fixture_id": "565879",
-                "status": "SCHEDULED",
-                "kickoff_utc": null
+                "status": "TIMED",
+                "kickoff_utc": "2026-12-05T14:30:00+00:00"
               },
               {
                 "date": "2026-12-12",
                 "home": "FC Koln",
                 "away": "RB Leipzig",
                 "fixture_id": "565890",
-                "status": "SCHEDULED",
-                "kickoff_utc": null
+                "status": "TIMED",
+                "kickoff_utc": "2026-12-12T14:30:00+00:00"
               },
               {
                 "date": "2026-12-19",
                 "home": "RB Leipzig",
                 "away": "Dortmund",
                 "fixture_id": "565898",
-                "status": "SCHEDULED",
-                "kickoff_utc": null
+                "status": "TIMED",
+                "kickoff_utc": "2026-12-19T17:30:00+00:00"
               },
               {
                 "date": "2027-01-09",
                 "home": "Paderborn",
                 "away": "RB Leipzig",
                 "fixture_id": "565910",
-                "status": "SCHEDULED",
-                "kickoff_utc": null
+                "status": "TIMED",
+                "kickoff_utc": "2027-01-09T14:30:00+00:00"
               },
               {
-                "date": "2027-01-13",
+                "date": "2027-01-12",
                 "home": "RB Leipzig",
                 "away": "Stuttgart",
                 "fixture_id": "565914",
-                "status": "SCHEDULED",
-                "kickoff_utc": null
+                "status": "TIMED",
+                "kickoff_utc": "2027-01-12T17:30:00+00:00"
               },
               {
                 "date": "2027-01-16",
                 "home": "Hoffenheim",
                 "away": "RB Leipzig",
                 "fixture_id": "565923",
-                "status": "SCHEDULED",
-                "kickoff_utc": null
+                "status": "TIMED",
+                "kickoff_utc": "2027-01-16T14:30:00+00:00"
               },
               {
                 "date": "2027-01-23",
                 "home": "M'gladbach",
                 "away": "RB Leipzig",
                 "fixture_id": "565935",
-                "status": "SCHEDULED",
-                "kickoff_utc": null
+                "status": "TIMED",
+                "kickoff_utc": "2027-01-23T14:30:00+00:00"
               },
               {
                 "date": "2027-01-30",
@@ -33798,60 +33798,60 @@
                 "kickoff_utc": "2026-11-28T14:30:00+00:00"
               },
               {
-                "date": "2026-12-05",
+                "date": "2026-12-06",
                 "home": "Schalke 04",
                 "away": "Dortmund",
                 "fixture_id": "565876",
-                "status": "SCHEDULED",
-                "kickoff_utc": null
+                "status": "TIMED",
+                "kickoff_utc": "2026-12-06T14:30:00+00:00"
               },
               {
-                "date": "2026-12-12",
+                "date": "2026-12-11",
                 "home": "Hamburg",
                 "away": "Schalke 04",
                 "fixture_id": "565888",
-                "status": "SCHEDULED",
-                "kickoff_utc": null
+                "status": "TIMED",
+                "kickoff_utc": "2026-12-11T19:30:00+00:00"
               },
               {
-                "date": "2026-12-19",
+                "date": "2026-12-20",
                 "home": "Schalke 04",
                 "away": "M'gladbach",
                 "fixture_id": "565893",
-                "status": "SCHEDULED",
-                "kickoff_utc": null
+                "status": "TIMED",
+                "kickoff_utc": "2026-12-20T18:30:00+00:00"
               },
               {
                 "date": "2027-01-09",
                 "home": "Frankfurt",
                 "away": "Schalke 04",
                 "fixture_id": "565905",
-                "status": "SCHEDULED",
-                "kickoff_utc": null
+                "status": "TIMED",
+                "kickoff_utc": "2027-01-09T14:30:00+00:00"
               },
               {
-                "date": "2027-01-13",
+                "date": "2027-01-14",
                 "home": "Schalke 04",
                 "away": "Werder Bremen",
                 "fixture_id": "565913",
-                "status": "SCHEDULED",
-                "kickoff_utc": null
+                "status": "TIMED",
+                "kickoff_utc": "2027-01-14T19:30:00+00:00"
               },
               {
-                "date": "2027-01-16",
+                "date": "2027-01-17",
                 "home": "Leverkusen",
                 "away": "Schalke 04",
                 "fixture_id": "565924",
-                "status": "SCHEDULED",
-                "kickoff_utc": null
+                "status": "TIMED",
+                "kickoff_utc": "2027-01-17T16:30:00+00:00"
               },
               {
                 "date": "2027-01-23",
                 "home": "Schalke 04",
                 "away": "Augsburg",
                 "fixture_id": "565932",
-                "status": "SCHEDULED",
-                "kickoff_utc": null
+                "status": "TIMED",
+                "kickoff_utc": "2027-01-23T14:30:00+00:00"
               },
               {
                 "date": "2027-01-30",
@@ -34341,60 +34341,60 @@
                 "kickoff_utc": "2026-11-28T17:30:00+00:00"
               },
               {
-                "date": "2026-12-05",
+                "date": "2026-12-06",
                 "home": "Elversberg",
                 "away": "Stuttgart",
                 "fixture_id": "565880",
-                "status": "SCHEDULED",
-                "kickoff_utc": null
+                "status": "TIMED",
+                "kickoff_utc": "2026-12-06T16:30:00+00:00"
               },
               {
                 "date": "2026-12-12",
                 "home": "Stuttgart",
                 "away": "Union Berlin",
                 "fixture_id": "565886",
-                "status": "SCHEDULED",
-                "kickoff_utc": null
+                "status": "TIMED",
+                "kickoff_utc": "2026-12-12T14:30:00+00:00"
               },
               {
-                "date": "2026-12-19",
+                "date": "2026-12-20",
                 "home": "Freiburg",
                 "away": "Stuttgart",
                 "fixture_id": "565897",
-                "status": "SCHEDULED",
-                "kickoff_utc": null
+                "status": "TIMED",
+                "kickoff_utc": "2026-12-20T14:30:00+00:00"
               },
               {
                 "date": "2027-01-09",
                 "home": "Stuttgart",
                 "away": "Augsburg",
                 "fixture_id": "565902",
-                "status": "SCHEDULED",
-                "kickoff_utc": null
+                "status": "TIMED",
+                "kickoff_utc": "2027-01-09T14:30:00+00:00"
               },
               {
-                "date": "2027-01-13",
+                "date": "2027-01-12",
                 "home": "RB Leipzig",
                 "away": "Stuttgart",
                 "fixture_id": "565914",
-                "status": "SCHEDULED",
-                "kickoff_utc": null
+                "status": "TIMED",
+                "kickoff_utc": "2027-01-12T17:30:00+00:00"
               },
               {
-                "date": "2027-01-16",
+                "date": "2027-01-15",
                 "home": "Stuttgart",
                 "away": "Mainz",
                 "fixture_id": "565925",
-                "status": "SCHEDULED",
-                "kickoff_utc": null
+                "status": "TIMED",
+                "kickoff_utc": "2027-01-15T19:30:00+00:00"
               },
               {
                 "date": "2027-01-23",
                 "home": "Stuttgart",
                 "away": "Bayern Munich",
                 "fixture_id": "565934",
-                "status": "SCHEDULED",
-                "kickoff_utc": null
+                "status": "TIMED",
+                "kickoff_utc": "2027-01-23T14:30:00+00:00"
               },
               {
                 "date": "2027-01-30",
@@ -34888,56 +34888,56 @@
                 "home": "Union Berlin",
                 "away": "Hamburg",
                 "fixture_id": "565875",
-                "status": "SCHEDULED",
-                "kickoff_utc": null
+                "status": "TIMED",
+                "kickoff_utc": "2026-12-05T14:30:00+00:00"
               },
               {
                 "date": "2026-12-12",
                 "home": "Stuttgart",
                 "away": "Union Berlin",
                 "fixture_id": "565886",
-                "status": "SCHEDULED",
-                "kickoff_utc": null
+                "status": "TIMED",
+                "kickoff_utc": "2026-12-12T14:30:00+00:00"
               },
               {
-                "date": "2026-12-19",
+                "date": "2026-12-20",
                 "home": "Union Berlin",
                 "away": "Hoffenheim",
                 "fixture_id": "565900",
-                "status": "SCHEDULED",
-                "kickoff_utc": null
+                "status": "TIMED",
+                "kickoff_utc": "2026-12-20T16:30:00+00:00"
               },
               {
-                "date": "2027-01-09",
+                "date": "2027-01-10",
                 "home": "Werder Bremen",
                 "away": "Union Berlin",
                 "fixture_id": "565909",
-                "status": "SCHEDULED",
-                "kickoff_utc": null
+                "status": "TIMED",
+                "kickoff_utc": "2027-01-10T14:30:00+00:00"
               },
               {
                 "date": "2027-01-13",
                 "home": "Union Berlin",
                 "away": "Paderborn",
                 "fixture_id": "565915",
-                "status": "SCHEDULED",
-                "kickoff_utc": null
+                "status": "TIMED",
+                "kickoff_utc": "2027-01-13T19:30:00+00:00"
               },
               {
                 "date": "2027-01-16",
                 "home": "M'gladbach",
                 "away": "Union Berlin",
                 "fixture_id": "565927",
-                "status": "SCHEDULED",
-                "kickoff_utc": null
+                "status": "TIMED",
+                "kickoff_utc": "2027-01-16T14:30:00+00:00"
               },
               {
-                "date": "2027-01-23",
+                "date": "2027-01-24",
                 "home": "Frankfurt",
                 "away": "Union Berlin",
                 "fixture_id": "565936",
-                "status": "SCHEDULED",
-                "kickoff_utc": null
+                "status": "TIMED",
+                "kickoff_utc": "2027-01-24T14:30:00+00:00"
               },
               {
                 "date": "2027-01-30",
@@ -35431,56 +35431,56 @@
                 "home": "Frankfurt",
                 "away": "Werder Bremen",
                 "fixture_id": "565878",
-                "status": "SCHEDULED",
-                "kickoff_utc": null
+                "status": "TIMED",
+                "kickoff_utc": "2026-12-05T17:30:00+00:00"
               },
               {
-                "date": "2026-12-12",
+                "date": "2026-12-13",
                 "home": "Werder Bremen",
                 "away": "Leverkusen",
                 "fixture_id": "565885",
-                "status": "SCHEDULED",
-                "kickoff_utc": null
+                "status": "TIMED",
+                "kickoff_utc": "2026-12-13T18:30:00+00:00"
               },
               {
-                "date": "2026-12-19",
+                "date": "2026-12-18",
                 "home": "Bayern Munich",
                 "away": "Werder Bremen",
                 "fixture_id": "565894",
-                "status": "SCHEDULED",
-                "kickoff_utc": null
+                "status": "TIMED",
+                "kickoff_utc": "2026-12-18T19:30:00+00:00"
               },
               {
-                "date": "2027-01-09",
+                "date": "2027-01-10",
                 "home": "Werder Bremen",
                 "away": "Union Berlin",
                 "fixture_id": "565909",
-                "status": "SCHEDULED",
-                "kickoff_utc": null
+                "status": "TIMED",
+                "kickoff_utc": "2027-01-10T14:30:00+00:00"
               },
               {
-                "date": "2027-01-13",
+                "date": "2027-01-14",
                 "home": "Schalke 04",
                 "away": "Werder Bremen",
                 "fixture_id": "565913",
-                "status": "SCHEDULED",
-                "kickoff_utc": null
+                "status": "TIMED",
+                "kickoff_utc": "2027-01-14T19:30:00+00:00"
               },
               {
-                "date": "2027-01-16",
+                "date": "2027-01-17",
                 "home": "Werder Bremen",
                 "away": "Elversberg",
                 "fixture_id": "565920",
-                "status": "SCHEDULED",
-                "kickoff_utc": null
+                "status": "TIMED",
+                "kickoff_utc": "2027-01-17T14:30:00+00:00"
               },
               {
-                "date": "2027-01-23",
+                "date": "2027-01-22",
                 "home": "Werder Bremen",
                 "away": "Freiburg",
                 "fixture_id": "565929",
-                "status": "SCHEDULED",
-                "kickoff_utc": null
+                "status": "TIMED",
+                "kickoff_utc": "2027-01-22T19:30:00+00:00"
               },
               {
                 "date": "2027-01-30",
@@ -35863,7 +35863,7 @@
       "statistics_matches": 72,
       "standings": {
         "season": "2026/27",
-        "updated_at": "2026-11-05T02:27:31.629073+00:00",
+        "updated_at": "2026-11-06T17:13:31.961604+00:00",
         "source": "football-data.org",
         "source_url": "https://api.football-data.org/v4/competitions/BL1/standings",
         "tables": {
@@ -48768,7 +48768,7 @@
       "statistics_matches": 100,
       "standings": {
         "season": "2026/27",
-        "updated_at": "2026-11-05T02:27:32.797843+00:00",
+        "updated_at": "2026-11-06T17:13:33.133084+00:00",
         "source": "football-data.org",
         "source_url": "https://api.football-data.org/v4/competitions/SA/standings",
         "tables": {
@@ -49499,7 +49499,7 @@
             }
           ]
         },
-        "current_matchday": 10
+        "current_matchday": 11
       },
       "recorded_tables": {
         "all": [
@@ -50880,7 +50880,7 @@
                 "away": "Paris FC",
                 "fixture_id": "559637",
                 "status": "TIMED",
-                "kickoff_utc": "2026-11-07T16:15:00+00:00"
+                "kickoff_utc": "2026-11-07T18:00:00+00:00"
               },
               {
                 "date": "2026-11-21",
@@ -56875,7 +56875,7 @@
                 "away": "Paris FC",
                 "fixture_id": "559637",
                 "status": "TIMED",
-                "kickoff_utc": "2026-11-07T16:15:00+00:00"
+                "kickoff_utc": "2026-11-07T18:00:00+00:00"
               },
               {
                 "date": "2026-11-22",
@@ -57420,7 +57420,7 @@
                 "away": "Troyes",
                 "fixture_id": "559635",
                 "status": "TIMED",
-                "kickoff_utc": "2026-11-07T19:45:00+00:00"
+                "kickoff_utc": "2026-11-07T20:05:00+00:00"
               },
               {
                 "date": "2026-11-21",
@@ -59600,7 +59600,7 @@
                 "away": "Troyes",
                 "fixture_id": "559635",
                 "status": "TIMED",
-                "kickoff_utc": "2026-11-07T19:45:00+00:00"
+                "kickoff_utc": "2026-11-07T20:05:00+00:00"
               },
               {
                 "date": "2026-11-20",
@@ -60047,7 +60047,7 @@
       "statistics_matches": 81,
       "standings": {
         "season": "2026/27",
-        "updated_at": "2026-11-05T02:27:33.941260+00:00",
+        "updated_at": "2026-11-06T17:13:34.286860+00:00",
         "source": "football-data.org",
         "source_url": "https://api.football-data.org/v4/competitions/FL1/standings",
         "tables": {
@@ -60706,7 +60706,7 @@
             }
           ]
         },
-        "current_matchday": 9
+        "current_matchday": 10
       },
       "recorded_tables": {
         "all": [
@@ -73144,7 +73144,7 @@
       "statistics_matches": 72,
       "standings": {
         "season": "2026/27",
-        "updated_at": "2026-11-05T02:27:35.126754+00:00",
+        "updated_at": "2026-11-06T17:13:35.526264+00:00",
         "source": "football-data.org",
         "source_url": "https://api.football-data.org/v4/competitions/CL/standings",
         "tables": {
