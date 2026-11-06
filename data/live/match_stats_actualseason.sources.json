@@ -1,9 +1,9 @@
 {
   "season": "2026/27",
-  "as_of": "2026-11-02",
+  "as_of": "2026-11-06",
   "source": "Sofascore full-match ALL statistics for original rounds; ESPN final boxscores for subsequent updates, with independently checked scores.",
-  "matches": 452,
-  "rows": 904,
+  "matches": 457,
+  "rows": 914,
   "columns": [
     "match_id",
     "date",
@@ -6525,6 +6525,101 @@
       "statistics_endpoint": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/summary?event=401874971",
       "score_verification": "verified",
       "imported_by": "daily_update"
+    },
+    {
+      "match_id": "Bundesliga_2026/27_espn_401884739",
+      "fixture_id": "565852",
+      "espn_event_id": "401884739",
+      "date": "2026-11-06",
+      "league": "Bundesliga",
+      "round": 9,
+      "home": "Hamburg",
+      "away": "M'gladbach",
+      "yellow_home": 1,
+      "yellow_away": 1,
+      "red_home": 0,
+      "red_away": 1,
+      "url": "https://www.espn.com/soccer/match/_/gameId/401884739/borussia-monchengladbach-hamburg-sv",
+      "provider": "ESPN",
+      "statistics_endpoint": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/summary?event=401884739",
+      "score_verification": "verified",
+      "imported_by": "daily_update"
+    },
+    {
+      "match_id": "La Liga_2026/27_espn_401882809",
+      "fixture_id": "564740",
+      "espn_event_id": "401882809",
+      "date": "2026-11-06",
+      "league": "La Liga",
+      "round": 12,
+      "home": "Sevilla",
+      "away": "Alaves",
+      "yellow_home": 1,
+      "yellow_away": 3,
+      "red_home": 0,
+      "red_away": 0,
+      "url": "https://www.espn.com/soccer/match/_/gameId/401882809/alaves-sevilla",
+      "provider": "ESPN",
+      "statistics_endpoint": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/summary?event=401882809",
+      "score_verification": "verified",
+      "imported_by": "daily_update"
+    },
+    {
+      "match_id": "Ligue 1_2026/27_espn_401876405",
+      "fixture_id": "559638",
+      "espn_event_id": "401876405",
+      "date": "2026-11-06",
+      "league": "Ligue 1",
+      "round": 10,
+      "home": "Toulouse",
+      "away": "Strasbourg",
+      "yellow_home": 3,
+      "yellow_away": 3,
+      "red_home": 0,
+      "red_away": 0,
+      "url": "https://www.espn.com/soccer/match/_/gameId/401876405/strasbourg-toulouse",
+      "provider": "ESPN",
+      "statistics_endpoint": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/summary?event=401876405",
+      "score_verification": "verified",
+      "imported_by": "daily_update"
+    },
+    {
+      "match_id": "Premier League_2026/27_espn_401879242",
+      "fixture_id": "560634",
+      "espn_event_id": "401879242",
+      "date": "2026-11-06",
+      "league": "Premier League",
+      "round": 10,
+      "home": "Everton",
+      "away": "Coventry",
+      "yellow_home": 1,
+      "yellow_away": 1,
+      "red_home": 0,
+      "red_away": 0,
+      "url": "https://www.espn.com/soccer/match/_/gameId/401879242/coventry-city-everton",
+      "provider": "ESPN",
+      "statistics_endpoint": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/summary?event=401879242",
+      "score_verification": "verified",
+      "imported_by": "daily_update"
+    },
+    {
+      "match_id": "Serie A_2026/27_espn_401874815",
+      "fixture_id": "558537",
+      "espn_event_id": "401874815",
+      "date": "2026-11-06",
+      "league": "Serie A",
+      "round": 11,
+      "home": "Venezia",
+      "away": "Udinese",
+      "yellow_home": 1,
+      "yellow_away": 1,
+      "red_home": 0,
+      "red_away": 0,
+      "url": "https://www.espn.com/soccer/match/_/gameId/401874815/udinese-venezia",
+      "provider": "ESPN",
+      "statistics_endpoint": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/summary?event=401874815",
+      "score_verification": "verified",
+      "imported_by": "daily_update"
     }
   ],
   "leagues": [
@@ -6538,8 +6633,8 @@
   "coverage": [
     {
       "league": "Bundesliga",
-      "matches": 72,
-      "rows": 144,
+      "matches": 73,
+      "rows": 146,
       "round_counts": {
         "1": 9,
         "2": 9,
@@ -6548,13 +6643,14 @@
         "5": 9,
         "6": 9,
         "7": 9,
-        "8": 9
+        "8": 9,
+        "9": 1
       }
     },
     {
       "league": "La Liga",
-      "matches": 109,
-      "rows": 218,
+      "matches": 110,
+      "rows": 220,
       "round_counts": {
         "1": 10,
         "2": 10,
@@ -6566,13 +6662,14 @@
         "8": 9,
         "9": 10,
         "10": 10,
-        "11": 10
+        "11": 10,
+        "12": 1
       }
     },
     {
       "league": "Ligue 1",
-      "matches": 81,
-      "rows": 162,
+      "matches": 82,
+      "rows": 164,
       "round_counts": {
         "1": 9,
         "2": 9,
@@ -6582,29 +6679,14 @@
         "6": 9,
         "7": 9,
         "8": 9,
-        "9": 9
+        "9": 9,
+        "10": 1
       }
     },
     {
       "league": "Premier League",
-      "matches": 90,
-      "rows": 180,
-      "round_counts": {
-        "1": 10,
-        "2": 10,
-        "3": 10,
-        "4": 10,
-        "5": 10,
-        "6": 10,
-        "7": 10,
-        "8": 10,
-        "9": 10
-      }
-    },
-    {
-      "league": "Serie A",
-      "matches": 100,
-      "rows": 200,
+      "matches": 91,
+      "rows": 182,
       "round_counts": {
         "1": 10,
         "2": 10,
@@ -6615,12 +6697,30 @@
         "7": 10,
         "8": 10,
         "9": 10,
-        "10": 10
+        "10": 1
+      }
+    },
+    {
+      "league": "Serie A",
+      "matches": 101,
+      "rows": 202,
+      "round_counts": {
+        "1": 10,
+        "2": 10,
+        "3": 10,
+        "4": 10,
+        "5": 10,
+        "6": 10,
+        "7": 10,
+        "8": 10,
+        "9": 10,
+        "10": 10,
+        "11": 1
       }
     }
   ],
   "date_min": "2026-08-15",
-  "date_max": "2026-11-02",
+  "date_max": "2026-11-06",
   "team_match_counts": {
     "Alaves": 9,
     "Angers": 7,

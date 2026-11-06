@@ -1,5 +1,5 @@
 {
-  "run_at": "2026-11-06T22:40:15.810211+00:00",
+  "run_at": "2026-11-06T22:50:46.903207+00:00",
   "dates": [
     "2026-11-03",
     "2026-11-04",
@@ -17,9 +17,15 @@
   },
   "healthy": true,
   "events": 23,
-  "finals": 18,
-  "added_matches": [],
-  "added_rows": 0,
+  "finals": 23,
+  "added_matches": [
+    "Bundesliga_2026/27_espn_401884739",
+    "La Liga_2026/27_espn_401882809",
+    "Ligue 1_2026/27_espn_401876405",
+    "Premier League_2026/27_espn_401879242",
+    "Serie A_2026/27_espn_401874815"
+  ],
+  "added_rows": 10,
   "already_present": [
     {
       "match_id": "UEFA Champions League_2026/27_espn_401915307",
@@ -95,76 +101,10 @@
     }
   ],
   "source_differences": [],
-  "pending": [
-    {
-      "espn_event_id": "401884739",
-      "date": "2026-11-06",
-      "league": "Bundesliga",
-      "kickoff_utc": "2026-11-06T19:30Z",
-      "espn_status": "STATUS_FULL_TIME",
-      "source_url": "https://www.espn.com/soccer/match/_/gameId/401884739/borussia-monchengladbach-hamburg-sv",
-      "home": "Hamburg",
-      "away": "M'gladbach",
-      "fixture_id": "565852",
-      "provider_status": "TIMED",
-      "reason": "La segunda fuente aún no confirma el final; se reintenta en la próxima ejecución."
-    },
-    {
-      "espn_event_id": "401882809",
-      "date": "2026-11-06",
-      "league": "La Liga",
-      "kickoff_utc": "2026-11-06T20:00Z",
-      "espn_status": "STATUS_FULL_TIME",
-      "source_url": "https://www.espn.com/soccer/match/_/gameId/401882809/alaves-sevilla",
-      "home": "Sevilla",
-      "away": "Alaves",
-      "fixture_id": "564740",
-      "provider_status": "TIMED",
-      "reason": "La segunda fuente aún no confirma el final; se reintenta en la próxima ejecución."
-    },
-    {
-      "espn_event_id": "401876405",
-      "date": "2026-11-06",
-      "league": "Ligue 1",
-      "kickoff_utc": "2026-11-06T19:45Z",
-      "espn_status": "STATUS_FULL_TIME",
-      "source_url": "https://www.espn.com/soccer/match/_/gameId/401876405/strasbourg-toulouse",
-      "home": "Toulouse",
-      "away": "Strasbourg",
-      "fixture_id": "559638",
-      "provider_status": "TIMED",
-      "reason": "La segunda fuente aún no confirma el final; se reintenta en la próxima ejecución."
-    },
-    {
-      "espn_event_id": "401879242",
-      "date": "2026-11-06",
-      "league": "Premier League",
-      "kickoff_utc": "2026-11-06T20:00Z",
-      "espn_status": "STATUS_FULL_TIME",
-      "source_url": "https://www.espn.com/soccer/match/_/gameId/401879242/coventry-city-everton",
-      "home": "Everton",
-      "away": "Coventry",
-      "fixture_id": "560634",
-      "provider_status": "TIMED",
-      "reason": "La segunda fuente aún no confirma el final; se reintenta en la próxima ejecución."
-    },
-    {
-      "espn_event_id": "401874815",
-      "date": "2026-11-06",
-      "league": "Serie A",
-      "kickoff_utc": "2026-11-06T19:45Z",
-      "espn_status": "STATUS_FULL_TIME",
-      "source_url": "https://www.espn.com/soccer/match/_/gameId/401874815/udinese-venezia",
-      "home": "Venezia",
-      "away": "Udinese",
-      "fixture_id": "558537",
-      "provider_status": "TIMED",
-      "reason": "La segunda fuente aún no confirma el final; se reintenta en la próxima ejecución."
-    }
-  ],
+  "pending": [],
   "source_errors": [],
   "espn_only": [],
-  "calendar_changed": false,
+  "calendar_changed": true,
   "calendar_issues": [],
   "reviews": {
     "2026-11-03": {
@@ -177,13 +117,31 @@
       "ingestion": "sin pronósticos congelados"
     },
     "2026-11-06": {
-      "ingestion": "sin finales todavía"
+      "ingestion": "actualizado",
+      "review": {
+        "tier_summary": {
+          "selections": 15,
+          "settled": 15,
+          "won": 14,
+          "lost": 1,
+          "unverified": 0,
+          "hit_rate": 0.9333333333333333
+        },
+        "unique_summary": {
+          "selections": 43,
+          "settled": 43,
+          "won": 37,
+          "lost": 6,
+          "unverified": 0,
+          "hit_rate": 0.8604651162790697
+        }
+      }
     }
   },
   "prospective": {
-    "scored_matches": 168,
-    "accuracy": 0.6190476190476191,
-    "log_loss": 0.9189451294390949
+    "scored_matches": 173,
+    "accuracy": 0.6184971098265896,
+    "log_loss": 0.9210473288118799
   },
   "standings_refresh": [
     {

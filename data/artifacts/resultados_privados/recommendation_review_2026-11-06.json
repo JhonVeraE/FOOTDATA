@@ -1,0 +1,1004 @@
+{
+  "date": "2026-11-06",
+  "reviewed_at": "2026-11-06T22:51:19.960481+00:00",
+  "frozen_shortlist_sha256": "b903c32c9749618b5d5d80b745ff6c3b088095e1e5899dfc05938e4ea0de4192",
+  "matches": [
+    {
+      "fixture_id": "564740",
+      "home": "Sevilla",
+      "away": "Alaves",
+      "metrics": {
+        "goals": [
+          0,
+          0
+        ],
+        "shots": [
+          13,
+          9
+        ],
+        "sot": [
+          3,
+          2
+        ],
+        "fouls": [
+          14,
+          19
+        ],
+        "corners": [
+          5,
+          4
+        ],
+        "cards": [
+          1,
+          3
+        ]
+      },
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401882809/alaves-sevilla"
+    },
+    {
+      "fixture_id": "560634",
+      "home": "Everton",
+      "away": "Coventry",
+      "metrics": {
+        "goals": [
+          3,
+          1
+        ],
+        "shots": [
+          16,
+          15
+        ],
+        "sot": [
+          7,
+          4
+        ],
+        "fouls": [
+          9,
+          6
+        ],
+        "corners": [
+          2,
+          2
+        ],
+        "cards": [
+          1,
+          1
+        ]
+      },
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401879242/coventry-city-everton"
+    },
+    {
+      "fixture_id": "565852",
+      "home": "Hamburg",
+      "away": "M'gladbach",
+      "metrics": {
+        "goals": [
+          3,
+          1
+        ],
+        "shots": [
+          18,
+          19
+        ],
+        "sot": [
+          9,
+          6
+        ],
+        "fouls": [
+          6,
+          16
+        ],
+        "corners": [
+          5,
+          3
+        ],
+        "cards": [
+          1,
+          2
+        ]
+      },
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401884739/borussia-monchengladbach-hamburg-sv"
+    },
+    {
+      "fixture_id": "558537",
+      "home": "Venezia",
+      "away": "Udinese",
+      "metrics": {
+        "goals": [
+          2,
+          1
+        ],
+        "shots": [
+          15,
+          13
+        ],
+        "sot": [
+          4,
+          5
+        ],
+        "fouls": [
+          11,
+          6
+        ],
+        "corners": [
+          3,
+          7
+        ],
+        "cards": [
+          1,
+          1
+        ]
+      },
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401874815/udinese-venezia"
+    },
+    {
+      "fixture_id": "559638",
+      "home": "Toulouse",
+      "away": "Strasbourg",
+      "metrics": {
+        "goals": [
+          3,
+          1
+        ],
+        "shots": [
+          10,
+          9
+        ],
+        "sot": [
+          5,
+          4
+        ],
+        "fouls": [
+          16,
+          15
+        ],
+        "corners": [
+          7,
+          1
+        ],
+        "cards": [
+          3,
+          3
+        ]
+      },
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401876405/strasbourg-toulouse"
+    }
+  ],
+  "tiers": [
+    {
+      "fixture_id": "564740",
+      "selection_id": "handicap:total:away:1.5:",
+      "match": "Sevilla – Alaves",
+      "market": "Hándicap de goles",
+      "label": "Alaves +1,5",
+      "probability": 0.7682551050215297,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 0,
+      "actual_away": 0,
+      "tier": "Conservadora"
+    },
+    {
+      "fixture_id": "564740",
+      "selection_id": "corners:away:over:2.5:",
+      "match": "Sevilla – Alaves",
+      "market": "Córners",
+      "label": "Alaves: más de 2,5 córners",
+      "probability": 0.6564075649285926,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "corners",
+      "actual_home": 5,
+      "actual_away": 4,
+      "tier": "Normal"
+    },
+    {
+      "fixture_id": "564740",
+      "selection_id": "shots:home:under:13.5:",
+      "match": "Sevilla – Alaves",
+      "market": "Remates",
+      "label": "Sevilla: menos de 13,5 remates",
+      "probability": 0.5837145850476777,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "shots",
+      "actual_home": 13,
+      "actual_away": 9,
+      "tier": "Arriesgada"
+    },
+    {
+      "fixture_id": "560634",
+      "selection_id": "sot:total:over:5.5:",
+      "match": "Everton – Coventry",
+      "market": "Tiros al arco",
+      "label": "Más de 5,5 tiros al arco totales",
+      "probability": 0.7702251841065682,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "sot",
+      "actual_home": 7,
+      "actual_away": 4,
+      "tier": "Conservadora"
+    },
+    {
+      "fixture_id": "560634",
+      "selection_id": "shots:total:over:23.5:",
+      "match": "Everton – Coventry",
+      "market": "Remates",
+      "label": "Más de 23,5 remates totales",
+      "probability": 0.6978220108894182,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "shots",
+      "actual_home": 16,
+      "actual_away": 15,
+      "tier": "Normal"
+    },
+    {
+      "fixture_id": "560634",
+      "selection_id": "corners:away:under:4.5:",
+      "match": "Everton – Coventry",
+      "market": "Córners",
+      "label": "Coventry: menos de 4,5 córners",
+      "probability": 0.5660943350419373,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "corners",
+      "actual_home": 2,
+      "actual_away": 2,
+      "tier": "Arriesgada"
+    },
+    {
+      "fixture_id": "565852",
+      "selection_id": "goals:total:over:1.5:",
+      "match": "Hamburg – M'gladbach",
+      "market": "Goles",
+      "label": "Más de 1,5 goles",
+      "probability": 0.817744822394899,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 3,
+      "actual_away": 1,
+      "tier": "Conservadora"
+    },
+    {
+      "fixture_id": "565852",
+      "selection_id": "shots:away:over:11.5:",
+      "match": "Hamburg – M'gladbach",
+      "market": "Remates",
+      "label": "M'gladbach: más de 11,5 remates",
+      "probability": 0.6344066581147626,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "shots",
+      "actual_home": 18,
+      "actual_away": 19,
+      "tier": "Normal"
+    },
+    {
+      "fixture_id": "565852",
+      "selection_id": "sot:away:over:3.5:",
+      "match": "Hamburg – M'gladbach",
+      "market": "Tiros al arco",
+      "label": "M'gladbach: más de 3,5 tiros al arco",
+      "probability": 0.6077153546571445,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "sot",
+      "actual_home": 9,
+      "actual_away": 6,
+      "tier": "Arriesgada"
+    },
+    {
+      "fixture_id": "558537",
+      "selection_id": "corners:total:under:12.5:",
+      "match": "Venezia – Udinese",
+      "market": "Córners",
+      "label": "Menos de 12,5 córners",
+      "probability": 0.7049142934775925,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "corners",
+      "actual_home": 3,
+      "actual_away": 7,
+      "tier": "Conservadora"
+    },
+    {
+      "fixture_id": "558537",
+      "selection_id": "fouls:total:under:23.5:",
+      "match": "Venezia – Udinese",
+      "market": "Faltas",
+      "label": "Menos de 23,5 faltas totales",
+      "probability": 0.6377049237772852,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "fouls",
+      "actual_home": 11,
+      "actual_away": 6,
+      "tier": "Normal"
+    },
+    {
+      "fixture_id": "558537",
+      "selection_id": "sot:home:over:3.5:",
+      "match": "Venezia – Udinese",
+      "market": "Tiros al arco",
+      "label": "Venezia: más de 3,5 tiros al arco",
+      "probability": 0.6317793206052045,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "sot",
+      "actual_home": 4,
+      "actual_away": 5,
+      "tier": "Arriesgada"
+    },
+    {
+      "fixture_id": "559638",
+      "selection_id": "shots:home:over:10.5:",
+      "match": "Toulouse – Strasbourg",
+      "market": "Remates",
+      "label": "Toulouse: más de 10,5 remates",
+      "probability": 0.7333894357115401,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "shots",
+      "actual_home": 10,
+      "actual_away": 9,
+      "tier": "Conservadora"
+    },
+    {
+      "fixture_id": "559638",
+      "selection_id": "double_chance:total:1X:None:",
+      "match": "Toulouse – Strasbourg",
+      "market": "Doble oportunidad",
+      "label": "Toulouse o empate",
+      "probability": 0.6788104398072505,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 3,
+      "actual_away": 1,
+      "tier": "Normal"
+    },
+    {
+      "fixture_id": "559638",
+      "selection_id": "goals:away:under:1.5:",
+      "match": "Toulouse – Strasbourg",
+      "market": "Goles",
+      "label": "Strasbourg: menos de 1,5 goles",
+      "probability": 0.6089729878026025,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 3,
+      "actual_away": 1,
+      "tier": "Arriesgada"
+    }
+  ],
+  "unique_selections": [
+    {
+      "fixture_id": "564740",
+      "selection_id": "double_chance:total:1X:None:",
+      "match": "Sevilla – Alaves",
+      "market": "Doble oportunidad",
+      "label": "Sevilla o empate",
+      "probability": 0.7241548899003533,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 0,
+      "actual_away": 0
+    },
+    {
+      "fixture_id": "564740",
+      "selection_id": "handicap:total:away:1.5:",
+      "match": "Sevilla – Alaves",
+      "market": "Hándicap de goles",
+      "label": "Alaves +1,5",
+      "probability": 0.7682551050215297,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 0,
+      "actual_away": 0
+    },
+    {
+      "fixture_id": "564740",
+      "selection_id": "goals:total:over:1.5:",
+      "match": "Sevilla – Alaves",
+      "market": "Goles",
+      "label": "Más de 1,5 goles",
+      "probability": 0.7389728411772024,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "goals",
+      "actual_home": 0,
+      "actual_away": 0
+    },
+    {
+      "fixture_id": "564740",
+      "selection_id": "result_goals:total:1X:3.5:under",
+      "match": "Sevilla – Alaves",
+      "market": "Resultado y goles",
+      "label": "Sevilla o empate y menos de 3,5 goles",
+      "probability": 0.5275129963431714,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 0,
+      "actual_away": 0
+    },
+    {
+      "fixture_id": "564740",
+      "selection_id": "shots:total:over:18.5:",
+      "match": "Sevilla – Alaves",
+      "market": "Remates",
+      "label": "Más de 18,5 remates totales",
+      "probability": 0.8270323937860045,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "shots",
+      "actual_home": 13,
+      "actual_away": 9
+    },
+    {
+      "fixture_id": "564740",
+      "selection_id": "sot:home:over:2.5:",
+      "match": "Sevilla – Alaves",
+      "market": "Tiros al arco",
+      "label": "Sevilla: más de 2,5 tiros al arco",
+      "probability": 0.7371739002436299,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "sot",
+      "actual_home": 3,
+      "actual_away": 2
+    },
+    {
+      "fixture_id": "564740",
+      "selection_id": "fouls:away:over:10.5:",
+      "match": "Sevilla – Alaves",
+      "market": "Faltas",
+      "label": "Alaves: más de 10,5 faltas",
+      "probability": 0.791486657266166,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "fouls",
+      "actual_home": 14,
+      "actual_away": 19
+    },
+    {
+      "fixture_id": "564740",
+      "selection_id": "corners:total:under:11.5:",
+      "match": "Sevilla – Alaves",
+      "market": "Córners",
+      "label": "Menos de 11,5 córners",
+      "probability": 0.8462099646618491,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "corners",
+      "actual_home": 5,
+      "actual_away": 4
+    },
+    {
+      "fixture_id": "564740",
+      "selection_id": "corners:away:over:2.5:",
+      "match": "Sevilla – Alaves",
+      "market": "Córners",
+      "label": "Alaves: más de 2,5 córners",
+      "probability": 0.6564075649285926,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "corners",
+      "actual_home": 5,
+      "actual_away": 4
+    },
+    {
+      "fixture_id": "564740",
+      "selection_id": "shots:home:under:13.5:",
+      "match": "Sevilla – Alaves",
+      "market": "Remates",
+      "label": "Sevilla: menos de 13,5 remates",
+      "probability": 0.5837145850476777,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "shots",
+      "actual_home": 13,
+      "actual_away": 9
+    },
+    {
+      "fixture_id": "560634",
+      "selection_id": "double_chance:total:12:None:",
+      "match": "Everton – Coventry",
+      "market": "Doble oportunidad",
+      "label": "Cualquiera gana, sin empate",
+      "probability": 0.7286457050039843,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 3,
+      "actual_away": 1
+    },
+    {
+      "fixture_id": "560634",
+      "selection_id": "goals:total:under:3.5:",
+      "match": "Everton – Coventry",
+      "market": "Goles",
+      "label": "Menos de 3,5 goles",
+      "probability": 0.7643710085585074,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "goals",
+      "actual_home": 3,
+      "actual_away": 1
+    },
+    {
+      "fixture_id": "560634",
+      "selection_id": "shots:total:over:23.5:",
+      "match": "Everton – Coventry",
+      "market": "Remates",
+      "label": "Más de 23,5 remates totales",
+      "probability": 0.6978220108894182,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "shots",
+      "actual_home": 16,
+      "actual_away": 15
+    },
+    {
+      "fixture_id": "560634",
+      "selection_id": "sot:total:over:5.5:",
+      "match": "Everton – Coventry",
+      "market": "Tiros al arco",
+      "label": "Más de 5,5 tiros al arco totales",
+      "probability": 0.7702251841065682,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "sot",
+      "actual_home": 7,
+      "actual_away": 4
+    },
+    {
+      "fixture_id": "560634",
+      "selection_id": "fouls:away:over:9.5:",
+      "match": "Everton – Coventry",
+      "market": "Faltas",
+      "label": "Coventry: más de 9,5 faltas",
+      "probability": 0.7659052901823349,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "fouls",
+      "actual_home": 9,
+      "actual_away": 6
+    },
+    {
+      "fixture_id": "560634",
+      "selection_id": "corners:total:under:12.5:",
+      "match": "Everton – Coventry",
+      "market": "Córners",
+      "label": "Menos de 12,5 córners",
+      "probability": 0.8558460724052406,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "corners",
+      "actual_home": 2,
+      "actual_away": 2
+    },
+    {
+      "fixture_id": "560634",
+      "selection_id": "corners:away:under:4.5:",
+      "match": "Everton – Coventry",
+      "market": "Córners",
+      "label": "Coventry: menos de 4,5 córners",
+      "probability": 0.5660943350419373,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "corners",
+      "actual_home": 2,
+      "actual_away": 2
+    },
+    {
+      "fixture_id": "565852",
+      "selection_id": "double_chance:total:12:None:",
+      "match": "Hamburg – M'gladbach",
+      "market": "Doble oportunidad",
+      "label": "Cualquiera gana, sin empate",
+      "probability": 0.7533153810913945,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 3,
+      "actual_away": 1
+    },
+    {
+      "fixture_id": "565852",
+      "selection_id": "goals:total:over:2.5:",
+      "match": "Hamburg – M'gladbach",
+      "market": "Goles",
+      "label": "Más de 2,5 goles",
+      "probability": 0.5965991748643832,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 3,
+      "actual_away": 1
+    },
+    {
+      "fixture_id": "565852",
+      "selection_id": "btts:total:yes:None:",
+      "match": "Hamburg – M'gladbach",
+      "market": "Ambos marcan",
+      "label": "Ambos marcan: sí",
+      "probability": 0.6203028175861655,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 3,
+      "actual_away": 1
+    },
+    {
+      "fixture_id": "565852",
+      "selection_id": "shots:away:over:12.5:",
+      "match": "Hamburg – M'gladbach",
+      "market": "Remates",
+      "label": "M'gladbach: más de 12,5 remates",
+      "probability": 0.5586052635642168,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "shots",
+      "actual_home": 18,
+      "actual_away": 19
+    },
+    {
+      "fixture_id": "565852",
+      "selection_id": "sot:total:over:7.5:",
+      "match": "Hamburg – M'gladbach",
+      "market": "Tiros al arco",
+      "label": "Más de 7,5 tiros al arco totales",
+      "probability": 0.781508254399745,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "sot",
+      "actual_home": 9,
+      "actual_away": 6
+    },
+    {
+      "fixture_id": "565852",
+      "selection_id": "fouls:home:under:15.5:",
+      "match": "Hamburg – M'gladbach",
+      "market": "Faltas",
+      "label": "Hamburg: menos de 15,5 faltas",
+      "probability": 0.8296081028709354,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "fouls",
+      "actual_home": 6,
+      "actual_away": 16
+    },
+    {
+      "fixture_id": "565852",
+      "selection_id": "corners:home:under:7.5:",
+      "match": "Hamburg – M'gladbach",
+      "market": "Córners",
+      "label": "Hamburg: menos de 7,5 córners",
+      "probability": 0.819176324239529,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "corners",
+      "actual_home": 5,
+      "actual_away": 3
+    },
+    {
+      "fixture_id": "565852",
+      "selection_id": "goals:total:over:1.5:",
+      "match": "Hamburg – M'gladbach",
+      "market": "Goles",
+      "label": "Más de 1,5 goles",
+      "probability": 0.817744822394899,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 3,
+      "actual_away": 1
+    },
+    {
+      "fixture_id": "565852",
+      "selection_id": "shots:away:over:11.5:",
+      "match": "Hamburg – M'gladbach",
+      "market": "Remates",
+      "label": "M'gladbach: más de 11,5 remates",
+      "probability": 0.6344066581147626,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "shots",
+      "actual_home": 18,
+      "actual_away": 19
+    },
+    {
+      "fixture_id": "565852",
+      "selection_id": "sot:away:over:3.5:",
+      "match": "Hamburg – M'gladbach",
+      "market": "Tiros al arco",
+      "label": "M'gladbach: más de 3,5 tiros al arco",
+      "probability": 0.6077153546571445,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "sot",
+      "actual_home": 9,
+      "actual_away": 6
+    },
+    {
+      "fixture_id": "558537",
+      "selection_id": "double_chance:total:12:None:",
+      "match": "Venezia – Udinese",
+      "market": "Doble oportunidad",
+      "label": "Cualquiera gana, sin empate",
+      "probability": 0.7198032989674631,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 1
+    },
+    {
+      "fixture_id": "558537",
+      "selection_id": "goals:total:over:1.5:",
+      "match": "Venezia – Udinese",
+      "market": "Goles",
+      "label": "Más de 1,5 goles",
+      "probability": 0.709573030408644,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 1
+    },
+    {
+      "fixture_id": "558537",
+      "selection_id": "shots:total:over:23.5:",
+      "match": "Venezia – Udinese",
+      "market": "Remates",
+      "label": "Más de 23,5 remates totales",
+      "probability": 0.7763116357947781,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "shots",
+      "actual_home": 15,
+      "actual_away": 13
+    },
+    {
+      "fixture_id": "558537",
+      "selection_id": "sot:home:over:3.5:",
+      "match": "Venezia – Udinese",
+      "market": "Tiros al arco",
+      "label": "Venezia: más de 3,5 tiros al arco",
+      "probability": 0.6317793206052045,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "sot",
+      "actual_home": 4,
+      "actual_away": 5
+    },
+    {
+      "fixture_id": "558537",
+      "selection_id": "fouls:away:under:14.5:",
+      "match": "Venezia – Udinese",
+      "market": "Faltas",
+      "label": "Udinese: menos de 14,5 faltas",
+      "probability": 0.760436031251508,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "fouls",
+      "actual_home": 11,
+      "actual_away": 6
+    },
+    {
+      "fixture_id": "558537",
+      "selection_id": "corners:total:under:12.5:",
+      "match": "Venezia – Udinese",
+      "market": "Córners",
+      "label": "Menos de 12,5 córners",
+      "probability": 0.7049142934775925,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "corners",
+      "actual_home": 3,
+      "actual_away": 7
+    },
+    {
+      "fixture_id": "558537",
+      "selection_id": "fouls:total:under:23.5:",
+      "match": "Venezia – Udinese",
+      "market": "Faltas",
+      "label": "Menos de 23,5 faltas totales",
+      "probability": 0.6377049237772852,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "fouls",
+      "actual_home": 11,
+      "actual_away": 6
+    },
+    {
+      "fixture_id": "559638",
+      "selection_id": "double_chance:total:12:None:",
+      "match": "Toulouse – Strasbourg",
+      "market": "Doble oportunidad",
+      "label": "Cualquiera gana, sin empate",
+      "probability": 0.7467377216805909,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 3,
+      "actual_away": 1
+    },
+    {
+      "fixture_id": "559638",
+      "selection_id": "handicap:total:away:1.5:",
+      "match": "Toulouse – Strasbourg",
+      "market": "Hándicap de goles",
+      "label": "Strasbourg +1,5",
+      "probability": 0.7817103358727169,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "goals",
+      "actual_home": 3,
+      "actual_away": 1
+    },
+    {
+      "fixture_id": "559638",
+      "selection_id": "goals:away:under:1.5:",
+      "match": "Toulouse – Strasbourg",
+      "market": "Goles",
+      "label": "Strasbourg: menos de 1,5 goles",
+      "probability": 0.6089729878026025,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 3,
+      "actual_away": 1
+    },
+    {
+      "fixture_id": "559638",
+      "selection_id": "shots:home:over:13.5:",
+      "match": "Toulouse – Strasbourg",
+      "market": "Remates",
+      "label": "Toulouse: más de 13,5 remates",
+      "probability": 0.5067092712691376,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "shots",
+      "actual_home": 10,
+      "actual_away": 9
+    },
+    {
+      "fixture_id": "559638",
+      "selection_id": "sot:home:under:7.5:",
+      "match": "Toulouse – Strasbourg",
+      "market": "Tiros al arco",
+      "label": "Toulouse: menos de 7,5 tiros al arco",
+      "probability": 0.8257557871712448,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "sot",
+      "actual_home": 5,
+      "actual_away": 4
+    },
+    {
+      "fixture_id": "559638",
+      "selection_id": "fouls:away:under:16.5:",
+      "match": "Toulouse – Strasbourg",
+      "market": "Faltas",
+      "label": "Strasbourg: menos de 16,5 faltas",
+      "probability": 0.7949455126192772,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "fouls",
+      "actual_home": 16,
+      "actual_away": 15
+    },
+    {
+      "fixture_id": "559638",
+      "selection_id": "corners:home:under:7.5:",
+      "match": "Toulouse – Strasbourg",
+      "market": "Córners",
+      "label": "Toulouse: menos de 7,5 córners",
+      "probability": 0.8396255820124249,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "corners",
+      "actual_home": 7,
+      "actual_away": 1
+    },
+    {
+      "fixture_id": "559638",
+      "selection_id": "shots:home:over:10.5:",
+      "match": "Toulouse – Strasbourg",
+      "market": "Remates",
+      "label": "Toulouse: más de 10,5 remates",
+      "probability": 0.7333894357115401,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "shots",
+      "actual_home": 10,
+      "actual_away": 9
+    },
+    {
+      "fixture_id": "559638",
+      "selection_id": "double_chance:total:1X:None:",
+      "match": "Toulouse – Strasbourg",
+      "market": "Doble oportunidad",
+      "label": "Toulouse o empate",
+      "probability": 0.6788104398072505,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 3,
+      "actual_away": 1
+    }
+  ],
+  "tier_summary": {
+    "selections": 15,
+    "settled": 15,
+    "won": 14,
+    "lost": 1,
+    "unverified": 0,
+    "hit_rate": 0.9333333333333333
+  },
+  "unique_summary": {
+    "selections": 43,
+    "settled": 43,
+    "won": 37,
+    "lost": 6,
+    "unverified": 0,
+    "hit_rate": 0.8604651162790697
+  },
+  "by_tier": {
+    "Conservadora": {
+      "selections": 5,
+      "settled": 5,
+      "won": 4,
+      "lost": 1,
+      "unverified": 0,
+      "hit_rate": 0.8
+    },
+    "Normal": {
+      "selections": 5,
+      "settled": 5,
+      "won": 5,
+      "lost": 0,
+      "unverified": 0,
+      "hit_rate": 1.0
+    },
+    "Arriesgada": {
+      "selections": 5,
+      "settled": 5,
+      "won": 5,
+      "lost": 0,
+      "unverified": 0,
+      "hit_rate": 1.0
+    }
+  },
+  "parlays": [
+    {
+      "size": 3,
+      "status": "unavailable",
+      "probability_before_match": null,
+      "legs": []
+    },
+    {
+      "size": 4,
+      "status": "unavailable",
+      "probability_before_match": null,
+      "legs": []
+    }
+  ],
+  "analysis": [
+    "Fijas principales: 14/15. Mercados únicos: 37/43. Se conservan las probabilidades previas y se registran los resultados, sin reajustar el modelo con esta jornada.",
+    "Conservadora: 4/5 acertadas.",
+    "Normal: 5/5 acertadas.",
+    "Arriesgada: 5/5 acertadas.",
+    "Falló Toulouse: más de 10,5 remates en Toulouse – Strasbourg: resultado final 10–9 (shots).",
+    "0 partidos no tenían fijas principales publicadas; no se cuentan como fallos ni aciertos."
+  ]
+}
