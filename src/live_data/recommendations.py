@@ -153,7 +153,7 @@ def candidates(report,contexts,dispersion_data=None,quotes=None,as_of=None,marke
         else:
             mp=market_probability(item,market);item['market_source']='football-data.co.uk (media)' if mp is not None else None
         # Matches close to the capture (markets fully open): only lines with a real price can be published.
-        if betano and not item.get('betano_odds') and utc(report['kickoff_utc'])-utc(betano['observed_at'])<=pd.Timedelta(hours=40):
+        if betano and not item.get('betano_odds') and utc(report['kickoff_utc'])-utc(betano['observed_at'])<=pd.Timedelta(hours=72):
             item['price_status']='not_in_observed_lines'
         item['market_probability']=mp
         item['market_check']='not_available' if mp is None else 'agrees' if mp>=.5 else 'disagrees'
