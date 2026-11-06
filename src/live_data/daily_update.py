@@ -220,13 +220,23 @@ def evaluate_event(lima_day, code, league, event, source, calendar, fd, known_te
     if fd and fdm is None:
         verification = {'status': 'espn_only', 'reason': 'football-data no devolvió el partido en el rango consultado.'}
     elif fdm is not None:
+        lagging = False
         if fdm['status'] != 'FINISHED':
-            return 'pending', {**info, 'provider_status': fdm['status'],
-                               'reason': 'La segunda fuente aún no confirma el final; se reintenta en la próxima ejecución.'}
-        full = fdm['score']['fullTime']
+            # football-data often lags ESPN by hours. If ESPN shows full time and the match started
+            # more than 2.5 h ago, accept ESPN unless the second source reports an abnormal state.
+            try:
+                started = pd.Timestamp(event.get('date')).tz_convert('UTC') if pd.Timestamp(event.get('date')).tzinfo else pd.Timestamp(event.get('date')).tz_localize('UTC')
+                old_enough = pd.Timestamp.now(tz='UTC') - started >= pd.Timedelta(hours=2.5)
+            except Exception:
+                old_enough = False
+            if fdm['status'] in ('POSTPONED', 'SUSPENDED', 'CANCELLED', 'AWARDED') or not old_enough:
+                return 'pending', {**info, 'provider_status': fdm['status'],
+                                   'reason': 'La segunda fuente aún no confirma el final; se reintenta en la próxima ejecución.'}
+            lagging = True
+        full = fdm['score']['fullTime'] if not lagging else {'home': rec['metrics']['goals'][0], 'away': rec['metrics']['goals'][1]}
         if [full['home'], full['away']] != rec['metrics']['goals']:
             return 'pending', {**info, 'reason': f'Marcador discrepante: ESPN {rec["metrics"]["goals"]} y football-data {[full["home"], full["away"]]}.'}
-        verification = {'status': 'verified', 'source': 'football-data.org',
+        verification = {'status': 'espn_only', 'reason': f'football-data todavía en {fdm["status"]}; final confirmado por ESPN.'} if lagging else {'status': 'verified', 'source': 'football-data.org',
                         'source_url': f'https://api.football-data.org/v4/matches/{info["fixture_id"]}'}
     else:
         verification = {'status': 'espn_only', 'reason': 'unverified_second_source: football-data no disponible (sin clave o sin red).'}
