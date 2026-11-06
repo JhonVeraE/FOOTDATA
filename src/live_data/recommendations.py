@@ -360,7 +360,8 @@ def make_match(report,stats,quotes=None,as_of=None,feedback_records=None,market_
     sample=report.get('quality',{}).get('effective_sample_min',0)
     unknown=any('sin historial' in warning.lower() for warning in report.get('data_warnings',[]))
     cons=tiers[0]['selection']
-    pick=cons if cons and full_pattern(cons) and sample>=5 and not unknown else None
+    # Every match with a Conservadora can enter the parlay; the parlay search prefers higher joint probability.
+    pick=cons
     return {'fixture_id':str(report['fixture_id']),'competition':report['competition'],'home':report['local'],'away':report['visitante'],'kickoff_utc':report['kickoff_utc'],'date_lima':utc(report['kickoff_utc']).tz_convert('America/Lima').date().isoformat(),'prediction_generated_at':report['generated_at'],'cutoff':report['cutoff'],'tiers':tiers,'markets':by_market,'parlay_selection':pick,'market_priority':'goals_and_results_first','market_reference':None if record is None else {k:record[k] for k in ['price_set','home','draw','away','over25','under25','retrieved_at','source']},'betano_reference':None if betano is None else {'betano_id':betano['betano_id'],'kickoff_utc_betano':betano['kickoff_utc'],'kickoff_matches':utc(betano['kickoff_utc'])==utc(report['kickoff_utc']),'observed_at':betano['observed_at'],'result_odds':betano['result'],'capture':betano['capture']},'coherence':'Las tres selecciones del partido no se contradicen: ninguna apuesta en sentido opuesto a otra sobre el margen del partido o el total de goles.','selection_rule':'v7.1: Conservadora 1,15–1,32, Normal 1,30–1,50, Arriesgada 1,50–1,85; sin líneas que pagan el mínimo; rachas de al menos 4 de 5 en ambos equipos cuando existen, priorizando 5 de 5; una fija por nivel en todos los partidos.','limited_european_sample':report['competition']=='UEFA Champions League'}
 
 def choose_parlay(pool,size,as_of):
