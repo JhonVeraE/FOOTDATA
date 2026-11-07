@@ -1,0 +1,159 @@
+{
+  "run_at": "2026-11-07T23:24:53.046833+00:00",
+  "dates": [
+    "2026-11-04",
+    "2026-11-05",
+    "2026-11-06",
+    "2026-11-07"
+  ],
+  "mode": "online",
+  "football_data_key": true,
+  "apply": true,
+  "frozen": {
+    "2026-11-04": "already_frozen",
+    "2026-11-05": "no_forecasts",
+    "2026-11-06": "already_frozen",
+    "2026-11-07": "frozen_from:20261106T171419304435Z.json"
+  },
+  "healthy": true,
+  "events": 33,
+  "finals": 33,
+  "added_matches": [
+    "Bundesliga_2026/27_espn_401884737",
+    "Bundesliga_2026/27_espn_401884740",
+    "Bundesliga_2026/27_espn_401884743",
+    "Bundesliga_2026/27_espn_401884744",
+    "Bundesliga_2026/27_espn_401884745",
+    "La Liga_2026/27_espn_401882808",
+    "La Liga_2026/27_espn_401882811",
+    "La Liga_2026/27_espn_401882812",
+    "La Liga_2026/27_espn_401882813",
+    "Ligue 1_2026/27_espn_401876407",
+    "Ligue 1_2026/27_espn_401876411",
+    "Premier League_2026/27_espn_401878757",
+    "Premier League_2026/27_espn_401878758",
+    "Premier League_2026/27_espn_401878760",
+    "Premier League_2026/27_espn_401879241",
+    "Serie A_2026/27_espn_401874791",
+    "Serie A_2026/27_espn_401874803",
+    "Serie A_2026/27_espn_401874811",
+    "Serie A_2026/27_espn_401874974"
+  ],
+  "added_rows": 38,
+  "already_present": [
+    {
+      "match_id": "Bundesliga_2026/27_espn_401884739",
+      "fixture_id": "565852"
+    },
+    {
+      "match_id": "La Liga_2026/27_espn_401882809",
+      "fixture_id": "564740"
+    },
+    {
+      "match_id": "Ligue 1_2026/27_espn_401876405",
+      "fixture_id": "559638"
+    },
+    {
+      "match_id": "Premier League_2026/27_espn_401879242",
+      "fixture_id": "560634"
+    },
+    {
+      "match_id": "Serie A_2026/27_espn_401874815",
+      "fixture_id": "558537"
+    },
+    {
+      "match_id": "UEFA Champions League_2026/27_espn_401915301",
+      "fixture_id": "575392"
+    },
+    {
+      "match_id": "UEFA Champions League_2026/27_espn_401915302",
+      "fixture_id": "575394"
+    },
+    {
+      "match_id": "UEFA Champions League_2026/27_espn_401915303",
+      "fixture_id": "575390"
+    },
+    {
+      "match_id": "UEFA Champions League_2026/27_espn_401915304",
+      "fixture_id": "575391"
+    },
+    {
+      "match_id": "UEFA Champions League_2026/27_espn_401915305",
+      "fixture_id": "575393"
+    },
+    {
+      "match_id": "UEFA Champions League_2026/27_espn_401915306",
+      "fixture_id": "575388"
+    },
+    {
+      "match_id": "UEFA Champions League_2026/27_espn_401915381",
+      "fixture_id": "575389"
+    },
+    {
+      "match_id": "UEFA Champions League_2026/27_espn_401915382",
+      "fixture_id": "575387"
+    },
+    {
+      "match_id": "UEFA Champions League_2026/27_espn_401915383",
+      "fixture_id": "575386"
+    }
+  ],
+  "source_differences": [],
+  "pending": [],
+  "source_errors": [],
+  "espn_only": [],
+  "calendar_changed": true,
+  "calendar_issues": [],
+  "reviews": {
+    "2026-11-04": {
+      "ingestion": "sin cambios"
+    },
+    "2026-11-05": {
+      "ingestion": "sin pronósticos congelados"
+    },
+    "2026-11-06": {
+      "ingestion": "sin cambios"
+    },
+    "2026-11-07": {
+      "ingestion": "actualizado",
+      "review_error": "ValueError: Shortlist is not pre-match"
+    }
+  },
+  "prospective": {
+    "scored_matches": 192,
+    "accuracy": 0.6145833333333334,
+    "log_loss": 0.9150484592462019
+  },
+  "standings_refresh": [
+    {
+      "competition": "La Liga",
+      "status": "refreshed",
+      "teams": 20
+    },
+    {
+      "competition": "Premier League",
+      "status": "refreshed",
+      "teams": 20
+    },
+    {
+      "competition": "Bundesliga",
+      "status": "refreshed",
+      "teams": 18
+    },
+    {
+      "competition": "Serie A",
+      "status": "refreshed",
+      "teams": 20
+    },
+    {
+      "competition": "Ligue 1",
+      "status": "refreshed",
+      "teams": 18
+    },
+    {
+      "competition": "UEFA Champions League",
+      "status": "refreshed",
+      "teams": 36
+    }
+  ]
+}
