@@ -357,6 +357,16 @@ def make_match(report,stats,quotes=None,as_of=None,feedback_records=None,market_
             if best:break
         if best:chosen.append(best);used.add(best['kind'])
         tiers.append({'key':key,'label':label,'selection':best,'status':'available' if best else 'insufficient_data'})
+    # Manual editorial overrides (data/artifacts/fijas_overrides.json): {fixture_id: {tier_key: selection_id}}.
+    try:
+        overrides=json.loads((ARTIFACT_DIR/'fijas_overrides.json').read_text(encoding='utf-8')).get(str(report['fixture_id']),{})
+    except Exception:
+        overrides={}
+    for tier in tiers:
+        sid=overrides.get(tier['key'])
+        found=next((o for o in options if o['id']==sid),None) if sid else None
+        if found:
+            tier['selection']={**found,'editorial_override':True};tier['status']='available'
     # Combinadas: only conservadoras whose pattern held in every recent match of both teams.
     sample=report.get('quality',{}).get('effective_sample_min',0)
     unknown=any('sin historial' in warning.lower() for warning in report.get('data_warnings',[]))
