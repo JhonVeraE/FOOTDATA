@@ -148,8 +148,11 @@ def freeze_forecasts(day, artifact_dir=ARTIFACT_DIR):
     if best is None:return 'no_forecasts'
     generated, path, archive = best
     fijas = None
+    first_kickoff = min(pd.Timestamp(m['kickoff_utc']) for m in archive['matches'] if m['fecha'] == day)
     for rpath in sorted((artifact_dir/'recommendation_archive').glob('*.json')):
         r = read(rpath)
+        # Only shortlists published before the day's first kickoff count (later re-runs are not pre-match).
+        if r.get('generated_at') and pd.Timestamp(r['generated_at']) >= first_kickoff:continue
         if (r.get('prediction_run_generated_at') == archive['run']['generated_at']
                 and r.get('dataset_id') == archive['run']['dataset_id']):fijas = rpath
     if fijas is None:return 'missing_matching_fijas'

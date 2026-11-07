@@ -1,6 +1,6 @@
 {
   "date": "2026-11-07",
-  "reviewed_at": "2026-11-07T23:25:48.533866+00:00",
+  "reviewed_at": "2026-11-07T23:30:36.603247+00:00",
   "summary": {
     "matches": 19,
     "hits_1x2": 11,
@@ -8,11 +8,11 @@
     "hits_btts": 9,
     "mean_absolute_errors": {
       "goals": 1.3469421556417998,
-      "shots": 7.722768412077016,
+      "shots": 7.722768412077018,
       "sot": 2.7509404707055864,
       "fouls": 4.725473776005877,
-      "corners": 3.1003640539405577,
-      "cards": 1.480769123530274
+      "corners": 3.100364053940558,
+      "cards": 1.4807691235302738
     }
   },
   "matches": [
@@ -660,7 +660,7 @@
       "hit_exact": false,
       "btts_probability": 0.5604798259854944,
       "hit_btts": false,
-      "brier": 0.5422540075855093,
+      "brier": 0.5422540075855095,
       "log_loss": 0.9159454933496664,
       "goal_lines": [
         {
@@ -1584,7 +1584,7 @@
       "hit_exact": true,
       "btts_probability": 0.6622955606498051,
       "hit_btts": true,
-      "brier": 0.15499798810059853,
+      "brier": 0.15499798810059856,
       "log_loss": 0.38750341183707093,
       "goal_lines": [
         {
@@ -1738,7 +1738,7 @@
       "hit_exact": false,
       "btts_probability": 0.6003666353604075,
       "hit_btts": true,
-      "brier": 0.8465092019452088,
+      "brier": 0.8465092019452087,
       "log_loss": 1.3812169269042707,
       "goal_lines": [
         {
