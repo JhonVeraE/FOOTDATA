@@ -1,5 +1,5 @@
 {
-  "run_at": "2026-11-07T23:24:53.046833+00:00",
+  "run_at": "2026-11-07T23:33:08.100737+00:00",
   "dates": [
     "2026-11-04",
     "2026-11-05",
@@ -13,33 +13,13 @@
     "2026-11-04": "already_frozen",
     "2026-11-05": "no_forecasts",
     "2026-11-06": "already_frozen",
-    "2026-11-07": "frozen_from:20261106T171419304435Z.json"
+    "2026-11-07": "already_frozen"
   },
   "healthy": true,
   "events": 33,
   "finals": 33,
-  "added_matches": [
-    "Bundesliga_2026/27_espn_401884737",
-    "Bundesliga_2026/27_espn_401884740",
-    "Bundesliga_2026/27_espn_401884743",
-    "Bundesliga_2026/27_espn_401884744",
-    "Bundesliga_2026/27_espn_401884745",
-    "La Liga_2026/27_espn_401882808",
-    "La Liga_2026/27_espn_401882811",
-    "La Liga_2026/27_espn_401882812",
-    "La Liga_2026/27_espn_401882813",
-    "Ligue 1_2026/27_espn_401876407",
-    "Ligue 1_2026/27_espn_401876411",
-    "Premier League_2026/27_espn_401878757",
-    "Premier League_2026/27_espn_401878758",
-    "Premier League_2026/27_espn_401878760",
-    "Premier League_2026/27_espn_401879241",
-    "Serie A_2026/27_espn_401874791",
-    "Serie A_2026/27_espn_401874803",
-    "Serie A_2026/27_espn_401874811",
-    "Serie A_2026/27_espn_401874974"
-  ],
-  "added_rows": 38,
+  "added_matches": [],
+  "added_rows": 0,
   "already_present": [
     {
       "match_id": "Bundesliga_2026/27_espn_401884739",
@@ -60,6 +40,82 @@
     {
       "match_id": "Serie A_2026/27_espn_401874815",
       "fixture_id": "558537"
+    },
+    {
+      "match_id": "Bundesliga_2026/27_espn_401884737",
+      "fixture_id": "565853"
+    },
+    {
+      "match_id": "Bundesliga_2026/27_espn_401884740",
+      "fixture_id": "565851"
+    },
+    {
+      "match_id": "Bundesliga_2026/27_espn_401884743",
+      "fixture_id": "565849"
+    },
+    {
+      "match_id": "Bundesliga_2026/27_espn_401884744",
+      "fixture_id": "565848"
+    },
+    {
+      "match_id": "Bundesliga_2026/27_espn_401884745",
+      "fixture_id": "565850"
+    },
+    {
+      "match_id": "La Liga_2026/27_espn_401882808",
+      "fixture_id": "564741"
+    },
+    {
+      "match_id": "La Liga_2026/27_espn_401882811",
+      "fixture_id": "564739"
+    },
+    {
+      "match_id": "La Liga_2026/27_espn_401882812",
+      "fixture_id": "564744"
+    },
+    {
+      "match_id": "La Liga_2026/27_espn_401882813",
+      "fixture_id": "564745"
+    },
+    {
+      "match_id": "Ligue 1_2026/27_espn_401876407",
+      "fixture_id": "559635"
+    },
+    {
+      "match_id": "Ligue 1_2026/27_espn_401876411",
+      "fixture_id": "559637"
+    },
+    {
+      "match_id": "Premier League_2026/27_espn_401878757",
+      "fixture_id": "560641"
+    },
+    {
+      "match_id": "Premier League_2026/27_espn_401878758",
+      "fixture_id": "560632"
+    },
+    {
+      "match_id": "Premier League_2026/27_espn_401878760",
+      "fixture_id": "560640"
+    },
+    {
+      "match_id": "Premier League_2026/27_espn_401879241",
+      "fixture_id": "560633"
+    },
+    {
+      "match_id": "Serie A_2026/27_espn_401874791",
+      "fixture_id": "558534"
+    },
+    {
+      "match_id": "Serie A_2026/27_espn_401874803",
+      "fixture_id": "558531"
+    },
+    {
+      "match_id": "Serie A_2026/27_espn_401874811",
+      "fixture_id": "558532"
+    },
+    {
+      "match_id": "Serie A_2026/27_espn_401874974",
+      "fixture_id": "558535"
     },
     {
       "match_id": "UEFA Champions League_2026/27_espn_401915301",
@@ -102,7 +158,7 @@
   "pending": [],
   "source_errors": [],
   "espn_only": [],
-  "calendar_changed": true,
+  "calendar_changed": false,
   "calendar_issues": [],
   "reviews": {
     "2026-11-04": {
@@ -115,8 +171,7 @@
       "ingestion": "sin cambios"
     },
     "2026-11-07": {
-      "ingestion": "actualizado",
-      "review_error": "ValueError: Shortlist is not pre-match"
+      "ingestion": "sin cambios"
     }
   },
   "prospective": {
