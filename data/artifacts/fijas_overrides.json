@@ -1,8 +1,17 @@
 {
   "560639": {
+    "conservative": "goals:total:over:1.5:",
+    "normal": "corners:total:over:8.5:",
     "risky": "goals:total:over:2.5:"
   },
   "558530": {
+    "conservative": "goals:total:over:1.5:",
+    "normal": "btts:total:yes:None:",
     "risky": "goals:total:over:2.5:"
+  },
+  "564746": {
+    "conservative": "corners:away:under:7.5:",
+    "normal": "goals:total:over:2.5:",
+    "risky": "fouls:home:under:12.5:"
   }
 }
