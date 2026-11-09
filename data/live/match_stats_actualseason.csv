@@ -951,3 +951,51 @@ Serie A_2026/27_espn_401874811,2026-11-07,Serie A,True,Torino,Lecce,1,1,9,6,2,1,
 Serie A_2026/27_espn_401874811,2026-11-07,Serie A,False,Lecce,Torino,1,1,6,9,1,2,16,11,5,4,2,0
 Serie A_2026/27_espn_401874974,2026-11-07,Serie A,True,Parma,Bologna,1,2,11,33,2,10,11,13,1,15,4,2
 Serie A_2026/27_espn_401874974,2026-11-07,Serie A,False,Bologna,Parma,2,1,33,11,10,2,13,11,15,1,2,4
+Bundesliga_2026/27_espn_401884738,2026-11-08,Bundesliga,True,FC Koln,Leverkusen,1,2,12,14,6,8,12,12,2,6,6,5
+Bundesliga_2026/27_espn_401884738,2026-11-08,Bundesliga,False,Leverkusen,FC Koln,2,1,14,12,8,6,12,12,6,2,5,6
+Bundesliga_2026/27_espn_401884741,2026-11-08,Bundesliga,True,Freiburg,Union Berlin,2,0,20,4,9,0,10,17,5,1,2,2
+Bundesliga_2026/27_espn_401884741,2026-11-08,Bundesliga,False,Union Berlin,Freiburg,0,2,4,20,0,9,17,10,1,5,2,2
+Bundesliga_2026/27_espn_401884742,2026-11-08,Bundesliga,True,Hoffenheim,Schalke 04,2,1,15,23,7,6,10,9,6,4,0,2
+Bundesliga_2026/27_espn_401884742,2026-11-08,Bundesliga,False,Schalke 04,Hoffenheim,1,2,23,15,6,7,9,10,4,6,2,0
+La Liga_2026/27_espn_401882807,2026-11-08,La Liga,True,Villarreal,Getafe,2,0,22,9,7,1,6,13,9,4,2,2
+La Liga_2026/27_espn_401882807,2026-11-08,La Liga,False,Getafe,Villarreal,0,2,9,22,1,7,13,6,4,9,2,2
+La Liga_2026/27_espn_401882810,2026-11-08,La Liga,True,Sociedad,Vallecano,1,0,17,11,3,3,11,8,7,6,2,2
+La Liga_2026/27_espn_401882810,2026-11-08,La Liga,False,Vallecano,Sociedad,0,1,11,17,3,3,8,11,6,7,2,2
+La Liga_2026/27_espn_401882814,2026-11-08,La Liga,True,Elche,Betis,0,2,13,18,1,9,12,7,9,8,4,0
+La Liga_2026/27_espn_401882814,2026-11-08,La Liga,False,Betis,Elche,2,0,18,13,9,1,7,12,8,9,0,4
+La Liga_2026/27_espn_401882815,2026-11-08,La Liga,True,Celta,Levante,0,0,23,6,8,0,8,9,6,1,1,2
+La Liga_2026/27_espn_401882815,2026-11-08,La Liga,False,Levante,Celta,0,0,6,23,0,8,9,8,1,6,2,1
+La Liga_2026/27_espn_401882816,2026-11-08,La Liga,True,Ath Madrid,Barcelona,1,2,9,19,4,4,14,14,4,2,4,1
+La Liga_2026/27_espn_401882816,2026-11-08,La Liga,False,Barcelona,Ath Madrid,2,1,19,9,4,4,14,14,2,4,1,4
+Ligue 1_2026/27_espn_401876404,2026-11-08,Ligue 1,True,Lens,Marseille,1,2,13,16,6,5,15,8,4,6,1,2
+Ligue 1_2026/27_espn_401876404,2026-11-08,Ligue 1,False,Marseille,Lens,2,1,16,13,5,6,8,15,6,4,2,1
+Ligue 1_2026/27_espn_401876406,2026-11-08,Ligue 1,True,Rennes,Lille,1,2,15,8,2,3,7,15,7,2,0,3
+Ligue 1_2026/27_espn_401876406,2026-11-08,Ligue 1,False,Lille,Rennes,2,1,8,15,3,2,15,7,2,7,3,0
+Ligue 1_2026/27_espn_401876408,2026-11-08,Ligue 1,True,Le Mans,Monaco,1,1,19,5,5,3,16,8,8,7,0,0
+Ligue 1_2026/27_espn_401876408,2026-11-08,Ligue 1,False,Monaco,Le Mans,1,1,5,19,3,5,8,16,7,8,0,0
+Ligue 1_2026/27_espn_401876409,2026-11-08,Ligue 1,True,Le Havre,Lorient,0,2,21,7,5,3,16,19,5,0,1,3
+Ligue 1_2026/27_espn_401876409,2026-11-08,Ligue 1,False,Lorient,Le Havre,2,0,7,21,3,5,19,16,0,5,3,1
+Ligue 1_2026/27_espn_401876410,2026-11-08,Ligue 1,True,Brest,Lyon,2,0,13,10,6,2,14,10,1,8,1,2
+Ligue 1_2026/27_espn_401876410,2026-11-08,Ligue 1,False,Lyon,Brest,0,2,10,13,2,6,10,14,8,1,2,1
+Ligue 1_2026/27_espn_401876412,2026-11-08,Ligue 1,True,Angers,Nice,0,2,12,16,4,8,10,6,6,4,3,1
+Ligue 1_2026/27_espn_401876412,2026-11-08,Ligue 1,False,Nice,Angers,2,0,16,12,8,4,6,10,4,6,1,3
+Premier League_2026/27_espn_401878759,2026-11-08,Premier League,True,Ipswich,Bournemouth,1,2,10,15,2,4,6,20,2,7,2,3
+Premier League_2026/27_espn_401878759,2026-11-08,Premier League,False,Bournemouth,Ipswich,2,1,15,10,4,2,20,6,7,2,3,2
+Premier League_2026/27_espn_401879239,2026-11-08,Premier League,True,Sunderland,Chelsea,1,0,9,10,2,4,17,8,2,2,5,4
+Premier League_2026/27_espn_401879239,2026-11-08,Premier League,False,Chelsea,Sunderland,0,1,10,9,4,2,8,17,2,2,4,5
+Premier League_2026/27_espn_401879240,2026-11-08,Premier League,True,Man United,Aston Villa,4,4,26,12,9,6,18,9,8,1,1,1
+Premier League_2026/27_espn_401879240,2026-11-08,Premier League,False,Aston Villa,Man United,4,4,12,26,6,9,9,18,1,8,1,1
+Premier League_2026/27_espn_401879243,2026-11-08,Premier League,True,Crystal Palace,Liverpool,1,3,19,20,7,8,10,18,4,7,2,4
+Premier League_2026/27_espn_401879243,2026-11-08,Premier League,False,Liverpool,Crystal Palace,3,1,20,19,8,7,18,10,7,4,4,2
+Premier League_2026/27_espn_401879244,2026-11-08,Premier League,True,Brighton,Brentford,2,0,20,5,6,0,11,7,7,3,4,3
+Premier League_2026/27_espn_401879244,2026-11-08,Premier League,False,Brentford,Brighton,0,2,5,20,0,6,7,11,3,7,3,4
+Serie A_2026/27_espn_401874800,2026-11-08,Serie A,True,Monza,Atalanta,0,1,22,13,7,7,11,6,7,2,4,2
+Serie A_2026/27_espn_401874800,2026-11-08,Serie A,False,Atalanta,Monza,1,0,13,22,7,7,6,11,2,7,2,4
+Serie A_2026/27_espn_401874808,2026-11-08,Serie A,True,Inter,Como,2,0,14,5,4,1,13,6,4,2,1,0
+Serie A_2026/27_espn_401874808,2026-11-08,Serie A,False,Como,Inter,0,2,5,14,1,4,6,13,2,4,0,1
+Serie A_2026/27_espn_401874810,2026-11-08,Serie A,True,Napoli,Lazio,1,1,15,15,6,6,12,11,6,6,3,1
+Serie A_2026/27_espn_401874810,2026-11-08,Serie A,False,Lazio,Napoli,1,1,15,15,6,6,11,12,6,6,1,3
+Serie A_2026/27_espn_401875003,2026-11-08,Serie A,True,Fiorentina,Juventus,2,2,22,18,6,6,16,18,5,12,1,3
+Serie A_2026/27_espn_401875003,2026-11-08,Serie A,False,Juventus,Fiorentina,2,2,18,22,6,6,18,16,12,5,3,1
+Serie A_2026/27_espn_401875018,2026-11-08,Serie A,True,Genoa,Milan,1,2,17,6,5,2,14,13,3,0,2,4
+Serie A_2026/27_espn_401875018,2026-11-08,Serie A,False,Milan,Genoa,2,1,6,17,2,5,13,14,0,3,4,2

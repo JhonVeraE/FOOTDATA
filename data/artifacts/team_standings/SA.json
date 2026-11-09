@@ -1,6 +1,6 @@
 {
   "season": "2026/27",
-  "updated_at": "2026-11-07T23:33:46.728440+00:00",
+  "updated_at": "2026-11-09T11:31:51.361506+00:00",
   "source": "football-data.org",
   "source_url": "https://api.football-data.org/v4/competitions/SA/standings",
   "tables": {
@@ -8,18 +8,30 @@
       {
         "team": "Lazio",
         "position": 1,
-        "played": 10,
+        "played": 11,
         "won": 9,
-        "draw": 1,
+        "draw": 2,
         "lost": 0,
-        "points": 28,
-        "goals_for": 24,
-        "goals_against": 8,
+        "points": 29,
+        "goals_for": 25,
+        "goals_against": 9,
         "goal_difference": 16
       },
       {
-        "team": "Roma",
+        "team": "Inter",
         "position": 2,
+        "played": 11,
+        "won": 9,
+        "draw": 1,
+        "lost": 1,
+        "points": 28,
+        "goals_for": 28,
+        "goals_against": 13,
+        "goal_difference": 15
+      },
+      {
+        "team": "Roma",
+        "position": 3,
         "played": 11,
         "won": 8,
         "draw": 3,
@@ -30,40 +42,28 @@
         "goal_difference": 21
       },
       {
-        "team": "Inter",
-        "position": 3,
-        "played": 10,
-        "won": 8,
-        "draw": 1,
-        "lost": 1,
-        "points": 25,
-        "goals_for": 26,
-        "goals_against": 13,
-        "goal_difference": 13
-      },
-      {
-        "team": "Como",
+        "team": "Milan",
         "position": 4,
-        "played": 10,
+        "played": 11,
         "won": 7,
-        "draw": 2,
+        "draw": 3,
         "lost": 1,
-        "points": 23,
-        "goals_for": 18,
-        "goals_against": 8,
+        "points": 24,
+        "goals_for": 23,
+        "goals_against": 13,
         "goal_difference": 10
       },
       {
-        "team": "Milan",
+        "team": "Como",
         "position": 5,
-        "played": 10,
-        "won": 6,
-        "draw": 3,
-        "lost": 1,
-        "points": 21,
-        "goals_for": 21,
-        "goals_against": 12,
-        "goal_difference": 9
+        "played": 11,
+        "won": 7,
+        "draw": 2,
+        "lost": 2,
+        "points": 23,
+        "goals_for": 18,
+        "goals_against": 10,
+        "goal_difference": 8
       },
       {
         "team": "Frosinone",
@@ -80,13 +80,13 @@
       {
         "team": "Juventus",
         "position": 7,
-        "played": 10,
+        "played": 11,
         "won": 5,
-        "draw": 2,
+        "draw": 3,
         "lost": 3,
-        "points": 17,
-        "goals_for": 13,
-        "goals_against": 10,
+        "points": 18,
+        "goals_for": 15,
+        "goals_against": 12,
         "goal_difference": 3
       },
       {
@@ -116,13 +116,13 @@
       {
         "team": "Napoli",
         "position": 10,
-        "played": 10,
+        "played": 11,
         "won": 4,
-        "draw": 2,
+        "draw": 3,
         "lost": 4,
-        "points": 14,
-        "goals_for": 17,
-        "goals_against": 13,
+        "points": 15,
+        "goals_for": 18,
+        "goals_against": 14,
         "goal_difference": 4
       },
       {
@@ -138,28 +138,28 @@
         "goal_difference": -2
       },
       {
-        "team": "Genoa",
-        "position": 12,
-        "played": 10,
-        "won": 4,
-        "draw": 1,
-        "lost": 5,
-        "points": 13,
-        "goals_for": 10,
-        "goals_against": 14,
-        "goal_difference": -4
-      },
-      {
         "team": "Atalanta",
-        "position": 13,
-        "played": 10,
-        "won": 3,
+        "position": 12,
+        "played": 11,
+        "won": 4,
         "draw": 2,
         "lost": 5,
-        "points": 11,
-        "goals_for": 16,
+        "points": 14,
+        "goals_for": 17,
         "goals_against": 20,
-        "goal_difference": -4
+        "goal_difference": -3
+      },
+      {
+        "team": "Genoa",
+        "position": 13,
+        "played": 11,
+        "won": 4,
+        "draw": 1,
+        "lost": 6,
+        "points": 13,
+        "goals_for": 11,
+        "goals_against": 16,
+        "goal_difference": -5
       },
       {
         "team": "Lecce",
@@ -176,13 +176,13 @@
       {
         "team": "Fiorentina",
         "position": 15,
-        "played": 10,
+        "played": 11,
         "won": 2,
-        "draw": 2,
+        "draw": 3,
         "lost": 6,
-        "points": 8,
-        "goals_for": 15,
-        "goals_against": 23,
+        "points": 9,
+        "goals_for": 17,
+        "goals_against": 25,
         "goal_difference": -8
       },
       {
@@ -212,14 +212,14 @@
       {
         "team": "Monza",
         "position": 18,
-        "played": 10,
+        "played": 11,
         "won": 2,
         "draw": 1,
-        "lost": 7,
+        "lost": 8,
         "points": 7,
         "goals_for": 17,
-        "goals_against": 24,
-        "goal_difference": -7
+        "goals_against": 25,
+        "goal_difference": -8
       },
       {
         "team": "Venezia",
@@ -248,8 +248,20 @@
     ],
     "home": [
       {
-        "team": "Roma",
+        "team": "Inter",
         "position": 1,
+        "played": 6,
+        "won": 6,
+        "draw": 0,
+        "lost": 0,
+        "points": 18,
+        "goals_for": 19,
+        "goals_against": 7,
+        "goal_difference": 12
+      },
+      {
+        "team": "Roma",
+        "position": 2,
         "played": 6,
         "won": 5,
         "draw": 1,
@@ -258,18 +270,6 @@
         "goals_for": 17,
         "goals_against": 5,
         "goal_difference": 12
-      },
-      {
-        "team": "Inter",
-        "position": 2,
-        "played": 5,
-        "won": 5,
-        "draw": 0,
-        "lost": 0,
-        "points": 15,
-        "goals_for": 17,
-        "goals_against": 7,
-        "goal_difference": 10
       },
       {
         "team": "Frosinone",
@@ -346,25 +346,25 @@
       {
         "team": "Genoa",
         "position": 9,
-        "played": 6,
+        "played": 7,
         "won": 3,
         "draw": 1,
-        "lost": 2,
+        "lost": 3,
         "points": 10,
-        "goals_for": 7,
-        "goals_against": 8,
-        "goal_difference": -1
+        "goals_for": 8,
+        "goals_against": 10,
+        "goal_difference": -2
       },
       {
         "team": "Napoli",
         "position": 10,
-        "played": 4,
+        "played": 5,
         "won": 2,
-        "draw": 1,
+        "draw": 2,
         "lost": 1,
-        "points": 7,
-        "goals_for": 8,
-        "goals_against": 5,
+        "points": 8,
+        "goals_for": 9,
+        "goals_against": 6,
         "goal_difference": 3
       },
       {
@@ -406,14 +406,14 @@
       {
         "team": "Monza",
         "position": 14,
-        "played": 4,
+        "played": 5,
         "won": 2,
         "draw": 0,
-        "lost": 2,
+        "lost": 3,
         "points": 6,
         "goals_for": 9,
-        "goals_against": 8,
-        "goal_difference": 1
+        "goals_against": 9,
+        "goal_difference": 0
       },
       {
         "team": "Venezia",
@@ -452,8 +452,20 @@
         "goal_difference": -4
       },
       {
-        "team": "Lecce",
+        "team": "Fiorentina",
         "position": 18,
+        "played": 6,
+        "won": 0,
+        "draw": 3,
+        "lost": 3,
+        "points": 3,
+        "goals_for": 7,
+        "goals_against": 13,
+        "goal_difference": -6
+      },
+      {
+        "team": "Lecce",
+        "position": 19,
         "played": 5,
         "won": 1,
         "draw": 0,
@@ -462,18 +474,6 @@
         "goals_for": 5,
         "goals_against": 12,
         "goal_difference": -7
-      },
-      {
-        "team": "Fiorentina",
-        "position": 19,
-        "played": 5,
-        "won": 0,
-        "draw": 2,
-        "lost": 3,
-        "points": 2,
-        "goals_for": 5,
-        "goals_against": 11,
-        "goal_difference": -6
       },
       {
         "team": "Udinese",
@@ -492,30 +492,42 @@
       {
         "team": "Lazio",
         "position": 1,
-        "played": 5,
+        "played": 6,
         "won": 5,
-        "draw": 0,
+        "draw": 1,
         "lost": 0,
-        "points": 15,
-        "goals_for": 14,
-        "goals_against": 3,
+        "points": 16,
+        "goals_for": 15,
+        "goals_against": 4,
         "goal_difference": 11
       },
       {
         "team": "Como",
         "position": 2,
-        "played": 6,
+        "played": 7,
         "won": 4,
         "draw": 1,
-        "lost": 1,
+        "lost": 2,
         "points": 13,
         "goals_for": 13,
-        "goals_against": 7,
-        "goal_difference": 6
+        "goals_against": 9,
+        "goal_difference": 4
+      },
+      {
+        "team": "Milan",
+        "position": 3,
+        "played": 6,
+        "won": 3,
+        "draw": 3,
+        "lost": 0,
+        "points": 12,
+        "goals_for": 10,
+        "goals_against": 6,
+        "goal_difference": 4
       },
       {
         "team": "Bologna",
-        "position": 3,
+        "position": 4,
         "played": 6,
         "won": 4,
         "draw": 0,
@@ -527,7 +539,7 @@
       },
       {
         "team": "Roma",
-        "position": 4,
+        "position": 5,
         "played": 5,
         "won": 3,
         "draw": 2,
@@ -539,7 +551,7 @@
       },
       {
         "team": "Inter",
-        "position": 5,
+        "position": 6,
         "played": 5,
         "won": 3,
         "draw": 1,
@@ -547,18 +559,6 @@
         "points": 10,
         "goals_for": 9,
         "goals_against": 6,
-        "goal_difference": 3
-      },
-      {
-        "team": "Milan",
-        "position": 6,
-        "played": 5,
-        "won": 2,
-        "draw": 3,
-        "lost": 0,
-        "points": 9,
-        "goals_for": 8,
-        "goals_against": 5,
         "goal_difference": 3
       },
       {
@@ -574,8 +574,20 @@
         "goal_difference": -4
       },
       {
-        "team": "Napoli",
+        "team": "Juventus",
         "position": 8,
+        "played": 6,
+        "won": 2,
+        "draw": 2,
+        "lost": 2,
+        "points": 8,
+        "goals_for": 8,
+        "goals_against": 8,
+        "goal_difference": 0
+      },
+      {
+        "team": "Napoli",
+        "position": 9,
         "played": 6,
         "won": 2,
         "draw": 1,
@@ -587,7 +599,7 @@
       },
       {
         "team": "Torino",
-        "position": 9,
+        "position": 10,
         "played": 5,
         "won": 2,
         "draw": 1,
@@ -596,18 +608,6 @@
         "goals_for": 7,
         "goals_against": 6,
         "goal_difference": 1
-      },
-      {
-        "team": "Juventus",
-        "position": 10,
-        "played": 5,
-        "won": 2,
-        "draw": 1,
-        "lost": 2,
-        "points": 7,
-        "goals_for": 6,
-        "goals_against": 6,
-        "goal_difference": 0
       },
       {
         "team": "Lecce",
@@ -658,8 +658,20 @@
         "goal_difference": -3
       },
       {
-        "team": "Genoa",
+        "team": "Atalanta",
         "position": 15,
+        "played": 5,
+        "won": 1,
+        "draw": 1,
+        "lost": 3,
+        "points": 4,
+        "goals_for": 6,
+        "goals_against": 9,
+        "goal_difference": -3
+      },
+      {
+        "team": "Genoa",
+        "position": 16,
         "played": 4,
         "won": 1,
         "draw": 0,
@@ -671,24 +683,12 @@
       },
       {
         "team": "Parma",
-        "position": 16,
+        "position": 17,
         "played": 5,
         "won": 1,
         "draw": 0,
         "lost": 4,
         "points": 3,
-        "goals_for": 5,
-        "goals_against": 9,
-        "goal_difference": -4
-      },
-      {
-        "team": "Atalanta",
-        "position": 17,
-        "played": 4,
-        "won": 0,
-        "draw": 1,
-        "lost": 3,
-        "points": 1,
         "goals_for": 5,
         "goals_against": 9,
         "goal_difference": -4

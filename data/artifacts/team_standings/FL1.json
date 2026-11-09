@@ -1,6 +1,6 @@
 {
   "season": "2026/27",
-  "updated_at": "2026-11-07T23:33:47.853656+00:00",
+  "updated_at": "2026-11-09T11:31:52.142052+00:00",
   "source": "football-data.org",
   "source_url": "https://api.football-data.org/v4/competitions/FL1/standings",
   "tables": {
@@ -18,8 +18,20 @@
         "goal_difference": 12
       },
       {
-        "team": "Paris FC",
+        "team": "Lille",
         "position": 2,
+        "played": 10,
+        "won": 6,
+        "draw": 3,
+        "lost": 1,
+        "points": 21,
+        "goals_for": 14,
+        "goals_against": 7,
+        "goal_difference": 7
+      },
+      {
+        "team": "Paris FC",
+        "position": 3,
         "played": 10,
         "won": 6,
         "draw": 2,
@@ -30,92 +42,104 @@
         "goal_difference": 7
       },
       {
-        "team": "Lille",
-        "position": 3,
-        "played": 9,
-        "won": 5,
-        "draw": 3,
-        "lost": 1,
-        "points": 18,
-        "goals_for": 12,
-        "goals_against": 6,
-        "goal_difference": 6
-      },
-      {
-        "team": "Lyon",
+        "team": "Marseille",
         "position": 4,
-        "played": 9,
-        "won": 5,
-        "draw": 2,
-        "lost": 2,
-        "points": 17,
-        "goals_for": 15,
-        "goals_against": 7,
+        "played": 10,
+        "won": 6,
+        "draw": 0,
+        "lost": 4,
+        "points": 18,
+        "goals_for": 22,
+        "goals_against": 14,
         "goal_difference": 8
       },
       {
-        "team": "Rennes",
+        "team": "Lyon",
         "position": 5,
-        "played": 9,
+        "played": 10,
         "won": 5,
-        "draw": 1,
+        "draw": 2,
         "lost": 3,
-        "points": 16,
-        "goals_for": 20,
-        "goals_against": 19,
-        "goal_difference": 1
+        "points": 17,
+        "goals_for": 15,
+        "goals_against": 9,
+        "goal_difference": 6
       },
       {
-        "team": "Marseille",
+        "team": "Nice",
         "position": 6,
-        "played": 9,
+        "played": 10,
         "won": 5,
-        "draw": 0,
-        "lost": 4,
-        "points": 15,
-        "goals_for": 20,
-        "goals_against": 13,
-        "goal_difference": 7
+        "draw": 2,
+        "lost": 3,
+        "points": 17,
+        "goals_for": 15,
+        "goals_against": 12,
+        "goal_difference": 3
       },
       {
         "team": "Monaco",
         "position": 7,
-        "played": 9,
+        "played": 10,
         "won": 4,
-        "draw": 3,
+        "draw": 4,
         "lost": 2,
-        "points": 15,
-        "goals_for": 12,
-        "goals_against": 10,
+        "points": 16,
+        "goals_for": 13,
+        "goals_against": 11,
         "goal_difference": 2
       },
       {
-        "team": "Nice",
+        "team": "Rennes",
         "position": 8,
-        "played": 9,
+        "played": 10,
+        "won": 5,
+        "draw": 1,
+        "lost": 4,
+        "points": 16,
+        "goals_for": 21,
+        "goals_against": 21,
+        "goal_difference": 0
+      },
+      {
+        "team": "Brest",
+        "position": 9,
+        "played": 10,
         "won": 4,
-        "draw": 2,
+        "draw": 3,
         "lost": 3,
-        "points": 14,
-        "goals_for": 13,
+        "points": 15,
+        "goals_for": 18,
         "goals_against": 12,
+        "goal_difference": 6
+      },
+      {
+        "team": "Lorient",
+        "position": 10,
+        "played": 10,
+        "won": 4,
+        "draw": 3,
+        "lost": 3,
+        "points": 15,
+        "goals_for": 9,
+        "goals_against": 8,
         "goal_difference": 1
       },
       {
         "team": "Lens",
-        "position": 9,
-        "played": 9,
+        "position": 11,
+        "played": 10,
         "won": 4,
         "draw": 1,
-        "lost": 4,
+        "lost": 5,
         "points": 13,
-        "goals_for": 16,
-        "goals_against": 13,
-        "goal_difference": 3
+        "goals_for": 17,
+        "goals_against": 15,
+        "goal_difference": 2
       },
       {
         "team": "Toulouse",
-        "position": 10,
+        "position": 12,
         "played": 10,
         "won": 3,
         "draw": 4,
@@ -124,30 +148,6 @@
         "goals_for": 15,
         "goals_against": 14,
         "goal_difference": 1
-      },
-      {
-        "team": "Brest",
-        "position": 11,
-        "played": 9,
-        "won": 3,
-        "draw": 3,
-        "lost": 3,
-        "points": 12,
-        "goals_for": 16,
-        "goals_against": 12,
-        "goal_difference": 4
-      },
-      {
-        "team": "Lorient",
-        "position": 12,
-        "played": 9,
-        "won": 3,
-        "draw": 3,
-        "lost": 3,
-        "points": 12,
-        "goals_for": 7,
-        "goals_against": 8,
-        "goal_difference": -1
       },
       {
         "team": "Strasbourg",
@@ -174,20 +174,32 @@
         "goal_difference": -11
       },
       {
-        "team": "Angers",
+        "team": "Le Mans",
         "position": 15,
-        "played": 9,
+        "played": 10,
+        "won": 1,
+        "draw": 5,
+        "lost": 4,
+        "points": 8,
+        "goals_for": 12,
+        "goals_against": 19,
+        "goal_difference": -7
+      },
+      {
+        "team": "Angers",
+        "position": 16,
+        "played": 10,
         "won": 2,
         "draw": 2,
-        "lost": 5,
+        "lost": 6,
         "points": 8,
         "goals_for": 9,
-        "goals_against": 17,
-        "goal_difference": -8
+        "goals_against": 19,
+        "goal_difference": -10
       },
       {
         "team": "Troyes",
-        "position": 16,
+        "position": 17,
         "played": 10,
         "won": 2,
         "draw": 2,
@@ -198,28 +210,16 @@
         "goal_difference": -10
       },
       {
-        "team": "Le Mans",
-        "position": 17,
-        "played": 9,
-        "won": 1,
-        "draw": 4,
-        "lost": 4,
-        "points": 7,
-        "goals_for": 11,
-        "goals_against": 18,
-        "goal_difference": -7
-      },
-      {
         "team": "Le Havre",
         "position": 18,
-        "played": 9,
+        "played": 10,
         "won": 0,
         "draw": 2,
-        "lost": 7,
+        "lost": 8,
         "points": 2,
         "goals_for": 9,
-        "goals_against": 20,
-        "goal_difference": -11
+        "goals_against": 22,
+        "goal_difference": -13
       }
     ],
     "home": [
@@ -238,14 +238,14 @@
       {
         "team": "Rennes",
         "position": 2,
-        "played": 5,
+        "played": 6,
         "won": 4,
         "draw": 1,
-        "lost": 0,
+        "lost": 1,
         "points": 13,
-        "goals_for": 13,
-        "goals_against": 5,
-        "goal_difference": 8
+        "goals_for": 14,
+        "goals_against": 7,
+        "goal_difference": 7
       },
       {
         "team": "Paris FC",
@@ -296,20 +296,8 @@
         "goal_difference": 5
       },
       {
-        "team": "Lens",
-        "position": 7,
-        "played": 4,
-        "won": 3,
-        "draw": 0,
-        "lost": 1,
-        "points": 9,
-        "goals_for": 9,
-        "goals_against": 5,
-        "goal_difference": 4
-      },
-      {
         "team": "Paris SG",
-        "position": 8,
+        "position": 7,
         "played": 4,
         "won": 3,
         "draw": 0,
@@ -318,6 +306,18 @@
         "goals_for": 7,
         "goals_against": 3,
         "goal_difference": 4
+      },
+      {
+        "team": "Lens",
+        "position": 8,
+        "played": 5,
+        "won": 3,
+        "draw": 0,
+        "lost": 2,
+        "points": 9,
+        "goals_for": 10,
+        "goals_against": 7,
+        "goal_difference": 3
       },
       {
         "team": "Monaco",
@@ -332,8 +332,20 @@
         "goal_difference": 3
       },
       {
-        "team": "Strasbourg",
+        "team": "Brest",
         "position": 10,
+        "played": 5,
+        "won": 2,
+        "draw": 1,
+        "lost": 2,
+        "points": 7,
+        "goals_for": 10,
+        "goals_against": 6,
+        "goal_difference": 4
+      },
+      {
+        "team": "Strasbourg",
+        "position": 11,
         "played": 4,
         "won": 2,
         "draw": 1,
@@ -345,7 +357,7 @@
       },
       {
         "team": "Toulouse",
-        "position": 11,
+        "position": 12,
         "played": 5,
         "won": 2,
         "draw": 1,
@@ -357,18 +369,6 @@
       },
       {
         "team": "Auxerre",
-        "position": 12,
-        "played": 5,
-        "won": 2,
-        "draw": 1,
-        "lost": 2,
-        "points": 7,
-        "goals_for": 5,
-        "goals_against": 6,
-        "goal_difference": -1
-      },
-      {
-        "team": "Lorient",
         "position": 13,
         "played": 5,
         "won": 2,
@@ -380,44 +380,32 @@
         "goal_difference": -1
       },
       {
-        "team": "Le Mans",
+        "team": "Lorient",
         "position": 14,
-        "played": 4,
+        "played": 5,
+        "won": 2,
+        "draw": 1,
+        "lost": 2,
+        "points": 7,
+        "goals_for": 5,
+        "goals_against": 6,
+        "goal_difference": -1
+      },
+      {
+        "team": "Le Mans",
+        "position": 15,
+        "played": 5,
         "won": 1,
-        "draw": 2,
+        "draw": 3,
         "lost": 1,
-        "points": 5,
-        "goals_for": 6,
-        "goals_against": 8,
+        "points": 6,
+        "goals_for": 7,
+        "goals_against": 9,
         "goal_difference": -2
       },
       {
-        "team": "Brest",
-        "position": 15,
-        "played": 4,
-        "won": 1,
-        "draw": 1,
-        "lost": 2,
-        "points": 4,
-        "goals_for": 8,
-        "goals_against": 6,
-        "goal_difference": 2
-      },
-      {
-        "team": "Angers",
-        "position": 16,
-        "played": 5,
-        "won": 1,
-        "draw": 1,
-        "lost": 3,
-        "points": 4,
-        "goals_for": 5,
-        "goals_against": 9,
-        "goal_difference": -4
-      },
-      {
         "team": "Troyes",
-        "position": 17,
+        "position": 16,
         "played": 5,
         "won": 1,
         "draw": 1,
@@ -428,16 +416,28 @@
         "goal_difference": -6
       },
       {
-        "team": "Le Havre",
-        "position": 18,
-        "played": 5,
-        "won": 0,
+        "team": "Angers",
+        "position": 17,
+        "played": 6,
+        "won": 1,
         "draw": 1,
         "lost": 4,
+        "points": 4,
+        "goals_for": 5,
+        "goals_against": 11,
+        "goal_difference": -6
+      },
+      {
+        "team": "Le Havre",
+        "position": 18,
+        "played": 6,
+        "won": 0,
+        "draw": 1,
+        "lost": 5,
         "points": 1,
         "goals_for": 3,
-        "goals_against": 11,
-        "goal_difference": -8
+        "goals_against": 13,
+        "goal_difference": -10
       }
     ],
     "away": [
@@ -454,8 +454,32 @@
         "goal_difference": 8
       },
       {
-        "team": "Brest",
+        "team": "Lille",
         "position": 2,
+        "played": 5,
+        "won": 3,
+        "draw": 1,
+        "lost": 1,
+        "points": 10,
+        "goals_for": 7,
+        "goals_against": 4,
+        "goal_difference": 3
+      },
+      {
+        "team": "Marseille",
+        "position": 3,
+        "played": 5,
+        "won": 3,
+        "draw": 0,
+        "lost": 2,
+        "points": 9,
+        "goals_for": 9,
+        "goals_against": 6,
+        "goal_difference": 3
+      },
+      {
+        "team": "Brest",
+        "position": 4,
         "played": 5,
         "won": 2,
         "draw": 2,
@@ -466,20 +490,32 @@
         "goal_difference": 2
       },
       {
-        "team": "Lille",
-        "position": 3,
-        "played": 4,
+        "team": "Lorient",
+        "position": 5,
+        "played": 5,
         "won": 2,
-        "draw": 1,
+        "draw": 2,
         "lost": 1,
-        "points": 7,
-        "goals_for": 5,
-        "goals_against": 3,
+        "points": 8,
+        "goals_for": 4,
+        "goals_against": 2,
         "goal_difference": 2
       },
       {
+        "team": "Monaco",
+        "position": 6,
+        "played": 6,
+        "won": 2,
+        "draw": 2,
+        "lost": 2,
+        "points": 8,
+        "goals_for": 6,
+        "goals_against": 7,
+        "goal_difference": -1
+      },
+      {
         "team": "Paris FC",
-        "position": 4,
+        "position": 7,
         "played": 5,
         "won": 2,
         "draw": 1,
@@ -490,32 +526,8 @@
         "goal_difference": 0
       },
       {
-        "team": "Monaco",
-        "position": 5,
-        "played": 5,
-        "won": 2,
-        "draw": 1,
-        "lost": 2,
-        "points": 7,
-        "goals_for": 5,
-        "goals_against": 6,
-        "goal_difference": -1
-      },
-      {
-        "team": "Marseille",
-        "position": 6,
-        "played": 4,
-        "won": 2,
-        "draw": 0,
-        "lost": 2,
-        "points": 6,
-        "goals_for": 7,
-        "goals_against": 5,
-        "goal_difference": 2
-      },
-      {
         "team": "Toulouse",
-        "position": 7,
+        "position": 8,
         "played": 5,
         "won": 1,
         "draw": 3,
@@ -526,20 +538,20 @@
         "goal_difference": 1
       },
       {
-        "team": "Lorient",
-        "position": 8,
-        "played": 4,
-        "won": 1,
-        "draw": 2,
-        "lost": 1,
-        "points": 5,
-        "goals_for": 2,
-        "goals_against": 2,
-        "goal_difference": 0
+        "team": "Nice",
+        "position": 9,
+        "played": 5,
+        "won": 2,
+        "draw": 0,
+        "lost": 3,
+        "points": 6,
+        "goals_for": 5,
+        "goals_against": 7,
+        "goal_difference": -2
       },
       {
         "team": "Lens",
-        "position": 9,
+        "position": 10,
         "played": 5,
         "won": 1,
         "draw": 1,
@@ -551,19 +563,19 @@
       },
       {
         "team": "Lyon",
-        "position": 10,
-        "played": 4,
+        "position": 11,
+        "played": 5,
         "won": 1,
         "draw": 1,
-        "lost": 2,
+        "lost": 3,
         "points": 4,
         "goals_for": 3,
-        "goals_against": 4,
-        "goal_difference": -1
+        "goals_against": 6,
+        "goal_difference": -3
       },
       {
         "team": "Angers",
-        "position": 11,
+        "position": 12,
         "played": 4,
         "won": 1,
         "draw": 1,
@@ -575,7 +587,7 @@
       },
       {
         "team": "Troyes",
-        "position": 12,
+        "position": 13,
         "played": 5,
         "won": 1,
         "draw": 1,
@@ -583,18 +595,6 @@
         "points": 4,
         "goals_for": 2,
         "goals_against": 6,
-        "goal_difference": -4
-      },
-      {
-        "team": "Nice",
-        "position": 13,
-        "played": 4,
-        "won": 1,
-        "draw": 0,
-        "lost": 3,
-        "points": 3,
-        "goals_for": 3,
-        "goals_against": 7,
         "goal_difference": -4
       },
       {
