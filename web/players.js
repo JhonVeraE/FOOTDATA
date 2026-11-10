@@ -29,7 +29,7 @@ function playersLeagueView(l){
  const box=E('div','players-view');box.append(E('div','loading-state',''));
  loadPlayers().then(data=>{
   const comp=data?.competitions?.[l.name];
-  if(!comp){box.replaceChildren(empty('Datos de jugadores en preparación','Por ahora están disponibles los jugadores de LaLiga. Pronto sumaremos esta liga.'));return;}
+  if(!comp){box.replaceChildren(empty('Datos de jugadores en preparación','Todavía no hay datos de jugadores para esta competición.'));return;}
   const players=allPlayers(comp);const teams=[...new Set(players.map(p=>p.team))].sort((a,b)=>name(a).localeCompare(name(b)));
   const tools=E('div','team-controls player-controls');
   const mk=(label,opts,cur,on)=>{const lab=E('label','team-select');lab.append(E('span',null,label));const s=E('select');for(const [v,t] of opts){const o=E('option',null,t);o.value=v;if(v===cur)o.selected=true;s.append(o);}s.addEventListener('change',()=>{on(s.value);draw();});lab.append(s);return lab;};

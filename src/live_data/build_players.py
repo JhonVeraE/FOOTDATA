@@ -9,12 +9,32 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[2]
 RAW = ROOT / 'data' / 'artifacts' / 'players_raw'
 OUT = ROOT / 'web' / 'data' / 'players.json'
-LEAGUES = {'esp.1': ('La Liga', {
+NAMES = {
+    # LaLiga
     'Athletic Club': 'Ath Bilbao', 'Atlético Madrid': 'Ath Madrid', 'Celta Vigo': 'Celta', 'Deportivo Alavés': 'Alaves',
-    'Deportivo de A Coruña': 'La Coruna', 'Elche': 'Elche', 'Espanyol': 'Espanol', 'FC Barcelona': 'Barcelona', 'Getafe': 'Getafe',
-    'Levante UD': 'Levante', 'Málaga CF': 'Malaga', 'Osasuna': 'Osasuna', 'Rayo Vallecano': 'Vallecano', 'Real Betis': 'Betis',
-    'Real Madrid': 'Real Madrid', 'Real Racing Club': 'Santander', 'Real Sociedad': 'Sociedad', 'Sevilla': 'Sevilla',
-    'Valencia': 'Valencia', 'Villarreal': 'Villarreal'})}
+    'Deportivo de A Coruña': 'La Coruna', 'Espanyol': 'Espanol', 'FC Barcelona': 'Barcelona', 'Levante UD': 'Levante',
+    'Málaga CF': 'Malaga', 'Rayo Vallecano': 'Vallecano', 'Real Betis': 'Betis', 'Real Racing Club': 'Santander',
+    'Real Sociedad': 'Sociedad',
+    # Premier League
+    'Brighton & Hove Albion': 'Brighton', 'Coventry City': 'Coventry', 'Hull City': 'Hull', 'Ipswich Town': 'Ipswich',
+    'Leeds United': 'Leeds', 'Liverpool FC': 'Liverpool', 'Manchester City': 'Man City', 'Manchester United': 'Man United',
+    'Newcastle United': 'Newcastle', 'Nottingham Forest': "Nott'm Forest", 'Tottenham Hotspur': 'Tottenham',
+    # Serie A
+    'AC Milan': 'Milan', 'AS Roma': 'Roma', 'SSC Napoli': 'Napoli',
+    # Bundesliga
+    '1. FC Köln': 'FC Koln', '1. FC Union Berlin': 'Union Berlin', '1. FSV Mainz 05': 'Mainz', 'Bayer 04 Leverkusen': 'Leverkusen',
+    "Borussia M'gladbach": "M'gladbach", 'Borussia Dortmund': 'Dortmund', 'Eintracht Frankfurt': 'Frankfurt', 'FC Augsburg': 'Augsburg', 'FC Bayern München': 'Bayern Munich',
+    'FC Schalke 04': 'Schalke 04', 'Hamburger SV': 'Hamburg', 'SC Freiburg': 'Freiburg', 'SC Paderborn 07': 'Paderborn',
+    'SV 07 Elversberg': 'Elversberg', 'SV Werder Bremen': 'Werder Bremen', 'TSG Hoffenheim': 'Hoffenheim', 'VfB Stuttgart': 'Stuttgart',
+    # Ligue 1
+    'AJ Auxerre': 'Auxerre', 'AS Monaco': 'Monaco', 'LOSC Lille': 'Lille', 'OGC Nice': 'Nice', 'Olympique Lyonnais': 'Lyon',
+    'Olympique de Marseille': 'Marseille', 'Paris Saint-Germain': 'Paris SG', 'RC Lens': 'Lens', 'RC Strasbourg': 'Strasbourg',
+    'Stade Brestois': 'Brest', 'Stade Rennais': 'Rennes',
+    # Champions (resto)
+    'Bodø/Glimt': 'Bodo/Glimt', 'PSV Eindhoven': 'PSV', 'SK Slavia Praha': 'Slavia Praha', 'ŠK Slovan Bratislava': 'Slovan Bratislava',
+}
+LEAGUES = {'esp.1': 'La Liga', 'eng.1': 'Premier League', 'ita.1': 'Serie A', 'ger.1': 'Bundesliga', 'fra.1': 'Ligue 1',
+           'uefa.champions': 'UEFA Champions League'}
 POS = {'G': 'Portero', 'D': 'Defensa', 'M': 'Mediocampista', 'F': 'Delantero'}
 FIELDS = ['apps', 'starts', 'min', 'goals', 'pen', 'assists', 'shots', 'sot', 'yc', 'rc', 'fouls', 'xg']
 
@@ -25,11 +45,18 @@ def per90(v, minutes):
 
 def build():
     out = {'generated_at': datetime.now(timezone.utc).isoformat(), 'source': 'SofaScore (estadísticas públicas)', 'competitions': {}}
-    for code, (comp, names) in LEAGUES.items():
-        stats_path, squads_path = RAW / code / 'sofascore_stats.json', RAW / code / 'sofascore_squads.json'
-        if not stats_path.exists():continue
-        raw = json.loads(stats_path.read_text(encoding='utf-8'))
-        squads = json.loads(squads_path.read_text(encoding='utf-8')) if squads_path.exists() else {}
+    known = json.loads((ROOT / 'web' / 'data' / 'teams.json').read_text(encoding='utf-8'))['competitions']
+    for code, comp in LEAGUES.items():
+        single, stats_path, squads_path = RAW / code / 'sofascore.json', RAW / code / 'sofascore_stats.json', RAW / code / 'sofascore_squads.json'
+        if single.exists():
+            raw = json.loads(single.read_text(encoding='utf-8'));squads = raw.get('squads', {})
+        elif stats_path.exists():
+            raw = json.loads(stats_path.read_text(encoding='utf-8'))
+            squads = json.loads(squads_path.read_text(encoding='utf-8')) if squads_path.exists() else {}
+        else:continue
+        ours = {t['team'] for t in known.get(comp, {}).get('teams', [])}
+        names = {n: NAMES.get(n, n) for n in {p['team'] for p in raw['players']}}
+        names = {k: v for k, v in names.items() if v in ours}
         teams, unknown = {}, set()
         for p in raw['players']:
             team = names.get(p['team'])
@@ -45,7 +72,7 @@ def build():
             row['sot_rate'] = round(row['sot'] / row['shots'], 2) if row['shots'] else None
             teams.setdefault(team, []).append(row)
         for t in teams.values():t.sort(key=lambda r: (-r['min'], r['name']))
-        out['competitions'][comp] = {'season': raw.get('season'), 'observed_at': raw.get('observed_at'), 'players': sum(map(len, teams.values())),
+        out['competitions'][comp] = {'season': raw.get('season_name', raw.get('season')), 'observed_at': raw.get('observed_at'), 'players': sum(map(len, teams.values())),
                                      'teams': teams, 'unmapped_teams': sorted(unknown)}
     OUT.write_text(json.dumps(out, ensure_ascii=False, separators=(',', ':')), encoding='utf-8')
     return out
