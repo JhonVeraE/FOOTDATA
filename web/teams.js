@@ -134,13 +134,15 @@ function teamsPage(l){
  const data=state.teamData?.competitions?.[l.name];
  if(!data){page.append(empty('Estadísticas de equipos no disponibles','Actualiza los datos de equipos para consultar esta competición.'));main.replaceChildren(page);return;}
  const banner=E('section','league-banner teams-banner');const desc=E('div');desc.append(eyebrow(`${l.country} · Temporada ${state.teamData.season}`),E('h1',null,'La liga, equipo a equipo'),E('p',null,`${data.teams.length} clubes · Posiciones, rankings y rendimiento local / visitante`));banner.append(competitionLogo(l,'league-logo'),desc);page.append(banner,teamLeagueNavigation(l,'teams'),teamDataNotice(data));
- const viewChoices=[['standings','Posiciones'],['leaders','Líderes'],['statistics','Estadísticas'],['roster','Todos los equipos']];
+ const viewChoices=[['standings','Posiciones'],['leaders','Líderes'],['statistics','Estadísticas'],['players','Jugadores'],['roster','Todos los equipos']];
  const views=teamControls(viewChoices,teamUI.view,v=>{teamUI.view=v;draw();},'Vista de equipos');
  const scopes=E('div','team-scopes');const result=E('div','teams-results');const searchWrap=E('label','search');const search=E('input');search.type='search';search.placeholder='Buscar equipo…';search.setAttribute('aria-label','Buscar equipo en la liga');search.value=teamUI.query;searchWrap.append(search);
  const controls=E('div','team-controls');controls.append(views,searchWrap);page.append(controls,scopes,result);const count=E('p','list-meta');count.setAttribute('aria-live','polite');result.before(count);
  const draw=()=>{
   views.querySelectorAll('button').forEach((b,i)=>{const active=viewChoices[i][0]===teamUI.view;b.classList.toggle('active',active);b.setAttribute('aria-pressed',String(active));});
-  scopes.replaceChildren();if(teamUI.view!=='roster')scopes.append(teamControls([['all','General'],['home','Local'],['away','Visitante']],teamUI.scope,v=>{teamUI.scope=v;draw();},'Local o visitante'));
+  scopes.replaceChildren();
+  if(teamUI.view==='players'){searchWrap.hidden=true;count.textContent='Estadísticas individuales de la temporada';result.replaceChildren(playersLeagueView(l));return;}
+  if(teamUI.view!=='roster')scopes.append(teamControls([['all','General'],['home','Local'],['away','Visitante']],teamUI.scope,v=>{teamUI.scope=v;draw();},'Local o visitante'));
   const items=data.teams.filter(t=>norm(`${name(t.team)} ${t.team}`).includes(norm(teamUI.query)));
   count.textContent=`${items.length} ${items.length===1?'equipo':'equipos'} · ${teamUI.view==='roster'?'Promedios de goles por partido':teamScopeLabel()}`;
   if(teamUI.view==='leaders'){
@@ -162,7 +164,7 @@ function teamProfilePage(l,team){
   content.replaceChildren(teamTable(['Estadística','General','Local','Visitante'],rows,`Estadísticas de ${name(team)} por localía`).wrap);
  };
  const toggle=teamControls([['average','Por partido'],['total','Totales']],unit,v=>{unit=v;toggle.querySelectorAll('button').forEach((b,i)=>{const active=['average','total'][i]===unit;b.classList.toggle('active',active);b.setAttribute('aria-pressed',String(active));});draw();},'Promedios o totales del equipo');section.append(toggle,content,E('p','team-legend','Solo partidos registrados de esta competición y temporada. Los datos ausentes se excluyen de cada promedio. Tarjetas = amarillas + rojas.'));
- page.insertBefore(teamFixtures(l,team,t),cards);page.append(section,link(teamLeagueHref(l),'← Volver a todos los equipos','plain-button'));main.replaceChildren(page);draw();
+ page.insertBefore(teamFixtures(l,team,t),cards);page.append(section,teamPlayersSection(l,team),link(teamLeagueHref(l),'← Volver a todos los equipos','plain-button'));main.replaceChildren(page);draw();
 }
 function handleTeamsRoute(parts,l){
  if(parts[2]==='equipos'||parts[2]==='lideres'){if(teamUI.route!==l.slug){Object.assign(teamUI,{scope:'all',view:'standings',query:'',sort:'shots',direction:'desc',route:l.slug});}if(parts[2]==='lideres')teamUI.view='leaders';teamsPage(l);return true;}

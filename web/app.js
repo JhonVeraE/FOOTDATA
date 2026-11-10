@@ -222,10 +222,10 @@ function matchPage(m){
  const timeNote=kickoff(m)>new Date()?'Predicción previa al partido · tiempo reglamentario':'La fecha de inicio prevista ya pasó. Esta ficha conserva la predicción previa, no un resultado en vivo.';
  hero.append(append(E('div','fixture-teams'),teamBlock(m.local,'home',true),prediction,teamBlock(m.visitante,'away',true)),E('p','score-note',timeNote));page.append(hero);
  const anchors=E('nav','detail-anchor-nav');anchors.setAttribute('aria-label','Secciones del análisis');
- for(const [id,label] of [['fijas','Fijas'],['probabilidades','El pronóstico'],['estadisticas','Estadísticas'],['forma','Estado de forma'],['historial','Enfrentamientos'],['metodo','Datos y método']]){const a=link(`#${id}`,label);a.addEventListener('click',event=>{event.preventDefault();document.getElementById(id)?.scrollIntoView({behavior:window.matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth',block:'start'});});anchors.append(a);}page.append(anchors,matchFijas(m));
+ for(const [id,label] of [['fijas','Fijas'],['probabilidades','El pronóstico'],['estadisticas','Estadísticas'],['forma','Estado de forma'],['historial','Enfrentamientos'],['jugadores','Jugadores'],['metodo','Datos y método']]){const a=link(`#${id}`,label);a.addEventListener('click',event=>{event.preventDefault();document.getElementById(id)?.scrollIntoView({behavior:window.matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth',block:'start'});});anchors.append(a);}page.append(anchors,matchFijas(m));
  page.append(append(E('div','detail-grid'),probabilityPanel(m),goalsPanel(m)));
  const extra=append(E('div','detail-grid detail-section'),scoresPanel(m),goalLinesPanel(m));page.append(extra,projections(m),formSection(m));
- page.append(append(E('div','detail-grid detail-section'),h2h(m),trends(m)),methodology(m));main.replaceChildren(page);
+ page.append(append(E('div','detail-grid detail-section'),h2h(m),trends(m)),matchPlayersSection(m),methodology(m));main.replaceChildren(page);
 }
 function route(){
  if(!state.payload)return;
