@@ -1,0 +1,81 @@
+{
+  "run_at": "2026-11-13T13:05:02.508827+00:00",
+  "dates": [
+    "2026-11-10",
+    "2026-11-11",
+    "2026-11-12",
+    "2026-11-13"
+  ],
+  "mode": "online",
+  "football_data_key": true,
+  "apply": true,
+  "frozen": {
+    "2026-11-10": "no_forecasts",
+    "2026-11-11": "no_forecasts",
+    "2026-11-12": "no_forecasts",
+    "2026-11-13": "no_forecasts"
+  },
+  "healthy": true,
+  "events": 0,
+  "finals": 0,
+  "added_matches": [],
+  "added_rows": 0,
+  "already_present": [],
+  "source_differences": [],
+  "pending": [],
+  "source_errors": [],
+  "espn_only": [],
+  "calendar_changed": false,
+  "calendar_issues": [],
+  "reviews": {
+    "2026-11-10": {
+      "ingestion": "sin pronósticos congelados"
+    },
+    "2026-11-11": {
+      "ingestion": "sin pronósticos congelados"
+    },
+    "2026-11-12": {
+      "ingestion": "sin pronósticos congelados"
+    },
+    "2026-11-13": {
+      "ingestion": "sin pronósticos congelados"
+    }
+  },
+  "prospective": {
+    "scored_matches": 216,
+    "accuracy": 0.6111111111111112,
+    "log_loss": 0.9164478189274355
+  },
+  "standings_refresh": [
+    {
+      "competition": "La Liga",
+      "status": "refreshed",
+      "teams": 20
+    },
+    {
+      "competition": "Premier League",
+      "status": "refreshed",
+      "teams": 20
+    },
+    {
+      "competition": "Bundesliga",
+      "status": "refreshed",
+      "teams": 18
+    },
+    {
+      "competition": "Serie A",
+      "status": "refreshed",
+      "teams": 20
+    },
+    {
+      "competition": "Ligue 1",
+      "status": "refreshed",
+      "teams": 18
+    },
+    {
+      "competition": "UEFA Champions League",
+      "status": "refreshed",
+      "teams": 36
+    }
+  ]
+}
