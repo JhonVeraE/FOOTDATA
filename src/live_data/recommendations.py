@@ -317,7 +317,7 @@ def stance(item,matrix):
     if item['scope']=='away':return (-sign,0)
     return (0,sign)
 
-def coherent(item,chosen,matrix):
+def coherent(item,chosen,matrix,strict=True):
     """No pick may contradict another pick of the same match (e.g. 'Team +1,5' with 'Team under 1,5 goals').
     Two goal/result picks: one hitting must not make the other less likely in the model's score matrix.
     Otherwise: no opposite direction on the margin or total-goals axis."""
@@ -328,6 +328,7 @@ def coherent(item,chosen,matrix):
             pa,pb,pab=matrix[m].sum(),matrix[n].sum(),matrix[m&n].sum()
             if pab<1e-6 or pab-pa*pb<-.01:return False
             continue
+        if not strict and (m is None or n is None):continue  # respaldo: córners/remates/faltas no contradicen goles
         s,o=stance(item,matrix),stance(other,matrix)
         if any(x*y<0 for x,y in zip(s,o)):return False
     return True
@@ -356,9 +357,9 @@ def make_match(report,stats,quotes=None,as_of=None,feedback_records=None,market_
     tiers=[];used=set();chosen=[]
     for key,label,bands in TIERS_V7:
         best=None
-        for allow_estimated in (False,True):
+        for allow_estimated,strict in ((False,True),(True,True),(True,False)):
             for omin,omax,min_pattern,min_ctx in bands:
-                pool=[c for c in options if c['kind'] not in used and eligible_v7(c,omin,omax,min_pattern,min_ctx,allow_estimated) and coherent(c,chosen,matrix)
+                pool=[c for c in options if c['kind'] not in used and eligible_v7(c,omin,omax,min_pattern,min_ctx,allow_estimated) and coherent(c,chosen,matrix,strict)
                       and not (c['kind'] in RESULT_KINDS and any(o['kind'] in RESULT_KINDS for o in chosen))]
                 primary=[c for c in pool if c['kind'] in PRIMARY_MARKETS]
                 best=min(primary or pool,key=rank_v7,default=None)
