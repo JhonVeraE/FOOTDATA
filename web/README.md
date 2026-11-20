@@ -32,7 +32,7 @@ Referencia de configuración: https://docs.netlify.com/build/configure-builds/fi
 
 ## Abrir
 
-En Windows, hacer doble clic en `Abrir_Web.cmd` en la raíz del proyecto. El lanzador abre el navegador e inicia un servidor local en segundo plano si hace falta. Utiliza la ubicación actual de la carpeta, incluso si se mueve. No publica la web en Internet.
+En Windows, hacer doble clic en `otros_botones/Abrir_Web.cmd`. El lanzador abre el navegador e inicia un servidor local en segundo plano si hace falta. Utiliza la ubicación actual de la carpeta, incluso si se mueve. No publica la web en Internet.
 
 Desde la raíz del proyecto:
 

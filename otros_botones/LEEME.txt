@@ -1,0 +1,7 @@
+Botones de uso ocasional de FOOTDATA (los de uso diario estan en la carpeta anterior):
+
+- PUBLICAR_HOY: actualizacion diaria normal (la misma que corre sola cada dia).
+- SINCRONIZAR_DATOS: vuelve a subir todo a Supabase (base de datos).
+- ABRIR_CLAVES: abre el archivo .env con las claves privadas.
+- ACTIVAR_FOOTDATA: reprograma las tareas automaticas de Windows.
+- Abrir_Web: abre la web en esta PC sin internet (vista local).

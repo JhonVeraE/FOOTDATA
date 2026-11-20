@@ -10,7 +10,7 @@ import time
 import urllib.request
 import webbrowser
 
-ROOT=Path(__file__).resolve().parent
+ROOT=Path(__file__).resolve().parent.parent  # este programa vive en otros_botones/
 
 def is_our_site(port):
     try:
