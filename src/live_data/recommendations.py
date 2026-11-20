@@ -156,8 +156,8 @@ def candidates(report,contexts,dispersion_data=None,quotes=None,as_of=None,marke
         else:
             mp=market_probability(item,market);item['market_source']='football-data.co.uk (media)' if mp is not None else None
         # Matches close to the capture (markets fully open): only lines with a real price can be published.
-        if betano and not item.get('betano_odds') and utc(report['kickoff_utc'])-utc(betano['observed_at'])<=pd.Timedelta(hours=72):
-            item['price_status']='not_in_observed_lines'
+        if betano and not item.get('betano_odds') and item.get('price_status')!='not_in_observed_lines' and utc(report['kickoff_utc'])-utc(betano['observed_at'])<=pd.Timedelta(hours=72):
+            item['strict_unpriced']=True  # sin cuota real: solo como respaldo si el nivel quedaría vacío
         item['market_probability']=mp
         item['market_check']='not_available' if mp is None else 'agrees' if mp>=.5 else 'disagrees'
         # This is a selection score, not an alternative probability estimate.
@@ -246,8 +246,9 @@ def price(item):
     bookmaker margin, so unpriced lines are not mistaken for better-paying ones."""
     return item.get('betano_odds') or item['fair_odds']/BOOK_MARGIN
 
-def eligible_v7(item,omin,omax,min_pattern,min_ctx):
+def eligible_v7(item,omin,omax,min_pattern,min_ctx,allow_estimated=False):
     ev=item['evidence']
+    if item.get('strict_unpriced') and not allow_estimated:return False
     # «Cualquiera gana» with a clear favourite is just the favourite's win with an expensive cover.
     # «Cualquiera gana, sin empate» is never published: with a favourite it only adds an expensive cover.
     if item['kind']=='double_chance' and item['side']=='12':return False
@@ -355,11 +356,13 @@ def make_match(report,stats,quotes=None,as_of=None,feedback_records=None,market_
     tiers=[];used=set();chosen=[]
     for key,label,bands in TIERS_V7:
         best=None
-        for omin,omax,min_pattern,min_ctx in bands:
-            pool=[c for c in options if c['kind'] not in used and eligible_v7(c,omin,omax,min_pattern,min_ctx) and coherent(c,chosen,matrix)
-                  and not (c['kind'] in RESULT_KINDS and any(o['kind'] in RESULT_KINDS for o in chosen))]
-            primary=[c for c in pool if c['kind'] in PRIMARY_MARKETS]
-            best=min(primary or pool,key=rank_v7,default=None)
+        for allow_estimated in (False,True):
+            for omin,omax,min_pattern,min_ctx in bands:
+                pool=[c for c in options if c['kind'] not in used and eligible_v7(c,omin,omax,min_pattern,min_ctx,allow_estimated) and coherent(c,chosen,matrix)
+                      and not (c['kind'] in RESULT_KINDS and any(o['kind'] in RESULT_KINDS for o in chosen))]
+                primary=[c for c in pool if c['kind'] in PRIMARY_MARKETS]
+                best=min(primary or pool,key=rank_v7,default=None)
+                if best:break
             if best:break
         if best:chosen.append(best);used.add(best['kind'])
         tiers.append({'key':key,'label':label,'selection':best,'status':'available' if best else 'insufficient_data'})
