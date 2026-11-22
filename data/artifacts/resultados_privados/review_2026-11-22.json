@@ -1,0 +1,473 @@
+{
+  "date": "2026-11-22",
+  "reviewed_at": "2026-11-22T15:09:43.163621+00:00",
+  "summary": {
+    "matches": 2,
+    "hits_1x2": 2,
+    "hits_exact": 0,
+    "hits_btts": 2,
+    "mean_absolute_errors": {
+      "goals": 1.1926714253465038,
+      "shots": 5.364093674692876,
+      "sot": 1.0196691185876805,
+      "fouls": 3.8681834026589623,
+      "corners": 2.317701999373808,
+      "cards": 3.1044654267826917
+    }
+  },
+  "matches": [
+    {
+      "fixture_id": "564749",
+      "date": "2026-11-22",
+      "league": "La Liga",
+      "home": "Barcelona",
+      "away": "Villarreal",
+      "generated_at": "2026-11-20T19:22:03.012520+00:00",
+      "kickoff_utc": "2026-11-22T13:00Z",
+      "forecast_original_date": "2026-11-22",
+      "forecast_original_kickoff_utc": "2026-11-22T13:00:00+00:00",
+      "schedule_change": null,
+      "probabilities": [
+        0.725118499922661,
+        0.1538843729728477,
+        0.12099712710449144
+      ],
+      "actual_goals": [
+        3,
+        2
+      ],
+      "actual_outcome": 0,
+      "predicted_outcome": 0,
+      "hit_1x2": true,
+      "predicted_score": "2-1",
+      "actual_score": "3-2",
+      "hit_exact": false,
+      "btts_probability": 0.6388852211688154,
+      "hit_btts": true,
+      "brier": 0.1138805440975551,
+      "log_loss": 0.32142018931447136,
+      "goal_lines": [
+        {
+          "line": 0.5,
+          "hit": true
+        },
+        {
+          "line": 1.5,
+          "hit": true
+        },
+        {
+          "line": 2.5,
+          "hit": true
+        },
+        {
+          "line": 3.5,
+          "hit": true
+        }
+      ],
+      "statistics": [
+        {
+          "metric": "goals",
+          "forecast": [
+            2.8701709281114995,
+            1.1242752987889164
+          ],
+          "actual": [
+            3,
+            2
+          ],
+          "predicted_total": 3.9944462269004157,
+          "actual_total": 5,
+          "absolute_error_total": 1.0055537730995843,
+          "interval_90": null,
+          "inside_interval": null
+        },
+        {
+          "metric": "shots",
+          "forecast": [
+            18.29196973637463,
+            7.793846682342415
+          ],
+          "actual": [
+            30,
+            4
+          ],
+          "predicted_total": 26.085816418717044,
+          "actual_total": 34,
+          "absolute_error_total": 7.9141835812829555,
+          "interval_90": null,
+          "inside_interval": null
+        },
+        {
+          "metric": "sot",
+          "forecast": [
+            6.251705189536565,
+            2.766243933990521
+          ],
+          "actual": [
+            9,
+            2
+          ],
+          "predicted_total": 9.017949123527087,
+          "actual_total": 11,
+          "absolute_error_total": 1.982050876472913,
+          "interval_90": null,
+          "inside_interval": null
+        },
+        {
+          "metric": "fouls",
+          "forecast": [
+            11.7751700908136,
+            11.070669832387997
+          ],
+          "actual": [
+            11,
+            19
+          ],
+          "predicted_total": 22.845839923201595,
+          "actual_total": 30,
+          "absolute_error_total": 7.154160076798405,
+          "interval_90": null,
+          "inside_interval": null
+        },
+        {
+          "metric": "corners",
+          "forecast": [
+            7.467449238960761,
+            3.580239782435144
+          ],
+          "actual": [
+            10,
+            0
+          ],
+          "predicted_total": 11.047689021395904,
+          "actual_total": 10,
+          "absolute_error_total": 1.0476890213959038,
+          "interval_90": [
+            6,
+            17
+          ],
+          "inside_interval": true
+        },
+        {
+          "metric": "cards",
+          "forecast": [
+            2.16343123104897,
+            2.33085589370321
+          ],
+          "actual": [
+            2,
+            5
+          ],
+          "predicted_total": 4.49428712475218,
+          "actual_total": 7,
+          "absolute_error_total": 2.50571287524782,
+          "interval_90": [
+            1,
+            9
+          ],
+          "inside_interval": true
+        }
+      ],
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401882804/villarreal-barcelona"
+    },
+    {
+      "fixture_id": "558521",
+      "date": "2026-11-22",
+      "league": "Serie A",
+      "home": "Juventus",
+      "away": "Venezia",
+      "generated_at": "2026-11-20T19:22:10.624285+00:00",
+      "kickoff_utc": "2026-11-22T11:30Z",
+      "forecast_original_date": "2026-11-22",
+      "forecast_original_kickoff_utc": "2026-11-22T11:30:00+00:00",
+      "schedule_change": null,
+      "probabilities": [
+        0.6655011853291977,
+        0.21414077497656725,
+        0.12035803969423511
+      ],
+      "actual_goals": [
+        4,
+        0
+      ],
+      "actual_outcome": 0,
+      "predicted_outcome": 0,
+      "hit_1x2": true,
+      "predicted_score": "1-0",
+      "actual_score": "4-0",
+      "hit_exact": false,
+      "btts_probability": 0.4247319455354972,
+      "hit_btts": true,
+      "brier": 0.17223178624277566,
+      "log_loss": 0.4072148600378166,
+      "goal_lines": [
+        {
+          "line": 0.5,
+          "hit": true
+        },
+        {
+          "line": 1.5,
+          "hit": true
+        },
+        {
+          "line": 2.5,
+          "hit": false
+        },
+        {
+          "line": 3.5,
+          "hit": false
+        }
+      ],
+      "statistics": [
+        {
+          "metric": "goals",
+          "forecast": [
+            1.9431226453233932,
+            0.6770882770831834
+          ],
+          "actual": [
+            4,
+            0
+          ],
+          "predicted_total": 2.6202109224065766,
+          "actual_total": 4,
+          "absolute_error_total": 1.3797890775934234,
+          "interval_90": null,
+          "inside_interval": null
+        },
+        {
+          "metric": "shots",
+          "forecast": [
+            19.8361911338595,
+            7.977812634243297
+          ],
+          "actual": [
+            12,
+            13
+          ],
+          "predicted_total": 27.814003768102797,
+          "actual_total": 25,
+          "absolute_error_total": 2.814003768102797,
+          "interval_90": null,
+          "inside_interval": null
+        },
+        {
+          "metric": "sot",
+          "forecast": [
+            6.999043172875651,
+            2.0582441878267974
+          ],
+          "actual": [
+            8,
+            1
+          ],
+          "predicted_total": 9.057287360702448,
+          "actual_total": 9,
+          "absolute_error_total": 0.057287360702448,
+          "interval_90": null,
+          "inside_interval": null
+        },
+        {
+          "metric": "fouls",
+          "forecast": [
+            11.637483008172179,
+            10.94472372034734
+          ],
+          "actual": [
+            11,
+            11
+          ],
+          "predicted_total": 22.58220672851952,
+          "actual_total": 22,
+          "absolute_error_total": 0.5822067285195196,
+          "interval_90": null,
+          "inside_interval": null
+        },
+        {
+          "metric": "corners",
+          "forecast": [
+            7.22825521929489,
+            3.3594597580568224
+          ],
+          "actual": [
+            5,
+            2
+          ],
+          "predicted_total": 10.587714977351713,
+          "actual_total": 7,
+          "absolute_error_total": 3.5877149773517125,
+          "interval_90": [
+            5,
+            17
+          ],
+          "inside_interval": true
+        },
+        {
+          "metric": "cards",
+          "forecast": [
+            1.4563279434669478,
+            2.246890034850616
+          ],
+          "actual": [
+            0,
+            0
+          ],
+          "predicted_total": 3.7032179783175634,
+          "actual_total": 0,
+          "absolute_error_total": 3.7032179783175634,
+          "interval_90": [
+            1,
+            7
+          ],
+          "inside_interval": false
+        }
+      ],
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401875008/venezia-juventus"
+    }
+  ],
+  "deferred": [],
+  "pending": [
+    {
+      "fixture_id": "564750",
+      "date": "2026-11-22",
+      "home": "Santander",
+      "away": "Sociedad",
+      "espn_event_id": "401882800",
+      "provider_status": "SCHEDULED",
+      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador.",
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401882800/real-sociedad-racing-santander"
+    },
+    {
+      "fixture_id": "564752",
+      "date": "2026-11-22",
+      "home": "Osasuna",
+      "away": "Malaga",
+      "espn_event_id": "401882801",
+      "provider_status": "SCHEDULED",
+      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador.",
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401882801/malaga-osasuna"
+    },
+    {
+      "fixture_id": "564753",
+      "date": "2026-11-22",
+      "home": "Getafe",
+      "away": "Ath Madrid",
+      "espn_event_id": "401882803",
+      "provider_status": "SCHEDULED",
+      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador.",
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401882803/atletico-madrid-getafe"
+    },
+    {
+      "fixture_id": "560646",
+      "date": "2026-11-22",
+      "home": "Hull",
+      "away": "Brighton",
+      "espn_event_id": "401879234",
+      "provider_status": "IN_PLAY",
+      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador.",
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401879234"
+    },
+    {
+      "fixture_id": "560645",
+      "date": "2026-11-22",
+      "home": "Liverpool",
+      "away": "Man United",
+      "espn_event_id": "401878755",
+      "provider_status": "SCHEDULED",
+      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador.",
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401878755/manchester-united-liverpool"
+    },
+    {
+      "fixture_id": "565864",
+      "date": "2026-11-22",
+      "home": "Augsburg",
+      "away": "Mainz",
+      "espn_event_id": "401884733",
+      "provider_status": "IN_PLAY",
+      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador.",
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401884733"
+    },
+    {
+      "fixture_id": "565863",
+      "date": "2026-11-22",
+      "home": "Werder Bremen",
+      "away": "Hamburg",
+      "espn_event_id": "401884730",
+      "provider_status": "SCHEDULED",
+      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador.",
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401884730/hamburg-sv-werder-bremen"
+    },
+    {
+      "fixture_id": "558522",
+      "date": "2026-11-22",
+      "home": "Bologna",
+      "away": "Udinese",
+      "espn_event_id": "401875047",
+      "provider_status": "IN_PLAY",
+      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador.",
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401875047"
+    },
+    {
+      "fixture_id": "558524",
+      "date": "2026-11-22",
+      "home": "Sassuolo",
+      "away": "Genoa",
+      "espn_event_id": "401874960",
+      "provider_status": "IN_PLAY",
+      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador.",
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401874960"
+    },
+    {
+      "fixture_id": "558523",
+      "date": "2026-11-22",
+      "home": "Milan",
+      "away": "Frosinone",
+      "espn_event_id": "401874989",
+      "provider_status": "SCHEDULED",
+      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador.",
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401874989/frosinone-ac-milan"
+    },
+    {
+      "fixture_id": "558520",
+      "date": "2026-11-22",
+      "home": "Atalanta",
+      "away": "Inter",
+      "espn_event_id": "401875001",
+      "provider_status": "SCHEDULED",
+      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador.",
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401875001/internazionale-atalanta"
+    },
+    {
+      "fixture_id": "559625",
+      "date": "2026-11-22",
+      "home": "Paris FC",
+      "away": "Angers",
+      "espn_event_id": "401876397",
+      "provider_status": "IN_PLAY",
+      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador.",
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401876397"
+    },
+    {
+      "fixture_id": "559626",
+      "date": "2026-11-22",
+      "home": "Lorient",
+      "away": "Rennes",
+      "espn_event_id": "401876401",
+      "provider_status": "SCHEDULED",
+      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador.",
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401876401/stade-rennais-lorient"
+    },
+    {
+      "fixture_id": "559629",
+      "date": "2026-11-22",
+      "home": "Marseille",
+      "away": "Le Mans",
+      "espn_event_id": "401876400",
+      "provider_status": "SCHEDULED",
+      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador.",
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401876400/le-mans-marseille"
+    }
+  ],
+  "advanced": [],
+  "original_predictions_sha256": "239b235ac3575048d4515f398cddd445d82d24c167bdf117f2148e74a39816a6"
+}

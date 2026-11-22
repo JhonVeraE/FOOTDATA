@@ -1,0 +1,1876 @@
+{
+  "date": "2026-11-22",
+  "reviewed_at": "2026-11-22T15:09:43.241753+00:00",
+  "frozen_shortlist_sha256": "77e4f17d8dfba652d0938d49c5fe6e32eee9f545f6d7a45c4b25e0c1fbafa98d",
+  "matches": [
+    {
+      "fixture_id": "564749",
+      "home": "Barcelona",
+      "away": "Villarreal",
+      "metrics": {
+        "goals": [
+          3,
+          2
+        ],
+        "shots": [
+          30,
+          4
+        ],
+        "sot": [
+          9,
+          2
+        ],
+        "fouls": [
+          11,
+          19
+        ],
+        "corners": [
+          10,
+          0
+        ],
+        "cards": [
+          2,
+          5
+        ]
+      },
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401882804/villarreal-barcelona"
+    },
+    {
+      "fixture_id": "558521",
+      "home": "Juventus",
+      "away": "Venezia",
+      "metrics": {
+        "goals": [
+          4,
+          0
+        ],
+        "shots": [
+          12,
+          13
+        ],
+        "sot": [
+          8,
+          1
+        ],
+        "fouls": [
+          11,
+          11
+        ],
+        "corners": [
+          5,
+          2
+        ],
+        "cards": [
+          0,
+          0
+        ]
+      },
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401875008/venezia-juventus"
+    }
+  ],
+  "tiers": [
+    {
+      "fixture_id": "564749",
+      "selection_id": "corners:home:under:10.5:",
+      "match": "Barcelona – Villarreal",
+      "market": "Córners",
+      "label": "Barcelona: menos de 10,5 córners",
+      "probability": 0.8054179293228382,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "corners",
+      "actual_home": 10,
+      "actual_away": 0,
+      "tier": "Conservadora"
+    },
+    {
+      "fixture_id": "564749",
+      "selection_id": "goals:total:over:2.5:",
+      "match": "Barcelona – Villarreal",
+      "market": "Goles",
+      "label": "Más de 2,5 goles",
+      "probability": 0.76108179683398,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 3,
+      "actual_away": 2,
+      "tier": "Normal"
+    },
+    {
+      "fixture_id": "564749",
+      "selection_id": "fouls:away:under:11.5:",
+      "match": "Barcelona – Villarreal",
+      "market": "Faltas",
+      "label": "Villarreal: menos de 11,5 faltas",
+      "probability": 0.5952319895401097,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "fouls",
+      "actual_home": 11,
+      "actual_away": 19,
+      "tier": "Arriesgada"
+    },
+    {
+      "fixture_id": "564750",
+      "selection_id": "corners:total:over:7.5:",
+      "match": "Santander – Sociedad",
+      "market": "Córners",
+      "label": "Más de 7,5 córners",
+      "probability": 0.8201164898884565,
+      "status": "unverified",
+      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador.",
+      "tier": "Conservadora"
+    },
+    {
+      "fixture_id": "564750",
+      "selection_id": "goals:total:over:2.5:",
+      "match": "Santander – Sociedad",
+      "market": "Goles",
+      "label": "Más de 2,5 goles",
+      "probability": 0.7256677578110844,
+      "status": "unverified",
+      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador.",
+      "tier": "Normal"
+    },
+    {
+      "fixture_id": "564750",
+      "selection_id": "shots:total:over:29.5:",
+      "match": "Santander – Sociedad",
+      "market": "Remates",
+      "label": "Más de 29,5 remates totales",
+      "probability": 0.5580131284419063,
+      "status": "unverified",
+      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador.",
+      "tier": "Arriesgada"
+    },
+    {
+      "fixture_id": "564752",
+      "selection_id": "corners:total:over:6.5:",
+      "match": "Osasuna – Malaga",
+      "market": "Córners",
+      "label": "Más de 6,5 córners",
+      "probability": 0.8036491699397235,
+      "status": "unverified",
+      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador.",
+      "tier": "Conservadora"
+    },
+    {
+      "fixture_id": "564752",
+      "selection_id": "goals:total:over:1.5:",
+      "match": "Osasuna – Malaga",
+      "market": "Goles",
+      "label": "Más de 1,5 goles",
+      "probability": 0.7457776706096385,
+      "status": "unverified",
+      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador.",
+      "tier": "Normal"
+    },
+    {
+      "fixture_id": "564752",
+      "selection_id": "result_goals:total:1X:1.5:over",
+      "match": "Osasuna – Malaga",
+      "market": "Resultado y goles",
+      "label": "Osasuna o empate y más de 1,5 goles",
+      "probability": 0.6265413220581229,
+      "status": "unverified",
+      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador.",
+      "tier": "Arriesgada"
+    },
+    {
+      "fixture_id": "564753",
+      "selection_id": "corners:total:over:6.5:",
+      "match": "Getafe – Ath Madrid",
+      "market": "Córners",
+      "label": "Más de 6,5 córners",
+      "probability": 0.7640491396861278,
+      "status": "unverified",
+      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador.",
+      "tier": "Conservadora"
+    },
+    {
+      "fixture_id": "564753",
+      "selection_id": "goals:total:over:1.5:",
+      "match": "Getafe – Ath Madrid",
+      "market": "Goles",
+      "label": "Más de 1,5 goles",
+      "probability": 0.6097036493326822,
+      "status": "unverified",
+      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador.",
+      "tier": "Normal"
+    },
+    {
+      "fixture_id": "564753",
+      "selection_id": "result:total:away:None:",
+      "match": "Getafe – Ath Madrid",
+      "market": "Resultado 1X2",
+      "label": "Gana Ath Madrid",
+      "probability": 0.4689305755736137,
+      "status": "unverified",
+      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador.",
+      "tier": "Arriesgada"
+    },
+    {
+      "fixture_id": "560646",
+      "selection_id": "double_chance:total:X2:None:",
+      "match": "Hull – Brighton",
+      "market": "Doble oportunidad",
+      "label": "Brighton o empate",
+      "probability": 0.726227399447182,
+      "status": "unverified",
+      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador.",
+      "tier": "Conservadora"
+    },
+    {
+      "fixture_id": "560646",
+      "selection_id": "corners:total:under:12.5:",
+      "match": "Hull – Brighton",
+      "market": "Córners",
+      "label": "Menos de 12,5 córners",
+      "probability": 0.8271588664970286,
+      "status": "unverified",
+      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador.",
+      "tier": "Normal"
+    },
+    {
+      "fixture_id": "560646",
+      "selection_id": "goals:total:under:3.5:",
+      "match": "Hull – Brighton",
+      "market": "Goles",
+      "label": "Menos de 3,5 goles",
+      "probability": 0.7531052320564634,
+      "status": "unverified",
+      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador.",
+      "tier": "Arriesgada"
+    },
+    {
+      "fixture_id": "560645",
+      "selection_id": "corners:home:under:8.5:",
+      "match": "Liverpool – Man United",
+      "market": "Córners",
+      "label": "Liverpool: menos de 8,5 córners",
+      "probability": 0.7845815793403104,
+      "status": "unverified",
+      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador.",
+      "tier": "Conservadora"
+    },
+    {
+      "fixture_id": "560645",
+      "selection_id": "sot:away:over:2.5:",
+      "match": "Liverpool – Man United",
+      "market": "Tiros al arco",
+      "label": "Man United: más de 2,5 tiros al arco",
+      "probability": 0.7189410204097073,
+      "status": "unverified",
+      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador.",
+      "tier": "Normal"
+    },
+    {
+      "fixture_id": "560645",
+      "selection_id": "goals:total:under:3.5:",
+      "match": "Liverpool – Man United",
+      "market": "Goles",
+      "label": "Menos de 3,5 goles",
+      "probability": 0.5673073752087407,
+      "status": "unverified",
+      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador.",
+      "tier": "Arriesgada"
+    },
+    {
+      "fixture_id": "565864",
+      "selection_id": "goals:total:over:1.5:",
+      "match": "Augsburg – Mainz",
+      "market": "Goles",
+      "label": "Más de 1,5 goles",
+      "probability": 0.8250080446133211,
+      "status": "unverified",
+      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador.",
+      "tier": "Conservadora"
+    },
+    {
+      "fixture_id": "565864",
+      "selection_id": "sot:home:under:6.5:",
+      "match": "Augsburg – Mainz",
+      "market": "Tiros al arco",
+      "label": "Augsburg: menos de 6,5 tiros al arco",
+      "probability": 0.7166524019880931,
+      "status": "unverified",
+      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador.",
+      "tier": "Normal"
+    },
+    {
+      "fixture_id": "565864",
+      "selection_id": "double_chance:total:X2:None:",
+      "match": "Augsburg – Mainz",
+      "market": "Doble oportunidad",
+      "label": "Mainz o empate",
+      "probability": 0.582222038949862,
+      "status": "unverified",
+      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador.",
+      "tier": "Arriesgada"
+    },
+    {
+      "fixture_id": "565863",
+      "selection_id": "corners:home:under:8.5:",
+      "match": "Werder Bremen – Hamburg",
+      "market": "Córners",
+      "label": "Werder Bremen: menos de 8,5 córners",
+      "probability": 0.8626861248187373,
+      "status": "unverified",
+      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador.",
+      "tier": "Conservadora"
+    },
+    {
+      "fixture_id": "565863",
+      "selection_id": "sot:away:over:2.5:",
+      "match": "Werder Bremen – Hamburg",
+      "market": "Tiros al arco",
+      "label": "Hamburg: más de 2,5 tiros al arco",
+      "probability": 0.7463928830399851,
+      "status": "unverified",
+      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador.",
+      "tier": "Normal"
+    },
+    {
+      "fixture_id": "565863",
+      "selection_id": "shots:home:under:19.5:",
+      "match": "Werder Bremen – Hamburg",
+      "market": "Remates",
+      "label": "Werder Bremen: menos de 19,5 remates",
+      "probability": 0.6624417967837303,
+      "status": "unverified",
+      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador.",
+      "tier": "Arriesgada"
+    },
+    {
+      "fixture_id": "558521",
+      "selection_id": "corners:total:under:13.5:",
+      "match": "Juventus – Venezia",
+      "market": "Córners",
+      "label": "Menos de 13,5 córners",
+      "probability": 0.7299475349812754,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "corners",
+      "actual_home": 5,
+      "actual_away": 2,
+      "tier": "Conservadora"
+    },
+    {
+      "fixture_id": "558521",
+      "selection_id": "sot:away:over:1.5:",
+      "match": "Juventus – Venezia",
+      "market": "Tiros al arco",
+      "label": "Venezia: más de 1,5 tiros al arco",
+      "probability": 0.6495702688414804,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "sot",
+      "actual_home": 8,
+      "actual_away": 1,
+      "tier": "Normal"
+    },
+    {
+      "fixture_id": "558521",
+      "selection_id": "shots:total:under:29.5:",
+      "match": "Juventus – Venezia",
+      "market": "Remates",
+      "label": "Menos de 29,5 remates totales",
+      "probability": 0.4415292980956977,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "shots",
+      "actual_home": 12,
+      "actual_away": 13,
+      "tier": "Arriesgada"
+    },
+    {
+      "fixture_id": "558522",
+      "selection_id": "corners:total:under:12.5:",
+      "match": "Bologna – Udinese",
+      "market": "Córners",
+      "label": "Menos de 12,5 córners",
+      "probability": 0.7251931403234662,
+      "status": "unverified",
+      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador.",
+      "tier": "Conservadora"
+    },
+    {
+      "fixture_id": "558522",
+      "selection_id": "sot:home:under:6.5:",
+      "match": "Bologna – Udinese",
+      "market": "Tiros al arco",
+      "label": "Bologna: menos de 6,5 tiros al arco",
+      "probability": 0.7663687431655691,
+      "status": "unverified",
+      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador.",
+      "tier": "Normal"
+    },
+    {
+      "fixture_id": "558522",
+      "selection_id": "shots:away:over:9.5:",
+      "match": "Bologna – Udinese",
+      "market": "Remates",
+      "label": "Udinese: más de 9,5 remates",
+      "probability": 0.5134411348638063,
+      "status": "unverified",
+      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador.",
+      "tier": "Arriesgada"
+    },
+    {
+      "fixture_id": "558524",
+      "selection_id": "corners:away:under:6.5:",
+      "match": "Sassuolo – Genoa",
+      "market": "Córners",
+      "label": "Genoa: menos de 6,5 córners",
+      "probability": 0.7948331947151798,
+      "status": "unverified",
+      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador.",
+      "tier": "Conservadora"
+    },
+    {
+      "fixture_id": "558524",
+      "selection_id": "goals:total:over:1.5:",
+      "match": "Sassuolo – Genoa",
+      "market": "Goles",
+      "label": "Más de 1,5 goles",
+      "probability": 0.7505410443469479,
+      "status": "unverified",
+      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador.",
+      "tier": "Normal"
+    },
+    {
+      "fixture_id": "558524",
+      "selection_id": "double_chance:total:1X:None:",
+      "match": "Sassuolo – Genoa",
+      "market": "Doble oportunidad",
+      "label": "Sassuolo o empate",
+      "probability": 0.649897730187492,
+      "status": "unverified",
+      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador.",
+      "tier": "Arriesgada"
+    },
+    {
+      "fixture_id": "558523",
+      "selection_id": "double_chance:total:1X:None:",
+      "match": "Milan – Frosinone",
+      "market": "Doble oportunidad",
+      "label": "Milan o empate",
+      "probability": 0.7228621711809569,
+      "status": "unverified",
+      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador.",
+      "tier": "Conservadora"
+    },
+    {
+      "fixture_id": "558523",
+      "selection_id": "corners:away:under:5.5:",
+      "match": "Milan – Frosinone",
+      "market": "Córners",
+      "label": "Frosinone: menos de 5,5 córners",
+      "probability": 0.5947947860215859,
+      "status": "unverified",
+      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador.",
+      "tier": "Normal"
+    },
+    {
+      "fixture_id": "558523",
+      "selection_id": "sot:total:under:11.5:",
+      "match": "Milan – Frosinone",
+      "market": "Tiros al arco",
+      "label": "Menos de 11,5 tiros al arco totales",
+      "probability": 0.5721623844680082,
+      "status": "unverified",
+      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador.",
+      "tier": "Arriesgada"
+    },
+    {
+      "fixture_id": "558520",
+      "selection_id": "goals:total:over:1.5:",
+      "match": "Atalanta – Inter",
+      "market": "Goles",
+      "label": "Más de 1,5 goles",
+      "probability": 0.8240817366334099,
+      "status": "unverified",
+      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador.",
+      "tier": "Conservadora"
+    },
+    {
+      "fixture_id": "558520",
+      "selection_id": "corners:away:over:3.5:",
+      "match": "Atalanta – Inter",
+      "market": "Córners",
+      "label": "Inter: más de 3,5 córners",
+      "probability": 0.6367520436171422,
+      "status": "unverified",
+      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador.",
+      "tier": "Normal"
+    },
+    {
+      "fixture_id": "558520",
+      "selection_id": "result:total:away:None:",
+      "match": "Atalanta – Inter",
+      "market": "Resultado 1X2",
+      "label": "Gana Inter",
+      "probability": 0.5071522226391451,
+      "status": "unverified",
+      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador.",
+      "tier": "Arriesgada"
+    },
+    {
+      "fixture_id": "559625",
+      "selection_id": "corners:total:under:12.5:",
+      "match": "Paris FC – Angers",
+      "market": "Córners",
+      "label": "Menos de 12,5 córners",
+      "probability": 0.897870653681944,
+      "status": "unverified",
+      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador.",
+      "tier": "Conservadora"
+    },
+    {
+      "fixture_id": "559625",
+      "selection_id": "sot:away:over:1.5:",
+      "match": "Paris FC – Angers",
+      "market": "Tiros al arco",
+      "label": "Angers: más de 1,5 tiros al arco",
+      "probability": 0.6883329300958836,
+      "status": "unverified",
+      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador.",
+      "tier": "Normal"
+    },
+    {
+      "fixture_id": "559625",
+      "selection_id": "result_goals:total:1X:3.5:under",
+      "match": "Paris FC – Angers",
+      "market": "Resultado y goles",
+      "label": "Paris FC o empate y menos de 3,5 goles",
+      "probability": 0.6104153835252053,
+      "status": "unverified",
+      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador.",
+      "tier": "Arriesgada"
+    },
+    {
+      "fixture_id": "559626",
+      "selection_id": "corners:total:over:6.5:",
+      "match": "Lorient – Rennes",
+      "market": "Córners",
+      "label": "Más de 6,5 córners",
+      "probability": 0.809446550277126,
+      "status": "unverified",
+      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador.",
+      "tier": "Conservadora"
+    },
+    {
+      "fixture_id": "559626",
+      "selection_id": "goals:total:over:1.5:",
+      "match": "Lorient – Rennes",
+      "market": "Goles",
+      "label": "Más de 1,5 goles",
+      "probability": 0.8068456549428241,
+      "status": "unverified",
+      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador.",
+      "tier": "Normal"
+    },
+    {
+      "fixture_id": "559626",
+      "selection_id": "shots:away:over:12.5:",
+      "match": "Lorient – Rennes",
+      "market": "Remates",
+      "label": "Rennes: más de 12,5 remates",
+      "probability": 0.5691561391726122,
+      "status": "unverified",
+      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador.",
+      "tier": "Arriesgada"
+    },
+    {
+      "fixture_id": "559629",
+      "selection_id": "goals:total:over:1.5:",
+      "match": "Marseille – Le Mans",
+      "market": "Goles",
+      "label": "Más de 1,5 goles",
+      "probability": 0.8684041706717317,
+      "status": "unverified",
+      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador.",
+      "tier": "Conservadora"
+    },
+    {
+      "fixture_id": "559629",
+      "selection_id": "corners:away:under:4.5:",
+      "match": "Marseille – Le Mans",
+      "market": "Córners",
+      "label": "Le Mans: menos de 4,5 córners",
+      "probability": 0.7407520686285856,
+      "status": "unverified",
+      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador.",
+      "tier": "Normal"
+    },
+    {
+      "fixture_id": "559629",
+      "selection_id": "result:total:home:None:",
+      "match": "Marseille – Le Mans",
+      "market": "Resultado 1X2",
+      "label": "Gana Marseille",
+      "probability": 0.668256647398033,
+      "status": "unverified",
+      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador.",
+      "tier": "Arriesgada"
+    }
+  ],
+  "unique_selections": [
+    {
+      "fixture_id": "564749",
+      "selection_id": "goals:total:over:2.5:",
+      "match": "Barcelona – Villarreal",
+      "market": "Goles",
+      "label": "Más de 2,5 goles",
+      "probability": 0.76108179683398,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 3,
+      "actual_away": 2
+    },
+    {
+      "fixture_id": "564749",
+      "selection_id": "shots:total:under:30.5:",
+      "match": "Barcelona – Villarreal",
+      "market": "Remates",
+      "label": "Menos de 30,5 remates totales",
+      "probability": 0.694366138108361,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "shots",
+      "actual_home": 30,
+      "actual_away": 4
+    },
+    {
+      "fixture_id": "564749",
+      "selection_id": "sot:total:under:12.5:",
+      "match": "Barcelona – Villarreal",
+      "market": "Tiros al arco",
+      "label": "Menos de 12,5 tiros al arco totales",
+      "probability": 0.8301058480572712,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "sot",
+      "actual_home": 9,
+      "actual_away": 2
+    },
+    {
+      "fixture_id": "564749",
+      "selection_id": "fouls:away:under:11.5:",
+      "match": "Barcelona – Villarreal",
+      "market": "Faltas",
+      "label": "Villarreal: menos de 11,5 faltas",
+      "probability": 0.5952319895401097,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "fouls",
+      "actual_home": 11,
+      "actual_away": 19
+    },
+    {
+      "fixture_id": "564749",
+      "selection_id": "corners:total:over:10.5:",
+      "match": "Barcelona – Villarreal",
+      "market": "Córners",
+      "label": "Más de 10,5 córners",
+      "probability": 0.5476265145969125,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "corners",
+      "actual_home": 10,
+      "actual_away": 0
+    },
+    {
+      "fixture_id": "564749",
+      "selection_id": "corners:home:under:10.5:",
+      "match": "Barcelona – Villarreal",
+      "market": "Córners",
+      "label": "Barcelona: menos de 10,5 córners",
+      "probability": 0.8054179293228382,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "corners",
+      "actual_home": 10,
+      "actual_away": 0
+    },
+    {
+      "fixture_id": "564750",
+      "selection_id": "goals:total:over:2.5:",
+      "match": "Santander – Sociedad",
+      "market": "Goles",
+      "label": "Más de 2,5 goles",
+      "probability": 0.7256677578110844,
+      "status": "unverified",
+      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+    },
+    {
+      "fixture_id": "564750",
+      "selection_id": "shots:total:over:29.5:",
+      "match": "Santander – Sociedad",
+      "market": "Remates",
+      "label": "Más de 29,5 remates totales",
+      "probability": 0.5580131284419063,
+      "status": "unverified",
+      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+    },
+    {
+      "fixture_id": "564750",
+      "selection_id": "sot:total:over:9.5:",
+      "match": "Santander – Sociedad",
+      "market": "Tiros al arco",
+      "label": "Más de 9,5 tiros al arco totales",
+      "probability": 0.613642200762945,
+      "status": "unverified",
+      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+    },
+    {
+      "fixture_id": "564750",
+      "selection_id": "corners:home:over:3.5:",
+      "match": "Santander – Sociedad",
+      "market": "Córners",
+      "label": "Santander: más de 3,5 córners",
+      "probability": 0.6981570792096795,
+      "status": "unverified",
+      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+    },
+    {
+      "fixture_id": "564750",
+      "selection_id": "corners:total:over:7.5:",
+      "match": "Santander – Sociedad",
+      "market": "Córners",
+      "label": "Más de 7,5 córners",
+      "probability": 0.8201164898884565,
+      "status": "unverified",
+      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+    },
+    {
+      "fixture_id": "564752",
+      "selection_id": "double_chance:total:1X:None:",
+      "match": "Osasuna – Malaga",
+      "market": "Doble oportunidad",
+      "label": "Osasuna o empate",
+      "probability": 0.8207072993503172,
+      "status": "unverified",
+      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+    },
+    {
+      "fixture_id": "564752",
+      "selection_id": "goals:total:under:3.5:",
+      "match": "Osasuna – Malaga",
+      "market": "Goles",
+      "label": "Menos de 3,5 goles",
+      "probability": 0.7252134699949981,
+      "status": "unverified",
+      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+    },
+    {
+      "fixture_id": "564752",
+      "selection_id": "result_goals:total:1X:3.5:under",
+      "match": "Osasuna – Malaga",
+      "market": "Resultado y goles",
+      "label": "Osasuna o empate y menos de 3,5 goles",
+      "probability": 0.5852566368107561,
+      "status": "unverified",
+      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+    },
+    {
+      "fixture_id": "564752",
+      "selection_id": "shots:away:over:9.5:",
+      "match": "Osasuna – Malaga",
+      "market": "Remates",
+      "label": "Malaga: más de 9,5 remates",
+      "probability": 0.5365733618794897,
+      "status": "unverified",
+      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+    },
+    {
+      "fixture_id": "564752",
+      "selection_id": "sot:total:under:9.5:",
+      "match": "Osasuna – Malaga",
+      "market": "Tiros al arco",
+      "label": "Menos de 9,5 tiros al arco totales",
+      "probability": 0.6404815755380876,
+      "status": "unverified",
+      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+    },
+    {
+      "fixture_id": "564752",
+      "selection_id": "corners:away:over:2.5:",
+      "match": "Osasuna – Malaga",
+      "market": "Córners",
+      "label": "Malaga: más de 2,5 córners",
+      "probability": 0.7132154299829098,
+      "status": "unverified",
+      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+    },
+    {
+      "fixture_id": "564752",
+      "selection_id": "corners:total:over:6.5:",
+      "match": "Osasuna – Malaga",
+      "market": "Córners",
+      "label": "Más de 6,5 córners",
+      "probability": 0.8036491699397235,
+      "status": "unverified",
+      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+    },
+    {
+      "fixture_id": "564752",
+      "selection_id": "goals:total:over:1.5:",
+      "match": "Osasuna – Malaga",
+      "market": "Goles",
+      "label": "Más de 1,5 goles",
+      "probability": 0.7457776706096385,
+      "status": "unverified",
+      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+    },
+    {
+      "fixture_id": "564752",
+      "selection_id": "result_goals:total:1X:1.5:over",
+      "match": "Osasuna – Malaga",
+      "market": "Resultado y goles",
+      "label": "Osasuna o empate y más de 1,5 goles",
+      "probability": 0.6265413220581229,
+      "status": "unverified",
+      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+    },
+    {
+      "fixture_id": "564753",
+      "selection_id": "double_chance:total:X2:None:",
+      "match": "Getafe – Ath Madrid",
+      "market": "Doble oportunidad",
+      "label": "Ath Madrid o empate",
+      "probability": 0.7713616741836813,
+      "status": "unverified",
+      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+    },
+    {
+      "fixture_id": "564753",
+      "selection_id": "goals:total:over:1.5:",
+      "match": "Getafe – Ath Madrid",
+      "market": "Goles",
+      "label": "Más de 1,5 goles",
+      "probability": 0.6097036493326822,
+      "status": "unverified",
+      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+    },
+    {
+      "fixture_id": "564753",
+      "selection_id": "corners:total:over:7.5:",
+      "match": "Getafe – Ath Madrid",
+      "market": "Córners",
+      "label": "Más de 7,5 córners",
+      "probability": 0.6475152467830217,
+      "status": "unverified",
+      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+    },
+    {
+      "fixture_id": "564753",
+      "selection_id": "corners:total:over:6.5:",
+      "match": "Getafe – Ath Madrid",
+      "market": "Córners",
+      "label": "Más de 6,5 córners",
+      "probability": 0.7640491396861278,
+      "status": "unverified",
+      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+    },
+    {
+      "fixture_id": "564753",
+      "selection_id": "result:total:away:None:",
+      "match": "Getafe – Ath Madrid",
+      "market": "Resultado 1X2",
+      "label": "Gana Ath Madrid",
+      "probability": 0.4689305755736137,
+      "status": "unverified",
+      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+    },
+    {
+      "fixture_id": "560646",
+      "selection_id": "double_chance:total:X2:None:",
+      "match": "Hull – Brighton",
+      "market": "Doble oportunidad",
+      "label": "Brighton o empate",
+      "probability": 0.726227399447182,
+      "status": "unverified",
+      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+    },
+    {
+      "fixture_id": "560646",
+      "selection_id": "goals:total:over:1.5:",
+      "match": "Hull – Brighton",
+      "market": "Goles",
+      "label": "Más de 1,5 goles",
+      "probability": 0.7212483682102903,
+      "status": "unverified",
+      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+    },
+    {
+      "fixture_id": "560646",
+      "selection_id": "shots:away:under:17.5:",
+      "match": "Hull – Brighton",
+      "market": "Remates",
+      "label": "Brighton: menos de 17,5 remates",
+      "probability": 0.6496370248658099,
+      "status": "unverified",
+      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+    },
+    {
+      "fixture_id": "560646",
+      "selection_id": "sot:home:over:2.5:",
+      "match": "Hull – Brighton",
+      "market": "Tiros al arco",
+      "label": "Hull: más de 2,5 tiros al arco",
+      "probability": 0.7312420062434756,
+      "status": "unverified",
+      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+    },
+    {
+      "fixture_id": "560646",
+      "selection_id": "fouls:home:under:11.5:",
+      "match": "Hull – Brighton",
+      "market": "Faltas",
+      "label": "Hull: menos de 11,5 faltas",
+      "probability": 0.6132532393399805,
+      "status": "unverified",
+      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+    },
+    {
+      "fixture_id": "560646",
+      "selection_id": "corners:away:under:7.5:",
+      "match": "Hull – Brighton",
+      "market": "Córners",
+      "label": "Brighton: menos de 7,5 córners",
+      "probability": 0.8652973388622258,
+      "status": "unverified",
+      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+    },
+    {
+      "fixture_id": "560646",
+      "selection_id": "corners:total:under:12.5:",
+      "match": "Hull – Brighton",
+      "market": "Córners",
+      "label": "Menos de 12,5 córners",
+      "probability": 0.8271588664970286,
+      "status": "unverified",
+      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+    },
+    {
+      "fixture_id": "560646",
+      "selection_id": "goals:total:under:3.5:",
+      "match": "Hull – Brighton",
+      "market": "Goles",
+      "label": "Menos de 3,5 goles",
+      "probability": 0.7531052320564634,
+      "status": "unverified",
+      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+    },
+    {
+      "fixture_id": "560645",
+      "selection_id": "double_chance:total:1X:None:",
+      "match": "Liverpool – Man United",
+      "market": "Doble oportunidad",
+      "label": "Liverpool o empate",
+      "probability": 0.7533993460401007,
+      "status": "unverified",
+      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+    },
+    {
+      "fixture_id": "560645",
+      "selection_id": "goals:total:under:3.5:",
+      "match": "Liverpool – Man United",
+      "market": "Goles",
+      "label": "Menos de 3,5 goles",
+      "probability": 0.5673073752087407,
+      "status": "unverified",
+      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+    },
+    {
+      "fixture_id": "560645",
+      "selection_id": "shots:home:under:17.5:",
+      "match": "Liverpool – Man United",
+      "market": "Remates",
+      "label": "Liverpool: menos de 17,5 remates",
+      "probability": 0.5493335091026194,
+      "status": "unverified",
+      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+    },
+    {
+      "fixture_id": "560645",
+      "selection_id": "sot:home:under:6.5:",
+      "match": "Liverpool – Man United",
+      "market": "Tiros al arco",
+      "label": "Liverpool: menos de 6,5 tiros al arco",
+      "probability": 0.6688960180157644,
+      "status": "unverified",
+      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+    },
+    {
+      "fixture_id": "560645",
+      "selection_id": "corners:home:under:8.5:",
+      "match": "Liverpool – Man United",
+      "market": "Córners",
+      "label": "Liverpool: menos de 8,5 córners",
+      "probability": 0.7845815793403104,
+      "status": "unverified",
+      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+    },
+    {
+      "fixture_id": "560645",
+      "selection_id": "sot:away:over:2.5:",
+      "match": "Liverpool – Man United",
+      "market": "Tiros al arco",
+      "label": "Man United: más de 2,5 tiros al arco",
+      "probability": 0.7189410204097073,
+      "status": "unverified",
+      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+    },
+    {
+      "fixture_id": "565864",
+      "selection_id": "double_chance:total:X2:None:",
+      "match": "Augsburg – Mainz",
+      "market": "Doble oportunidad",
+      "label": "Mainz o empate",
+      "probability": 0.582222038949862,
+      "status": "unverified",
+      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+    },
+    {
+      "fixture_id": "565864",
+      "selection_id": "goals:total:over:1.5:",
+      "match": "Augsburg – Mainz",
+      "market": "Goles",
+      "label": "Más de 1,5 goles",
+      "probability": 0.8250080446133211,
+      "status": "unverified",
+      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+    },
+    {
+      "fixture_id": "565864",
+      "selection_id": "result_goals:total:X2:1.5:over",
+      "match": "Augsburg – Mainz",
+      "market": "Resultado y goles",
+      "label": "Mainz o empate y más de 1,5 goles",
+      "probability": 0.4739759698910009,
+      "status": "unverified",
+      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+    },
+    {
+      "fixture_id": "565864",
+      "selection_id": "shots:home:under:15.5:",
+      "match": "Augsburg – Mainz",
+      "market": "Remates",
+      "label": "Augsburg: menos de 15,5 remates",
+      "probability": 0.5929549455654852,
+      "status": "unverified",
+      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+    },
+    {
+      "fixture_id": "565864",
+      "selection_id": "sot:home:under:6.5:",
+      "match": "Augsburg – Mainz",
+      "market": "Tiros al arco",
+      "label": "Augsburg: menos de 6,5 tiros al arco",
+      "probability": 0.7166524019880931,
+      "status": "unverified",
+      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+    },
+    {
+      "fixture_id": "565864",
+      "selection_id": "corners:home:under:6.5:",
+      "match": "Augsburg – Mainz",
+      "market": "Córners",
+      "label": "Augsburg: menos de 6,5 córners",
+      "probability": 0.710063063079122,
+      "status": "unverified",
+      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+    },
+    {
+      "fixture_id": "565863",
+      "selection_id": "result:total:home:None:",
+      "match": "Werder Bremen – Hamburg",
+      "market": "Resultado 1X2",
+      "label": "Gana Werder Bremen",
+      "probability": 0.5074678592281353,
+      "status": "unverified",
+      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+    },
+    {
+      "fixture_id": "565863",
+      "selection_id": "double_chance:total:1X:None:",
+      "match": "Werder Bremen – Hamburg",
+      "market": "Doble oportunidad",
+      "label": "Werder Bremen o empate",
+      "probability": 0.7466244940953762,
+      "status": "unverified",
+      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+    },
+    {
+      "fixture_id": "565863",
+      "selection_id": "goals:total:over:1.5:",
+      "match": "Werder Bremen – Hamburg",
+      "market": "Goles",
+      "label": "Más de 1,5 goles",
+      "probability": 0.8089410608357587,
+      "status": "unverified",
+      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+    },
+    {
+      "fixture_id": "565863",
+      "selection_id": "result_goals:total:home:1.5:over",
+      "match": "Werder Bremen – Hamburg",
+      "market": "Resultado y goles",
+      "label": "Gana Werder Bremen y más de 1,5 goles",
+      "probability": 0.4265380449575002,
+      "status": "unverified",
+      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+    },
+    {
+      "fixture_id": "565863",
+      "selection_id": "shots:home:under:19.5:",
+      "match": "Werder Bremen – Hamburg",
+      "market": "Remates",
+      "label": "Werder Bremen: menos de 19,5 remates",
+      "probability": 0.6624417967837303,
+      "status": "unverified",
+      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+    },
+    {
+      "fixture_id": "565863",
+      "selection_id": "sot:away:over:2.5:",
+      "match": "Werder Bremen – Hamburg",
+      "market": "Tiros al arco",
+      "label": "Hamburg: más de 2,5 tiros al arco",
+      "probability": 0.7463928830399851,
+      "status": "unverified",
+      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+    },
+    {
+      "fixture_id": "565863",
+      "selection_id": "corners:home:under:8.5:",
+      "match": "Werder Bremen – Hamburg",
+      "market": "Córners",
+      "label": "Werder Bremen: menos de 8,5 córners",
+      "probability": 0.8626861248187373,
+      "status": "unverified",
+      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+    },
+    {
+      "fixture_id": "558521",
+      "selection_id": "result:total:home:None:",
+      "match": "Juventus – Venezia",
+      "market": "Resultado 1X2",
+      "label": "Gana Juventus",
+      "probability": 0.6655011853291977,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 4,
+      "actual_away": 0
+    },
+    {
+      "fixture_id": "558521",
+      "selection_id": "goals:total:under:3.5:",
+      "match": "Juventus – Venezia",
+      "market": "Goles",
+      "label": "Menos de 3,5 goles",
+      "probability": 0.7315976012772354,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "goals",
+      "actual_home": 4,
+      "actual_away": 0
+    },
+    {
+      "fixture_id": "558521",
+      "selection_id": "result_goals:total:home:1.5:over",
+      "match": "Juventus – Venezia",
+      "market": "Resultado y goles",
+      "label": "Gana Juventus y más de 1,5 goles",
+      "probability": 0.532423939810854,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 4,
+      "actual_away": 0
+    },
+    {
+      "fixture_id": "558521",
+      "selection_id": "shots:total:under:29.5:",
+      "match": "Juventus – Venezia",
+      "market": "Remates",
+      "label": "Menos de 29,5 remates totales",
+      "probability": 0.4415292980956977,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "shots",
+      "actual_home": 12,
+      "actual_away": 13
+    },
+    {
+      "fixture_id": "558521",
+      "selection_id": "sot:home:under:6.5:",
+      "match": "Juventus – Venezia",
+      "market": "Tiros al arco",
+      "label": "Juventus: menos de 6,5 tiros al arco",
+      "probability": 0.3778292142555648,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "sot",
+      "actual_home": 8,
+      "actual_away": 1
+    },
+    {
+      "fixture_id": "558521",
+      "selection_id": "corners:total:under:12.5:",
+      "match": "Juventus – Venezia",
+      "market": "Córners",
+      "label": "Menos de 12,5 córners",
+      "probability": 0.6427695477693496,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "corners",
+      "actual_home": 5,
+      "actual_away": 2
+    },
+    {
+      "fixture_id": "558521",
+      "selection_id": "corners:total:under:13.5:",
+      "match": "Juventus – Venezia",
+      "market": "Córners",
+      "label": "Menos de 13,5 córners",
+      "probability": 0.7299475349812754,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "corners",
+      "actual_home": 5,
+      "actual_away": 2
+    },
+    {
+      "fixture_id": "558521",
+      "selection_id": "sot:away:over:1.5:",
+      "match": "Juventus – Venezia",
+      "market": "Tiros al arco",
+      "label": "Venezia: más de 1,5 tiros al arco",
+      "probability": 0.6495702688414804,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "sot",
+      "actual_home": 8,
+      "actual_away": 1
+    },
+    {
+      "fixture_id": "558522",
+      "selection_id": "double_chance:total:1X:None:",
+      "match": "Bologna – Udinese",
+      "market": "Doble oportunidad",
+      "label": "Bologna o empate",
+      "probability": 0.7667597603113381,
+      "status": "unverified",
+      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+    },
+    {
+      "fixture_id": "558522",
+      "selection_id": "goals:total:over:1.5:",
+      "match": "Bologna – Udinese",
+      "market": "Goles",
+      "label": "Más de 1,5 goles",
+      "probability": 0.7410240258832843,
+      "status": "unverified",
+      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+    },
+    {
+      "fixture_id": "558522",
+      "selection_id": "result_goals:total:1X:1.5:over",
+      "match": "Bologna – Udinese",
+      "market": "Resultado y goles",
+      "label": "Bologna o empate y más de 1,5 goles",
+      "probability": 0.5784601185599295,
+      "status": "unverified",
+      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+    },
+    {
+      "fixture_id": "558522",
+      "selection_id": "shots:away:over:9.5:",
+      "match": "Bologna – Udinese",
+      "market": "Remates",
+      "label": "Udinese: más de 9,5 remates",
+      "probability": 0.5134411348638063,
+      "status": "unverified",
+      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+    },
+    {
+      "fixture_id": "558522",
+      "selection_id": "sot:home:under:5.5:",
+      "match": "Bologna – Udinese",
+      "market": "Tiros al arco",
+      "label": "Bologna: menos de 5,5 tiros al arco",
+      "probability": 0.6472441823241997,
+      "status": "unverified",
+      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+    },
+    {
+      "fixture_id": "558522",
+      "selection_id": "corners:away:over:2.5:",
+      "match": "Bologna – Udinese",
+      "market": "Córners",
+      "label": "Udinese: más de 2,5 córners",
+      "probability": 0.7064090983576014,
+      "status": "unverified",
+      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+    },
+    {
+      "fixture_id": "558522",
+      "selection_id": "corners:total:under:12.5:",
+      "match": "Bologna – Udinese",
+      "market": "Córners",
+      "label": "Menos de 12,5 córners",
+      "probability": 0.7251931403234662,
+      "status": "unverified",
+      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+    },
+    {
+      "fixture_id": "558522",
+      "selection_id": "sot:home:under:6.5:",
+      "match": "Bologna – Udinese",
+      "market": "Tiros al arco",
+      "label": "Bologna: menos de 6,5 tiros al arco",
+      "probability": 0.7663687431655691,
+      "status": "unverified",
+      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+    },
+    {
+      "fixture_id": "558524",
+      "selection_id": "double_chance:total:1X:None:",
+      "match": "Sassuolo – Genoa",
+      "market": "Doble oportunidad",
+      "label": "Sassuolo o empate",
+      "probability": 0.649897730187492,
+      "status": "unverified",
+      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+    },
+    {
+      "fixture_id": "558524",
+      "selection_id": "goals:total:over:1.5:",
+      "match": "Sassuolo – Genoa",
+      "market": "Goles",
+      "label": "Más de 1,5 goles",
+      "probability": 0.7505410443469479,
+      "status": "unverified",
+      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+    },
+    {
+      "fixture_id": "558524",
+      "selection_id": "shots:total:under:27.5:",
+      "match": "Sassuolo – Genoa",
+      "market": "Remates",
+      "label": "Menos de 27,5 remates totales",
+      "probability": 0.6008004736683596,
+      "status": "unverified",
+      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+    },
+    {
+      "fixture_id": "558524",
+      "selection_id": "sot:home:under:4.5:",
+      "match": "Sassuolo – Genoa",
+      "market": "Tiros al arco",
+      "label": "Sassuolo: menos de 4,5 tiros al arco",
+      "probability": 0.5370683320908701,
+      "status": "unverified",
+      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+    },
+    {
+      "fixture_id": "558524",
+      "selection_id": "corners:home:under:6.5:",
+      "match": "Sassuolo – Genoa",
+      "market": "Córners",
+      "label": "Sassuolo: menos de 6,5 córners",
+      "probability": 0.7153759748182407,
+      "status": "unverified",
+      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+    },
+    {
+      "fixture_id": "558524",
+      "selection_id": "corners:away:under:6.5:",
+      "match": "Sassuolo – Genoa",
+      "market": "Córners",
+      "label": "Genoa: menos de 6,5 córners",
+      "probability": 0.7948331947151798,
+      "status": "unverified",
+      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+    },
+    {
+      "fixture_id": "558523",
+      "selection_id": "double_chance:total:1X:None:",
+      "match": "Milan – Frosinone",
+      "market": "Doble oportunidad",
+      "label": "Milan o empate",
+      "probability": 0.7228621711809569,
+      "status": "unverified",
+      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+    },
+    {
+      "fixture_id": "558523",
+      "selection_id": "goals:total:over:1.5:",
+      "match": "Milan – Frosinone",
+      "market": "Goles",
+      "label": "Más de 1,5 goles",
+      "probability": 0.8619346507353106,
+      "status": "unverified",
+      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+    },
+    {
+      "fixture_id": "558523",
+      "selection_id": "result_goals:total:1X:1.5:over",
+      "match": "Milan – Frosinone",
+      "market": "Resultado y goles",
+      "label": "Milan o empate y más de 1,5 goles",
+      "probability": 0.6287853028912965,
+      "status": "unverified",
+      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+    },
+    {
+      "fixture_id": "558523",
+      "selection_id": "shots:home:under:19.5:",
+      "match": "Milan – Frosinone",
+      "market": "Remates",
+      "label": "Milan: menos de 19,5 remates",
+      "probability": 0.5972809741603095,
+      "status": "unverified",
+      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+    },
+    {
+      "fixture_id": "558523",
+      "selection_id": "sot:home:under:6.5:",
+      "match": "Milan – Frosinone",
+      "market": "Tiros al arco",
+      "label": "Milan: menos de 6,5 tiros al arco",
+      "probability": 0.5886159832760143,
+      "status": "unverified",
+      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+    },
+    {
+      "fixture_id": "558523",
+      "selection_id": "corners:home:under:8.5:",
+      "match": "Milan – Frosinone",
+      "market": "Córners",
+      "label": "Milan: menos de 8,5 córners",
+      "probability": 0.8527751256395086,
+      "status": "unverified",
+      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+    },
+    {
+      "fixture_id": "558523",
+      "selection_id": "corners:away:under:5.5:",
+      "match": "Milan – Frosinone",
+      "market": "Córners",
+      "label": "Frosinone: menos de 5,5 córners",
+      "probability": 0.5947947860215859,
+      "status": "unverified",
+      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+    },
+    {
+      "fixture_id": "558523",
+      "selection_id": "sot:total:under:11.5:",
+      "match": "Milan – Frosinone",
+      "market": "Tiros al arco",
+      "label": "Menos de 11,5 tiros al arco totales",
+      "probability": 0.5721623844680082,
+      "status": "unverified",
+      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+    },
+    {
+      "fixture_id": "558520",
+      "selection_id": "double_chance:total:X2:None:",
+      "match": "Atalanta – Inter",
+      "market": "Doble oportunidad",
+      "label": "Inter o empate",
+      "probability": 0.7419438155488323,
+      "status": "unverified",
+      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+    },
+    {
+      "fixture_id": "558520",
+      "selection_id": "goals:total:over:1.5:",
+      "match": "Atalanta – Inter",
+      "market": "Goles",
+      "label": "Más de 1,5 goles",
+      "probability": 0.8240817366334099,
+      "status": "unverified",
+      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+    },
+    {
+      "fixture_id": "558520",
+      "selection_id": "corners:away:under:7.5:",
+      "match": "Atalanta – Inter",
+      "market": "Córners",
+      "label": "Inter: menos de 7,5 córners",
+      "probability": 0.8124255342208261,
+      "status": "unverified",
+      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+    },
+    {
+      "fixture_id": "558520",
+      "selection_id": "corners:away:over:3.5:",
+      "match": "Atalanta – Inter",
+      "market": "Córners",
+      "label": "Inter: más de 3,5 córners",
+      "probability": 0.6367520436171422,
+      "status": "unverified",
+      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+    },
+    {
+      "fixture_id": "558520",
+      "selection_id": "result:total:away:None:",
+      "match": "Atalanta – Inter",
+      "market": "Resultado 1X2",
+      "label": "Gana Inter",
+      "probability": 0.5071522226391451,
+      "status": "unverified",
+      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+    },
+    {
+      "fixture_id": "559625",
+      "selection_id": "goals:total:over:1.5:",
+      "match": "Paris FC – Angers",
+      "market": "Goles",
+      "label": "Más de 1,5 goles",
+      "probability": 0.7463252881995679,
+      "status": "unverified",
+      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+    },
+    {
+      "fixture_id": "559625",
+      "selection_id": "result_goals:total:1X:1.5:over",
+      "match": "Paris FC – Angers",
+      "market": "Resultado y goles",
+      "label": "Paris FC o empate y más de 1,5 goles",
+      "probability": 0.6567573013958743,
+      "status": "unverified",
+      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+    },
+    {
+      "fixture_id": "559625",
+      "selection_id": "shots:home:over:16.5:",
+      "match": "Paris FC – Angers",
+      "market": "Remates",
+      "label": "Paris FC: más de 16,5 remates",
+      "probability": 0.3807754218163014,
+      "status": "unverified",
+      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+    },
+    {
+      "fixture_id": "559625",
+      "selection_id": "sot:home:over:5.5:",
+      "match": "Paris FC – Angers",
+      "market": "Tiros al arco",
+      "label": "Paris FC: más de 5,5 tiros al arco",
+      "probability": 0.5366510010026697,
+      "status": "unverified",
+      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+    },
+    {
+      "fixture_id": "559625",
+      "selection_id": "corners:home:under:7.5:",
+      "match": "Paris FC – Angers",
+      "market": "Córners",
+      "label": "Paris FC: menos de 7,5 córners",
+      "probability": 0.835591750753292,
+      "status": "unverified",
+      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+    },
+    {
+      "fixture_id": "559625",
+      "selection_id": "corners:total:under:12.5:",
+      "match": "Paris FC – Angers",
+      "market": "Córners",
+      "label": "Menos de 12,5 córners",
+      "probability": 0.897870653681944,
+      "status": "unverified",
+      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+    },
+    {
+      "fixture_id": "559625",
+      "selection_id": "sot:away:over:1.5:",
+      "match": "Paris FC – Angers",
+      "market": "Tiros al arco",
+      "label": "Angers: más de 1,5 tiros al arco",
+      "probability": 0.6883329300958836,
+      "status": "unverified",
+      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+    },
+    {
+      "fixture_id": "559625",
+      "selection_id": "result_goals:total:1X:3.5:under",
+      "match": "Paris FC – Angers",
+      "market": "Resultado y goles",
+      "label": "Paris FC o empate y menos de 3,5 goles",
+      "probability": 0.6104153835252053,
+      "status": "unverified",
+      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+    },
+    {
+      "fixture_id": "559626",
+      "selection_id": "double_chance:total:1X:None:",
+      "match": "Lorient – Rennes",
+      "market": "Doble oportunidad",
+      "label": "Lorient o empate",
+      "probability": 0.6084131439021765,
+      "status": "unverified",
+      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+    },
+    {
+      "fixture_id": "559626",
+      "selection_id": "goals:total:over:1.5:",
+      "match": "Lorient – Rennes",
+      "market": "Goles",
+      "label": "Más de 1,5 goles",
+      "probability": 0.8068456549428241,
+      "status": "unverified",
+      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+    },
+    {
+      "fixture_id": "559626",
+      "selection_id": "shots:away:over:11.5:",
+      "match": "Lorient – Rennes",
+      "market": "Remates",
+      "label": "Rennes: más de 11,5 remates",
+      "probability": 0.6383976140255787,
+      "status": "unverified",
+      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+    },
+    {
+      "fixture_id": "559626",
+      "selection_id": "sot:away:over:3.5:",
+      "match": "Lorient – Rennes",
+      "market": "Tiros al arco",
+      "label": "Rennes: más de 3,5 tiros al arco",
+      "probability": 0.7095868980523939,
+      "status": "unverified",
+      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+    },
+    {
+      "fixture_id": "559626",
+      "selection_id": "corners:total:over:6.5:",
+      "match": "Lorient – Rennes",
+      "market": "Córners",
+      "label": "Más de 6,5 córners",
+      "probability": 0.809446550277126,
+      "status": "unverified",
+      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+    },
+    {
+      "fixture_id": "559626",
+      "selection_id": "shots:away:over:12.5:",
+      "match": "Lorient – Rennes",
+      "market": "Remates",
+      "label": "Rennes: más de 12,5 remates",
+      "probability": 0.5691561391726122,
+      "status": "unverified",
+      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+    },
+    {
+      "fixture_id": "559629",
+      "selection_id": "result:total:home:None:",
+      "match": "Marseille – Le Mans",
+      "market": "Resultado 1X2",
+      "label": "Gana Marseille",
+      "probability": 0.668256647398033,
+      "status": "unverified",
+      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+    },
+    {
+      "fixture_id": "559629",
+      "selection_id": "double_chance:total:1X:None:",
+      "match": "Marseille – Le Mans",
+      "market": "Doble oportunidad",
+      "label": "Marseille o empate",
+      "probability": 0.8519918357590904,
+      "status": "unverified",
+      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+    },
+    {
+      "fixture_id": "559629",
+      "selection_id": "goals:total:over:1.5:",
+      "match": "Marseille – Le Mans",
+      "market": "Goles",
+      "label": "Más de 1,5 goles",
+      "probability": 0.8684041706717317,
+      "status": "unverified",
+      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+    },
+    {
+      "fixture_id": "559629",
+      "selection_id": "corners:home:under:8.5:",
+      "match": "Marseille – Le Mans",
+      "market": "Córners",
+      "label": "Marseille: menos de 8,5 córners",
+      "probability": 0.8620207762845943,
+      "status": "unverified",
+      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+    },
+    {
+      "fixture_id": "559629",
+      "selection_id": "corners:away:under:4.5:",
+      "match": "Marseille – Le Mans",
+      "market": "Córners",
+      "label": "Le Mans: menos de 4,5 córners",
+      "probability": 0.7407520686285856,
+      "status": "unverified",
+      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+    }
+  ],
+  "tier_summary": {
+    "selections": 48,
+    "settled": 6,
+    "won": 4,
+    "lost": 2,
+    "unverified": 42,
+    "hit_rate": 0.6666666666666666
+  },
+  "unique_summary": {
+    "selections": 106,
+    "settled": 14,
+    "won": 8,
+    "lost": 6,
+    "unverified": 92,
+    "hit_rate": 0.5714285714285714
+  },
+  "by_tier": {
+    "Conservadora": {
+      "selections": 16,
+      "settled": 2,
+      "won": 2,
+      "lost": 0,
+      "unverified": 14,
+      "hit_rate": 1.0
+    },
+    "Normal": {
+      "selections": 16,
+      "settled": 2,
+      "won": 1,
+      "lost": 1,
+      "unverified": 14,
+      "hit_rate": 0.5
+    },
+    "Arriesgada": {
+      "selections": 16,
+      "settled": 2,
+      "won": 1,
+      "lost": 1,
+      "unverified": 14,
+      "hit_rate": 0.5
+    }
+  },
+  "parlays": [
+    {
+      "size": 3,
+      "status": "unverified",
+      "probability_before_match": 0.6726489843211307,
+      "legs": [
+        {
+          "fixture_id": "565863",
+          "selection_id": "corners:home:under:8.5:",
+          "match": "Werder Bremen – Hamburg",
+          "market": "Córners",
+          "label": "Werder Bremen: menos de 8,5 córners",
+          "probability": 0.8626861248187373,
+          "status": "unverified",
+          "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+        },
+        {
+          "fixture_id": "559625",
+          "selection_id": "corners:total:under:12.5:",
+          "match": "Paris FC – Angers",
+          "market": "Córners",
+          "label": "Menos de 12,5 córners",
+          "probability": 0.897870653681944,
+          "status": "unverified",
+          "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+        },
+        {
+          "fixture_id": "559629",
+          "selection_id": "goals:total:over:1.5:",
+          "match": "Marseille – Le Mans",
+          "market": "Goles",
+          "label": "Más de 1,5 goles",
+          "probability": 0.8684041706717317,
+          "status": "unverified",
+          "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+        }
+      ]
+    },
+    {
+      "size": 4,
+      "status": "unverified",
+      "probability_before_match": 0.5549408232659125,
+      "legs": [
+        {
+          "fixture_id": "565864",
+          "selection_id": "goals:total:over:1.5:",
+          "match": "Augsburg – Mainz",
+          "market": "Goles",
+          "label": "Más de 1,5 goles",
+          "probability": 0.8250080446133211,
+          "status": "unverified",
+          "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+        },
+        {
+          "fixture_id": "565863",
+          "selection_id": "corners:home:under:8.5:",
+          "match": "Werder Bremen – Hamburg",
+          "market": "Córners",
+          "label": "Werder Bremen: menos de 8,5 córners",
+          "probability": 0.8626861248187373,
+          "status": "unverified",
+          "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+        },
+        {
+          "fixture_id": "559625",
+          "selection_id": "corners:total:under:12.5:",
+          "match": "Paris FC – Angers",
+          "market": "Córners",
+          "label": "Menos de 12,5 córners",
+          "probability": 0.897870653681944,
+          "status": "unverified",
+          "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+        },
+        {
+          "fixture_id": "559629",
+          "selection_id": "goals:total:over:1.5:",
+          "match": "Marseille – Le Mans",
+          "market": "Goles",
+          "label": "Más de 1,5 goles",
+          "probability": 0.8684041706717317,
+          "status": "unverified",
+          "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+        }
+      ]
+    }
+  ],
+  "analysis": [
+    "Fijas principales: 4/6. Mercados únicos: 8/14. Se conservan las probabilidades previas y se registran los resultados, sin reajustar el modelo con esta jornada.",
+    "Conservadora: 2/2 acertadas.",
+    "Normal: 1/2 acertadas.",
+    "Arriesgada: 1/2 acertadas.",
+    "Falló Villarreal: menos de 11,5 faltas en Barcelona – Villarreal: resultado final 11–19 (fouls).",
+    "Falló Venezia: más de 1,5 tiros al arco en Juventus – Venezia: resultado final 8–1 (sot).",
+    "0 partidos no tenían fijas principales publicadas; no se cuentan como fallos ni aciertos.",
+    "Pendiente: Santander – Sociedad. Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador. No se cuenta como acierto ni fallo.",
+    "Pendiente: Osasuna – Malaga. Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador. No se cuenta como acierto ni fallo.",
+    "Pendiente: Getafe – Ath Madrid. Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador. No se cuenta como acierto ni fallo.",
+    "Pendiente: Hull – Brighton. Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador. No se cuenta como acierto ni fallo.",
+    "Pendiente: Liverpool – Man United. Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador. No se cuenta como acierto ni fallo.",
+    "Pendiente: Augsburg – Mainz. Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador. No se cuenta como acierto ni fallo.",
+    "Pendiente: Werder Bremen – Hamburg. Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador. No se cuenta como acierto ni fallo.",
+    "Pendiente: Bologna – Udinese. Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador. No se cuenta como acierto ni fallo.",
+    "Pendiente: Sassuolo – Genoa. Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador. No se cuenta como acierto ni fallo.",
+    "Pendiente: Milan – Frosinone. Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador. No se cuenta como acierto ni fallo.",
+    "Pendiente: Atalanta – Inter. Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador. No se cuenta como acierto ni fallo.",
+    "Pendiente: Paris FC – Angers. Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador. No se cuenta como acierto ni fallo.",
+    "Pendiente: Lorient – Rennes. Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador. No se cuenta como acierto ni fallo.",
+    "Pendiente: Marseille – Le Mans. Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador. No se cuenta como acierto ni fallo.",
+    "Combinada de 3: 0/3 selecciones cumplidas.",
+    "Combinada de 4: 0/4 selecciones cumplidas."
+  ]
+}

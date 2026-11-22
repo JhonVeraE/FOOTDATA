@@ -1,0 +1,350 @@
+{
+  "run_at": "2026-11-22T15:08:48.659216+00:00",
+  "dates": [
+    "2026-11-19",
+    "2026-11-20",
+    "2026-11-21",
+    "2026-11-22"
+  ],
+  "mode": "online",
+  "football_data_key": true,
+  "apply": true,
+  "frozen": {
+    "2026-11-19": "no_forecasts",
+    "2026-11-20": "frozen_from:20261120T192218628342Z.json",
+    "2026-11-21": "frozen_from:20261120T192218628342Z.json",
+    "2026-11-22": "frozen_from:20261120T192218628342Z.json"
+  },
+  "healthy": true,
+  "events": 45,
+  "finals": 31,
+  "added_matches": [
+    "Bundesliga_2026/27_espn_401884736",
+    "La Liga_2026/27_espn_401882805",
+    "Ligue 1_2026/27_espn_401876395",
+    "Bundesliga_2026/27_espn_401884728",
+    "Bundesliga_2026/27_espn_401884729",
+    "Bundesliga_2026/27_espn_401884731",
+    "Bundesliga_2026/27_espn_401884732",
+    "Bundesliga_2026/27_espn_401884734",
+    "Bundesliga_2026/27_espn_401884735",
+    "La Liga_2026/27_espn_401882797",
+    "La Liga_2026/27_espn_401882798",
+    "La Liga_2026/27_espn_401882799",
+    "La Liga_2026/27_espn_401882806",
+    "Ligue 1_2026/27_espn_401876396",
+    "Ligue 1_2026/27_espn_401876398",
+    "Ligue 1_2026/27_espn_401876399",
+    "Ligue 1_2026/27_espn_401876402",
+    "Ligue 1_2026/27_espn_401876403",
+    "Premier League_2026/27_espn_401878754",
+    "Premier League_2026/27_espn_401878756",
+    "Premier League_2026/27_espn_401879232",
+    "Premier League_2026/27_espn_401879233",
+    "Premier League_2026/27_espn_401879235",
+    "Premier League_2026/27_espn_401879236",
+    "Premier League_2026/27_espn_401879238",
+    "Serie A_2026/27_espn_401874967",
+    "Serie A_2026/27_espn_401874981",
+    "Serie A_2026/27_espn_401875056",
+    "Serie A_2026/27_espn_401875067",
+    "La Liga_2026/27_espn_401882804",
+    "Serie A_2026/27_espn_401875008"
+  ],
+  "added_rows": 62,
+  "already_present": [],
+  "source_differences": [],
+  "pending": [
+    {
+      "espn_event_id": "401884730",
+      "date": "2026-11-22",
+      "league": "Bundesliga",
+      "kickoff_utc": "2026-11-22T16:30Z",
+      "espn_status": "STATUS_SCHEDULED",
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401884730/hamburg-sv-werder-bremen",
+      "home": "Werder Bremen",
+      "away": "Hamburg",
+      "fixture_id": "565863",
+      "provider_status": "SCHEDULED",
+      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+    },
+    {
+      "espn_event_id": "401884733",
+      "date": "2026-11-22",
+      "league": "Bundesliga",
+      "kickoff_utc": "2026-11-22T14:30Z",
+      "espn_status": "STATUS_FIRST_HALF",
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401884733",
+      "home": "Augsburg",
+      "away": "Mainz",
+      "fixture_id": "565864",
+      "provider_status": "IN_PLAY",
+      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+    },
+    {
+      "espn_event_id": "401882800",
+      "date": "2026-11-22",
+      "league": "La Liga",
+      "kickoff_utc": "2026-11-22T15:15Z",
+      "espn_status": "STATUS_SCHEDULED",
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401882800/real-sociedad-racing-santander",
+      "home": "Santander",
+      "away": "Sociedad",
+      "fixture_id": "564750",
+      "provider_status": "SCHEDULED",
+      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+    },
+    {
+      "espn_event_id": "401882801",
+      "date": "2026-11-22",
+      "league": "La Liga",
+      "kickoff_utc": "2026-11-22T17:30Z",
+      "espn_status": "STATUS_SCHEDULED",
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401882801/malaga-osasuna",
+      "home": "Osasuna",
+      "away": "Malaga",
+      "fixture_id": "564752",
+      "provider_status": "SCHEDULED",
+      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+    },
+    {
+      "espn_event_id": "401882803",
+      "date": "2026-11-22",
+      "league": "La Liga",
+      "kickoff_utc": "2026-11-22T20:00Z",
+      "espn_status": "STATUS_SCHEDULED",
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401882803/atletico-madrid-getafe",
+      "home": "Getafe",
+      "away": "Ath Madrid",
+      "fixture_id": "564753",
+      "provider_status": "SCHEDULED",
+      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+    },
+    {
+      "espn_event_id": "401876397",
+      "date": "2026-11-22",
+      "league": "Ligue 1",
+      "kickoff_utc": "2026-11-22T14:00Z",
+      "espn_status": "STATUS_SECOND_HALF",
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401876397",
+      "home": "Paris FC",
+      "away": "Angers",
+      "fixture_id": "559625",
+      "provider_status": "IN_PLAY",
+      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+    },
+    {
+      "espn_event_id": "401876400",
+      "date": "2026-11-22",
+      "league": "Ligue 1",
+      "kickoff_utc": "2026-11-22T19:45Z",
+      "espn_status": "STATUS_SCHEDULED",
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401876400/le-mans-marseille",
+      "home": "Marseille",
+      "away": "Le Mans",
+      "fixture_id": "559629",
+      "provider_status": "SCHEDULED",
+      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+    },
+    {
+      "espn_event_id": "401876401",
+      "date": "2026-11-22",
+      "league": "Ligue 1",
+      "kickoff_utc": "2026-11-22T16:15Z",
+      "espn_status": "STATUS_SCHEDULED",
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401876401/stade-rennais-lorient",
+      "home": "Lorient",
+      "away": "Rennes",
+      "fixture_id": "559626",
+      "provider_status": "SCHEDULED",
+      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+    },
+    {
+      "espn_event_id": "401878755",
+      "date": "2026-11-22",
+      "league": "Premier League",
+      "kickoff_utc": "2026-11-22T16:30Z",
+      "espn_status": "STATUS_SCHEDULED",
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401878755/manchester-united-liverpool",
+      "home": "Liverpool",
+      "away": "Man United",
+      "fixture_id": "560645",
+      "provider_status": "SCHEDULED",
+      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+    },
+    {
+      "espn_event_id": "401879234",
+      "date": "2026-11-22",
+      "league": "Premier League",
+      "kickoff_utc": "2026-11-22T14:00Z",
+      "espn_status": "STATUS_SECOND_HALF",
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401879234",
+      "home": "Hull",
+      "away": "Brighton",
+      "fixture_id": "560646",
+      "provider_status": "IN_PLAY",
+      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+    },
+    {
+      "espn_event_id": "401874960",
+      "date": "2026-11-22",
+      "league": "Serie A",
+      "kickoff_utc": "2026-11-22T14:00Z",
+      "espn_status": "STATUS_SECOND_HALF",
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401874960",
+      "home": "Sassuolo",
+      "away": "Genoa",
+      "fixture_id": "558524",
+      "provider_status": "IN_PLAY",
+      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+    },
+    {
+      "espn_event_id": "401874989",
+      "date": "2026-11-22",
+      "league": "Serie A",
+      "kickoff_utc": "2026-11-22T17:00Z",
+      "espn_status": "STATUS_SCHEDULED",
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401874989/frosinone-ac-milan",
+      "home": "Milan",
+      "away": "Frosinone",
+      "fixture_id": "558523",
+      "provider_status": "SCHEDULED",
+      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+    },
+    {
+      "espn_event_id": "401875001",
+      "date": "2026-11-22",
+      "league": "Serie A",
+      "kickoff_utc": "2026-11-22T19:45Z",
+      "espn_status": "STATUS_SCHEDULED",
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401875001/internazionale-atalanta",
+      "home": "Atalanta",
+      "away": "Inter",
+      "fixture_id": "558520",
+      "provider_status": "SCHEDULED",
+      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+    },
+    {
+      "espn_event_id": "401875047",
+      "date": "2026-11-22",
+      "league": "Serie A",
+      "kickoff_utc": "2026-11-22T14:00Z",
+      "espn_status": "STATUS_SECOND_HALF",
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401875047",
+      "home": "Bologna",
+      "away": "Udinese",
+      "fixture_id": "558522",
+      "provider_status": "IN_PLAY",
+      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+    }
+  ],
+  "source_errors": [],
+  "espn_only": [],
+  "calendar_changed": true,
+  "calendar_issues": [],
+  "reviews": {
+    "2026-11-19": {
+      "ingestion": "sin pronósticos congelados"
+    },
+    "2026-11-20": {
+      "ingestion": "actualizado",
+      "review": {
+        "tier_summary": {
+          "selections": 9,
+          "settled": 9,
+          "won": 7,
+          "lost": 2,
+          "unverified": 0,
+          "hit_rate": 0.7777777777777778
+        },
+        "unique_summary": {
+          "selections": 20,
+          "settled": 20,
+          "won": 11,
+          "lost": 9,
+          "unverified": 0,
+          "hit_rate": 0.55
+        }
+      }
+    },
+    "2026-11-21": {
+      "ingestion": "actualizado",
+      "review": {
+        "tier_summary": {
+          "selections": 78,
+          "settled": 78,
+          "won": 56,
+          "lost": 22,
+          "unverified": 0,
+          "hit_rate": 0.717948717948718
+        },
+        "unique_summary": {
+          "selections": 181,
+          "settled": 181,
+          "won": 122,
+          "lost": 59,
+          "unverified": 0,
+          "hit_rate": 0.6740331491712708
+        }
+      }
+    },
+    "2026-11-22": {
+      "ingestion": "actualizado",
+      "review": {
+        "tier_summary": {
+          "selections": 48,
+          "settled": 6,
+          "won": 4,
+          "lost": 2,
+          "unverified": 42,
+          "hit_rate": 0.6666666666666666
+        },
+        "unique_summary": {
+          "selections": 106,
+          "settled": 14,
+          "won": 8,
+          "lost": 6,
+          "unverified": 92,
+          "hit_rate": 0.5714285714285714
+        }
+      }
+    }
+  },
+  "prospective": {
+    "scored_matches": 247,
+    "accuracy": 0.6032388663967612,
+    "log_loss": 0.9265605329999206
+  },
+  "standings_refresh": [
+    {
+      "competition": "La Liga",
+      "status": "refreshed",
+      "teams": 20
+    },
+    {
+      "competition": "Premier League",
+      "status": "refreshed",
+      "teams": 20
+    },
+    {
+      "competition": "Bundesliga",
+      "status": "refreshed",
+      "teams": 18
+    },
+    {
+      "competition": "Serie A",
+      "status": "refreshed",
+      "teams": 20
+    },
+    {
+      "competition": "Ligue 1",
+      "status": "refreshed",
+      "teams": 18
+    },
+    {
+      "competition": "UEFA Champions League",
+      "status": "refreshed",
+      "teams": 36
+    }
+  ]
+}

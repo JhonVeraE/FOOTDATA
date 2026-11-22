@@ -1,0 +1,200 @@
+{
+  "date": "2026-11-20",
+  "ingested_at": "2026-11-22T15:09:28.982284+00:00",
+  "provider": "ESPN final boxscores (automatic daily update); scores cross-checked with football-data.org when reachable",
+  "matches": [
+    {
+      "espn_event_id": "401882805",
+      "kickoff_utc": "2026-11-20T20:00Z",
+      "home": "Ath Bilbao",
+      "away": "Espanol",
+      "metrics": {
+        "goals": [
+          0,
+          1
+        ],
+        "shots": [
+          17,
+          6
+        ],
+        "sot": [
+          6,
+          3
+        ],
+        "fouls": [
+          16,
+          13
+        ],
+        "corners": [
+          9,
+          2
+        ],
+        "cards": [
+          3,
+          1
+        ]
+      },
+      "yellow": [
+        3,
+        1
+      ],
+      "red": [
+        0,
+        0
+      ],
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401882805/espanyol-athletic-club",
+      "match_id": "La Liga_2026/27_espn_401882805",
+      "fixture_id": "564748",
+      "date": "2026-11-20",
+      "league": "La Liga",
+      "round": 13,
+      "provider": "ESPN",
+      "score_verification": {
+        "fixture_id": "564748",
+        "date": "2026-11-20",
+        "home": "Ath Bilbao",
+        "away": "Espanol",
+        "goals": [
+          0,
+          1
+        ],
+        "status": "verified",
+        "source": "football-data.org",
+        "source_url": "https://api.football-data.org/v4/matches/564748"
+      }
+    },
+    {
+      "espn_event_id": "401884736",
+      "kickoff_utc": "2026-11-20T19:30Z",
+      "home": "Bayern Munich",
+      "away": "FC Koln",
+      "metrics": {
+        "goals": [
+          1,
+          1
+        ],
+        "shots": [
+          17,
+          7
+        ],
+        "sot": [
+          1,
+          4
+        ],
+        "fouls": [
+          6,
+          3
+        ],
+        "corners": [
+          5,
+          0
+        ],
+        "cards": [
+          1,
+          2
+        ]
+      },
+      "yellow": [
+        1,
+        2
+      ],
+      "red": [
+        0,
+        0
+      ],
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401884736/fc-cologne-bayern-munich",
+      "match_id": "Bundesliga_2026/27_espn_401884736",
+      "fixture_id": "565859",
+      "date": "2026-11-20",
+      "league": "Bundesliga",
+      "round": 10,
+      "provider": "ESPN",
+      "score_verification": {
+        "fixture_id": "565859",
+        "date": "2026-11-20",
+        "home": "Bayern Munich",
+        "away": "FC Koln",
+        "goals": [
+          1,
+          1
+        ],
+        "status": "verified",
+        "source": "football-data.org",
+        "source_url": "https://api.football-data.org/v4/matches/565859"
+      }
+    },
+    {
+      "espn_event_id": "401876395",
+      "kickoff_utc": "2026-11-20T19:45Z",
+      "home": "Troyes",
+      "away": "Le Havre",
+      "metrics": {
+        "goals": [
+          3,
+          1
+        ],
+        "shots": [
+          19,
+          7
+        ],
+        "sot": [
+          7,
+          3
+        ],
+        "fouls": [
+          19,
+          22
+        ],
+        "corners": [
+          7,
+          0
+        ],
+        "cards": [
+          2,
+          4
+        ]
+      },
+      "yellow": [
+        2,
+        3
+      ],
+      "red": [
+        0,
+        1
+      ],
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401876395/le-havre-ac-troyes",
+      "match_id": "Ligue 1_2026/27_espn_401876395",
+      "fixture_id": "559622",
+      "date": "2026-11-20",
+      "league": "Ligue 1",
+      "round": 11,
+      "provider": "ESPN",
+      "score_verification": {
+        "fixture_id": "559622",
+        "date": "2026-11-20",
+        "home": "Troyes",
+        "away": "Le Havre",
+        "goals": [
+          3,
+          1
+        ],
+        "status": "verified",
+        "source": "football-data.org",
+        "source_url": "https://api.football-data.org/v4/matches/559622"
+      }
+    }
+  ],
+  "deferred": [],
+  "pending": [],
+  "advanced": [],
+  "added_rows_this_run": 6,
+  "scope": [
+    "La Liga",
+    "Premier League",
+    "Bundesliga",
+    "Serie A",
+    "Ligue 1",
+    "UEFA Champions League"
+  ],
+  "automation": "daily_update"
+}
