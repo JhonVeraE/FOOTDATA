@@ -1,0 +1,42 @@
+{
+ "date": "2026-11-22",
+ "method": "walk-forward monthly cutoffs; price proxy = fair odds / 1.07; design 2025/26 (1626 partidos), holdout 2026/27 (409)",
+ "v8": {
+  "design": {
+   "Conservadora": "82.1% @1.18",
+   "Normal": "74.0% @1.34",
+   "Arriesgada": "59.7% @1.61"
+  },
+  "holdout": {
+   "Conservadora": "82.5% @1.19",
+   "Normal": "72.7% @1.34",
+   "Arriesgada": "64.4% @1.61"
+  }
+ },
+ "v9": {
+  "rules": "v8 + Normal sin remates/tiros al arco/córners de un solo equipo ni resultado y goles (respaldo si no queda nada)",
+  "design": {
+   "Conservadora": "82.1% @1.18",
+   "Normal": "74.1% @1.34",
+   "Arriesgada": "60.4% @1.61"
+  },
+  "holdout": {
+   "Conservadora": "82.5% @1.19",
+   "Normal": "77.9% @1.33",
+   "Arriesgada": "63.5% @1.61"
+  }
+ },
+ "alternativas_holdout_normal": {
+  "equipo solo con 5 de 5": "77.6%",
+  "preferir totales": "76.7%",
+  "tambien en arriesgada": "Arriesgada baja a 60.6-63.5%"
+ },
+ "en_vivo_19oct_21nov": {
+  "Normal remates de un equipo": "10/18",
+  "Normal córners de un equipo": "7/12",
+  "Normal tiros al arco de un equipo": "9/15",
+  "Normal resultado y goles": "3/8",
+  "Normal goles del partido": "30/32",
+  "Normal remates totales": "8/10"
+ }
+}

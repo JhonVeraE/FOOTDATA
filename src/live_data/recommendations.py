@@ -13,7 +13,7 @@ from data_store import canonical_team, load_match_stats
 from goal_model import score_distribution
 from paths import ARTIFACT_DIR, WEB_DIR, DATA_DIR
 
-VERSION='market-shortlist-v8-real-prices'
+VERSION='market-shortlist-v9-normal-totals'
 LEVELS=[('conservative','Conservadora',.78,.88,.82),('normal','Normal',.63,.78,.70),('risky','Arriesgada',.50,.63,.59)]  # v6, kept for audits
 # v7: tiers by price band (Betano when captured, otherwise the model's fair odds) and by how completely
 # the pattern held in each team's last five venue-specific matches.  Walk-forward backtest 2025/26
@@ -24,6 +24,14 @@ TIERS_V7=[('conservative','Conservadora',[(1.12,1.24,.8,4),(1.12,1.24,.6,4),(1.1
           ('normal','Normal',[(1.25,1.45,.8,4),(1.25,1.45,.6,4),(1.25,1.45,.6,3),(1.20,1.55,.6,3),(1.20,1.55,0,2)]),
           ('risky','Arriesgada',[(1.50,1.85,.8,4),(1.42,1.50,.8,4),(1.50,1.85,.6,4),(1.50,1.85,.6,3),(1.40,1.90,.6,3),(1.35,2.20,.6,3),(1.40,1.90,0,2)])]
 RESULT_KINDS={'result','double_chance','handicap','result_goals'}
+# v9 (22/11/2026): the Normal tier skips single-team shots / shots-on-target / corners lines and «resultado y goles».
+# Live 19/10–21/11: those hit 56–60% (38% result+goals) against 71–94% for whole-match lines.  Walk-forward holdout
+# 2026/27: Normal 72.7% -> 77.9% at the same average price; Conservadora unchanged, Arriesgada 64.4% -> 63.5% (noise).
+# They stay available as a last resort so no match is left without its Normal pick.
+NORMAL_SKIP_TEAM_KINDS={'shots','sot','corners'}
+
+def normal_skip(item):
+    return item['kind']=='result_goals' or (item['kind'] in NORMAL_SKIP_TEAM_KINDS and item.get('scope') in ('home','away'))
 # Each tier tries its bands in order: (min odds, max odds, min share of recent matches where the pattern held
 # for BOTH teams, min venue-specific matches per team).  The last band keeps a pick for every match with
 # at least two recent matches per team; without history no pick is invented.
@@ -357,12 +365,15 @@ def make_match(report,stats,quotes=None,as_of=None,feedback_records=None,market_
     tiers=[];used=set();chosen=[]
     for key,label,bands in TIERS_V7:
         best=None
-        for allow_estimated,strict in ((False,True),(True,True),(True,False)):
-            for omin,omax,min_pattern,min_ctx in bands:
-                pool=[c for c in options if c['kind'] not in used and eligible_v7(c,omin,omax,min_pattern,min_ctx,allow_estimated) and coherent(c,chosen,matrix,strict)
-                      and not (c['kind'] in RESULT_KINDS and any(o['kind'] in RESULT_KINDS for o in chosen))]
-                primary=[c for c in pool if c['kind'] in PRIMARY_MARKETS]
-                best=min(primary or pool,key=rank_v7,default=None)
+        for skip in ((True,False) if key=='normal' else (False,)):
+            for allow_estimated,strict in ((False,True),(True,True),(True,False)):
+                for omin,omax,min_pattern,min_ctx in bands:
+                    pool=[c for c in options if c['kind'] not in used and eligible_v7(c,omin,omax,min_pattern,min_ctx,allow_estimated) and coherent(c,chosen,matrix,strict)
+                          and not (c['kind'] in RESULT_KINDS and any(o['kind'] in RESULT_KINDS for o in chosen))
+                          and not (skip and normal_skip(c))]
+                    primary=[c for c in pool if c['kind'] in PRIMARY_MARKETS]
+                    best=min(primary or pool,key=rank_v7,default=None)
+                    if best:break
                 if best:break
             if best:break
         if best:chosen.append(best);used.add(best['kind'])
@@ -383,7 +394,7 @@ def make_match(report,stats,quotes=None,as_of=None,feedback_records=None,market_
     cons=tiers[0]['selection']
     # Every match with a Conservadora can enter the parlay; the parlay search prefers higher joint probability.
     pick=cons if cons and not unknown else None
-    return {'fixture_id':str(report['fixture_id']),'competition':report['competition'],'home':report['local'],'away':report['visitante'],'kickoff_utc':report['kickoff_utc'],'date_lima':utc(report['kickoff_utc']).tz_convert('America/Lima').date().isoformat(),'prediction_generated_at':report['generated_at'],'cutoff':report['cutoff'],'tiers':tiers,'markets':by_market,'parlay_selection':pick,'market_priority':'goals_and_results_first','market_reference':None if record is None else {k:record[k] for k in ['price_set','home','draw','away','over25','under25','retrieved_at','source']},'betano_reference':None if betano is None else {'betano_id':betano['betano_id'],'kickoff_utc_betano':betano['kickoff_utc'],'kickoff_matches':utc(betano['kickoff_utc'])==utc(report['kickoff_utc']),'observed_at':betano['observed_at'],'result_odds':betano['result'],'capture':betano['capture']},'coherence':'Las tres selecciones del partido no se contradicen: ninguna apuesta en sentido opuesto a otra sobre el margen del partido o el total de goles.','selection_rule':'v8: Conservadora 1,12–1,24, Normal 1,25–1,45, Arriesgada 1,50–1,85 (cuotas reales); sin ambos marcan; un solo mercado de resultado por partido; sin líneas que pagan el mínimo; rachas de al menos 4 de 5 en ambos equipos cuando existen, priorizando 5 de 5; una fija por nivel en todos los partidos.','limited_european_sample':report['competition']=='UEFA Champions League'}
+    return {'fixture_id':str(report['fixture_id']),'competition':report['competition'],'home':report['local'],'away':report['visitante'],'kickoff_utc':report['kickoff_utc'],'date_lima':utc(report['kickoff_utc']).tz_convert('America/Lima').date().isoformat(),'prediction_generated_at':report['generated_at'],'cutoff':report['cutoff'],'tiers':tiers,'markets':by_market,'parlay_selection':pick,'market_priority':'goals_and_results_first','market_reference':None if record is None else {k:record[k] for k in ['price_set','home','draw','away','over25','under25','retrieved_at','source']},'betano_reference':None if betano is None else {'betano_id':betano['betano_id'],'kickoff_utc_betano':betano['kickoff_utc'],'kickoff_matches':utc(betano['kickoff_utc'])==utc(report['kickoff_utc']),'observed_at':betano['observed_at'],'result_odds':betano['result'],'capture':betano['capture']},'coherence':'Las tres selecciones del partido no se contradicen: ninguna apuesta en sentido opuesto a otra sobre el margen del partido o el total de goles.','selection_rule':'v9: Conservadora 1,12–1,24, Normal 1,25–1,45, Arriesgada 1,50–1,85 (cuotas reales); la Normal prefiere líneas del partido completo (sin remates, tiros al arco ni córners de un solo equipo, ni resultado y goles); sin ambos marcan; un solo mercado de resultado por partido; sin líneas que pagan el mínimo; rachas de al menos 4 de 5 en ambos equipos cuando existen, priorizando 5 de 5; una fija por nivel en todos los partidos.','limited_european_sample':report['competition']=='UEFA Champions League'}
 
 def choose_parlay(pool,size,as_of):
     """No same-game multiplication or repeated team across legs. Never pad."""
