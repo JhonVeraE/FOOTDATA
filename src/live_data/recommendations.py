@@ -13,16 +13,19 @@ from data_store import canonical_team, load_match_stats
 from goal_model import score_distribution
 from paths import ARTIFACT_DIR, WEB_DIR, DATA_DIR
 
-VERSION='market-shortlist-v9-normal-totals'
+VERSION='market-shortlist-v9.1-streak-first'
 LEVELS=[('conservative','Conservadora',.78,.88,.82),('normal','Normal',.63,.78,.70),('risky','Arriesgada',.50,.63,.59)]  # v6, kept for audits
 # v7: tiers by price band (Betano when captured, otherwise the model's fair odds) and by how completely
 # the pattern held in each team's last five venue-specific matches.  Walk-forward backtest 2025/26
 # (design) and 2026/27 (holdout): see data/artifacts/fijas_v7_backtest.json.
 # v8 (07/11/2026): bands measured on real-price proxy (fair odds / 1.07). Holdout 2026/27:
 # Conservadora 82.5% @1.19, Normal 72.7% @1.34, Arriesgada 64.4% @1.61 (v7.1 with real prices: 79/67/65).
-TIERS_V7=[('conservative','Conservadora',[(1.12,1.24,.8,4),(1.12,1.24,.6,4),(1.12,1.24,.6,3),(1.10,1.29,.6,3),(1.10,1.32,0,2)]),
-          ('normal','Normal',[(1.25,1.45,.8,4),(1.25,1.45,.6,4),(1.25,1.45,.6,3),(1.20,1.55,.6,3),(1.20,1.55,0,2)]),
-          ('risky','Arriesgada',[(1.50,1.85,.8,4),(1.42,1.50,.8,4),(1.50,1.85,.6,4),(1.50,1.85,.6,3),(1.40,1.90,.6,3),(1.35,2.20,.6,3),(1.40,1.90,0,2)])]
+TIERS_V7=[('conservative','Conservadora',[(1.12,1.24,.8,4),(1.12,1.24,.6,4),(1.12,1.24,.6,3),(1.10,1.29,.6,3),(1.08,1.40,.6,2),(1.10,1.32,0,2)]),
+          ('normal','Normal',[(1.25,1.45,.8,4),(1.25,1.45,.6,4),(1.25,1.45,.6,3),(1.20,1.55,.6,3),(1.15,1.70,.6,2),(1.20,1.55,0,2)]),
+          ('risky','Arriesgada',[(1.50,1.85,.8,4),(1.42,1.50,.8,4),(1.50,1.85,.6,4),(1.50,1.85,.6,3),(1.40,1.90,.6,3),(1.35,2.20,.6,3),(1.30,2.50,.6,2),(1.40,1.90,0,2)])]
+# v9.1 (23/11/2026): the streak decides before the price source.  Each band (streak requirement) is tried first with
+# a real Betano price and then with the model's approximate price; a weak streak (below 3 of 5 for either team) is
+# only accepted as the very last resort.  Before, a real price with a 0/5 streak beat an approximate price with 5/5.
 RESULT_KINDS={'result','double_chance','handicap','result_goals'}
 # v9 (22/11/2026): the Normal tier skips single-team shots / shots-on-target / corners lines and «resultado y goles».
 # Live 19/10–21/11: those hit 56–60% (38% result+goals) against 71–94% for whole-match lines.  Walk-forward holdout
@@ -365,9 +368,12 @@ def make_match(report,stats,quotes=None,as_of=None,feedback_records=None,market_
     tiers=[];used=set();chosen=[]
     for key,label,bands in TIERS_V7:
         best=None
-        for skip in ((True,False) if key=='normal' else (False,)):
-            for allow_estimated,strict in ((False,True),(True,True),(True,False)):
-                for omin,omax,min_pattern,min_ctx in bands:
+        good=[b for b in bands if b[2]>0];weak=[b for b in bands if b[2]==0]
+        skips=(True,False) if key=='normal' else (False,)
+        attempts=[(sk,b) for sk in skips for b in good]+[(sk,b) for sk in skips for b in weak]
+        for skip,(omin,omax,min_pattern,min_ctx) in attempts:
+            if True:
+                for allow_estimated,strict in ((False,True),(True,True),(True,False)):
                     pool=[c for c in options if c['kind'] not in used and eligible_v7(c,omin,omax,min_pattern,min_ctx,allow_estimated) and coherent(c,chosen,matrix,strict)
                           and not (c['kind'] in RESULT_KINDS and any(o['kind'] in RESULT_KINDS for o in chosen))
                           and not (skip and normal_skip(c))]
