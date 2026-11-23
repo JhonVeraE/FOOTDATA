@@ -1,6 +1,6 @@
 {
   "date": "2026-11-22",
-  "ingested_at": "2026-11-22T15:09:43.111754+00:00",
+  "ingested_at": "2026-11-23T23:11:05.073140+00:00",
   "provider": "ESPN final boxscores (automatic daily update); scores cross-checked with football-data.org when reachable",
   "matches": [
     {
@@ -64,6 +64,426 @@
       }
     },
     {
+      "espn_event_id": "401882800",
+      "kickoff_utc": "2026-11-22T15:15Z",
+      "home": "Santander",
+      "away": "Sociedad",
+      "metrics": {
+        "goals": [
+          3,
+          2
+        ],
+        "shots": [
+          12,
+          31
+        ],
+        "sot": [
+          8,
+          7
+        ],
+        "fouls": [
+          10,
+          10
+        ],
+        "corners": [
+          7,
+          14
+        ],
+        "cards": [
+          2,
+          2
+        ]
+      },
+      "yellow": [
+        2,
+        2
+      ],
+      "red": [
+        0,
+        0
+      ],
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401882800/real-sociedad-racing-santander",
+      "match_id": "La Liga_2026/27_espn_401882800",
+      "fixture_id": "564750",
+      "date": "2026-11-22",
+      "league": "La Liga",
+      "round": 13,
+      "provider": "ESPN",
+      "score_verification": {
+        "fixture_id": "564750",
+        "date": "2026-11-22",
+        "home": "Santander",
+        "away": "Sociedad",
+        "goals": [
+          3,
+          2
+        ],
+        "status": "verified",
+        "source": "football-data.org",
+        "source_url": "https://api.football-data.org/v4/matches/564750"
+      }
+    },
+    {
+      "espn_event_id": "401882801",
+      "kickoff_utc": "2026-11-22T17:30Z",
+      "home": "Osasuna",
+      "away": "Malaga",
+      "metrics": {
+        "goals": [
+          1,
+          0
+        ],
+        "shots": [
+          11,
+          5
+        ],
+        "sot": [
+          2,
+          0
+        ],
+        "fouls": [
+          15,
+          11
+        ],
+        "corners": [
+          4,
+          1
+        ],
+        "cards": [
+          3,
+          0
+        ]
+      },
+      "yellow": [
+        2,
+        0
+      ],
+      "red": [
+        1,
+        0
+      ],
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401882801/malaga-osasuna",
+      "match_id": "La Liga_2026/27_espn_401882801",
+      "fixture_id": "564752",
+      "date": "2026-11-22",
+      "league": "La Liga",
+      "round": 13,
+      "provider": "ESPN",
+      "score_verification": {
+        "fixture_id": "564752",
+        "date": "2026-11-22",
+        "home": "Osasuna",
+        "away": "Malaga",
+        "goals": [
+          1,
+          0
+        ],
+        "status": "verified",
+        "source": "football-data.org",
+        "source_url": "https://api.football-data.org/v4/matches/564752"
+      }
+    },
+    {
+      "espn_event_id": "401882803",
+      "kickoff_utc": "2026-11-22T20:00Z",
+      "home": "Getafe",
+      "away": "Ath Madrid",
+      "metrics": {
+        "goals": [
+          0,
+          3
+        ],
+        "shots": [
+          11,
+          20
+        ],
+        "sot": [
+          1,
+          10
+        ],
+        "fouls": [
+          11,
+          11
+        ],
+        "corners": [
+          2,
+          7
+        ],
+        "cards": [
+          3,
+          2
+        ]
+      },
+      "yellow": [
+        2,
+        2
+      ],
+      "red": [
+        1,
+        0
+      ],
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401882803/atletico-madrid-getafe",
+      "match_id": "La Liga_2026/27_espn_401882803",
+      "fixture_id": "564753",
+      "date": "2026-11-22",
+      "league": "La Liga",
+      "round": 13,
+      "provider": "ESPN",
+      "score_verification": {
+        "fixture_id": "564753",
+        "date": "2026-11-22",
+        "home": "Getafe",
+        "away": "Ath Madrid",
+        "goals": [
+          0,
+          3
+        ],
+        "status": "verified",
+        "source": "football-data.org",
+        "source_url": "https://api.football-data.org/v4/matches/564753"
+      }
+    },
+    {
+      "espn_event_id": "401879234",
+      "kickoff_utc": "2026-11-22T14:00Z",
+      "home": "Hull",
+      "away": "Brighton",
+      "metrics": {
+        "goals": [
+          2,
+          0
+        ],
+        "shots": [
+          11,
+          15
+        ],
+        "sot": [
+          5,
+          8
+        ],
+        "fouls": [
+          7,
+          17
+        ],
+        "corners": [
+          3,
+          5
+        ],
+        "cards": [
+          2,
+          3
+        ]
+      },
+      "yellow": [
+        2,
+        2
+      ],
+      "red": [
+        0,
+        1
+      ],
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401879234/brighton-hove-albion-hull-city",
+      "match_id": "Premier League_2026/27_espn_401879234",
+      "fixture_id": "560646",
+      "date": "2026-11-22",
+      "league": "Premier League",
+      "round": 11,
+      "provider": "ESPN",
+      "score_verification": {
+        "fixture_id": "560646",
+        "date": "2026-11-22",
+        "home": "Hull",
+        "away": "Brighton",
+        "goals": [
+          2,
+          0
+        ],
+        "status": "verified",
+        "source": "football-data.org",
+        "source_url": "https://api.football-data.org/v4/matches/560646"
+      }
+    },
+    {
+      "espn_event_id": "401878755",
+      "kickoff_utc": "2026-11-22T16:30Z",
+      "home": "Liverpool",
+      "away": "Man United",
+      "metrics": {
+        "goals": [
+          4,
+          0
+        ],
+        "shots": [
+          28,
+          10
+        ],
+        "sot": [
+          11,
+          3
+        ],
+        "fouls": [
+          15,
+          7
+        ],
+        "corners": [
+          15,
+          5
+        ],
+        "cards": [
+          1,
+          1
+        ]
+      },
+      "yellow": [
+        1,
+        0
+      ],
+      "red": [
+        0,
+        1
+      ],
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401878755/manchester-united-liverpool",
+      "match_id": "Premier League_2026/27_espn_401878755",
+      "fixture_id": "560645",
+      "date": "2026-11-22",
+      "league": "Premier League",
+      "round": 11,
+      "provider": "ESPN",
+      "score_verification": {
+        "fixture_id": "560645",
+        "date": "2026-11-22",
+        "home": "Liverpool",
+        "away": "Man United",
+        "goals": [
+          4,
+          0
+        ],
+        "status": "verified",
+        "source": "football-data.org",
+        "source_url": "https://api.football-data.org/v4/matches/560645"
+      }
+    },
+    {
+      "espn_event_id": "401884733",
+      "kickoff_utc": "2026-11-22T14:30Z",
+      "home": "Augsburg",
+      "away": "Mainz",
+      "metrics": {
+        "goals": [
+          3,
+          1
+        ],
+        "shots": [
+          22,
+          7
+        ],
+        "sot": [
+          9,
+          4
+        ],
+        "fouls": [
+          10,
+          12
+        ],
+        "corners": [
+          6,
+          0
+        ],
+        "cards": [
+          1,
+          3
+        ]
+      },
+      "yellow": [
+        1,
+        3
+      ],
+      "red": [
+        0,
+        0
+      ],
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401884733/mainz-fc-augsburg",
+      "match_id": "Bundesliga_2026/27_espn_401884733",
+      "fixture_id": "565864",
+      "date": "2026-11-22",
+      "league": "Bundesliga",
+      "round": 10,
+      "provider": "ESPN",
+      "score_verification": {
+        "fixture_id": "565864",
+        "date": "2026-11-22",
+        "home": "Augsburg",
+        "away": "Mainz",
+        "goals": [
+          3,
+          1
+        ],
+        "status": "verified",
+        "source": "football-data.org",
+        "source_url": "https://api.football-data.org/v4/matches/565864"
+      }
+    },
+    {
+      "espn_event_id": "401884730",
+      "kickoff_utc": "2026-11-22T16:30Z",
+      "home": "Werder Bremen",
+      "away": "Hamburg",
+      "metrics": {
+        "goals": [
+          4,
+          0
+        ],
+        "shots": [
+          18,
+          17
+        ],
+        "sot": [
+          7,
+          2
+        ],
+        "fouls": [
+          12,
+          11
+        ],
+        "corners": [
+          1,
+          8
+        ],
+        "cards": [
+          3,
+          3
+        ]
+      },
+      "yellow": [
+        3,
+        3
+      ],
+      "red": [
+        0,
+        0
+      ],
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401884730/hamburg-sv-werder-bremen",
+      "match_id": "Bundesliga_2026/27_espn_401884730",
+      "fixture_id": "565863",
+      "date": "2026-11-22",
+      "league": "Bundesliga",
+      "round": 10,
+      "provider": "ESPN",
+      "score_verification": {
+        "fixture_id": "565863",
+        "date": "2026-11-22",
+        "home": "Werder Bremen",
+        "away": "Hamburg",
+        "goals": [
+          4,
+          0
+        ],
+        "status": "verified",
+        "source": "football-data.org",
+        "source_url": "https://api.football-data.org/v4/matches/565863"
+      }
+    },
+    {
       "espn_event_id": "401875008",
       "kickoff_utc": "2026-11-22T11:30Z",
       "home": "Juventus",
@@ -122,153 +542,432 @@
         "source": "football-data.org",
         "source_url": "https://api.football-data.org/v4/matches/558521"
       }
+    },
+    {
+      "espn_event_id": "401875047",
+      "kickoff_utc": "2026-11-22T14:00Z",
+      "home": "Bologna",
+      "away": "Udinese",
+      "metrics": {
+        "goals": [
+          1,
+          1
+        ],
+        "shots": [
+          18,
+          11
+        ],
+        "sot": [
+          4,
+          3
+        ],
+        "fouls": [
+          13,
+          11
+        ],
+        "corners": [
+          8,
+          4
+        ],
+        "cards": [
+          1,
+          2
+        ]
+      },
+      "yellow": [
+        1,
+        2
+      ],
+      "red": [
+        0,
+        0
+      ],
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401875047/udinese-bologna",
+      "match_id": "Serie A_2026/27_espn_401875047",
+      "fixture_id": "558522",
+      "date": "2026-11-22",
+      "league": "Serie A",
+      "round": 12,
+      "provider": "ESPN",
+      "score_verification": {
+        "fixture_id": "558522",
+        "date": "2026-11-22",
+        "home": "Bologna",
+        "away": "Udinese",
+        "goals": [
+          1,
+          1
+        ],
+        "status": "verified",
+        "source": "football-data.org",
+        "source_url": "https://api.football-data.org/v4/matches/558522"
+      }
+    },
+    {
+      "espn_event_id": "401874960",
+      "kickoff_utc": "2026-11-22T14:00Z",
+      "home": "Sassuolo",
+      "away": "Genoa",
+      "metrics": {
+        "goals": [
+          0,
+          2
+        ],
+        "shots": [
+          25,
+          11
+        ],
+        "sot": [
+          7,
+          5
+        ],
+        "fouls": [
+          11,
+          9
+        ],
+        "corners": [
+          5,
+          3
+        ],
+        "cards": [
+          1,
+          0
+        ]
+      },
+      "yellow": [
+        1,
+        0
+      ],
+      "red": [
+        0,
+        0
+      ],
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401874960/genoa-sassuolo",
+      "match_id": "Serie A_2026/27_espn_401874960",
+      "fixture_id": "558524",
+      "date": "2026-11-22",
+      "league": "Serie A",
+      "round": 12,
+      "provider": "ESPN",
+      "score_verification": {
+        "fixture_id": "558524",
+        "date": "2026-11-22",
+        "home": "Sassuolo",
+        "away": "Genoa",
+        "goals": [
+          0,
+          2
+        ],
+        "status": "verified",
+        "source": "football-data.org",
+        "source_url": "https://api.football-data.org/v4/matches/558524"
+      }
+    },
+    {
+      "espn_event_id": "401874989",
+      "kickoff_utc": "2026-11-22T17:00Z",
+      "home": "Milan",
+      "away": "Frosinone",
+      "metrics": {
+        "goals": [
+          5,
+          1
+        ],
+        "shots": [
+          12,
+          15
+        ],
+        "sot": [
+          8,
+          3
+        ],
+        "fouls": [
+          6,
+          17
+        ],
+        "corners": [
+          2,
+          9
+        ],
+        "cards": [
+          1,
+          4
+        ]
+      },
+      "yellow": [
+        1,
+        4
+      ],
+      "red": [
+        0,
+        0
+      ],
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401874989/frosinone-ac-milan",
+      "match_id": "Serie A_2026/27_espn_401874989",
+      "fixture_id": "558523",
+      "date": "2026-11-22",
+      "league": "Serie A",
+      "round": 12,
+      "provider": "ESPN",
+      "score_verification": {
+        "fixture_id": "558523",
+        "date": "2026-11-22",
+        "home": "Milan",
+        "away": "Frosinone",
+        "goals": [
+          5,
+          1
+        ],
+        "status": "verified",
+        "source": "football-data.org",
+        "source_url": "https://api.football-data.org/v4/matches/558523"
+      }
+    },
+    {
+      "espn_event_id": "401875001",
+      "kickoff_utc": "2026-11-22T19:45Z",
+      "home": "Atalanta",
+      "away": "Inter",
+      "metrics": {
+        "goals": [
+          4,
+          4
+        ],
+        "shots": [
+          15,
+          16
+        ],
+        "sot": [
+          10,
+          6
+        ],
+        "fouls": [
+          9,
+          10
+        ],
+        "corners": [
+          5,
+          6
+        ],
+        "cards": [
+          2,
+          1
+        ]
+      },
+      "yellow": [
+        2,
+        1
+      ],
+      "red": [
+        0,
+        0
+      ],
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401875001/internazionale-atalanta",
+      "match_id": "Serie A_2026/27_espn_401875001",
+      "fixture_id": "558520",
+      "date": "2026-11-22",
+      "league": "Serie A",
+      "round": 12,
+      "provider": "ESPN",
+      "score_verification": {
+        "fixture_id": "558520",
+        "date": "2026-11-22",
+        "home": "Atalanta",
+        "away": "Inter",
+        "goals": [
+          4,
+          4
+        ],
+        "status": "verified",
+        "source": "football-data.org",
+        "source_url": "https://api.football-data.org/v4/matches/558520"
+      }
+    },
+    {
+      "espn_event_id": "401876397",
+      "kickoff_utc": "2026-11-22T14:00Z",
+      "home": "Paris FC",
+      "away": "Angers",
+      "metrics": {
+        "goals": [
+          4,
+          0
+        ],
+        "shots": [
+          18,
+          9
+        ],
+        "sot": [
+          9,
+          1
+        ],
+        "fouls": [
+          17,
+          12
+        ],
+        "corners": [
+          10,
+          2
+        ],
+        "cards": [
+          1,
+          1
+        ]
+      },
+      "yellow": [
+        1,
+        1
+      ],
+      "red": [
+        0,
+        0
+      ],
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401876397/angers-paris-fc",
+      "match_id": "Ligue 1_2026/27_espn_401876397",
+      "fixture_id": "559625",
+      "date": "2026-11-22",
+      "league": "Ligue 1",
+      "round": 11,
+      "provider": "ESPN",
+      "score_verification": {
+        "fixture_id": "559625",
+        "date": "2026-11-22",
+        "home": "Paris FC",
+        "away": "Angers",
+        "goals": [
+          4,
+          0
+        ],
+        "status": "verified",
+        "source": "football-data.org",
+        "source_url": "https://api.football-data.org/v4/matches/559625"
+      }
+    },
+    {
+      "espn_event_id": "401876401",
+      "kickoff_utc": "2026-11-22T16:15Z",
+      "home": "Lorient",
+      "away": "Rennes",
+      "metrics": {
+        "goals": [
+          1,
+          1
+        ],
+        "shots": [
+          12,
+          13
+        ],
+        "sot": [
+          3,
+          3
+        ],
+        "fouls": [
+          11,
+          19
+        ],
+        "corners": [
+          7,
+          5
+        ],
+        "cards": [
+          2,
+          3
+        ]
+      },
+      "yellow": [
+        2,
+        2
+      ],
+      "red": [
+        0,
+        1
+      ],
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401876401/stade-rennais-lorient",
+      "match_id": "Ligue 1_2026/27_espn_401876401",
+      "fixture_id": "559626",
+      "date": "2026-11-22",
+      "league": "Ligue 1",
+      "round": 11,
+      "provider": "ESPN",
+      "score_verification": {
+        "fixture_id": "559626",
+        "date": "2026-11-22",
+        "home": "Lorient",
+        "away": "Rennes",
+        "goals": [
+          1,
+          1
+        ],
+        "status": "verified",
+        "source": "football-data.org",
+        "source_url": "https://api.football-data.org/v4/matches/559626"
+      }
+    },
+    {
+      "espn_event_id": "401876400",
+      "kickoff_utc": "2026-11-22T19:45Z",
+      "home": "Marseille",
+      "away": "Le Mans",
+      "metrics": {
+        "goals": [
+          2,
+          3
+        ],
+        "shots": [
+          11,
+          18
+        ],
+        "sot": [
+          5,
+          9
+        ],
+        "fouls": [
+          14,
+          11
+        ],
+        "corners": [
+          2,
+          5
+        ],
+        "cards": [
+          3,
+          4
+        ]
+      },
+      "yellow": [
+        3,
+        4
+      ],
+      "red": [
+        0,
+        0
+      ],
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401876400/le-mans-marseille",
+      "match_id": "Ligue 1_2026/27_espn_401876400",
+      "fixture_id": "559629",
+      "date": "2026-11-22",
+      "league": "Ligue 1",
+      "round": 11,
+      "provider": "ESPN",
+      "score_verification": {
+        "fixture_id": "559629",
+        "date": "2026-11-22",
+        "home": "Marseille",
+        "away": "Le Mans",
+        "goals": [
+          2,
+          3
+        ],
+        "status": "verified",
+        "source": "football-data.org",
+        "source_url": "https://api.football-data.org/v4/matches/559629"
+      }
     }
   ],
   "deferred": [],
-  "pending": [
-    {
-      "fixture_id": "564750",
-      "date": "2026-11-22",
-      "home": "Santander",
-      "away": "Sociedad",
-      "espn_event_id": "401882800",
-      "provider_status": "SCHEDULED",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador.",
-      "source_url": "https://www.espn.com/soccer/match/_/gameId/401882800/real-sociedad-racing-santander"
-    },
-    {
-      "fixture_id": "564752",
-      "date": "2026-11-22",
-      "home": "Osasuna",
-      "away": "Malaga",
-      "espn_event_id": "401882801",
-      "provider_status": "SCHEDULED",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador.",
-      "source_url": "https://www.espn.com/soccer/match/_/gameId/401882801/malaga-osasuna"
-    },
-    {
-      "fixture_id": "564753",
-      "date": "2026-11-22",
-      "home": "Getafe",
-      "away": "Ath Madrid",
-      "espn_event_id": "401882803",
-      "provider_status": "SCHEDULED",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador.",
-      "source_url": "https://www.espn.com/soccer/match/_/gameId/401882803/atletico-madrid-getafe"
-    },
-    {
-      "fixture_id": "560646",
-      "date": "2026-11-22",
-      "home": "Hull",
-      "away": "Brighton",
-      "espn_event_id": "401879234",
-      "provider_status": "IN_PLAY",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador.",
-      "source_url": "https://www.espn.com/soccer/match/_/gameId/401879234"
-    },
-    {
-      "fixture_id": "560645",
-      "date": "2026-11-22",
-      "home": "Liverpool",
-      "away": "Man United",
-      "espn_event_id": "401878755",
-      "provider_status": "SCHEDULED",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador.",
-      "source_url": "https://www.espn.com/soccer/match/_/gameId/401878755/manchester-united-liverpool"
-    },
-    {
-      "fixture_id": "565864",
-      "date": "2026-11-22",
-      "home": "Augsburg",
-      "away": "Mainz",
-      "espn_event_id": "401884733",
-      "provider_status": "IN_PLAY",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador.",
-      "source_url": "https://www.espn.com/soccer/match/_/gameId/401884733"
-    },
-    {
-      "fixture_id": "565863",
-      "date": "2026-11-22",
-      "home": "Werder Bremen",
-      "away": "Hamburg",
-      "espn_event_id": "401884730",
-      "provider_status": "SCHEDULED",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador.",
-      "source_url": "https://www.espn.com/soccer/match/_/gameId/401884730/hamburg-sv-werder-bremen"
-    },
-    {
-      "fixture_id": "558522",
-      "date": "2026-11-22",
-      "home": "Bologna",
-      "away": "Udinese",
-      "espn_event_id": "401875047",
-      "provider_status": "IN_PLAY",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador.",
-      "source_url": "https://www.espn.com/soccer/match/_/gameId/401875047"
-    },
-    {
-      "fixture_id": "558524",
-      "date": "2026-11-22",
-      "home": "Sassuolo",
-      "away": "Genoa",
-      "espn_event_id": "401874960",
-      "provider_status": "IN_PLAY",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador.",
-      "source_url": "https://www.espn.com/soccer/match/_/gameId/401874960"
-    },
-    {
-      "fixture_id": "558523",
-      "date": "2026-11-22",
-      "home": "Milan",
-      "away": "Frosinone",
-      "espn_event_id": "401874989",
-      "provider_status": "SCHEDULED",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador.",
-      "source_url": "https://www.espn.com/soccer/match/_/gameId/401874989/frosinone-ac-milan"
-    },
-    {
-      "fixture_id": "558520",
-      "date": "2026-11-22",
-      "home": "Atalanta",
-      "away": "Inter",
-      "espn_event_id": "401875001",
-      "provider_status": "SCHEDULED",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador.",
-      "source_url": "https://www.espn.com/soccer/match/_/gameId/401875001/internazionale-atalanta"
-    },
-    {
-      "fixture_id": "559625",
-      "date": "2026-11-22",
-      "home": "Paris FC",
-      "away": "Angers",
-      "espn_event_id": "401876397",
-      "provider_status": "IN_PLAY",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador.",
-      "source_url": "https://www.espn.com/soccer/match/_/gameId/401876397"
-    },
-    {
-      "fixture_id": "559626",
-      "date": "2026-11-22",
-      "home": "Lorient",
-      "away": "Rennes",
-      "espn_event_id": "401876401",
-      "provider_status": "SCHEDULED",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador.",
-      "source_url": "https://www.espn.com/soccer/match/_/gameId/401876401/stade-rennais-lorient"
-    },
-    {
-      "fixture_id": "559629",
-      "date": "2026-11-22",
-      "home": "Marseille",
-      "away": "Le Mans",
-      "espn_event_id": "401876400",
-      "provider_status": "SCHEDULED",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador.",
-      "source_url": "https://www.espn.com/soccer/match/_/gameId/401876400/le-mans-marseille"
-    }
-  ],
+  "pending": [],
   "advanced": [],
-  "added_rows_this_run": 4,
+  "added_rows_this_run": 28,
   "scope": [
     "La Liga",
     "Premier League",
@@ -277,5 +976,11 @@
     "Ligue 1",
     "UEFA Champions League"
   ],
-  "automation": "daily_update"
+  "automation": "daily_update",
+  "updates": [
+    {
+      "at": "2026-11-23T23:11:05.073140+00:00",
+      "action": "daily_update merged new finals/pending state"
+    }
+  ]
 }

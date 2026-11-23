@@ -1,0 +1,200 @@
+{
+  "date": "2026-11-23",
+  "ingested_at": "2026-11-23T23:11:25.148230+00:00",
+  "provider": "ESPN final boxscores (automatic daily update); scores cross-checked with football-data.org when reachable",
+  "matches": [
+    {
+      "espn_event_id": "401882802",
+      "kickoff_utc": "2026-11-23T20:00Z",
+      "home": "Levante",
+      "away": "Elche",
+      "metrics": {
+        "goals": [
+          1,
+          1
+        ],
+        "shots": [
+          18,
+          4
+        ],
+        "sot": [
+          2,
+          2
+        ],
+        "fouls": [
+          14,
+          12
+        ],
+        "corners": [
+          5,
+          1
+        ],
+        "cards": [
+          4,
+          1
+        ]
+      },
+      "yellow": [
+        4,
+        1
+      ],
+      "red": [
+        0,
+        0
+      ],
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401882802/elche-levante",
+      "match_id": "La Liga_2026/27_espn_401882802",
+      "fixture_id": "564757",
+      "date": "2026-11-23",
+      "league": "La Liga",
+      "round": 13,
+      "provider": "ESPN",
+      "score_verification": {
+        "fixture_id": "564757",
+        "date": "2026-11-23",
+        "home": "Levante",
+        "away": "Elche",
+        "goals": [
+          1,
+          1
+        ],
+        "status": "verified",
+        "source": "football-data.org",
+        "source_url": "https://api.football-data.org/v4/matches/564757"
+      }
+    },
+    {
+      "espn_event_id": "401879237",
+      "kickoff_utc": "2026-11-23T20:00Z",
+      "home": "Brentford",
+      "away": "Everton",
+      "metrics": {
+        "goals": [
+          4,
+          0
+        ],
+        "shots": [
+          21,
+          4
+        ],
+        "sot": [
+          7,
+          2
+        ],
+        "fouls": [
+          8,
+          9
+        ],
+        "corners": [
+          6,
+          3
+        ],
+        "cards": [
+          0,
+          2
+        ]
+      },
+      "yellow": [
+        0,
+        1
+      ],
+      "red": [
+        0,
+        1
+      ],
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401879237/everton-brentford",
+      "match_id": "Premier League_2026/27_espn_401879237",
+      "fixture_id": "560649",
+      "date": "2026-11-23",
+      "league": "Premier League",
+      "round": 11,
+      "provider": "ESPN",
+      "score_verification": {
+        "fixture_id": "560649",
+        "date": "2026-11-23",
+        "home": "Brentford",
+        "away": "Everton",
+        "goals": [
+          4,
+          0
+        ],
+        "status": "verified",
+        "source": "football-data.org",
+        "source_url": "https://api.football-data.org/v4/matches/560649"
+      }
+    },
+    {
+      "espn_event_id": "401875009",
+      "kickoff_utc": "2026-11-23T19:45Z",
+      "home": "Monza",
+      "away": "Fiorentina",
+      "metrics": {
+        "goals": [
+          3,
+          0
+        ],
+        "shots": [
+          13,
+          17
+        ],
+        "sot": [
+          5,
+          8
+        ],
+        "fouls": [
+          8,
+          13
+        ],
+        "corners": [
+          3,
+          7
+        ],
+        "cards": [
+          0,
+          1
+        ]
+      },
+      "yellow": [
+        0,
+        1
+      ],
+      "red": [
+        0,
+        0
+      ],
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401875009/fiorentina-monza",
+      "match_id": "Serie A_2026/27_espn_401875009",
+      "fixture_id": "558519",
+      "date": "2026-11-23",
+      "league": "Serie A",
+      "round": 12,
+      "provider": "ESPN",
+      "score_verification": {
+        "fixture_id": "558519",
+        "date": "2026-11-23",
+        "home": "Monza",
+        "away": "Fiorentina",
+        "goals": [
+          3,
+          0
+        ],
+        "status": "verified",
+        "source": "football-data.org",
+        "source_url": "https://api.football-data.org/v4/matches/558519"
+      }
+    }
+  ],
+  "deferred": [],
+  "pending": [],
+  "advanced": [],
+  "added_rows_this_run": 6,
+  "scope": [
+    "La Liga",
+    "Premier League",
+    "Bundesliga",
+    "Serie A",
+    "Ligue 1",
+    "UEFA Champions League"
+  ],
+  "automation": "daily_update"
+}

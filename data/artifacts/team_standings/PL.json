@@ -1,6 +1,6 @@
 {
   "season": "2026/27",
-  "updated_at": "2026-11-22T15:09:46.821437+00:00",
+  "updated_at": "2026-11-23T23:11:40.562495+00:00",
   "source": "football-data.org",
   "source_url": "https://api.football-data.org/v4/competitions/PL/standings",
   "tables": {
@@ -20,14 +20,14 @@
       {
         "team": "Brighton",
         "position": 2,
-        "played": 10,
+        "played": 11,
         "won": 7,
         "draw": 1,
-        "lost": 2,
+        "lost": 3,
         "points": 22,
         "goals_for": 26,
-        "goals_against": 7,
-        "goal_difference": 19
+        "goals_against": 9,
+        "goal_difference": 17
       },
       {
         "team": "Man City",
@@ -42,8 +42,20 @@
         "goal_difference": 8
       },
       {
-        "team": "Bournemouth",
+        "team": "Liverpool",
         "position": 4,
+        "played": 11,
+        "won": 6,
+        "draw": 3,
+        "lost": 2,
+        "points": 21,
+        "goals_for": 18,
+        "goals_against": 10,
+        "goal_difference": 8
+      },
+      {
+        "team": "Bournemouth",
+        "position": 5,
         "played": 11,
         "won": 5,
         "draw": 3,
@@ -54,20 +66,20 @@
         "goal_difference": 4
       },
       {
-        "team": "Liverpool",
-        "position": 5,
-        "played": 10,
-        "won": 5,
-        "draw": 3,
+        "team": "Brentford",
+        "position": 6,
+        "played": 11,
+        "won": 4,
+        "draw": 5,
         "lost": 2,
-        "points": 18,
-        "goals_for": 14,
-        "goals_against": 10,
-        "goal_difference": 4
+        "points": 17,
+        "goals_for": 20,
+        "goals_against": 11,
+        "goal_difference": 9
       },
       {
         "team": "Leeds",
-        "position": 6,
+        "position": 7,
         "played": 11,
         "won": 4,
         "draw": 5,
@@ -76,18 +88,6 @@
         "goals_for": 14,
         "goals_against": 9,
         "goal_difference": 5
-      },
-      {
-        "team": "Everton",
-        "position": 7,
-        "played": 10,
-        "won": 4,
-        "draw": 4,
-        "lost": 2,
-        "points": 16,
-        "goals_for": 12,
-        "goals_against": 10,
-        "goal_difference": 2
       },
       {
         "team": "Chelsea",
@@ -102,8 +102,20 @@
         "goal_difference": 0
       },
       {
-        "team": "Tottenham",
+        "team": "Everton",
         "position": 9,
+        "played": 11,
+        "won": 4,
+        "draw": 4,
+        "lost": 3,
+        "points": 16,
+        "goals_for": 12,
+        "goals_against": 14,
+        "goal_difference": -2
+      },
+      {
+        "team": "Tottenham",
+        "position": 10,
         "played": 11,
         "won": 4,
         "draw": 3,
@@ -114,20 +126,20 @@
         "goal_difference": 1
       },
       {
-        "team": "Brentford",
-        "position": 10,
-        "played": 10,
+        "team": "Hull",
+        "position": 11,
+        "played": 11,
         "won": 3,
         "draw": 5,
-        "lost": 2,
+        "lost": 3,
         "points": 14,
-        "goals_for": 16,
+        "goals_for": 13,
         "goals_against": 11,
-        "goal_difference": 5
+        "goal_difference": 2
       },
       {
         "team": "Aston Villa",
-        "position": 11,
+        "position": 12,
         "played": 11,
         "won": 3,
         "draw": 5,
@@ -139,7 +151,7 @@
       },
       {
         "team": "Newcastle",
-        "position": 12,
+        "position": 13,
         "played": 11,
         "won": 3,
         "draw": 4,
@@ -151,7 +163,7 @@
       },
       {
         "team": "Coventry",
-        "position": 13,
+        "position": 14,
         "played": 11,
         "won": 4,
         "draw": 0,
@@ -160,18 +172,6 @@
         "goals_for": 13,
         "goals_against": 21,
         "goal_difference": -8
-      },
-      {
-        "team": "Hull",
-        "position": 14,
-        "played": 10,
-        "won": 2,
-        "draw": 5,
-        "lost": 3,
-        "points": 11,
-        "goals_for": 11,
-        "goals_against": 11,
-        "goal_difference": 0
       },
       {
         "team": "Fulham",
@@ -224,14 +224,14 @@
       {
         "team": "Man United",
         "position": 19,
-        "played": 10,
+        "played": 11,
         "won": 1,
         "draw": 5,
-        "lost": 4,
+        "lost": 5,
         "points": 8,
         "goals_for": 14,
-        "goals_against": 19,
-        "goal_difference": -5
+        "goals_against": 23,
+        "goal_difference": -9
       },
       {
         "team": "Crystal Palace",
@@ -272,8 +272,20 @@
         "goal_difference": 14
       },
       {
-        "team": "Man City",
+        "team": "Brentford",
         "position": 3,
+        "played": 6,
+        "won": 4,
+        "draw": 1,
+        "lost": 1,
+        "points": 13,
+        "goals_for": 14,
+        "goals_against": 3,
+        "goal_difference": 11
+      },
+      {
+        "team": "Man City",
+        "position": 4,
         "played": 6,
         "won": 4,
         "draw": 1,
@@ -285,7 +297,7 @@
       },
       {
         "team": "Bournemouth",
-        "position": 4,
+        "position": 5,
         "played": 6,
         "won": 3,
         "draw": 2,
@@ -296,20 +308,20 @@
         "goal_difference": 5
       },
       {
-        "team": "Brentford",
-        "position": 5,
-        "played": 5,
-        "won": 3,
-        "draw": 1,
-        "lost": 1,
+        "team": "Hull",
+        "position": 6,
+        "played": 6,
+        "won": 2,
+        "draw": 4,
+        "lost": 0,
         "points": 10,
-        "goals_for": 10,
-        "goals_against": 3,
-        "goal_difference": 7
+        "goals_for": 9,
+        "goals_against": 5,
+        "goal_difference": 4
       },
       {
         "team": "Tottenham",
-        "position": 6,
+        "position": 7,
         "played": 6,
         "won": 3,
         "draw": 1,
@@ -321,7 +333,7 @@
       },
       {
         "team": "Everton",
-        "position": 7,
+        "position": 8,
         "played": 5,
         "won": 3,
         "draw": 1,
@@ -333,7 +345,7 @@
       },
       {
         "team": "Chelsea",
-        "position": 8,
+        "position": 9,
         "played": 6,
         "won": 3,
         "draw": 1,
@@ -345,7 +357,7 @@
       },
       {
         "team": "Leeds",
-        "position": 9,
+        "position": 10,
         "played": 5,
         "won": 2,
         "draw": 3,
@@ -357,7 +369,7 @@
       },
       {
         "team": "Coventry",
-        "position": 10,
+        "position": 11,
         "played": 6,
         "won": 3,
         "draw": 0,
@@ -368,20 +380,20 @@
         "goal_difference": -1
       },
       {
-        "team": "Hull",
-        "position": 11,
-        "played": 5,
-        "won": 1,
-        "draw": 4,
-        "lost": 0,
-        "points": 7,
-        "goals_for": 7,
-        "goals_against": 5,
+        "team": "Liverpool",
+        "position": 12,
+        "played": 6,
+        "won": 2,
+        "draw": 2,
+        "lost": 2,
+        "points": 8,
+        "goals_for": 8,
+        "goals_against": 6,
         "goal_difference": 2
       },
       {
         "team": "Ipswich",
-        "position": 12,
+        "position": 13,
         "played": 5,
         "won": 2,
         "draw": 1,
@@ -393,7 +405,7 @@
       },
       {
         "team": "Sunderland",
-        "position": 13,
+        "position": 14,
         "played": 5,
         "won": 2,
         "draw": 1,
@@ -405,7 +417,7 @@
       },
       {
         "team": "Newcastle",
-        "position": 14,
+        "position": 15,
         "played": 6,
         "won": 1,
         "draw": 3,
@@ -417,7 +429,7 @@
       },
       {
         "team": "Aston Villa",
-        "position": 15,
+        "position": 16,
         "played": 6,
         "won": 1,
         "draw": 3,
@@ -429,7 +441,7 @@
       },
       {
         "team": "Man United",
-        "position": 16,
+        "position": 17,
         "played": 5,
         "won": 1,
         "draw": 2,
@@ -441,7 +453,7 @@
       },
       {
         "team": "Fulham",
-        "position": 17,
+        "position": 18,
         "played": 5,
         "won": 1,
         "draw": 2,
@@ -450,18 +462,6 @@
         "goals_for": 7,
         "goals_against": 8,
         "goal_difference": -1
-      },
-      {
-        "team": "Liverpool",
-        "position": 18,
-        "played": 5,
-        "won": 1,
-        "draw": 2,
-        "lost": 2,
-        "points": 5,
-        "goals_for": 4,
-        "goals_against": 6,
-        "goal_difference": -2
       },
       {
         "team": "Nott'm Forest",
@@ -514,20 +514,8 @@
         "goal_difference": 2
       },
       {
-        "team": "Brighton",
-        "position": 3,
-        "played": 5,
-        "won": 3,
-        "draw": 0,
-        "lost": 2,
-        "points": 9,
-        "goals_for": 11,
-        "goals_against": 6,
-        "goal_difference": 5
-      },
-      {
         "team": "Man City",
-        "position": 4,
+        "position": 3,
         "played": 5,
         "won": 3,
         "draw": 0,
@@ -536,6 +524,18 @@
         "goals_for": 10,
         "goals_against": 6,
         "goal_difference": 4
+      },
+      {
+        "team": "Brighton",
+        "position": 4,
+        "played": 6,
+        "won": 3,
+        "draw": 0,
+        "lost": 3,
+        "points": 9,
+        "goals_for": 11,
+        "goals_against": 8,
+        "goal_difference": 3
       },
       {
         "team": "Leeds",
@@ -586,20 +586,8 @@
         "goal_difference": -2
       },
       {
-        "team": "Everton",
-        "position": 9,
-        "played": 5,
-        "won": 1,
-        "draw": 3,
-        "lost": 1,
-        "points": 6,
-        "goals_for": 4,
-        "goals_against": 5,
-        "goal_difference": -1
-      },
-      {
         "team": "Fulham",
-        "position": 10,
+        "position": 9,
         "played": 6,
         "won": 1,
         "draw": 3,
@@ -611,7 +599,7 @@
       },
       {
         "team": "Chelsea",
-        "position": 11,
+        "position": 10,
         "played": 5,
         "won": 2,
         "draw": 0,
@@ -620,6 +608,18 @@
         "goals_for": 6,
         "goals_against": 8,
         "goal_difference": -2
+      },
+      {
+        "team": "Everton",
+        "position": 11,
+        "played": 6,
+        "won": 1,
+        "draw": 3,
+        "lost": 2,
+        "points": 6,
+        "goals_for": 4,
+        "goals_against": 9,
+        "goal_difference": -5
       },
       {
         "team": "Tottenham",
@@ -694,20 +694,8 @@
         "goal_difference": -9
       },
       {
-        "team": "Man United",
-        "position": 18,
-        "played": 5,
-        "won": 0,
-        "draw": 3,
-        "lost": 2,
-        "points": 3,
-        "goals_for": 4,
-        "goals_against": 8,
-        "goal_difference": -4
-      },
-      {
         "team": "Coventry",
-        "position": 19,
+        "position": 18,
         "played": 5,
         "won": 1,
         "draw": 0,
@@ -716,6 +704,18 @@
         "goals_for": 3,
         "goals_against": 10,
         "goal_difference": -7
+      },
+      {
+        "team": "Man United",
+        "position": 19,
+        "played": 6,
+        "won": 0,
+        "draw": 3,
+        "lost": 3,
+        "points": 3,
+        "goals_for": 4,
+        "goals_against": 12,
+        "goal_difference": -8
       },
       {
         "team": "Sunderland",

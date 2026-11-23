@@ -1,6 +1,6 @@
 {
   "date": "2026-11-22",
-  "reviewed_at": "2026-11-22T15:09:43.241753+00:00",
+  "reviewed_at": "2026-11-23T23:11:24.800896+00:00",
   "frozen_shortlist_sha256": "77e4f17d8dfba652d0938d49c5fe6e32eee9f545f6d7a45c4b25e0c1fbafa98d",
   "matches": [
     {
@@ -36,6 +36,230 @@
       "source_url": "https://www.espn.com/soccer/match/_/gameId/401882804/villarreal-barcelona"
     },
     {
+      "fixture_id": "564750",
+      "home": "Santander",
+      "away": "Sociedad",
+      "metrics": {
+        "goals": [
+          3,
+          2
+        ],
+        "shots": [
+          12,
+          31
+        ],
+        "sot": [
+          8,
+          7
+        ],
+        "fouls": [
+          10,
+          10
+        ],
+        "corners": [
+          7,
+          14
+        ],
+        "cards": [
+          2,
+          2
+        ]
+      },
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401882800/real-sociedad-racing-santander"
+    },
+    {
+      "fixture_id": "564752",
+      "home": "Osasuna",
+      "away": "Malaga",
+      "metrics": {
+        "goals": [
+          1,
+          0
+        ],
+        "shots": [
+          11,
+          5
+        ],
+        "sot": [
+          2,
+          0
+        ],
+        "fouls": [
+          15,
+          11
+        ],
+        "corners": [
+          4,
+          1
+        ],
+        "cards": [
+          3,
+          0
+        ]
+      },
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401882801/malaga-osasuna"
+    },
+    {
+      "fixture_id": "564753",
+      "home": "Getafe",
+      "away": "Ath Madrid",
+      "metrics": {
+        "goals": [
+          0,
+          3
+        ],
+        "shots": [
+          11,
+          20
+        ],
+        "sot": [
+          1,
+          10
+        ],
+        "fouls": [
+          11,
+          11
+        ],
+        "corners": [
+          2,
+          7
+        ],
+        "cards": [
+          3,
+          2
+        ]
+      },
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401882803/atletico-madrid-getafe"
+    },
+    {
+      "fixture_id": "560646",
+      "home": "Hull",
+      "away": "Brighton",
+      "metrics": {
+        "goals": [
+          2,
+          0
+        ],
+        "shots": [
+          11,
+          15
+        ],
+        "sot": [
+          5,
+          8
+        ],
+        "fouls": [
+          7,
+          17
+        ],
+        "corners": [
+          3,
+          5
+        ],
+        "cards": [
+          2,
+          3
+        ]
+      },
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401879234/brighton-hove-albion-hull-city"
+    },
+    {
+      "fixture_id": "560645",
+      "home": "Liverpool",
+      "away": "Man United",
+      "metrics": {
+        "goals": [
+          4,
+          0
+        ],
+        "shots": [
+          28,
+          10
+        ],
+        "sot": [
+          11,
+          3
+        ],
+        "fouls": [
+          15,
+          7
+        ],
+        "corners": [
+          15,
+          5
+        ],
+        "cards": [
+          1,
+          1
+        ]
+      },
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401878755/manchester-united-liverpool"
+    },
+    {
+      "fixture_id": "565864",
+      "home": "Augsburg",
+      "away": "Mainz",
+      "metrics": {
+        "goals": [
+          3,
+          1
+        ],
+        "shots": [
+          22,
+          7
+        ],
+        "sot": [
+          9,
+          4
+        ],
+        "fouls": [
+          10,
+          12
+        ],
+        "corners": [
+          6,
+          0
+        ],
+        "cards": [
+          1,
+          3
+        ]
+      },
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401884733/mainz-fc-augsburg"
+    },
+    {
+      "fixture_id": "565863",
+      "home": "Werder Bremen",
+      "away": "Hamburg",
+      "metrics": {
+        "goals": [
+          4,
+          0
+        ],
+        "shots": [
+          18,
+          17
+        ],
+        "sot": [
+          7,
+          2
+        ],
+        "fouls": [
+          12,
+          11
+        ],
+        "corners": [
+          1,
+          8
+        ],
+        "cards": [
+          3,
+          3
+        ]
+      },
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401884730/hamburg-sv-werder-bremen"
+    },
+    {
       "fixture_id": "558521",
       "home": "Juventus",
       "away": "Venezia",
@@ -66,6 +290,230 @@
         ]
       },
       "source_url": "https://www.espn.com/soccer/match/_/gameId/401875008/venezia-juventus"
+    },
+    {
+      "fixture_id": "558522",
+      "home": "Bologna",
+      "away": "Udinese",
+      "metrics": {
+        "goals": [
+          1,
+          1
+        ],
+        "shots": [
+          18,
+          11
+        ],
+        "sot": [
+          4,
+          3
+        ],
+        "fouls": [
+          13,
+          11
+        ],
+        "corners": [
+          8,
+          4
+        ],
+        "cards": [
+          1,
+          2
+        ]
+      },
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401875047/udinese-bologna"
+    },
+    {
+      "fixture_id": "558524",
+      "home": "Sassuolo",
+      "away": "Genoa",
+      "metrics": {
+        "goals": [
+          0,
+          2
+        ],
+        "shots": [
+          25,
+          11
+        ],
+        "sot": [
+          7,
+          5
+        ],
+        "fouls": [
+          11,
+          9
+        ],
+        "corners": [
+          5,
+          3
+        ],
+        "cards": [
+          1,
+          0
+        ]
+      },
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401874960/genoa-sassuolo"
+    },
+    {
+      "fixture_id": "558523",
+      "home": "Milan",
+      "away": "Frosinone",
+      "metrics": {
+        "goals": [
+          5,
+          1
+        ],
+        "shots": [
+          12,
+          15
+        ],
+        "sot": [
+          8,
+          3
+        ],
+        "fouls": [
+          6,
+          17
+        ],
+        "corners": [
+          2,
+          9
+        ],
+        "cards": [
+          1,
+          4
+        ]
+      },
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401874989/frosinone-ac-milan"
+    },
+    {
+      "fixture_id": "558520",
+      "home": "Atalanta",
+      "away": "Inter",
+      "metrics": {
+        "goals": [
+          4,
+          4
+        ],
+        "shots": [
+          15,
+          16
+        ],
+        "sot": [
+          10,
+          6
+        ],
+        "fouls": [
+          9,
+          10
+        ],
+        "corners": [
+          5,
+          6
+        ],
+        "cards": [
+          2,
+          1
+        ]
+      },
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401875001/internazionale-atalanta"
+    },
+    {
+      "fixture_id": "559625",
+      "home": "Paris FC",
+      "away": "Angers",
+      "metrics": {
+        "goals": [
+          4,
+          0
+        ],
+        "shots": [
+          18,
+          9
+        ],
+        "sot": [
+          9,
+          1
+        ],
+        "fouls": [
+          17,
+          12
+        ],
+        "corners": [
+          10,
+          2
+        ],
+        "cards": [
+          1,
+          1
+        ]
+      },
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401876397/angers-paris-fc"
+    },
+    {
+      "fixture_id": "559626",
+      "home": "Lorient",
+      "away": "Rennes",
+      "metrics": {
+        "goals": [
+          1,
+          1
+        ],
+        "shots": [
+          12,
+          13
+        ],
+        "sot": [
+          3,
+          3
+        ],
+        "fouls": [
+          11,
+          19
+        ],
+        "corners": [
+          7,
+          5
+        ],
+        "cards": [
+          2,
+          3
+        ]
+      },
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401876401/stade-rennais-lorient"
+    },
+    {
+      "fixture_id": "559629",
+      "home": "Marseille",
+      "away": "Le Mans",
+      "metrics": {
+        "goals": [
+          2,
+          3
+        ],
+        "shots": [
+          11,
+          18
+        ],
+        "sot": [
+          5,
+          9
+        ],
+        "fouls": [
+          14,
+          11
+        ],
+        "corners": [
+          2,
+          5
+        ],
+        "cards": [
+          3,
+          4
+        ]
+      },
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401876400/le-mans-marseille"
     }
   ],
   "tiers": [
@@ -118,8 +566,11 @@
       "market": "Córners",
       "label": "Más de 7,5 córners",
       "probability": 0.8201164898884565,
-      "status": "unverified",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador.",
+      "status": "won",
+      "hit": true,
+      "actual_metric": "corners",
+      "actual_home": 7,
+      "actual_away": 14,
       "tier": "Conservadora"
     },
     {
@@ -129,8 +580,11 @@
       "market": "Goles",
       "label": "Más de 2,5 goles",
       "probability": 0.7256677578110844,
-      "status": "unverified",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador.",
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 3,
+      "actual_away": 2,
       "tier": "Normal"
     },
     {
@@ -140,8 +594,11 @@
       "market": "Remates",
       "label": "Más de 29,5 remates totales",
       "probability": 0.5580131284419063,
-      "status": "unverified",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador.",
+      "status": "won",
+      "hit": true,
+      "actual_metric": "shots",
+      "actual_home": 12,
+      "actual_away": 31,
       "tier": "Arriesgada"
     },
     {
@@ -151,8 +608,11 @@
       "market": "Córners",
       "label": "Más de 6,5 córners",
       "probability": 0.8036491699397235,
-      "status": "unverified",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador.",
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "corners",
+      "actual_home": 4,
+      "actual_away": 1,
       "tier": "Conservadora"
     },
     {
@@ -162,8 +622,11 @@
       "market": "Goles",
       "label": "Más de 1,5 goles",
       "probability": 0.7457776706096385,
-      "status": "unverified",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador.",
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "goals",
+      "actual_home": 1,
+      "actual_away": 0,
       "tier": "Normal"
     },
     {
@@ -173,8 +636,11 @@
       "market": "Resultado y goles",
       "label": "Osasuna o empate y más de 1,5 goles",
       "probability": 0.6265413220581229,
-      "status": "unverified",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador.",
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "goals",
+      "actual_home": 1,
+      "actual_away": 0,
       "tier": "Arriesgada"
     },
     {
@@ -184,8 +650,11 @@
       "market": "Córners",
       "label": "Más de 6,5 córners",
       "probability": 0.7640491396861278,
-      "status": "unverified",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador.",
+      "status": "won",
+      "hit": true,
+      "actual_metric": "corners",
+      "actual_home": 2,
+      "actual_away": 7,
       "tier": "Conservadora"
     },
     {
@@ -195,8 +664,11 @@
       "market": "Goles",
       "label": "Más de 1,5 goles",
       "probability": 0.6097036493326822,
-      "status": "unverified",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador.",
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 0,
+      "actual_away": 3,
       "tier": "Normal"
     },
     {
@@ -206,8 +678,11 @@
       "market": "Resultado 1X2",
       "label": "Gana Ath Madrid",
       "probability": 0.4689305755736137,
-      "status": "unverified",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador.",
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 0,
+      "actual_away": 3,
       "tier": "Arriesgada"
     },
     {
@@ -217,8 +692,11 @@
       "market": "Doble oportunidad",
       "label": "Brighton o empate",
       "probability": 0.726227399447182,
-      "status": "unverified",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador.",
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 0,
       "tier": "Conservadora"
     },
     {
@@ -228,8 +706,11 @@
       "market": "Córners",
       "label": "Menos de 12,5 córners",
       "probability": 0.8271588664970286,
-      "status": "unverified",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador.",
+      "status": "won",
+      "hit": true,
+      "actual_metric": "corners",
+      "actual_home": 3,
+      "actual_away": 5,
       "tier": "Normal"
     },
     {
@@ -239,8 +720,11 @@
       "market": "Goles",
       "label": "Menos de 3,5 goles",
       "probability": 0.7531052320564634,
-      "status": "unverified",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador.",
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 0,
       "tier": "Arriesgada"
     },
     {
@@ -250,8 +734,11 @@
       "market": "Córners",
       "label": "Liverpool: menos de 8,5 córners",
       "probability": 0.7845815793403104,
-      "status": "unverified",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador.",
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "corners",
+      "actual_home": 15,
+      "actual_away": 5,
       "tier": "Conservadora"
     },
     {
@@ -261,8 +748,11 @@
       "market": "Tiros al arco",
       "label": "Man United: más de 2,5 tiros al arco",
       "probability": 0.7189410204097073,
-      "status": "unverified",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador.",
+      "status": "won",
+      "hit": true,
+      "actual_metric": "sot",
+      "actual_home": 11,
+      "actual_away": 3,
       "tier": "Normal"
     },
     {
@@ -272,8 +762,11 @@
       "market": "Goles",
       "label": "Menos de 3,5 goles",
       "probability": 0.5673073752087407,
-      "status": "unverified",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador.",
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "goals",
+      "actual_home": 4,
+      "actual_away": 0,
       "tier": "Arriesgada"
     },
     {
@@ -283,8 +776,11 @@
       "market": "Goles",
       "label": "Más de 1,5 goles",
       "probability": 0.8250080446133211,
-      "status": "unverified",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador.",
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 3,
+      "actual_away": 1,
       "tier": "Conservadora"
     },
     {
@@ -294,8 +790,11 @@
       "market": "Tiros al arco",
       "label": "Augsburg: menos de 6,5 tiros al arco",
       "probability": 0.7166524019880931,
-      "status": "unverified",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador.",
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "sot",
+      "actual_home": 9,
+      "actual_away": 4,
       "tier": "Normal"
     },
     {
@@ -305,8 +804,11 @@
       "market": "Doble oportunidad",
       "label": "Mainz o empate",
       "probability": 0.582222038949862,
-      "status": "unverified",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador.",
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "goals",
+      "actual_home": 3,
+      "actual_away": 1,
       "tier": "Arriesgada"
     },
     {
@@ -316,8 +818,11 @@
       "market": "Córners",
       "label": "Werder Bremen: menos de 8,5 córners",
       "probability": 0.8626861248187373,
-      "status": "unverified",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador.",
+      "status": "won",
+      "hit": true,
+      "actual_metric": "corners",
+      "actual_home": 1,
+      "actual_away": 8,
       "tier": "Conservadora"
     },
     {
@@ -327,8 +832,11 @@
       "market": "Tiros al arco",
       "label": "Hamburg: más de 2,5 tiros al arco",
       "probability": 0.7463928830399851,
-      "status": "unverified",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador.",
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "sot",
+      "actual_home": 7,
+      "actual_away": 2,
       "tier": "Normal"
     },
     {
@@ -338,8 +846,11 @@
       "market": "Remates",
       "label": "Werder Bremen: menos de 19,5 remates",
       "probability": 0.6624417967837303,
-      "status": "unverified",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador.",
+      "status": "won",
+      "hit": true,
+      "actual_metric": "shots",
+      "actual_home": 18,
+      "actual_away": 17,
       "tier": "Arriesgada"
     },
     {
@@ -391,8 +902,11 @@
       "market": "Córners",
       "label": "Menos de 12,5 córners",
       "probability": 0.7251931403234662,
-      "status": "unverified",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador.",
+      "status": "won",
+      "hit": true,
+      "actual_metric": "corners",
+      "actual_home": 8,
+      "actual_away": 4,
       "tier": "Conservadora"
     },
     {
@@ -402,8 +916,11 @@
       "market": "Tiros al arco",
       "label": "Bologna: menos de 6,5 tiros al arco",
       "probability": 0.7663687431655691,
-      "status": "unverified",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador.",
+      "status": "won",
+      "hit": true,
+      "actual_metric": "sot",
+      "actual_home": 4,
+      "actual_away": 3,
       "tier": "Normal"
     },
     {
@@ -413,8 +930,11 @@
       "market": "Remates",
       "label": "Udinese: más de 9,5 remates",
       "probability": 0.5134411348638063,
-      "status": "unverified",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador.",
+      "status": "won",
+      "hit": true,
+      "actual_metric": "shots",
+      "actual_home": 18,
+      "actual_away": 11,
       "tier": "Arriesgada"
     },
     {
@@ -424,8 +944,11 @@
       "market": "Córners",
       "label": "Genoa: menos de 6,5 córners",
       "probability": 0.7948331947151798,
-      "status": "unverified",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador.",
+      "status": "won",
+      "hit": true,
+      "actual_metric": "corners",
+      "actual_home": 5,
+      "actual_away": 3,
       "tier": "Conservadora"
     },
     {
@@ -435,8 +958,11 @@
       "market": "Goles",
       "label": "Más de 1,5 goles",
       "probability": 0.7505410443469479,
-      "status": "unverified",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador.",
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 0,
+      "actual_away": 2,
       "tier": "Normal"
     },
     {
@@ -446,8 +972,11 @@
       "market": "Doble oportunidad",
       "label": "Sassuolo o empate",
       "probability": 0.649897730187492,
-      "status": "unverified",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador.",
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "goals",
+      "actual_home": 0,
+      "actual_away": 2,
       "tier": "Arriesgada"
     },
     {
@@ -457,8 +986,11 @@
       "market": "Doble oportunidad",
       "label": "Milan o empate",
       "probability": 0.7228621711809569,
-      "status": "unverified",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador.",
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 5,
+      "actual_away": 1,
       "tier": "Conservadora"
     },
     {
@@ -468,8 +1000,11 @@
       "market": "Córners",
       "label": "Frosinone: menos de 5,5 córners",
       "probability": 0.5947947860215859,
-      "status": "unverified",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador.",
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "corners",
+      "actual_home": 2,
+      "actual_away": 9,
       "tier": "Normal"
     },
     {
@@ -479,8 +1014,11 @@
       "market": "Tiros al arco",
       "label": "Menos de 11,5 tiros al arco totales",
       "probability": 0.5721623844680082,
-      "status": "unverified",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador.",
+      "status": "won",
+      "hit": true,
+      "actual_metric": "sot",
+      "actual_home": 8,
+      "actual_away": 3,
       "tier": "Arriesgada"
     },
     {
@@ -490,8 +1028,11 @@
       "market": "Goles",
       "label": "Más de 1,5 goles",
       "probability": 0.8240817366334099,
-      "status": "unverified",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador.",
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 4,
+      "actual_away": 4,
       "tier": "Conservadora"
     },
     {
@@ -501,8 +1042,11 @@
       "market": "Córners",
       "label": "Inter: más de 3,5 córners",
       "probability": 0.6367520436171422,
-      "status": "unverified",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador.",
+      "status": "won",
+      "hit": true,
+      "actual_metric": "corners",
+      "actual_home": 5,
+      "actual_away": 6,
       "tier": "Normal"
     },
     {
@@ -512,8 +1056,11 @@
       "market": "Resultado 1X2",
       "label": "Gana Inter",
       "probability": 0.5071522226391451,
-      "status": "unverified",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador.",
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "goals",
+      "actual_home": 4,
+      "actual_away": 4,
       "tier": "Arriesgada"
     },
     {
@@ -523,8 +1070,11 @@
       "market": "Córners",
       "label": "Menos de 12,5 córners",
       "probability": 0.897870653681944,
-      "status": "unverified",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador.",
+      "status": "won",
+      "hit": true,
+      "actual_metric": "corners",
+      "actual_home": 10,
+      "actual_away": 2,
       "tier": "Conservadora"
     },
     {
@@ -534,8 +1084,11 @@
       "market": "Tiros al arco",
       "label": "Angers: más de 1,5 tiros al arco",
       "probability": 0.6883329300958836,
-      "status": "unverified",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador.",
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "sot",
+      "actual_home": 9,
+      "actual_away": 1,
       "tier": "Normal"
     },
     {
@@ -545,8 +1098,11 @@
       "market": "Resultado y goles",
       "label": "Paris FC o empate y menos de 3,5 goles",
       "probability": 0.6104153835252053,
-      "status": "unverified",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador.",
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "goals",
+      "actual_home": 4,
+      "actual_away": 0,
       "tier": "Arriesgada"
     },
     {
@@ -556,8 +1112,11 @@
       "market": "Córners",
       "label": "Más de 6,5 córners",
       "probability": 0.809446550277126,
-      "status": "unverified",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador.",
+      "status": "won",
+      "hit": true,
+      "actual_metric": "corners",
+      "actual_home": 7,
+      "actual_away": 5,
       "tier": "Conservadora"
     },
     {
@@ -567,8 +1126,11 @@
       "market": "Goles",
       "label": "Más de 1,5 goles",
       "probability": 0.8068456549428241,
-      "status": "unverified",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador.",
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 1,
+      "actual_away": 1,
       "tier": "Normal"
     },
     {
@@ -578,8 +1140,11 @@
       "market": "Remates",
       "label": "Rennes: más de 12,5 remates",
       "probability": 0.5691561391726122,
-      "status": "unverified",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador.",
+      "status": "won",
+      "hit": true,
+      "actual_metric": "shots",
+      "actual_home": 12,
+      "actual_away": 13,
       "tier": "Arriesgada"
     },
     {
@@ -589,8 +1154,11 @@
       "market": "Goles",
       "label": "Más de 1,5 goles",
       "probability": 0.8684041706717317,
-      "status": "unverified",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador.",
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 3,
       "tier": "Conservadora"
     },
     {
@@ -600,8 +1168,11 @@
       "market": "Córners",
       "label": "Le Mans: menos de 4,5 córners",
       "probability": 0.7407520686285856,
-      "status": "unverified",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador.",
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "corners",
+      "actual_home": 2,
+      "actual_away": 5,
       "tier": "Normal"
     },
     {
@@ -611,8 +1182,11 @@
       "market": "Resultado 1X2",
       "label": "Gana Marseille",
       "probability": 0.668256647398033,
-      "status": "unverified",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador.",
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 3,
       "tier": "Arriesgada"
     }
   ],
@@ -702,8 +1276,11 @@
       "market": "Goles",
       "label": "Más de 2,5 goles",
       "probability": 0.7256677578110844,
-      "status": "unverified",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 3,
+      "actual_away": 2
     },
     {
       "fixture_id": "564750",
@@ -712,8 +1289,11 @@
       "market": "Remates",
       "label": "Más de 29,5 remates totales",
       "probability": 0.5580131284419063,
-      "status": "unverified",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+      "status": "won",
+      "hit": true,
+      "actual_metric": "shots",
+      "actual_home": 12,
+      "actual_away": 31
     },
     {
       "fixture_id": "564750",
@@ -722,8 +1302,11 @@
       "market": "Tiros al arco",
       "label": "Más de 9,5 tiros al arco totales",
       "probability": 0.613642200762945,
-      "status": "unverified",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+      "status": "won",
+      "hit": true,
+      "actual_metric": "sot",
+      "actual_home": 8,
+      "actual_away": 7
     },
     {
       "fixture_id": "564750",
@@ -732,8 +1315,11 @@
       "market": "Córners",
       "label": "Santander: más de 3,5 córners",
       "probability": 0.6981570792096795,
-      "status": "unverified",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+      "status": "won",
+      "hit": true,
+      "actual_metric": "corners",
+      "actual_home": 7,
+      "actual_away": 14
     },
     {
       "fixture_id": "564750",
@@ -742,8 +1328,11 @@
       "market": "Córners",
       "label": "Más de 7,5 córners",
       "probability": 0.8201164898884565,
-      "status": "unverified",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+      "status": "won",
+      "hit": true,
+      "actual_metric": "corners",
+      "actual_home": 7,
+      "actual_away": 14
     },
     {
       "fixture_id": "564752",
@@ -752,8 +1341,11 @@
       "market": "Doble oportunidad",
       "label": "Osasuna o empate",
       "probability": 0.8207072993503172,
-      "status": "unverified",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 1,
+      "actual_away": 0
     },
     {
       "fixture_id": "564752",
@@ -762,8 +1354,11 @@
       "market": "Goles",
       "label": "Menos de 3,5 goles",
       "probability": 0.7252134699949981,
-      "status": "unverified",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 1,
+      "actual_away": 0
     },
     {
       "fixture_id": "564752",
@@ -772,8 +1367,11 @@
       "market": "Resultado y goles",
       "label": "Osasuna o empate y menos de 3,5 goles",
       "probability": 0.5852566368107561,
-      "status": "unverified",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 1,
+      "actual_away": 0
     },
     {
       "fixture_id": "564752",
@@ -782,8 +1380,11 @@
       "market": "Remates",
       "label": "Malaga: más de 9,5 remates",
       "probability": 0.5365733618794897,
-      "status": "unverified",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "shots",
+      "actual_home": 11,
+      "actual_away": 5
     },
     {
       "fixture_id": "564752",
@@ -792,8 +1393,11 @@
       "market": "Tiros al arco",
       "label": "Menos de 9,5 tiros al arco totales",
       "probability": 0.6404815755380876,
-      "status": "unverified",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+      "status": "won",
+      "hit": true,
+      "actual_metric": "sot",
+      "actual_home": 2,
+      "actual_away": 0
     },
     {
       "fixture_id": "564752",
@@ -802,8 +1406,11 @@
       "market": "Córners",
       "label": "Malaga: más de 2,5 córners",
       "probability": 0.7132154299829098,
-      "status": "unverified",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "corners",
+      "actual_home": 4,
+      "actual_away": 1
     },
     {
       "fixture_id": "564752",
@@ -812,8 +1419,11 @@
       "market": "Córners",
       "label": "Más de 6,5 córners",
       "probability": 0.8036491699397235,
-      "status": "unverified",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "corners",
+      "actual_home": 4,
+      "actual_away": 1
     },
     {
       "fixture_id": "564752",
@@ -822,8 +1432,11 @@
       "market": "Goles",
       "label": "Más de 1,5 goles",
       "probability": 0.7457776706096385,
-      "status": "unverified",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "goals",
+      "actual_home": 1,
+      "actual_away": 0
     },
     {
       "fixture_id": "564752",
@@ -832,8 +1445,11 @@
       "market": "Resultado y goles",
       "label": "Osasuna o empate y más de 1,5 goles",
       "probability": 0.6265413220581229,
-      "status": "unverified",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "goals",
+      "actual_home": 1,
+      "actual_away": 0
     },
     {
       "fixture_id": "564753",
@@ -842,8 +1458,11 @@
       "market": "Doble oportunidad",
       "label": "Ath Madrid o empate",
       "probability": 0.7713616741836813,
-      "status": "unverified",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 0,
+      "actual_away": 3
     },
     {
       "fixture_id": "564753",
@@ -852,8 +1471,11 @@
       "market": "Goles",
       "label": "Más de 1,5 goles",
       "probability": 0.6097036493326822,
-      "status": "unverified",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 0,
+      "actual_away": 3
     },
     {
       "fixture_id": "564753",
@@ -862,8 +1484,11 @@
       "market": "Córners",
       "label": "Más de 7,5 córners",
       "probability": 0.6475152467830217,
-      "status": "unverified",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+      "status": "won",
+      "hit": true,
+      "actual_metric": "corners",
+      "actual_home": 2,
+      "actual_away": 7
     },
     {
       "fixture_id": "564753",
@@ -872,8 +1497,11 @@
       "market": "Córners",
       "label": "Más de 6,5 córners",
       "probability": 0.7640491396861278,
-      "status": "unverified",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+      "status": "won",
+      "hit": true,
+      "actual_metric": "corners",
+      "actual_home": 2,
+      "actual_away": 7
     },
     {
       "fixture_id": "564753",
@@ -882,8 +1510,11 @@
       "market": "Resultado 1X2",
       "label": "Gana Ath Madrid",
       "probability": 0.4689305755736137,
-      "status": "unverified",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 0,
+      "actual_away": 3
     },
     {
       "fixture_id": "560646",
@@ -892,8 +1523,11 @@
       "market": "Doble oportunidad",
       "label": "Brighton o empate",
       "probability": 0.726227399447182,
-      "status": "unverified",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 0
     },
     {
       "fixture_id": "560646",
@@ -902,8 +1536,11 @@
       "market": "Goles",
       "label": "Más de 1,5 goles",
       "probability": 0.7212483682102903,
-      "status": "unverified",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 0
     },
     {
       "fixture_id": "560646",
@@ -912,8 +1549,11 @@
       "market": "Remates",
       "label": "Brighton: menos de 17,5 remates",
       "probability": 0.6496370248658099,
-      "status": "unverified",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+      "status": "won",
+      "hit": true,
+      "actual_metric": "shots",
+      "actual_home": 11,
+      "actual_away": 15
     },
     {
       "fixture_id": "560646",
@@ -922,8 +1562,11 @@
       "market": "Tiros al arco",
       "label": "Hull: más de 2,5 tiros al arco",
       "probability": 0.7312420062434756,
-      "status": "unverified",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+      "status": "won",
+      "hit": true,
+      "actual_metric": "sot",
+      "actual_home": 5,
+      "actual_away": 8
     },
     {
       "fixture_id": "560646",
@@ -932,8 +1575,11 @@
       "market": "Faltas",
       "label": "Hull: menos de 11,5 faltas",
       "probability": 0.6132532393399805,
-      "status": "unverified",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+      "status": "won",
+      "hit": true,
+      "actual_metric": "fouls",
+      "actual_home": 7,
+      "actual_away": 17
     },
     {
       "fixture_id": "560646",
@@ -942,8 +1588,11 @@
       "market": "Córners",
       "label": "Brighton: menos de 7,5 córners",
       "probability": 0.8652973388622258,
-      "status": "unverified",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+      "status": "won",
+      "hit": true,
+      "actual_metric": "corners",
+      "actual_home": 3,
+      "actual_away": 5
     },
     {
       "fixture_id": "560646",
@@ -952,8 +1601,11 @@
       "market": "Córners",
       "label": "Menos de 12,5 córners",
       "probability": 0.8271588664970286,
-      "status": "unverified",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+      "status": "won",
+      "hit": true,
+      "actual_metric": "corners",
+      "actual_home": 3,
+      "actual_away": 5
     },
     {
       "fixture_id": "560646",
@@ -962,8 +1614,11 @@
       "market": "Goles",
       "label": "Menos de 3,5 goles",
       "probability": 0.7531052320564634,
-      "status": "unverified",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 0
     },
     {
       "fixture_id": "560645",
@@ -972,8 +1627,11 @@
       "market": "Doble oportunidad",
       "label": "Liverpool o empate",
       "probability": 0.7533993460401007,
-      "status": "unverified",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 4,
+      "actual_away": 0
     },
     {
       "fixture_id": "560645",
@@ -982,8 +1640,11 @@
       "market": "Goles",
       "label": "Menos de 3,5 goles",
       "probability": 0.5673073752087407,
-      "status": "unverified",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "goals",
+      "actual_home": 4,
+      "actual_away": 0
     },
     {
       "fixture_id": "560645",
@@ -992,8 +1653,11 @@
       "market": "Remates",
       "label": "Liverpool: menos de 17,5 remates",
       "probability": 0.5493335091026194,
-      "status": "unverified",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "shots",
+      "actual_home": 28,
+      "actual_away": 10
     },
     {
       "fixture_id": "560645",
@@ -1002,8 +1666,11 @@
       "market": "Tiros al arco",
       "label": "Liverpool: menos de 6,5 tiros al arco",
       "probability": 0.6688960180157644,
-      "status": "unverified",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "sot",
+      "actual_home": 11,
+      "actual_away": 3
     },
     {
       "fixture_id": "560645",
@@ -1012,8 +1679,11 @@
       "market": "Córners",
       "label": "Liverpool: menos de 8,5 córners",
       "probability": 0.7845815793403104,
-      "status": "unverified",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "corners",
+      "actual_home": 15,
+      "actual_away": 5
     },
     {
       "fixture_id": "560645",
@@ -1022,8 +1692,11 @@
       "market": "Tiros al arco",
       "label": "Man United: más de 2,5 tiros al arco",
       "probability": 0.7189410204097073,
-      "status": "unverified",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+      "status": "won",
+      "hit": true,
+      "actual_metric": "sot",
+      "actual_home": 11,
+      "actual_away": 3
     },
     {
       "fixture_id": "565864",
@@ -1032,8 +1705,11 @@
       "market": "Doble oportunidad",
       "label": "Mainz o empate",
       "probability": 0.582222038949862,
-      "status": "unverified",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "goals",
+      "actual_home": 3,
+      "actual_away": 1
     },
     {
       "fixture_id": "565864",
@@ -1042,8 +1718,11 @@
       "market": "Goles",
       "label": "Más de 1,5 goles",
       "probability": 0.8250080446133211,
-      "status": "unverified",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 3,
+      "actual_away": 1
     },
     {
       "fixture_id": "565864",
@@ -1052,8 +1731,11 @@
       "market": "Resultado y goles",
       "label": "Mainz o empate y más de 1,5 goles",
       "probability": 0.4739759698910009,
-      "status": "unverified",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "goals",
+      "actual_home": 3,
+      "actual_away": 1
     },
     {
       "fixture_id": "565864",
@@ -1062,8 +1744,11 @@
       "market": "Remates",
       "label": "Augsburg: menos de 15,5 remates",
       "probability": 0.5929549455654852,
-      "status": "unverified",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "shots",
+      "actual_home": 22,
+      "actual_away": 7
     },
     {
       "fixture_id": "565864",
@@ -1072,8 +1757,11 @@
       "market": "Tiros al arco",
       "label": "Augsburg: menos de 6,5 tiros al arco",
       "probability": 0.7166524019880931,
-      "status": "unverified",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "sot",
+      "actual_home": 9,
+      "actual_away": 4
     },
     {
       "fixture_id": "565864",
@@ -1082,8 +1770,11 @@
       "market": "Córners",
       "label": "Augsburg: menos de 6,5 córners",
       "probability": 0.710063063079122,
-      "status": "unverified",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+      "status": "won",
+      "hit": true,
+      "actual_metric": "corners",
+      "actual_home": 6,
+      "actual_away": 0
     },
     {
       "fixture_id": "565863",
@@ -1092,8 +1783,11 @@
       "market": "Resultado 1X2",
       "label": "Gana Werder Bremen",
       "probability": 0.5074678592281353,
-      "status": "unverified",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 4,
+      "actual_away": 0
     },
     {
       "fixture_id": "565863",
@@ -1102,8 +1796,11 @@
       "market": "Doble oportunidad",
       "label": "Werder Bremen o empate",
       "probability": 0.7466244940953762,
-      "status": "unverified",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 4,
+      "actual_away": 0
     },
     {
       "fixture_id": "565863",
@@ -1112,8 +1809,11 @@
       "market": "Goles",
       "label": "Más de 1,5 goles",
       "probability": 0.8089410608357587,
-      "status": "unverified",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 4,
+      "actual_away": 0
     },
     {
       "fixture_id": "565863",
@@ -1122,8 +1822,11 @@
       "market": "Resultado y goles",
       "label": "Gana Werder Bremen y más de 1,5 goles",
       "probability": 0.4265380449575002,
-      "status": "unverified",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 4,
+      "actual_away": 0
     },
     {
       "fixture_id": "565863",
@@ -1132,8 +1835,11 @@
       "market": "Remates",
       "label": "Werder Bremen: menos de 19,5 remates",
       "probability": 0.6624417967837303,
-      "status": "unverified",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+      "status": "won",
+      "hit": true,
+      "actual_metric": "shots",
+      "actual_home": 18,
+      "actual_away": 17
     },
     {
       "fixture_id": "565863",
@@ -1142,8 +1848,11 @@
       "market": "Tiros al arco",
       "label": "Hamburg: más de 2,5 tiros al arco",
       "probability": 0.7463928830399851,
-      "status": "unverified",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "sot",
+      "actual_home": 7,
+      "actual_away": 2
     },
     {
       "fixture_id": "565863",
@@ -1152,8 +1861,11 @@
       "market": "Córners",
       "label": "Werder Bremen: menos de 8,5 córners",
       "probability": 0.8626861248187373,
-      "status": "unverified",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+      "status": "won",
+      "hit": true,
+      "actual_metric": "corners",
+      "actual_home": 1,
+      "actual_away": 8
     },
     {
       "fixture_id": "558521",
@@ -1266,8 +1978,11 @@
       "market": "Doble oportunidad",
       "label": "Bologna o empate",
       "probability": 0.7667597603113381,
-      "status": "unverified",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 1,
+      "actual_away": 1
     },
     {
       "fixture_id": "558522",
@@ -1276,8 +1991,11 @@
       "market": "Goles",
       "label": "Más de 1,5 goles",
       "probability": 0.7410240258832843,
-      "status": "unverified",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 1,
+      "actual_away": 1
     },
     {
       "fixture_id": "558522",
@@ -1286,8 +2004,11 @@
       "market": "Resultado y goles",
       "label": "Bologna o empate y más de 1,5 goles",
       "probability": 0.5784601185599295,
-      "status": "unverified",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 1,
+      "actual_away": 1
     },
     {
       "fixture_id": "558522",
@@ -1296,8 +2017,11 @@
       "market": "Remates",
       "label": "Udinese: más de 9,5 remates",
       "probability": 0.5134411348638063,
-      "status": "unverified",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+      "status": "won",
+      "hit": true,
+      "actual_metric": "shots",
+      "actual_home": 18,
+      "actual_away": 11
     },
     {
       "fixture_id": "558522",
@@ -1306,8 +2030,11 @@
       "market": "Tiros al arco",
       "label": "Bologna: menos de 5,5 tiros al arco",
       "probability": 0.6472441823241997,
-      "status": "unverified",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+      "status": "won",
+      "hit": true,
+      "actual_metric": "sot",
+      "actual_home": 4,
+      "actual_away": 3
     },
     {
       "fixture_id": "558522",
@@ -1316,8 +2043,11 @@
       "market": "Córners",
       "label": "Udinese: más de 2,5 córners",
       "probability": 0.7064090983576014,
-      "status": "unverified",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+      "status": "won",
+      "hit": true,
+      "actual_metric": "corners",
+      "actual_home": 8,
+      "actual_away": 4
     },
     {
       "fixture_id": "558522",
@@ -1326,8 +2056,11 @@
       "market": "Córners",
       "label": "Menos de 12,5 córners",
       "probability": 0.7251931403234662,
-      "status": "unverified",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+      "status": "won",
+      "hit": true,
+      "actual_metric": "corners",
+      "actual_home": 8,
+      "actual_away": 4
     },
     {
       "fixture_id": "558522",
@@ -1336,8 +2069,11 @@
       "market": "Tiros al arco",
       "label": "Bologna: menos de 6,5 tiros al arco",
       "probability": 0.7663687431655691,
-      "status": "unverified",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+      "status": "won",
+      "hit": true,
+      "actual_metric": "sot",
+      "actual_home": 4,
+      "actual_away": 3
     },
     {
       "fixture_id": "558524",
@@ -1346,8 +2082,11 @@
       "market": "Doble oportunidad",
       "label": "Sassuolo o empate",
       "probability": 0.649897730187492,
-      "status": "unverified",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "goals",
+      "actual_home": 0,
+      "actual_away": 2
     },
     {
       "fixture_id": "558524",
@@ -1356,8 +2095,11 @@
       "market": "Goles",
       "label": "Más de 1,5 goles",
       "probability": 0.7505410443469479,
-      "status": "unverified",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 0,
+      "actual_away": 2
     },
     {
       "fixture_id": "558524",
@@ -1366,8 +2108,11 @@
       "market": "Remates",
       "label": "Menos de 27,5 remates totales",
       "probability": 0.6008004736683596,
-      "status": "unverified",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "shots",
+      "actual_home": 25,
+      "actual_away": 11
     },
     {
       "fixture_id": "558524",
@@ -1376,8 +2121,11 @@
       "market": "Tiros al arco",
       "label": "Sassuolo: menos de 4,5 tiros al arco",
       "probability": 0.5370683320908701,
-      "status": "unverified",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "sot",
+      "actual_home": 7,
+      "actual_away": 5
     },
     {
       "fixture_id": "558524",
@@ -1386,8 +2134,11 @@
       "market": "Córners",
       "label": "Sassuolo: menos de 6,5 córners",
       "probability": 0.7153759748182407,
-      "status": "unverified",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+      "status": "won",
+      "hit": true,
+      "actual_metric": "corners",
+      "actual_home": 5,
+      "actual_away": 3
     },
     {
       "fixture_id": "558524",
@@ -1396,8 +2147,11 @@
       "market": "Córners",
       "label": "Genoa: menos de 6,5 córners",
       "probability": 0.7948331947151798,
-      "status": "unverified",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+      "status": "won",
+      "hit": true,
+      "actual_metric": "corners",
+      "actual_home": 5,
+      "actual_away": 3
     },
     {
       "fixture_id": "558523",
@@ -1406,8 +2160,11 @@
       "market": "Doble oportunidad",
       "label": "Milan o empate",
       "probability": 0.7228621711809569,
-      "status": "unverified",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 5,
+      "actual_away": 1
     },
     {
       "fixture_id": "558523",
@@ -1416,8 +2173,11 @@
       "market": "Goles",
       "label": "Más de 1,5 goles",
       "probability": 0.8619346507353106,
-      "status": "unverified",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 5,
+      "actual_away": 1
     },
     {
       "fixture_id": "558523",
@@ -1426,8 +2186,11 @@
       "market": "Resultado y goles",
       "label": "Milan o empate y más de 1,5 goles",
       "probability": 0.6287853028912965,
-      "status": "unverified",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 5,
+      "actual_away": 1
     },
     {
       "fixture_id": "558523",
@@ -1436,8 +2199,11 @@
       "market": "Remates",
       "label": "Milan: menos de 19,5 remates",
       "probability": 0.5972809741603095,
-      "status": "unverified",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+      "status": "won",
+      "hit": true,
+      "actual_metric": "shots",
+      "actual_home": 12,
+      "actual_away": 15
     },
     {
       "fixture_id": "558523",
@@ -1446,8 +2212,11 @@
       "market": "Tiros al arco",
       "label": "Milan: menos de 6,5 tiros al arco",
       "probability": 0.5886159832760143,
-      "status": "unverified",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "sot",
+      "actual_home": 8,
+      "actual_away": 3
     },
     {
       "fixture_id": "558523",
@@ -1456,8 +2225,11 @@
       "market": "Córners",
       "label": "Milan: menos de 8,5 córners",
       "probability": 0.8527751256395086,
-      "status": "unverified",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+      "status": "won",
+      "hit": true,
+      "actual_metric": "corners",
+      "actual_home": 2,
+      "actual_away": 9
     },
     {
       "fixture_id": "558523",
@@ -1466,8 +2238,11 @@
       "market": "Córners",
       "label": "Frosinone: menos de 5,5 córners",
       "probability": 0.5947947860215859,
-      "status": "unverified",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "corners",
+      "actual_home": 2,
+      "actual_away": 9
     },
     {
       "fixture_id": "558523",
@@ -1476,8 +2251,11 @@
       "market": "Tiros al arco",
       "label": "Menos de 11,5 tiros al arco totales",
       "probability": 0.5721623844680082,
-      "status": "unverified",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+      "status": "won",
+      "hit": true,
+      "actual_metric": "sot",
+      "actual_home": 8,
+      "actual_away": 3
     },
     {
       "fixture_id": "558520",
@@ -1486,8 +2264,11 @@
       "market": "Doble oportunidad",
       "label": "Inter o empate",
       "probability": 0.7419438155488323,
-      "status": "unverified",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 4,
+      "actual_away": 4
     },
     {
       "fixture_id": "558520",
@@ -1496,8 +2277,11 @@
       "market": "Goles",
       "label": "Más de 1,5 goles",
       "probability": 0.8240817366334099,
-      "status": "unverified",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 4,
+      "actual_away": 4
     },
     {
       "fixture_id": "558520",
@@ -1506,8 +2290,11 @@
       "market": "Córners",
       "label": "Inter: menos de 7,5 córners",
       "probability": 0.8124255342208261,
-      "status": "unverified",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+      "status": "won",
+      "hit": true,
+      "actual_metric": "corners",
+      "actual_home": 5,
+      "actual_away": 6
     },
     {
       "fixture_id": "558520",
@@ -1516,8 +2303,11 @@
       "market": "Córners",
       "label": "Inter: más de 3,5 córners",
       "probability": 0.6367520436171422,
-      "status": "unverified",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+      "status": "won",
+      "hit": true,
+      "actual_metric": "corners",
+      "actual_home": 5,
+      "actual_away": 6
     },
     {
       "fixture_id": "558520",
@@ -1526,8 +2316,11 @@
       "market": "Resultado 1X2",
       "label": "Gana Inter",
       "probability": 0.5071522226391451,
-      "status": "unverified",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "goals",
+      "actual_home": 4,
+      "actual_away": 4
     },
     {
       "fixture_id": "559625",
@@ -1536,8 +2329,11 @@
       "market": "Goles",
       "label": "Más de 1,5 goles",
       "probability": 0.7463252881995679,
-      "status": "unverified",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 4,
+      "actual_away": 0
     },
     {
       "fixture_id": "559625",
@@ -1546,8 +2342,11 @@
       "market": "Resultado y goles",
       "label": "Paris FC o empate y más de 1,5 goles",
       "probability": 0.6567573013958743,
-      "status": "unverified",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 4,
+      "actual_away": 0
     },
     {
       "fixture_id": "559625",
@@ -1556,8 +2355,11 @@
       "market": "Remates",
       "label": "Paris FC: más de 16,5 remates",
       "probability": 0.3807754218163014,
-      "status": "unverified",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+      "status": "won",
+      "hit": true,
+      "actual_metric": "shots",
+      "actual_home": 18,
+      "actual_away": 9
     },
     {
       "fixture_id": "559625",
@@ -1566,8 +2368,11 @@
       "market": "Tiros al arco",
       "label": "Paris FC: más de 5,5 tiros al arco",
       "probability": 0.5366510010026697,
-      "status": "unverified",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+      "status": "won",
+      "hit": true,
+      "actual_metric": "sot",
+      "actual_home": 9,
+      "actual_away": 1
     },
     {
       "fixture_id": "559625",
@@ -1576,8 +2381,11 @@
       "market": "Córners",
       "label": "Paris FC: menos de 7,5 córners",
       "probability": 0.835591750753292,
-      "status": "unverified",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "corners",
+      "actual_home": 10,
+      "actual_away": 2
     },
     {
       "fixture_id": "559625",
@@ -1586,8 +2394,11 @@
       "market": "Córners",
       "label": "Menos de 12,5 córners",
       "probability": 0.897870653681944,
-      "status": "unverified",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+      "status": "won",
+      "hit": true,
+      "actual_metric": "corners",
+      "actual_home": 10,
+      "actual_away": 2
     },
     {
       "fixture_id": "559625",
@@ -1596,8 +2407,11 @@
       "market": "Tiros al arco",
       "label": "Angers: más de 1,5 tiros al arco",
       "probability": 0.6883329300958836,
-      "status": "unverified",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "sot",
+      "actual_home": 9,
+      "actual_away": 1
     },
     {
       "fixture_id": "559625",
@@ -1606,8 +2420,11 @@
       "market": "Resultado y goles",
       "label": "Paris FC o empate y menos de 3,5 goles",
       "probability": 0.6104153835252053,
-      "status": "unverified",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "goals",
+      "actual_home": 4,
+      "actual_away": 0
     },
     {
       "fixture_id": "559626",
@@ -1616,8 +2433,11 @@
       "market": "Doble oportunidad",
       "label": "Lorient o empate",
       "probability": 0.6084131439021765,
-      "status": "unverified",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 1,
+      "actual_away": 1
     },
     {
       "fixture_id": "559626",
@@ -1626,8 +2446,11 @@
       "market": "Goles",
       "label": "Más de 1,5 goles",
       "probability": 0.8068456549428241,
-      "status": "unverified",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 1,
+      "actual_away": 1
     },
     {
       "fixture_id": "559626",
@@ -1636,8 +2459,11 @@
       "market": "Remates",
       "label": "Rennes: más de 11,5 remates",
       "probability": 0.6383976140255787,
-      "status": "unverified",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+      "status": "won",
+      "hit": true,
+      "actual_metric": "shots",
+      "actual_home": 12,
+      "actual_away": 13
     },
     {
       "fixture_id": "559626",
@@ -1646,8 +2472,11 @@
       "market": "Tiros al arco",
       "label": "Rennes: más de 3,5 tiros al arco",
       "probability": 0.7095868980523939,
-      "status": "unverified",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "sot",
+      "actual_home": 3,
+      "actual_away": 3
     },
     {
       "fixture_id": "559626",
@@ -1656,8 +2485,11 @@
       "market": "Córners",
       "label": "Más de 6,5 córners",
       "probability": 0.809446550277126,
-      "status": "unverified",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+      "status": "won",
+      "hit": true,
+      "actual_metric": "corners",
+      "actual_home": 7,
+      "actual_away": 5
     },
     {
       "fixture_id": "559626",
@@ -1666,8 +2498,11 @@
       "market": "Remates",
       "label": "Rennes: más de 12,5 remates",
       "probability": 0.5691561391726122,
-      "status": "unverified",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+      "status": "won",
+      "hit": true,
+      "actual_metric": "shots",
+      "actual_home": 12,
+      "actual_away": 13
     },
     {
       "fixture_id": "559629",
@@ -1676,8 +2511,11 @@
       "market": "Resultado 1X2",
       "label": "Gana Marseille",
       "probability": 0.668256647398033,
-      "status": "unverified",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 3
     },
     {
       "fixture_id": "559629",
@@ -1686,8 +2524,11 @@
       "market": "Doble oportunidad",
       "label": "Marseille o empate",
       "probability": 0.8519918357590904,
-      "status": "unverified",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 3
     },
     {
       "fixture_id": "559629",
@@ -1696,8 +2537,11 @@
       "market": "Goles",
       "label": "Más de 1,5 goles",
       "probability": 0.8684041706717317,
-      "status": "unverified",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 3
     },
     {
       "fixture_id": "559629",
@@ -1706,8 +2550,11 @@
       "market": "Córners",
       "label": "Marseille: menos de 8,5 córners",
       "probability": 0.8620207762845943,
-      "status": "unverified",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+      "status": "won",
+      "hit": true,
+      "actual_metric": "corners",
+      "actual_home": 2,
+      "actual_away": 5
     },
     {
       "fixture_id": "559629",
@@ -1716,56 +2563,59 @@
       "market": "Córners",
       "label": "Le Mans: menos de 4,5 córners",
       "probability": 0.7407520686285856,
-      "status": "unverified",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "corners",
+      "actual_home": 2,
+      "actual_away": 5
     }
   ],
   "tier_summary": {
     "selections": 48,
-    "settled": 6,
-    "won": 4,
-    "lost": 2,
-    "unverified": 42,
-    "hit_rate": 0.6666666666666666
+    "settled": 48,
+    "won": 30,
+    "lost": 18,
+    "unverified": 0,
+    "hit_rate": 0.625
   },
   "unique_summary": {
     "selections": 106,
-    "settled": 14,
-    "won": 8,
-    "lost": 6,
-    "unverified": 92,
-    "hit_rate": 0.5714285714285714
+    "settled": 106,
+    "won": 72,
+    "lost": 34,
+    "unverified": 0,
+    "hit_rate": 0.6792452830188679
   },
   "by_tier": {
     "Conservadora": {
       "selections": 16,
-      "settled": 2,
-      "won": 2,
-      "lost": 0,
-      "unverified": 14,
-      "hit_rate": 1.0
+      "settled": 16,
+      "won": 13,
+      "lost": 3,
+      "unverified": 0,
+      "hit_rate": 0.8125
     },
     "Normal": {
       "selections": 16,
-      "settled": 2,
-      "won": 1,
-      "lost": 1,
-      "unverified": 14,
-      "hit_rate": 0.5
+      "settled": 16,
+      "won": 9,
+      "lost": 7,
+      "unverified": 0,
+      "hit_rate": 0.5625
     },
     "Arriesgada": {
       "selections": 16,
-      "settled": 2,
-      "won": 1,
-      "lost": 1,
-      "unverified": 14,
+      "settled": 16,
+      "won": 8,
+      "lost": 8,
+      "unverified": 0,
       "hit_rate": 0.5
     }
   },
   "parlays": [
     {
       "size": 3,
-      "status": "unverified",
+      "status": "won",
       "probability_before_match": 0.6726489843211307,
       "legs": [
         {
@@ -1775,8 +2625,11 @@
           "market": "Córners",
           "label": "Werder Bremen: menos de 8,5 córners",
           "probability": 0.8626861248187373,
-          "status": "unverified",
-          "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+          "status": "won",
+          "hit": true,
+          "actual_metric": "corners",
+          "actual_home": 1,
+          "actual_away": 8
         },
         {
           "fixture_id": "559625",
@@ -1785,8 +2638,11 @@
           "market": "Córners",
           "label": "Menos de 12,5 córners",
           "probability": 0.897870653681944,
-          "status": "unverified",
-          "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+          "status": "won",
+          "hit": true,
+          "actual_metric": "corners",
+          "actual_home": 10,
+          "actual_away": 2
         },
         {
           "fixture_id": "559629",
@@ -1795,14 +2651,17 @@
           "market": "Goles",
           "label": "Más de 1,5 goles",
           "probability": 0.8684041706717317,
-          "status": "unverified",
-          "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+          "status": "won",
+          "hit": true,
+          "actual_metric": "goals",
+          "actual_home": 2,
+          "actual_away": 3
         }
       ]
     },
     {
       "size": 4,
-      "status": "unverified",
+      "status": "won",
       "probability_before_match": 0.5549408232659125,
       "legs": [
         {
@@ -1812,8 +2671,11 @@
           "market": "Goles",
           "label": "Más de 1,5 goles",
           "probability": 0.8250080446133211,
-          "status": "unverified",
-          "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+          "status": "won",
+          "hit": true,
+          "actual_metric": "goals",
+          "actual_home": 3,
+          "actual_away": 1
         },
         {
           "fixture_id": "565863",
@@ -1822,8 +2684,11 @@
           "market": "Córners",
           "label": "Werder Bremen: menos de 8,5 córners",
           "probability": 0.8626861248187373,
-          "status": "unverified",
-          "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+          "status": "won",
+          "hit": true,
+          "actual_metric": "corners",
+          "actual_home": 1,
+          "actual_away": 8
         },
         {
           "fixture_id": "559625",
@@ -1832,8 +2697,11 @@
           "market": "Córners",
           "label": "Menos de 12,5 córners",
           "probability": 0.897870653681944,
-          "status": "unverified",
-          "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+          "status": "won",
+          "hit": true,
+          "actual_metric": "corners",
+          "actual_home": 10,
+          "actual_away": 2
         },
         {
           "fixture_id": "559629",
@@ -1842,35 +2710,40 @@
           "market": "Goles",
           "label": "Más de 1,5 goles",
           "probability": 0.8684041706717317,
-          "status": "unverified",
-          "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
+          "status": "won",
+          "hit": true,
+          "actual_metric": "goals",
+          "actual_home": 2,
+          "actual_away": 3
         }
       ]
     }
   ],
   "analysis": [
-    "Fijas principales: 4/6. Mercados únicos: 8/14. Se conservan las probabilidades previas y se registran los resultados, sin reajustar el modelo con esta jornada.",
-    "Conservadora: 2/2 acertadas.",
-    "Normal: 1/2 acertadas.",
-    "Arriesgada: 1/2 acertadas.",
+    "Fijas principales: 30/48. Mercados únicos: 72/106. Se conservan las probabilidades previas y se registran los resultados, sin reajustar el modelo con esta jornada.",
+    "Conservadora: 13/16 acertadas.",
+    "Normal: 9/16 acertadas.",
+    "Arriesgada: 8/16 acertadas.",
     "Falló Villarreal: menos de 11,5 faltas en Barcelona – Villarreal: resultado final 11–19 (fouls).",
+    "Falló Más de 6,5 córners en Osasuna – Malaga: resultado final 4–1 (corners).",
+    "Falló Más de 1,5 goles en Osasuna – Malaga: resultado final 1–0 (goals).",
+    "Falló Osasuna o empate y más de 1,5 goles en Osasuna – Malaga: resultado final 1–0 (goals).",
+    "Falló Brighton o empate en Hull – Brighton: resultado final 2–0 (goals).",
+    "Falló Liverpool: menos de 8,5 córners en Liverpool – Man United: resultado final 15–5 (corners).",
+    "Falló Menos de 3,5 goles en Liverpool – Man United: resultado final 4–0 (goals).",
+    "Falló Augsburg: menos de 6,5 tiros al arco en Augsburg – Mainz: resultado final 9–4 (sot).",
+    "Falló Mainz o empate en Augsburg – Mainz: resultado final 3–1 (goals).",
+    "Falló Hamburg: más de 2,5 tiros al arco en Werder Bremen – Hamburg: resultado final 7–2 (sot).",
     "Falló Venezia: más de 1,5 tiros al arco en Juventus – Venezia: resultado final 8–1 (sot).",
+    "Falló Sassuolo o empate en Sassuolo – Genoa: resultado final 0–2 (goals).",
+    "Falló Frosinone: menos de 5,5 córners en Milan – Frosinone: resultado final 2–9 (corners).",
+    "Falló Gana Inter en Atalanta – Inter: resultado final 4–4 (goals).",
+    "Falló Angers: más de 1,5 tiros al arco en Paris FC – Angers: resultado final 9–1 (sot).",
+    "Falló Paris FC o empate y menos de 3,5 goles en Paris FC – Angers: resultado final 4–0 (goals).",
+    "Falló Le Mans: menos de 4,5 córners en Marseille – Le Mans: resultado final 2–5 (corners).",
+    "Falló Gana Marseille en Marseille – Le Mans: resultado final 2–3 (goals).",
     "0 partidos no tenían fijas principales publicadas; no se cuentan como fallos ni aciertos.",
-    "Pendiente: Santander – Sociedad. Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador. No se cuenta como acierto ni fallo.",
-    "Pendiente: Osasuna – Malaga. Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador. No se cuenta como acierto ni fallo.",
-    "Pendiente: Getafe – Ath Madrid. Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador. No se cuenta como acierto ni fallo.",
-    "Pendiente: Hull – Brighton. Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador. No se cuenta como acierto ni fallo.",
-    "Pendiente: Liverpool – Man United. Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador. No se cuenta como acierto ni fallo.",
-    "Pendiente: Augsburg – Mainz. Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador. No se cuenta como acierto ni fallo.",
-    "Pendiente: Werder Bremen – Hamburg. Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador. No se cuenta como acierto ni fallo.",
-    "Pendiente: Bologna – Udinese. Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador. No se cuenta como acierto ni fallo.",
-    "Pendiente: Sassuolo – Genoa. Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador. No se cuenta como acierto ni fallo.",
-    "Pendiente: Milan – Frosinone. Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador. No se cuenta como acierto ni fallo.",
-    "Pendiente: Atalanta – Inter. Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador. No se cuenta como acierto ni fallo.",
-    "Pendiente: Paris FC – Angers. Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador. No se cuenta como acierto ni fallo.",
-    "Pendiente: Lorient – Rennes. Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador. No se cuenta como acierto ni fallo.",
-    "Pendiente: Marseille – Le Mans. Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador. No se cuenta como acierto ni fallo.",
-    "Combinada de 3: 0/3 selecciones cumplidas.",
-    "Combinada de 4: 0/4 selecciones cumplidas."
+    "Combinada de 3: 3/3 selecciones cumplidas.",
+    "Combinada de 4: 4/4 selecciones cumplidas."
   ]
 }

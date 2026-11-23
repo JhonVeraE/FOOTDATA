@@ -1,0 +1,612 @@
+{
+  "date": "2026-11-23",
+  "reviewed_at": "2026-11-23T23:11:25.549839+00:00",
+  "frozen_shortlist_sha256": "e33588c43e97db981ca03871edca7857aeb658d5e1d287dc6e5921efb50516cb",
+  "matches": [
+    {
+      "fixture_id": "564757",
+      "home": "Levante",
+      "away": "Elche",
+      "metrics": {
+        "goals": [
+          1,
+          1
+        ],
+        "shots": [
+          18,
+          4
+        ],
+        "sot": [
+          2,
+          2
+        ],
+        "fouls": [
+          14,
+          12
+        ],
+        "corners": [
+          5,
+          1
+        ],
+        "cards": [
+          4,
+          1
+        ]
+      },
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401882802/elche-levante"
+    },
+    {
+      "fixture_id": "560649",
+      "home": "Brentford",
+      "away": "Everton",
+      "metrics": {
+        "goals": [
+          4,
+          0
+        ],
+        "shots": [
+          21,
+          4
+        ],
+        "sot": [
+          7,
+          2
+        ],
+        "fouls": [
+          8,
+          9
+        ],
+        "corners": [
+          6,
+          3
+        ],
+        "cards": [
+          0,
+          2
+        ]
+      },
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401879237/everton-brentford"
+    },
+    {
+      "fixture_id": "558519",
+      "home": "Monza",
+      "away": "Fiorentina",
+      "metrics": {
+        "goals": [
+          3,
+          0
+        ],
+        "shots": [
+          13,
+          17
+        ],
+        "sot": [
+          5,
+          8
+        ],
+        "fouls": [
+          8,
+          13
+        ],
+        "corners": [
+          3,
+          7
+        ],
+        "cards": [
+          0,
+          1
+        ]
+      },
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401875009/fiorentina-monza"
+    }
+  ],
+  "tiers": [
+    {
+      "fixture_id": "564757",
+      "selection_id": "corners:total:under:12.5:",
+      "match": "Levante – Elche",
+      "market": "Córners",
+      "label": "Menos de 12,5 córners",
+      "probability": 0.8261796391816543,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "corners",
+      "actual_home": 5,
+      "actual_away": 1,
+      "tier": "Conservadora"
+    },
+    {
+      "fixture_id": "564757",
+      "selection_id": "double_chance:total:1X:None:",
+      "match": "Levante – Elche",
+      "market": "Doble oportunidad",
+      "label": "Levante o empate",
+      "probability": 0.7110293500795798,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 1,
+      "actual_away": 1,
+      "tier": "Normal"
+    },
+    {
+      "fixture_id": "564757",
+      "selection_id": "fouls:away:under:13.5:",
+      "match": "Levante – Elche",
+      "market": "Faltas",
+      "label": "Elche: menos de 13,5 faltas",
+      "probability": 0.599741256383989,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "fouls",
+      "actual_home": 14,
+      "actual_away": 12,
+      "tier": "Arriesgada"
+    },
+    {
+      "fixture_id": "560649",
+      "selection_id": "corners:home:under:8.5:",
+      "match": "Brentford – Everton",
+      "market": "Córners",
+      "label": "Brentford: menos de 8,5 córners",
+      "probability": 0.8700840111775316,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "corners",
+      "actual_home": 6,
+      "actual_away": 3,
+      "tier": "Conservadora"
+    },
+    {
+      "fixture_id": "560649",
+      "selection_id": "goals:total:over:1.5:",
+      "match": "Brentford – Everton",
+      "market": "Goles",
+      "label": "Más de 1,5 goles",
+      "probability": 0.7403281295015719,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 4,
+      "actual_away": 0,
+      "tier": "Normal"
+    },
+    {
+      "fixture_id": "560649",
+      "selection_id": "shots:away:over:11.5:",
+      "match": "Brentford – Everton",
+      "market": "Remates",
+      "label": "Everton: más de 11,5 remates",
+      "probability": 0.582878677143839,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "shots",
+      "actual_home": 21,
+      "actual_away": 4,
+      "tier": "Arriesgada"
+    },
+    {
+      "fixture_id": "558519",
+      "selection_id": "corners:total:under:12.5:",
+      "match": "Monza – Fiorentina",
+      "market": "Córners",
+      "label": "Menos de 12,5 córners",
+      "probability": 0.8898982862893734,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "corners",
+      "actual_home": 3,
+      "actual_away": 7,
+      "tier": "Conservadora"
+    },
+    {
+      "fixture_id": "558519",
+      "selection_id": "double_chance:total:X2:None:",
+      "match": "Monza – Fiorentina",
+      "market": "Doble oportunidad",
+      "label": "Fiorentina o empate",
+      "probability": 0.7086769577971271,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "goals",
+      "actual_home": 3,
+      "actual_away": 0,
+      "tier": "Normal"
+    },
+    {
+      "fixture_id": "558519",
+      "selection_id": "fouls:home:under:12.5:",
+      "match": "Monza – Fiorentina",
+      "market": "Faltas",
+      "label": "Monza: menos de 12,5 faltas",
+      "probability": 0.5055716297715289,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "fouls",
+      "actual_home": 8,
+      "actual_away": 13,
+      "tier": "Arriesgada"
+    }
+  ],
+  "unique_selections": [
+    {
+      "fixture_id": "564757",
+      "selection_id": "double_chance:total:X2:None:",
+      "match": "Levante – Elche",
+      "market": "Doble oportunidad",
+      "label": "Elche o empate",
+      "probability": 0.5370937232762643,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 1,
+      "actual_away": 1
+    },
+    {
+      "fixture_id": "564757",
+      "selection_id": "goals:total:over:1.5:",
+      "match": "Levante – Elche",
+      "market": "Goles",
+      "label": "Más de 1,5 goles",
+      "probability": 0.7974703952495011,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 1,
+      "actual_away": 1
+    },
+    {
+      "fixture_id": "564757",
+      "selection_id": "shots:total:over:26.5:",
+      "match": "Levante – Elche",
+      "market": "Remates",
+      "label": "Más de 26,5 remates totales",
+      "probability": 0.5876958207715235,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "shots",
+      "actual_home": 18,
+      "actual_away": 4
+    },
+    {
+      "fixture_id": "564757",
+      "selection_id": "sot:total:over:7.5:",
+      "match": "Levante – Elche",
+      "market": "Tiros al arco",
+      "label": "Más de 7,5 tiros al arco totales",
+      "probability": 0.7152612924559418,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "sot",
+      "actual_home": 2,
+      "actual_away": 2
+    },
+    {
+      "fixture_id": "564757",
+      "selection_id": "fouls:away:under:13.5:",
+      "match": "Levante – Elche",
+      "market": "Faltas",
+      "label": "Elche: menos de 13,5 faltas",
+      "probability": 0.599741256383989,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "fouls",
+      "actual_home": 14,
+      "actual_away": 12
+    },
+    {
+      "fixture_id": "564757",
+      "selection_id": "corners:home:under:7.5:",
+      "match": "Levante – Elche",
+      "market": "Córners",
+      "label": "Levante: menos de 7,5 córners",
+      "probability": 0.7786776788407205,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "corners",
+      "actual_home": 5,
+      "actual_away": 1
+    },
+    {
+      "fixture_id": "564757",
+      "selection_id": "corners:total:under:12.5:",
+      "match": "Levante – Elche",
+      "market": "Córners",
+      "label": "Menos de 12,5 córners",
+      "probability": 0.8261796391816543,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "corners",
+      "actual_home": 5,
+      "actual_away": 1
+    },
+    {
+      "fixture_id": "564757",
+      "selection_id": "double_chance:total:1X:None:",
+      "match": "Levante – Elche",
+      "market": "Doble oportunidad",
+      "label": "Levante o empate",
+      "probability": 0.7110293500795798,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 1,
+      "actual_away": 1
+    },
+    {
+      "fixture_id": "560649",
+      "selection_id": "double_chance:total:1X:None:",
+      "match": "Brentford – Everton",
+      "market": "Doble oportunidad",
+      "label": "Brentford o empate",
+      "probability": 0.7179026894379894,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 4,
+      "actual_away": 0
+    },
+    {
+      "fixture_id": "560649",
+      "selection_id": "goals:total:under:3.5:",
+      "match": "Brentford – Everton",
+      "market": "Goles",
+      "label": "Menos de 3,5 goles",
+      "probability": 0.7315893975891669,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "goals",
+      "actual_home": 4,
+      "actual_away": 0
+    },
+    {
+      "fixture_id": "560649",
+      "selection_id": "shots:away:over:11.5:",
+      "match": "Brentford – Everton",
+      "market": "Remates",
+      "label": "Everton: más de 11,5 remates",
+      "probability": 0.582878677143839,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "shots",
+      "actual_home": 21,
+      "actual_away": 4
+    },
+    {
+      "fixture_id": "560649",
+      "selection_id": "sot:home:under:5.5:",
+      "match": "Brentford – Everton",
+      "market": "Tiros al arco",
+      "label": "Brentford: menos de 5,5 tiros al arco",
+      "probability": 0.6992520479771269,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "sot",
+      "actual_home": 7,
+      "actual_away": 2
+    },
+    {
+      "fixture_id": "560649",
+      "selection_id": "corners:away:over:2.5:",
+      "match": "Brentford – Everton",
+      "market": "Córners",
+      "label": "Everton: más de 2,5 córners",
+      "probability": 0.768066646502335,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "corners",
+      "actual_home": 6,
+      "actual_away": 3
+    },
+    {
+      "fixture_id": "560649",
+      "selection_id": "corners:home:under:8.5:",
+      "match": "Brentford – Everton",
+      "market": "Córners",
+      "label": "Brentford: menos de 8,5 córners",
+      "probability": 0.8700840111775316,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "corners",
+      "actual_home": 6,
+      "actual_away": 3
+    },
+    {
+      "fixture_id": "560649",
+      "selection_id": "goals:total:over:1.5:",
+      "match": "Brentford – Everton",
+      "market": "Goles",
+      "label": "Más de 1,5 goles",
+      "probability": 0.7403281295015719,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 4,
+      "actual_away": 0
+    },
+    {
+      "fixture_id": "558519",
+      "selection_id": "goals:total:over:2.5:",
+      "match": "Monza – Fiorentina",
+      "market": "Goles",
+      "label": "Más de 2,5 goles",
+      "probability": 0.5870242456109479,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 3,
+      "actual_away": 0
+    },
+    {
+      "fixture_id": "558519",
+      "selection_id": "shots:away:under:16.5:",
+      "match": "Monza – Fiorentina",
+      "market": "Remates",
+      "label": "Fiorentina: menos de 16,5 remates",
+      "probability": 0.6896958270960831,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "shots",
+      "actual_home": 13,
+      "actual_away": 17
+    },
+    {
+      "fixture_id": "558519",
+      "selection_id": "sot:home:over:3.5:",
+      "match": "Monza – Fiorentina",
+      "market": "Tiros al arco",
+      "label": "Monza: más de 3,5 tiros al arco",
+      "probability": 0.6401508369980455,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "sot",
+      "actual_home": 5,
+      "actual_away": 8
+    },
+    {
+      "fixture_id": "558519",
+      "selection_id": "corners:total:under:12.5:",
+      "match": "Monza – Fiorentina",
+      "market": "Córners",
+      "label": "Menos de 12,5 córners",
+      "probability": 0.8898982862893734,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "corners",
+      "actual_home": 3,
+      "actual_away": 7
+    },
+    {
+      "fixture_id": "558519",
+      "selection_id": "double_chance:total:X2:None:",
+      "match": "Monza – Fiorentina",
+      "market": "Doble oportunidad",
+      "label": "Fiorentina o empate",
+      "probability": 0.7086769577971271,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "goals",
+      "actual_home": 3,
+      "actual_away": 0
+    },
+    {
+      "fixture_id": "558519",
+      "selection_id": "fouls:home:under:12.5:",
+      "match": "Monza – Fiorentina",
+      "market": "Faltas",
+      "label": "Monza: menos de 12,5 faltas",
+      "probability": 0.5055716297715289,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "fouls",
+      "actual_home": 8,
+      "actual_away": 13
+    }
+  ],
+  "tier_summary": {
+    "selections": 9,
+    "settled": 9,
+    "won": 7,
+    "lost": 2,
+    "unverified": 0,
+    "hit_rate": 0.7777777777777778
+  },
+  "unique_summary": {
+    "selections": 21,
+    "settled": 21,
+    "won": 14,
+    "lost": 7,
+    "unverified": 0,
+    "hit_rate": 0.6666666666666666
+  },
+  "by_tier": {
+    "Conservadora": {
+      "selections": 3,
+      "settled": 3,
+      "won": 3,
+      "lost": 0,
+      "unverified": 0,
+      "hit_rate": 1.0
+    },
+    "Normal": {
+      "selections": 3,
+      "settled": 3,
+      "won": 2,
+      "lost": 1,
+      "unverified": 0,
+      "hit_rate": 0.6666666666666666
+    },
+    "Arriesgada": {
+      "selections": 3,
+      "settled": 3,
+      "won": 2,
+      "lost": 1,
+      "unverified": 0,
+      "hit_rate": 0.6666666666666666
+    }
+  },
+  "parlays": [
+    {
+      "size": 3,
+      "status": "won",
+      "probability_before_match": 0.6396995515640712,
+      "legs": [
+        {
+          "fixture_id": "564757",
+          "selection_id": "corners:total:under:12.5:",
+          "match": "Levante – Elche",
+          "market": "Córners",
+          "label": "Menos de 12,5 córners",
+          "probability": 0.8261796391816543,
+          "status": "won",
+          "hit": true,
+          "actual_metric": "corners",
+          "actual_home": 5,
+          "actual_away": 1
+        },
+        {
+          "fixture_id": "560649",
+          "selection_id": "corners:home:under:8.5:",
+          "match": "Brentford – Everton",
+          "market": "Córners",
+          "label": "Brentford: menos de 8,5 córners",
+          "probability": 0.8700840111775316,
+          "status": "won",
+          "hit": true,
+          "actual_metric": "corners",
+          "actual_home": 6,
+          "actual_away": 3
+        },
+        {
+          "fixture_id": "558519",
+          "selection_id": "corners:total:under:12.5:",
+          "match": "Monza – Fiorentina",
+          "market": "Córners",
+          "label": "Menos de 12,5 córners",
+          "probability": 0.8898982862893734,
+          "status": "won",
+          "hit": true,
+          "actual_metric": "corners",
+          "actual_home": 3,
+          "actual_away": 7
+        }
+      ]
+    },
+    {
+      "size": 4,
+      "status": "unavailable",
+      "probability_before_match": null,
+      "legs": []
+    }
+  ],
+  "analysis": [
+    "Fijas principales: 7/9. Mercados únicos: 14/21. Se conservan las probabilidades previas y se registran los resultados, sin reajustar el modelo con esta jornada.",
+    "Conservadora: 3/3 acertadas.",
+    "Normal: 2/3 acertadas.",
+    "Arriesgada: 2/3 acertadas.",
+    "Falló Everton: más de 11,5 remates en Brentford – Everton: resultado final 21–4 (shots).",
+    "Falló Fiorentina o empate en Monza – Fiorentina: resultado final 3–0 (goals).",
+    "0 partidos no tenían fijas principales publicadas; no se cuentan como fallos ni aciertos.",
+    "Combinada de 3: 3/3 selecciones cumplidas."
+  ]
+}
