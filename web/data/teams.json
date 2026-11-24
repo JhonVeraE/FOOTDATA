@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "season": "2026/27",
-  "generated_at": "2026-11-23T23:12:13.987251+00:00",
+  "generated_at": "2026-11-24T00:19:26.021713+00:00",
   "dataset_id": "c66a2913ff11803ef4b1b4684e0ee8429f4df25f6b2b6523a67388d09b58f741",
   "competitions": {
     "La Liga": {
@@ -11691,7 +11691,7 @@
       "statistics_matches": 129,
       "standings": {
         "season": "2026/27",
-        "updated_at": "2026-11-23T23:11:38.791433+00:00",
+        "updated_at": "2026-11-24T00:19:09.090865+00:00",
         "source": "football-data.org",
         "source_url": "https://api.football-data.org/v4/competitions/PD/standings",
         "tables": {
@@ -24780,7 +24780,7 @@
       "statistics_matches": 110,
       "standings": {
         "season": "2026/27",
-        "updated_at": "2026-11-23T23:11:40.562495+00:00",
+        "updated_at": "2026-11-24T00:19:10.329728+00:00",
         "source": "football-data.org",
         "source_url": "https://api.football-data.org/v4/competitions/PL/standings",
         "tables": {
@@ -36095,7 +36095,7 @@
       "statistics_matches": 90,
       "standings": {
         "season": "2026/27",
-        "updated_at": "2026-11-23T23:11:42.424554+00:00",
+        "updated_at": "2026-11-24T00:19:11.552254+00:00",
         "source": "football-data.org",
         "source_url": "https://api.football-data.org/v4/competitions/BL1/standings",
         "tables": {
@@ -49080,7 +49080,7 @@
       "statistics_matches": 120,
       "standings": {
         "season": "2026/27",
-        "updated_at": "2026-11-23T23:11:44.323389+00:00",
+        "updated_at": "2026-11-24T00:19:12.815040+00:00",
         "source": "football-data.org",
         "source_url": "https://api.football-data.org/v4/competitions/SA/standings",
         "tables": {
@@ -60431,7 +60431,7 @@
       "statistics_matches": 99,
       "standings": {
         "season": "2026/27",
-        "updated_at": "2026-11-23T23:11:46.223322+00:00",
+        "updated_at": "2026-11-24T00:19:14.119508+00:00",
         "source": "football-data.org",
         "source_url": "https://api.football-data.org/v4/competitions/FL1/standings",
         "tables": {
@@ -73528,7 +73528,7 @@
       "statistics_matches": 72,
       "standings": {
         "season": "2026/27",
-        "updated_at": "2026-11-23T23:11:48.435535+00:00",
+        "updated_at": "2026-11-24T00:19:15.451450+00:00",
         "source": "football-data.org",
         "source_url": "https://api.football-data.org/v4/competitions/CL/standings",
         "tables": {

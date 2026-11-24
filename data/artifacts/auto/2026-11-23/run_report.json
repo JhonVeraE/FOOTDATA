@@ -1,5 +1,5 @@
 {
-  "run_at": "2026-11-23T23:09:52.277527+00:00",
+  "run_at": "2026-11-24T00:18:16.348908+00:00",
   "dates": [
     "2026-11-20",
     "2026-11-21",
@@ -13,31 +13,13 @@
     "2026-11-20": "already_frozen",
     "2026-11-21": "already_frozen",
     "2026-11-22": "already_frozen",
-    "2026-11-23": "frozen_from:20261122T201358519236Z.json"
+    "2026-11-23": "already_frozen"
   },
   "healthy": true,
   "events": 48,
   "finals": 48,
-  "added_matches": [
-    "Bundesliga_2026/27_espn_401884730",
-    "Bundesliga_2026/27_espn_401884733",
-    "La Liga_2026/27_espn_401882800",
-    "La Liga_2026/27_espn_401882801",
-    "La Liga_2026/27_espn_401882803",
-    "Ligue 1_2026/27_espn_401876397",
-    "Ligue 1_2026/27_espn_401876400",
-    "Ligue 1_2026/27_espn_401876401",
-    "Premier League_2026/27_espn_401878755",
-    "Premier League_2026/27_espn_401879234",
-    "Serie A_2026/27_espn_401874960",
-    "Serie A_2026/27_espn_401874989",
-    "Serie A_2026/27_espn_401875001",
-    "Serie A_2026/27_espn_401875047",
-    "La Liga_2026/27_espn_401882802",
-    "Premier League_2026/27_espn_401879237",
-    "Serie A_2026/27_espn_401875009"
-  ],
-  "added_rows": 34,
+  "added_matches": [],
+  "added_rows": 0,
   "already_present": [
     {
       "match_id": "Bundesliga_2026/27_espn_401884736",
@@ -156,8 +138,76 @@
       "fixture_id": "558527"
     },
     {
+      "match_id": "Bundesliga_2026/27_espn_401884730",
+      "fixture_id": "565863"
+    },
+    {
+      "match_id": "Bundesliga_2026/27_espn_401884733",
+      "fixture_id": "565864"
+    },
+    {
+      "match_id": "La Liga_2026/27_espn_401882800",
+      "fixture_id": "564750"
+    },
+    {
+      "match_id": "La Liga_2026/27_espn_401882801",
+      "fixture_id": "564752"
+    },
+    {
+      "match_id": "La Liga_2026/27_espn_401882803",
+      "fixture_id": "564753"
+    },
+    {
+      "match_id": "Ligue 1_2026/27_espn_401876397",
+      "fixture_id": "559625"
+    },
+    {
+      "match_id": "Ligue 1_2026/27_espn_401876400",
+      "fixture_id": "559629"
+    },
+    {
+      "match_id": "Ligue 1_2026/27_espn_401876401",
+      "fixture_id": "559626"
+    },
+    {
+      "match_id": "Premier League_2026/27_espn_401878755",
+      "fixture_id": "560645"
+    },
+    {
+      "match_id": "Premier League_2026/27_espn_401879234",
+      "fixture_id": "560646"
+    },
+    {
+      "match_id": "Serie A_2026/27_espn_401874960",
+      "fixture_id": "558524"
+    },
+    {
+      "match_id": "Serie A_2026/27_espn_401874989",
+      "fixture_id": "558523"
+    },
+    {
+      "match_id": "Serie A_2026/27_espn_401875001",
+      "fixture_id": "558520"
+    },
+    {
       "match_id": "Serie A_2026/27_espn_401875008",
       "fixture_id": "558521"
+    },
+    {
+      "match_id": "Serie A_2026/27_espn_401875047",
+      "fixture_id": "558522"
+    },
+    {
+      "match_id": "La Liga_2026/27_espn_401882802",
+      "fixture_id": "564757"
+    },
+    {
+      "match_id": "Premier League_2026/27_espn_401879237",
+      "fixture_id": "560649"
+    },
+    {
+      "match_id": "Serie A_2026/27_espn_401875009",
+      "fixture_id": "558519"
     }
   ],
   "source_differences": [
@@ -192,46 +242,10 @@
       "ingestion": "sin cambios"
     },
     "2026-11-22": {
-      "ingestion": "actualizado",
-      "review": {
-        "tier_summary": {
-          "selections": 48,
-          "settled": 48,
-          "won": 30,
-          "lost": 18,
-          "unverified": 0,
-          "hit_rate": 0.625
-        },
-        "unique_summary": {
-          "selections": 106,
-          "settled": 106,
-          "won": 72,
-          "lost": 34,
-          "unverified": 0,
-          "hit_rate": 0.6792452830188679
-        }
-      }
+      "ingestion": "sin cambios"
     },
     "2026-11-23": {
-      "ingestion": "actualizado",
-      "review": {
-        "tier_summary": {
-          "selections": 9,
-          "settled": 9,
-          "won": 7,
-          "lost": 2,
-          "unverified": 0,
-          "hit_rate": 0.7777777777777778
-        },
-        "unique_summary": {
-          "selections": 21,
-          "settled": 21,
-          "won": 14,
-          "lost": 7,
-          "unverified": 0,
-          "hit_rate": 0.6666666666666666
-        }
-      }
+      "ingestion": "sin cambios"
     }
   },
   "prospective": {
