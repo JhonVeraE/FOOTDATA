@@ -1,0 +1,560 @@
+{
+  "date": "2026-11-24",
+  "ingested_at": "2026-11-25T00:41:25.167782+00:00",
+  "provider": "ESPN final boxscores (automatic daily update); scores cross-checked with football-data.org when reachable",
+  "matches": [
+    {
+      "espn_event_id": "401915300",
+      "kickoff_utc": "2026-11-24T17:45Z",
+      "home": "Galatasaray",
+      "away": "Aston Villa",
+      "metrics": {
+        "goals": [
+          1,
+          0
+        ],
+        "shots": [
+          9,
+          4
+        ],
+        "sot": [
+          2,
+          0
+        ],
+        "fouls": [
+          13,
+          12
+        ],
+        "corners": [
+          5,
+          1
+        ],
+        "cards": [
+          2,
+          4
+        ]
+      },
+      "yellow": [
+        2,
+        4
+      ],
+      "red": [
+        0,
+        0
+      ],
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401915300/aston-villa-galatasaray",
+      "match_id": "UEFA Champions League_2026/27_espn_401915300",
+      "fixture_id": "575395",
+      "date": "2026-11-24",
+      "league": "UEFA Champions League",
+      "round": 5,
+      "provider": "ESPN",
+      "score_verification": {
+        "fixture_id": "575395",
+        "date": "2026-11-24",
+        "home": "Galatasaray",
+        "away": "Aston Villa",
+        "goals": [
+          1,
+          0
+        ],
+        "status": "verified",
+        "source": "football-data.org",
+        "source_url": "https://api.football-data.org/v4/matches/575395"
+      }
+    },
+    {
+      "espn_event_id": "401915380",
+      "kickoff_utc": "2026-11-24T17:45Z",
+      "home": "Bodo/Glimt",
+      "away": "LASK",
+      "metrics": {
+        "goals": [
+          1,
+          0
+        ],
+        "shots": [
+          9,
+          5
+        ],
+        "sot": [
+          2,
+          0
+        ],
+        "fouls": [
+          5,
+          14
+        ],
+        "corners": [
+          4,
+          0
+        ],
+        "cards": [
+          1,
+          1
+        ]
+      },
+      "yellow": [
+        1,
+        1
+      ],
+      "red": [
+        0,
+        0
+      ],
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401915380/lask-linz-bodoglimt",
+      "match_id": "UEFA Champions League_2026/27_espn_401915380",
+      "fixture_id": "575396",
+      "date": "2026-11-24",
+      "league": "UEFA Champions League",
+      "round": 5,
+      "provider": "ESPN",
+      "score_verification": {
+        "fixture_id": "575396",
+        "date": "2026-11-24",
+        "home": "Bodo/Glimt",
+        "away": "LASK",
+        "goals": [
+          1,
+          0
+        ],
+        "status": "verified",
+        "source": "football-data.org",
+        "source_url": "https://api.football-data.org/v4/matches/575396"
+      }
+    },
+    {
+      "espn_event_id": "401915299",
+      "kickoff_utc": "2026-11-24T20:00Z",
+      "home": "RB Leipzig",
+      "away": "Lens",
+      "metrics": {
+        "goals": [
+          3,
+          1
+        ],
+        "shots": [
+          16,
+          11
+        ],
+        "sot": [
+          7,
+          3
+        ],
+        "fouls": [
+          12,
+          13
+        ],
+        "corners": [
+          10,
+          4
+        ],
+        "cards": [
+          2,
+          4
+        ]
+      },
+      "yellow": [
+        2,
+        4
+      ],
+      "red": [
+        0,
+        0
+      ],
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401915299/lens-rb-leipzig",
+      "match_id": "UEFA Champions League_2026/27_espn_401915299",
+      "fixture_id": "575402",
+      "date": "2026-11-24",
+      "league": "UEFA Champions League",
+      "round": 5,
+      "provider": "ESPN",
+      "score_verification": {
+        "fixture_id": "575402",
+        "date": "2026-11-24",
+        "home": "RB Leipzig",
+        "away": "Lens",
+        "goals": [
+          3,
+          1
+        ],
+        "status": "verified",
+        "source": "football-data.org",
+        "source_url": "https://api.football-data.org/v4/matches/575402"
+      }
+    },
+    {
+      "espn_event_id": "401915297",
+      "kickoff_utc": "2026-11-24T20:00Z",
+      "home": "Slovan Bratislava",
+      "away": "Betis",
+      "metrics": {
+        "goals": [
+          0,
+          2
+        ],
+        "shots": [
+          12,
+          18
+        ],
+        "sot": [
+          2,
+          6
+        ],
+        "fouls": [
+          12,
+          6
+        ],
+        "corners": [
+          1,
+          4
+        ],
+        "cards": [
+          1,
+          1
+        ]
+      },
+      "yellow": [
+        1,
+        1
+      ],
+      "red": [
+        0,
+        0
+      ],
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401915297/real-betis-slovan-bratislava",
+      "match_id": "UEFA Champions League_2026/27_espn_401915297",
+      "fixture_id": "575401",
+      "date": "2026-11-24",
+      "league": "UEFA Champions League",
+      "round": 5,
+      "provider": "ESPN",
+      "score_verification": {
+        "fixture_id": "575401",
+        "date": "2026-11-24",
+        "home": "Slovan Bratislava",
+        "away": "Betis",
+        "goals": [
+          0,
+          2
+        ],
+        "status": "verified",
+        "source": "football-data.org",
+        "source_url": "https://api.football-data.org/v4/matches/575401"
+      }
+    },
+    {
+      "espn_event_id": "401915294",
+      "kickoff_utc": "2026-11-24T20:00Z",
+      "home": "Feyenoord",
+      "away": "FC Porto",
+      "metrics": {
+        "goals": [
+          0,
+          1
+        ],
+        "shots": [
+          21,
+          9
+        ],
+        "sot": [
+          7,
+          3
+        ],
+        "fouls": [
+          10,
+          13
+        ],
+        "corners": [
+          8,
+          4
+        ],
+        "cards": [
+          2,
+          4
+        ]
+      },
+      "yellow": [
+        2,
+        4
+      ],
+      "red": [
+        0,
+        0
+      ],
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401915294/fc-porto-feyenoord-rotterdam",
+      "match_id": "UEFA Champions League_2026/27_espn_401915294",
+      "fixture_id": "575400",
+      "date": "2026-11-24",
+      "league": "UEFA Champions League",
+      "round": 5,
+      "provider": "ESPN",
+      "score_verification": {
+        "fixture_id": "575400",
+        "date": "2026-11-24",
+        "home": "Feyenoord",
+        "away": "FC Porto",
+        "goals": [
+          0,
+          1
+        ],
+        "status": "verified",
+        "source": "football-data.org",
+        "source_url": "https://api.football-data.org/v4/matches/575400"
+      }
+    },
+    {
+      "espn_event_id": "401915296",
+      "kickoff_utc": "2026-11-24T20:00Z",
+      "home": "Como",
+      "away": "AEK Athens",
+      "metrics": {
+        "goals": [
+          1,
+          0
+        ],
+        "shots": [
+          19,
+          7
+        ],
+        "sot": [
+          4,
+          3
+        ],
+        "fouls": [
+          15,
+          17
+        ],
+        "corners": [
+          2,
+          1
+        ],
+        "cards": [
+          2,
+          3
+        ]
+      },
+      "yellow": [
+        2,
+        3
+      ],
+      "red": [
+        0,
+        0
+      ],
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401915296/aek-athens-como",
+      "match_id": "UEFA Champions League_2026/27_espn_401915296",
+      "fixture_id": "575403",
+      "date": "2026-11-24",
+      "league": "UEFA Champions League",
+      "round": 5,
+      "provider": "ESPN",
+      "score_verification": {
+        "fixture_id": "575403",
+        "date": "2026-11-24",
+        "home": "Como",
+        "away": "AEK Athens",
+        "goals": [
+          1,
+          0
+        ],
+        "status": "verified",
+        "source": "football-data.org",
+        "source_url": "https://api.football-data.org/v4/matches/575403"
+      }
+    },
+    {
+      "espn_event_id": "401915379",
+      "kickoff_utc": "2026-11-24T20:00Z",
+      "home": "Man City",
+      "away": "Napoli",
+      "metrics": {
+        "goals": [
+          2,
+          2
+        ],
+        "shots": [
+          18,
+          9
+        ],
+        "sot": [
+          7,
+          3
+        ],
+        "fouls": [
+          9,
+          9
+        ],
+        "corners": [
+          9,
+          3
+        ],
+        "cards": [
+          1,
+          0
+        ]
+      },
+      "yellow": [
+        1,
+        0
+      ],
+      "red": [
+        0,
+        0
+      ],
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401915379/napoli-manchester-city",
+      "match_id": "UEFA Champions League_2026/27_espn_401915379",
+      "fixture_id": "575398",
+      "date": "2026-11-24",
+      "league": "UEFA Champions League",
+      "round": 5,
+      "provider": "ESPN",
+      "score_verification": {
+        "fixture_id": "575398",
+        "date": "2026-11-24",
+        "home": "Man City",
+        "away": "Napoli",
+        "goals": [
+          2,
+          2
+        ],
+        "status": "verified",
+        "source": "football-data.org",
+        "source_url": "https://api.football-data.org/v4/matches/575398"
+      }
+    },
+    {
+      "espn_event_id": "401915298",
+      "kickoff_utc": "2026-11-24T20:00Z",
+      "home": "Real Madrid",
+      "away": "PSV",
+      "metrics": {
+        "goals": [
+          5,
+          1
+        ],
+        "shots": [
+          24,
+          10
+        ],
+        "sot": [
+          9,
+          1
+        ],
+        "fouls": [
+          6,
+          11
+        ],
+        "corners": [
+          4,
+          1
+        ],
+        "cards": [
+          3,
+          1
+        ]
+      },
+      "yellow": [
+        3,
+        1
+      ],
+      "red": [
+        0,
+        0
+      ],
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401915298/psv-eindhoven-real-madrid",
+      "match_id": "UEFA Champions League_2026/27_espn_401915298",
+      "fixture_id": "575397",
+      "date": "2026-11-24",
+      "league": "UEFA Champions League",
+      "round": 5,
+      "provider": "ESPN",
+      "score_verification": {
+        "fixture_id": "575397",
+        "date": "2026-11-24",
+        "home": "Real Madrid",
+        "away": "PSV",
+        "goals": [
+          5,
+          1
+        ],
+        "status": "verified",
+        "source": "football-data.org",
+        "source_url": "https://api.football-data.org/v4/matches/575397"
+      }
+    },
+    {
+      "espn_event_id": "401915295",
+      "kickoff_utc": "2026-11-24T20:00Z",
+      "home": "Arsenal",
+      "away": "Dortmund",
+      "metrics": {
+        "goals": [
+          1,
+          1
+        ],
+        "shots": [
+          30,
+          13
+        ],
+        "sot": [
+          4,
+          4
+        ],
+        "fouls": [
+          7,
+          13
+        ],
+        "corners": [
+          8,
+          5
+        ],
+        "cards": [
+          0,
+          0
+        ]
+      },
+      "yellow": [
+        0,
+        0
+      ],
+      "red": [
+        0,
+        0
+      ],
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401915295/borussia-dortmund-arsenal",
+      "match_id": "UEFA Champions League_2026/27_espn_401915295",
+      "fixture_id": "575399",
+      "date": "2026-11-24",
+      "league": "UEFA Champions League",
+      "round": 5,
+      "provider": "ESPN",
+      "score_verification": {
+        "fixture_id": "575399",
+        "date": "2026-11-24",
+        "home": "Arsenal",
+        "away": "Dortmund",
+        "goals": [
+          1,
+          1
+        ],
+        "status": "verified",
+        "source": "football-data.org",
+        "source_url": "https://api.football-data.org/v4/matches/575399"
+      }
+    }
+  ],
+  "deferred": [],
+  "pending": [],
+  "advanced": [],
+  "added_rows_this_run": 18,
+  "scope": [
+    "La Liga",
+    "Premier League",
+    "Bundesliga",
+    "Serie A",
+    "Ligue 1",
+    "UEFA Champions League"
+  ],
+  "automation": "daily_update"
+}

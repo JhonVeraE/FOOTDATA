@@ -1,5 +1,5 @@
 {
-  "run_at": "2026-11-24T11:30:26.979575+00:00",
+  "run_at": "2026-11-25T00:40:36.394607+00:00",
   "dates": [
     "2026-11-21",
     "2026-11-22",
@@ -13,13 +13,23 @@
     "2026-11-21": "already_frozen",
     "2026-11-22": "already_frozen",
     "2026-11-23": "already_frozen",
-    "2026-11-24": "frozen_from:20261124T002004304312Z.json"
+    "2026-11-24": "already_frozen"
   },
   "healthy": true,
   "events": 54,
-  "finals": 45,
-  "added_matches": [],
-  "added_rows": 0,
+  "finals": 54,
+  "added_matches": [
+    "UEFA Champions League_2026/27_espn_401915294",
+    "UEFA Champions League_2026/27_espn_401915295",
+    "UEFA Champions League_2026/27_espn_401915296",
+    "UEFA Champions League_2026/27_espn_401915297",
+    "UEFA Champions League_2026/27_espn_401915298",
+    "UEFA Champions League_2026/27_espn_401915299",
+    "UEFA Champions League_2026/27_espn_401915300",
+    "UEFA Champions League_2026/27_espn_401915379",
+    "UEFA Champions League_2026/27_espn_401915380"
+  ],
+  "added_rows": 18,
   "already_present": [
     {
       "match_id": "Bundesliga_2026/27_espn_401884728",
@@ -217,128 +227,10 @@
       "reason": "Valor almacenado (otra fuente) conservado; diferencia registrada."
     }
   ],
-  "pending": [
-    {
-      "espn_event_id": "401915294",
-      "date": "2026-11-24",
-      "league": "UEFA Champions League",
-      "kickoff_utc": "2026-11-24T20:00Z",
-      "espn_status": "STATUS_SCHEDULED",
-      "source_url": "https://www.espn.com/soccer/match/_/gameId/401915294/fc-porto-feyenoord-rotterdam",
-      "home": "Feyenoord",
-      "away": "FC Porto",
-      "fixture_id": "575400",
-      "provider_status": "SCHEDULED",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
-    },
-    {
-      "espn_event_id": "401915295",
-      "date": "2026-11-24",
-      "league": "UEFA Champions League",
-      "kickoff_utc": "2026-11-24T20:00Z",
-      "espn_status": "STATUS_SCHEDULED",
-      "source_url": "https://www.espn.com/soccer/match/_/gameId/401915295/borussia-dortmund-arsenal",
-      "home": "Arsenal",
-      "away": "Dortmund",
-      "fixture_id": "575399",
-      "provider_status": "SCHEDULED",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
-    },
-    {
-      "espn_event_id": "401915296",
-      "date": "2026-11-24",
-      "league": "UEFA Champions League",
-      "kickoff_utc": "2026-11-24T20:00Z",
-      "espn_status": "STATUS_SCHEDULED",
-      "source_url": "https://www.espn.com/soccer/match/_/gameId/401915296/aek-athens-como",
-      "home": "Como",
-      "away": "AEK Athens",
-      "fixture_id": "575403",
-      "provider_status": "SCHEDULED",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
-    },
-    {
-      "espn_event_id": "401915297",
-      "date": "2026-11-24",
-      "league": "UEFA Champions League",
-      "kickoff_utc": "2026-11-24T20:00Z",
-      "espn_status": "STATUS_SCHEDULED",
-      "source_url": "https://www.espn.com/soccer/match/_/gameId/401915297/real-betis-slovan-bratislava",
-      "home": "Slovan Bratislava",
-      "away": "Betis",
-      "fixture_id": "575401",
-      "provider_status": "SCHEDULED",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
-    },
-    {
-      "espn_event_id": "401915298",
-      "date": "2026-11-24",
-      "league": "UEFA Champions League",
-      "kickoff_utc": "2026-11-24T20:00Z",
-      "espn_status": "STATUS_SCHEDULED",
-      "source_url": "https://www.espn.com/soccer/match/_/gameId/401915298/psv-eindhoven-real-madrid",
-      "home": "Real Madrid",
-      "away": "PSV",
-      "fixture_id": "575397",
-      "provider_status": "SCHEDULED",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
-    },
-    {
-      "espn_event_id": "401915299",
-      "date": "2026-11-24",
-      "league": "UEFA Champions League",
-      "kickoff_utc": "2026-11-24T20:00Z",
-      "espn_status": "STATUS_SCHEDULED",
-      "source_url": "https://www.espn.com/soccer/match/_/gameId/401915299/lens-rb-leipzig",
-      "home": "RB Leipzig",
-      "away": "Lens",
-      "fixture_id": "575402",
-      "provider_status": "SCHEDULED",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
-    },
-    {
-      "espn_event_id": "401915300",
-      "date": "2026-11-24",
-      "league": "UEFA Champions League",
-      "kickoff_utc": "2026-11-24T17:45Z",
-      "espn_status": "STATUS_SCHEDULED",
-      "source_url": "https://www.espn.com/soccer/match/_/gameId/401915300/aston-villa-galatasaray",
-      "home": "Galatasaray",
-      "away": "Aston Villa",
-      "fixture_id": "575395",
-      "provider_status": "SCHEDULED",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
-    },
-    {
-      "espn_event_id": "401915379",
-      "date": "2026-11-24",
-      "league": "UEFA Champions League",
-      "kickoff_utc": "2026-11-24T20:00Z",
-      "espn_status": "STATUS_SCHEDULED",
-      "source_url": "https://www.espn.com/soccer/match/_/gameId/401915379/napoli-manchester-city",
-      "home": "Man City",
-      "away": "Napoli",
-      "fixture_id": "575398",
-      "provider_status": "SCHEDULED",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
-    },
-    {
-      "espn_event_id": "401915380",
-      "date": "2026-11-24",
-      "league": "UEFA Champions League",
-      "kickoff_utc": "2026-11-24T17:45Z",
-      "espn_status": "STATUS_SCHEDULED",
-      "source_url": "https://www.espn.com/soccer/match/_/gameId/401915380/lask-linz-bodoglimt",
-      "home": "Bodo/Glimt",
-      "away": "LASK",
-      "fixture_id": "575396",
-      "provider_status": "SCHEDULED",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
-    }
-  ],
+  "pending": [],
   "source_errors": [],
   "espn_only": [],
-  "calendar_changed": false,
+  "calendar_changed": true,
   "calendar_issues": [],
   "reviews": {
     "2026-11-21": {
@@ -351,13 +243,31 @@
       "ingestion": "sin cambios"
     },
     "2026-11-24": {
-      "ingestion": "sin finales todavía"
+      "ingestion": "actualizado",
+      "review": {
+        "tier_summary": {
+          "selections": 27,
+          "settled": 27,
+          "won": 23,
+          "lost": 4,
+          "unverified": 0,
+          "hit_rate": 0.8518518518518519
+        },
+        "unique_summary": {
+          "selections": 56,
+          "settled": 56,
+          "won": 41,
+          "lost": 15,
+          "unverified": 0,
+          "hit_rate": 0.7321428571428571
+        }
+      }
     }
   },
   "prospective": {
-    "scored_matches": 264,
-    "accuracy": 0.5946969696969697,
-    "log_loss": 0.9335834556203059
+    "scored_matches": 273,
+    "accuracy": 0.5970695970695971,
+    "log_loss": 0.9299992291546921
   },
   "standings_refresh": [
     {

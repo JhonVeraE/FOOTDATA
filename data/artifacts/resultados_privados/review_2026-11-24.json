@@ -1,0 +1,1410 @@
+{
+  "date": "2026-11-24",
+  "reviewed_at": "2026-11-25T00:41:37.632304+00:00",
+  "summary": {
+    "matches": 9,
+    "hits_1x2": 6,
+    "hits_exact": 0,
+    "hits_btts": 4,
+    "mean_absolute_errors": {
+      "goals": 2.064896395983048,
+      "shots": 6.564342592592593,
+      "sot": 3.5751746031746023,
+      "fouls": 3.7533249559082886,
+      "corners": 4.087862433862434,
+      "cards": 2.0020914168136392
+    }
+  },
+  "matches": [
+    {
+      "fixture_id": "575395",
+      "date": "2026-11-24",
+      "league": "UEFA Champions League",
+      "home": "Galatasaray",
+      "away": "Aston Villa",
+      "generated_at": "2026-11-24T00:19:59.663143+00:00",
+      "kickoff_utc": "2026-11-24T17:45Z",
+      "forecast_original_date": "2026-11-24",
+      "forecast_original_kickoff_utc": "2026-11-24T17:45:00+00:00",
+      "schedule_change": null,
+      "probabilities": [
+        0.43358646543672547,
+        0.20455979867175786,
+        0.36185373589151665
+      ],
+      "actual_goals": [
+        1,
+        0
+      ],
+      "actual_outcome": 0,
+      "predicted_outcome": 0,
+      "hit_1x2": true,
+      "predicted_score": "2-2",
+      "actual_score": "1-0",
+      "hit_exact": false,
+      "btts_probability": 0.7730028996799315,
+      "hit_btts": false,
+      "brier": 0.49360712954773944,
+      "log_loss": 0.835664043742576,
+      "goal_lines": [
+        {
+          "line": 0.5,
+          "hit": true
+        },
+        {
+          "line": 1.5,
+          "hit": false
+        },
+        {
+          "line": 2.5,
+          "hit": false
+        },
+        {
+          "line": 3.5,
+          "hit": false
+        }
+      ],
+      "statistics": [
+        {
+          "metric": "goals",
+          "forecast": [
+            2.2043896545857553,
+            2.013580430290753
+          ],
+          "actual": [
+            1,
+            0
+          ],
+          "predicted_total": 4.217970084876509,
+          "actual_total": 1,
+          "absolute_error_total": 3.2179700848765087,
+          "interval_90": null,
+          "inside_interval": null
+        },
+        {
+          "metric": "shots",
+          "forecast": [
+            14.008753968253968,
+            15.069896825396825
+          ],
+          "actual": [
+            9,
+            4
+          ],
+          "predicted_total": 29.078650793650795,
+          "actual_total": 13,
+          "absolute_error_total": 16.078650793650795,
+          "interval_90": null,
+          "inside_interval": null
+        },
+        {
+          "metric": "sot",
+          "forecast": [
+            5.569523809523809,
+            5.77595238095238
+          ],
+          "actual": [
+            2,
+            0
+          ],
+          "predicted_total": 11.34547619047619,
+          "actual_total": 2,
+          "absolute_error_total": 9.34547619047619,
+          "interval_90": null,
+          "inside_interval": null
+        },
+        {
+          "metric": "fouls",
+          "forecast": [
+            11.93161111111111,
+            11.446468253968256
+          ],
+          "actual": [
+            13,
+            12
+          ],
+          "predicted_total": 23.378079365079365,
+          "actual_total": 25,
+          "absolute_error_total": 1.6219206349206345,
+          "interval_90": null,
+          "inside_interval": null
+        },
+        {
+          "metric": "corners",
+          "forecast": [
+            4.489,
+            5.0407142857142855
+          ],
+          "actual": [
+            5,
+            1
+          ],
+          "predicted_total": 9.529714285714284,
+          "actual_total": 6,
+          "absolute_error_total": 3.5297142857142845,
+          "interval_90": [
+            4,
+            16
+          ],
+          "inside_interval": true
+        },
+        {
+          "metric": "cards",
+          "forecast": [
+            1.9376031746031743,
+            2.110031746031746
+          ],
+          "actual": [
+            2,
+            4
+          ],
+          "predicted_total": 4.04763492063492,
+          "actual_total": 6,
+          "absolute_error_total": 1.9523650793650802,
+          "interval_90": [
+            1,
+            8
+          ],
+          "inside_interval": true
+        }
+      ],
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401915300/aston-villa-galatasaray"
+    },
+    {
+      "fixture_id": "575396",
+      "date": "2026-11-24",
+      "league": "UEFA Champions League",
+      "home": "Bodo/Glimt",
+      "away": "LASK",
+      "generated_at": "2026-11-24T00:19:59.879039+00:00",
+      "kickoff_utc": "2026-11-24T17:45Z",
+      "forecast_original_date": "2026-11-24",
+      "forecast_original_kickoff_utc": "2026-11-24T17:45:00+00:00",
+      "schedule_change": null,
+      "probabilities": [
+        0.44653263884465405,
+        0.21099431712777825,
+        0.34247304402756784
+      ],
+      "actual_goals": [
+        1,
+        0
+      ],
+      "actual_outcome": 0,
+      "predicted_outcome": 0,
+      "hit_1x2": true,
+      "predicted_score": "2-1",
+      "actual_score": "1-0",
+      "hit_exact": false,
+      "btts_probability": 0.7439433499442747,
+      "hit_btts": false,
+      "brier": 0.4681325076099881,
+      "log_loss": 0.8062427820210737,
+      "goal_lines": [
+        {
+          "line": 0.5,
+          "hit": true
+        },
+        {
+          "line": 1.5,
+          "hit": false
+        },
+        {
+          "line": 2.5,
+          "hit": false
+        },
+        {
+          "line": 3.5,
+          "hit": false
+        }
+      ],
+      "statistics": [
+        {
+          "metric": "goals",
+          "forecast": [
+            2.1194977769147063,
+            1.850064733118973
+          ],
+          "actual": [
+            1,
+            0
+          ],
+          "predicted_total": 3.969562510033679,
+          "actual_total": 1,
+          "absolute_error_total": 2.969562510033679,
+          "interval_90": null,
+          "inside_interval": null
+        },
+        {
+          "metric": "shots",
+          "forecast": [
+            13.986325396825396,
+            13.387896825396826
+          ],
+          "actual": [
+            9,
+            5
+          ],
+          "predicted_total": 27.374222222222222,
+          "actual_total": 14,
+          "absolute_error_total": 13.374222222222222,
+          "interval_90": null,
+          "inside_interval": null
+        },
+        {
+          "metric": "sot",
+          "forecast": [
+            5.064523809523809,
+            5.140809523809524
+          ],
+          "actual": [
+            2,
+            0
+          ],
+          "predicted_total": 10.205333333333332,
+          "actual_total": 2,
+          "absolute_error_total": 8.205333333333332,
+          "interval_90": null,
+          "inside_interval": null
+        },
+        {
+          "metric": "fouls",
+          "forecast": [
+            10.552468253968254,
+            11.761753968253968
+          ],
+          "actual": [
+            5,
+            14
+          ],
+          "predicted_total": 22.31422222222222,
+          "actual_total": 19,
+          "absolute_error_total": 3.31422222222222,
+          "interval_90": null,
+          "inside_interval": null
+        },
+        {
+          "metric": "corners",
+          "forecast": [
+            4.887857142857143,
+            4.801714285714286
+          ],
+          "actual": [
+            4,
+            0
+          ],
+          "predicted_total": 9.68957142857143,
+          "actual_total": 4,
+          "absolute_error_total": 5.68957142857143,
+          "interval_90": [
+            4,
+            16
+          ],
+          "inside_interval": true
+        },
+        {
+          "metric": "cards",
+          "forecast": [
+            1.5188888888888887,
+            2.0237460317460316
+          ],
+          "actual": [
+            1,
+            1
+          ],
+          "predicted_total": 3.5426349206349204,
+          "actual_total": 2,
+          "absolute_error_total": 1.5426349206349204,
+          "interval_90": [
+            1,
+            7
+          ],
+          "inside_interval": true
+        }
+      ],
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401915380/lask-linz-bodoglimt"
+    },
+    {
+      "fixture_id": "575402",
+      "date": "2026-11-24",
+      "league": "UEFA Champions League",
+      "home": "RB Leipzig",
+      "away": "Lens",
+      "generated_at": "2026-11-24T00:20:00.131298+00:00",
+      "kickoff_utc": "2026-11-24T20:00Z",
+      "forecast_original_date": "2026-11-24",
+      "forecast_original_kickoff_utc": "2026-11-24T20:00:00+00:00",
+      "schedule_change": null,
+      "probabilities": [
+        0.5920505945009572,
+        0.17514170928596354,
+        0.23280769621307923
+      ],
+      "actual_goals": [
+        3,
+        1
+      ],
+      "actual_outcome": 0,
+      "predicted_outcome": 0,
+      "hit_1x2": true,
+      "predicted_score": "2-1",
+      "actual_score": "3-1",
+      "hit_exact": false,
+      "btts_probability": 0.7905427054034218,
+      "hit_btts": true,
+      "brier": 0.2512967591946728,
+      "log_loss": 0.5241631840658946,
+      "goal_lines": [
+        {
+          "line": 0.5,
+          "hit": true
+        },
+        {
+          "line": 1.5,
+          "hit": true
+        },
+        {
+          "line": 2.5,
+          "hit": true
+        },
+        {
+          "line": 3.5,
+          "hit": true
+        }
+      ],
+      "statistics": [
+        {
+          "metric": "goals",
+          "forecast": [
+            2.848298220774858,
+            1.817096751863095
+          ],
+          "actual": [
+            3,
+            1
+          ],
+          "predicted_total": 4.665394972637953,
+          "actual_total": 4,
+          "absolute_error_total": 0.6653949726379533,
+          "interval_90": null,
+          "inside_interval": null
+        },
+        {
+          "metric": "shots",
+          "forecast": [
+            14.833468253968253,
+            15.358325396825396
+          ],
+          "actual": [
+            16,
+            11
+          ],
+          "predicted_total": 30.19179365079365,
+          "actual_total": 27,
+          "absolute_error_total": 3.191793650793649,
+          "interval_90": null,
+          "inside_interval": null
+        },
+        {
+          "metric": "sot",
+          "forecast": [
+            5.625952380952381,
+            5.768809523809523
+          ],
+          "actual": [
+            7,
+            3
+          ],
+          "predicted_total": 11.394761904761904,
+          "actual_total": 10,
+          "absolute_error_total": 1.3947619047619035,
+          "interval_90": null,
+          "inside_interval": null
+        },
+        {
+          "metric": "fouls",
+          "forecast": [
+            11.323325396825396,
+            10.569468253968253
+          ],
+          "actual": [
+            12,
+            13
+          ],
+          "predicted_total": 21.89279365079365,
+          "actual_total": 25,
+          "absolute_error_total": 3.1072063492063506,
+          "interval_90": null,
+          "inside_interval": null
+        },
+        {
+          "metric": "corners",
+          "forecast": [
+            4.648857142857143,
+            5.400142857142857
+          ],
+          "actual": [
+            10,
+            4
+          ],
+          "predicted_total": 10.049,
+          "actual_total": 14,
+          "absolute_error_total": 3.9510000000000005,
+          "interval_90": [
+            4,
+            17
+          ],
+          "inside_interval": true
+        },
+        {
+          "metric": "cards",
+          "forecast": [
+            1.8908888888888888,
+            1.8046031746031743
+          ],
+          "actual": [
+            2,
+            4
+          ],
+          "predicted_total": 3.695492063492063,
+          "actual_total": 6,
+          "absolute_error_total": 2.304507936507937,
+          "interval_90": [
+            1,
+            7
+          ],
+          "inside_interval": true
+        }
+      ],
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401915299/lens-rb-leipzig"
+    },
+    {
+      "fixture_id": "575401",
+      "date": "2026-11-24",
+      "league": "UEFA Champions League",
+      "home": "Slovan Bratislava",
+      "away": "Betis",
+      "generated_at": "2026-11-24T00:20:00.398915+00:00",
+      "kickoff_utc": "2026-11-24T20:00Z",
+      "forecast_original_date": "2026-11-24",
+      "forecast_original_kickoff_utc": "2026-11-24T20:00:00+00:00",
+      "schedule_change": null,
+      "probabilities": [
+        0.12719246690275188,
+        0.1569346254345492,
+        0.7158729076626991
+      ],
+      "actual_goals": [
+        0,
+        2
+      ],
+      "actual_outcome": 2,
+      "predicted_outcome": 2,
+      "hit_1x2": true,
+      "predicted_score": "1-2",
+      "actual_score": "0-2",
+      "hit_exact": false,
+      "btts_probability": 0.6424915430295592,
+      "hit_btts": false,
+      "brier": 0.12153460489713902,
+      "log_loss": 0.33425263104144715,
+      "goal_lines": [
+        {
+          "line": 0.5,
+          "hit": true
+        },
+        {
+          "line": 1.5,
+          "hit": true
+        },
+        {
+          "line": 2.5,
+          "hit": false
+        },
+        {
+          "line": 3.5,
+          "hit": false
+        }
+      ],
+      "statistics": [
+        {
+          "metric": "goals",
+          "forecast": [
+            1.145666954802609,
+            2.7995134178941843
+          ],
+          "actual": [
+            0,
+            2
+          ],
+          "predicted_total": 3.945180372696793,
+          "actual_total": 2,
+          "absolute_error_total": 1.9451803726967931,
+          "interval_90": null,
+          "inside_interval": null
+        },
+        {
+          "metric": "shots",
+          "forecast": [
+            14.20274537037037,
+            14.911507275132275
+          ],
+          "actual": [
+            12,
+            18
+          ],
+          "predicted_total": 29.114252645502646,
+          "actual_total": 30,
+          "absolute_error_total": 0.8857473544973544,
+          "interval_90": null,
+          "inside_interval": null
+        },
+        {
+          "metric": "sot",
+          "forecast": [
+            4.994912698412698,
+            5.624960317460317
+          ],
+          "actual": [
+            2,
+            6
+          ],
+          "predicted_total": 10.619873015873015,
+          "actual_total": 8,
+          "absolute_error_total": 2.619873015873015,
+          "interval_90": null,
+          "inside_interval": null
+        },
+        {
+          "metric": "fouls",
+          "forecast": [
+            11.396781084656084,
+            11.710400132275131
+          ],
+          "actual": [
+            12,
+            6
+          ],
+          "predicted_total": 23.107181216931217,
+          "actual_total": 18,
+          "absolute_error_total": 5.107181216931217,
+          "interval_90": null,
+          "inside_interval": null
+        },
+        {
+          "metric": "corners",
+          "forecast": [
+            4.244071428571429,
+            5.056547619047619
+          ],
+          "actual": [
+            1,
+            4
+          ],
+          "predicted_total": 9.300619047619048,
+          "actual_total": 5,
+          "absolute_error_total": 4.300619047619048,
+          "interval_90": [
+            4,
+            16
+          ],
+          "inside_interval": true
+        },
+        {
+          "metric": "cards",
+          "forecast": [
+            1.9296653439153437,
+            2.162903439153439
+          ],
+          "actual": [
+            1,
+            1
+          ],
+          "predicted_total": 4.092568783068783,
+          "actual_total": 2,
+          "absolute_error_total": 2.092568783068783,
+          "interval_90": [
+            1,
+            8
+          ],
+          "inside_interval": true
+        }
+      ],
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401915297/real-betis-slovan-bratislava"
+    },
+    {
+      "fixture_id": "575400",
+      "date": "2026-11-24",
+      "league": "UEFA Champions League",
+      "home": "Feyenoord",
+      "away": "FC Porto",
+      "generated_at": "2026-11-24T00:20:00.668673+00:00",
+      "kickoff_utc": "2026-11-24T20:00Z",
+      "forecast_original_date": "2026-11-24",
+      "forecast_original_kickoff_utc": "2026-11-24T20:00:00+00:00",
+      "schedule_change": null,
+      "probabilities": [
+        0.38746928388465224,
+        0.23873577488415626,
+        0.3737949412311916
+      ],
+      "actual_goals": [
+        0,
+        1
+      ],
+      "actual_outcome": 2,
+      "predicted_outcome": 0,
+      "hit_1x2": false,
+      "predicted_score": "1-1",
+      "actual_score": "0-1",
+      "hit_exact": false,
+      "btts_probability": 0.6483706679960918,
+      "hit_btts": false,
+      "brier": 0.5992599917912705,
+      "log_loss": 0.9840479174091491,
+      "goal_lines": [
+        {
+          "line": 0.5,
+          "hit": true
+        },
+        {
+          "line": 1.5,
+          "hit": false
+        },
+        {
+          "line": 2.5,
+          "hit": false
+        },
+        {
+          "line": 3.5,
+          "hit": true
+        }
+      ],
+      "statistics": [
+        {
+          "metric": "goals",
+          "forecast": [
+            1.6416898478100463,
+            1.6094526504956976
+          ],
+          "actual": [
+            0,
+            1
+          ],
+          "predicted_total": 3.251142498305744,
+          "actual_total": 1,
+          "absolute_error_total": 2.251142498305744,
+          "interval_90": null,
+          "inside_interval": null
+        },
+        {
+          "metric": "shots",
+          "forecast": [
+            14.529412037037035,
+            13.896412037037036
+          ],
+          "actual": [
+            21,
+            9
+          ],
+          "predicted_total": 28.42582407407407,
+          "actual_total": 30,
+          "absolute_error_total": 1.5741759259259283,
+          "interval_90": null,
+          "inside_interval": null
+        },
+        {
+          "metric": "sot",
+          "forecast": [
+            5.388912698412698,
+            5.5278174603174595
+          ],
+          "actual": [
+            7,
+            3
+          ],
+          "predicted_total": 10.916730158730157,
+          "actual_total": 10,
+          "absolute_error_total": 0.9167301587301573,
+          "interval_90": null,
+          "inside_interval": null
+        },
+        {
+          "metric": "fouls",
+          "forecast": [
+            11.567781084656085,
+            12.042828703703703
+          ],
+          "actual": [
+            10,
+            13
+          ],
+          "predicted_total": 23.61060978835979,
+          "actual_total": 23,
+          "absolute_error_total": 0.6106097883597883,
+          "interval_90": null,
+          "inside_interval": null
+        },
+        {
+          "metric": "corners",
+          "forecast": [
+            4.740119047619048,
+            4.130928571428571
+          ],
+          "actual": [
+            8,
+            4
+          ],
+          "predicted_total": 8.87104761904762,
+          "actual_total": 12,
+          "absolute_error_total": 3.1289523809523807,
+          "interval_90": [
+            4,
+            15
+          ],
+          "inside_interval": true
+        },
+        {
+          "metric": "cards",
+          "forecast": [
+            1.9505224867724866,
+            2.010046296296296
+          ],
+          "actual": [
+            2,
+            4
+          ],
+          "predicted_total": 3.9605687830687826,
+          "actual_total": 6,
+          "absolute_error_total": 2.0394312169312174,
+          "interval_90": [
+            1,
+            8
+          ],
+          "inside_interval": true
+        }
+      ],
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401915294/fc-porto-feyenoord-rotterdam"
+    },
+    {
+      "fixture_id": "575403",
+      "date": "2026-11-24",
+      "league": "UEFA Champions League",
+      "home": "Como",
+      "away": "AEK Athens",
+      "generated_at": "2026-11-24T00:20:00.941740+00:00",
+      "kickoff_utc": "2026-11-24T20:00Z",
+      "forecast_original_date": "2026-11-24",
+      "forecast_original_kickoff_utc": "2026-11-24T20:00:00+00:00",
+      "schedule_change": null,
+      "probabilities": [
+        0.7804210938828803,
+        0.12549232211050473,
+        0.09408658400661492
+      ],
+      "actual_goals": [
+        1,
+        0
+      ],
+      "actual_outcome": 0,
+      "predicted_outcome": 0,
+      "hit_1x2": true,
+      "predicted_score": "3-1",
+      "actual_score": "1-0",
+      "hit_exact": false,
+      "btts_probability": 0.6568535755292679,
+      "hit_btts": false,
+      "brier": 0.07281550421031135,
+      "log_loss": 0.24792164102020547,
+      "goal_lines": [
+        {
+          "line": 0.5,
+          "hit": true
+        },
+        {
+          "line": 1.5,
+          "hit": false
+        },
+        {
+          "line": 2.5,
+          "hit": false
+        },
+        {
+          "line": 3.5,
+          "hit": false
+        }
+      ],
+      "statistics": [
+        {
+          "metric": "goals",
+          "forecast": [
+            3.263252063403921,
+            1.144026076886531
+          ],
+          "actual": [
+            1,
+            0
+          ],
+          "predicted_total": 4.407278140290452,
+          "actual_total": 1,
+          "absolute_error_total": 3.407278140290452,
+          "interval_90": null,
+          "inside_interval": null
+        },
+        {
+          "metric": "shots",
+          "forecast": [
+            14.397753968253967,
+            14.158753968253968
+          ],
+          "actual": [
+            19,
+            7
+          ],
+          "predicted_total": 28.556507936507934,
+          "actual_total": 26,
+          "absolute_error_total": 2.556507936507934,
+          "interval_90": null,
+          "inside_interval": null
+        },
+        {
+          "metric": "sot",
+          "forecast": [
+            5.798523809523809,
+            4.988095238095237
+          ],
+          "actual": [
+            4,
+            3
+          ],
+          "predicted_total": 10.786619047619046,
+          "actual_total": 7,
+          "absolute_error_total": 3.7866190476190464,
+          "interval_90": null,
+          "inside_interval": null
+        },
+        {
+          "metric": "fouls",
+          "forecast": [
+            10.825611111111112,
+            11.340468253968254
+          ],
+          "actual": [
+            15,
+            17
+          ],
+          "predicted_total": 22.166079365079366,
+          "actual_total": 32,
+          "absolute_error_total": 9.833920634920634,
+          "interval_90": null,
+          "inside_interval": null
+        },
+        {
+          "metric": "corners",
+          "forecast": [
+            4.479142857142857,
+            4.392857142857142
+          ],
+          "actual": [
+            2,
+            1
+          ],
+          "predicted_total": 8.872,
+          "actual_total": 3,
+          "absolute_error_total": 5.872,
+          "interval_90": [
+            4,
+            15
+          ],
+          "inside_interval": false
+        },
+        {
+          "metric": "cards",
+          "forecast": [
+            1.6517460317460317,
+            1.994174603174603
+          ],
+          "actual": [
+            2,
+            3
+          ],
+          "predicted_total": 3.6459206349206346,
+          "actual_total": 5,
+          "absolute_error_total": 1.3540793650793654,
+          "interval_90": [
+            1,
+            7
+          ],
+          "inside_interval": true
+        }
+      ],
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401915296/aek-athens-como"
+    },
+    {
+      "fixture_id": "575398",
+      "date": "2026-11-24",
+      "league": "UEFA Champions League",
+      "home": "Man City",
+      "away": "Napoli",
+      "generated_at": "2026-11-24T00:20:01.227765+00:00",
+      "kickoff_utc": "2026-11-24T20:00Z",
+      "forecast_original_date": "2026-11-24",
+      "forecast_original_kickoff_utc": "2026-11-24T20:00:00+00:00",
+      "schedule_change": null,
+      "probabilities": [
+        0.6446501805645843,
+        0.17060118370916824,
+        0.18474863572624733
+      ],
+      "actual_goals": [
+        2,
+        2
+      ],
+      "actual_outcome": 1,
+      "predicted_outcome": 0,
+      "hit_1x2": false,
+      "predicted_score": "2-1",
+      "actual_score": "2-2",
+      "hit_exact": false,
+      "btts_probability": 0.7329364998913264,
+      "hit_btts": true,
+      "brier": 1.1376083101692938,
+      "log_loss": 1.768426705442368,
+      "goal_lines": [
+        {
+          "line": 0.5,
+          "hit": true
+        },
+        {
+          "line": 1.5,
+          "hit": true
+        },
+        {
+          "line": 2.5,
+          "hit": true
+        },
+        {
+          "line": 3.5,
+          "hit": true
+        }
+      ],
+      "statistics": [
+        {
+          "metric": "goals",
+          "forecast": [
+            2.804431378338271,
+            1.5061052638690913
+          ],
+          "actual": [
+            2,
+            2
+          ],
+          "predicted_total": 4.310536642207362,
+          "actual_total": 4,
+          "absolute_error_total": 0.3105366422073619,
+          "interval_90": null,
+          "inside_interval": null
+        },
+        {
+          "metric": "shots",
+          "forecast": [
+            16.139039682539682,
+            13.93961111111111
+          ],
+          "actual": [
+            18,
+            9
+          ],
+          "predicted_total": 30.078650793650795,
+          "actual_total": 27,
+          "absolute_error_total": 3.0786507936507945,
+          "interval_90": null,
+          "inside_interval": null
+        },
+        {
+          "metric": "sot",
+          "forecast": [
+            5.9979523809523805,
+            5.539809523809524
+          ],
+          "actual": [
+            7,
+            3
+          ],
+          "predicted_total": 11.537761904761904,
+          "actual_total": 10,
+          "absolute_error_total": 1.5377619047619042,
+          "interval_90": null,
+          "inside_interval": null
+        },
+        {
+          "metric": "fouls",
+          "forecast": [
+            10.207468253968255,
+            11.273896825396825
+          ],
+          "actual": [
+            9,
+            9
+          ],
+          "predicted_total": 21.48136507936508,
+          "actual_total": 18,
+          "absolute_error_total": 3.48136507936508,
+          "interval_90": null,
+          "inside_interval": null
+        },
+        {
+          "metric": "corners",
+          "forecast": [
+            5.4592857142857145,
+            4.402857142857143
+          ],
+          "actual": [
+            9,
+            3
+          ],
+          "predicted_total": 9.862142857142857,
+          "actual_total": 12,
+          "absolute_error_total": 2.1378571428571433,
+          "interval_90": [
+            4,
+            17
+          ],
+          "inside_interval": true
+        },
+        {
+          "metric": "cards",
+          "forecast": [
+            1.6517460317460317,
+            1.9473174603174601
+          ],
+          "actual": [
+            1,
+            0
+          ],
+          "predicted_total": 3.599063492063492,
+          "actual_total": 1,
+          "absolute_error_total": 2.599063492063492,
+          "interval_90": [
+            1,
+            7
+          ],
+          "inside_interval": true
+        }
+      ],
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401915379/napoli-manchester-city"
+    },
+    {
+      "fixture_id": "575397",
+      "date": "2026-11-24",
+      "league": "UEFA Champions League",
+      "home": "Real Madrid",
+      "away": "PSV",
+      "generated_at": "2026-11-24T00:20:01.493767+00:00",
+      "kickoff_utc": "2026-11-24T20:00Z",
+      "forecast_original_date": "2026-11-24",
+      "forecast_original_kickoff_utc": "2026-11-24T20:00:00+00:00",
+      "schedule_change": null,
+      "probabilities": [
+        0.7139480161517944,
+        0.16877735878360103,
+        0.1172746250646047
+      ],
+      "actual_goals": [
+        5,
+        1
+      ],
+      "actual_outcome": 0,
+      "predicted_outcome": 0,
+      "hit_1x2": true,
+      "predicted_score": "2-0",
+      "actual_score": "5-1",
+      "hit_exact": false,
+      "btts_probability": 0.5607493435766103,
+      "hit_btts": true,
+      "brier": 0.12406487198550609,
+      "log_loss": 0.3369451258031672,
+      "goal_lines": [
+        {
+          "line": 0.5,
+          "hit": true
+        },
+        {
+          "line": 1.5,
+          "hit": true
+        },
+        {
+          "line": 2.5,
+          "hit": true
+        },
+        {
+          "line": 3.5,
+          "hit": false
+        }
+      ],
+      "statistics": [
+        {
+          "metric": "goals",
+          "forecast": [
+            2.5110495178720593,
+            0.93566790063347
+          ],
+          "actual": [
+            5,
+            1
+          ],
+          "predicted_total": 3.4467174185055294,
+          "actual_total": 6,
+          "absolute_error_total": 2.5532825814944706,
+          "interval_90": null,
+          "inside_interval": null
+        },
+        {
+          "metric": "shots",
+          "forecast": [
+            15.30161111111111,
+            14.87303968253968
+          ],
+          "actual": [
+            24,
+            10
+          ],
+          "predicted_total": 30.17465079365079,
+          "actual_total": 34,
+          "absolute_error_total": 3.825349206349209,
+          "interval_90": null,
+          "inside_interval": null
+        },
+        {
+          "metric": "sot",
+          "forecast": [
+            6.130952380952381,
+            5.473238095238095
+          ],
+          "actual": [
+            9,
+            1
+          ],
+          "predicted_total": 11.604190476190476,
+          "actual_total": 10,
+          "absolute_error_total": 1.6041904761904764,
+          "interval_90": null,
+          "inside_interval": null
+        },
+        {
+          "metric": "fouls",
+          "forecast": [
+            11.131039682539683,
+            11.007896825396823
+          ],
+          "actual": [
+            6,
+            11
+          ],
+          "predicted_total": 22.138936507936506,
+          "actual_total": 17,
+          "absolute_error_total": 5.138936507936506,
+          "interval_90": null,
+          "inside_interval": null
+        },
+        {
+          "metric": "corners",
+          "forecast": [
+            4.7451428571428576,
+            5.227571428571428
+          ],
+          "actual": [
+            4,
+            1
+          ],
+          "predicted_total": 9.972714285714286,
+          "actual_total": 5,
+          "absolute_error_total": 4.972714285714286,
+          "interval_90": [
+            4,
+            17
+          ],
+          "inside_interval": true
+        },
+        {
+          "metric": "cards",
+          "forecast": [
+            1.5088888888888887,
+            1.861174603174603
+          ],
+          "actual": [
+            3,
+            1
+          ],
+          "predicted_total": 3.3700634920634918,
+          "actual_total": 4,
+          "absolute_error_total": 0.6299365079365082,
+          "interval_90": [
+            1,
+            7
+          ],
+          "inside_interval": true
+        }
+      ],
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401915298/psv-eindhoven-real-madrid"
+    },
+    {
+      "fixture_id": "575399",
+      "date": "2026-11-24",
+      "league": "UEFA Champions League",
+      "home": "Arsenal",
+      "away": "Dortmund",
+      "generated_at": "2026-11-24T00:20:01.719069+00:00",
+      "kickoff_utc": "2026-11-24T20:00Z",
+      "forecast_original_date": "2026-11-24",
+      "forecast_original_kickoff_utc": "2026-11-24T20:00:00+00:00",
+      "schedule_change": null,
+      "probabilities": [
+        0.6176865818255715,
+        0.20472385741280313,
+        0.17758956076162555
+      ],
+      "actual_goals": [
+        1,
+        1
+      ],
+      "actual_outcome": 1,
+      "predicted_outcome": 0,
+      "hit_1x2": false,
+      "predicted_score": "2-1",
+      "actual_score": "1-1",
+      "hit_exact": false,
+      "btts_probability": 0.5910372335298176,
+      "hit_btts": true,
+      "brier": 1.0455389084272368,
+      "log_loss": 1.58609324492436,
+      "goal_lines": [
+        {
+          "line": 0.5,
+          "hit": true
+        },
+        {
+          "line": 1.5,
+          "hit": true
+        },
+        {
+          "line": 2.5,
+          "hit": false
+        },
+        {
+          "line": 3.5,
+          "hit": true
+        }
+      ],
+      "statistics": [
+        {
+          "metric": "goals",
+          "forecast": [
+            2.1743988590324275,
+            1.089320902272042
+          ],
+          "actual": [
+            1,
+            1
+          ],
+          "predicted_total": 3.2637197613044693,
+          "actual_total": 2,
+          "absolute_error_total": 1.2637197613044693,
+          "interval_90": null,
+          "inside_interval": null
+        },
+        {
+          "metric": "shots",
+          "forecast": [
+            14.465792989417988,
+            14.020221560846561
+          ],
+          "actual": [
+            30,
+            13
+          ],
+          "predicted_total": 28.48601455026455,
+          "actual_total": 43,
+          "absolute_error_total": 14.51398544973545,
+          "interval_90": null,
+          "inside_interval": null
+        },
+        {
+          "metric": "sot",
+          "forecast": [
+            5.492103174603175,
+            5.273722222222222
+          ],
+          "actual": [
+            4,
+            4
+          ],
+          "predicted_total": 10.765825396825397,
+          "actual_total": 8,
+          "absolute_error_total": 2.765825396825397,
+          "interval_90": null,
+          "inside_interval": null
+        },
+        {
+          "metric": "fouls",
+          "forecast": [
+            10.76301917989418,
+            10.801542989417989
+          ],
+          "actual": [
+            7,
+            13
+          ],
+          "predicted_total": 21.56456216931217,
+          "actual_total": 20,
+          "absolute_error_total": 1.5645621693121683,
+          "interval_90": null,
+          "inside_interval": null
+        },
+        {
+          "metric": "corners",
+          "forecast": [
+            4.830357142857142,
+            4.961309523809524
+          ],
+          "actual": [
+            8,
+            5
+          ],
+          "predicted_total": 9.791666666666666,
+          "actual_total": 13,
+          "absolute_error_total": 3.208333333333334,
+          "interval_90": [
+            4,
+            16
+          ],
+          "inside_interval": true
+        },
+        {
+          "metric": "cards",
+          "forecast": [
+            1.8799986772486772,
+            1.6242367724867723
+          ],
+          "actual": [
+            0,
+            0
+          ],
+          "predicted_total": 3.5042354497354493,
+          "actual_total": 0,
+          "absolute_error_total": 3.5042354497354493,
+          "interval_90": [
+            1,
+            7
+          ],
+          "inside_interval": false
+        }
+      ],
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401915295/borussia-dortmund-arsenal"
+    }
+  ],
+  "deferred": [],
+  "pending": [],
+  "advanced": [],
+  "original_predictions_sha256": "31e0ade89e30f1e13f065788917e315fd95d73bf0a8cb493f3c3a49e8fd5853f"
+}

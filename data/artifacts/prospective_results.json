@@ -1,8 +1,8 @@
 {
   "status": "scored",
-  "scored_matches": 264,
-  "accuracy": 0.5946969696969697,
-  "log_loss": 0.9335834556203059,
+  "scored_matches": 273,
+  "accuracy": 0.5970695970695971,
+  "log_loss": 0.9299992291546921,
   "rule": "Latest archived prediction generated before kickoff; scores from canonical dated final statistics only.",
   "predictions": [
     {
@@ -3244,6 +3244,141 @@
       "outcome": 1,
       "hit": false,
       "log_loss": 1.3161414537412064
+    },
+    {
+      "fixture_id": "575395",
+      "date": "2026-11-24",
+      "forecast_original_date": "2026-11-24",
+      "model": "attack-defence-v3-shots",
+      "generated_at": "2026-11-24T00:19:59.663143+00:00",
+      "probabilities": [
+        0.43358646543672547,
+        0.20455979867175786,
+        0.36185373589151665
+      ],
+      "outcome": 0,
+      "hit": true,
+      "log_loss": 0.835664043742576
+    },
+    {
+      "fixture_id": "575396",
+      "date": "2026-11-24",
+      "forecast_original_date": "2026-11-24",
+      "model": "attack-defence-v3-shots",
+      "generated_at": "2026-11-24T00:19:59.879039+00:00",
+      "probabilities": [
+        0.44653263884465405,
+        0.21099431712777825,
+        0.34247304402756784
+      ],
+      "outcome": 0,
+      "hit": true,
+      "log_loss": 0.8062427820210737
+    },
+    {
+      "fixture_id": "575398",
+      "date": "2026-11-24",
+      "forecast_original_date": "2026-11-24",
+      "model": "attack-defence-v3-shots",
+      "generated_at": "2026-11-24T00:20:01.227765+00:00",
+      "probabilities": [
+        0.6446501805645843,
+        0.17060118370916824,
+        0.18474863572624733
+      ],
+      "outcome": 1,
+      "hit": false,
+      "log_loss": 1.768426705442368
+    },
+    {
+      "fixture_id": "575403",
+      "date": "2026-11-24",
+      "forecast_original_date": "2026-11-24",
+      "model": "attack-defence-v3-shots",
+      "generated_at": "2026-11-24T00:20:00.941740+00:00",
+      "probabilities": [
+        0.7804210938828803,
+        0.12549232211050473,
+        0.09408658400661492
+      ],
+      "outcome": 0,
+      "hit": true,
+      "log_loss": 0.24792164102020547
+    },
+    {
+      "fixture_id": "575400",
+      "date": "2026-11-24",
+      "forecast_original_date": "2026-11-24",
+      "model": "attack-defence-v3-shots",
+      "generated_at": "2026-11-24T00:20:00.668673+00:00",
+      "probabilities": [
+        0.38746928388465224,
+        0.23873577488415626,
+        0.3737949412311916
+      ],
+      "outcome": 2,
+      "hit": false,
+      "log_loss": 0.9840479174091491
+    },
+    {
+      "fixture_id": "575402",
+      "date": "2026-11-24",
+      "forecast_original_date": "2026-11-24",
+      "model": "attack-defence-v3-shots",
+      "generated_at": "2026-11-24T00:20:00.131298+00:00",
+      "probabilities": [
+        0.5920505945009572,
+        0.17514170928596354,
+        0.23280769621307923
+      ],
+      "outcome": 0,
+      "hit": true,
+      "log_loss": 0.5241631840658946
+    },
+    {
+      "fixture_id": "575401",
+      "date": "2026-11-24",
+      "forecast_original_date": "2026-11-24",
+      "model": "attack-defence-v3-shots",
+      "generated_at": "2026-11-24T00:20:00.398915+00:00",
+      "probabilities": [
+        0.12719246690275188,
+        0.1569346254345492,
+        0.7158729076626991
+      ],
+      "outcome": 2,
+      "hit": true,
+      "log_loss": 0.33425263104144715
+    },
+    {
+      "fixture_id": "575397",
+      "date": "2026-11-24",
+      "forecast_original_date": "2026-11-24",
+      "model": "attack-defence-v3-shots",
+      "generated_at": "2026-11-24T00:20:01.493767+00:00",
+      "probabilities": [
+        0.7139480161517944,
+        0.16877735878360103,
+        0.1172746250646047
+      ],
+      "outcome": 0,
+      "hit": true,
+      "log_loss": 0.3369451258031672
+    },
+    {
+      "fixture_id": "575399",
+      "date": "2026-11-24",
+      "forecast_original_date": "2026-11-24",
+      "model": "attack-defence-v3-shots",
+      "generated_at": "2026-11-24T00:20:01.719069+00:00",
+      "probabilities": [
+        0.6176865818255715,
+        0.20472385741280313,
+        0.17758956076162555
+      ],
+      "outcome": 1,
+      "hit": false,
+      "log_loss": 1.58609324492436
     },
     {
       "fixture_id": "564748",

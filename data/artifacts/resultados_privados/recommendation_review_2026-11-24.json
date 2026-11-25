@@ -1,0 +1,1567 @@
+{
+  "date": "2026-11-24",
+  "reviewed_at": "2026-11-25T00:41:37.791241+00:00",
+  "frozen_shortlist_sha256": "b6875e628539decd8e5dc085db64836baee3be23ab929448854e2b250859ae5f",
+  "matches": [
+    {
+      "fixture_id": "575395",
+      "home": "Galatasaray",
+      "away": "Aston Villa",
+      "metrics": {
+        "goals": [
+          1,
+          0
+        ],
+        "shots": [
+          9,
+          4
+        ],
+        "sot": [
+          2,
+          0
+        ],
+        "fouls": [
+          13,
+          12
+        ],
+        "corners": [
+          5,
+          1
+        ],
+        "cards": [
+          2,
+          4
+        ]
+      },
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401915300/aston-villa-galatasaray"
+    },
+    {
+      "fixture_id": "575396",
+      "home": "Bodo/Glimt",
+      "away": "LASK",
+      "metrics": {
+        "goals": [
+          1,
+          0
+        ],
+        "shots": [
+          9,
+          5
+        ],
+        "sot": [
+          2,
+          0
+        ],
+        "fouls": [
+          5,
+          14
+        ],
+        "corners": [
+          4,
+          0
+        ],
+        "cards": [
+          1,
+          1
+        ]
+      },
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401915380/lask-linz-bodoglimt"
+    },
+    {
+      "fixture_id": "575402",
+      "home": "RB Leipzig",
+      "away": "Lens",
+      "metrics": {
+        "goals": [
+          3,
+          1
+        ],
+        "shots": [
+          16,
+          11
+        ],
+        "sot": [
+          7,
+          3
+        ],
+        "fouls": [
+          12,
+          13
+        ],
+        "corners": [
+          10,
+          4
+        ],
+        "cards": [
+          2,
+          4
+        ]
+      },
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401915299/lens-rb-leipzig"
+    },
+    {
+      "fixture_id": "575401",
+      "home": "Slovan Bratislava",
+      "away": "Betis",
+      "metrics": {
+        "goals": [
+          0,
+          2
+        ],
+        "shots": [
+          12,
+          18
+        ],
+        "sot": [
+          2,
+          6
+        ],
+        "fouls": [
+          12,
+          6
+        ],
+        "corners": [
+          1,
+          4
+        ],
+        "cards": [
+          1,
+          1
+        ]
+      },
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401915297/real-betis-slovan-bratislava"
+    },
+    {
+      "fixture_id": "575400",
+      "home": "Feyenoord",
+      "away": "FC Porto",
+      "metrics": {
+        "goals": [
+          0,
+          1
+        ],
+        "shots": [
+          21,
+          9
+        ],
+        "sot": [
+          7,
+          3
+        ],
+        "fouls": [
+          10,
+          13
+        ],
+        "corners": [
+          8,
+          4
+        ],
+        "cards": [
+          2,
+          4
+        ]
+      },
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401915294/fc-porto-feyenoord-rotterdam"
+    },
+    {
+      "fixture_id": "575403",
+      "home": "Como",
+      "away": "AEK Athens",
+      "metrics": {
+        "goals": [
+          1,
+          0
+        ],
+        "shots": [
+          19,
+          7
+        ],
+        "sot": [
+          4,
+          3
+        ],
+        "fouls": [
+          15,
+          17
+        ],
+        "corners": [
+          2,
+          1
+        ],
+        "cards": [
+          2,
+          3
+        ]
+      },
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401915296/aek-athens-como"
+    },
+    {
+      "fixture_id": "575398",
+      "home": "Man City",
+      "away": "Napoli",
+      "metrics": {
+        "goals": [
+          2,
+          2
+        ],
+        "shots": [
+          18,
+          9
+        ],
+        "sot": [
+          7,
+          3
+        ],
+        "fouls": [
+          9,
+          9
+        ],
+        "corners": [
+          9,
+          3
+        ],
+        "cards": [
+          1,
+          0
+        ]
+      },
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401915379/napoli-manchester-city"
+    },
+    {
+      "fixture_id": "575397",
+      "home": "Real Madrid",
+      "away": "PSV",
+      "metrics": {
+        "goals": [
+          5,
+          1
+        ],
+        "shots": [
+          24,
+          10
+        ],
+        "sot": [
+          9,
+          1
+        ],
+        "fouls": [
+          6,
+          11
+        ],
+        "corners": [
+          4,
+          1
+        ],
+        "cards": [
+          3,
+          1
+        ]
+      },
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401915298/psv-eindhoven-real-madrid"
+    },
+    {
+      "fixture_id": "575399",
+      "home": "Arsenal",
+      "away": "Dortmund",
+      "metrics": {
+        "goals": [
+          1,
+          1
+        ],
+        "shots": [
+          30,
+          13
+        ],
+        "sot": [
+          4,
+          4
+        ],
+        "fouls": [
+          7,
+          13
+        ],
+        "corners": [
+          8,
+          5
+        ],
+        "cards": [
+          0,
+          0
+        ]
+      },
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401915295/borussia-dortmund-arsenal"
+    }
+  ],
+  "tiers": [
+    {
+      "fixture_id": "575395",
+      "selection_id": "goals:total:over:1.5:",
+      "match": "Galatasaray – Aston Villa",
+      "market": "Goles",
+      "label": "Más de 1,5 goles",
+      "probability": 0.9252490859684299,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "goals",
+      "actual_home": 1,
+      "actual_away": 0,
+      "tier": "Conservadora"
+    },
+    {
+      "fixture_id": "575395",
+      "selection_id": "shots:total:over:24.5:",
+      "match": "Galatasaray – Aston Villa",
+      "market": "Remates",
+      "label": "Más de 24,5 remates totales",
+      "probability": 0.7539661733587554,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "shots",
+      "actual_home": 9,
+      "actual_away": 4,
+      "tier": "Normal"
+    },
+    {
+      "fixture_id": "575395",
+      "selection_id": "corners:away:under:5.5:",
+      "match": "Galatasaray – Aston Villa",
+      "market": "Córners",
+      "label": "Aston Villa: menos de 5,5 córners",
+      "probability": 0.6162595298586748,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "corners",
+      "actual_home": 5,
+      "actual_away": 1,
+      "tier": "Arriesgada"
+    },
+    {
+      "fixture_id": "575396",
+      "selection_id": "corners:total:under:13.5:",
+      "match": "Bodo/Glimt – LASK",
+      "market": "Córners",
+      "label": "Menos de 13,5 córners",
+      "probability": 0.8488816192402409,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "corners",
+      "actual_home": 4,
+      "actual_away": 0,
+      "tier": "Conservadora"
+    },
+    {
+      "fixture_id": "575396",
+      "selection_id": "handicap:total:away:1.5:",
+      "match": "Bodo/Glimt – LASK",
+      "market": "Hándicap de goles",
+      "label": "LASK +1,5",
+      "probability": 0.7413611169897639,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 1,
+      "actual_away": 0,
+      "tier": "Normal"
+    },
+    {
+      "fixture_id": "575396",
+      "selection_id": "shots:home:under:18.5:",
+      "match": "Bodo/Glimt – LASK",
+      "market": "Remates",
+      "label": "Bodo/Glimt: menos de 18,5 remates",
+      "probability": 0.8033642058584032,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "shots",
+      "actual_home": 9,
+      "actual_away": 5,
+      "tier": "Arriesgada"
+    },
+    {
+      "fixture_id": "575402",
+      "selection_id": "double_chance:total:1X:None:",
+      "match": "RB Leipzig – Lens",
+      "market": "Doble oportunidad",
+      "label": "RB Leipzig o empate",
+      "probability": 0.7671923037869207,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 3,
+      "actual_away": 1,
+      "tier": "Conservadora"
+    },
+    {
+      "fixture_id": "575402",
+      "selection_id": "goals:total:over:2.5:",
+      "match": "RB Leipzig – Lens",
+      "market": "Goles",
+      "label": "Más de 2,5 goles",
+      "probability": 0.8441885361573944,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 3,
+      "actual_away": 1,
+      "tier": "Normal"
+    },
+    {
+      "fixture_id": "575402",
+      "selection_id": "shots:total:under:30.5:",
+      "match": "RB Leipzig – Lens",
+      "market": "Remates",
+      "label": "Menos de 30,5 remates totales",
+      "probability": 0.537591493064873,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "shots",
+      "actual_home": 16,
+      "actual_away": 11,
+      "tier": "Arriesgada"
+    },
+    {
+      "fixture_id": "575401",
+      "selection_id": "goals:total:over:1.5:",
+      "match": "Slovan Bratislava – Betis",
+      "market": "Goles",
+      "label": "Más de 1,5 goles",
+      "probability": 0.9063172271471712,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 0,
+      "actual_away": 2,
+      "tier": "Conservadora"
+    },
+    {
+      "fixture_id": "575401",
+      "selection_id": "shots:total:over:24.5:",
+      "match": "Slovan Bratislava – Betis",
+      "market": "Remates",
+      "label": "Más de 24,5 remates totales",
+      "probability": 0.7556421747025953,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "shots",
+      "actual_home": 12,
+      "actual_away": 18,
+      "tier": "Normal"
+    },
+    {
+      "fixture_id": "575401",
+      "selection_id": "sot:total:over:9.5:",
+      "match": "Slovan Bratislava – Betis",
+      "market": "Tiros al arco",
+      "label": "Más de 9,5 tiros al arco totales",
+      "probability": 0.6168559504950624,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "sot",
+      "actual_home": 2,
+      "actual_away": 6,
+      "tier": "Arriesgada"
+    },
+    {
+      "fixture_id": "575400",
+      "selection_id": "corners:total:under:12.5:",
+      "match": "Feyenoord – FC Porto",
+      "market": "Córners",
+      "label": "Menos de 12,5 córners",
+      "probability": 0.8506024150586718,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "corners",
+      "actual_home": 8,
+      "actual_away": 4,
+      "tier": "Conservadora"
+    },
+    {
+      "fixture_id": "575400",
+      "selection_id": "sot:total:under:12.5:",
+      "match": "Feyenoord – FC Porto",
+      "market": "Tiros al arco",
+      "label": "Menos de 12,5 tiros al arco totales",
+      "probability": 0.6977734158582605,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "sot",
+      "actual_home": 7,
+      "actual_away": 3,
+      "tier": "Normal"
+    },
+    {
+      "fixture_id": "575400",
+      "selection_id": "shots:total:under:30.5:",
+      "match": "Feyenoord – FC Porto",
+      "market": "Remates",
+      "label": "Menos de 30,5 remates totales",
+      "probability": 0.6441346804183693,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "shots",
+      "actual_home": 21,
+      "actual_away": 9,
+      "tier": "Arriesgada"
+    },
+    {
+      "fixture_id": "575403",
+      "selection_id": "sot:total:under:14.5:",
+      "match": "Como – AEK Athens",
+      "market": "Tiros al arco",
+      "label": "Menos de 14,5 tiros al arco totales",
+      "probability": 0.8691118403499604,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "sot",
+      "actual_home": 4,
+      "actual_away": 3,
+      "tier": "Conservadora"
+    },
+    {
+      "fixture_id": "575403",
+      "selection_id": "corners:total:under:11.5:",
+      "match": "Como – AEK Athens",
+      "market": "Córners",
+      "label": "Menos de 11,5 córners",
+      "probability": 0.7851252465218008,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "corners",
+      "actual_home": 2,
+      "actual_away": 1,
+      "tier": "Normal"
+    },
+    {
+      "fixture_id": "575403",
+      "selection_id": "shots:total:under:30.5:",
+      "match": "Como – AEK Athens",
+      "market": "Remates",
+      "label": "Menos de 30,5 remates totales",
+      "probability": 0.636330687882368,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "shots",
+      "actual_home": 19,
+      "actual_away": 7,
+      "tier": "Arriesgada"
+    },
+    {
+      "fixture_id": "575398",
+      "selection_id": "corners:total:over:6.5:",
+      "match": "Man City – Napoli",
+      "market": "Córners",
+      "label": "Más de 6,5 córners",
+      "probability": 0.8122376217518027,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "corners",
+      "actual_home": 9,
+      "actual_away": 3,
+      "tier": "Conservadora"
+    },
+    {
+      "fixture_id": "575398",
+      "selection_id": "shots:total:over:26.5:",
+      "match": "Man City – Napoli",
+      "market": "Remates",
+      "label": "Más de 26,5 remates totales",
+      "probability": 0.6946940926897063,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "shots",
+      "actual_home": 18,
+      "actual_away": 9,
+      "tier": "Normal"
+    },
+    {
+      "fixture_id": "575398",
+      "selection_id": "sot:home:under:8.5:",
+      "match": "Man City – Napoli",
+      "market": "Tiros al arco",
+      "label": "Man City: menos de 8,5 tiros al arco",
+      "probability": 0.8130888379260213,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "sot",
+      "actual_home": 7,
+      "actual_away": 3,
+      "tier": "Arriesgada"
+    },
+    {
+      "fixture_id": "575397",
+      "selection_id": "goals:away:under:1.5:",
+      "match": "Real Madrid – PSV",
+      "market": "Goles",
+      "label": "PSV: menos de 1,5 goles",
+      "probability": 0.7594084793269053,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 5,
+      "actual_away": 1,
+      "tier": "Conservadora"
+    },
+    {
+      "fixture_id": "575397",
+      "selection_id": "shots:total:under:36.5:",
+      "match": "Real Madrid – PSV",
+      "market": "Remates",
+      "label": "Menos de 36,5 remates totales",
+      "probability": 0.8325420149991527,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "shots",
+      "actual_home": 24,
+      "actual_away": 10,
+      "tier": "Normal"
+    },
+    {
+      "fixture_id": "575397",
+      "selection_id": "sot:total:under:13.5:",
+      "match": "Real Madrid – PSV",
+      "market": "Tiros al arco",
+      "label": "Menos de 13,5 tiros al arco totales",
+      "probability": 0.7225422792563656,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "sot",
+      "actual_home": 9,
+      "actual_away": 1,
+      "tier": "Arriesgada"
+    },
+    {
+      "fixture_id": "575399",
+      "selection_id": "corners:home:over:3.5:",
+      "match": "Arsenal – Dortmund",
+      "market": "Córners",
+      "label": "Arsenal: más de 3,5 córners",
+      "probability": 0.6633463951363939,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "corners",
+      "actual_home": 8,
+      "actual_away": 5,
+      "tier": "Conservadora"
+    },
+    {
+      "fixture_id": "575399",
+      "selection_id": "shots:total:under:30.5:",
+      "match": "Arsenal – Dortmund",
+      "market": "Remates",
+      "label": "Menos de 30,5 remates totales",
+      "probability": 0.6405437202806357,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "shots",
+      "actual_home": 30,
+      "actual_away": 13,
+      "tier": "Normal"
+    },
+    {
+      "fixture_id": "575399",
+      "selection_id": "goals:total:under:3.5:",
+      "match": "Arsenal – Dortmund",
+      "market": "Goles",
+      "label": "Menos de 3,5 goles",
+      "probability": 0.588365671236821,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 1,
+      "actual_away": 1,
+      "tier": "Arriesgada"
+    }
+  ],
+  "unique_selections": [
+    {
+      "fixture_id": "575395",
+      "selection_id": "goals:total:over:1.5:",
+      "match": "Galatasaray – Aston Villa",
+      "market": "Goles",
+      "label": "Más de 1,5 goles",
+      "probability": 0.9252490859684299,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "goals",
+      "actual_home": 1,
+      "actual_away": 0
+    },
+    {
+      "fixture_id": "575395",
+      "selection_id": "shots:away:under:15.5:",
+      "match": "Galatasaray – Aston Villa",
+      "market": "Remates",
+      "label": "Aston Villa: menos de 15,5 remates",
+      "probability": 0.5707290745714393,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "shots",
+      "actual_home": 9,
+      "actual_away": 4
+    },
+    {
+      "fixture_id": "575395",
+      "selection_id": "sot:total:over:7.5:",
+      "match": "Galatasaray – Aston Villa",
+      "market": "Tiros al arco",
+      "label": "Más de 7,5 tiros al arco totales",
+      "probability": 0.8777508629643695,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "sot",
+      "actual_home": 2,
+      "actual_away": 0
+    },
+    {
+      "fixture_id": "575395",
+      "selection_id": "corners:total:under:12.5:",
+      "match": "Galatasaray – Aston Villa",
+      "market": "Córners",
+      "label": "Menos de 12,5 córners",
+      "probability": 0.8000673353691082,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "corners",
+      "actual_home": 5,
+      "actual_away": 1
+    },
+    {
+      "fixture_id": "575395",
+      "selection_id": "shots:total:over:24.5:",
+      "match": "Galatasaray – Aston Villa",
+      "market": "Remates",
+      "label": "Más de 24,5 remates totales",
+      "probability": 0.7539661733587554,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "shots",
+      "actual_home": 9,
+      "actual_away": 4
+    },
+    {
+      "fixture_id": "575395",
+      "selection_id": "corners:away:under:5.5:",
+      "match": "Galatasaray – Aston Villa",
+      "market": "Córners",
+      "label": "Aston Villa: menos de 5,5 córners",
+      "probability": 0.6162595298586748,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "corners",
+      "actual_home": 5,
+      "actual_away": 1
+    },
+    {
+      "fixture_id": "575396",
+      "selection_id": "shots:away:over:8.5:",
+      "match": "Bodo/Glimt – LASK",
+      "market": "Remates",
+      "label": "LASK: más de 8,5 remates",
+      "probability": 0.806665180200336,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "shots",
+      "actual_home": 9,
+      "actual_away": 5
+    },
+    {
+      "fixture_id": "575396",
+      "selection_id": "sot:away:over:3.5:",
+      "match": "Bodo/Glimt – LASK",
+      "market": "Tiros al arco",
+      "label": "LASK: más de 3,5 tiros al arco",
+      "probability": 0.6965295859299785,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "sot",
+      "actual_home": 2,
+      "actual_away": 0
+    },
+    {
+      "fixture_id": "575396",
+      "selection_id": "corners:away:over:2.5:",
+      "match": "Bodo/Glimt – LASK",
+      "market": "Córners",
+      "label": "LASK: más de 2,5 córners",
+      "probability": 0.7694468492690887,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "corners",
+      "actual_home": 4,
+      "actual_away": 0
+    },
+    {
+      "fixture_id": "575396",
+      "selection_id": "corners:total:under:13.5:",
+      "match": "Bodo/Glimt – LASK",
+      "market": "Córners",
+      "label": "Menos de 13,5 córners",
+      "probability": 0.8488816192402409,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "corners",
+      "actual_home": 4,
+      "actual_away": 0
+    },
+    {
+      "fixture_id": "575396",
+      "selection_id": "handicap:total:away:1.5:",
+      "match": "Bodo/Glimt – LASK",
+      "market": "Hándicap de goles",
+      "label": "LASK +1,5",
+      "probability": 0.7413611169897639,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 1,
+      "actual_away": 0
+    },
+    {
+      "fixture_id": "575396",
+      "selection_id": "shots:home:under:18.5:",
+      "match": "Bodo/Glimt – LASK",
+      "market": "Remates",
+      "label": "Bodo/Glimt: menos de 18,5 remates",
+      "probability": 0.8033642058584032,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "shots",
+      "actual_home": 9,
+      "actual_away": 5
+    },
+    {
+      "fixture_id": "575402",
+      "selection_id": "result:total:home:None:",
+      "match": "RB Leipzig – Lens",
+      "market": "Resultado 1X2",
+      "label": "Gana RB Leipzig",
+      "probability": 0.5920505945009572,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 3,
+      "actual_away": 1
+    },
+    {
+      "fixture_id": "575402",
+      "selection_id": "double_chance:total:1X:None:",
+      "match": "RB Leipzig – Lens",
+      "market": "Doble oportunidad",
+      "label": "RB Leipzig o empate",
+      "probability": 0.7671923037869207,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 3,
+      "actual_away": 1
+    },
+    {
+      "fixture_id": "575402",
+      "selection_id": "goals:total:over:2.5:",
+      "match": "RB Leipzig – Lens",
+      "market": "Goles",
+      "label": "Más de 2,5 goles",
+      "probability": 0.8441885361573944,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 3,
+      "actual_away": 1
+    },
+    {
+      "fixture_id": "575402",
+      "selection_id": "shots:home:under:20.5:",
+      "match": "RB Leipzig – Lens",
+      "market": "Remates",
+      "label": "RB Leipzig: menos de 20,5 remates",
+      "probability": 0.8392097990183987,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "shots",
+      "actual_home": 16,
+      "actual_away": 11
+    },
+    {
+      "fixture_id": "575402",
+      "selection_id": "sot:home:over:4.5:",
+      "match": "RB Leipzig – Lens",
+      "market": "Tiros al arco",
+      "label": "RB Leipzig: más de 4,5 tiros al arco",
+      "probability": 0.6201062745064063,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "sot",
+      "actual_home": 7,
+      "actual_away": 3
+    },
+    {
+      "fixture_id": "575402",
+      "selection_id": "corners:total:under:12.5:",
+      "match": "RB Leipzig – Lens",
+      "market": "Córners",
+      "label": "Menos de 12,5 córners",
+      "probability": 0.7563692420233963,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "corners",
+      "actual_home": 10,
+      "actual_away": 4
+    },
+    {
+      "fixture_id": "575402",
+      "selection_id": "shots:total:under:30.5:",
+      "match": "RB Leipzig – Lens",
+      "market": "Remates",
+      "label": "Menos de 30,5 remates totales",
+      "probability": 0.537591493064873,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "shots",
+      "actual_home": 16,
+      "actual_away": 11
+    },
+    {
+      "fixture_id": "575401",
+      "selection_id": "goals:total:over:1.5:",
+      "match": "Slovan Bratislava – Betis",
+      "market": "Goles",
+      "label": "Más de 1,5 goles",
+      "probability": 0.9063172271471712,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 0,
+      "actual_away": 2
+    },
+    {
+      "fixture_id": "575401",
+      "selection_id": "shots:total:over:25.5:",
+      "match": "Slovan Bratislava – Betis",
+      "market": "Remates",
+      "label": "Más de 25,5 remates totales",
+      "probability": 0.7009482125109852,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "shots",
+      "actual_home": 12,
+      "actual_away": 18
+    },
+    {
+      "fixture_id": "575401",
+      "selection_id": "sot:total:over:8.5:",
+      "match": "Slovan Bratislava – Betis",
+      "market": "Tiros al arco",
+      "label": "Más de 8,5 tiros al arco totales",
+      "probability": 0.7325094110682355,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "sot",
+      "actual_home": 2,
+      "actual_away": 6
+    },
+    {
+      "fixture_id": "575401",
+      "selection_id": "corners:total:over:6.5:",
+      "match": "Slovan Bratislava – Betis",
+      "market": "Córners",
+      "label": "Más de 6,5 córners",
+      "probability": 0.7717562142103485,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "corners",
+      "actual_home": 1,
+      "actual_away": 4
+    },
+    {
+      "fixture_id": "575401",
+      "selection_id": "shots:total:over:24.5:",
+      "match": "Slovan Bratislava – Betis",
+      "market": "Remates",
+      "label": "Más de 24,5 remates totales",
+      "probability": 0.7556421747025953,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "shots",
+      "actual_home": 12,
+      "actual_away": 18
+    },
+    {
+      "fixture_id": "575401",
+      "selection_id": "sot:total:over:9.5:",
+      "match": "Slovan Bratislava – Betis",
+      "market": "Tiros al arco",
+      "label": "Más de 9,5 tiros al arco totales",
+      "probability": 0.6168559504950624,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "sot",
+      "actual_home": 2,
+      "actual_away": 6
+    },
+    {
+      "fixture_id": "575400",
+      "selection_id": "goals:total:over:1.5:",
+      "match": "Feyenoord – FC Porto",
+      "market": "Goles",
+      "label": "Más de 1,5 goles",
+      "probability": 0.8386438421483303,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "goals",
+      "actual_home": 0,
+      "actual_away": 1
+    },
+    {
+      "fixture_id": "575400",
+      "selection_id": "shots:away:over:10.5:",
+      "match": "Feyenoord – FC Porto",
+      "market": "Remates",
+      "label": "FC Porto: más de 10,5 remates",
+      "probability": 0.6995947749536358,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "shots",
+      "actual_home": 21,
+      "actual_away": 9
+    },
+    {
+      "fixture_id": "575400",
+      "selection_id": "sot:total:under:12.5:",
+      "match": "Feyenoord – FC Porto",
+      "market": "Tiros al arco",
+      "label": "Menos de 12,5 tiros al arco totales",
+      "probability": 0.6977734158582605,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "sot",
+      "actual_home": 7,
+      "actual_away": 3
+    },
+    {
+      "fixture_id": "575400",
+      "selection_id": "corners:home:under:5.5:",
+      "match": "Feyenoord – FC Porto",
+      "market": "Córners",
+      "label": "Feyenoord: menos de 5,5 córners",
+      "probability": 0.6561709527317643,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "corners",
+      "actual_home": 8,
+      "actual_away": 4
+    },
+    {
+      "fixture_id": "575400",
+      "selection_id": "corners:total:under:12.5:",
+      "match": "Feyenoord – FC Porto",
+      "market": "Córners",
+      "label": "Menos de 12,5 córners",
+      "probability": 0.8506024150586718,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "corners",
+      "actual_home": 8,
+      "actual_away": 4
+    },
+    {
+      "fixture_id": "575400",
+      "selection_id": "shots:total:under:30.5:",
+      "match": "Feyenoord – FC Porto",
+      "market": "Remates",
+      "label": "Menos de 30,5 remates totales",
+      "probability": 0.6441346804183693,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "shots",
+      "actual_home": 21,
+      "actual_away": 9
+    },
+    {
+      "fixture_id": "575403",
+      "selection_id": "result:total:home:None:",
+      "match": "Como – AEK Athens",
+      "market": "Resultado 1X2",
+      "label": "Gana Como",
+      "probability": 0.7804210938828803,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 1,
+      "actual_away": 0
+    },
+    {
+      "fixture_id": "575403",
+      "selection_id": "shots:total:under:33.5:",
+      "match": "Como – AEK Athens",
+      "market": "Remates",
+      "label": "Menos de 33,5 remates totales",
+      "probability": 0.7870537379953928,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "shots",
+      "actual_home": 19,
+      "actual_away": 7
+    },
+    {
+      "fixture_id": "575403",
+      "selection_id": "sot:total:under:13.5:",
+      "match": "Como – AEK Athens",
+      "market": "Tiros al arco",
+      "label": "Menos de 13,5 tiros al arco totales",
+      "probability": 0.8006549305646596,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "sot",
+      "actual_home": 4,
+      "actual_away": 3
+    },
+    {
+      "fixture_id": "575403",
+      "selection_id": "corners:total:under:11.5:",
+      "match": "Como – AEK Athens",
+      "market": "Córners",
+      "label": "Menos de 11,5 córners",
+      "probability": 0.7851252465218008,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "corners",
+      "actual_home": 2,
+      "actual_away": 1
+    },
+    {
+      "fixture_id": "575403",
+      "selection_id": "sot:total:under:14.5:",
+      "match": "Como – AEK Athens",
+      "market": "Tiros al arco",
+      "label": "Menos de 14,5 tiros al arco totales",
+      "probability": 0.8691118403499604,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "sot",
+      "actual_home": 4,
+      "actual_away": 3
+    },
+    {
+      "fixture_id": "575403",
+      "selection_id": "shots:total:under:30.5:",
+      "match": "Como – AEK Athens",
+      "market": "Remates",
+      "label": "Menos de 30,5 remates totales",
+      "probability": 0.636330687882368,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "shots",
+      "actual_home": 19,
+      "actual_away": 7
+    },
+    {
+      "fixture_id": "575398",
+      "selection_id": "goals:total:over:2.5:",
+      "match": "Man City – Napoli",
+      "market": "Goles",
+      "label": "Más de 2,5 goles",
+      "probability": 0.803963319359639,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 2,
+      "actual_away": 2
+    },
+    {
+      "fixture_id": "575398",
+      "selection_id": "shots:total:under:30.5:",
+      "match": "Man City – Napoli",
+      "market": "Remates",
+      "label": "Menos de 30,5 remates totales",
+      "probability": 0.5444181339318572,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "shots",
+      "actual_home": 18,
+      "actual_away": 9
+    },
+    {
+      "fixture_id": "575398",
+      "selection_id": "sot:home:under:9.5:",
+      "match": "Man City – Napoli",
+      "market": "Tiros al arco",
+      "label": "Man City: menos de 9,5 tiros al arco",
+      "probability": 0.8793478409892248,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "sot",
+      "actual_home": 7,
+      "actual_away": 3
+    },
+    {
+      "fixture_id": "575398",
+      "selection_id": "corners:total:over:7.5:",
+      "match": "Man City – Napoli",
+      "market": "Córners",
+      "label": "Más de 7,5 córners",
+      "probability": 0.7189189303495094,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "corners",
+      "actual_home": 9,
+      "actual_away": 3
+    },
+    {
+      "fixture_id": "575398",
+      "selection_id": "corners:total:over:6.5:",
+      "match": "Man City – Napoli",
+      "market": "Córners",
+      "label": "Más de 6,5 córners",
+      "probability": 0.8122376217518027,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "corners",
+      "actual_home": 9,
+      "actual_away": 3
+    },
+    {
+      "fixture_id": "575398",
+      "selection_id": "shots:total:over:26.5:",
+      "match": "Man City – Napoli",
+      "market": "Remates",
+      "label": "Más de 26,5 remates totales",
+      "probability": 0.6946940926897063,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "shots",
+      "actual_home": 18,
+      "actual_away": 9
+    },
+    {
+      "fixture_id": "575398",
+      "selection_id": "sot:home:under:8.5:",
+      "match": "Man City – Napoli",
+      "market": "Tiros al arco",
+      "label": "Man City: menos de 8,5 tiros al arco",
+      "probability": 0.8130888379260213,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "sot",
+      "actual_home": 7,
+      "actual_away": 3
+    },
+    {
+      "fixture_id": "575397",
+      "selection_id": "shots:away:over:9.5:",
+      "match": "Real Madrid – PSV",
+      "market": "Remates",
+      "label": "PSV: más de 9,5 remates",
+      "probability": 0.8101324076896416,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "shots",
+      "actual_home": 24,
+      "actual_away": 10
+    },
+    {
+      "fixture_id": "575397",
+      "selection_id": "sot:away:under:5.5:",
+      "match": "Real Madrid – PSV",
+      "market": "Tiros al arco",
+      "label": "PSV: menos de 5,5 tiros al arco",
+      "probability": 0.5514339300667608,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "sot",
+      "actual_home": 9,
+      "actual_away": 1
+    },
+    {
+      "fixture_id": "575397",
+      "selection_id": "corners:total:under:13.5:",
+      "match": "Real Madrid – PSV",
+      "market": "Córners",
+      "label": "Menos de 13,5 córners",
+      "probability": 0.829003034193334,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "corners",
+      "actual_home": 4,
+      "actual_away": 1
+    },
+    {
+      "fixture_id": "575397",
+      "selection_id": "goals:away:under:1.5:",
+      "match": "Real Madrid – PSV",
+      "market": "Goles",
+      "label": "PSV: menos de 1,5 goles",
+      "probability": 0.7594084793269053,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 5,
+      "actual_away": 1
+    },
+    {
+      "fixture_id": "575397",
+      "selection_id": "shots:total:under:36.5:",
+      "match": "Real Madrid – PSV",
+      "market": "Remates",
+      "label": "Menos de 36,5 remates totales",
+      "probability": 0.8325420149991527,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "shots",
+      "actual_home": 24,
+      "actual_away": 10
+    },
+    {
+      "fixture_id": "575397",
+      "selection_id": "sot:total:under:13.5:",
+      "match": "Real Madrid – PSV",
+      "market": "Tiros al arco",
+      "label": "Menos de 13,5 tiros al arco totales",
+      "probability": 0.7225422792563656,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "sot",
+      "actual_home": 9,
+      "actual_away": 1
+    },
+    {
+      "fixture_id": "575399",
+      "selection_id": "double_chance:total:1X:None:",
+      "match": "Arsenal – Dortmund",
+      "market": "Doble oportunidad",
+      "label": "Arsenal o empate",
+      "probability": 0.8224104392383746,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 1,
+      "actual_away": 1
+    },
+    {
+      "fixture_id": "575399",
+      "selection_id": "goals:total:under:3.5:",
+      "match": "Arsenal – Dortmund",
+      "market": "Goles",
+      "label": "Menos de 3,5 goles",
+      "probability": 0.588365671236821,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "goals",
+      "actual_home": 1,
+      "actual_away": 1
+    },
+    {
+      "fixture_id": "575399",
+      "selection_id": "shots:home:under:20.5:",
+      "match": "Arsenal – Dortmund",
+      "market": "Remates",
+      "label": "Arsenal: menos de 20,5 remates",
+      "probability": 0.8556787225205235,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "shots",
+      "actual_home": 30,
+      "actual_away": 13
+    },
+    {
+      "fixture_id": "575399",
+      "selection_id": "sot:total:under:13.5:",
+      "match": "Arsenal – Dortmund",
+      "market": "Tiros al arco",
+      "label": "Menos de 13,5 tiros al arco totales",
+      "probability": 0.8024985065502458,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "sot",
+      "actual_home": 4,
+      "actual_away": 4
+    },
+    {
+      "fixture_id": "575399",
+      "selection_id": "corners:home:over:3.5:",
+      "match": "Arsenal – Dortmund",
+      "market": "Córners",
+      "label": "Arsenal: más de 3,5 córners",
+      "probability": 0.6633463951363939,
+      "status": "won",
+      "hit": true,
+      "actual_metric": "corners",
+      "actual_home": 8,
+      "actual_away": 5
+    },
+    {
+      "fixture_id": "575399",
+      "selection_id": "shots:total:under:30.5:",
+      "match": "Arsenal – Dortmund",
+      "market": "Remates",
+      "label": "Menos de 30,5 remates totales",
+      "probability": 0.6405437202806357,
+      "status": "lost",
+      "hit": false,
+      "actual_metric": "shots",
+      "actual_home": 30,
+      "actual_away": 13
+    }
+  ],
+  "tier_summary": {
+    "selections": 27,
+    "settled": 27,
+    "won": 23,
+    "lost": 4,
+    "unverified": 0,
+    "hit_rate": 0.8518518518518519
+  },
+  "unique_summary": {
+    "selections": 56,
+    "settled": 56,
+    "won": 41,
+    "lost": 15,
+    "unverified": 0,
+    "hit_rate": 0.7321428571428571
+  },
+  "by_tier": {
+    "Conservadora": {
+      "selections": 9,
+      "settled": 9,
+      "won": 8,
+      "lost": 1,
+      "unverified": 0,
+      "hit_rate": 0.8888888888888888
+    },
+    "Normal": {
+      "selections": 9,
+      "settled": 9,
+      "won": 7,
+      "lost": 2,
+      "unverified": 0,
+      "hit_rate": 0.7777777777777778
+    },
+    "Arriesgada": {
+      "selections": 9,
+      "settled": 9,
+      "won": 8,
+      "lost": 1,
+      "unverified": 0,
+      "hit_rate": 0.8888888888888888
+    }
+  },
+  "parlays": [
+    {
+      "size": 3,
+      "status": "lost",
+      "probability_before_match": 0.7288104085185795,
+      "legs": [
+        {
+          "fixture_id": "575395",
+          "selection_id": "goals:total:over:1.5:",
+          "match": "Galatasaray – Aston Villa",
+          "market": "Goles",
+          "label": "Más de 1,5 goles",
+          "probability": 0.9252490859684299,
+          "status": "lost",
+          "hit": false,
+          "actual_metric": "goals",
+          "actual_home": 1,
+          "actual_away": 0
+        },
+        {
+          "fixture_id": "575401",
+          "selection_id": "goals:total:over:1.5:",
+          "match": "Slovan Bratislava – Betis",
+          "market": "Goles",
+          "label": "Más de 1,5 goles",
+          "probability": 0.9063172271471712,
+          "status": "won",
+          "hit": true,
+          "actual_metric": "goals",
+          "actual_home": 0,
+          "actual_away": 2
+        },
+        {
+          "fixture_id": "575403",
+          "selection_id": "sot:total:under:14.5:",
+          "match": "Como – AEK Athens",
+          "market": "Tiros al arco",
+          "label": "Menos de 14,5 tiros al arco totales",
+          "probability": 0.8691118403499604,
+          "status": "won",
+          "hit": true,
+          "actual_metric": "sot",
+          "actual_home": 4,
+          "actual_away": 3
+        }
+      ]
+    },
+    {
+      "size": 4,
+      "status": "lost",
+      "probability_before_match": 0.6199278936058009,
+      "legs": [
+        {
+          "fixture_id": "575395",
+          "selection_id": "goals:total:over:1.5:",
+          "match": "Galatasaray – Aston Villa",
+          "market": "Goles",
+          "label": "Más de 1,5 goles",
+          "probability": 0.9252490859684299,
+          "status": "lost",
+          "hit": false,
+          "actual_metric": "goals",
+          "actual_home": 1,
+          "actual_away": 0
+        },
+        {
+          "fixture_id": "575401",
+          "selection_id": "goals:total:over:1.5:",
+          "match": "Slovan Bratislava – Betis",
+          "market": "Goles",
+          "label": "Más de 1,5 goles",
+          "probability": 0.9063172271471712,
+          "status": "won",
+          "hit": true,
+          "actual_metric": "goals",
+          "actual_home": 0,
+          "actual_away": 2
+        },
+        {
+          "fixture_id": "575400",
+          "selection_id": "corners:total:under:12.5:",
+          "match": "Feyenoord – FC Porto",
+          "market": "Córners",
+          "label": "Menos de 12,5 córners",
+          "probability": 0.8506024150586718,
+          "status": "won",
+          "hit": true,
+          "actual_metric": "corners",
+          "actual_home": 8,
+          "actual_away": 4
+        },
+        {
+          "fixture_id": "575403",
+          "selection_id": "sot:total:under:14.5:",
+          "match": "Como – AEK Athens",
+          "market": "Tiros al arco",
+          "label": "Menos de 14,5 tiros al arco totales",
+          "probability": 0.8691118403499604,
+          "status": "won",
+          "hit": true,
+          "actual_metric": "sot",
+          "actual_home": 4,
+          "actual_away": 3
+        }
+      ]
+    }
+  ],
+  "analysis": [
+    "Fijas principales: 23/27. Mercados únicos: 41/56. Se conservan las probabilidades previas y se registran los resultados, sin reajustar el modelo con esta jornada.",
+    "Conservadora: 8/9 acertadas.",
+    "Normal: 7/9 acertadas.",
+    "Arriesgada: 8/9 acertadas.",
+    "Falló Más de 1,5 goles en Galatasaray – Aston Villa: resultado final 1–0 (goals).",
+    "Falló Más de 24,5 remates totales en Galatasaray – Aston Villa: resultado final 9–4 (shots).",
+    "Falló Más de 9,5 tiros al arco totales en Slovan Bratislava – Betis: resultado final 2–6 (sot).",
+    "Falló Menos de 30,5 remates totales en Arsenal – Dortmund: resultado final 30–13 (shots).",
+    "0 partidos no tenían fijas principales publicadas; no se cuentan como fallos ni aciertos.",
+    "Combinada de 3: 2/3 selecciones cumplidas.",
+    "Combinada de 4: 3/4 selecciones cumplidas."
+  ]
+}
