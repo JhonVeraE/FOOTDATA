@@ -1,5 +1,5 @@
 {
-  "run_at": "2026-11-25T00:40:36.394607+00:00",
+  "run_at": "2026-11-25T01:03:59.029521+00:00",
   "dates": [
     "2026-11-21",
     "2026-11-22",
@@ -18,18 +18,8 @@
   "healthy": true,
   "events": 54,
   "finals": 54,
-  "added_matches": [
-    "UEFA Champions League_2026/27_espn_401915294",
-    "UEFA Champions League_2026/27_espn_401915295",
-    "UEFA Champions League_2026/27_espn_401915296",
-    "UEFA Champions League_2026/27_espn_401915297",
-    "UEFA Champions League_2026/27_espn_401915298",
-    "UEFA Champions League_2026/27_espn_401915299",
-    "UEFA Champions League_2026/27_espn_401915300",
-    "UEFA Champions League_2026/27_espn_401915379",
-    "UEFA Champions League_2026/27_espn_401915380"
-  ],
-  "added_rows": 18,
+  "added_matches": [],
+  "added_rows": 0,
   "already_present": [
     {
       "match_id": "Bundesliga_2026/27_espn_401884728",
@@ -206,6 +196,42 @@
     {
       "match_id": "Serie A_2026/27_espn_401875009",
       "fixture_id": "558519"
+    },
+    {
+      "match_id": "UEFA Champions League_2026/27_espn_401915294",
+      "fixture_id": "575400"
+    },
+    {
+      "match_id": "UEFA Champions League_2026/27_espn_401915295",
+      "fixture_id": "575399"
+    },
+    {
+      "match_id": "UEFA Champions League_2026/27_espn_401915296",
+      "fixture_id": "575403"
+    },
+    {
+      "match_id": "UEFA Champions League_2026/27_espn_401915297",
+      "fixture_id": "575401"
+    },
+    {
+      "match_id": "UEFA Champions League_2026/27_espn_401915298",
+      "fixture_id": "575397"
+    },
+    {
+      "match_id": "UEFA Champions League_2026/27_espn_401915299",
+      "fixture_id": "575402"
+    },
+    {
+      "match_id": "UEFA Champions League_2026/27_espn_401915300",
+      "fixture_id": "575395"
+    },
+    {
+      "match_id": "UEFA Champions League_2026/27_espn_401915379",
+      "fixture_id": "575398"
+    },
+    {
+      "match_id": "UEFA Champions League_2026/27_espn_401915380",
+      "fixture_id": "575396"
     }
   ],
   "source_differences": [
@@ -230,7 +256,7 @@
   "pending": [],
   "source_errors": [],
   "espn_only": [],
-  "calendar_changed": true,
+  "calendar_changed": false,
   "calendar_issues": [],
   "reviews": {
     "2026-11-21": {
@@ -243,25 +269,7 @@
       "ingestion": "sin cambios"
     },
     "2026-11-24": {
-      "ingestion": "actualizado",
-      "review": {
-        "tier_summary": {
-          "selections": 27,
-          "settled": 27,
-          "won": 23,
-          "lost": 4,
-          "unverified": 0,
-          "hit_rate": 0.8518518518518519
-        },
-        "unique_summary": {
-          "selections": 56,
-          "settled": 56,
-          "won": 41,
-          "lost": 15,
-          "unverified": 0,
-          "hit_rate": 0.7321428571428571
-        }
-      }
+      "ingestion": "sin cambios"
     }
   },
   "prospective": {

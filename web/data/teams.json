@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "season": "2026/27",
-  "generated_at": "2026-11-25T00:41:59.988401+00:00",
+  "generated_at": "2026-11-25T01:05:20.497728+00:00",
   "dataset_id": "8fd33707d67ae5b23cab509dd58b90577366061a676f7e69effef32c974ac3e7",
   "competitions": {
     "La Liga": {
@@ -160,12 +160,12 @@
                 "kickoff_utc": "2026-12-04T20:00:00+00:00"
               },
               {
-                "date": "2026-12-13",
+                "date": "2026-12-12",
                 "home": "Levante",
                 "away": "Alaves",
                 "fixture_id": "564782",
-                "status": "SCHEDULED",
-                "kickoff_utc": null
+                "status": "TIMED",
+                "kickoff_utc": "2026-12-12T13:00:00+00:00"
               },
               {
                 "date": "2026-12-20",
@@ -739,8 +739,8 @@
                 "home": "La Coruna",
                 "away": "Ath Bilbao",
                 "fixture_id": "564781",
-                "status": "SCHEDULED",
-                "kickoff_utc": null
+                "status": "TIMED",
+                "kickoff_utc": "2026-12-13T15:15:00+00:00"
               },
               {
                 "date": "2026-12-20",
@@ -1332,8 +1332,8 @@
                 "home": "Ath Madrid",
                 "away": "Valencia",
                 "fixture_id": "564787",
-                "status": "SCHEDULED",
-                "kickoff_utc": null
+                "status": "TIMED",
+                "kickoff_utc": "2026-12-13T13:00:00+00:00"
               },
               {
                 "date": "2026-12-20",
@@ -1913,12 +1913,12 @@
                 "kickoff_utc": "2026-12-05T20:00:00+00:00"
               },
               {
-                "date": "2026-12-13",
+                "date": "2026-12-12",
                 "home": "Malaga",
                 "away": "Barcelona",
                 "fixture_id": "564779",
-                "status": "SCHEDULED",
-                "kickoff_utc": null
+                "status": "TIMED",
+                "kickoff_utc": "2026-12-12T17:30:00+00:00"
               },
               {
                 "date": "2026-12-20",
@@ -2490,12 +2490,12 @@
                 "kickoff_utc": "2026-12-06T20:00:00+00:00"
               },
               {
-                "date": "2026-12-13",
+                "date": "2026-12-12",
                 "home": "Betis",
                 "away": "Santander",
                 "fixture_id": "564785",
-                "status": "SCHEDULED",
-                "kickoff_utc": null
+                "status": "TIMED",
+                "kickoff_utc": "2026-12-12T20:00:00+00:00"
               },
               {
                 "date": "2026-12-20",
@@ -3075,12 +3075,12 @@
                 "kickoff_utc": "2026-12-05T20:00:00+00:00"
               },
               {
-                "date": "2026-12-13",
+                "date": "2026-12-14",
                 "home": "Espanol",
                 "away": "Celta",
                 "fixture_id": "564778",
-                "status": "SCHEDULED",
-                "kickoff_utc": null
+                "status": "TIMED",
+                "kickoff_utc": "2026-12-14T20:00:00+00:00"
               },
               {
                 "date": "2026-12-20",
@@ -3660,12 +3660,12 @@
                 "kickoff_utc": "2026-12-06T13:00:00+00:00"
               },
               {
-                "date": "2026-12-13",
+                "date": "2026-12-11",
                 "home": "Elche",
                 "away": "Sevilla",
                 "fixture_id": "564783",
-                "status": "SCHEDULED",
-                "kickoff_utc": null
+                "status": "TIMED",
+                "kickoff_utc": "2026-12-11T20:00:00+00:00"
               },
               {
                 "date": "2026-12-20",
@@ -4245,12 +4245,12 @@
                 "kickoff_utc": "2026-12-04T20:00:00+00:00"
               },
               {
-                "date": "2026-12-13",
+                "date": "2026-12-14",
                 "home": "Espanol",
                 "away": "Celta",
                 "fixture_id": "564778",
-                "status": "SCHEDULED",
-                "kickoff_utc": null
+                "status": "TIMED",
+                "kickoff_utc": "2026-12-14T20:00:00+00:00"
               },
               {
                 "date": "2026-12-20",
@@ -4834,8 +4834,8 @@
                 "home": "Sociedad",
                 "away": "Getafe",
                 "fixture_id": "564786",
-                "status": "SCHEDULED",
-                "kickoff_utc": null
+                "status": "TIMED",
+                "kickoff_utc": "2026-12-13T17:30:00+00:00"
               },
               {
                 "date": "2026-12-20",
@@ -5419,8 +5419,8 @@
                 "home": "La Coruna",
                 "away": "Ath Bilbao",
                 "fixture_id": "564781",
-                "status": "SCHEDULED",
-                "kickoff_utc": null
+                "status": "TIMED",
+                "kickoff_utc": "2026-12-13T15:15:00+00:00"
               },
               {
                 "date": "2026-12-20",
@@ -6000,12 +6000,12 @@
                 "kickoff_utc": "2026-12-05T15:15:00+00:00"
               },
               {
-                "date": "2026-12-13",
+                "date": "2026-12-12",
                 "home": "Levante",
                 "away": "Alaves",
                 "fixture_id": "564782",
-                "status": "SCHEDULED",
-                "kickoff_utc": null
+                "status": "TIMED",
+                "kickoff_utc": "2026-12-12T13:00:00+00:00"
               },
               {
                 "date": "2026-12-20",
@@ -6585,12 +6585,12 @@
                 "kickoff_utc": "2026-12-07T20:00:00+00:00"
               },
               {
-                "date": "2026-12-13",
+                "date": "2026-12-12",
                 "home": "Malaga",
                 "away": "Barcelona",
                 "fixture_id": "564779",
-                "status": "SCHEDULED",
-                "kickoff_utc": null
+                "status": "TIMED",
+                "kickoff_utc": "2026-12-12T17:30:00+00:00"
               },
               {
                 "date": "2026-12-20",
@@ -7174,8 +7174,8 @@
                 "home": "Real Madrid",
                 "away": "Osasuna",
                 "fixture_id": "564780",
-                "status": "SCHEDULED",
-                "kickoff_utc": null
+                "status": "TIMED",
+                "kickoff_utc": "2026-12-13T20:00:00+00:00"
               },
               {
                 "date": "2026-12-20",
@@ -7767,8 +7767,8 @@
                 "home": "Real Madrid",
                 "away": "Osasuna",
                 "fixture_id": "564780",
-                "status": "SCHEDULED",
-                "kickoff_utc": null
+                "status": "TIMED",
+                "kickoff_utc": "2026-12-13T20:00:00+00:00"
               },
               {
                 "date": "2026-12-20",
@@ -8340,12 +8340,12 @@
                 "kickoff_utc": "2026-12-05T13:00:00+00:00"
               },
               {
-                "date": "2026-12-13",
+                "date": "2026-12-12",
                 "home": "Betis",
                 "away": "Santander",
                 "fixture_id": "564785",
-                "status": "SCHEDULED",
-                "kickoff_utc": null
+                "status": "TIMED",
+                "kickoff_utc": "2026-12-12T20:00:00+00:00"
               },
               {
                 "date": "2026-12-20",
@@ -8925,12 +8925,12 @@
                 "kickoff_utc": "2026-12-07T20:00:00+00:00"
               },
               {
-                "date": "2026-12-13",
+                "date": "2026-12-11",
                 "home": "Elche",
                 "away": "Sevilla",
                 "fixture_id": "564783",
-                "status": "SCHEDULED",
-                "kickoff_utc": null
+                "status": "TIMED",
+                "kickoff_utc": "2026-12-11T20:00:00+00:00"
               },
               {
                 "date": "2026-12-20",
@@ -9522,8 +9522,8 @@
                 "home": "Sociedad",
                 "away": "Getafe",
                 "fixture_id": "564786",
-                "status": "SCHEDULED",
-                "kickoff_utc": null
+                "status": "TIMED",
+                "kickoff_utc": "2026-12-13T17:30:00+00:00"
               },
               {
                 "date": "2026-12-20",
@@ -10099,8 +10099,8 @@
                 "home": "Ath Madrid",
                 "away": "Valencia",
                 "fixture_id": "564787",
-                "status": "SCHEDULED",
-                "kickoff_utc": null
+                "status": "TIMED",
+                "kickoff_utc": "2026-12-13T13:00:00+00:00"
               },
               {
                 "date": "2026-12-20",
@@ -10670,12 +10670,12 @@
                 "kickoff_utc": "2026-12-05T15:15:00+00:00"
               },
               {
-                "date": "2026-12-13",
+                "date": "2026-12-12",
                 "home": "Villarreal",
                 "away": "Vallecano",
                 "fixture_id": "564784",
-                "status": "SCHEDULED",
-                "kickoff_utc": null
+                "status": "TIMED",
+                "kickoff_utc": "2026-12-12T15:15:00+00:00"
               },
               {
                 "date": "2026-12-20",
@@ -11255,12 +11255,12 @@
                 "kickoff_utc": "2026-12-05T17:30:00+00:00"
               },
               {
-                "date": "2026-12-13",
+                "date": "2026-12-12",
                 "home": "Villarreal",
                 "away": "Vallecano",
                 "fixture_id": "564784",
-                "status": "SCHEDULED",
-                "kickoff_utc": null
+                "status": "TIMED",
+                "kickoff_utc": "2026-12-12T15:15:00+00:00"
               },
               {
                 "date": "2026-12-20",
@@ -11691,7 +11691,7 @@
       "statistics_matches": 129,
       "standings": {
         "season": "2026/27",
-        "updated_at": "2026-11-25T00:41:43.595655+00:00",
+        "updated_at": "2026-11-25T01:05:02.014989+00:00",
         "source": "football-data.org",
         "source_url": "https://api.football-data.org/v4/competitions/PD/standings",
         "tables": {
@@ -24780,7 +24780,7 @@
       "statistics_matches": 110,
       "standings": {
         "season": "2026/27",
-        "updated_at": "2026-11-25T00:41:44.775743+00:00",
+        "updated_at": "2026-11-25T01:05:03.546368+00:00",
         "source": "football-data.org",
         "source_url": "https://api.football-data.org/v4/competitions/PL/standings",
         "tables": {
@@ -36095,7 +36095,7 @@
       "statistics_matches": 90,
       "standings": {
         "season": "2026/27",
-        "updated_at": "2026-11-25T00:41:46.017906+00:00",
+        "updated_at": "2026-11-25T01:05:04.774989+00:00",
         "source": "football-data.org",
         "source_url": "https://api.football-data.org/v4/competitions/BL1/standings",
         "tables": {
@@ -49080,7 +49080,7 @@
       "statistics_matches": 120,
       "standings": {
         "season": "2026/27",
-        "updated_at": "2026-11-25T00:41:47.167865+00:00",
+        "updated_at": "2026-11-25T01:05:06.096700+00:00",
         "source": "football-data.org",
         "source_url": "https://api.football-data.org/v4/competitions/SA/standings",
         "tables": {
@@ -52333,12 +52333,12 @@
                 "kickoff_utc": "2026-12-12T19:45:00+00:00"
               },
               {
-                "date": "2027-01-02",
+                "date": "2027-01-03",
                 "home": "Paris FC",
                 "away": "Le Havre",
                 "fixture_id": "559591",
                 "status": "TIMED",
-                "kickoff_utc": "2027-01-02T20:00:00+00:00"
+                "kickoff_utc": "2027-01-03T16:15:00+00:00"
               },
               {
                 "date": "2027-01-16",
@@ -57274,12 +57274,12 @@
                 "kickoff_utc": "2026-12-12T16:15:00+00:00"
               },
               {
-                "date": "2027-01-02",
+                "date": "2027-01-03",
                 "home": "Paris FC",
                 "away": "Le Havre",
                 "fixture_id": "559591",
                 "status": "TIMED",
-                "kickoff_utc": "2027-01-02T20:00:00+00:00"
+                "kickoff_utc": "2027-01-03T16:15:00+00:00"
               },
               {
                 "date": "2027-01-17",
@@ -60431,7 +60431,7 @@
       "statistics_matches": 99,
       "standings": {
         "season": "2026/27",
-        "updated_at": "2026-11-25T00:41:48.342300+00:00",
+        "updated_at": "2026-11-25T01:05:07.401153+00:00",
         "source": "football-data.org",
         "source_url": "https://api.football-data.org/v4/competitions/FL1/standings",
         "tables": {
@@ -73564,7 +73564,7 @@
       "statistics_matches": 81,
       "standings": {
         "season": "2026/27",
-        "updated_at": "2026-11-25T00:41:49.459501+00:00",
+        "updated_at": "2026-11-25T01:05:08.762496+00:00",
         "source": "football-data.org",
         "source_url": "https://api.football-data.org/v4/competitions/CL/standings",
         "tables": {

@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-24T00:20:04.243603+00:00",
-  "dataset_id": "c66a2913ff11803ef4b1b4684e0ee8429f4df25f6b2b6523a67388d09b58f741",
-  "matches_available": 9528,
-  "rows": 19056,
+  "generated_at": "2026-11-25T01:06:01.171112+00:00",
+  "dataset_id": "8fd33707d67ae5b23cab509dd58b90577366061a676f7e69effef32c974ac3e7",
+  "matches_available": 9537,
+  "rows": 19074,
   "sources": [
     {
       "file": "match_stats_4ligas.csv",
@@ -16,8 +16,8 @@
     },
     {
       "file": "match_stats_champions_actualseason.csv",
-      "rows": 144,
-      "sha256": "2f8e7602e08e8b6e7adcccd7a9457b4dd9d006cc324934d7a39764e9337a9cce"
+      "rows": 162,
+      "sha256": "c7553f351c01328fc8a1b1abb351290bff8c51f7ece643ba0b45eb8977be683c"
     }
   ],
   "quality_issues": [
@@ -37,18 +37,18 @@
   "warnings": [],
   "model": {
     "version": "attack-defence-v3-shots",
-    "shot_coverage": 0.9997900923593619,
+    "shot_coverage": 0.9997902904477299,
     "config": {
       "half_life_days": 365,
       "regularization": 3,
       "dixon_coles": true,
       "shot_weight": 0.7
     },
-    "training_cutoff": "2026-11-24",
-    "latest_training_result": "2026-11-23",
-    "training_matches": 9528,
-    "rho": -0.03215293537294572,
-    "optimizer_iterations": 122
+    "training_cutoff": "2026-11-25",
+    "latest_training_result": "2026-11-24",
+    "training_matches": 9537,
+    "rho": -0.028771953051490738,
+    "optimizer_iterations": 118
   },
   "forecast_selection": "next_complete_rounds_with_nearby_pending",
   "round_coverage": {
@@ -93,11 +93,11 @@
       "unavailable_fixture_ids": []
     },
     "UEFA Champions League": {
-      "round": 5,
+      "round": 6,
       "matches": 18,
       "expected_matches": 18,
-      "first_kickoff": "2026-11-24T17:45:00+00:00",
-      "last_kickoff": "2026-11-25T20:00:00+00:00",
+      "first_kickoff": "2026-12-08T17:45:00+00:00",
+      "last_kickoff": "2026-12-09T20:00:00+00:00",
       "unavailable_fixture_ids": []
     }
   },
