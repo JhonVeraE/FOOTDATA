@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-25T01:06:01.171112+00:00",
-  "dataset_id": "8fd33707d67ae5b23cab509dd58b90577366061a676f7e69effef32c974ac3e7",
-  "matches_available": 9537,
-  "rows": 19074,
+  "generated_at": "2026-11-26T15:33:22.007419+00:00",
+  "dataset_id": "d413e4139c074aca5af826566d23539dee41d277d49a9380f7bc302e20f37905",
+  "matches_available": 9546,
+  "rows": 19092,
   "sources": [
     {
       "file": "match_stats_4ligas.csv",
@@ -16,8 +16,8 @@
     },
     {
       "file": "match_stats_champions_actualseason.csv",
-      "rows": 162,
-      "sha256": "c7553f351c01328fc8a1b1abb351290bff8c51f7ece643ba0b45eb8977be683c"
+      "rows": 180,
+      "sha256": "b2041a7a82fa5cf33ac5bf9bcb29ade4ccc073496e879c6f70b1469544932c1b"
     }
   ],
   "quality_issues": [
@@ -37,18 +37,18 @@
   "warnings": [],
   "model": {
     "version": "attack-defence-v3-shots",
-    "shot_coverage": 0.9997902904477299,
+    "shot_coverage": 0.9997904881625812,
     "config": {
       "half_life_days": 365,
       "regularization": 3,
       "dixon_coles": true,
       "shot_weight": 0.7
     },
-    "training_cutoff": "2026-11-25",
-    "latest_training_result": "2026-11-24",
-    "training_matches": 9537,
-    "rho": -0.028771953051490738,
-    "optimizer_iterations": 118
+    "training_cutoff": "2026-11-26",
+    "latest_training_result": "2026-11-25",
+    "training_matches": 9546,
+    "rho": -0.027187647692642754,
+    "optimizer_iterations": 116
   },
   "forecast_selection": "next_complete_rounds_with_nearby_pending",
   "round_coverage": {

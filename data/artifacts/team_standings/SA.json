@@ -1,6 +1,6 @@
 {
   "season": "2026/27",
-  "updated_at": "2026-11-25T01:05:06.096700+00:00",
+  "updated_at": "2026-11-26T15:32:56.944759+00:00",
   "source": "football-data.org",
   "source_url": "https://api.football-data.org/v4/competitions/SA/standings",
   "tables": {
@@ -731,5 +731,5 @@
       }
     ]
   },
-  "current_matchday": 12
+  "current_matchday": 13
 }

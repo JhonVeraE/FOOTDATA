@@ -1,0 +1,158 @@
+{
+  "run_at": "2026-11-26T15:31:34.292759+00:00",
+  "dates": [
+    "2026-11-23",
+    "2026-11-24",
+    "2026-11-25",
+    "2026-11-26"
+  ],
+  "mode": "online",
+  "football_data_key": true,
+  "apply": true,
+  "frozen": {
+    "2026-11-23": "already_frozen",
+    "2026-11-24": "already_frozen",
+    "2026-11-25": "frozen_from:20261125T010601222372Z.json",
+    "2026-11-26": "no_forecasts"
+  },
+  "healthy": true,
+  "events": 21,
+  "finals": 21,
+  "added_matches": [
+    "UEFA Champions League_2026/27_espn_401915291",
+    "UEFA Champions League_2026/27_espn_401915292",
+    "UEFA Champions League_2026/27_espn_401915293",
+    "UEFA Champions League_2026/27_espn_401915373",
+    "UEFA Champions League_2026/27_espn_401915374",
+    "UEFA Champions League_2026/27_espn_401915375",
+    "UEFA Champions League_2026/27_espn_401915376",
+    "UEFA Champions League_2026/27_espn_401915377",
+    "UEFA Champions League_2026/27_espn_401915378"
+  ],
+  "added_rows": 18,
+  "already_present": [
+    {
+      "match_id": "La Liga_2026/27_espn_401882802",
+      "fixture_id": "564757"
+    },
+    {
+      "match_id": "Premier League_2026/27_espn_401879237",
+      "fixture_id": "560649"
+    },
+    {
+      "match_id": "Serie A_2026/27_espn_401875009",
+      "fixture_id": "558519"
+    },
+    {
+      "match_id": "UEFA Champions League_2026/27_espn_401915294",
+      "fixture_id": "575400"
+    },
+    {
+      "match_id": "UEFA Champions League_2026/27_espn_401915295",
+      "fixture_id": "575399"
+    },
+    {
+      "match_id": "UEFA Champions League_2026/27_espn_401915296",
+      "fixture_id": "575403"
+    },
+    {
+      "match_id": "UEFA Champions League_2026/27_espn_401915297",
+      "fixture_id": "575401"
+    },
+    {
+      "match_id": "UEFA Champions League_2026/27_espn_401915298",
+      "fixture_id": "575397"
+    },
+    {
+      "match_id": "UEFA Champions League_2026/27_espn_401915299",
+      "fixture_id": "575402"
+    },
+    {
+      "match_id": "UEFA Champions League_2026/27_espn_401915300",
+      "fixture_id": "575395"
+    },
+    {
+      "match_id": "UEFA Champions League_2026/27_espn_401915379",
+      "fixture_id": "575398"
+    },
+    {
+      "match_id": "UEFA Champions League_2026/27_espn_401915380",
+      "fixture_id": "575396"
+    }
+  ],
+  "source_differences": [],
+  "pending": [],
+  "source_errors": [],
+  "espn_only": [],
+  "calendar_changed": false,
+  "calendar_issues": [],
+  "reviews": {
+    "2026-11-23": {
+      "ingestion": "sin cambios"
+    },
+    "2026-11-24": {
+      "ingestion": "sin cambios"
+    },
+    "2026-11-25": {
+      "ingestion": "actualizado",
+      "review": {
+        "tier_summary": {
+          "selections": 27,
+          "settled": 27,
+          "won": 14,
+          "lost": 13,
+          "unverified": 0,
+          "hit_rate": 0.5185185185185185
+        },
+        "unique_summary": {
+          "selections": 52,
+          "settled": 52,
+          "won": 34,
+          "lost": 18,
+          "unverified": 0,
+          "hit_rate": 0.6538461538461539
+        }
+      }
+    },
+    "2026-11-26": {
+      "ingestion": "sin pronósticos congelados"
+    }
+  },
+  "prospective": {
+    "scored_matches": 282,
+    "accuracy": 0.5921985815602837,
+    "log_loss": 0.9329759683688685
+  },
+  "standings_refresh": [
+    {
+      "competition": "La Liga",
+      "status": "refreshed",
+      "teams": 20
+    },
+    {
+      "competition": "Premier League",
+      "status": "refreshed",
+      "teams": 20
+    },
+    {
+      "competition": "Bundesliga",
+      "status": "refreshed",
+      "teams": 18
+    },
+    {
+      "competition": "Serie A",
+      "status": "refreshed",
+      "teams": 20
+    },
+    {
+      "competition": "Ligue 1",
+      "status": "refreshed",
+      "teams": 18
+    },
+    {
+      "competition": "UEFA Champions League",
+      "status": "refreshed",
+      "teams": 36
+    }
+  ]
+}

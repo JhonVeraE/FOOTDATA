@@ -1,6 +1,6 @@
 {
   "season": "2026/27",
-  "updated_at": "2026-11-25T01:05:04.774989+00:00",
+  "updated_at": "2026-11-26T15:32:56.137829+00:00",
   "source": "football-data.org",
   "source_url": "https://api.football-data.org/v4/competitions/BL1/standings",
   "tables": {
@@ -659,5 +659,5 @@
       }
     ]
   },
-  "current_matchday": 10
+  "current_matchday": 11
 }
