@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T15:33:22.007419+00:00",
+  "generated_at": "2026-11-27T12:54:01.880648+00:00",
   "dataset_id": "d413e4139c074aca5af826566d23539dee41d277d49a9380f7bc302e20f37905",
   "matches_available": 9546,
   "rows": 19092,
@@ -44,11 +44,11 @@
       "dixon_coles": true,
       "shot_weight": 0.7
     },
-    "training_cutoff": "2026-11-26",
+    "training_cutoff": "2026-11-27",
     "latest_training_result": "2026-11-25",
     "training_matches": 9546,
-    "rho": -0.027187647692642754,
-    "optimizer_iterations": 116
+    "rho": -0.027183108453648026,
+    "optimizer_iterations": 124
   },
   "forecast_selection": "next_complete_rounds_with_nearby_pending",
   "round_coverage": {
