@@ -157,7 +157,7 @@ BETANO_NAMES = {
     'Fenerbahce SK': 'Fenerbahçe', 'PSV Eindhoven': 'PSV', 'Club Brugge KV': 'Club Brugge KV', 'RC Lens': 'Lens',
     'SK Slavia Praha': 'Slavia Praha', 'Viking FK': 'Viking FK', 'FC Sabah': 'Sabah FK', 'FC Porto': 'FC Porto',
 }
-BETANO_NAMES.update({'FSV Mainz 05': 'Mainz', 'Le Havre AC': 'Le Havre', 'OGC Niza': 'Nice', 'Stade Rennais FC': 'Rennes',
+BETANO_NAMES.update({'Auxerre AJ': 'Auxerre', 'FSV Mainz 05': 'Mainz', 'Le Havre AC': 'Le Havre', 'OGC Niza': 'Nice', 'Stade Rennais FC': 'Rennes',
                      'SV Elversberg': 'Elversberg'})
 BETANO_MAX_AGE = pd.Timedelta(days=3)
 # Full capture (betano_full.json): every line Betano shows for result, goals and the count markets.
