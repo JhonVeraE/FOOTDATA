@@ -1,6 +1,6 @@
 {
   "season": "2026/27",
-  "updated_at": "2026-11-27T12:53:34.414489+00:00",
+  "updated_at": "2026-11-28T01:12:30.738322+00:00",
   "source": "football-data.org",
   "source_url": "https://api.football-data.org/v4/competitions/FL1/standings",
   "tables": {
@@ -20,18 +20,30 @@
       {
         "team": "Paris FC",
         "position": 2,
-        "played": 11,
+        "played": 12,
         "won": 7,
         "draw": 2,
-        "lost": 2,
+        "lost": 3,
         "points": 23,
         "goals_for": 21,
-        "goals_against": 10,
-        "goal_difference": 11
+        "goals_against": 11,
+        "goal_difference": 10
+      },
+      {
+        "team": "Brest",
+        "position": 3,
+        "played": 12,
+        "won": 6,
+        "draw": 3,
+        "lost": 3,
+        "points": 21,
+        "goals_for": 20,
+        "goals_against": 12,
+        "goal_difference": 8
       },
       {
         "team": "Lille",
-        "position": 3,
+        "position": 4,
         "played": 11,
         "won": 6,
         "draw": 3,
@@ -43,7 +55,7 @@
       },
       {
         "team": "Lyon",
-        "position": 4,
+        "position": 5,
         "played": 11,
         "won": 6,
         "draw": 2,
@@ -55,7 +67,7 @@
       },
       {
         "team": "Marseille",
-        "position": 5,
+        "position": 6,
         "played": 11,
         "won": 6,
         "draw": 0,
@@ -63,18 +75,6 @@
         "points": 18,
         "goals_for": 24,
         "goals_against": 17,
-        "goal_difference": 7
-      },
-      {
-        "team": "Brest",
-        "position": 6,
-        "played": 11,
-        "won": 5,
-        "draw": 3,
-        "lost": 3,
-        "points": 18,
-        "goals_for": 19,
-        "goals_against": 12,
         "goal_difference": 7
       },
       {
@@ -284,8 +284,20 @@
         "goal_difference": 3
       },
       {
-        "team": "Lens",
+        "team": "Brest",
         "position": 6,
+        "played": 6,
+        "won": 3,
+        "draw": 1,
+        "lost": 2,
+        "points": 10,
+        "goals_for": 11,
+        "goals_against": 6,
+        "goal_difference": 5
+      },
+      {
+        "team": "Lens",
+        "position": 7,
         "played": 6,
         "won": 3,
         "draw": 1,
@@ -297,7 +309,7 @@
       },
       {
         "team": "Marseille",
-        "position": 7,
+        "position": 8,
         "played": 6,
         "won": 3,
         "draw": 0,
@@ -309,7 +321,7 @@
       },
       {
         "team": "Paris SG",
-        "position": 8,
+        "position": 9,
         "played": 4,
         "won": 3,
         "draw": 0,
@@ -321,7 +333,7 @@
       },
       {
         "team": "Monaco",
-        "position": 9,
+        "position": 10,
         "played": 5,
         "won": 2,
         "draw": 3,
@@ -333,7 +345,7 @@
       },
       {
         "team": "Lorient",
-        "position": 10,
+        "position": 11,
         "played": 6,
         "won": 2,
         "draw": 2,
@@ -342,18 +354,6 @@
         "goals_for": 6,
         "goals_against": 7,
         "goal_difference": -1
-      },
-      {
-        "team": "Brest",
-        "position": 11,
-        "played": 5,
-        "won": 2,
-        "draw": 1,
-        "lost": 2,
-        "points": 7,
-        "goals_for": 10,
-        "goals_against": 6,
-        "goal_difference": 4
       },
       {
         "team": "Strasbourg",
@@ -528,14 +528,14 @@
       {
         "team": "Paris FC",
         "position": 8,
-        "played": 5,
+        "played": 6,
         "won": 2,
         "draw": 1,
-        "lost": 2,
+        "lost": 3,
         "points": 7,
         "goals_for": 5,
-        "goals_against": 5,
-        "goal_difference": 0
+        "goals_against": 6,
+        "goal_difference": -1
       },
       {
         "team": "Lyon",

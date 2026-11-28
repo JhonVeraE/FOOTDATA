@@ -1,0 +1,320 @@
+{
+  "date": "2026-11-27",
+  "ingested_at": "2026-11-28T01:12:11.218298+00:00",
+  "provider": "ESPN final boxscores (automatic daily update); scores cross-checked with football-data.org when reachable",
+  "matches": [
+    {
+      "espn_event_id": "401882791",
+      "kickoff_utc": "2026-11-27T20:00Z",
+      "home": "Levante",
+      "away": "Santander",
+      "metrics": {
+        "goals": [
+          1,
+          3
+        ],
+        "shots": [
+          23,
+          15
+        ],
+        "sot": [
+          3,
+          8
+        ],
+        "fouls": [
+          16,
+          11
+        ],
+        "corners": [
+          9,
+          5
+        ],
+        "cards": [
+          2,
+          2
+        ]
+      },
+      "yellow": [
+        2,
+        2
+      ],
+      "red": [
+        0,
+        0
+      ],
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401882791/racing-santander-levante",
+      "match_id": "La Liga_2026/27_espn_401882791",
+      "fixture_id": "564765",
+      "date": "2026-11-27",
+      "league": "La Liga",
+      "round": 14,
+      "provider": "ESPN",
+      "score_verification": {
+        "fixture_id": "564765",
+        "date": "2026-11-27",
+        "home": "Levante",
+        "away": "Santander",
+        "goals": [
+          1,
+          3
+        ],
+        "status": "verified",
+        "source": "football-data.org",
+        "source_url": "https://api.football-data.org/v4/matches/564765"
+      }
+    },
+    {
+      "espn_event_id": "401879225",
+      "kickoff_utc": "2026-11-27T20:00Z",
+      "home": "Nott'm Forest",
+      "away": "Chelsea",
+      "metrics": {
+        "goals": [
+          3,
+          2
+        ],
+        "shots": [
+          10,
+          9
+        ],
+        "sot": [
+          7,
+          3
+        ],
+        "fouls": [
+          15,
+          11
+        ],
+        "corners": [
+          1,
+          2
+        ],
+        "cards": [
+          2,
+          3
+        ]
+      },
+      "yellow": [
+        2,
+        3
+      ],
+      "red": [
+        0,
+        0
+      ],
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401879225/chelsea-nottingham-forest",
+      "match_id": "Premier League_2026/27_espn_401879225",
+      "fixture_id": "560658",
+      "date": "2026-11-27",
+      "league": "Premier League",
+      "round": 12,
+      "provider": "ESPN",
+      "score_verification": {
+        "fixture_id": "560658",
+        "date": "2026-11-27",
+        "home": "Nott'm Forest",
+        "away": "Chelsea",
+        "goals": [
+          3,
+          2
+        ],
+        "status": "verified",
+        "source": "football-data.org",
+        "source_url": "https://api.football-data.org/v4/matches/560658"
+      }
+    },
+    {
+      "espn_event_id": "401884720",
+      "kickoff_utc": "2026-11-27T19:30Z",
+      "home": "Werder Bremen",
+      "away": "M'gladbach",
+      "metrics": {
+        "goals": [
+          3,
+          3
+        ],
+        "shots": [
+          20,
+          20
+        ],
+        "sot": [
+          8,
+          6
+        ],
+        "fouls": [
+          10,
+          11
+        ],
+        "corners": [
+          7,
+          4
+        ],
+        "cards": [
+          2,
+          3
+        ]
+      },
+      "yellow": [
+        2,
+        3
+      ],
+      "red": [
+        0,
+        0
+      ],
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401884720/borussia-monchengladbach-werder-bremen",
+      "match_id": "Bundesliga_2026/27_espn_401884720",
+      "fixture_id": "565869",
+      "date": "2026-11-27",
+      "league": "Bundesliga",
+      "round": 11,
+      "provider": "ESPN",
+      "score_verification": {
+        "fixture_id": "565869",
+        "date": "2026-11-27",
+        "home": "Werder Bremen",
+        "away": "M'gladbach",
+        "goals": [
+          3,
+          3
+        ],
+        "status": "verified",
+        "source": "football-data.org",
+        "source_url": "https://api.football-data.org/v4/matches/565869"
+      }
+    },
+    {
+      "espn_event_id": "401875004",
+      "kickoff_utc": "2026-11-27T19:45Z",
+      "home": "Venezia",
+      "away": "Bologna",
+      "metrics": {
+        "goals": [
+          0,
+          0
+        ],
+        "shots": [
+          14,
+          13
+        ],
+        "sot": [
+          5,
+          6
+        ],
+        "fouls": [
+          11,
+          11
+        ],
+        "corners": [
+          3,
+          6
+        ],
+        "cards": [
+          3,
+          3
+        ]
+      },
+      "yellow": [
+        3,
+        3
+      ],
+      "red": [
+        0,
+        0
+      ],
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401875004/bologna-venezia",
+      "match_id": "Serie A_2026/27_espn_401875004",
+      "fixture_id": "558515",
+      "date": "2026-11-27",
+      "league": "Serie A",
+      "round": 13,
+      "provider": "ESPN",
+      "score_verification": {
+        "fixture_id": "558515",
+        "date": "2026-11-27",
+        "home": "Venezia",
+        "away": "Bologna",
+        "goals": [
+          0,
+          0
+        ],
+        "status": "verified",
+        "source": "football-data.org",
+        "source_url": "https://api.football-data.org/v4/matches/558515"
+      }
+    },
+    {
+      "espn_event_id": "401876392",
+      "kickoff_utc": "2026-11-27T19:45Z",
+      "home": "Brest",
+      "away": "Paris FC",
+      "metrics": {
+        "goals": [
+          1,
+          0
+        ],
+        "shots": [
+          17,
+          18
+        ],
+        "sot": [
+          3,
+          8
+        ],
+        "fouls": [
+          9,
+          14
+        ],
+        "corners": [
+          3,
+          5
+        ],
+        "cards": [
+          2,
+          3
+        ]
+      },
+      "yellow": [
+        2,
+        3
+      ],
+      "red": [
+        0,
+        0
+      ],
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401876392/paris-fc-brest",
+      "match_id": "Ligue 1_2026/27_espn_401876392",
+      "fixture_id": "559616",
+      "date": "2026-11-27",
+      "league": "Ligue 1",
+      "round": 12,
+      "provider": "ESPN",
+      "score_verification": {
+        "fixture_id": "559616",
+        "date": "2026-11-27",
+        "home": "Brest",
+        "away": "Paris FC",
+        "goals": [
+          1,
+          0
+        ],
+        "status": "verified",
+        "source": "football-data.org",
+        "source_url": "https://api.football-data.org/v4/matches/559616"
+      }
+    }
+  ],
+  "deferred": [],
+  "pending": [],
+  "advanced": [],
+  "added_rows_this_run": 10,
+  "scope": [
+    "La Liga",
+    "Premier League",
+    "Bundesliga",
+    "Serie A",
+    "Ligue 1",
+    "UEFA Champions League"
+  ],
+  "automation": "daily_update"
+}

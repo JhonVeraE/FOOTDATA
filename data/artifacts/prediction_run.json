@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-27T12:54:01.880648+00:00",
-  "dataset_id": "d413e4139c074aca5af826566d23539dee41d277d49a9380f7bc302e20f37905",
-  "matches_available": 9546,
-  "rows": 19092,
+  "generated_at": "2026-11-28T01:13:18.520673+00:00",
+  "dataset_id": "f35c7d76bbfe0aef4bcb3551ad4ddfad18a62d92419da43e159e53f9ee05c563",
+  "matches_available": 9551,
+  "rows": 19102,
   "sources": [
     {
       "file": "match_stats_4ligas.csv",
@@ -11,8 +11,8 @@
     },
     {
       "file": "match_stats_actualseason.csv",
-      "rows": 1096,
-      "sha256": "b200e1f099d1cc83b2cb26916836ba243f7ddd5e9325eaa163d6c20f8b558e6f"
+      "rows": 1106,
+      "sha256": "e7b7314f4f7bbc2aeda8d3ac28bcbeb329a052af214a04d7b7fafbb65296e7d4"
     },
     {
       "file": "match_stats_champions_actualseason.csv",
@@ -37,59 +37,59 @@
   "warnings": [],
   "model": {
     "version": "attack-defence-v3-shots",
-    "shot_coverage": 0.9997904881625812,
+    "shot_coverage": 0.9997905978431578,
     "config": {
       "half_life_days": 365,
       "regularization": 3,
       "dixon_coles": true,
       "shot_weight": 0.7
     },
-    "training_cutoff": "2026-11-27",
-    "latest_training_result": "2026-11-25",
-    "training_matches": 9546,
-    "rho": -0.027183108453648026,
-    "optimizer_iterations": 124
+    "training_cutoff": "2026-11-28",
+    "latest_training_result": "2026-11-27",
+    "training_matches": 9551,
+    "rho": -0.02703766639459967,
+    "optimizer_iterations": 118
   },
   "forecast_selection": "next_complete_rounds_with_nearby_pending",
   "round_coverage": {
     "La Liga": {
-      "round": 14,
+      "round": 23,
       "matches": 10,
       "expected_matches": 10,
-      "first_kickoff": "2026-11-27T20:00:00+00:00",
-      "last_kickoff": "2026-11-30T20:00:00+00:00",
+      "first_kickoff": "2026-12-02T18:00:00+00:00",
+      "last_kickoff": "2027-02-07T00:00:00+00:00",
       "unavailable_fixture_ids": []
     },
     "Premier League": {
-      "round": 12,
-      "matches": 10,
-      "expected_matches": 10,
-      "first_kickoff": "2026-11-27T20:00:00+00:00",
-      "last_kickoff": "2026-11-29T16:30:00+00:00",
-      "unavailable_fixture_ids": []
-    },
-    "Bundesliga": {
-      "round": 11,
-      "matches": 9,
-      "expected_matches": 9,
-      "first_kickoff": "2026-11-27T19:30:00+00:00",
-      "last_kickoff": "2026-11-29T18:30:00+00:00",
-      "unavailable_fixture_ids": []
-    },
-    "Serie A": {
       "round": 13,
       "matches": 10,
       "expected_matches": 10,
-      "first_kickoff": "2026-11-27T19:45:00+00:00",
-      "last_kickoff": "2026-11-30T19:45:00+00:00",
+      "first_kickoff": "2026-12-01T20:00:00+00:00",
+      "last_kickoff": "2026-12-03T20:00:00+00:00",
       "unavailable_fixture_ids": []
     },
-    "Ligue 1": {
+    "Bundesliga": {
       "round": 12,
       "matches": 9,
       "expected_matches": 9,
-      "first_kickoff": "2026-11-27T19:45:00+00:00",
-      "last_kickoff": "2026-11-29T19:45:00+00:00",
+      "first_kickoff": "2026-12-04T19:30:00+00:00",
+      "last_kickoff": "2026-12-06T16:30:00+00:00",
+      "unavailable_fixture_ids": []
+    },
+    "Serie A": {
+      "round": 14,
+      "matches": 10,
+      "expected_matches": 10,
+      "first_kickoff": "2026-12-04T19:45:00+00:00",
+      "last_kickoff": "2026-12-07T19:45:00+00:00",
+      "unavailable_fixture_ids": []
+    },
+    "Ligue 1": {
+      "round": 13,
+      "matches": 9,
+      "expected_matches": 9,
+      "first_kickoff": "2026-12-04T19:45:00+00:00",
+      "last_kickoff": "2026-12-06T19:45:00+00:00",
       "unavailable_fixture_ids": []
     },
     "UEFA Champions League": {

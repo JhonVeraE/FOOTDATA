@@ -1,5 +1,5 @@
 {
-  "run_at": "2026-11-27T12:52:47.175308+00:00",
+  "run_at": "2026-11-28T01:11:37.112162+00:00",
   "dates": [
     "2026-11-24",
     "2026-11-25",
@@ -13,13 +13,19 @@
     "2026-11-24": "already_frozen",
     "2026-11-25": "already_frozen",
     "2026-11-26": "no_forecasts",
-    "2026-11-27": "frozen_from:20261126T153322027074Z.json"
+    "2026-11-27": "already_frozen"
   },
   "healthy": true,
   "events": 23,
-  "finals": 18,
-  "added_matches": [],
-  "added_rows": 0,
+  "finals": 23,
+  "added_matches": [
+    "Bundesliga_2026/27_espn_401884720",
+    "La Liga_2026/27_espn_401882791",
+    "Ligue 1_2026/27_espn_401876392",
+    "Premier League_2026/27_espn_401879225",
+    "Serie A_2026/27_espn_401875004"
+  ],
+  "added_rows": 10,
   "already_present": [
     {
       "match_id": "UEFA Champions League_2026/27_espn_401915294",
@@ -95,76 +101,10 @@
     }
   ],
   "source_differences": [],
-  "pending": [
-    {
-      "espn_event_id": "401884720",
-      "date": "2026-11-27",
-      "league": "Bundesliga",
-      "kickoff_utc": "2026-11-27T19:30Z",
-      "espn_status": "STATUS_SCHEDULED",
-      "source_url": "https://www.espn.com/soccer/match/_/gameId/401884720/borussia-monchengladbach-werder-bremen",
-      "home": "Werder Bremen",
-      "away": "M'gladbach",
-      "fixture_id": "565869",
-      "provider_status": "SCHEDULED",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
-    },
-    {
-      "espn_event_id": "401882791",
-      "date": "2026-11-27",
-      "league": "La Liga",
-      "kickoff_utc": "2026-11-27T20:00Z",
-      "espn_status": "STATUS_SCHEDULED",
-      "source_url": "https://www.espn.com/soccer/match/_/gameId/401882791/racing-santander-levante",
-      "home": "Levante",
-      "away": "Santander",
-      "fixture_id": "564765",
-      "provider_status": "SCHEDULED",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
-    },
-    {
-      "espn_event_id": "401876392",
-      "date": "2026-11-27",
-      "league": "Ligue 1",
-      "kickoff_utc": "2026-11-27T19:45Z",
-      "espn_status": "STATUS_SCHEDULED",
-      "source_url": "https://www.espn.com/soccer/match/_/gameId/401876392/paris-fc-brest",
-      "home": "Brest",
-      "away": "Paris FC",
-      "fixture_id": "559616",
-      "provider_status": "SCHEDULED",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
-    },
-    {
-      "espn_event_id": "401879225",
-      "date": "2026-11-27",
-      "league": "Premier League",
-      "kickoff_utc": "2026-11-27T20:00Z",
-      "espn_status": "STATUS_SCHEDULED",
-      "source_url": "https://www.espn.com/soccer/match/_/gameId/401879225/chelsea-nottingham-forest",
-      "home": "Nott'm Forest",
-      "away": "Chelsea",
-      "fixture_id": "560658",
-      "provider_status": "SCHEDULED",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
-    },
-    {
-      "espn_event_id": "401875004",
-      "date": "2026-11-27",
-      "league": "Serie A",
-      "kickoff_utc": "2026-11-27T19:45Z",
-      "espn_status": "STATUS_SCHEDULED",
-      "source_url": "https://www.espn.com/soccer/match/_/gameId/401875004/bologna-venezia",
-      "home": "Venezia",
-      "away": "Bologna",
-      "fixture_id": "558515",
-      "provider_status": "SCHEDULED",
-      "reason": "Encuentro sin final reglamentario confirmado al corte de la consulta; no se liquida ni se añade marcador."
-    }
-  ],
+  "pending": [],
   "source_errors": [],
   "espn_only": [],
-  "calendar_changed": false,
+  "calendar_changed": true,
   "calendar_issues": [],
   "reviews": {
     "2026-11-24": {
@@ -177,13 +117,31 @@
       "ingestion": "sin pronósticos congelados"
     },
     "2026-11-27": {
-      "ingestion": "sin finales todavía"
+      "ingestion": "actualizado",
+      "review": {
+        "tier_summary": {
+          "selections": 15,
+          "settled": 15,
+          "won": 10,
+          "lost": 5,
+          "unverified": 0,
+          "hit_rate": 0.6666666666666666
+        },
+        "unique_summary": {
+          "selections": 25,
+          "settled": 25,
+          "won": 17,
+          "lost": 8,
+          "unverified": 0,
+          "hit_rate": 0.68
+        }
+      }
     }
   },
   "prospective": {
-    "scored_matches": 282,
-    "accuracy": 0.5921985815602837,
-    "log_loss": 0.9329759683688685
+    "scored_matches": 287,
+    "accuracy": 0.5853658536585366,
+    "log_loss": 0.9385703326926735
   },
   "standings_refresh": [
     {

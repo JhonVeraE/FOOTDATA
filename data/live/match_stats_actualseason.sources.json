@@ -1,9 +1,9 @@
 {
   "season": "2026/27",
-  "as_of": "2026-11-23",
+  "as_of": "2026-11-27",
   "source": "Sofascore full-match ALL statistics for original rounds; ESPN final boxscores for subsequent updates, with independently checked scores.",
-  "matches": 548,
-  "rows": 1096,
+  "matches": 553,
+  "rows": 1106,
   "columns": [
     "match_id",
     "date",
@@ -8349,6 +8349,101 @@
       "statistics_endpoint": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/summary?event=401875009",
       "score_verification": "verified",
       "imported_by": "daily_update"
+    },
+    {
+      "match_id": "Bundesliga_2026/27_espn_401884720",
+      "fixture_id": "565869",
+      "espn_event_id": "401884720",
+      "date": "2026-11-27",
+      "league": "Bundesliga",
+      "round": 11,
+      "home": "Werder Bremen",
+      "away": "M'gladbach",
+      "yellow_home": 2,
+      "yellow_away": 3,
+      "red_home": 0,
+      "red_away": 0,
+      "url": "https://www.espn.com/soccer/match/_/gameId/401884720/borussia-monchengladbach-werder-bremen",
+      "provider": "ESPN",
+      "statistics_endpoint": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/summary?event=401884720",
+      "score_verification": "verified",
+      "imported_by": "daily_update"
+    },
+    {
+      "match_id": "La Liga_2026/27_espn_401882791",
+      "fixture_id": "564765",
+      "espn_event_id": "401882791",
+      "date": "2026-11-27",
+      "league": "La Liga",
+      "round": 14,
+      "home": "Levante",
+      "away": "Santander",
+      "yellow_home": 2,
+      "yellow_away": 2,
+      "red_home": 0,
+      "red_away": 0,
+      "url": "https://www.espn.com/soccer/match/_/gameId/401882791/racing-santander-levante",
+      "provider": "ESPN",
+      "statistics_endpoint": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/summary?event=401882791",
+      "score_verification": "verified",
+      "imported_by": "daily_update"
+    },
+    {
+      "match_id": "Ligue 1_2026/27_espn_401876392",
+      "fixture_id": "559616",
+      "espn_event_id": "401876392",
+      "date": "2026-11-27",
+      "league": "Ligue 1",
+      "round": 12,
+      "home": "Brest",
+      "away": "Paris FC",
+      "yellow_home": 2,
+      "yellow_away": 3,
+      "red_home": 0,
+      "red_away": 0,
+      "url": "https://www.espn.com/soccer/match/_/gameId/401876392/paris-fc-brest",
+      "provider": "ESPN",
+      "statistics_endpoint": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/summary?event=401876392",
+      "score_verification": "verified",
+      "imported_by": "daily_update"
+    },
+    {
+      "match_id": "Premier League_2026/27_espn_401879225",
+      "fixture_id": "560658",
+      "espn_event_id": "401879225",
+      "date": "2026-11-27",
+      "league": "Premier League",
+      "round": 12,
+      "home": "Nott'm Forest",
+      "away": "Chelsea",
+      "yellow_home": 2,
+      "yellow_away": 3,
+      "red_home": 0,
+      "red_away": 0,
+      "url": "https://www.espn.com/soccer/match/_/gameId/401879225/chelsea-nottingham-forest",
+      "provider": "ESPN",
+      "statistics_endpoint": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/summary?event=401879225",
+      "score_verification": "verified",
+      "imported_by": "daily_update"
+    },
+    {
+      "match_id": "Serie A_2026/27_espn_401875004",
+      "fixture_id": "558515",
+      "espn_event_id": "401875004",
+      "date": "2026-11-27",
+      "league": "Serie A",
+      "round": 13,
+      "home": "Venezia",
+      "away": "Bologna",
+      "yellow_home": 3,
+      "yellow_away": 3,
+      "red_home": 0,
+      "red_away": 0,
+      "url": "https://www.espn.com/soccer/match/_/gameId/401875004/bologna-venezia",
+      "provider": "ESPN",
+      "statistics_endpoint": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/summary?event=401875004",
+      "score_verification": "verified",
+      "imported_by": "daily_update"
     }
   ],
   "leagues": [
@@ -8362,8 +8457,8 @@
   "coverage": [
     {
       "league": "Bundesliga",
-      "matches": 90,
-      "rows": 180,
+      "matches": 91,
+      "rows": 182,
       "round_counts": {
         "1": 9,
         "2": 9,
@@ -8374,13 +8469,14 @@
         "7": 9,
         "8": 9,
         "9": 9,
-        "10": 9
+        "10": 9,
+        "11": 1
       }
     },
     {
       "league": "La Liga",
-      "matches": 129,
-      "rows": 258,
+      "matches": 130,
+      "rows": 260,
       "round_counts": {
         "1": 10,
         "2": 10,
@@ -8394,13 +8490,14 @@
         "10": 10,
         "11": 10,
         "12": 10,
-        "13": 10
+        "13": 10,
+        "14": 1
       }
     },
     {
       "league": "Ligue 1",
-      "matches": 99,
-      "rows": 198,
+      "matches": 100,
+      "rows": 200,
       "round_counts": {
         "1": 9,
         "2": 9,
@@ -8412,31 +8509,14 @@
         "8": 9,
         "9": 9,
         "10": 9,
-        "11": 9
+        "11": 9,
+        "12": 1
       }
     },
     {
       "league": "Premier League",
-      "matches": 110,
-      "rows": 220,
-      "round_counts": {
-        "1": 10,
-        "2": 10,
-        "3": 10,
-        "4": 10,
-        "5": 10,
-        "6": 10,
-        "7": 10,
-        "8": 10,
-        "9": 10,
-        "10": 10,
-        "11": 10
-      }
-    },
-    {
-      "league": "Serie A",
-      "matches": 120,
-      "rows": 240,
+      "matches": 111,
+      "rows": 222,
       "round_counts": {
         "1": 10,
         "2": 10,
@@ -8449,12 +8529,32 @@
         "9": 10,
         "10": 10,
         "11": 10,
-        "12": 10
+        "12": 1
+      }
+    },
+    {
+      "league": "Serie A",
+      "matches": 121,
+      "rows": 242,
+      "round_counts": {
+        "1": 10,
+        "2": 10,
+        "3": 10,
+        "4": 10,
+        "5": 10,
+        "6": 10,
+        "7": 10,
+        "8": 10,
+        "9": 10,
+        "10": 10,
+        "11": 10,
+        "12": 10,
+        "13": 1
       }
     }
   ],
   "date_min": "2026-08-15",
-  "date_max": "2026-11-23",
+  "date_max": "2026-11-27",
   "team_match_counts": {
     "Alaves": 9,
     "Angers": 7,

@@ -1,6 +1,6 @@
 {
   "season": "2026/27",
-  "updated_at": "2026-11-27T12:53:32.017597+00:00",
+  "updated_at": "2026-11-28T01:12:27.901982+00:00",
   "source": "football-data.org",
   "source_url": "https://api.football-data.org/v4/competitions/PL/standings",
   "tables": {
@@ -92,14 +92,14 @@
       {
         "team": "Chelsea",
         "position": 8,
-        "played": 11,
+        "played": 12,
         "won": 5,
         "draw": 1,
-        "lost": 5,
+        "lost": 6,
         "points": 16,
-        "goals_for": 20,
-        "goals_against": 20,
-        "goal_difference": 0
+        "goals_for": 22,
+        "goals_against": 23,
+        "goal_difference": -1
       },
       {
         "team": "Everton",
@@ -162,8 +162,20 @@
         "goal_difference": -3
       },
       {
-        "team": "Coventry",
+        "team": "Nott'm Forest",
         "position": 14,
+        "played": 12,
+        "won": 3,
+        "draw": 3,
+        "lost": 6,
+        "points": 12,
+        "goals_for": 12,
+        "goals_against": 17,
+        "goal_difference": -5
+      },
+      {
+        "team": "Coventry",
+        "position": 15,
         "played": 11,
         "won": 4,
         "draw": 0,
@@ -175,7 +187,7 @@
       },
       {
         "team": "Fulham",
-        "position": 15,
+        "position": 16,
         "played": 11,
         "won": 2,
         "draw": 5,
@@ -187,7 +199,7 @@
       },
       {
         "team": "Ipswich",
-        "position": 16,
+        "position": 17,
         "played": 11,
         "won": 3,
         "draw": 2,
@@ -196,18 +208,6 @@
         "goals_for": 15,
         "goals_against": 22,
         "goal_difference": -7
-      },
-      {
-        "team": "Nott'm Forest",
-        "position": 17,
-        "played": 11,
-        "won": 2,
-        "draw": 3,
-        "lost": 6,
-        "points": 9,
-        "goals_for": 9,
-        "goals_against": 15,
-        "goal_difference": -6
       },
       {
         "team": "Sunderland",
@@ -392,8 +392,20 @@
         "goal_difference": 2
       },
       {
-        "team": "Ipswich",
+        "team": "Nott'm Forest",
         "position": 13,
+        "played": 6,
+        "won": 2,
+        "draw": 1,
+        "lost": 3,
+        "points": 7,
+        "goals_for": 6,
+        "goals_against": 6,
+        "goal_difference": 0
+      },
+      {
+        "team": "Ipswich",
+        "position": 14,
         "played": 5,
         "won": 2,
         "draw": 1,
@@ -405,7 +417,7 @@
       },
       {
         "team": "Sunderland",
-        "position": 14,
+        "position": 15,
         "played": 5,
         "won": 2,
         "draw": 1,
@@ -417,7 +429,7 @@
       },
       {
         "team": "Newcastle",
-        "position": 15,
+        "position": 16,
         "played": 6,
         "won": 1,
         "draw": 3,
@@ -429,7 +441,7 @@
       },
       {
         "team": "Aston Villa",
-        "position": 16,
+        "position": 17,
         "played": 6,
         "won": 1,
         "draw": 3,
@@ -441,7 +453,7 @@
       },
       {
         "team": "Man United",
-        "position": 17,
+        "position": 18,
         "played": 5,
         "won": 1,
         "draw": 2,
@@ -453,7 +465,7 @@
       },
       {
         "team": "Fulham",
-        "position": 18,
+        "position": 19,
         "played": 5,
         "won": 1,
         "draw": 2,
@@ -461,18 +473,6 @@
         "points": 5,
         "goals_for": 7,
         "goals_against": 8,
-        "goal_difference": -1
-      },
-      {
-        "team": "Nott'm Forest",
-        "position": 19,
-        "played": 5,
-        "won": 1,
-        "draw": 1,
-        "lost": 3,
-        "points": 4,
-        "goals_for": 3,
-        "goals_against": 4,
         "goal_difference": -1
       },
       {
@@ -600,14 +600,14 @@
       {
         "team": "Chelsea",
         "position": 10,
-        "played": 5,
+        "played": 6,
         "won": 2,
         "draw": 0,
-        "lost": 3,
+        "lost": 4,
         "points": 6,
-        "goals_for": 6,
-        "goals_against": 8,
-        "goal_difference": -2
+        "goals_for": 8,
+        "goals_against": 11,
+        "goal_difference": -3
       },
       {
         "team": "Everton",

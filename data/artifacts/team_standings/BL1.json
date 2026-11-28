@@ -1,6 +1,6 @@
 {
   "season": "2026/27",
-  "updated_at": "2026-11-27T12:53:32.776767+00:00",
+  "updated_at": "2026-11-28T01:12:28.819239+00:00",
   "source": "football-data.org",
   "source_url": "https://api.football-data.org/v4/competitions/BL1/standings",
   "tables": {
@@ -68,13 +68,13 @@
       {
         "team": "Werder Bremen",
         "position": 6,
-        "played": 10,
+        "played": 11,
         "won": 5,
-        "draw": 3,
+        "draw": 4,
         "lost": 2,
-        "points": 18,
-        "goals_for": 21,
-        "goals_against": 15,
+        "points": 19,
+        "goals_for": 24,
+        "goals_against": 18,
         "goal_difference": 6
       },
       {
@@ -212,13 +212,13 @@
       {
         "team": "M'gladbach",
         "position": 18,
-        "played": 10,
+        "played": 11,
         "won": 1,
-        "draw": 1,
+        "draw": 2,
         "lost": 8,
-        "points": 4,
-        "goals_for": 12,
-        "goals_against": 26,
+        "points": 5,
+        "goals_for": 15,
+        "goals_against": 29,
         "goal_difference": -14
       }
     ],
@@ -238,13 +238,13 @@
       {
         "team": "Werder Bremen",
         "position": 2,
-        "played": 5,
+        "played": 6,
         "won": 4,
-        "draw": 1,
+        "draw": 2,
         "lost": 0,
-        "points": 13,
-        "goals_for": 14,
-        "goals_against": 5,
+        "points": 14,
+        "goals_for": 17,
+        "goals_against": 8,
         "goal_difference": 9
       },
       {
@@ -574,8 +574,20 @@
         "goal_difference": -5
       },
       {
-        "team": "Augsburg",
+        "team": "M'gladbach",
         "position": 12,
+        "played": 6,
+        "won": 1,
+        "draw": 1,
+        "lost": 4,
+        "points": 4,
+        "goals_for": 8,
+        "goals_against": 18,
+        "goal_difference": -10
+      },
+      {
+        "team": "Augsburg",
+        "position": 13,
         "played": 4,
         "won": 1,
         "draw": 0,
@@ -587,7 +599,7 @@
       },
       {
         "team": "Hoffenheim",
-        "position": 13,
+        "position": 14,
         "played": 5,
         "won": 1,
         "draw": 0,
@@ -599,7 +611,7 @@
       },
       {
         "team": "Paderborn",
-        "position": 14,
+        "position": 15,
         "played": 5,
         "won": 0,
         "draw": 3,
@@ -608,18 +620,6 @@
         "goals_for": 2,
         "goals_against": 9,
         "goal_difference": -7
-      },
-      {
-        "team": "M'gladbach",
-        "position": 15,
-        "played": 5,
-        "won": 1,
-        "draw": 0,
-        "lost": 4,
-        "points": 3,
-        "goals_for": 5,
-        "goals_against": 15,
-        "goal_difference": -10
       },
       {
         "team": "Hamburg",
